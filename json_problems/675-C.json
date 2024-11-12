@@ -1,0 +1,14 @@
+{
+    "uid": "675-C",
+    "url": "https://codeforces.com/contest/675/problem/C",
+    "tags": [
+        "constructive algorithms",
+        " data structures",
+        " greedy",
+        " sortings"
+    ],
+    "title": "675-C",
+    "statement": "C. Money Transferstime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputThere arenbanks in the city where Vasya lives, they are located in a circle, such that any two banks are neighbouring if their indices differ by no more than1. Also, bank1and banknare neighbours ifn> 1. No bank is a neighbour of itself.Vasya has an account in each bank. Its balance may be negative, meaning Vasya owes some money to this bank.There is only one type of operations available: transfer some amount of money from any bank to account in anyneighbouringbank. There are no restrictions on the size of the sum being transferred or balance requirements to perform this operation.Vasya doesn't like to deal with large numbers, so he asks you to determine the minimum number of operations required to change the balance of each bank account to zero. It's guaranteed, that this is possible to achieve, that is, the total balance of Vasya in all banks is equal to zero.InputThe first line of the input contains a single integern(1 ≤n≤ 100 000) — the number of banks.The second line containsnintegersai(- 109≤ai≤ 109), thei-th of them is equal to the initial balance of the account in thei-th bank. It's guaranteed that the sum of allaiis equal to0.OutputPrint the minimum number of operations required to change balance in each bank to zero.ExamplesInput35 0 -5Output1Input4-1 0 1 0Output2Input41 2 3 -6Output3NoteIn the first sample, Vasya may transfer5from the first bank to the third.In the second sample, Vasya may first transfer1from the third bank to the second, and then1from the second to the first.In the third sample, the following sequence provides the optimal answer:transfer1from the first bank to the second bank;transfer3from the second bank to the third;transfer6from the third bank to the fourth.",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,14 @@
+{
+    "uid": "547-A",
+    "url": "https://codeforces.com/contest/547/problem/A",
+    "tags": [
+        "brute force",
+        " greedy",
+        " implementation",
+        " math"
+    ],
+    "title": "547-A",
+    "statement": "A. Mike and Frogtime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputMike has a frog and a flower. His frog is named Xaniar and his flower is named Abol. Initially(at time0), height of Xaniar ish1and height of Abol ish2. Each second, Mike waters Abol and Xaniar.So, if height of Xaniar ish1and height of Abol ish2, after one second height of Xaniar will becomeand height of Abol will becomewherex1,y1,x2andy2are some integer numbers anddenotes the remainder ofamodulob.Mike is a competitive programmer fan. He wants to know the minimum time it takes until height of Xania isa1and height of Abol isa2.Mike has asked you for your help. Calculate the minimum time or say it will never happen.InputThe first line of input contains integerm(2 ≤m≤ 106).The second line of input contains integersh1anda1(0 ≤h1,a1<m).The third line of input contains integersx1andy1(0 ≤x1,y1<m).The fourth line of input contains integersh2anda2(0 ≤h2,a2<m).The fifth line of input contains integersx2andy2(0 ≤x2,y2<m).It is guaranteed thath1≠a1andh2≠a2.OutputPrint the minimum number of seconds until Xaniar reaches heighta1and Abol reaches heighta2or print -1 otherwise.ExamplesInput54 21 10 12 3Output3Input10231 21 01 21 1Output-1NoteIn the first sample, heights sequences are following:Xaniar:Abol:",
+    "source": "CF",
+    "vjudge": false
+}

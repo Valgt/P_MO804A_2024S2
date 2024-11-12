@@ -1,0 +1,12 @@
+{
+    "uid": "136-B",
+    "url": "https://codeforces.com/contest/136/problem/B",
+    "tags": [
+        "implementation",
+        " math"
+    ],
+    "title": "136-B",
+    "statement": "B. Ternary Logictime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutLittle Petya very much likes computers. Recently he has received a new \"Ternatron IV\" as a gift from his mother. Unlike other modern computers, \"Ternatron IV\" operates with ternary and not binary logic. Petya immediately wondered how thexoroperation is performed on this computer (and whether there is anything like it).It turned out that the operation does exist (however, it is calledtor) and it works like this. Suppose that we need to calculate the value of the expressionatorb. Both numbersaandbare written in the ternary notation one under the other one (bundera). If they have a different number of digits, then leading zeroes are added to the shorter number until the lengths are the same. Then the numbers are summed together digit by digit. The result of summing each two digits is calculated modulo 3. Note that there is no carry between digits (i. e. during this operation the digits aren't transferred). For example:1410tor5010= 01123tor12123= 10213= 3410.Petya wrote numbersaandcon a piece of paper. Help him find such numberb, thatatorb=c. If there are several such numbers, print the smallest one.InputThe first line contains two integersaandc(0 ≤a,c≤ 109). Both numbers are written in decimal notation.OutputPrint the single integerb, such thatatorb=c. If there are several possible numbersb, print the smallest one. You should print the number in decimal notation.ExamplesInput14 34Output50Input50 34Output14Input387420489 225159023Output1000000001Input5 5Output0",
+    "source": "CF",
+    "vjudge": false
+}

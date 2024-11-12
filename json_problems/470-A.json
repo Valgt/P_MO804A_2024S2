@@ -1,0 +1,12 @@
+{
+    "uid": "470-A",
+    "url": "https://codeforces.com/contest/470/problem/A",
+    "tags": [
+        "*special",
+        " implementation"
+    ],
+    "title": "470-A",
+    "statement": "A. Crystal Ball Sequencetime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutCrystal ball sequence on hexagonal lattice is defined as follows:n-th element is the number of lattice points inside a hexagon with(n+ 1)points on each side. The formula isHn= 3·n·(n+ 1) + 1. You are givenn; calculaten-th element of the sequence.InputThe only line of input contains an integern(0 ≤n≤ 9).OutputOutput then-th element of crystal ball sequence.ExamplesInput1Output7Input3Output37",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,11 @@
+{
+    "uid": "661-A",
+    "url": "https://codeforces.com/contest/661/problem/A",
+    "tags": [
+        "*special"
+    ],
+    "title": "661-A",
+    "statement": "A. Lazy Caterer Sequencetime limit per test2 secondsmemory limit per test64 megabytesinputstandard inputoutputstandard outputLazy caterer sequence is defined as the maximum number of pieces formed when slicing a convex pancake withncuts (each cut is a straight line). The formula isCn=n·(n+ 1) / 2 + 1. You are givenn; calculaten-th element of the sequence.InputThe only line of the input contains an integern(0 ≤n≤ 100).OutputOutput then-th element of lazy caterer sequence.ExamplesInput2Output4Input5Output16",
+    "source": "CF",
+    "vjudge": false
+}

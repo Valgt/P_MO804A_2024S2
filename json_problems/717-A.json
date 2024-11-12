@@ -1,0 +1,13 @@
+{
+    "uid": "717-A",
+    "url": "https://codeforces.com/contest/717/problem/A",
+    "tags": [
+        "combinatorics",
+        " math",
+        " number theory"
+    ],
+    "title": "717-A",
+    "statement": "A. Festival Organizationtime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputThe Prodiggers are quite a cool band and for this reason, they have been the surprise guest at the ENTER festival for the past 80 years. At the beginning of their careers, they weren’t so successful, so they had to spend time digging channels to earn money; hence the name. Anyway, they like to tour a lot and have surprising amounts of energy to do extremely long tours. However, they hate spending two consecutive days without having a concert, so they would like to avoid it.Atouris defined by a sequence of concerts and days-off. You need to count in how many ways The Prodiggers can selectkdifferent tours of the same length betweenlandr.For example ifk= 2,l= 1andr= 2, if we define concert day as {1} and day-off as {0}, here are all possible tours: {0}, {1}, {00}, {01}, {10}, {11}. But tour 00 can not be selected because it has2days-off in a row. Now, we need to count in how many ways we can selectk= 2toursof the same lengthin range[1;2]. Here they are: {0,1}; {01,10}; {01,11}; {10,11}.Since their schedule is quite busy, they want you to tell them in how many ways can do that, modulo1 000 000 007(109+ 7).InputThe first line of the input contains three integersk,landr(1 ≤k≤ 200,1 ≤l≤r≤ 1018).OutputOutput a single number: the number of ways to selectkdifferent tours of the same length, modulo1 000 000 007.ExampleInput1 1 2Output5",
+    "source": "CF",
+    "vjudge": false
+}

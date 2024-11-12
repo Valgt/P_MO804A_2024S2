@@ -1,0 +1,16 @@
+{
+    "uid": "796-D",
+    "url": "https://codeforces.com/contest/796/problem/D",
+    "tags": [
+        "constructive algorithms",
+        " dfs and similar",
+        " dp",
+        " graphs",
+        " shortest paths",
+        " trees"
+    ],
+    "title": "796-D",
+    "statement": "D. Police Stationstime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputInzane finally found Zane with a lot of money to spare, so they together decided to establish a country of their own.Ruling a country is not an easy job. Thieves and terrorists are always ready to ruin the country's peace. To fight back, Zane and Inzane have enacted a very effective law: from each city it must be possible to reach a police station by traveling at mostdkilometers along the roads.There arencities in the country, numbered from1ton, connected only by exactlyn- 1roads. All roads are1kilometer long. It is initially possible to travel from a city to any other city using these roads. The country also haskpolice stations located in some cities. In particular, the city's structure satisfies the requirement enforced by the previously mentioned law. Also note that there can be multiple police stations in one city.However, Zane feels like having as many asn- 1roads is unnecessary. The country is having financial issues, so it wants to minimize the road maintenance cost by shutting down as many roads as possible.Help Zane find the maximum number of roads that can be shut down without breaking the law. Also, help him determine such roads.InputThe first line contains three integersn,k, andd(2 ≤n≤ 3·105,1 ≤k≤ 3·105,0 ≤d≤n- 1) — the number of cities, the number of police stations, and the distance limitation in kilometers, respectively.The second line containskintegersp1,p2, ...,pk(1 ≤pi≤n) — each denoting the city each police station is located in.Thei-th of the followingn- 1lines contains two integersuiandvi(1 ≤ui,vi≤n,ui≠vi) — the cities directly connected by the road with indexi.It is guaranteed that it is possible to travel from one city to any other city using only the roads. Also, it is possible from any city to reach a police station withindkilometers.OutputIn the first line, print one integersthat denotes the maximum number of roads that can be shut down.In the second line, printsdistinct integers, the indices of such roads, in any order.If there are multiple answers, print any of them.ExamplesInput6 2 41 61 22 33 44 55 6Output15Input6 3 21 5 61 21 31 41 55 6Output24 5NoteIn the first sample, if you shut down road5, all cities can still reach a police station withink= 4kilometers.In the second sample, although this is the only largest valid set of roads that can be shut down, you can print either4 5or5 4in the second line.",
+    "source": "CF",
+    "vjudge": false
+}

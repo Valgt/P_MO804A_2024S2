@@ -1,0 +1,12 @@
+{
+    "uid": "784-D",
+    "url": "https://codeforces.com/contest/784/problem/D",
+    "tags": [
+        "*special",
+        " implementation"
+    ],
+    "title": "784-D",
+    "statement": "D. Touchy-Feely Palindromestime limit per test2 secondsmemory limit per test64 megabytesinputstandard inputoutputstandard outputInputThe only line of the input contains a string of digits. The length of the string is between1and10, inclusive.OutputOutput \"Yes\" or \"No\".ExamplesInput373OutputYesInput121OutputNoInput436OutputYes",
+    "source": "CF",
+    "vjudge": false
+}

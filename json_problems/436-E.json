@@ -1,0 +1,12 @@
+{
+    "uid": "436-E",
+    "url": "https://codeforces.com/contest/436/problem/E",
+    "tags": [
+        "data structures",
+        " greedy"
+    ],
+    "title": "436-E",
+    "statement": "E. Cardboard Boxtime limit per test5 secondsmemory limit per test256 megabytesinputstdinoutputstdoutEveryone who has played Cut the Rope knows full well how the gameplay is organized. All levels in the game are divided into boxes. Initially only one box with some levels is available. Player should complete levels to earn stars, collecting stars opens new box with levels.Imagine that you are playing Cut the Rope for the first time. Currently you have only the levels of the first box (by the way, it is called \"Cardboard Box\"). Each level is characterized by two integers:ai— how long it takes to complete the level for one star,bi— how long it takes to complete the level for two stars(ai<bi).You want to open the next box as quickly as possible. So, you need to earn at leastwstars. How do make it happen? Note that the level can be passed only once: either for one star or for two. You do not necessarily need to pass all the levels.InputThe first line contains two integersnandw(1 ≤n≤ 3·105; 1 ≤w≤ 2n)— the number of levels in the first box and the number of stars you need to open another box. Each of the followingnlines contains two integersaiandbi(1 ≤ai<bi≤ 109)— the attributes of thei-th level.OutputIn the first line print integert— the minimum time you need to open the next box.In the next line, printndigits without spaces — the description of the optimal scenario:if you need to pass thei-th level for one star, thei-th digit should equal 1;if you need to pass thei-th level for two stars, thei-th digit should equal 2;if you do not need to pass thei-th level at all, thei-th digit should equal 0.ExamplesInput2 31 21 2Output312Input5 310 205 1010 206 925 30Output1401020NoteIn the first test sample, answer21is also assumed correct.",
+    "source": "CF",
+    "vjudge": false
+}

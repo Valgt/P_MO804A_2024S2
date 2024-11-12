@@ -1,0 +1,12 @@
+{
+    "uid": "849-B",
+    "url": "https://codeforces.com/contest/849/problem/B",
+    "tags": [
+        "brute force",
+        " geometry"
+    ],
+    "title": "849-B",
+    "statement": "B. Tell Your Worldtime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputConnect the countless points with lines, till we reach the faraway yonder.There arenpoints on a coordinate plane, thei-th of which being(i,yi).Determine whether it's possible to draw two parallel and non-overlapping lines, such that every point in the set lies onexactly oneof them, and each of them passes throughat least onepoint in the set.InputThe first line of input contains a positive integern(3 ≤n≤ 1 000) — the number of points.The second line containsnspace-separated integersy1,y2, ...,yn(- 109≤yi≤ 109) — the vertical coordinates of each point.OutputOutput \"Yes\" (without quotes) if it's possible to fulfill the requirements, and \"No\" otherwise.You can print each letter in any case (upper or lower).ExamplesInput57 5 8 6 9OutputYesInput5-1 -2 0 0 -5OutputNoInput55 4 3 2 1OutputNoInput51000000000 0 0 0 0OutputYesNoteIn the first example, there are five points:(1, 7),(2, 5),(3, 8),(4, 6)and(5, 9). It's possible to draw a line that passes through points1, 3, 5, and another one that passes through points2, 4and is parallel to the first one.In the second example, while it's possible to draw two lines that cover all points, they cannot be made parallel.In the third example, it's impossible to satisfy both requirements at the same time.",
+    "source": "CF",
+    "vjudge": false
+}

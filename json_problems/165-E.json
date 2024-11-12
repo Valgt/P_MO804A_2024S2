@@ -1,0 +1,14 @@
+{
+    "uid": "165-E",
+    "url": "https://codeforces.com/contest/165/problem/E",
+    "tags": [
+        "bitmasks",
+        " brute force",
+        " dfs and similar",
+        " dp"
+    ],
+    "title": "165-E",
+    "statement": "E. Compatible Numberstime limit per test4 secondsmemory limit per test256 megabytesinputstdinoutputstdoutTwo integersxandyarecompatible, if the result of their bitwise \"AND\" equals zero, that is,a&b= 0. For example, numbers90(10110102)and36(1001002)are compatible, as10110102&1001002= 02, and numbers3(112)and6(1102)are not compatible, as112&1102= 102.You are given an array of integersa1,a2, ...,an. Your task is to find the following for each array element: is this element compatible with some other element from the given array? If the answer to this question is positive, then you also should find any suitable element.InputThe first line contains an integern(1 ≤n≤ 106) — the number of elements in the given array. The second line containsnspace-separated integersa1,a2, ...,an(1 ≤ai≤ 4·106) — the elements of the given array. The numbers in the array can coincide.OutputPrintnintegersansi. Ifaiisn't compatible with any other element of the given arraya1,a2, ...,an, thenansishould be equal to -1. Otherwiseansiis any such number, thatai&ansi= 0, and alsoansioccurs in the arraya1,a2, ...,an.ExamplesInput290 36Output36 90Input43 6 3 6Output-1 -1 -1 -1Input510 6 9 8 2Output-1 8 2 2 8",
+    "source": "CF",
+    "vjudge": false
+}

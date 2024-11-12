@@ -1,0 +1,14 @@
+{
+    "uid": "748-E",
+    "url": "https://codeforces.com/contest/748/problem/E",
+    "tags": [
+        "binary search",
+        " data structures",
+        " greedy",
+        " two pointers"
+    ],
+    "title": "748-E",
+    "statement": "E. Santa Claus and Tangerinestime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputSanta Claus hasntangerines, and thei-th of them consists of exactlyaislices. Santa Claus came to a school which haskpupils. Santa decided to treat them with tangerines.However, there can be too few tangerines to present at least one tangerine to each pupil. So Santa decided to divide tangerines into parts so that no one will be offended. In order to do this, he can divide a tangerine or any existing part into two smaller equal parts. If the number of slices in the part he wants to split is odd, then one of the resulting parts will have one slice more than the other. It's forbidden to divide a part consisting of only one slice.Santa Claus wants to present to everyone either a whole tangerine or exactly one part of it(that also means that everyone must get a positive number of slices). One or several tangerines or their parts may stay with Santa.Letbibe the number of slices thei-th pupil has in the end. Let Santa'sjoybe the minimum among allbi's.Your task is to find the maximum possiblejoySanta can have after he treats everyone with tangerines (or their parts).InputThe first line contains two positive integersnandk(1 ≤n≤ 106,1 ≤k≤ 2·109) denoting the number of tangerines and the number of pupils, respectively.The second line consists ofnpositive integersa1,a2, ...,an(1 ≤ai≤ 107), whereaistands for the number of slices thei-th tangerine consists of.OutputIf there's no way to present a tangerine or a part of tangerine to everyone, print-1. Otherwise, print the maximum possiblejoythat Santa can have.ExamplesInput3 25 9 3Output5Input2 412 14Output6Input2 31 1Output-1NoteIn the first example Santa should divide the second tangerine into two parts with5and4slices. After that he can present the part with5slices to the first pupil and the whole first tangerine (with5slices, too) to the second pupil.In the second example Santa should divide both tangerines, so that he'll be able to present two parts with6slices and two parts with7slices.In the third example Santa Claus can't present2slices to3pupils in such a way that everyone will have anything.",
+    "source": "CF",
+    "vjudge": false
+}

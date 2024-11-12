@@ -1,0 +1,16 @@
+{
+    "uid": "339-C",
+    "url": "https://codeforces.com/contest/339/problem/C",
+    "tags": [
+        "constructive algorithms",
+        " dfs and similar",
+        " dp",
+        " graphs",
+        " greedy",
+        " shortest paths"
+    ],
+    "title": "339-C",
+    "statement": "C. Xenia and Weightstime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutXenia has a set of weights and pan scales. Each weight has an integer weight from 1 to 10 kilos. Xenia is going to play with scales and weights a little. For this, she puts weights on the scalepans, one by one. The first weight goes on the left scalepan, the second weight goes on the right scalepan, the third one goes on the left scalepan, the fourth one goes on the right scalepan and so on. Xenia wants to put the total ofmweights on the scalepans.Simply putting weights on the scales is not interesting, so Xenia has set some rules. First, she does not put on the scales two consecutive weights of the same weight. That is, the weight that goesi-th should be different from the(i+ 1)-th weight for anyi(1 ≤i<m). Second, every time Xenia puts a weight on some scalepan, she wants this scalepan to outweigh the other one. That is, the sum of the weights on the corresponding scalepan must be strictly greater than the sum on the other pan.You are given all types of weights available for Xenia. You can assume that the girl has an infinite number of weights of each specified type. Your task is to help Xenia laymweights on ​​the scales or to say that it can't be done.InputThe first line contains a string consisting of exactly ten zeroes and ones: thei-th(i≥ 1)character in the line equals \"1\" if Xenia hasikilo weights, otherwise the character equals \"0\". The second line contains integerm(1 ≤m≤ 1000).OutputIn the first line print \"YES\", if there is a way to putmweights on the scales by all rules. Otherwise, print in the first line \"NO\". If you can putmweights on the scales, then print in the next linemintegers — the weights' weights in the order you put them on the scales.If there are multiple solutions, you can print any of them.ExamplesInput00000001013OutputYES8 10 8Input10000000002OutputNO",
+    "source": "CF",
+    "vjudge": false
+}

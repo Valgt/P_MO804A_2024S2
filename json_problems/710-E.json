@@ -1,0 +1,12 @@
+{
+    "uid": "710-E",
+    "url": "https://codeforces.com/contest/710/problem/E",
+    "tags": [
+        "dfs and similar",
+        " dp"
+    ],
+    "title": "710-E",
+    "statement": "E. Generate a Stringtime limit per test2 secondsmemory limit per test512 megabytesinputstandard inputoutputstandard outputzscoderwants to generate an input file for some programming competition problem.His input is a string consisting ofnletters 'a'. He is too lazy to write a generator so he will manually generate the input in a text editor.Initially, the text editor is empty. It takes himxseconds to insert or delete a letter 'a' from the text file andyseconds to copy the contents of the entire text file, and duplicate it.zscoderwants to find the minimum amount of time needed for him to create the input file of exactlynletters 'a'. Help him to determine the amount of time needed to generate the input.InputThe only line contains three integersn,xandy(1 ≤n≤ 107,1 ≤x,y≤ 109) — the number of letters 'a' in the input file and the parameters from the problem statement.OutputPrint the only integert— the minimum amount of time needed to generate the input file.ExamplesInput8 1 1Output4Input8 1 10Output8",
+    "source": "CF",
+    "vjudge": false
+}

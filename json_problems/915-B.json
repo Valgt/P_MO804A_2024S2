@@ -1,0 +1,11 @@
+{
+    "uid": "915-B",
+    "url": "https://codeforces.com/contest/915/problem/B",
+    "tags": [
+        "implementation"
+    ],
+    "title": "915-B",
+    "statement": "B. Browsertime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputLuba is surfing the Internet. She currently hasnopened tabs in her browser, indexed from1tonfrom left to right. The mouse cursor is currently located at thepos-th tab. Luba needs to use the tabs with indices fromltor(inclusive) for her studies, and she wants to close all the tabs that don't belong to this segment as fast as possible.Each second Luba can either try moving the cursor to the left or to the right (if the cursor is currently at the tabi, then she can move it to the tabmax(i- 1,a)or to the tabmin(i+ 1,b)) or try closing all the tabs to the left or to the right of the cursor (if the cursor is currently at the tabi, she can close all the tabs with indices from segment[a,i- 1]or from segment[i+ 1,b]). In the aforementioned expressionsaandbdenote the minimum and maximum index of an unclosed tab, respectively. For example, if there were7tabs initially and tabs1,2and7are closed, thena= 3,b= 6.What is the minimum number of seconds Luba has to spend in order to leaveonly the tabs with initial indices fromltorinclusiveopened?InputThe only line of input contains four integer numbersn,pos,l,r(1 ≤n≤ 100,1 ≤pos≤n,1 ≤l≤r≤n) — the number of the tabs, the cursor position and the segment which Luba needs to leave opened.OutputPrint one integer equal to the minimum number of seconds required to close all the tabs outside the segment[l,r].ExamplesInput6 3 2 4Output5Input6 3 1 3Output1Input5 2 1 5Output0NoteIn the first test Luba can do the following operations: shift the mouse cursor to the tab2, close all the tabs to the left of it, shift the mouse cursor to the tab3, then to the tab4, and then close all the tabs to the right of it.In the second test she only needs to close all the tabs to the right of the current position of the cursor.In the third test Luba doesn't need to do anything.",
+    "source": "CF",
+    "vjudge": false
+}

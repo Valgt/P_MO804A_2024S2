@@ -1,0 +1,12 @@
+{
+    "uid": "763-B",
+    "url": "https://codeforces.com/contest/763/problem/B",
+    "tags": [
+        "constructive algorithms",
+        " geometry"
+    ],
+    "title": "763-B",
+    "statement": "B. Timofey and rectanglestime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputOne of Timofey's birthday presents is a colourbook in a shape of an infinite plane. On the planenrectangles with sides parallel to coordinate axes are situated. All sides of the rectangles haveoddlength. Rectangles cannot intersect, but they can touch each other.Help Timofey to color his rectangles in4different colors in such a way that every two rectangles touching each other by side would have different color, or determine that it is impossible.Two rectangles intersect if their intersection has positive area. Two rectangles touch by sides if there is a pair of sides such that their intersection has non-zero lengthThe picture corresponds to the first exampleInputThe first line contains single integern(1 ≤n≤ 5·105) — the number of rectangles.nlines follow. Thei-th of these lines contains four integersx1,y1,x2andy2(- 109≤x1<x2≤ 109,- 109≤y1<y2≤ 109), that means that points(x1,y1)and(x2,y2)are the coordinates of two opposite corners of thei-th rectangle.It is guaranteed, that all sides of the rectangles haveoddlengths and rectangles don't intersect each other.OutputPrint \"NO\" in the only line if it is impossible to color the rectangles in4different colors in such a way that every two rectangles touching each other by side would have different color.Otherwise, print \"YES\" in the first line. Then printnlines, in thei-th of them print single integerci(1 ≤ci≤ 4) — the color ofi-th rectangle.ExampleInput80 0 5 32 -1 5 0-3 -4 2 -1-1 -1 2 0-3 0 0 55 2 10 37 -3 10 24 -2 7 -1OutputYES12232241",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,12 @@
+{
+    "uid": "118-B",
+    "url": "https://codeforces.com/contest/118/problem/B",
+    "tags": [
+        "constructive algorithms",
+        " implementation"
+    ],
+    "title": "118-B",
+    "statement": "B. Present from Lenatime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutVasya's birthday is approaching and Lena decided to sew a patterned handkerchief to him as a present. Lena chose digits from0tonas the pattern. The digits will form a rhombus. The largest digitnshould be located in the centre. The digits should decrease as they approach the edges. For example, forn= 5the handkerchief pattern should look like that:00 1 00 1 2 1 00 1 2 3 2 1 00 1 2 3 4 3 2 1 00 1 2 3 4 5 4 3 2 1 00 1 2 3 4 3 2 1 00 1 2 3 2 1 00 1 2 1 00 1 00Your task is to determine the way the handkerchief will look like by the givenn.InputThe first line contains the single integern(2 ≤n≤ 9).OutputPrint a picture for the givenn. You should strictly observe the number of spaces before the first digit on each line. Every two adjacent digits in the same line should be separated by exactly one space. There should be no spaces after the last digit at the end of each line.ExamplesInput2Output00 1 00 1 2 1 00 1 00Input3Output00 1 00 1 2 1 00 1 2 3 2 1 00 1 2 1 00 1 00",
+    "source": "CF",
+    "vjudge": false
+}

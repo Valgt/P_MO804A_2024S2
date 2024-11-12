@@ -1,0 +1,12 @@
+{
+    "uid": "877-B",
+    "url": "https://codeforces.com/contest/877/problem/B",
+    "tags": [
+        "brute force",
+        " dp"
+    ],
+    "title": "877-B",
+    "statement": "B. Nikita and stringtime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputOne day Nikita found the string containing letters \"a\" and \"b\" only.Nikita thinks that string is beautiful if it can be cut into3strings (possibly empty) without changing the order of the letters, where the1-st and the3-rd one contain only letters \"a\" and the2-nd contains only letters \"b\".Nikita wants to make the string beautiful by removing some (possibly none) of its characters, but without changing their order. What is the maximum length of the string he can get?InputThe first line contains a non-empty string of length not greater than5 000containing only lowercase English letters \"a\" and \"b\".OutputPrint a single integer — the maximum possible size of beautiful string Nikita can get.ExamplesInputabbaOutput4InputbabOutput2NoteIt the first sample the string is already beautiful.In the second sample he needs to delete one of \"b\" to make it beautiful.",
+    "source": "CF",
+    "vjudge": false
+}

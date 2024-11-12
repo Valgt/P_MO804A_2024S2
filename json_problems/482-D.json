@@ -1,0 +1,13 @@
+{
+    "uid": "482-D",
+    "url": "https://codeforces.com/contest/482/problem/D",
+    "tags": [
+        "combinatorics",
+        " dp",
+        " trees"
+    ],
+    "title": "482-D",
+    "statement": "D. Random Function and Treetime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutYou have a rooted tree consisting ofnvertices. Let's number them with integers from1toninclusive. The root of the tree is the vertex1. For eachi> 1direct parent of the vertexiispi. We say that vertexiis child for its direct parentpi.You have initially painted all the vertices with red color. You like to repaint some vertices of the tree. To perform painting you use the functionpaintthat you call with the root of the tree as an argument. Here is the pseudocode of this function:count = 0 // global integer variablernd() { // this function is used in paint codereturn 0 or 1 equiprobably}paint(s) {if (count is even) then paint s with white colorelse paint s with black colorcount = count + 1if rnd() = 1 then children = [array of vertex s children in ascending order of their numbers]else children = [array of vertex s children in descending order of their numbers]for child in children { // iterating over children arrayif rnd() = 1 then paint(child) // calling paint recursively}}As a result of this function, some vertices may change their colors to white or black and some of them may remain red.Your task is to determine the number of distinct possible colorings of the vertices of the tree. We will assume that the coloring is possible if there is a nonzero probability to get this coloring with a single call ofpaint(1). We assume that the colorings are different if there is a pair of vertices that are painted with different colors in these colorings. Since the required number may be very large, find its remainder of division by1000000007(109+ 7).InputThe first line contains a single integern(2 ≤n≤ 105) — the number of vertexes in the tree.The second line containsn- 1integersp2,p3, ...,pn(1 ≤pi<i). Numberpiis the parent of vertexi.OutputPrint a single integer — the answer to the problem modulo1000000007(109+ 7)ExamplesInput41 2 1Output8Input31 1Output5NoteAll possible coloring patterns of the first sample are given below.",
+    "source": "CF",
+    "vjudge": false
+}

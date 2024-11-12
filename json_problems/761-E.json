@@ -1,0 +1,15 @@
+{
+    "uid": "761-E",
+    "url": "https://codeforces.com/contest/761/problem/E",
+    "tags": [
+        "constructive algorithms",
+        " dfs and similar",
+        " graphs",
+        " greedy",
+        " trees"
+    ],
+    "title": "761-E",
+    "statement": "E. Dasha and Puzzletime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputDasha decided to have a rest after solving the problem. She had been ready to start her favourite activity — origami, but remembered the puzzle that she could not solve.The tree is a non-oriented connected graph without cycles. In particular, there always aren- 1edges in a tree withnvertices.The puzzle is to position the vertices at the points of the Cartesian plane with integral coordinates, so that the segments between the vertices connected by edges are parallel to the coordinate axes. Also, the intersection of segments is allowed only at their ends. Distinct vertices should be placed at different points.Help Dasha to find any suitable way to position the tree vertices on the plane.It is guaranteed that if it is possible to position the tree vertices on the plane without violating the condition which is given above, then you can do it by using points with integral coordinates which don't exceed1018in absolute value.InputThe first line contains single integern(1 ≤n≤ 30)— the number of vertices in the tree.Each of nextn- 1lines contains two integersui,vi(1 ≤ui,vi≤n) that mean that thei-th edge of the tree connects verticesuiandvi.It is guaranteed that the described graph is a tree.OutputIf the puzzle doesn't have a solution then in the only line print \"NO\".Otherwise, the first line should contain \"YES\". The nextnlines should contain the pair of integersxi,yi(|xi|, |yi| ≤ 1018)— the coordinates of the point which corresponds to thei-th vertex of the tree.If there are several solutions, print any of them.ExamplesInput71 21 32 42 53 63 7OutputYES0 01 00 12 01 -1-1 10 2Input61 22 32 42 52 6OutputNOInput41 22 33 4OutputYES3 34 35 36 3NoteIn the first sample one of the possible positions of tree is:",
+    "source": "CF",
+    "vjudge": false
+}

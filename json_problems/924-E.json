@@ -1,0 +1,12 @@
+{
+    "uid": "924-E",
+    "url": "https://codeforces.com/contest/924/problem/E",
+    "tags": [
+        "dp",
+        " greedy"
+    ],
+    "title": "924-E",
+    "statement": "E. Wardrobetime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputOlya wants to buy a custom wardrobe. It should havenboxes with heightsa1,a2, ...,an, stacked one on another in some order. In other words, we can represent each box as a vertical segment of lengthai, and all these segments should form a single segment from0towithout any overlaps.Some of the boxes are important (in this casebi= 1), others are not (thenbi= 0). Olya defines theconvenienceof the wardrobe as the number of important boxes such that their bottom edge is located between the heightslandr, inclusive.You are given information about heights of the boxes and their importance. Compute the maximum possible convenience of the wardrobe if you can reorder the boxes arbitrarily.InputThe first line contains three integersn,landr(1 ≤n≤ 10 000,0 ≤l≤r≤ 10 000) — the number of boxes, the lowest and the highest heights for a bottom edge of an important box to be counted in convenience.The second line containsnintegersa1,a2, ...,an(1 ≤ai≤ 10 000) — the heights of the boxes. It is guaranteed that the sum of height of all boxes (i. e. the height of the wardrobe) does not exceed10 000: Olya is not very tall and will not be able to reach any higher.The second line containsnintegersb1,b2, ...,bn(0 ≤bi≤ 1), wherebiequals1if thei-th box is important, and0otherwise.OutputPrint a single integer — the maximum possible convenience of the wardrobe.ExamplesInput5 3 63 2 5 1 21 1 0 1 0Output2Input2 2 53 61 1Output1NoteIn the first example you can, for example, first put an unimportant box of height2, then put an important boxes of sizes1,3and2, in this order, and then the remaining unimportant boxes. The convenience is equal to2, because the bottom edges of important boxes of sizes3and2fall into the range[3, 6].In the second example you have to put the short box under the tall box.",
+    "source": "CF",
+    "vjudge": false
+}

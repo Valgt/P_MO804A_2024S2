@@ -1,0 +1,13 @@
+{
+    "uid": "280-B",
+    "url": "https://codeforces.com/contest/280/problem/B",
+    "tags": [
+        "data structures",
+        " implementation",
+        " two pointers"
+    ],
+    "title": "280-B",
+    "statement": "B. Maximum Xor Secondarytime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutBike loves looking for the second maximum element in the sequence. The second maximum element in the sequence of distinct numbersx1,x2, ...,xk(k> 1)is such maximum elementxj, that the following inequality holds:.The lucky number of the sequence of distinct positive integersx1,x2, ...,xk(k> 1)is the number that is equal to the bitwise excluding OR of the maximum element of the sequence and the second maximum element of the sequence.You've got a sequence of distinct positive integerss1,s2, ...,sn(n> 1). Let's denote sequencesl,sl+ 1, ...,srass[l..r](1 ≤l<r≤n). Your task is to find the maximum number among all lucky numbers of sequencess[l..r].Note that as all numbers in sequencesare distinct, all the given definitions make sence.InputThe first line contains integern(1 <n≤ 105). The second line containsndistinct integerss1,s2, ...,sn(1 ≤si≤ 109).OutputPrint a single integer — the maximum lucky number among all lucky numbers of sequencess[l..r].ExamplesInput55 2 1 4 3Output7Input59 8 3 5 7Output15NoteFor the first sample you can chooses[4..5] = {4, 3}and its lucky number is(4xor3) = 7. You can also chooses[1..2].For the second sample you must chooses[2..5] = {8, 3, 5, 7}.",
+    "source": "CF",
+    "vjudge": false
+}

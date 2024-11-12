@@ -1,0 +1,13 @@
+{
+    "uid": "546-C",
+    "url": "https://codeforces.com/contest/546/problem/C",
+    "tags": [
+        "brute force",
+        " dfs and similar",
+        " games"
+    ],
+    "title": "546-C",
+    "statement": "C. Soldier and Cardstime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputTwo bored soldiers are playing card war. Their card deck consists of exactlyncards, numbered from1ton,all values are different. They divide cards between them in some manner, it's possible that they have different number of cards. Then they play a \"war\"-like card game.The rules are following. On each turn afighthappens. Each of them picks card from the top of his stack and puts on the table. The one whose card value is bigger wins thisfightand takes both cards from the table to the bottom of his stack. More precisely, he first takes his opponent's card and puts to the bottom of his stack, and then he puts his card to the bottom of his stack. If after some turn one of the player's stack becomes empty, he loses and the other one wins.You have to calculate how manyfightswill happen and who will win the game, or state that game won't end.InputFirst line contains a single integern(2 ≤n≤ 10), the number of cards.Second line contains integerk1(1 ≤k1≤n- 1), the number of the first soldier's cards. Then followk1integers that are the values on the first soldier's cards, from top to bottom of his stack.Third line contains integerk2(k1+k2=n), the number of the second soldier's cards. Then followk2integers that are the values on the second soldier's cards, from top to bottom of his stack.All card values are different.OutputIf somebody wins in this game, print2integers where the first one stands for the number offightsbefore end of game and the second one is1or2showing which player has won.If the game won't end and will continue forever output- 1.ExamplesInput42 1 32 4 2Output6 2Input31 22 1 3Output-1NoteFirst sample:Second sample:",
+    "source": "CF",
+    "vjudge": false
+}

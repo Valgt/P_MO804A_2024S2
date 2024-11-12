@@ -1,0 +1,13 @@
+{
+    "uid": "855-A",
+    "url": "https://codeforces.com/contest/855/problem/A",
+    "tags": [
+        "brute force",
+        " implementation",
+        " strings"
+    ],
+    "title": "855-A",
+    "statement": "A. Tom Riddle's Diarytime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputHarry Potter is on a mission to destroy You-Know-Who's Horcruxes. The first Horcrux that he encountered in the Chamber of Secrets is Tom Riddle's diary. The diary was with Ginny and it forced her to open the Chamber of Secrets. Harry wants to know the different people who had ever possessed the diary to make sure they are not under its influence.He has names ofnpeople who possessed the diary in order. You need to tell, for each person, if he/she possessed the diary at some point before or not.Formally, for a namesiin thei-th line, output \"YES\" (without quotes) if there exists an indexjsuch thatsi=sjandj<i, otherwise, output \"NO\" (without quotes).InputFirst line of input contains an integern(1 ≤n≤ 100) — the number of names in the list.Nextnlines each contain a stringsi, consisting of lowercase English letters. The length of each string is between1and100.OutputOutputnlines each containing either \"YES\" or \"NO\" (without quotes), depending on whether this string was already present in the stream or not.You can print each letter in any case (upper or lower).ExamplesInput6tomluciusginnyharryginnyharryOutputNONONONOYESYESInput3aaaOutputNOYESYESNoteIn test case1, fori= 5there existsj= 3such thatsi=sjandj<i, which means that answer fori= 5is \"YES\".",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,9 @@
+{
+    "uid": "1002-A4",
+    "url": "https://codeforces.com/contest/1002/problem/A4",
+    "tags": [],
+    "title": "1002-A4",
+    "statement": "A4. Generate W statetime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are givenN= 2kqubits (0 ≤k≤ 4) in zero state. Your task is to create a generalizedW stateon them. Generalized W state is an equal superposition of all basis states onNqubits that have Hamming weight equal to 1:For example, forN= 1,.You have to implement an operation which takes an array ofNqubits as an input and has no output. The \"output\" of the operation is the state in which it leaves the qubits.Your code should have the following signature:namespace Solution {open Microsoft.Quantum.Primitive;open Microsoft.Quantum.Canon;operation Solve (qs : Qubit[]) : (){body{// your code here}}}",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,11 @@
+{
+    "uid": "688-A",
+    "url": "https://codeforces.com/contest/688/problem/A",
+    "tags": [
+        "implementation"
+    ],
+    "title": "688-A",
+    "statement": "A. Opponentstime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputArya hasnopponents in the school. Each day he will fight with all opponents who are present this day. His opponents have some fighting plan that guarantees they will win, but implementing this plan requires presence of them all. That means if one day at least one of Arya's opponents is absent at the school, then Arya will beat all present opponents. Otherwise, if all opponents are present, then they will beat Arya.For each opponent Arya knows his schedule — whether or not he is going to present on each particular day. Tell him the maximum number ofconsecutivedays that he will beat all present opponents.Note, that if some day there are no opponents present, Arya still considers he beats all the present opponents.InputThe first line of the input contains two integersnandd(1 ≤n,d≤ 100) — the number of opponents and the number of days, respectively.Thei-th of the followingdlines contains a string of lengthnconsisting of characters '0' and '1'. Thej-th character of this string is '0' if thej-th opponent is going to be absent on thei-th day.OutputPrint the only integer — the maximum number of consecutive days that Arya will beat all present opponents.ExamplesInput2 21000Output2Input4 10100Output1Input4 511011111011010111111Output2NoteIn the first and the second samples, Arya will beat all present opponents each of theddays.In the third sample, Arya will beat his opponents on days1,3and4and his opponents will beat him on days2and5. Thus, the maximum number of consecutive winning days is2, which happens on days3and4.",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,12 @@
+{
+    "uid": "903-F",
+    "url": "https://codeforces.com/contest/903/problem/F",
+    "tags": [
+        "bitmasks",
+        " dp"
+    ],
+    "title": "903-F",
+    "statement": "F. Clear The Matrixtime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given a matrixfwith4rows andncolumns. Each element of the matrix is either an asterisk (*) or a dot (.).You may perform the following operation arbitrary number of times: choose a square submatrix offwith sizek×k(where1 ≤k≤ 4) and replace each element of the chosen submatrix with a dot. Choosing a submatrix of sizek×kcostsakcoins.What is the minimum number of coins you have to pay to replace all asterisks with dots?InputThe first line contains one integern(4 ≤n≤ 1000) — the number of columns inf.The second line contains4integersa1,a2,a3,a4(1 ≤ai≤ 1000) — the cost to replace the square submatrix of size1 × 1,2 × 2,3 × 3or4 × 4, respectively.Then four lines follow, each containingncharacters and denoting a row of matrixf. Each character is either a dot or an asterisk.OutputPrint one integer — the minimum number of coins to replace all asterisks with dots.ExamplesInput41 10 8 20***.***.***....*Output9Input72 1 8 2.***....***..*.***.......*..Output3Input410 10 1 10***.*..**..*.***Output2NoteIn the first example you can spend8coins to replace the submatrix3 × 3in the top-left corner, and1coin to replace the1 × 1submatrix in the bottom-right corner.In the second example the best option is to replace the4 × 4submatrix containing columns2 – 5, and the2 × 2submatrix consisting of rows2 – 3and columns6 – 7.In the third example you can select submatrix3 × 3in the top-left corner and then submatrix3 × 3consisting of rows2 – 4and columns2 – 4.",
+    "source": "CF",
+    "vjudge": false
+}

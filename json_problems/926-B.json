@@ -1,0 +1,12 @@
+{
+    "uid": "926-B",
+    "url": "https://codeforces.com/contest/926/problem/B",
+    "tags": [
+        "math",
+        " number theory"
+    ],
+    "title": "926-B",
+    "statement": "B. Add Pointstime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputThere arenpoints on a straight line, and thei-th point among them is located atxi. All these coordinates are distinct.Determine the numberm— the smallest number of points you should add on the line to make the distances between all neighboring points equal.InputThe first line contains a single integern(3 ≤n≤ 100 000) — the number of points.The second line contains a sequence of integersx1,x2, ...,xn(- 109≤xi≤ 109) — the coordinates of the points. All these coordinates are distinct. The points can be given in an arbitrary order.OutputPrint a single integerm— the smallest number of points you should add on the line to make the distances between all neighboring points equal.ExamplesInput3-5 10 5Output1Input6100 200 400 300 600 500Output0Input410 9 0 -1Output8NoteIn the first example you can add one point with coordinate0.In the second example the distances between all neighboring points are already equal, so you shouldn't add anything.",
+    "source": "CF",
+    "vjudge": false
+}

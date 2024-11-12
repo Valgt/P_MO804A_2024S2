@@ -1,0 +1,11 @@
+{
+    "uid": "691-A",
+    "url": "https://codeforces.com/contest/691/problem/A",
+    "tags": [
+        "implementation"
+    ],
+    "title": "691-A",
+    "statement": "A. Fashion in Berlandtime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputAccording to rules of the Berland fashion, a jacket should be fastened byall the buttons except only one, but not necessarily it should be the last one. Also if the jacket has only one button, it should be fastened, so the jacket will not swinging open.You are given a jacket withnbuttons. Determine if it is fastened in a right way.InputThe first line contains integern(1 ≤n≤ 1000) — the number of buttons on the jacket.The second line containsnintegersai(0 ≤ai≤ 1). The numberai= 0if thei-th button is not fastened. Otherwiseai= 1.OutputIn the only line print the word \"YES\" if the jacket is fastened in a right way. Otherwise print the word \"NO\".ExamplesInput31 0 1OutputYESInput31 0 0OutputNO",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,13 @@
+{
+    "uid": "288-D",
+    "url": "https://codeforces.com/contest/288/problem/D",
+    "tags": [
+        "combinatorics",
+        " dfs and similar",
+        " trees"
+    ],
+    "title": "288-D",
+    "statement": "D. Polo the Penguin and Treestime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutLittle penguin Polo has got a tree — a non-directed connected acyclic graph, containingnnodes andn- 1edges. We will consider the tree nodes numbered by integers from 1 ton.Today Polo wonders, how to find the number of pairs of paths that don't have common nodes. More formally, he should find the number of groups of four integersa,b,canddsuch that:1 ≤a<b≤n;1 ≤c<d≤n;there's no such node that lies on both the shortest path from nodeato nodeband from nodecto noded.The shortest path betweem two nodes is the path that is shortest in the number of edges.Help Polo solve this problem.InputThe first line contains integern(1 ≤n≤ 80000)— the number of tree nodes. Each of the followingn- 1lines contains a pair of integersuiandvi(1 ≤ui,vi≤n;ui≠vi)— thei-th edge of the tree.It is guaranteed that the given graph is a tree.OutputIn a single line print a single integer — the answer to the problem.Please do not use the %lld specificator to read or write 64-bit numbers in С++. It is recommended to use the cin, cout streams or the %I64d specificator.ExamplesInput41 22 33 4Output2",
+    "source": "CF",
+    "vjudge": false
+}

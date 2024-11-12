@@ -1,0 +1,12 @@
+{
+    "uid": "476-A",
+    "url": "https://codeforces.com/contest/476/problem/A",
+    "tags": [
+        "implementation",
+        " math"
+    ],
+    "title": "476-A",
+    "statement": "A. Dreamoon and Stairstime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutDreamoon wants to climb up a stair ofnsteps. He can climb1or2steps at each move. Dreamoon wants the number of moves to be a multiple of an integerm.What is the minimal number of moves making him climb to the top of the stairs that satisfies his condition?InputThe single line contains two space separated integersn,m(0 <n≤ 10000, 1 <m≤ 10).OutputPrint a single integer — the minimal number of moves being a multiple ofm. If there is no way he can climb satisfying condition print- 1instead.ExamplesInput10 2Output6Input3 5Output-1NoteFor the first sample, Dreamoon could climb in 6 moves with following sequence of steps: {2, 2, 2, 2, 1, 1}.For the second sample, there are only three valid sequence of steps {2, 1}, {1, 2}, {1, 1, 1} with 2, 2, and 3 steps respectively. All these numbers are not multiples of 5.",
+    "source": "CF",
+    "vjudge": false
+}

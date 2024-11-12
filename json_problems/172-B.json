@@ -1,0 +1,13 @@
+{
+    "uid": "172-B",
+    "url": "https://codeforces.com/contest/172/problem/B",
+    "tags": [
+        "*special",
+        " implementation",
+        " number theory"
+    ],
+    "title": "172-B",
+    "statement": "B. Pseudorandom Sequence Periodtime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutPolycarpus has recently got interested in sequences of pseudorandom numbers. He learned that many programming languages generate such sequences in a similar way:(fori≥ 1). Herea,b,mare constants, fixed for the given realization of the pseudorandom numbers generator,r0is the so-calledrandseed(this value can be set from the program using functions likeRandSeed(r)orsrand(n)), anddenotes the operation of taking the remainder of division.For example, ifa= 2,b= 6,m= 12,r0= 11, the generated sequence will be:4, 2, 10, 2, 10, 2, 10, 2, 10, 2, 10, ....Polycarpus realized that any such sequence will sooner or later form a cycle, but the cycle may occur not in the beginning, so there exist a preperiod and a period. The example above shows a preperiod equal to 1 and a period equal to 2.Your task is to find the period of a sequence defined by the given values ofa,b,mandr0. Formally, you have to find such minimum positive integert, for which exists such positive integerk, that for anyi≥k:ri=ri+t.InputThe single line of the input contains four integersa,b,mandr0(1 ≤m≤ 105, 0 ≤a,b≤ 1000, 0 ≤r0<m), separated by single spaces.OutputPrint a single integer — the period of the sequence.ExamplesInput2 6 12 11Output2Input2 3 5 1Output4Input3 6 81 9Output1NoteThe first sample is described above.In the second sample the sequence is (starting from the first element):0, 3, 4, 1, 0, 3, 4, 1, 0, ...In the third sample the sequence is (starting from the first element):33, 24, 78, 78, 78, 78, ...",
+    "source": "CF",
+    "vjudge": false
+}

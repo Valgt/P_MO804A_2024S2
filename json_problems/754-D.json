@@ -1,0 +1,14 @@
+{
+    "uid": "754-D",
+    "url": "https://codeforces.com/contest/754/problem/D",
+    "tags": [
+        "binary search",
+        " data structures",
+        " greedy",
+        " sortings"
+    ],
+    "title": "754-D",
+    "statement": "D. Fedor and couponstime limit per test4 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputAll our characters have hobbies. The same is true for Fedor. He enjoys shopping in the neighboring supermarket.The goods in the supermarket have unique integer ids. Also, for every integer there is a product with id equal to this integer. Fedor hasndiscount coupons, thei-th of them can be used with products with ids ranging fromlitori, inclusive. Today Fedor wants to take exactlykcoupons with him.Fedor wants to choose thekcoupons in such a way that the number of such productsxthat all coupons can be used with this productxis as large as possible (for better understanding, see examples). Fedor wants to save his time as well, so he asks you to choose coupons for him. Help Fedor!InputThe first line contains two integersnandk(1 ≤k≤n≤ 3·105) — the number of coupons Fedor has, and the number of coupons he wants to choose.Each of the nextnlines contains two integersliandri(- 109≤li≤ri≤ 109) — the description of thei-th coupon. The coupons can be equal.OutputIn the first line print single integer — the maximum number of products with which all the chosen coupons can be used. The products with which at least one coupon cannot be used shouldn't be counted.In the second line printkdistinct integersp1,p2, ...,pk(1 ≤pi≤n) — the ids of the coupons which Fedor should choose.If there are multiple answers, print any of them.ExamplesInput4 21 10040 70120 130125 180Output311 2Input3 21 1215 2025 30Output01 2Input5 21 105 1514 5030 7099 100Output213 4NoteIn the first example if we take the first two coupons then all the products with ids in range[40, 70]can be bought with both coupons. There are31products in total.In the second example, no product can be bought with two coupons, that is why the answer is0. Fedor can choose any two coupons in this example.",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,16 @@
+{
+    "uid": "708-C",
+    "url": "https://codeforces.com/contest/708/problem/C",
+    "tags": [
+        "data structures",
+        " dfs and similar",
+        " dp",
+        " graphs",
+        " greedy",
+        " trees"
+    ],
+    "title": "708-C",
+    "statement": "C. Centroidstime limit per test4 secondsmemory limit per test512 megabytesinputstandard inputoutputstandard outputTreeis a connected acyclic graph. Suppose you are given a tree consisting ofnvertices. The vertex of this tree is calledcentroidif the size of each connected component that appears if this vertex is removed from the tree doesn't exceed.You are given a tree of sizenand can perform no more than one edge replacement.Edge replacementis the operation of removing one edge from the tree (without deleting incident vertices) and inserting one new edge (without adding new vertices) in such a way that the graph remains a tree. For each vertex you have to determine if it's possible to make it centroid by performing no more than one edge replacement.InputThe first line of the input contains an integern(2 ≤n≤ 400 000) — the number of vertices in the tree. Each of the nextn- 1lines contains a pair of vertex indicesuiandvi(1 ≤ui,vi≤n) — endpoints of the corresponding edge.OutputPrintnintegers. Thei-th of them should be equal to1if thei-th vertex can be made centroid by replacing no more than one edge, and should be equal to0otherwise.ExamplesInput31 22 3Output1 1 1Input51 21 31 41 5Output1 0 0 0 0NoteIn the first sample each vertex can be made a centroid. For example, in order to turn vertex1to centroid one have to replace the edge(2, 3)with the edge(1, 3).",
+    "source": "CF",
+    "vjudge": false
+}

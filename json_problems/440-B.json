@@ -1,0 +1,12 @@
+{
+    "uid": "440-B",
+    "url": "https://codeforces.com/contest/440/problem/B",
+    "tags": [
+        "greedy",
+        " implementation"
+    ],
+    "title": "440-B",
+    "statement": "B. Balancertime limit per test0.5 secondsmemory limit per test256 megabytesinputstdinoutputstdoutPetya haskmatches, placed innmatchboxes lying in a line from left to right. We know thatkis divisible byn. Petya wants all boxes to have the same number of matches inside. For that, he can move a match from its box to the adjacent one in one move. How many such moves does he need to achieve the desired configuration?InputThe first line contains integern(1 ≤n≤ 50000). The second line containsnnon-negative numbers that do not exceed109, thei-th written number is the number of matches in thei-th matchbox. It is guaranteed that the total number of matches is divisible byn.OutputPrint the total minimum number of moves.ExamplesInput61 6 2 5 3 7Output12",
+    "source": "CF",
+    "vjudge": false
+}

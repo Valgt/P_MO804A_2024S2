@@ -1,0 +1,12 @@
+{
+    "uid": "336-A",
+    "url": "https://codeforces.com/contest/336/problem/A",
+    "tags": [
+        "implementation",
+        " math"
+    ],
+    "title": "336-A",
+    "statement": "A. Vasily the Bear and Triangletime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutVasily the bear has afavorite rectangle, it has one vertex at point(0, 0), and the opposite vertex at point(x,y). Of course, the sides of Vasya's favorite rectangle are parallel to the coordinate axes.Vasya also loves triangles, if the triangles have one vertex at pointB= (0, 0). That's why today he asks you to find two pointsA= (x1,y1)andC= (x2,y2), such that the following conditions hold:the coordinates of points:x1,x2,y1,y2are integers. Besides, the following inequation holds:x1<x2;the triangle formed by pointA,BandCis rectangular and isosceles (is right);all points of the favorite rectangle are located inside or on the border of triangleABC;the area of triangleABCis as small as possible.Help the bear, find the required points. It is not so hard to proof that these points are unique.InputThe first line contains two integersx,y( - 109≤x,y≤ 109,x≠ 0,y≠ 0).OutputPrint in the single line four integersx1,y1,x2,y2— the coordinates of the required points.ExamplesInput10 5Output0 15 15 0Input-10 5Output-15 0 0 15NoteFigure to the first sample",
+    "source": "CF",
+    "vjudge": false
+}

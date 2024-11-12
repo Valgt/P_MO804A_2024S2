@@ -1,0 +1,14 @@
+{
+    "uid": "402-D",
+    "url": "https://codeforces.com/contest/402/problem/D",
+    "tags": [
+        "dp",
+        " greedy",
+        " math",
+        " number theory"
+    ],
+    "title": "402-D",
+    "statement": "D. Upgrading Arraytime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutYou have an array of positive integersa[1],a[2], ...,a[n]and a set ofbadprime numbersb1,b2, ...,bm. The prime numbers that do not occur in the setbare consideredgood. Thebeautyof arrayais the sum, where functionf(s)is determined as follows:f(1) = 0;Let's assume thatpis the minimum prime divisor ofs. Ifpis a good prime, then, otherwise.You are allowed to perform an arbitrary (probably zero) number of operations to improve arraya. Theoperation of improvementis the following sequence of actions:Choose some numberr(1 ≤r≤n) and calculate the valueg= GCD(a[1],a[2], ...,a[r]).Apply the assignments:,,...,.What is the maximum beauty of the array you can get?InputThe first line contains two integersnandm(1 ≤n,m≤ 5000) showing how many numbers are in the array and how many bad prime numbers there are.The second line containsnspace-separated integersa[1],a[2], ...,a[n](1 ≤a[i] ≤ 109) — arraya. The third line containsmspace-separated integersb1,b2, ...,bm(2 ≤b1<b2< ... <bm≤ 109) — the set of bad prime numbers.OutputPrint a single integer — the answer to the problem.ExamplesInput5 24 20 34 10 102 5Output-2Input4 52 4 8 163 5 7 11 17Output10NoteNote that the answer to the problem can be negative.The GCD(x1,x2, ...,xk) is the maximum positive integer that divides eachxi.",
+    "source": "CF",
+    "vjudge": false
+}

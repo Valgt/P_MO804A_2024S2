@@ -1,0 +1,14 @@
+{
+    "uid": "848-D",
+    "url": "https://codeforces.com/contest/848/problem/D",
+    "tags": [
+        "combinatorics",
+        " dp",
+        " flows",
+        " graphs"
+    ],
+    "title": "848-D",
+    "statement": "D. Shake It!time limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputA never-ending, fast-changing and dream-like world unfolds, as the secret door opens.Aworldis an unordered graphG, in whose vertex setV(G)there are two special verticess(G)andt(G). Aninitial worldhas vertex set{s(G),t(G)}and an edge between them.A total ofnchanges took place in aninitial world. In each change, a new vertexwis added intoV(G),an existing edge(u,v)is chosen, and two edges(u,w)and(v,w)are added intoE(G). Note that it's possible that some edges are chosen in more than one change.It's known that the capacity of the minimums-tcut of the resulting graph ism, that is, at leastmedges need to be removed in order to makes(G)andt(G)disconnected.Count the number ofnon-similar worldsthat can be built under the constraints, modulo109+ 7. We define twoworldssimilar, if they are isomorphic and there is isomorphism in which thesandtvertices are not relabelled. Formally, twoworldsGandHare considered similar, if there is a bijection between their vertex sets, such that:f(s(G)) =s(H);f(t(G)) =t(H);Two verticesuandvofGare adjacent inGif and only iff(u)andf(v)are adjacent inH.InputThe first and only line of input contains two space-separated integersn,m(1 ≤n,m≤ 50) — the number of operations performed and the minimum cut, respectively.OutputOutput one integer — the number ofnon-similar worldsthat can be built, modulo109+ 7.ExamplesInput3 2Output6Input4 4Output3Input7 3Output1196Input31 8Output64921457NoteIn the first example, the following6worldsare pairwise non-similar and satisfy the constraints, withs(G)marked in green,t(G)marked in blue, and one of their minimum cuts in light blue.In the second example, the following3worldssatisfy the constraints.",
+    "source": "CF",
+    "vjudge": false
+}

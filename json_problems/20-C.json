@@ -1,0 +1,12 @@
+{
+    "uid": "20-C",
+    "url": "https://codeforces.com/contest/20/problem/C",
+    "tags": [
+        "graphs",
+        " shortest paths"
+    ],
+    "title": "20-C",
+    "statement": "C. Dijkstra?time limit per test1 secondmemory limit per test64 megabytesinputstdinoutputstdoutYou are given a weighted undirected graph. The vertices are enumerated from 1 ton. Your task is to find the shortest path between the vertex1and the vertexn.InputThe first line contains two integersnandm(2 ≤n≤ 105, 0 ≤m≤ 105), wherenis the number of vertices andmis the number of edges. Followingmlines contain one edge each in formai,biandwi(1 ≤ai,bi≤n, 1 ≤wi≤ 106), whereai,biare edge endpoints andwiis the length of the edge.It is possible that the graph has loops and multiple edges between pair of vertices.OutputWrite the only integer-1in case of no path. Write the shortest path in opposite case. If there are many solutions, print any of them.ExamplesInput5 61 2 22 5 52 3 41 4 14 3 33 5 1Output1 4 3 5Input5 61 2 22 5 52 3 41 4 14 3 33 5 1Output1 4 3 5",
+    "source": "CF",
+    "vjudge": false
+}

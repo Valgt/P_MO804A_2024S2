@@ -1,0 +1,13 @@
+{
+    "uid": "932-B",
+    "url": "https://codeforces.com/contest/932/problem/B",
+    "tags": [
+        "binary search",
+        " data structures",
+        " dfs and similar"
+    ],
+    "title": "932-B",
+    "statement": "B. Recursive Queriestime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputLet us define two functionsfandgon positive integer numbers.You need to processQqueries. In each query, you will be given three integersl,randk. You need to print the number of integersxbetweenlandrinclusive, such thatg(x) =k.InputThe first line of the input contains an integerQ(1 ≤Q≤ 2 × 105) representing the number of queries.Qlines follow, each of which contains 3 integersl,randk(1 ≤l≤r≤ 106, 1 ≤k≤ 9).OutputFor each query, print a single line containing the answer for that query.ExamplesInput422 73 945 64 647 55 72 62 4Output1408Input482 94 656 67 428 59 939 74 4Output3115NoteIn the first example:g(33) = 9asg(33) =g(3 × 3) =g(9) = 9g(47) =g(48) =g(60) =g(61) = 6There are no such integers between47and55.g(4) =g(14) =g(22) =g(27) =g(39) =g(40) =g(41) =g(58) = 4",
+    "source": "CF",
+    "vjudge": false
+}

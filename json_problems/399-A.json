@@ -1,0 +1,11 @@
+{
+    "uid": "399-A",
+    "url": "https://codeforces.com/contest/399/problem/A",
+    "tags": [
+        "implementation"
+    ],
+    "title": "399-A",
+    "statement": "A. Pagestime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutUser ainta is making a web site. This time he is going to make a navigation of the pages. In his site, there arenpages numbered by integers from1ton. Assume that somebody is on thep-th page now. The navigation will look like this:<<p-kp-k+ 1...p- 1(p)p+ 1...p+k- 1p+k>>When someone clicks the button \"<<\" he is redirected to page1, and when someone clicks the button \">>\" he is redirected to pagen. Of course if someone clicks on a number, he is redirected to the corresponding page.There are some conditions in the navigation:If page1is in the navigation, the button \"<<\" must not be printed.If pagenis in the navigation, the button \">>\" must not be printed.If the page number is smaller than1or greater thann, it must not be printed.You can see some examples of the navigations. Make a program that prints the navigation.InputThe first and the only line contains three integersn,p,k(3 ≤n≤ 100;1 ≤p≤n;1 ≤k≤n)OutputPrint the proper navigation. Follow the format of the output from the test samples.ExamplesInput17 5 2Output<< 3 4 (5) 6 7 >>Input6 5 2Output<< 3 4 (5) 6Input6 1 2Output(1) 2 3 >>Input6 2 2Output1 (2) 3 4 >>Input9 6 3Output<< 3 4 5 (6) 7 8 9Input10 6 3Output<< 3 4 5 (6) 7 8 9 >>Input8 5 4Output1 2 3 4 (5) 6 7 8",
+    "source": "CF",
+    "vjudge": false
+}

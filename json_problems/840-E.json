@@ -1,0 +1,11 @@
+{
+    "uid": "840-E",
+    "url": "https://codeforces.com/contest/840/problem/E",
+    "tags": [
+        "trees"
+    ],
+    "title": "840-E",
+    "statement": "E. In a Traptime limit per test3 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputLech got into a tree consisting ofnvertices with a root in vertex number1. At each vertexiwritten integerai. He will not get out until he answersqqueries of the formuv. Answer for the query is maximal valueamong all verticesion path fromutovincludinguandv, wheredist(i,v)is number of edges on path fromitov. Also guaranteed that vertexuis ancestor of vertexv. Leha's tastes are very singular: he believes that vertex is ancestor of itself.Help Leha to get out.The expressionmeans the bitwise exclusiveORto the numbersxandy.Note that vertexuis ancestor of vertexvif vertexulies on the path from root to the vertexv.InputFirst line of input data contains two integersnandq(1 ≤n≤ 5·104,1 ≤q≤ 150 000) — number of vertices in the tree and number of queries respectively.Next line containsnintegersa1,a2, ...,an(0 ≤ai≤n) — numbers on vertices.Each of nextn- 1lines contains two integersuandv(1 ≤u,v≤n) — description of the edges in tree.Guaranteed that given graph is a tree.Each of nextqlines contains two integersuandv(1 ≤u,v≤n) — description of queries. Guaranteed that vertexuis ancestor of vertexv.OutputOutputqlines — answers for a queries.ExamplesInput5 30 3 2 1 41 22 33 43 51 41 52 4Output343Input5 41 2 3 4 51 22 33 44 51 52 51 43 3Output5543",
+    "source": "CF",
+    "vjudge": false
+}

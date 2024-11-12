@@ -1,0 +1,11 @@
+{
+    "uid": "661-D",
+    "url": "https://codeforces.com/contest/661/problem/D",
+    "tags": [
+        "*special"
+    ],
+    "title": "661-D",
+    "statement": "D. Maximal Differencetime limit per test2 secondsmemory limit per test64 megabytesinputstandard inputoutputstandard outputYou are given an array of integersai. Find the largest absolute value of difference between adjacent elements of the arraymax(abs(ai-ai+ 1)).InputThe only line of the input contains a list of space-separated integersai(1 ≤ai≤ 100) — elements of the array. The size of the array is between2and10, inclusive. Note that the size of the array is not given explicitly!OutputOutput a single integer — the largest absolute value of difference between adjacent elements of the array.ExamplesInput2 10 4 8 6 12Output8Input3 3Output0",
+    "source": "CF",
+    "vjudge": false
+}

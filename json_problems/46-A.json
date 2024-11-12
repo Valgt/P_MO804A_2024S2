@@ -1,0 +1,12 @@
+{
+    "uid": "46-A",
+    "url": "https://codeforces.com/contest/46/problem/A",
+    "tags": [
+        "brute force",
+        " implementation"
+    ],
+    "title": "46-A",
+    "statement": "A. Ball Gametime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutA kindergarten teacher Natalia Pavlovna has invented a new ball game. This game not only develops the children's physique, but also teaches them how to count.The game goes as follows. Kids stand in circle. Let's agree to think of the children as numbered with numbers from1tonclockwise and the child number1is holding the ball. First the first child throws the ball to the next one clockwise, i.e. to the child number2. Then the child number2throws the ball to the next but one child, i.e. to the child number4, then the fourth child throws the ball to the child that stands two children away from him, i.e. to the child number7, then the ball is thrown to the child who stands3children away from the child number7, then the ball is thrown to the child who stands4children away from the last one, and so on. It should be mentioned that when a ball is thrown it may pass the beginning of the circle. For example, ifn= 5, then after the third throw the child number2has the ball again. Overall,n- 1throws are made, and the game ends.The problem is that not all the children get the ball during the game. If a child doesn't get the ball, he gets very upset and cries until Natalia Pavlovna gives him a candy. That's why Natalia Pavlovna asks you to help her to identify the numbers of the children who will get the ball after each throw.InputThe first line contains integern(2 ≤n≤ 100) which indicates the number of kids in the circle.OutputIn the single line printn- 1numbers which are the numbers of children who will get the ball after each throw. Separate the numbers by spaces.ExamplesInput10Output2 4 7 1 6 2 9 7 6Input3Output2 1",
+    "source": "CF",
+    "vjudge": false
+}

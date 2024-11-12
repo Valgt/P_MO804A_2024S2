@@ -1,0 +1,12 @@
+{
+    "uid": "530-H",
+    "url": "https://codeforces.com/contest/530/problem/H",
+    "tags": [
+        "*special",
+        " geometry"
+    ],
+    "title": "530-H",
+    "statement": "H. Points in triangletime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given a set of points on a plane with positive integer coordinates. Find a triangle of minimum area with vertices in points(0, 0),(A, 0)and(0,B)(AandBare unknown positive integers) that contains all the given points inside it (points on the edges count towards being inside).InputThe first line of the input contains an integerN(1 ≤N≤ 100) — the number of points. The followingNlines contain pairs of numbersXandY(1 ≤X,Y≤ 100) - the coordinates of the points. All points are distinct.OutputOutput one floating-point number — the minimal area of the triangle. The answer is considered to be correct if its absolute or relative error does not exceed10- 4.ExamplesInput21 11 3Output6.0Input22 11 2Output4.5",
+    "source": "CF",
+    "vjudge": false
+}

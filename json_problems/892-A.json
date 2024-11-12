@@ -1,0 +1,12 @@
+{
+    "uid": "892-A",
+    "url": "https://codeforces.com/contest/892/problem/A",
+    "tags": [
+        "greedy",
+        " implementation"
+    ],
+    "title": "892-A",
+    "statement": "A. Greedtime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputJafar hasncans of cola. Each can is described by two integers: remaining volume of colaaiand can's capacitybi(ai≤bi).Jafar has decided to pour all remaining cola into just2cans, determine if he can do this or not!InputThe first line of the input contains one integern(2 ≤n≤ 100 000) — number of cola cans.The second line containsnspace-separated integersa1,a2, ...,an(0 ≤ai≤ 109) — volume of remaining cola in cans.The third line containsnspace-separated integers thatb1,b2, ...,bn(ai≤bi≤ 109) — capacities of the cans.OutputPrint \"YES\" (without quotes) if it is possible to pour all remaining cola in2cans. Otherwise print \"NO\" (without quotes).You can print each letter in any case (upper or lower).ExamplesInput23 53 6OutputYESInput36 8 96 10 12OutputNOInput50 0 5 0 01 1 8 10 5OutputYESInput44 1 0 35 2 2 3OutputYESNoteIn the first sample, there are already2cans, so the answer is \"YES\".",
+    "source": "CF",
+    "vjudge": false
+}

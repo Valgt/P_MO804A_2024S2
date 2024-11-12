@@ -1,0 +1,12 @@
+{
+    "uid": "494-C",
+    "url": "https://codeforces.com/contest/494/problem/C",
+    "tags": [
+        "dp",
+        " probabilities"
+    ],
+    "title": "494-C",
+    "statement": "C. Helping Peopletime limit per test2 secondsmemory limit per test512 megabytesinputstdinoutputstdoutMalek is a rich man. He also is very generous. That's why he decided to split his money between poor people. A charity institute knowsnpoor people numbered from1ton. The institute gave Malekqrecommendations. A recommendation is a segment of people like[l,r]which means the institute recommended that Malek gives one dollar to every person whose number is in this segment.However this charity has very odd rules about the recommendations. Because of those rules the recommendations are given in such a way that for every two recommendation[a,b]and[c,d]one of the following conditions holds:The two segments are completely disjoint. More formally eithera≤b<c≤dorc≤d<a≤bOne of the two segments are inside another. More formally eithera≤c≤d≤borc≤a≤b≤d.Thegoodnessof a charity is the value of maximum money a person has after Malek finishes giving his money. The institute knows for each recommendation what is the probability that Malek will accept it. They want to know the expected value ofgoodnessof this charity. So they asked you for help.You have been given the list of recommendations and for each recommendation the probability of it being accepted by Malek. You have also been given how much money each person initially has. You must find the expected value ofgoodness.InputIn the first line two space-separated integersn,q(1 ≤n≤ 105,1 ≤q≤ 5000) are given.In the second linenspace-separated integersa1,a2, ...,an(0 ≤ai≤ 109) are given meaning that person numberiinitially hasaidollars.Each of the nextqlines contains three space-separated numbersli,ri,pi(1 ≤li≤ri≤n,0 ≤p≤ 1) whereliandriare two integers describing the segment of recommendation andpiis a real number given with exactly three digits after decimal point which is equal to probability of Malek accepting this recommendation.Note that a segment may appear several times in recommendations.OutputOutput the sought value. Your answer will be considered correct if its absolute or relative error is less than10- 6.ExamplesInput5 21 7 2 4 31 3 0.5002 2 0.500Output8.000000000Input5 2281 280 279 278 2821 4 1.0001 4 0.000Output282.000000000Input3 51 2 31 3 0.5002 2 0.2501 2 0.8001 1 0.1202 2 0.900Output4.465000000",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,12 @@
+{
+    "uid": "869-A",
+    "url": "https://codeforces.com/contest/869/problem/A",
+    "tags": [
+        "brute force",
+        " implementation"
+    ],
+    "title": "869-A",
+    "statement": "A. The Artful Expedienttime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputRock... Paper!After Karen have found the deterministic winning (losing?) strategy for rock-paper-scissors, her brother, Koyomi, comes up with a new game as a substitute. The game works as follows.A positive integernis decided first. Both Koyomi and Karen independently choosendistinct positive integers, denoted byx1,x2, ...,xnandy1,y2, ...,ynrespectively. They reveal their sequences, and repeat untilall of2nintegers become distinct, which is the only final state to be kept and considered.Then they count the number of ordered pairs(i,j)(1 ≤i,j≤n) such that the valuexixoryjequals to one of the2nintegers. Herexormeans thebitwise exclusive oroperation on two integers, and is denoted by operators^and/orxorin most programming languages.Karen claims a win if the number of such pairs is even, and Koyomi does otherwise. And you're here to help determine the winner of their latest game.InputThe first line of input contains a positive integern(1 ≤n≤ 2 000) — the length of both sequences.The second line containsnspace-separated integersx1,x2, ...,xn(1 ≤xi≤ 2·106) — the integers finally chosen by Koyomi.The third line containsnspace-separated integersy1,y2, ...,yn(1 ≤yi≤ 2·106) — the integers finally chosen by Karen.Input guarantees thatthe given2nintegers are pairwise distinct, that is, no pair(i,j)(1 ≤i,j≤n) exists such that one of the following holds:xi=yj;i≠jandxi=xj;i≠jandyi=yj.OutputOutput one line — the name of the winner, that is, \"Koyomi\" or \"Karen\" (without quotes). Please be aware of the capitalization.ExamplesInput31 2 34 5 6OutputKarenInput52 4 6 8 109 7 5 3 1OutputKarenNoteIn the first example, there are6pairs satisfying the constraint:(1, 1),(1, 2),(2, 1),(2, 3),(3, 2)and(3, 3). Thus, Karen wins since6is an even number.In the second example, there are16such pairs, and Karen wins again.",
+    "source": "CF",
+    "vjudge": false
+}

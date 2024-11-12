@@ -1,0 +1,12 @@
+{
+    "uid": "103-E",
+    "url": "https://codeforces.com/contest/103/problem/E",
+    "tags": [
+        "flows",
+        " graph matchings"
+    ],
+    "title": "103-E",
+    "statement": "E. Buying Setstime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutThe Hexadecimal virus loves playing with number sets — intersecting them, uniting them. One beautiful day she was surprised to find out that Scuzzy, her spherical pet cat, united all sets in one and ate the result! Something had to be done quickly and Hexadecimal rushed to the market.The market hasnsets of numbers on sale. The virus wants to buy the following collection of sets: the number of sets in the collection should be exactly the same as the number of numbers in the union of all bought sets. Moreover, Hexadecimal wants to buy the cheapest suitable collection of set.Yet nothing's so easy! As Mainframe is a kingdom of pure rivalry markets, we know that the union of anyksets contains no less thankdistinct numbers (for every positive integerk).Help the virus choose the suitable collection of sets. The collection can be empty.InputThe first line contains the only numbern(1 ≤n≤ 300) — the number of sets available in the market.Nextnlines describe the goods: first we are givenmi(1 ≤mi≤n) — the number of distinct numbers in thei-th set, then followminumbers — the set's elements. We know that the set's elements are distinct positive integers and they do not exceedn.The last line containsnintegers whose absolute values do not exceed106— the price of each set.OutputPrint a single number — the minimum price the virus will have to pay for such a collection ofksets that union of the collection's sets would have exactlykdistinct numbers ().ExamplesInput31 12 2 31 310 20 -3Output-3Input52 1 22 2 32 3 42 4 52 5 11 -1 1 -1 1Output0Input52 1 22 2 32 3 42 4 52 5 1-1 1 -1 1 -1Output-1",
+    "source": "CF",
+    "vjudge": false
+}

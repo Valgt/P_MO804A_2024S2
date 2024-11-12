@@ -1,0 +1,13 @@
+{
+    "uid": "212-B",
+    "url": "https://codeforces.com/contest/212/problem/B",
+    "tags": [
+        "bitmasks",
+        " hashing",
+        " implementation"
+    ],
+    "title": "212-B",
+    "statement": "B. Polycarpus is Looking for Good Substringstime limit per test4 secondsmemory limit per test256 megabytesinputstdinoutputstdoutWe'll call strings[a,b] =sasa+ 1...sb(1 ≤a≤b≤ |s|)asubstringof strings=s1s2...s|s|, where|s|is the length of strings.Thetraceof a non-empty stringtis a set of characters that the string consists of. For example, the trace of string \"aab\" equals {'a', 'b'}.Let's consider an arbitrary stringsand the set of its substrings with trace equal toC. We will denote the number of substrings from this set that are maximal by inclusion byr(C,s). Substrings[a,b]of lengthn=b-a+ 1belonging to some set is called maximal by inclusion, if there is no substrings[x,y]in this set with length greater thann, such that1 ≤x≤a≤b≤y≤ |s|. Two substrings of stringsare considered different even if they are equal but they are located at different positions ofs.Polycarpus got a challenging practical task on a stringology exam. He must do the following: given stringsand non-empty sets of charactersC1,C2,...,Cm, findr(Ci,s)for each setCi. Help Polycarpus to solve the problem as he really doesn't want to be expelled from the university and go to the army!InputThe first line contains a non-empty strings(1 ≤ |s| ≤ 106).The second line contains a single integerm(1 ≤m≤ 104). Nextmlines contain descriptions of setsCi. Thei-th line contains stringcisuch that its trace equalsCi. It is guaranteed that all characters of each stringciare different.Note thatCiare not necessarily different. All given strings consist of lowercase English letters.OutputPrintmintegers — thei-th integer must equalr(Ci,s).ExamplesInputaaaaa2aaOutput11Inputabacaba3acbaaOutput124",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,12 @@
+{
+    "uid": "319-B",
+    "url": "https://codeforces.com/contest/319/problem/B",
+    "tags": [
+        "data structures",
+        " implementation"
+    ],
+    "title": "319-B",
+    "statement": "B. Psychos in a Linetime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutThere arenpsychos standing in a line. Each psycho is assigned a unique integer from1ton. At each step every psycho who has an id greater than the psycho to his right (if exists) kills his right neighbor in the line. Note that a psycho might kill and get killed at the same step.You're given the initial arrangement of the psychos in the line. Calculate how many steps are needed to the moment of time such, that nobody kills his neighbor after that moment. Look notes to understand the statement more precise.InputThe first line of input contains integerndenoting the number of psychos,(1 ≤n≤ 105). In the second line there will be a list ofnspace separated distinct integers each in range1ton, inclusive — ids of the psychos in the line from left to right.OutputPrint the number of steps, so that the line remains the same afterward.ExamplesInput1010 9 7 8 6 5 3 4 2 1Output2Input61 2 3 4 5 6Output0NoteIn the first sample line of the psychos transforms as follows: [10 9 7 8 6 5 3 4 2 1]→[10 8 4]→[10]. So, there are two steps.",
+    "source": "CF",
+    "vjudge": false
+}

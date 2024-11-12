@@ -1,0 +1,11 @@
+{
+    "uid": "32-D",
+    "url": "https://codeforces.com/contest/32/problem/D",
+    "tags": [
+        "implementation"
+    ],
+    "title": "32-D",
+    "statement": "D. Constellationtime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutA star map in Berland is a checked fieldn×msquares. In each square there is or there is not a star. The favourite constellation of all Berland's astronomers is the constellation of the Cross. This constellation can be formed by any 5 stars so, that for some integerx(radius of the constellation) the following is true:the 2nd is on the same vertical line as the 1st, butxsquares upthe 3rd is on the same vertical line as the 1st, butxsquares downthe 4th is on the same horizontal line as the 1st, butxsquares leftthe 5th is on the same horizontal line as the 1st, butxsquares rightSuch constellations can be very numerous, that's why they are numbered with integers from 1 on the following principle: when two constellations are compared, the one with a smaller radius gets a smaller index; if their radii are equal — the one, whose central star if higher than the central star of the other one; if their central stars are at the same level — the one, whose central star is to the left of the central star of the other one.Your task is to find the constellation with indexkby the given Berland's star map.InputThe first line contains three integersn,mandk(1 ≤n,m≤ 300, 1 ≤k≤ 3·107) — height and width of the map and index of the required constellation respectively. The upper-left corner has coordinates(1, 1), and the lower-right —(n,m). Then there follownlines,mcharacters each — description of the map.j-th character ini-th line is «*», if there is a star in the corresponding square, and «.» if this square is empty.OutputIf the number of the constellations is less thank, output-1. Otherwise output 5 lines, two integers each — coordinates of the required constellation. Output the stars in the following order: central, upper, lower, left, right.ExamplesInput5 6 1....*....***....*...*....***..Output2 51 53 52 42 6Input5 6 2....*....***....*...*....***..Output-1Input7 7 2...*.............*...*.***.*...*.............*...Output4 41 47 44 14 7",
+    "source": "CF",
+    "vjudge": false
+}

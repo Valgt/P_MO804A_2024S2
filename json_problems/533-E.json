@@ -1,0 +1,16 @@
+{
+    "uid": "533-E",
+    "url": "https://codeforces.com/contest/533/problem/E",
+    "tags": [
+        "constructive algorithms",
+        " dp",
+        " greedy",
+        " hashing",
+        " strings",
+        " two pointers"
+    ],
+    "title": "533-E",
+    "statement": "E. Correcting Mistakestime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputAnalyzing the mistakes people make while typing search queries is a complex and an interesting work. As there is no guaranteed way to determine what the user originally meant by typing some query, we have to use different sorts of heuristics.Polycarp needed to write a code that could, given two words, check whether they could have been obtained from the same word as a result of typos. Polycarpus suggested that the most common typo is skipping exactly one letter as you type a word.Implement a program that can, given two distinct wordsSandTof the same lengthndetermine how many wordsWof lengthn+ 1are there with such property that you can transformWinto bothS, andTby deleting exactly one character. WordsSandTconsist of lowercase English letters. WordWalso should consist of lowercase English letters.InputThe first line contains integern(1 ≤n≤ 100 000) — the length of wordsSandT.The second line contains wordS.The third line contains wordT.WordsSandTconsist of lowercase English letters. It is guaranteed thatSandTare distinct words.OutputPrint a single integer — the number of distinct wordsWthat can be transformed toSandTdue to a typo.ExamplesInput7readingtradingOutput1Input5sweetsheepOutput0Input3toytryOutput2NoteIn the first sample test the two given words could be obtained only from word \"treading\" (the deleted letters are marked in bold).In the second sample test the two given words couldn't be obtained from the same word by removing one letter.In the third sample test the two given words could be obtained from either word \"tory\" or word \"troy\".",
+    "source": "CF",
+    "vjudge": false
+}

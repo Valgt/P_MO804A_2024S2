@@ -1,0 +1,11 @@
+{
+    "uid": "958-E3",
+    "url": "https://codeforces.com/contest/958/problem/E3",
+    "tags": [
+        "geometry"
+    ],
+    "title": "958-E3",
+    "statement": "E3. Guard Duty (hard)time limit per test5 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputNow that Heidi knows that she can assign Rebel spaceships to bases (recall the easy subtask), she is asking you: howexactlyto do this? Now, given positions ofNspaceships andNbases on a plane, your task is to connect spaceships and bases with line segments so that:The segments do not intersect.Such a connection forms a perfect matching.InputThe first line contains an integerN(1 ≤n≤ 10000). For1 ≤i≤N, thei+ 1-th line contains two integersxiandyi(|xi|, |yi| ≤ 10000) denoting the coordinates of thei-th spaceship. The followingNlines have the same format, denoting the position of bases. It is guaranteed that no two points coincide and no three points are on the same line.OutputThe output should haveNlines. Thei-th line should contain an integerpi, the index of the base to which thei-th spaceship is connected. The sequencep1, ...,pNshould form a permutation of1, ...,N.It is guaranteed that a solution exists. If there are multiple solutions, you can output any one of them.ExampleInput46 65 12 44 05 41 22 13 5Output4123",
+    "source": "CF",
+    "vjudge": false
+}

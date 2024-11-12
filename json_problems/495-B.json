@@ -1,0 +1,12 @@
+{
+    "uid": "495-B",
+    "url": "https://codeforces.com/contest/495/problem/B",
+    "tags": [
+        "math",
+        " number theory"
+    ],
+    "title": "495-B",
+    "statement": "B. Modular Equationstime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutLast week, Hamed learned about a new type of equations in his math class called Modular Equations. Lets defineimodulojas the remainder of division ofibyjand denote it by. A Modular Equation, as Hamed's teacher described, is an equation of the formin whichaandbare two non-negative integers andxis a variable. We call a positive integerxfor whichasolutionof our equation.Hamed didn't pay much attention to the class since he was watching a movie. He only managed to understand the definitions of these equations.Now he wants to write his math exercises but since he has no idea how to do that, he asked you for help. He has told you all he knows about Modular Equations and asked you to write a program which given two numbersaandbdetermines how many answers the Modular Equationhas.InputIn the only line of the input two space-separated integersaandb(0 ≤a,b≤ 109) are given.OutputIf there is an infinite number of answers to our equation, print \"infinity\" (without the quotes). Otherwise print the number of solutions of the Modular Equation.ExamplesInput21 5Output2Input9435152 272Output282Input10 10OutputinfinityNoteIn the first sample the answers of the Modular Equation are 8 and 16 since",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,12 @@
+{
+    "uid": "576-D",
+    "url": "https://codeforces.com/contest/576/problem/D",
+    "tags": [
+        "dp",
+        " matrices"
+    ],
+    "title": "576-D",
+    "statement": "D. Flights for Regular Customerstime limit per test4 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputIn the country there are exactlyncities numbered with positive integers from1ton. In each city there is an airport is located.Also, there is the only one airline, which makesmflights. Unfortunately, to use them, you need to be a regular customer of this company, namely, you have the opportunity to enjoy flightifrom cityaito citybionly if you have already made at leastdiflights before that.Please note that flightiflies exactly from cityaito citybi. It can not be used to fly from citybito cityai. An interesting fact is that there may possibly be recreational flights with a beautiful view of the sky, which begin and end in the same city.You need to get from city1to cityn. Unfortunately, you've never traveled by plane before. What minimum number of flights you have to perform in order to get to cityn?Note that the same flight can be used multiple times.InputThe first line contains two integers,nandm(2 ≤n≤ 150,1 ≤m≤ 150) — the number of cities in the country and the number of flights the company provides.Nextmlines contain numbersai,bi,di(1 ≤ai,bi≤n,0 ≤di≤ 109), representing flight numberifrom cityaito citybi, accessible to only the clients who have made at leastdiflights.OutputPrint \"Impossible\" (without the quotes), if it is impossible to get from city1to citynusing the airways.But if there is at least one way, print a single integer — the minimum number of flights you need to make to get to the destination point.ExamplesInput3 21 2 02 3 1Output2Input2 11 2 100500OutputImpossibleInput3 32 1 02 3 61 2 0Output8",
+    "source": "CF",
+    "vjudge": false
+}

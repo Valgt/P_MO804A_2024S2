@@ -1,0 +1,15 @@
+{
+    "uid": "914-G",
+    "url": "https://codeforces.com/contest/914/problem/G",
+    "tags": [
+        "bitmasks",
+        " divide and conquer",
+        " dp",
+        " fft",
+        " math"
+    ],
+    "title": "914-G",
+    "statement": "G. Sum the Fibonaccitime limit per test4 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given an arraysofnnon-negative integers.A 5-tuple of integers(a,b,c,d,e)is said to be valid if it satisfies the following conditions:1 ≤a,b,c,d,e≤n(sa|sb)&sc&(sd^se) = 2ifor some integerisa&sb= 0Here, '|' is the bitwise OR, '&' is the bitwise AND and '^' is the bitwise XOR operation.Find the sum off(sa|sb) *f(sc) *f(sd^se)over all valid 5-tuples(a,b,c,d,e), wheref(i)is thei-th Fibonnaci number (f(0) = 0,f(1) = 1,f(i) =f(i- 1) +f(i- 2)).Since answer can be is huge output it modulo109+ 7.InputThe first line of input contains an integern(1 ≤n≤ 106).The second line of input containsnintegerssi(0 ≤si< 217).OutputOutput the sum as described above, modulo109+ 7ExamplesInput21 2Output32Input37 4 1Output3520Input101 3 0 7 3 7 6 5 7 5Output1235424Input1050 9 11 44 39 40 5 39 23 7Output113860062",
+    "source": "CF",
+    "vjudge": false
+}

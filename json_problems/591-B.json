@@ -1,0 +1,12 @@
+{
+    "uid": "591-B",
+    "url": "https://codeforces.com/contest/591/problem/B",
+    "tags": [
+        "implementation",
+        " strings"
+    ],
+    "title": "591-B",
+    "statement": "B. Rebrandingtime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputThe name of one small but proud corporation consists ofnlowercase English letters. The Corporation has decided to try rebranding — an active marketing strategy, that includes a set of measures to change either the brand (both for the company and the goods it produces) or its components: the name, the logo, the slogan. They decided to start with the name.For this purpose the corporation has consecutively hiredmdesigners. Once a company hires thei-th designer, he immediately contributes to the creation of a new corporation name as follows: he takes the newest version of the name and replaces all the lettersxibyyi, and all the lettersyibyxi. This results in the new version. It is possible that some of these letters do no occur in the string. It may also happen thatxicoincides withyi. The version of the name received after the work of the last designer becomes the new name of the corporation.Manager Arkady has recently got a job in this company, but is already soaked in the spirit of teamwork and is very worried about the success of the rebranding. Naturally, he can't wait to find out what is the new name the Corporation will receive.Satisfy Arkady's curiosity and tell him the final version of the name.InputThe first line of the input contains two integersnandm(1 ≤n,m≤ 200 000) — the length of the initial name and the number of designers hired, respectively.The second line consists ofnlowercase English letters and represents the original name of the corporation.Nextmlines contain the descriptions of the designers' actions: thei-th of them contains two space-separated lowercase English lettersxiandyi.OutputPrint the new name of the corporation.ExamplesInput6 1policep mOutputmoliceInput11 6abacabadabaa bb ca de gf ab bOutputcdcbcdcfcdcNoteIn the second sample the name of the corporation consecutively changes as follows:",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,11 @@
+{
+    "uid": "55-C",
+    "url": "https://codeforces.com/contest/55/problem/C",
+    "tags": [
+        "games"
+    ],
+    "title": "55-C",
+    "statement": "C. Pie or dietime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutVolodya and Vlad play the following game. There arekpies at the cells ofn×mboard. Each turn Volodya moves one pie to the neighbouring (by side) cell. If the pie lies at the border of the board then Volodya can move it outside the board, get the pie and win. After Volodya's move, Vlad bans some edge at the border of the board of length 1 (between two knots of the board) so that Volodya is not able to move the pie outside the board through this edge anymore. The question is: will Volodya win this game? We suppose both players follow the optimal strategy.InputFirst line contains 3 integers, separated by space:1 ≤n,m≤ 100— dimensions of the board and0 ≤k≤ 100— the number of pies. Each of the nextklines contains 2 integers, separated by space:1 ≤x≤n,1 ≤y≤m— coordinates of the corresponding pie. There could be more than one pie at a cell.OutputOutput only one word: \"YES\" — if Volodya wins, \"NO\" — otherwise.ExamplesInput2 2 11 2OutputYESInput3 4 0OutputNOInput100 50 250 2550 25OutputNO",
+    "source": "CF",
+    "vjudge": false
+}

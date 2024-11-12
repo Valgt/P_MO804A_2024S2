@@ -1,0 +1,12 @@
+{
+    "uid": "1012-D",
+    "url": "https://codeforces.com/contest/1012/problem/D",
+    "tags": [
+        "constructive algorithms",
+        " strings"
+    ],
+    "title": "1012-D",
+    "statement": "D. AB-Stringstime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputThere are two stringssandt, consisting only of lettersaandb. You can make the following operation several times: choose a prefix ofs, a prefix oftand swap them. Prefixescan be empty, also a prefix can coincide with a whole string.Your task is to find a sequence of operations after which one of the strings consists only ofaletters and the other consists only ofbletters. The number of operations should beminimized.InputThe first line contains a strings(1 ≤ |s| ≤ 2·105).The second line contains a stringt(1 ≤ |t| ≤ 2·105).Here|s|and|t|denote the lengths ofsandt, respectively. It is guaranteed that at least one of the strings contains at least onealetter and at least one of the strings contains at least onebletter.OutputThe first line should contain a single integern(0 ≤n≤ 5·105) — the number of operations.Each of the nextnlines should contain two space-separated integersai,bi— the lengths of prefixes ofsandtto swap, respectively.If there are multiple possible solutions, you can print any of them. It's guaranteed that a solution with given constraints exists.ExamplesInputbabbbOutput21 01 3InputbbbbaaaOutput0NoteIn the first example, you can solve the problem in two operations:Swap the prefix of the first string with length1and the prefix of the second string with length0. After this swap, you'll have stringsabandbbb.Swap the prefix of the first string with length1and the prefix of the second string with length3. After this swap, you'll have stringsbbbbanda.In the second example, the strings are already appropriate, so no operations are needed.",
+    "source": "CF",
+    "vjudge": false
+}

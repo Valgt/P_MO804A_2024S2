@@ -1,0 +1,11 @@
+{
+    "uid": "106-C",
+    "url": "https://codeforces.com/contest/106/problem/C",
+    "tags": [
+        "dp"
+    ],
+    "title": "106-C",
+    "statement": "C. Bunstime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutLavrenty, a baker, is going to make several buns with stuffings and sell them.Lavrenty hasngrams of dough as well asmdifferent stuffing types. The stuffing types are numerated from 1 tom. Lavrenty knows that he hasaigrams left of thei-th stuffing. It takes exactlybigrams of stuffingiandcigrams of dough to cook a bun with thei-th stuffing. Such bun can be sold forditugriks.Also he can make bunswithout stuffings. Each of such buns requiresc0grams of dough and it can be sold ford0tugriks. So Lavrenty can cook any number of buns with different stuffings or without it unless he runs out of dough and the stuffings. Lavrenty throws away all excess material left after baking.Find the maximum number of tugriks Lavrenty can earn.InputThe first line contains4integersn,m,c0andd0(1 ≤n≤ 1000,1 ≤m≤ 10,1 ≤c0,d0≤ 100). Each of the followingmlines contains4integers. Thei-th line contains numbersai,bi,cianddi(1 ≤ai,bi,ci,di≤ 100).OutputPrint the only number — the maximum number of tugriks Lavrenty can earn.ExamplesInput10 2 2 17 3 2 10012 3 1 10Output241Input100 1 25 5015 5 20 10Output200NoteTo get the maximum number of tugriks in the first sample, you need to cook 2 buns with stuffing 1, 4 buns with stuffing 2 and a bun without any stuffing.In the second sample Lavrenty should cook 4 buns without stuffings.",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,12 @@
+{
+    "uid": "462-A",
+    "url": "https://codeforces.com/contest/462/problem/A",
+    "tags": [
+        "brute force",
+        " implementation"
+    ],
+    "title": "462-A",
+    "statement": "A. Appleman and Easy Tasktime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutToastman came up with a very easy task. He gives it to Appleman, but Appleman doesn't know how to solve it. Can you help him?Given an×ncheckerboard. Each cell of the board has either character 'x', or character 'o'. Is it true that each cell of the board has even number of adjacent cells with 'o'? Two cells of the board are adjacent if they share a side.InputThe first line contains an integern(1 ≤n≤ 100). Thennlines follow containing the description of the checkerboard. Each of them containsncharacters (either 'x' or 'o') without spaces.OutputPrint \"YES\" or \"NO\" (without the quotes) depending on the answer to the problem.ExamplesInput3xxoxoxoxxOutputYESInput4xxxoxoxooxoxxxxxOutputNO",
+    "source": "CF",
+    "vjudge": false
+}

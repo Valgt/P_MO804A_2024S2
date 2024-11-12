@@ -1,0 +1,12 @@
+{
+    "uid": "613-C",
+    "url": "https://codeforces.com/contest/613/problem/C",
+    "tags": [
+        "constructive algorithms",
+        " math"
+    ],
+    "title": "613-C",
+    "statement": "C. Necklacetime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputIvan wants to make a necklace as a present to his beloved girl. Anecklaceis a cyclic sequence of beads of different colors. Ivan says that necklace isbeautifulrelative to the cut point between two adjacent beads, if the chain of beads remaining after this cut is a palindrome (reads the same forward and backward).Ivan has beads ofncolors. He wants to make a necklace, such that it's beautiful relative to as many cuts as possible. He certainly wants to use all the beads. Help him to make the most beautiful necklace.InputThe first line of the input contains a single numbern(1 ≤n≤ 26) — the number of colors of beads. The second line contains afternpositive integersai— the quantity of beads ofi-th color. It is guaranteed that the sum ofaiis at least 2 and does not exceed100 000.OutputIn the first line print a single number — the maximum number of beautiful cuts that a necklace composed from given beads may have. In the second line print any example of such necklace.Each color of the beads should be represented by the corresponding lowercase English letter (starting witha). As the necklace is cyclic, print it starting from any point.ExamplesInput34 2 1Output1abacabaInput14Output4aaaaInput21 1Output0abNoteIn the first sample a necklace can have at most one beautiful cut. The example of such a necklace is shown on the picture.In the second sample there is only one way to compose a necklace.",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,11 @@
+{
+    "uid": "365-B",
+    "url": "https://codeforces.com/contest/365/problem/B",
+    "tags": [
+        "implementation"
+    ],
+    "title": "365-B",
+    "statement": "B. The Fibonacci Segmenttime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutYou have arraya1,a2, ...,an. Segment[l,r](1 ≤l≤r≤n) is good ifai=ai- 1+ai- 2, for alli(l+ 2 ≤i≤r).Let's definelen([l,r]) =r-l+ 1,len([l,r])is the length of the segment[l,r]. Segment[l1,r1], is longer than segment[l2,r2], iflen([l1,r1]) >len([l2,r2]).Your task is to find a good segment of the maximum length in arraya. Note that a segment of length1or2is always good.InputThe first line contains a single integern(1 ≤n≤ 105) — the number of elements in the array. The second line contains integers:a1,a2, ...,an(0 ≤ai≤ 109).OutputPrint the length of the longest good segment in arraya.ExamplesInput101 2 3 5 8 13 21 34 55 89Output10Input51 1 1 1 1Output2",
+    "source": "CF",
+    "vjudge": false
+}

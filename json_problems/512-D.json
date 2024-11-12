@@ -1,0 +1,12 @@
+{
+    "uid": "512-D",
+    "url": "https://codeforces.com/contest/512/problem/D",
+    "tags": [
+        "dp",
+        " trees"
+    ],
+    "title": "512-D",
+    "statement": "D. Fox And Travellingtime limit per test3 secondsmemory limit per test256 megabytesinputstdinoutputstdoutFox Ciel is going to travel to New Foxland during this summer.New Foxland hasnattractions that are linked bymundirected roads. Two attractions are called adjacent if they are linked by a road. Fox Ciel haskdays to visit this city and each day she will visit exactly one attraction.There is one important rule in New Foxland: you can't visit an attraction if it has more than one adjacent attraction that you haven't visited yet.At the beginning Fox Ciel haven't visited any attraction. During her travelling she may move aribtrarly between attraction. After visiting attractiona, she may travel toanyattractionbsatisfying conditions above that hasn't been visited yet, even if it is not reachable fromaby using the roads (Ciel uses boat for travelling between attractions, so it is possible).She wants to know how many different travelling plans she can make. Calculate this number modulo109+ 9for everykfrom0tonsince she hasn't decided for how many days she is visiting New Foxland.InputFirst line contains two integers:n,m(1 ≤n≤ 100,), the number of attractions and number of undirected roads.Then nextmlines each contain two integersaiandbi(1 ≤ai,bi≤nandai≠bi), describing a road. There is no more than one road connecting each pair of attractions.OutputOutputn+ 1integer: the number of possible travelling plans modulo109+ 9for allkfrom0ton.ExamplesInput3 21 22 3Output1244Input4 41 22 33 44 1Output10000Input12 112 34 74 55 64 66 125 125 88 910 811 9Output163113548313803060504050400000Input13 0Output113156171617160154440123552086486405189184025945920037836791113510373227020746227020746NoteIn the first sample test fork= 3there are 4 travelling plans:{1, 2, 3}, {1, 3, 2}, {3, 1, 2}, {3, 2, 1}.In the second sample test Ciel can't visit any attraction in the first day, so fork> 0the answer is0.In the third sample test Foxlands look like this:",
+    "source": "CF",
+    "vjudge": false
+}

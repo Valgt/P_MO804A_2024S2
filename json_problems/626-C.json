@@ -1,0 +1,14 @@
+{
+    "uid": "626-C",
+    "url": "https://codeforces.com/contest/626/problem/C",
+    "tags": [
+        "brute force",
+        " greedy",
+        " math",
+        " number theory"
+    ],
+    "title": "626-C",
+    "statement": "C. Block Towerstime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputStudents in a class are making towers of blocks. Each student makes a (non-zero) tower by stacking pieces lengthwise on top of each other.nof the students use pieces made of two blocks andmof the students use pieces made of three blocks.The students don’t want to use too many blocks, but they also want to be unique, so no two students’ towers may contain the same number of blocks. Find the minimum height necessary for the tallest of the students' towers.InputThe first line of the input contains two space-separated integersnandm(0 ≤n,m≤ 1 000 000,n+m> 0) — the number of students using two-block pieces and the number of students using three-block pieces, respectively.OutputPrint a single integer, denoting the minimum possible height of the tallest tower.ExamplesInput1 3Output9Input3 2Output8Input5 0Output10NoteIn the first case, the student using two-block pieces can make a tower of height4, and the students using three-block pieces can make towers of height3,6, and9blocks. The tallest tower has a height of9blocks.In the second case, the students can make towers of heights2,4, and8with two-block pieces and towers of heights3and6with three-block pieces, for a maximum height of8blocks.",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,12 @@
+{
+    "uid": "157-B",
+    "url": "https://codeforces.com/contest/157/problem/B",
+    "tags": [
+        "geometry",
+        " sortings"
+    ],
+    "title": "157-B",
+    "statement": "B. Tracetime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutOne day, as Sherlock Holmes was tracking down one very important criminal, he found a wonderful painting on the wall. This wall could be represented as a plane. The painting had several concentric circles that divided the wall into several parts. Some parts were painted red and all the other were painted blue. Besides, any two neighboring parts were painted different colors, that is, the red and the blue color were alternating, i. e. followed one after the other. The outer area of the wall (the area that lied outside all circles) was painted blue. Help Sherlock Holmes determine the total area of red parts of the wall.Let us remind you that two circles are called concentric if their centers coincide. Several circles are called concentric if any two of them are concentric.InputThe first line contains the single integern(1 ≤n≤ 100). The second line containsnspace-separated integersri(1 ≤ri≤ 1000) — the circles' radii. It is guaranteed that all circles are different.OutputPrint the single real number — total area of the part of the wall that is painted red. The answer is accepted if absolute or relative error doesn't exceed10- 4.ExamplesInput11Output3.1415926536Input31 4 2Output40.8407044967NoteIn the first sample the picture is just one circle of radius1. Inner part of the circle is painted red. The area of the red part equalsπ × 12= π.In the second sample there are three circles of radii1,4and2. Outside part of the second circle is painted blue. Part between the second and the third circles is painted red. Part between the first and the third is painted blue. And, finally, the inner part of the first circle is painted red. Overall there are two red parts: the ring between the second and the third circles and the inner part of the first circle. Total area of the red parts is equal(π × 42- π × 22) + π × 12= π × 12 + π = 13π",
+    "source": "CF",
+    "vjudge": false
+}

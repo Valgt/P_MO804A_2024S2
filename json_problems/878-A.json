@@ -1,0 +1,12 @@
+{
+    "uid": "878-A",
+    "url": "https://codeforces.com/contest/878/problem/A",
+    "tags": [
+        "bitmasks",
+        " constructive algorithms"
+    ],
+    "title": "878-A",
+    "statement": "A. Short Programtime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputPetya learned a new programming language CALPAS. A program in this language always takes one non-negative integer and returns one non-negative integer as well.In the language, there are only three commands: apply a bitwise operation AND, OR or XOR with a given constant to the current integer. A program can contain an arbitrary sequence of these operations with arbitrary constants from0to1023. When the program is run, all operations are applied (in the given order) to the argument and in the end the result integer is returned.Petya wrote a program in this language, but it turned out to be too long. Write a program in CALPAS that does the same thing as the Petya's program, and consists of no more than5lines. Your program should return the same integer as Petya's program for all arguments from0to1023.InputThe first line contains an integern(1 ≤n≤ 5·105) — the number of lines.Nextnlines contain commands. A command consists of a character that represents the operation (\"&\", \"|\" or \"^\" for AND, OR or XOR respectively), and the constantxi0 ≤xi≤ 1023.OutputOutput an integerk(0 ≤k≤ 5) — the length of your program.Nextklines must contain commands in the same format as in the input.ExamplesInput3| 3^ 2| 1Output2| 3^ 2Input3& 1& 3& 5Output1& 1Input3^ 1^ 2^ 3Output0NoteYou can read about bitwise operations inhttps://en.wikipedia.org/wiki/Bitwise_operation.Second sample:Letxbe an input of the Petya's program. It's output is((x&1)&3)&5 =x&(1&3&5) =x&1. So these two programs always give the same outputs.",
+    "source": "CF",
+    "vjudge": false
+}

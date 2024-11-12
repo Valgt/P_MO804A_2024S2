@@ -1,0 +1,11 @@
+{
+    "uid": "41-B",
+    "url": "https://codeforces.com/contest/41/problem/B",
+    "tags": [
+        "brute force"
+    ],
+    "title": "41-B",
+    "statement": "B. Martian Dollartime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutOne day Vasya got hold of information on the Martian dollar course in bourles for the nextndays. The buying prices and the selling prices for one dollar on dayiare the same and are equal toai. Vasya hasbbourles. He can buy a certain number of dollars and then sell it no more than once inndays. According to Martian laws, one can buy only an integer number of dollars. Which maximal sum of money in bourles can Vasya get by the end of dayn?InputThe first line contains two integersnandb(1 ≤n,b≤ 2000) — the number of days and the initial number of money in bourles. The next line containsnintegersai(1 ≤ai≤ 2000) — the prices of Martian dollars.OutputPrint the single number — which maximal sum of money in bourles can Vasya get by the end of dayn.ExamplesInput2 43 7Output8Input4 104 3 2 1Output10Input4 104 2 3 1Output15",
+    "source": "CF",
+    "vjudge": false
+}

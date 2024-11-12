@@ -1,0 +1,13 @@
+{
+    "uid": "615-E",
+    "url": "https://codeforces.com/contest/615/problem/E",
+    "tags": [
+        "binary search",
+        " implementation",
+        " math"
+    ],
+    "title": "615-E",
+    "statement": "E. Hexagonstime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputAyrat is looking for the perfect code. He decided to start his search from an infinite field tiled by hexagons. For convenience the coordinate system is introduced, take a look at the picture to see how the coordinates of hexagon are defined:Ayrat is searching through the field. He started at point(0, 0)and is moving along the spiral (see second picture). Sometimes he forgets where he is now. Help Ayrat determine his location afternmoves.InputThe only line of the input contains integern(0 ≤n≤ 1018) — the number of Ayrat's moves.OutputPrint two integersxandy— current coordinates of Ayrat coordinates.ExamplesInput3Output-2 0Input7Output3 2",
+    "source": "CF",
+    "vjudge": false
+}

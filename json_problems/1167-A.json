@@ -1,0 +1,13 @@
+{
+    "uid": "1167-A",
+    "url": "https://codeforces.com/contest/1167/problem/A",
+    "tags": [
+        "brute force",
+        " greedy",
+        " strings"
+    ],
+    "title": "1167-A",
+    "statement": "A. Telephone Numbertime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputA telephone number is a sequence of exactly11digits, where the first digit is8. For example, the sequence80011223388is a telephone number, but the sequences70011223388and80000011223388are not.You are given a string $$$s$$$ of length $$$n$$$, consisting of digits.In one operation you can delete any character from string $$$s$$$. For example, it is possible to obtain strings112,111or121from string1121.You need to determine whether there is such a sequence of operations (possibly empty), after which the string $$$s$$$ becomes a telephone number.InputThe first line contains one integer $$$t$$$ ($$$1 \\\\le t \\\\le 100$$$) — the number of test cases.The first line of each test case contains one integer $$$n$$$ ($$$1 \\\\le n \\\\le 100$$$) — the length of string $$$s$$$.The second line of each test case contains the string $$$s$$$ ($$$|s| = n$$$) consisting of digits.OutputFor each test print one line.If there is a sequence of operations, after which $$$s$$$ becomes a telephone number, printYES.Otherwise, printNO.ExampleInput2 13 7818005553535 11 31415926535OutputYES NONoteIn the first test case you need to delete the first and the third digits. Then the string7818005553535becomes88005553535.",
+    "source": "CF",
+    "vjudge": false
+}

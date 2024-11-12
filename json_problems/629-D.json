@@ -1,0 +1,12 @@
+{
+    "uid": "629-D",
+    "url": "https://codeforces.com/contest/629/problem/D",
+    "tags": [
+        "data structures",
+        " dp"
+    ],
+    "title": "629-D",
+    "statement": "D. Babaei and Birthday Caketime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputAs you know, every birthday party has a cake! This time, Babaei is going to prepare the very special birthday party's cake.Simple cakeis a cylinder of some radius and height. The volume of the simple cake is equal to the volume of corresponding cylinder. Babaei hasnsimple cakes and he is going to make aspecial cakeplacing some cylinders on each other.However, there are some additional culinary restrictions. The cakes are numbered in such a way that the cake numberican be placed only on the table or on some cake numberjwherej<i. Moreover, in order to impress friends Babaei will put the cakeion top of the cakejonly if the volume of the cakeiis strictly greater than the volume of the cakej.Babaei wants to prepare a birthday cake that has a maximum possible total volume. Help him find this value.InputThe first line of the input contains a single integern(1 ≤n≤ 100 000)— the number of simple cakes Babaei has.Each of the followingnlines contains two integersriandhi(1 ≤ri,hi≤ 10 000), giving the radius and height of thei-th cake.OutputPrint the maximum volume of the cake that Babaei can make. Your answer will be considered correct if its absolute or relative error does not exceed10- 6.Namely: let's assume that your answer isa, and the answer of the jury isb. The checker program will consider your answer correct, if.ExamplesInput2100 3040 10Output942477.796077000Input41 19 71 410 7Output3983.539484752NoteIn first sample, the optimal way is to choose the cake number1.In second sample, the way to get the maximum volume is to use cakes with indices1,2and4.",
+    "source": "CF",
+    "vjudge": false
+}

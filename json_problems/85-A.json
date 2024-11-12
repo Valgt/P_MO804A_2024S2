@@ -1,0 +1,12 @@
+{
+    "uid": "85-A",
+    "url": "https://codeforces.com/contest/85/problem/A",
+    "tags": [
+        "constructive algorithms",
+        " implementation"
+    ],
+    "title": "85-A",
+    "statement": "A. Dominotime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutWe all know the problem about the number of ways one can tile a2 ×nfield by1 × 2dominoes. You probably remember that it goes down to Fibonacci numbers. We will talk about some other problem below, there you also are going to deal with tiling a rectangular field with dominoes.You are given a4 ×nrectangular field, that is the field that contains four lines andncolumns. You have to find for it any tiling by1 × 2dominoes such that each of then- 1potential vertical cuts along the grid lines intersects at least one domino, splitting it in two. No two dominoes in the sought tiling should overlap, each square of the field should be covered by exactly one domino. It is allowed to rotate the dominoes, that is, you can use2 × 1as well as1 × 2dominoes.Write a program that finds an arbitrary sought tiling.InputThe input contains one positive integern(1 ≤n≤ 100) — the number of the field's columns.OutputIf there's no solution, print \"-1\" (without the quotes). Otherwise, print four lines containingncharacters each — that's the description of tiling, where each vertical cut intersects at least one domino. You should print the tiling, having painted the field in no more than26colors. Each domino should be painted a color. Different dominoes can be painted the same color, but dominoes of the same color should not be side-neighbouring. To indicate colors you should use lowercase Latin letters. Print any of the acceptable ways of tiling.ExamplesInput4Outputyyzzbccdbxxdyyaa",
+    "source": "CF",
+    "vjudge": false
+}

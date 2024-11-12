@@ -1,0 +1,12 @@
+{
+    "uid": "988-E",
+    "url": "https://codeforces.com/contest/988/problem/E",
+    "tags": [
+        "brute force",
+        " greedy"
+    ],
+    "title": "988-E",
+    "statement": "E. Divisibility by 25time limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given an integer $$$n$$$ from $$$1$$$ to $$$10^{18}$$$ without leading zeroes.In one move you can swap any two adjacent digits in the given number in such a way that the resulting number will not contain leading zeroes. In other words,after each movethe number you have cannot contain any leading zeroes.What is the minimum number of moves you have to make to obtain a number that is divisible by $$$25$$$? Print-1if it is impossible to obtain a number that is divisible by $$$25$$$.InputThe first line contains an integer $$$n$$$ ($$$1 \\\\le n \\\\le 10^{18}$$$). It is guaranteed that the first (left) digit of the number $$$n$$$ is not a zero.OutputIf it is impossible to obtain a number that is divisible by $$$25$$$, print-1. Otherwise print the minimum number of moves required to obtain such number.Note that you can swap only adjacent digits in the given number.ExamplesInput5071Output4Input705Output1Input1241367Output-1NoteIn the first example one of the possible sequences of moves is5071$$$\\\\rightarrow$$$5701$$$\\\\rightarrow$$$7501$$$\\\\rightarrow$$$7510$$$\\\\rightarrow$$$7150.",
+    "source": "CF",
+    "vjudge": false
+}

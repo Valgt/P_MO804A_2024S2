@@ -1,0 +1,15 @@
+{
+    "uid": "576-C",
+    "url": "https://codeforces.com/contest/576/problem/C",
+    "tags": [
+        "constructive algorithms",
+        " divide and conquer",
+        " geometry",
+        " greedy",
+        " sortings"
+    ],
+    "title": "576-C",
+    "statement": "C. Points on Planetime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputOn a plane arenpoints (xi,yi) with integer coordinates between0and106. The distance between the two points with numbersaandbis said to be the following value:(the distance calculated by such formula is calledManhattan distance).We call a hamiltonian path to be some permutationpiof numbers from1ton. We say that the length of this path is value.Find some hamiltonian path with a length of no more than25 × 108. Note that you do not have to minimize the path length.InputThe first line contains integern(1 ≤n≤ 106).Thei+ 1-th line contains the coordinates of thei-th point:xiandyi(0 ≤xi,yi≤ 106).It is guaranteed that no two points coincide.OutputPrint the permutation of numberspifrom1ton— the sought Hamiltonian path. The permutation must meet the inequality.If there are multiple possible answers, print any of them.It is guaranteed that the answer exists.ExamplesInput50 78 103 45 09 12Output4 3 1 2 5NoteIn the sample test the total distance is:(|5 - 3| + |0 - 4|) + (|3 - 0| + |4 - 7|) + (|0 - 8| + |7 - 10|) + (|8 - 9| + |10 - 12|) = 2 + 4 + 3 + 3 + 8 + 3 + 1 + 2 = 26",
+    "source": "CF",
+    "vjudge": false
+}

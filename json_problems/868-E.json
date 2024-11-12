@@ -1,0 +1,13 @@
+{
+    "uid": "868-E",
+    "url": "https://codeforces.com/contest/868/problem/E",
+    "tags": [
+        "dp",
+        " graphs",
+        " trees"
+    ],
+    "title": "868-E",
+    "statement": "E. Policeman and a Treetime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given a tree (a connected non-oriented graph without cycles) with vertices numbered from1ton, and the length of thei-th edge iswi. In the vertexsthere is a policeman, in the verticesx1,x2, ...,xm(xj≠s)mcriminals are located.The policeman can walk along the edges with speed1, the criminals can move with arbitrary large speed. If a criminal at some moment is at the same point as the policeman, he instantly gets caught by the policeman. Determine the time needed for the policeman to catch all criminals, assuming everybody behaves optimally (i.e. the criminals maximize that time, the policeman minimizes that time). Everybody knows positions of everybody else at any moment of time.InputThe first line contains single integern(1 ≤n≤ 50) — the number of vertices in the tree. The nextn- 1lines contain three integers each:ui,vi,wi(1 ≤ui,vi≤n,1 ≤wi≤ 50) denoting edges and their lengths. It is guaranteed that the given graph is a tree.The next line contains single integers(1 ≤s≤n) — the number of vertex where the policeman starts.The next line contains single integerm(1 ≤m≤ 50) — the number of criminals. The next line containsmintegersx1,x2, ...,xm(1 ≤xj≤n,xj≠s) — the number of vertices where the criminals are located.xjare not necessarily distinct.OutputIf the policeman can't catch criminals, print single line \"Terrorists win\" (without quotes).Otherwise, print single integer — the time needed to catch all criminals.ExamplesInput41 2 21 3 11 4 1243 1 4 1Output8Input61 2 32 3 53 4 13 5 42 6 3231 3 5Output21NoteIn the first example one of the optimal scenarios is the following. The criminal number2moves to vertex3, the criminal4— to vertex4. The policeman goes to vertex4and catches two criminals. After that the criminal number1moves to the vertex2. The policeman goes to vertex3and catches criminal2, then goes to the vertex2and catches the remaining criminal.",
+    "source": "CF",
+    "vjudge": false
+}

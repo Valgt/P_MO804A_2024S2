@@ -1,0 +1,12 @@
+{
+    "uid": "1717-E",
+    "url": "https://codeforces.com/contest/1717/problem/E",
+    "tags": [
+        "math",
+        " number theory"
+    ],
+    "title": "1717-E",
+    "statement": "E. Madoka and The Best Universitytime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputMadoka wants to enter to \"Novosibirsk State University\", but in the entrance exam she came across a very difficult task:Given an integer $$$n$$$, it is required to calculate $$$\\\\sum{\\\\operatorname{lcm}(c, \\\\gcd(a, b))}$$$, for all triples of positive integers $$$(a, b, c)$$$, where $$$a + b + c = n$$$.In this problem $$$\\\\gcd(x, y)$$$ denotes thegreatest common divisorof $$$x$$$ and $$$y$$$, and $$$\\\\operatorname{lcm}(x, y)$$$ denotes theleast common multipleof $$$x$$$ and $$$y$$$.Solve this problem for Madoka and help her to enter to the best university!InputThe first and the only line contains a single integer $$$n$$$ ($$$3 \\\\le n \\\\le 10^5$$$).OutputPrint exactly one interger — $$$\\\\sum{\\\\operatorname{lcm}(c, \\\\gcd(a, b))}$$$. Since the answer can be very large, then output it modulo $$$10^9 + 7$$$.ExamplesInput3Output1Input5Output11Input69228Output778304278NoteIn the first example, there is only one suitable triple $$$(1, 1, 1)$$$. So the answer is $$$\\\\operatorname{lcm}(1, \\\\gcd(1, 1)) = \\\\operatorname{lcm}(1, 1) = 1$$$.In the second example, $$$\\\\operatorname{lcm}(1, \\\\gcd(3, 1)) + \\\\operatorname{lcm}(1, \\\\gcd(2, 2)) + \\\\operatorname{lcm}(1, \\\\gcd(1, 3)) + \\\\operatorname{lcm}(2, \\\\gcd(2, 1)) + \\\\operatorname{lcm}(2, \\\\gcd(1, 2)) + \\\\operatorname{lcm}(3, \\\\gcd(1, 1)) = \\\\operatorname{lcm}(1, 1) + \\\\operatorname{lcm}(1, 2) + \\\\operatorname{lcm}(1, 1) + \\\\operatorname{lcm}(2, 1) + \\\\operatorname{lcm}(2, 1) + \\\\operatorname{lcm}(3, 1) = 1 + 2 + 1 + 2 + 2 + 3 = 11$$$",
+    "source": "CF",
+    "vjudge": false
+}

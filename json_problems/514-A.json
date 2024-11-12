@@ -1,0 +1,12 @@
+{
+    "uid": "514-A",
+    "url": "https://codeforces.com/contest/514/problem/A",
+    "tags": [
+        "greedy",
+        " implementation"
+    ],
+    "title": "514-A",
+    "statement": "A. Chewbaсca and Numbertime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutLuke Skywalker gave Chewbacca an integer numberx. Chewbacca isn't good at numbers but he loves inverting digits in them. Inverting digittmeans replacing it with digit9 -t.Help Chewbacca to transform the initial numberxto the minimum possiblepositivenumber by inverting some (possibly, zero) digits. The decimal representation of the final number shouldn't start with a zero.InputThe first line contains a single integerx(1 ≤x≤ 1018)— the number that Luke Skywalker gave to Chewbacca.OutputPrint the minimum possible positive number that Chewbacca can obtain after inverting some digits. The number shouldn't contain leading zeroes.ExamplesInput27Output22Input4545Output4444",
+    "source": "CF",
+    "vjudge": false
+}

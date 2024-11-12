@@ -1,0 +1,11 @@
+{
+    "uid": "70-A",
+    "url": "https://codeforces.com/contest/70/problem/A",
+    "tags": [
+        "math"
+    ],
+    "title": "70-A",
+    "statement": "A. Cookiestime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutFangy collects cookies. Once he decided to take a box and put cookies into it in some way. If we take a squarek×kin size, divided into blocks1 × 1in size and paint there the main diagonal together with cells, which lie above it, then the painted area will be equal to the area occupied by one cookiekin size. Fangy also has a box with a square base2n× 2n, divided into blocks1 × 1in size. In a box the cookies should not overlap, and they should not be turned over or rotated. See cookies of sizes2and4respectively on the figure:To stack the cookies the little walrus uses the following algorithm. He takes out of the repository the largest cookie which can fit in some place in the box and puts it there. Everything could be perfect but alas, in the repository the little walrus has infinitely many cookies of size2and larger, and there are no cookies of size1, therefore, empty cells will remain in the box. Fangy wants to know how many empty cells will be left in the end.InputThe first line contains a single integern(0 ≤n≤ 1000).OutputPrint the single number, equal to the number of empty cells in the box. The answer should be printed modulo106+ 3.ExamplesInput3Output9NoteIf the box possesses the base of23× 23(as in the example), then the cookies will be put there in the following manner:",
+    "source": "CF",
+    "vjudge": false
+}

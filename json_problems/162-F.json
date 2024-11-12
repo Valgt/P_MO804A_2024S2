@@ -1,0 +1,11 @@
+{
+    "uid": "162-F",
+    "url": "https://codeforces.com/contest/162/problem/F",
+    "tags": [
+        "*special"
+    ],
+    "title": "162-F",
+    "statement": "F. Factorial zerostime limit per test3 secondsmemory limit per test256 megabytesinputstdinoutputstdoutYou are given a positive integern. Output the number of trailing zeros inn!(n!denotes a product of integers between 1 andn, inclusive).InputThe only line of input contains an integern(1 ≤n≤ 1000000).OutputOutput the number of trailing zeros inn!.ExamplesInput6Output1Input24Output4NoteIn the first sample6! = 720.In the second sample24! = 620448401733239439360000.",
+    "source": "CF",
+    "vjudge": false
+}

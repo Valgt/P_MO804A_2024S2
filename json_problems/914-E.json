@@ -1,0 +1,14 @@
+{
+    "uid": "914-E",
+    "url": "https://codeforces.com/contest/914/problem/E",
+    "tags": [
+        "bitmasks",
+        " data structures",
+        " divide and conquer",
+        " trees"
+    ],
+    "title": "914-E",
+    "statement": "E. Palindromes in a Treetime limit per test4 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given a tree (a connected acyclic undirected graph) ofnvertices. Vertices are numbered from1tonand each vertex is assigned a character fromatot.A path in the tree is said to be palindromic if at least one permutation of the labels in the path is a palindrome.For each vertex, output the number of palindromic paths passing through it.Note:The path from vertexuto vertexvis considered to be the same as the path from vertexvto vertexu, and this path will be counted only once for each of the vertices it passes through.InputThe first line contains an integern(2 ≤n≤ 2·105)  — the number of vertices in the tree.The nextn- 1lines each contain two integersuandv(1  ≤u,v≤n,u≠v) denoting an edge connecting vertexuand vertexv. It is guaranteed that the given graph is a tree.The next line contains a string consisting ofnlowercase characters fromatotwhere thei-th (1 ≤i≤n) character is the label of vertexiin the tree.OutputPrintnintegers in a single line, thei-th of which is the number of palindromic paths passing through vertexiin the tree.ExamplesInput51 22 33 43 5abcbbOutput1 3 4 3 3Input76 24 33 75 27 21 4afefdfsOutput1 4 1 1 2 4 2NoteIn the first sample case, the following paths are palindromic:2 - 3 - 42 - 3 - 54 - 3 - 5Additionally, all paths containing only one vertex are palindromic. Listed below are a few paths in the first sample that are not palindromic:1 - 2 - 31 - 2 - 3 - 41 - 2 - 3 - 5",
+    "source": "CF",
+    "vjudge": false
+}

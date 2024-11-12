@@ -1,0 +1,13 @@
+{
+    "uid": "802-N",
+    "url": "https://codeforces.com/contest/802/problem/N",
+    "tags": [
+        "binary search",
+        " flows",
+        " graphs"
+    ],
+    "title": "802-N",
+    "statement": "N. April Fools' Problem (medium)time limit per test4 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputThe marmots need to preparekproblems for HC2overndays. Each problem, once prepared, also has to be printed.The preparation of a problem on dayi(at most one per day) costsaiCHF, and the printing of a problem on dayi(also at most one per day) costsbiCHF. Of course, a problem cannot be printed before it has been prepared (but doing both on the same day is fine).What is the minimum cost of preparation and printing?InputThe first line of input contains two space-separated integersnandk(1 ≤k≤n≤ 2200). The second line containsnspace-separated integersa1, ...,an() — the preparation costs. The third line containsnspace-separated integersb1, ...,bn() — the printing costs.OutputOutput the minimum cost of preparation and printingkproblems — that is, the minimum possible sumai1+ai2+ ... +aik+bj1+bj2+ ... +bjk, where1 ≤i1<i2< ... <ik≤n,1 ≤j1<j2< ... <jk≤nandi1≤j1,i2≤j2, ...,ik≤jk.ExampleInput8 43 8 7 9 9 4 6 82 5 9 4 3 8 9 1Output32NoteIn the sample testcase, one optimum solution is to prepare the first problem on day1and print it on day1, prepare the second problem on day2and print it on day4, prepare the third problem on day3and print it on day5, and prepare the fourth problem on day6and print it on day8.",
+    "source": "CF",
+    "vjudge": false
+}

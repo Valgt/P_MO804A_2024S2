@@ -1,0 +1,12 @@
+{
+    "uid": "624-B",
+    "url": "https://codeforces.com/contest/624/problem/B",
+    "tags": [
+        "greedy",
+        " sortings"
+    ],
+    "title": "624-B",
+    "statement": "B. Making a Stringtime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given an alphabet consisting ofnletters, your task is to make a string of the maximum possible length so that the following conditions are satisfied:thei-th letter occurs in the string no more thanaitimes;the number of occurrences of each letter in the string must bedistinctfor all the letters that occurred in the string at least once.InputThe first line of the input contains a single integern(2  ≤n≤  26) — the number of letters in the alphabet.The next line containsnintegersai(1 ≤ai≤ 109) —i-th of these integers gives the limitation on the number of occurrences of thei-th character in the string.OutputPrint a single integer — the maximum length of the string that meets all the requirements.ExamplesInput32 5 5Output11Input31 1 2Output3NoteFor convenience let's consider an alphabet consisting of three letters: \"a\", \"b\", \"c\". In the first sample, some of the optimal strings are: \"cccaabbccbb\", \"aabcbcbcbcb\". In the second sample some of the optimal strings are: \"acc\", \"cbc\".",
+    "source": "CF",
+    "vjudge": false
+}

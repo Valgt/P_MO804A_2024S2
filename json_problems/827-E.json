@@ -1,0 +1,13 @@
+{
+    "uid": "827-E",
+    "url": "https://codeforces.com/contest/827/problem/E",
+    "tags": [
+        "fft",
+        " math",
+        " strings"
+    ],
+    "title": "827-E",
+    "statement": "E. Rusty Stringtime limit per test3 secondsmemory limit per test512 megabytesinputstandard inputoutputstandard outputGrigory loves strings. Recently he found a metal strip on a loft. The strip had lengthnand consisted of letters \"V\" and \"K\". Unfortunately, rust has eaten some of the letters so that it's now impossible to understand which letter was written.Grigory couldn't understand for a long time what these letters remind him of, so he became interested in the following question: if we put a letter \"V\" or \"K\" on each unreadable position, which values can the period of the resulting string be equal to?A period of a string is such an integerdfrom1to the length of the string that if we put the string shifted bydpositions to the right on itself, then all overlapping letters coincide. For example,3and5are periods of \"VKKVK\".InputThere are several (at least one) test cases in the input. The first line contains single integer — the number of test cases.There is an empty line before each test case. Each test case is described in two lines: the first line contains single integern(1 ≤n≤ 5·105) — the length of the string, the second line contains the string of lengthn, consisting of letters \"V\", \"K\" and characters \"?\". The latter means the letter on its position is unreadable.It is guaranteed that the sum of lengths among all test cases doesn't exceed5·105.For hacksyou can only use tests with one test case.OutputFor each test case print two lines. In the first line print the number of possible periods after we replace each unreadable letter with \"V\" or \"K\". In the next line print all these values in increasing order.ExampleInput35V??VK6??????4?VK?Output23 561 2 3 4 5 632 3 4NoteIn the first test case from example we can obtain, for example, \"VKKVK\", which has periods3and5.In the second test case we can obtain \"VVVVVV\" which has all periods from1to6.In the third test case string \"KVKV\" has periods2and4, and string \"KVKK\" has periods3and4.",
+    "source": "CF",
+    "vjudge": false
+}

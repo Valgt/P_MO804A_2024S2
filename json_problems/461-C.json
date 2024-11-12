@@ -1,0 +1,12 @@
+{
+    "uid": "461-C",
+    "url": "https://codeforces.com/contest/461/problem/C",
+    "tags": [
+        "data structures",
+        " implementation"
+    ],
+    "title": "461-C",
+    "statement": "C. Appleman and a Sheet of Papertime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutAppleman has a very big sheet of paper. This sheet has a form of rectangle with dimensions1 ×n. Your task is help Appleman with folding of such a sheet. Actually, you need to performqqueries. Each query will have one of the following types:Fold the sheet of paper at positionpi. After this query the leftmost part of the paper with dimensions1 ×pimust be above the rightmost part of the paper with dimensions1 × ([currentwidthofsheet] -pi).Count what is the total width of the paper pieces, if we will make two described later cuts and consider only the pieces between the cuts. We will make one cut at distancelifrom the left border of the current sheet of paper and the other at distancerifrom the left border of the current sheet of paper.Please look at the explanation of the first test example for better understanding of the problem.InputThe first line contains two integers:nandq(1  ≤n≤ 105; 1 ≤q≤ 105) — the width of the paper and the number of queries.Each of the followingqlines contains one of the described queries in the following format:\"1pi\"(1 ≤pi< [currentwidthofsheet])— the first type query.\"2liri\"(0 ≤li<ri≤ [currentwidthofsheet])— the second type query.OutputFor each query of the second type, output the answer.ExamplesInput7 41 31 22 0 12 1 2Output43Input10 92 2 91 12 0 11 82 0 81 22 1 31 42 2 4Output721045NoteThe pictures below show the shapes of the paper during the queries of the first example:After the first fold operation the sheet has width equal to4, after the second one the width of the sheet equals to2.",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,11 @@
+{
+    "uid": "831-A",
+    "url": "https://codeforces.com/contest/831/problem/A",
+    "tags": [
+        "implementation"
+    ],
+    "title": "831-A",
+    "statement": "A. Unimodal Arraytime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputArray of integers isunimodal, if:it is strictly increasing in the beginning;after that it is constant;after that it is strictly decreasing.The first block (increasing) and the last block (decreasing) may be absent. It is allowed that both of this blocks are absent.For example, the following three arrays are unimodal:[5, 7, 11, 11, 2, 1],[4, 4, 2],[7], but the following three are not unimodal:[5, 5, 6, 6, 1],[1, 2, 1, 2],[4, 5, 5, 6].Write a program that checks if an array is unimodal.InputThe first line contains integern(1 ≤n≤ 100) — the number of elements in the array.The second line containsnintegersa1,a2, ...,an(1 ≤ai≤ 1 000) — the elements of the array.OutputPrint \"YES\" if the given array is unimodal. Otherwise, print \"NO\".You can output each letter in any case (upper or lower).ExamplesInput61 5 5 5 4 2OutputYESInput510 20 30 20 10OutputYESInput41 2 1 2OutputNOInput73 3 3 3 3 3 3OutputYESNoteIn the first example the array is unimodal, because it is strictly increasing in the beginning (from position1to position2, inclusively), that it is constant (from position2to position4, inclusively) and then it is strictly decreasing (from position4to position6, inclusively).",
+    "source": "CF",
+    "vjudge": false
+}

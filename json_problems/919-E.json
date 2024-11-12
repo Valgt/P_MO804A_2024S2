@@ -1,0 +1,13 @@
+{
+    "uid": "919-E",
+    "url": "https://codeforces.com/contest/919/problem/E",
+    "tags": [
+        "chinese remainder theorem",
+        " math",
+        " number theory"
+    ],
+    "title": "919-E",
+    "statement": "E. Congruence Equationtime limit per test3 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputGiven an integer $$$x$$$. Your task is to find out how many positive integers $$$n$$$ ($$$1 \\\\leq n \\\\leq x$$$) satisfy $$$$$$n \\\\cdot a^n \\\\equiv b \\\\quad (\\\\textrm{mod}\\\\;p),$$$$$$ where $$$a, b, p$$$ are all known constants.InputThe only line contains four integers $$$a,b,p,x$$$ ($$$2 \\\\leq p \\\\leq 10^6+3$$$, $$$1 \\\\leq a,b < p$$$, $$$1 \\\\leq x \\\\leq 10^{12}$$$). It is guaranteed that $$$p$$$ is a prime.OutputPrint a single integer: the number of possible answers $$$n$$$.ExamplesInput2 3 5 8Output2Input4 6 7 13Output1Input233 233 10007 1Output1NoteIn the first sample, we can see that $$$n=2$$$ and $$$n=8$$$ are possible answers.",
+    "source": "CF",
+    "vjudge": false
+}

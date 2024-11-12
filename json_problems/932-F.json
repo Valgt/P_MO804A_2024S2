@@ -1,0 +1,13 @@
+{
+    "uid": "932-F",
+    "url": "https://codeforces.com/contest/932/problem/F",
+    "tags": [
+        "data structures",
+        " dp",
+        " geometry"
+    ],
+    "title": "932-F",
+    "statement": "F. Escape Through Leaftime limit per test3 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given a tree withnnodes (numbered from1ton) rooted at node1. Also, each node has two values associated with it. The values fori-th node areaiandbi.You can jump from a node to any node in its subtree. The cost of one jump from nodexto nodeyis the product ofaxandby. The total cost of a path formed by one or more jumps is sum of costs of individual jumps. For every node, calculate the minimum total cost to reach any leaf from that node. Pay attention, that root can never be leaf, even if it has degree1.Note that you cannot jump from a node to itself.InputThe first line of input contains an integern(2 ≤n≤ 105) — the number of nodes in the tree.The second line containsnspace-separated integersa1,a2,  ...,an( - 105≤ai≤  105).The third line containsnspace-separated integersb1,b2,  ...,bn( - 105≤bi≤  105).Nextn-  1lines contains two space-separated integersuiandvi(1 ≤ui,vi≤n) describing edge between nodesuiandviin the tree.OutputOutputnspace-separated integers,i-th of which denotes the minimum cost of a path from nodeito reach any leaf.ExamplesInput32 10 -17 -7 52 32 1Output10 50 0Input45 -10 5 7-8 -80 -3 -102 12 41 3Output-300 100 0 0NoteIn the first example, node3is already a leaf, so the cost is0. For node2, jump to node3with costa2×b3= 50. For node1, jump directly to node3with costa1×b3= 10.In the second example, node3and node4are leaves, so the cost is0. For node2, jump to node4with costa2×b4= 100. For node1, jump to node2with costa1×b2=  - 400followed by a jump from2to4with costa2×b4= 100.",
+    "source": "CF",
+    "vjudge": false
+}

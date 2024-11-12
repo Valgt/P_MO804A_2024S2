@@ -1,0 +1,13 @@
+{
+    "uid": "884-F",
+    "url": "https://codeforces.com/contest/884/problem/F",
+    "tags": [
+        "flows",
+        " graphs",
+        " greedy"
+    ],
+    "title": "884-F",
+    "statement": "F. Anti-Palindromizetime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputA stringaof lengthmis calledantipalindromiciffmis even, and for eachi(1 ≤i≤m)ai≠am-i+ 1.Ivan has a stringsconsisting ofnlowercase Latin letters;nis even. He wants to form some stringtthat will be anantipalindromicpermutation ofs. Also Ivan has denoted thebeautyof indexiasbi, and thebeautyoftas the sum ofbiamong all indicesisuch thatsi=ti.Help Ivan to determine maximum possiblebeautyofthe can get.InputThe first line contains one integern(2 ≤n≤ 100,nis even) — the number of characters ins.The second line contains the stringsitself. It consists of only lowercase Latin letters, and it is guaranteed that its letters can be reordered to form anantipalindromicstring.The third line containsninteger numbersb1,b2, ...,bn(1 ≤bi≤ 100), wherebiis thebeautyof indexi.OutputPrint one number — the maximum possiblebeautyoft.ExamplesInput8abacabac1 1 1 1 1 1 1 1Output8Input8abaccaba1 2 3 4 5 6 7 8Output26Input8abacabca1 2 3 4 4 3 2 1Output17",
+    "source": "CF",
+    "vjudge": false
+}

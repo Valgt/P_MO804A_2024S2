@@ -1,0 +1,12 @@
+{
+    "uid": "60-B",
+    "url": "https://codeforces.com/contest/60/problem/B",
+    "tags": [
+        "dfs and similar",
+        " dsu"
+    ],
+    "title": "60-B",
+    "statement": "B. Serial Time!time limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutThe Cereal Guy's friend Serial Guy likes to watch soap operas. An episode is about to start, and he hasn't washed his plate yet. But he decided to at least put in under the tap to be filled with water. The plate can be represented by a parallelepipedk×n×m, that is, it hasklayers (the first layer is the upper one), each of which is a rectanglen×mwith empty squares ('.') and obstacles ('#'). The water can only be present in the empty squares. The tap is positioned above the square(x,y)of the first layer, it is guaranteed that this square is empty. Every minute a cubical unit of water falls into the plate. Find out in how many minutes the Serial Guy should unglue himself from the soap opera and turn the water off for it not to overfill the plate. That is, you should find the moment of time when the plate is absolutely full and is going to be overfilled in the next moment.Note: the water fills all the area within reach (see sample 4). Water flows ineachof the 6 directions, through faces of1 × 1 × 1cubes.InputThe first line contains three numbersk,n,m(1 ≤k,n,m≤ 10) which are the sizes of the plate. Then followkrectangles consisting ofnlines each containingmcharacters '.' or '#', which represents the \"layers\" of the plate in the order from the top to the bottom. The rectangles are separated by empty lines (see the samples). The last line containsxandy(1 ≤x≤n, 1 ≤y≤m) which are the tap's coordinates.xis the number of the line andyis the number of the column. Lines of each layer are numbered from left to right by the integers from1ton, columns of each layer are numbered from top to bottom by the integers from1tom.OutputThe answer should contain a single number, showing in how many minutes the plate will be filled.ExamplesInput1 1 1.1 1Output1Input2 1 1.#1 1Output1Input2 2 2.###....1 1Output5Input3 2 2#.###..#....1 2Output7Input3 3 3.#.#####..#######..........1 1Output13",
+    "source": "CF",
+    "vjudge": false
+}

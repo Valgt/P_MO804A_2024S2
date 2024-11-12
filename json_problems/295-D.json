@@ -1,0 +1,12 @@
+{
+    "uid": "295-D",
+    "url": "https://codeforces.com/contest/295/problem/D",
+    "tags": [
+        "combinatorics",
+        " dp"
+    ],
+    "title": "295-D",
+    "statement": "D. Greg and Cavestime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutGreg has a pad. The pad's screen is ann×mrectangle, each cell can be either black or white. We'll consider the pad rows to be numbered with integers from 1 tonfrom top to bottom. Similarly, the pad's columns are numbered with integers from 1 tomfrom left to right.Greg thinks that the pad's screen displays a cave if the following conditions hold:There is a segment[l,r](1 ≤l≤r≤n), such that each of the rowsl,l+ 1, ...,rhas exactly two black cells and all other rows have only white cells.There is a row numbert(l≤t≤r), such that for all pairs of rows with numbersiandj(l≤i≤j≤t)the set of columns between the black cells in rowi(with the columns where is these black cells)is the subset of the set of columns between the black cells in rowj(with the columns where is these black cells). Similarly, for all pairs of rows with numbersiandj(t≤i≤j≤r)the set of columns between the black cells in rowj(with the columns where is these black cells)is the subset of the set of columns between the black cells in rowi(with the columns where is these black cells).Greg wondered, how many ways there are to paint a cave on his pad. Two ways can be considered distinct if there is a cell that has distinct colors on the two pictures.Help Greg.InputThe first line contains two integersn,m— the pad's screen size(1 ≤n,m≤ 2000).OutputIn the single line print the remainder after dividing the answer to the problem by1000000007(109+ 7).ExamplesInput1 1Output0Input4 4Output485Input3 5Output451",
+    "source": "CF",
+    "vjudge": false
+}

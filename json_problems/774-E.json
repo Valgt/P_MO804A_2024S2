@@ -1,0 +1,13 @@
+{
+    "uid": "774-E",
+    "url": "https://codeforces.com/contest/774/problem/E",
+    "tags": [
+        "*special",
+        " math",
+        " number theory"
+    ],
+    "title": "774-E",
+    "statement": "E. Big Number and Remaindertime limit per test3 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputStepan has a very big positive integer.Let's consider all cyclic shifts of Stepan's integer (if we look at his integer like at a string) which are also integers (i.e. theydo not haveleading zeros). Let's call such shifts asgood shifts. For example, for the integer10203the good shifts are the integer itself10203and integers20310and31020.Stepan wants to know the minimum remainder of the division by the given numbermamong all good shifts. Your task is to determine the minimum remainder of the division bym.InputThe first line contains the integer which Stepan has. The length of Stepan's integer is between2and200 000digits, inclusive. It is guaranteed that Stepan's integer does not contain leading zeros.The second line contains the integerm(2 ≤m≤ 108) — the number by which Stepan divides good shifts of his integer.OutputPrint the minimum remainder which Stepan can get if he divides all good shifts of his integer by the given numberm.ExamplesInput5213Output2Input10015Output0Input567890123456789012345678910000Output123NoteIn the first example all good shifts of the integer521(good shifts are equal to521,215and152) has same remainder2when dividing by3.In the second example there are only two good shifts: the Stepan's integer itself and the shift by one position to the right. The integer itself is1001and the remainder after dividing it by5equals1. The shift by one position to the right equals to1100and the remainder after dividing it by5equals0, which is the minimum possible remainder.",
+    "source": "CF",
+    "vjudge": false
+}

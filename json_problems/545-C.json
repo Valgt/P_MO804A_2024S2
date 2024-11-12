@@ -1,0 +1,12 @@
+{
+    "uid": "545-C",
+    "url": "https://codeforces.com/contest/545/problem/C",
+    "tags": [
+        "dp",
+        " greedy"
+    ],
+    "title": "545-C",
+    "statement": "C. Woodcutterstime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputLittle Susie listens to fairy tales before bed every day. Today's fairy tale was about wood cutters and the little girl immediately started imagining the choppers cutting wood. She imagined the situation that is described below.There arentrees located along the road at points with coordinatesx1,x2, ...,xn. Each tree has its heighthi. Woodcutters can cut down a tree and fell it to the left or to the right. After that it occupies one of the segments[xi-hi,xi]or[xi;xi+hi]. The tree that is not cut down occupies a single point with coordinatexi. Woodcutters can fell a tree if the segment to be occupied by the fallen tree doesn't contain any occupied point. The woodcutters want to process as many trees as possible, so Susie wonders, what is the maximum number of trees to fell.InputThe first line contains integern(1 ≤n≤ 105) — the number of trees.Nextnlines contain pairs of integersxi,hi(1 ≤xi,hi≤ 109) — the coordinate and the height of theі-th tree.The pairs are given in the order of ascendingxi. No two trees are located at the point with the same coordinate.OutputPrint a single number — the maximum number of trees that you can cut down by the given rules.ExamplesInput51 22 15 1010 919 1Output3Input51 22 15 1010 920 1Output4NoteIn the first sample you can fell the trees like that:fell the1-st tree to the left — now it occupies segment[ - 1;1]fell the2-nd tree to the right — now it occupies segment[2;3]leave the3-rd tree — it occupies point5leave the4-th tree — it occupies point10fell the5-th tree to the right — now it occupies segment[19;20]In the second sample you can also fell4-th tree to the right, after that it will occupy segment[10;19].",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,12 @@
+{
+    "uid": "164-C",
+    "url": "https://codeforces.com/contest/164/problem/C",
+    "tags": [
+        "flows",
+        " graphs"
+    ],
+    "title": "164-C",
+    "statement": "C. Machine Programmingtime limit per test5 secondsmemory limit per test256 megabytesinputstdinoutputstdoutOne remarkable day company \"X\" receivedkmachines. And they were not simple machines, they were mechanical programmers! This was the last unsuccessful step before switching to android programmers, but that's another story.The company has nowntasks, for each of them we know the start time of its executionsi, the duration of its executionti, and the company profit from its completionci. Any machine can perform any task, exactly one at a time. If a machine has started to perform the task, it is busy at all moments of time fromsitosi+ti- 1, inclusive, and it cannot switch to another task.You are required to select a set of tasks which can be done with thesekmachines, and which will bring the maximum total profit.InputThe first line contains two integer numbersnandk(1 ≤n≤ 1000,1 ≤k≤ 50) — the numbers of tasks and machines, correspondingly.The nextnlines contain space-separated groups of three integerssi,ti,ci(1 ≤si,ti≤ 109,1 ≤ci≤ 106),siis the time where they start executing thei-th task,tiis the duration of thei-th task andciis the profit of its execution.OutputPrintnintegersx1,x2, ...,xn. Numberxishould equal1, if taskishould be completed and otherwise it should equal0.If there are several optimal solutions, print any of them.ExamplesInput3 12 7 51 3 34 1 3Output0 1 1Input5 21 5 41 4 51 3 24 1 25 6 1Output1 1 0 0 1NoteIn the first sample the tasks need to be executed at moments of time 2 ... 8, 1 ... 3 and 4 ... 4, correspondingly. The first task overlaps with the second and the third ones, so we can execute either task one (profit 5) or tasks two and three (profit 6).",
+    "source": "CF",
+    "vjudge": false
+}

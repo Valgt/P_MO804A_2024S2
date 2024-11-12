@@ -1,0 +1,11 @@
+{
+    "uid": "622-B",
+    "url": "https://codeforces.com/contest/622/problem/B",
+    "tags": [
+        "implementation"
+    ],
+    "title": "622-B",
+    "statement": "B. The Timetime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given the current time in24-hour formathh:mm. Find and print the time afteraminutes.Note that you should find only the time afteraminutes, see the examples to clarify the problem statement.You can read more about24-hour format herehttps://en.wikipedia.org/wiki/24-hour_clock.InputThe first line contains the current time in the formathh:mm(0 ≤hh< 24, 0 ≤mm< 60). The hours and the minutes are given with two digits (the hours or the minutes less than10are given with the leading zeroes).The second line contains integera(0 ≤a≤ 104) — the number of the minutes passed.OutputThe only line should contain the time afteraminutes in the format described in the input. Note that you should print exactly two digits for the hours and the minutes (add leading zeroes to the numbers if needed).See the examples to check the input/output format.ExamplesInput23:5910Output00:09Input20:20121Output22:21Input10:100Output10:10",
+    "source": "CF",
+    "vjudge": false
+}

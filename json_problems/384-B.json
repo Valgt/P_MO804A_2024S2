@@ -1,0 +1,14 @@
+{
+    "uid": "384-B",
+    "url": "https://codeforces.com/contest/384/problem/B",
+    "tags": [
+        "greedy",
+        " implementation",
+        " sortings",
+        " two pointers"
+    ],
+    "title": "384-B",
+    "statement": "B. Multitaskingtime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutIahub wants to enhance his multitasking abilities. In order to do this, he wants to sortnarrays simultaneously, each array consisting ofmintegers.Iahub can choose a pair of distinct indicesiandj(1 ≤i,j≤m,i≠j). Then in each array the values at positionsiandjare swapped only if the value at positioniis strictly greater than the value at positionj.Iahub wants to find an array of pairs of distinct indices that, chosen in order, sort all of thenarrays in ascending or descending order (the particular order is given in input). The size of the array can be at most(at mostpairs). Help Iahub, find any suitable array.InputThe first line contains three integersn(1 ≤n≤ 1000),m(1 ≤m≤  100)andk. Integerkis0if the arrays must be sorted in ascending order, and1if the arrays must be sorted in descending order. Each lineiof the nextnlines containsmintegers separated by a space, representing thei-th array. For each elementxof the arrayi,1 ≤x≤ 106holds.OutputOn the first line of the output print an integerp, the size of the array (pcan be at most). Each of the nextplines must contain two distinct integersiandj(1 ≤i,j≤m,i≠j), representing the chosen indices.If there are multiple correct answers, you can print any.ExamplesInput2 5 01 3 2 5 41 4 3 2 5Output32 42 34 5Input3 2 11 22 33 4Output12 1NoteConsider the first sample. After the first operation, the arrays become[1, 3, 2, 5, 4]and[1, 2, 3, 4, 5]. After the second operation, the arrays become[1, 2, 3, 5, 4]and[1, 2, 3, 4, 5]. After the third operation they become[1, 2, 3, 4, 5]and[1, 2, 3, 4, 5].",
+    "source": "CF",
+    "vjudge": false
+}

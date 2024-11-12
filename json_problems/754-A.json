@@ -1,0 +1,13 @@
+{
+    "uid": "754-A",
+    "url": "https://codeforces.com/contest/754/problem/A",
+    "tags": [
+        "constructive algorithms",
+        " greedy",
+        " implementation"
+    ],
+    "title": "754-A",
+    "statement": "A. Lesha and array splittingtime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputOne spring day on his way to university Lesha found an arrayA. Lesha likes to split arrays into several parts. This time Lesha decided to split the arrayAinto several, possibly one, new arrays so that the sum of elements in each of the new arrays is not zero. One more condition is that if we place the new arrays one after another they will form the old arrayA.Lesha is tired now so he asked you to split the array. Help Lesha!InputThe first line contains single integern(1 ≤n≤ 100) — the number of elements in the arrayA.The next line containsnintegersa1,a2, ...,an(- 103≤ai≤ 103) — the elements of the arrayA.OutputIf it is not possible to split the arrayAand satisfy all the constraints, print single line containing \"NO\" (without quotes).Otherwise in the first line print \"YES\" (without quotes). In the next line print single integerk— the number of new arrays. In each of the nextklines print two integersliandriwhich denote the subarrayA[li...ri]of the initial arrayAbeing thei-th new array. Integersli,rishould satisfy the following conditions:l1= 1rk=nri+ 1 =li+ 1for each1 ≤i<k.If there are multiple answers, print any of them.ExamplesInput31 2 -3OutputYES21 23 3Input89 -12 3 4 -4 -10 7 3OutputYES21 23 8Input10OutputNOInput41 2 3 -5OutputYES41 12 23 34 4",
+    "source": "CF",
+    "vjudge": false
+}

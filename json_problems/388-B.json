@@ -1,0 +1,15 @@
+{
+    "uid": "388-B",
+    "url": "https://codeforces.com/contest/388/problem/B",
+    "tags": [
+        "bitmasks",
+        " constructive algorithms",
+        " graphs",
+        " implementation",
+        " math"
+    ],
+    "title": "388-B",
+    "statement": "B. Fox and Minimal pathtime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutFox Ciel wants to write a task for a programming contest. The task is: \"You are given a simple undirected graph withnvertexes. Each its edge has unit length. You should calculate the number of shortest paths between vertex 1 and vertex 2.\"Same with some writers, she wants to make an example with some certain output: for example, her birthday or the number of her boyfriend. Can you help her to make a test case with answer equal exactly tok?InputThe first line contains a single integerk(1 ≤k≤ 109).OutputYou should output a graphGwithnvertexes (2 ≤n≤ 1000). There must be exactlykshortest paths between vertex 1 and vertex 2 of the graph.The first line must contain an integern. Then adjacency matrixGwithnrows andncolumns must follow. Each element of the matrix must be 'N' or 'Y'. IfGijis 'Y', then graphGhas a edge connecting vertexiand vertexj. Consider the graph vertexes are numbered from 1 ton.The graph must be undirected and simple:Gii= 'N' andGij=Gjimust hold. And there must be at least one path between vertex 1 and vertex 2. It's guaranteed that the answer exists. If there multiple correct answers, you can output any of them.ExamplesInput2Output4NNYYNNYYYYNNYYNNInput9Output8NNYYYNNNNNNNNYYYYNNNNYYYYNNNNYYYYNNNNYYYNYYYYNNNNYYYYNNNNYYYYNNNInput1Output2NYYNNoteIn first example, there are 2 shortest paths: 1-3-2 and 1-4-2.In second example, there are 9 shortest paths: 1-3-6-2, 1-3-7-2, 1-3-8-2, 1-4-6-2, 1-4-7-2, 1-4-8-2, 1-5-6-2, 1-5-7-2, 1-5-8-2.",
+    "source": "CF",
+    "vjudge": false
+}

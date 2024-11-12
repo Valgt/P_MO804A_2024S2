@@ -1,0 +1,13 @@
+{
+    "uid": "83-C",
+    "url": "https://codeforces.com/contest/83/problem/C",
+    "tags": [
+        "graphs",
+        " greedy",
+        " shortest paths"
+    ],
+    "title": "83-C",
+    "statement": "C. Tracktime limit per test5 secondsmemory limit per test256 megabytesinputstdinoutputstdoutYou already know that Valery's favorite sport is biathlon. Due to your help, he learned to shoot without missing, and his skills are unmatched at the shooting range. But now a smaller task is to be performed, he should learn to complete the path fastest.The track's map is represented by a rectanglen×min size divided into squares. Each square is marked with a lowercase Latin letter (which means the type of the plot), with the exception of the starting square (it is marked with a capital Latin lettersS) and the terminating square (it is marked with a capital Latin letterT). The time of movement from one square to another is equal to1minute. The time of movement within the cell can be neglected. We can move from the cell only to side-adjacent ones, but it is forbidden to go beyond the map edges. Also the following restriction is imposed on the path: it is not allowed to visit more thankdifferent typesof squares (squares of one type can be visited an infinite number of times). Squares marked withSandThave no type, so they are not counted. ButSmust be visited exactly once — at the very beginning, andTmust be visited exactly once — at the very end.Your task is to find the path from the squareSto the squareTthat takes minimum time. Among all shortest paths you should choose thelexicographically minimalone. When comparing paths you should lexicographically represent them as a sequence of characters, that is, of plot types.InputThe first input line contains three integersn,mandk(1 ≤n,m≤ 50,n·m≥ 2, 1 ≤k≤ 4). Thennlines contain the map. Each line has the length of exactlymcharacters and consists of lowercase Latin letters and charactersSandT. It is guaranteed that the map contains exactly one characterSand exactly one characterT.Pretest 12 is one of the maximal tests for this problem.OutputIf there is a path that satisfies the condition, print it as a sequence of letters — the plot types. Otherwise, print \"-1\" (without quotes).You shouldn't print the characterSin the beginning andTin the end.Note that this sequence may be empty.This case is present in pretests. You can just print nothing or print one \"End of line\"-character. Both will be accepted.ExamplesInput5 3 2SbacccaaccccabTOutputbccccInput3 4 1SxyyyxxxyyyTOutputxxxxInput1 3 3TySOutputyInput1 4 1SxyTOutput-1",
+    "source": "CF",
+    "vjudge": false
+}

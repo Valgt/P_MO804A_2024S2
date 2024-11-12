@@ -1,0 +1,12 @@
+{
+    "uid": "816-A",
+    "url": "https://codeforces.com/contest/816/problem/A",
+    "tags": [
+        "brute force",
+        " implementation"
+    ],
+    "title": "816-A",
+    "statement": "A. Karen and Morningtime limit per test2 secondsmemory limit per test512 megabytesinputstandard inputoutputstandard outputKaren is getting ready for a new school day!It is currentlyhh:mm, given in a 24-hour format. As you know, Karen lovespalindromes, and she believes that it is good luck to wake up when the time is a palindrome.What is the minimum number of minutes she should sleep, such that, when she wakes up, the time is a palindrome?Remember that a palindrome is a string that reads the same forwards and backwards. For instance,05:39is not a palindrome, because05:39backwards is93:50. On the other hand,05:50is a palindrome, because05:50backwards is05:50.InputThe first and only line of input contains a single string in the formathh:mm(00 ≤hh≤ 23,00 ≤mm≤ 59).OutputOutput a single integer on a line by itself, the minimum number of minutes she should sleep, such that, when she wakes up, the time is a palindrome.ExamplesInput05:39Output11Input13:31Output0Input23:59Output1NoteIn the first test case, the minimum number of minutes Karen should sleep for is11. She can wake up at05:50, when the time is a palindrome.In the second test case, Karen can wake up immediately, as the current time,13:31, is already a palindrome.In the third test case, the minimum number of minutes Karen should sleep for is1minute. She can wake up at00:00, when the time is a palindrome.",
+    "source": "CF",
+    "vjudge": false
+}

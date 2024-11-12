@@ -1,0 +1,12 @@
+{
+    "uid": "932-C",
+    "url": "https://codeforces.com/contest/932/problem/C",
+    "tags": [
+        "brute force",
+        " constructive algorithms"
+    ],
+    "title": "932-C",
+    "statement": "C. Permutation Cycletime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputFor a permutationP[1...N]of integers from1toN, functionfis defined as follows:Letg(i)be the minimum positive integerjsuch thatf(i,j) =i. We can show suchjalways exists.For givenN,A,B, find a permutationPof integers from1toNsuch that for1 ≤i≤N,g(i)equals eitherAorB.InputThe only line contains three integersN,A,B(1 ≤N≤ 106, 1 ≤A,B≤N).OutputIf no such permutation exists, output-1. Otherwise, output a permutation of integers from1toN.ExamplesInput9 2 5Output6 5 8 3 4 1 9 2 7Input3 2 1Output1 2 3NoteIn the first example,g(1) =g(6) =g(7) =g(9) = 2andg(2) =g(3) =g(4) =g(5) =g(8) = 5In the second example,g(1) =g(2) =g(3) = 1",
+    "source": "CF",
+    "vjudge": false
+}

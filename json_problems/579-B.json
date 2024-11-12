@@ -1,0 +1,13 @@
+{
+    "uid": "579-B",
+    "url": "https://codeforces.com/contest/579/problem/B",
+    "tags": [
+        "brute force",
+        " implementation",
+        " sortings"
+    ],
+    "title": "579-B",
+    "statement": "B. Finding Team Membertime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputThere is a programing contest named SnakeUp,2npeople want to compete for it. In order to attend this contest, people need to form teams of exactly two people. You are given the strength of each possible combination of two people. All the values of the strengths aredistinct.Every contestant hopes that he can find a teammate so that their team’s strength is as high as possible. That is, a contestant will form a team with highest strength possible by choosing a teammate from ones who are willing to be a teammate with him/her. More formally, two peopleAandBmay form a team if each of them is the best possible teammate (among the contestants that remain unpaired) for the other one.Can you determine who will be each person’s teammate?InputThere are2nlines in the input.The first line contains an integern(1 ≤n≤ 400) — the number of teams to be formed.Thei-th line (i> 1) containsi- 1numbersai1,ai2, ... ,ai(i- 1). Hereaij(1 ≤aij≤ 106, allaijare distinct) denotes the strength of a team consisting of personiand personj(people are numbered starting from1.)OutputOutput a line containing2nnumbers. Thei-th number should represent the number of teammate ofi-th person.ExamplesInput261 23 4 5Output2 1 4 3Input34870603831 161856845957 794650 97697783847 50566 691206 498447698377 156232 59015 382455 626960Output6 5 4 3 2 1NoteIn the first sample, contestant1and2will be teammates and so do contestant3and4, so the teammate of contestant1,2,3,4will be2,1,4,3respectively.",
+    "source": "CF",
+    "vjudge": false
+}

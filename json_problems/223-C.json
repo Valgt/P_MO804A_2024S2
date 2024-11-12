@@ -1,0 +1,13 @@
+{
+    "uid": "223-C",
+    "url": "https://codeforces.com/contest/223/problem/C",
+    "tags": [
+        "combinatorics",
+        " math",
+        " number theory"
+    ],
+    "title": "223-C",
+    "statement": "C. Partial Sumstime limit per test4 secondsmemory limit per test256 megabytesinputstdinoutputstdoutYou've got an arraya, consisting ofnintegers. The array elements are indexed from 1 ton. Let's determine a two step operation like that:First we build by the arrayaan arraysof partial sums, consisting ofnelements. Element numberi(1 ≤i≤n) of arraysequals. The operationxmodymeans that we take the remainder of the division of numberxby numbery.Then we write the contents of the arraysto the arraya. Element numberi(1 ≤i≤n) of the arraysbecomes thei-th element of the arraya(ai=si).You task is to find arrayaafter exactlykdescribed operations are applied.InputThe first line contains two space-separated integersnandk(1 ≤n≤ 2000,0 ≤k≤ 109). The next line containsnspace-separated integersa1,a2, ...,an— elements of the arraya(0 ≤ai≤ 109).OutputPrintnintegers  — elements of the arrayaafter the operations are applied to it. Print the elements in the order of increasing of their indexes in the arraya. Separate the printed numbers by spaces.ExamplesInput3 11 2 3Output1 3 6Input5 03 14 15 92 6Output3 14 15 92 6",
+    "source": "CF",
+    "vjudge": false
+}

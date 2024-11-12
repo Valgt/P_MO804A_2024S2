@@ -1,0 +1,11 @@
+{
+    "uid": "121-A",
+    "url": "https://codeforces.com/contest/121/problem/A",
+    "tags": [
+        "implementation"
+    ],
+    "title": "121-A",
+    "statement": "A. Lucky Sumtime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutPetya loves lucky numbers. Everybody knows that lucky numbers are positive integers whose decimal representation contains only the lucky digits4and7. For example, numbers47,744,4are lucky and5,17,467are not.Letnext(x)be the minimum lucky number which is larger than or equalsx. Petya is interested what is the value of the expressionnext(l) +next(l+ 1) + ... +next(r- 1) +next(r). Help him solve this problem.InputThe single line contains two integerslandr(1 ≤l≤r≤ 109) — the left and right interval limits.OutputIn the single line print the only number — the sumnext(l) +next(l+ 1) + ... +next(r- 1) +next(r).Please do not use the%lldspecificator to read or write 64-bit integers in C++. It is preferred to use thecin,coutstreams or the%I64dspecificator.ExamplesInput2 7Output33Input7 7Output7NoteIn the first sample:next(2) +next(3) +next(4) +next(5) +next(6) +next(7) = 4 + 4 + 4 + 7 + 7 + 7 = 33In the second sample:next(7) = 7",
+    "source": "CF",
+    "vjudge": false
+}

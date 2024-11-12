@@ -1,0 +1,12 @@
+{
+    "uid": "878-E",
+    "url": "https://codeforces.com/contest/878/problem/E",
+    "tags": [
+        "combinatorics",
+        " dp"
+    ],
+    "title": "878-E",
+    "statement": "E. Numbers on the blackboardtime limit per test2 secondsmemory limit per test512 megabytesinputstandard inputoutputstandard outputA sequence ofnintegers is written on a blackboard. Soon Sasha will come to the blackboard and start the following actions: letxandybe two adjacent numbers (xbeforey), then he can remove them and writex+ 2yinstead of them. He will perform these operations until one number is left. Sasha likes big numbers and will get the biggest possible number.Nikita wants to get to the blackboard before Sasha and erase some of the numbers. He hasqoptions, in the optionihe erases all numbers to the left of theli-th number and all numbers to the right ofri-th number, i. e. all numbers between theli-th and theri-th, inclusive, remain on the blackboard. For each of the options he wants to know how big Sasha's final number is going to be. This number can be very big, so output it modulo109+ 7.InputThe first line contains two integersnandq(1 ≤n,q≤ 105) — the number of integers on the blackboard and the number of Nikita's options.The next line containsnintegersa1,a2, ...,an(- 109≤ai≤ 109) — the sequence on the blackboard.Each of the nextqlines contains two integersliandri(1 ≤li≤ri≤n), describing Nikita's options.OutputFor each option output Sasha's result modulo109+ 7.ExamplesInput3 31 2 31 31 22 3Output1758Input3 11 2 -31 3Output1000000006Input4 21 1 1 -11 43 4Output51000000006NoteIn the second sample Nikita doesn't erase anything. Sasha first erases the numbers1and2and writes5. Then he erases5and-3and gets-1.-1modulo109+ 7is109+ 6.",
+    "source": "CF",
+    "vjudge": false
+}

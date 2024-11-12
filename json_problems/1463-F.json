@@ -1,0 +1,13 @@
+{
+    "uid": "1463-F",
+    "url": "https://codeforces.com/contest/1463/problem/F",
+    "tags": [
+        "bitmasks",
+        " dp",
+        " math"
+    ],
+    "title": "1463-F",
+    "statement": "F. Max Correct Settime limit per test4 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputLet's call the set of positive integers $$$S$$$correctif the following two conditions are met:$$$S \\\\subseteq \\\\{1, 2, \\\\dots, n\\\\}$$$;if $$$a \\\\in S$$$ and $$$b \\\\in S$$$, then $$$|a-b| \\\\neq x$$$ and $$$|a-b| \\\\neq y$$$.For the given values $$$n$$$, $$$x$$$, and $$$y$$$, you have to find the maximum size of thecorrectset.InputA single line contains three integers $$$n$$$, $$$x$$$ and $$$y$$$ ($$$1 \\\\le n \\\\le 10^9$$$; $$$1 \\\\le x, y \\\\le 22$$$).OutputPrint one integer — the maximum size of thecorrectset.ExamplesInput10 2 5Output5Input21 4 6Output9Input1337 7 7Output672Input455678451 22 17Output221997195",
+    "source": "CF",
+    "vjudge": false
+}

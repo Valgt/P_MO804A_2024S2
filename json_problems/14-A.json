@@ -1,0 +1,11 @@
+{
+    "uid": "14-A",
+    "url": "https://codeforces.com/contest/14/problem/A",
+    "tags": [
+        "implementation"
+    ],
+    "title": "14-A",
+    "statement": "A. Lettertime limit per test1 secondmemory limit per test64 megabytesinputstdinoutputstdoutA boy Bob likes to draw. Not long ago he bought a rectangular graph (checked) sheet withnrows andmcolumns. Bob shaded some of the squares on the sheet. Having seen his masterpiece, he decided to share it with his elder brother, who lives in Flatland. Now Bob has to send his picture by post, but because of the world economic crisis and high oil prices, he wants to send his creation, but to spend as little money as possible. For each sent square of paper (no matter whether it is shaded or not) Bob has to pay 3.14 burles. Please, help Bob cut out of his masterpiece a rectangle of the minimum cost, that will contain all the shaded squares. The rectangle's sides should be parallel to the sheet's sides.InputThe first line of the input data contains numbersnandm(1 ≤n,m≤ 50),n— amount of lines, andm— amount of columns on Bob's sheet. The followingnlines containmcharacters each. Character «.» stands for a non-shaded square on the sheet, and «*» — for a shaded square. It is guaranteed that Bob has shaded at least one square.OutputOutput the required rectangle of the minimum cost. Study the output data in the sample tests to understand the output format better.ExamplesInput6 7.........***....*......***....*......***..Output****..****..***Input3 3****.****Output****.****",
+    "source": "CF",
+    "vjudge": false
+}

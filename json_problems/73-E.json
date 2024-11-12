@@ -1,0 +1,12 @@
+{
+    "uid": "73-E",
+    "url": "https://codeforces.com/contest/73/problem/E",
+    "tags": [
+        "math",
+        " number theory"
+    ],
+    "title": "73-E",
+    "statement": "E. Morrowindowstime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutVasya plays The Elder Trolls III: Morrowindows. He has a huge list of items in the inventory, however, there is no limits on the size of things. Vasya does not know the total amount of items but he is sure that are not more thanxand not less than2items in his inventory. A new patch for the game appeared to view inventory inndifferent modes. Displaying in modeiis a partition of all inventory items on pages, each of which (except for maybe the last one) shows exactlyaiitems. In addition, each mode shows how many pagesbiis in a complete list. Great! Perhaps this information will be enough for Vasya to find the required number. Moreover, it is very interesting, what is the fewest number of modes in which Vasya can see inventory to determine the number of items in it?Vasya cannot use the information that was received while looking on inventory in some mode for selection of next actions. I. e. Vasya chooses some set of modes first, and then sees all the results and determines the size.Knowing the number ofai,xand assuming that Vasya is very smart, check whether he can uniquely determine the number of items in his inventory, and how many modes he will need to do that if he knows numbersai,xand he is able to know numberbiafter viewing items in modei.InputThe first line contains two integersnandx(0 ≤n≤ 105, 2 ≤x≤ 109). The second line contains integersai(1 ≤ai≤ 109). Some numbers among allaimay be equal.OutputOutput the fewest amount of modes required to uniquely determine amount of items in the inventory. If there is no solution output- 1.ExamplesInput2 42 3Output2Input1 42Output-1NoteIn the second example Vasya is not able to determine items count uniquely because 3 items, as well as 4 items, can be displayed on two pages.",
+    "source": "CF",
+    "vjudge": false
+}

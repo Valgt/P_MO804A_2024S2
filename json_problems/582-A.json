@@ -1,0 +1,13 @@
+{
+    "uid": "582-A",
+    "url": "https://codeforces.com/contest/582/problem/A",
+    "tags": [
+        "constructive algorithms",
+        " greedy",
+        " number theory"
+    ],
+    "title": "582-A",
+    "statement": "A. GCD Tabletime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputThe GCD tableGof sizen×nfor an array of positive integersaof lengthnis defined by formulaLet us remind you that the greatest common divisor (GCD) of two positive integersxandyis the greatest integer that is divisor of bothxandy, it is denoted as. For example, for arraya= {4, 3, 6, 2}of length 4 the GCD table will look as follows:Given all the numbers of the GCD tableG, restore arraya.InputThe first line contains numbern(1 ≤n≤ 500) — the length of arraya. The second line containsn2space-separated numbers — the elements of the GCD table ofGfor arraya.All the numbers in the table are positive integers, not exceeding109. Note that the elements are given in an arbitrary order. It is guaranteed that the set of the input data corresponds to some arraya.OutputIn the single line printnpositive integers — the elements of arraya. If there are multiple possible solutions, you are allowed to print any of them.ExamplesInput42 1 2 3 4 3 2 6 1 1 2 2 1 2 3 2Output4 3 6 2Input142Output42Input21 1 1 1Output1 1",
+    "source": "CF",
+    "vjudge": false
+}

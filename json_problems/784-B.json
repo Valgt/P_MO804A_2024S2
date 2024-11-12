@@ -1,0 +1,11 @@
+{
+    "uid": "784-B",
+    "url": "https://codeforces.com/contest/784/problem/B",
+    "tags": [
+        "*special"
+    ],
+    "title": "784-B",
+    "statement": "B. Kids' Riddletime limit per test2 secondsmemory limit per test64 megabytesinputstandard inputoutputstandard outputProgrammers' kids solve this riddle in 5-10 minutes. How fast can you do it?InputThe input contains a single integern(0 ≤n≤ 2000000000).OutputOutput a single integer.ExamplesInput11Output2Input14Output0Input61441Output2Input571576Output10Input2128506Output3",
+    "source": "CF",
+    "vjudge": false
+}

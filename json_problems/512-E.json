@@ -1,0 +1,12 @@
+{
+    "uid": "512-E",
+    "url": "https://codeforces.com/contest/512/problem/E",
+    "tags": [
+        "constructive algorithms",
+        " divide and conquer"
+    ],
+    "title": "512-E",
+    "statement": "E. Fox And Polygontime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutFox Ciel just designed a puzzle game called \"Polygon\"! It is played using triangulations of a regularn-edge polygon. The goal is to transform onetriangulationto another by some tricky rules.Triangulationof ann-edge poylgon is a set ofn- 3diagonals satisfying the condition that no two diagonals share a common internal point.For example, the initial state of the game may look like (a) in above figure. And your goal may look like (c). In each step you can choose a diagonal inside the polygon (but not the one of edges of the polygon) andflipthis diagonal.Suppose you are going toflipa diagonala–b. There always exist two triangles sharinga–bas a side, let's denote them asa–b–canda–b–d. As a result of this operation, the diagonala–bis replaced by a diagonalc–d. It can be easily proven that afterflipoperation resulting set of diagonals is still atriangulationof the polygon.So in order to solve above case, you may firstflipdiagonal6 – 3, it will be replaced by diagonal2 – 4. Then youflipdiagonal6 – 4and get figure (c) as result.Ciel just proved that for any starting and destination triangulations this game has a solution. She wants you to solve it in no more than20 000steps for any puzzle satisfyingn≤ 1000.InputThe first line contain an integern(4 ≤n≤ 1000), number of edges of the regular polygon.Then follows two groups of(n- 3)lines describing the original triangulation and goal triangulation.Description of each triangulation consists of(n- 3)lines. Each line contains 2 integersaiandbi(1 ≤ai,bi≤n), describing a diagonalai–bi.It is guaranteed that both original and goal triangulations are correct (i. e. no two diagonals share a common internal point in both of these triangulations).OutputFirst, output an integerk(0 ≤k≤ 20, 000): number of steps.Then outputklines, each containing 2 integersaiandbi: the endpoints of a diagonal you are going to flip at stepi. You may outputaiandbiin any order.If there are several possible solutions, output any of them.ExamplesInput41 32 4Output11 3Input62 63 64 66 25 24 2Output26 36 4Input87 12 77 36 34 66 16 26 36 46 8Output37 37 27 1NoteSample test 2 is discussed above and shown on the picture.",
+    "source": "CF",
+    "vjudge": false
+}

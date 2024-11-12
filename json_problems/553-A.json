@@ -1,0 +1,13 @@
+{
+    "uid": "553-A",
+    "url": "https://codeforces.com/contest/553/problem/A",
+    "tags": [
+        "combinatorics",
+        " dp",
+        " math"
+    ],
+    "title": "553-A",
+    "statement": "A. Kyoya and Colored Ballstime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputKyoya Ootori has a bag withncolored balls that are colored withkdifferent colors. The colors are labeled from1tok. Balls of the same color are indistinguishable. He draws balls from the bag one by one until the bag is empty. He noticed that he drew the last ball of coloribefore drawing the last ball of colori+ 1for allifrom1tok- 1. Now he wonders how many different ways this can happen.InputThe first line of input will have one integerk(1 ≤k≤ 1000) the number of colors.Then,klines will follow. Thei-th line will containci, the number of balls of thei-th color (1 ≤ci≤ 1000).The total number of balls doesn't exceed 1000.OutputA single integer, the number of ways that Kyoya can draw the balls from the bag as described in the statement, modulo1 000 000 007.ExamplesInput3221Output3Input41234Output1680NoteIn the first sample, we have 2 balls of color 1, 2 balls of color 2, and 1 ball of color 3. The three ways for Kyoya are:1 2 1 2 31 1 2 2 32 1 1 2 3",
+    "source": "CF",
+    "vjudge": false
+}

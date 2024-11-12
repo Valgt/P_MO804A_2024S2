@@ -1,0 +1,13 @@
+{
+    "uid": "451-C",
+    "url": "https://codeforces.com/contest/451/problem/C",
+    "tags": [
+        "brute force",
+        " implementation",
+        " math"
+    ],
+    "title": "451-C",
+    "statement": "C. Predict Outcome of the Gametime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutThere arengames in a football tournament. Three teams are participating in it. Currentlykgames had already been played.You are an avid football fan, but recently you missed the wholekgames. Fortunately, you remember a guess of your friend for thesekgames. Your friend did not tell exact number of wins of each team, instead he thought that absolute difference between number of wins of first and second team will bed1and that of between second and third team will bed2.You don't want any of team win the tournament, that is each team should have the same number of wins afterngames. That's why you want to know: does there exist a valid tournament satisfying the friend's guess such that no team will win this tournament?Note that outcome of a match can not be a draw, it has to be either win or loss.InputThe first line of the input contains a single integer corresponding to number of test casest(1 ≤t≤ 105).Each of the nexttlines will contain four space-separated integersn,k,d1,d2(1 ≤n≤ 1012; 0 ≤k≤n; 0 ≤d1,d2≤k)— data for the current test case.OutputFor each test case, output a single line containing either \"yes\" if it is possible to have no winner of tournament, or \"no\" otherwise (without quotes).ExamplesInput53 0 0 03 3 0 06 4 1 06 3 3 03 3 3 2OutputyesyesyesnonoNoteSample 1. There has not been any match up to now(k= 0,d1= 0,d2= 0). If there will be three matches (1-2, 2-3, 3-1) and each team wins once, then at the end each team will have 1 win.Sample 2. You missed all the games(k= 3). Asd1= 0andd2= 0, and there is a way to play three games with no winner of tournament (described in the previous sample), the answer is \"yes\".Sample 3. You missed 4 matches, andd1= 1,d2= 0. These four matches can be: 1-2 (win 2), 1-3 (win 3), 1-2 (win 1), 1-3 (win 1). Currently the first team has 2 wins, the second team has 1 win, the third team has 1 win. Two remaining matches can be: 1-2 (win 2), 1-3 (win 3). In the end all the teams have equal number of wins (2 wins).",
+    "source": "CF",
+    "vjudge": false
+}

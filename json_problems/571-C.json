@@ -1,0 +1,14 @@
+{
+    "uid": "571-C",
+    "url": "https://codeforces.com/contest/571/problem/C",
+    "tags": [
+        "constructive algorithms",
+        " dfs and similar",
+        " graphs",
+        " greedy"
+    ],
+    "title": "571-C",
+    "statement": "C. CNF 2time limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard output'In Boolean logic, a formula is in conjunctive normal form (CNF) or clausal normal form if it is a conjunction of clauses, where a clause is a disjunction of literals' (cited from https://en.wikipedia.org/wiki/Conjunctive_normal_form)In the other words, CNF is a formula of type, where&represents a logical \"AND\" (conjunction),represents a logical \"OR\" (disjunction), andvijare some boolean variables or their negations. Each statement in brackets is called aclause, andvijare calledliterals.You are given a CNF containing variablesx1, ...,xmand their negations. We know that each variable occurs in at most two clauses (with negation and without negation in total). Your task is to determine whether this CNF issatisfiable, that is, whether there are such values of variables where the CNF value is true. If CNF is satisfiable, then you also need to determine the values of the variables at which the CNF is true.It is guaranteed that each variable occurs at most once in each clause.InputThe first line contains integersnandm(1 ≤n,m≤ 2·105) — the number of clauses and the number variables, correspondingly.Nextnlines contain the descriptions of each clause. Thei-th line first contains first numberki(ki≥ 1) — the number of literals in thei-th clauses. Then follow space-separated literalsvij(1 ≤ |vij| ≤m). A literal that corresponds tovijisx|vij|either with negation, ifvijis negative, or without negation otherwise.OutputIf CNF is not satisfiable, print a single line \"NO\" (without the quotes), otherwise print two strings: string \"YES\" (without the quotes), and then a string ofmnumbers zero or one — the values of variables in satisfying assignment in the order fromx1toxm.ExamplesInput2 22 1 -22 2 -1OutputYES11Input4 31 11 23 -1 -2 31 -3OutputNOInput5 62 1 23 1 -2 34 -3 5 4 62 -6 -41 5OutputYES100010NoteIn the first sample test formula is. One of possible answer isx1=TRUE,x2=TRUE.",
+    "source": "CF",
+    "vjudge": false
+}

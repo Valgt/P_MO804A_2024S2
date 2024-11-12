@@ -1,0 +1,12 @@
+{
+    "uid": "171-B",
+    "url": "https://codeforces.com/contest/171/problem/B",
+    "tags": [
+        "*special",
+        " combinatorics"
+    ],
+    "title": "171-B",
+    "statement": "B. Startime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutInputThe input contains a single integera(1 ≤a≤ 18257).OutputPrint a single integeroutput(1 ≤output≤ 2·109).ExamplesInput2Output13",
+    "source": "CF",
+    "vjudge": false
+}

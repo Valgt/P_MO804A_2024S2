@@ -1,0 +1,13 @@
+{
+    "uid": "962-F",
+    "url": "https://codeforces.com/contest/962/problem/F",
+    "tags": [
+        "dfs and similar",
+        " graphs",
+        " trees"
+    ],
+    "title": "962-F",
+    "statement": "F. Simple Cycles Edgestime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given an undirected graph, consisting of $$$n$$$ vertices and $$$m$$$ edges. The graph does not necessarily connected. Guaranteed, that the graph does not contain multiple edges (more than one edges between a pair of vertices) or loops (edges from a vertex to itself).A cycle in a graph is called a simple, if it contains each own vertex exactly once. So simple cycle doesn't allow to visit a vertex more than once in a cycle.Determine the edges, which belong toexactly on onesimple cycle.InputThe first line contain two integers $$$n$$$ and $$$m$$$ $$$(1 \\\\le n \\\\le 100\\\\,000$$$, $$$0 \\\\le m \\\\le \\\\min(n \\\\cdot (n - 1) / 2, 100\\\\,000))$$$ — the number of vertices and the number of edges.Each of the following $$$m$$$ lines contain two integers $$$u$$$ and $$$v$$$ ($$$1 \\\\le u, v \\\\le n$$$, $$$u \\\\neq v$$$) — the description of the edges.OutputIn the first line print the number of edges, which belong to exactly one simple cycle.In the second line print the indices of edges, which belong to exactly one simple cycle, inincreasingorder. The edges are numbered from one in the same order as they are given in the input.ExamplesInput3 31 22 33 1Output31 2 3Input6 72 33 44 21 21 55 66 1Output61 2 3 5 6 7Input5 61 22 32 44 32 55 3Output0",
+    "source": "CF",
+    "vjudge": false
+}

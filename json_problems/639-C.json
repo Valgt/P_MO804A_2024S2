@@ -1,0 +1,13 @@
+{
+    "uid": "639-C",
+    "url": "https://codeforces.com/contest/639/problem/C",
+    "tags": [
+        "hashing",
+        " implementation",
+        " math"
+    ],
+    "title": "639-C",
+    "statement": "C. Bear and Polynomialstime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputLimak is a little polar bear. He doesn't have many toys and thus he often plays with polynomials.He considers a polynomialvalidif its degree isnand its coefficients are integers not exceedingkby the absolute value. More formally:Leta0,a1, ...,andenote the coefficients, so. Then, a polynomialP(x)is valid if all the following conditions are satisfied:aiis integer for everyi;|ai| ≤kfor everyi;an≠ 0.Limak has recently got a valid polynomialPwith coefficientsa0,a1,a2, ...,an. He noticed thatP(2) ≠ 0and he wants to change it. He is going to change one coefficient to get avalidpolynomialQof degreenthatQ(2) = 0. Count the number of ways to do so. You should count two ways as a distinct if coefficients of target polynoms differ.InputThe first line contains two integersnandk(1 ≤n≤ 200 000, 1 ≤k≤ 109) — the degree of the polynomial and the limit for absolute values of coefficients.The second line containsn+ 1integersa0,a1, ...,an(|ai| ≤k,an≠ 0) — describing avalidpolynomial. It's guaranteed thatP(2) ≠ 0.OutputPrint the number of ways to change one coefficient to get a valid polynomialQthatQ(2) = 0.ExamplesInput3 100000000010 -9 -3 5Output3Input3 1210 -9 -3 5Output2Input2 2014 -7 19Output0NoteIn the first sample, we are given a polynomialP(x) = 10 - 9x- 3x2+ 5x3.Limak can change one coefficient in three ways:He can seta0=  - 10. Then he would getQ(x) =  - 10 - 9x- 3x2+ 5x3and indeedQ(2) =  - 10 - 18 - 12 + 40 = 0.Or he can seta2=  - 8. ThenQ(x) = 10 - 9x- 8x2+ 5x3and indeedQ(2) = 10 - 18 - 32 + 40 = 0.Or he can seta1=  - 19. ThenQ(x) = 10 - 19x- 3x2+ 5x3and indeedQ(2) = 10 - 38 - 12 + 40 = 0.In the second sample, we are given the same polynomial. This time though,kis equal to12instead of109. Two first of ways listed above are still valid but in the third way we would get|a1| >kwhat is not allowed. Thus, the answer is2this time.",
+    "source": "CF",
+    "vjudge": false
+}

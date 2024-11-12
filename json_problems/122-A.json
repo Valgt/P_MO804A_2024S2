@@ -1,0 +1,12 @@
+{
+    "uid": "122-A",
+    "url": "https://codeforces.com/contest/122/problem/A",
+    "tags": [
+        "brute force",
+        " number theory"
+    ],
+    "title": "122-A",
+    "statement": "A. Lucky Divisiontime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutPetya loves lucky numbers. Everybody knows that lucky numbers are positive integers whose decimal representation contains only the lucky digits4and7. For example, numbers47,744,4are lucky and5,17,467are not.Petya calls a numberalmost luckyif it could be evenly divided by some lucky number. Help him find out if the given numbernis almost lucky.InputThe single line contains an integern(1 ≤n≤ 1000)— the number that needs to be checked.OutputIn the only line print \"YES\" (without the quotes), if numbernis almost lucky. Otherwise, print \"NO\" (without the quotes).ExamplesInput47OutputYESInput16OutputYESInput78OutputNONoteNote that all lucky numbers are almost lucky as any number is evenly divisible by itself.In the first sample47is a lucky number. In the second sample16is divisible by4.",
+    "source": "CF",
+    "vjudge": false
+}

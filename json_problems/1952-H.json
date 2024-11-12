@@ -1,0 +1,12 @@
+{
+    "uid": "1952-H",
+    "url": "https://codeforces.com/contest/1952/problem/H",
+    "tags": [
+        "implementation",
+        " strings"
+    ],
+    "title": "1952-H",
+    "statement": "H. Palindrometime limit per test3 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputA palindrome is a string that reads the same in both directions, for examplez,uwu, ormoom.InputThe first line contains an integer $$$t$$$ ($$$1 \\\\leq t \\\\leq 100$$$) — the number of testcases.The following $$$t$$$ lines each contain a string of length at most $$$100$$$ consisting of lowercase English letters.OutputFor each test case, output \"YES\" or \"NO\", denoting the answer.ExamplesInput8actleradarracecarphpatcodercodeforcessteamOutputNO NO YES YES NO NO YES YESInput2azOutputNO YES",
+    "source": "CF",
+    "vjudge": false
+}

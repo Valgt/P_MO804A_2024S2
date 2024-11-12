@@ -1,0 +1,14 @@
+{
+    "uid": "217-A",
+    "url": "https://codeforces.com/contest/217/problem/A",
+    "tags": [
+        "brute force",
+        " dfs and similar",
+        " dsu",
+        " graphs"
+    ],
+    "title": "217-A",
+    "statement": "A. Ice Skatingtime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutBajtek is learning to skate on ice. He's a beginner, so his only mode of transportation is pushing off from a snow drift to the north, east, south or west and sliding until he lands in another snow drift. He has noticed that in this way it's impossible to get from some snow drifts to some other by any sequence of moves. He now wants to heap up some additional snow drifts, so that he can get from any snow drift to any other one. He asked you to find the minimal number of snow drifts that need to be created.We assume that Bajtek can only heap up snow drifts at integer coordinates.InputThe first line of input contains a single integern(1 ≤n≤ 100) — the number of snow drifts. Each of the followingnlines contains two integersxiandyi(1 ≤xi,yi≤ 1000) — the coordinates of thei-th snow drift.Note that the north direction coinсides with the direction ofOyaxis, so the east direction coinсides with the direction of theOxaxis. All snow drift's locations are distinct.OutputOutput the minimal number of snow drifts that need to be created in order for Bajtek to be able to reach any snow drift from any other one.ExamplesInput22 11 2Output1Input22 14 1Output0",
+    "source": "CF",
+    "vjudge": false
+}

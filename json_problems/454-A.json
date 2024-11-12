@@ -1,0 +1,11 @@
+{
+    "uid": "454-A",
+    "url": "https://codeforces.com/contest/454/problem/A",
+    "tags": [
+        "implementation"
+    ],
+    "title": "454-A",
+    "statement": "A. Little Pony and Crystal Minetime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutTwilight Sparkle once got a crystal from the Crystal Mine. A crystal of sizen(nis odd;n> 1) is ann×nmatrix with a diamond inscribed into it.You are given an odd integern. You need to draw a crystal of sizen. The diamond cells of the matrix should be represented by character \"D\". All other cells of the matrix should be represented by character \"*\". Look at the examples to understand what you need to draw.InputThe only line contains an integern(3 ≤n≤ 101;nis odd).OutputOutput a crystal of sizen.ExamplesInput3Output*D*DDD*D*Input5Output**D***DDD*DDDDD*DDD***D**Input7Output***D*****DDD***DDDDD*DDDDDDD*DDDDD***DDD*****D***",
+    "source": "CF",
+    "vjudge": false
+}

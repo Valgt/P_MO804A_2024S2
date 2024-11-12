@@ -1,0 +1,13 @@
+{
+    "uid": "295-B",
+    "url": "https://codeforces.com/contest/295/problem/B",
+    "tags": [
+        "dp",
+        " graphs",
+        " shortest paths"
+    ],
+    "title": "295-B",
+    "statement": "B. Greg and Graphtime limit per test3 secondsmemory limit per test256 megabytesinputstdinoutputstdoutGreg has a weighed directed graph, consisting ofnvertices. In this graph any pair of distinct vertices has an edge between them in both directions. Greg loves playing with the graph and now he has invented a new game:The game consists ofnsteps.On thei-th step Greg removes vertex numberxifrom the graph. As Greg removes a vertex, he also removes all the edges that go in and out of this vertex.Before executing each step, Greg wants to know the sum of lengths of the shortest paths between all pairs of the remaining vertices. The shortest path can go through any remaining vertex. In other words, if we assume thatd(i,v,u)is the shortest path between verticesvanduin the graph that formed before deleting vertexxi, then Greg wants to know the value of the following sum:.Help Greg, print the value of the required sum before each step.InputThe first line contains integern(1 ≤n≤ 500)— the number of vertices in the graph.Nextnlines containnintegers each — the graph adjacency matrix: thej-th number in thei-th lineaij(1 ≤aij≤ 105,aii= 0)represents the weight of the edge that goes from vertexito vertexj.The next line containsndistinct integers:x1,x2, ...,xn(1 ≤xi≤n)— the vertices that Greg deletes.OutputPrintnintegers — thei-th number equals the required sum before thei-th step.Please, do not use the%lldspecifier to read or write 64-bit integers inC++. It is preferred to use thecin,coutstreams of the%I64dspecifier.ExamplesInput101Output0Input20 54 01 2Output9 0Input40 3 1 16 0 400 12 4 0 11 1 1 04 1 2 3Output17 23 404 0",
+    "source": "CF",
+    "vjudge": false
+}

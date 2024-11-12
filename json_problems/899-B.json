@@ -1,0 +1,11 @@
+{
+    "uid": "899-B",
+    "url": "https://codeforces.com/contest/899/problem/B",
+    "tags": [
+        "implementation"
+    ],
+    "title": "899-B",
+    "statement": "B. Months and Yearstime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputEverybody in Russia uses Gregorian calendar. In this calendar there are31days in January,28or29days in February (depending on whether the year is leap or not),31days in March,30days in April,31days in May,30in June,31in July,31in August,30in September,31in October,30in November,31in December.A year is leap in one of two cases: either its number is divisible by4, but not divisible by100, or is divisible by400. For example, the following years are leap:2000,2004, but years1900and2018are not leap.In this problem you are givenn(1 ≤n≤ 24) integersa1,a2, ...,an, and you have to check if these integers could be durations in days ofnconsecutive months, according to Gregorian calendar. Note that these months could belong to several consecutive years. In other words, check if there is a month in some year, such that its duration isa1days, duration of the next month isa2days, and so on.InputThe first line contains single integern(1 ≤n≤ 24) — the number of integers.The second line containsnintegersa1,a2, ...,an(28 ≤ai≤ 31) — the numbers you are to check.OutputIf there are several consecutive months that fit the sequence, print \"YES\" (without quotes). Otherwise, print \"NO\" (without quotes).You can print each letter in arbitrary case (small or large).ExamplesInput431 31 30 31OutputYesInput230 30OutputNoInput529 31 30 31 30OutputYesInput331 28 30OutputNoInput331 31 28OutputYesNoteIn the first example the integers can denote months July, August, September and October.In the second example the answer is no, because there are no two consecutive months each having30days.In the third example the months are: February (leap year) — March — April – May — June.In the fourth example the number of days in the second month is28, so this is February. March follows February and has31days, but not30, so the answer isNO.In the fifth example the months are: December — January — February (non-leap year).",
+    "source": "CF",
+    "vjudge": false
+}

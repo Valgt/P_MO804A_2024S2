@@ -1,0 +1,12 @@
+{
+    "uid": "955-D",
+    "url": "https://codeforces.com/contest/955/problem/D",
+    "tags": [
+        "brute force",
+        " strings"
+    ],
+    "title": "955-D",
+    "statement": "D. Scissorstime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputJenya has recently acquired quite a useful tool —k-scissors for cutting strings. They are generally used for cutting out two non-intersecting substrings of lengthkfrom an arbitrary strings(its length should be at least2·kin order to perform this operation) and concatenating them afterwards (preserving the initial order). For example, with the help of2-scissors you can cutabanddeout ofabcdeand concatenate them intoabde, but notabandbcsince they're intersecting.It's a nice idea to test this tool before using it in practice. After looking through the papers, Jenya came up with two stringssandt. His question is whether it is possible to apply his scissors to stringssuch that the resulting concatenation containstas a substring?InputThe first line contains three integersn,m,k(2 ≤m≤ 2·k≤n≤ 5·105)— length ofs, length oftand the aforementioned scissors' parameter correspondingly.The next two lines featuresandtconsisting of lowercase latin letters.OutputIf there is no answer, print «No».Otherwise print «Yes» and two integersLandRdenoting the indexes where cutted substrings start (1-indexed). If there are several possible answers, output any.ExamplesInput7 4 3baabaabaaaaOutputYes1 5Input6 3 2cbcbcbbccOutputYes2 5Input7 5 3aabbaaaaaaaaOutputNoNoteIn the first sample case you can cut out two substrings starting at1and5. The resulting stringbaaaabcontainsaaaaas a substring.In the second sample case the resulting string isbccb.",
+    "source": "CF",
+    "vjudge": false
+}

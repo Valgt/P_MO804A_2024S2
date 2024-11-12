@@ -1,0 +1,11 @@
+{
+    "uid": "152-A",
+    "url": "https://codeforces.com/contest/152/problem/A",
+    "tags": [
+        "implementation"
+    ],
+    "title": "152-A",
+    "statement": "A. Markstime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutVasya, or Mr. Vasily Petrov is a dean of a department in a local university. After the winter exams he got his hands on a group's gradebook.Overall the group hasnstudents. They received marks formsubjects. Each student got a mark from1to9(inclusive) for each subject.Let's consider a student thebest at some subject, if there is no student who got a higher mark for this subject. Let's consider a studentsuccessful, if there exists a subject he is thebest at.Your task is to find the number ofsuccessfulstudents in the group.InputThe first input line contains two integersnandm(1 ≤n,m≤ 100) — the number of students and the number of subjects, correspondingly. Nextnlines each containingmcharacters describe the gradebook. Each character in the gradebook is a number from1to9. Note that the marks in a rows are not sepatated by spaces.OutputPrint the single number — the number ofsuccessfulstudents in the given group.ExamplesInput3 3223232112Output2Input3 5917281182811111Output3NoteIn the first sample test the student number1is the best at subjects1and3, student2is the best at subjects1and2, but student3isn't the best at any subject.In the second sample test each student is the best at at least one subject.",
+    "source": "CF",
+    "vjudge": false
+}

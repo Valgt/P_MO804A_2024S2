@@ -1,0 +1,11 @@
+{
+    "uid": "628-B",
+    "url": "https://codeforces.com/contest/628/problem/B",
+    "tags": [
+        "dp"
+    ],
+    "title": "628-B",
+    "statement": "B. New Skateboardtime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputMax wants to buy a new skateboard. He has calculated the amount of money that is needed to buy a new skateboard. He left a calculator on the floor and went to ask some money from his parents. Meanwhile his little brother Yusuf came and started to press the keys randomly. Unfortunately Max has forgotten the number which he had calculated. The only thing he knows is that the number is divisible by4.You are given a stringsconsisting of digits (the number on the display of the calculator after Yusuf randomly pressed the keys). Your task is to find the number of substrings which are divisible by4. A substring can start with a zero.A substring of a string is a nonempty sequence of consecutive characters.For example if stringsis124then we have four substrings that are divisible by4:12,4,24and124. For the string04the answer is three:0,4,04.As input/output can reach huge size it is recommended to use fast input/output methods: for example, prefer to usegets/scanf/printfinstead ofgetline/cin/coutin C++, prefer to useBufferedReader/PrintWriterinstead ofScanner/System.outinJava.InputThe only line contains strings(1 ≤ |s| ≤ 3·105). The stringscontains only digits from0to9.OutputPrint integera— the number of substrings of the stringsthat are divisible by4.Note that the answer can be huge, so you should use64-bit integer type to store it. InC++you can use thelong longinteger type and inJavayou can uselonginteger type.ExamplesInput124Output4Input04Output3Input5810438174Output9",
+    "source": "CF",
+    "vjudge": false
+}

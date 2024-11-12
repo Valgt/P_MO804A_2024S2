@@ -1,0 +1,12 @@
+{
+    "uid": "1663-F",
+    "url": "https://codeforces.com/contest/1663/problem/F",
+    "tags": [
+        "*special",
+        " strings"
+    ],
+    "title": "1663-F",
+    "statement": "F. In Every Generation...time limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputIn every generation there is a Chosen One. She alone will stand against the vampires, the demons, and the forces of darkness. She is the Slayer.— Joss WhedonInputA string $$$s$$$ ($$$3 \\\\le |s| \\\\le 7$$$) consisting of lowercase English letters.OutputA single string. If there is no answer, print \"none\" (without the quotes).ExampleInputtouristOutputooggqjx",
+    "source": "CF",
+    "vjudge": false
+}

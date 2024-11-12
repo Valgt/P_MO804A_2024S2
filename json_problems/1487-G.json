@@ -1,0 +1,14 @@
+{
+    "uid": "1487-G",
+    "url": "https://codeforces.com/contest/1487/problem/G",
+    "tags": [
+        "combinatorics",
+        " dp",
+        " fft",
+        " math"
+    ],
+    "title": "1487-G",
+    "statement": "G. String Countingtime limit per test10 secondsmemory limit per test1024 megabytesinputstandard inputoutputstandard outputYou have $$$c_1$$$ letters 'a', $$$c_2$$$ letters 'b', ..., $$$c_{26}$$$ letters 'z'. You want to build abeautifulstring of length $$$n$$$ from them (obviously, you cannot use the $$$i$$$-th letter more than $$$c_i$$$ times).Each $$$c_i$$$ is greater than $$$\\\\frac{n}{3}$$$.A string is calledbeautifulif there are no palindromic contiguous substrings of odd length greater than $$$1$$$ in it. For example, the string \"abacaba\" is not beautiful, it has several palindromic substrings of odd length greater than $$$1$$$ (for example, \"aca\"). Another example: the string \"abcaa\" isbeautiful.Calculate the number of different strings you can build, and print the answer modulo $$$998244353$$$.InputThe first line contains one integer $$$n$$$ ($$$3 \\\\le n \\\\le 400$$$).The second line contains $$$26$$$ integers $$$c_1$$$, $$$c_2$$$, ..., $$$c_{26}$$$ ($$$\\\\frac{n}{3} < c_i \\\\le n$$$).OutputPrint one integer — the number of strings you can build, taken modulo $$$998244353$$$.ExamplesInput4 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2Output422500Input3 2 2 2 2 2 2 3 3 3 2 2 2 2 2 2 3 3 3 2 2 3 2 2 3 2 2Output16900Input400 348 322 247 158 209 134 151 267 268 176 214 379 372 291 388 135 147 304 169 149 193 351 380 368 181 340Output287489790",
+    "source": "CF",
+    "vjudge": false
+}

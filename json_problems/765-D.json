@@ -1,0 +1,13 @@
+{
+    "uid": "765-D",
+    "url": "https://codeforces.com/contest/765/problem/D",
+    "tags": [
+        "constructive algorithms",
+        " dsu",
+        " math"
+    ],
+    "title": "765-D",
+    "statement": "D. Artsem and Saunderstime limit per test2 secondsmemory limit per test512 megabytesinputstandard inputoutputstandard outputArtsem has a friend Saunders from University of Chicago. Saunders presented him with the following problem.Let[n]denote the set{1, ...,n}. We will also writef: [x] → [y]when a functionfis defined in integer points1, ...,x, and all its values are integers from 1 toy.Now then, you are given a functionf: [n] → [n]. Your task is to find a positive integerm, and two functionsg: [n] → [m],h: [m] → [n], such thatg(h(x)) =xfor all, andh(g(x)) =f(x)for all, or determine that finding these is impossible.InputThe first line contains an integern(1 ≤n≤ 105).The second line containsnspace-separated integers — valuesf(1), ...,f(n)(1 ≤f(i) ≤n).OutputIf there is no answer, print one integer-1.Otherwise, on the first line print the numberm(1 ≤m≤ 106). On the second line printnnumbersg(1), ...,g(n). On the third line printmnumbersh(1), ...,h(m).If there are several correct answers, you may output any of them. It is guaranteed that if a valid answer exists, then there is an answer satisfying the above restrictions.ExamplesInput31 2 3Output31 2 31 2 3Input32 2 2Output11 1 12Input22 1Output-1",
+    "source": "CF",
+    "vjudge": false
+}

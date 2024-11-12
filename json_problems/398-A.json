@@ -1,0 +1,12 @@
+{
+    "uid": "398-A",
+    "url": "https://codeforces.com/contest/398/problem/A",
+    "tags": [
+        "constructive algorithms",
+        " implementation"
+    ],
+    "title": "398-A",
+    "statement": "A. Cardstime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutUser ainta loves to play with cards. He hasacards containing letter \"o\" andbcards containing letter \"x\". He arranges the cards in a row, and calculates the score of the deck by the formula below.At first, the score is0.For each block of contiguous \"o\"s with lengthxthe score increases byx2.For each block of contiguous \"x\"s with lengthythe score decreases byy2.For example, ifa= 6,b= 3and ainta have arranged the cards in the order, that is described by string \"ooxoooxxo\", the score of the deck equals22- 12+ 32- 22+ 12= 9. That is because the deck has 5 blocks in total: \"oo\", \"x\", \"ooo\", \"xx\", \"o\".User ainta likes big numbers, so he wants to maximize the score with the given cards. Help ainta make the score as big as possible. Note, that he has to arrange all his cards.InputThe first line contains two space-separated integersaandb(0 ≤a,b≤ 105;a+b≥ 1) — the number of \"o\" cards and the number of \"x\" cards.OutputIn the first line print a single integerv— the maximum score that ainta can obtain.In the second line printa+bcharacters describing the deck. If thek-th card of the deck contains \"o\", thek-th character must be \"o\". If thek-th card of the deck contains \"x\", thek-th character must be \"x\". The number of \"o\" characters must be equal toa, and the number of \"x\" characters must be equal tob. If there are many ways to maximizev, print any.Please, do not write the%lldspecifier to read or write 64-bit integers in С++. It is preferred to use thecin,coutstreams or the%I64dspecifier.ExamplesInput2 3Output-1xoxoxInput4 0Output16ooooInput0 4Output-16xxxx",
+    "source": "CF",
+    "vjudge": false
+}

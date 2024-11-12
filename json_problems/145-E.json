@@ -1,0 +1,11 @@
+{
+    "uid": "145-E",
+    "url": "https://codeforces.com/contest/145/problem/E",
+    "tags": [
+        "data structures"
+    ],
+    "title": "145-E",
+    "statement": "E. Lucky Queriestime limit per test3 secondsmemory limit per test256 megabytesinputstdinoutputstdoutPetya loves lucky numbers very much. Everybody knows that lucky numbers are positive integers whose decimal record contains only the lucky digits4and7. For example, numbers47,744,4are lucky and5,17,467are not.Petya brought home stringswith the length ofn. The string only consists of lucky digits. The digits are numbered from the left to the right starting with1. Now Petya should executemqueries of the following form:switchlr— \"switch\" digits (i.e. replace them with their opposites) at all positions with indexes fromltor, inclusive: each digit4is replaced with7and each digit7is replaced with4(1 ≤l≤r≤n);count— find and print on the screen the length of the longest non-decreasing subsequence of strings.Subsequence of a stringsis a string that can be obtained fromsby removing zero or more of its elements. A string is called non-decreasing if each successive digit is not less than the previous one.Help Petya process the requests.InputThe first line contains two integersnandm(1 ≤n≤ 106, 1 ≤m≤ 3·105) — the length of the stringsand the number of queries correspondingly. The second line containsnlucky digits without spaces — Petya's initial string. Nextmlines contain queries in the form described in the statement.OutputFor each querycountprint an answer on a single line.ExamplesInput2 347countswitch 1 2countOutput21Input3 5747countswitch 1 1countswitch 1 3countOutput232NoteIn the first sample the chronology of stringsafter some operations are fulfilled is as follows (the sought maximum subsequence is marked withbold):477474In the second sample:747447447774774",
+    "source": "CF",
+    "vjudge": false
+}

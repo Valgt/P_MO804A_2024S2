@@ -1,0 +1,15 @@
+{
+    "uid": "1841-C",
+    "url": "https://codeforces.com/contest/1841/problem/C",
+    "tags": [
+        "brute force",
+        " dp",
+        " greedy",
+        " math",
+        " strings"
+    ],
+    "title": "1841-C",
+    "statement": "C. Ranom Numberstime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputNo, not \"random\" numbers.Ranom digits are denoted by uppercase Latin letters fromAtoE. Moreover, the value of the letterAis $$$1$$$,Bis $$$10$$$,Cis $$$100$$$,Dis $$$1000$$$,Eis $$$10000$$$.A Ranom number is a sequence of Ranom digits. The value of the Ranom number is calculated as follows: the values of all digits are summed up, but some digits are taken with negative signs: a digit is taken with negative sign if there is a digit with astrictly greatervalue to the right of it (not necessarily immediately after it); otherwise, that digit is taken with a positive sign.For example, the value of the Ranom numberDAAABDCAis $$$1000 - 1 - 1 - 1 - 10 + 1000 + 100 + 1 = 2088$$$.You are given a Ranom number. You can change no more than one digit in it. Calculate the maximum possible value of the resulting number.InputThe first line contains a single integer $$$t$$$ ($$$1 \\\\le t \\\\le 10^4$$$) — the number of test cases.The only line of each test case contains a string $$$s$$$ ($$$1 \\\\le |s| \\\\le 2 \\\\cdot 10^5$$$) consisting of uppercase Latin letters fromAtoE— the Ranom number you are given.The sum of the string lengths over all test cases does not exceed $$$2 \\\\cdot 10^5$$$.OutputFor each test case, print a single integer — the maximum possible value of the number, if you can change no more than one digit in it.ExampleInput4DAAABDCAABABCDEEDCBADDDDAAADDABECDOutput11088 10010 31000 15886NoteIn the first example, you can getEAAABDCAwith the value $$$10000-1-1-1-10+1000+100+1=11088$$$.In the second example, you can getEBwith the value $$$10000+10=10010$$$.",
+    "source": "CF",
+    "vjudge": false
+}

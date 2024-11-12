@@ -1,0 +1,14 @@
+{
+    "uid": "802-L",
+    "url": "https://codeforces.com/contest/802/problem/L",
+    "tags": [
+        "dfs and similar",
+        " dp",
+        " math",
+        " trees"
+    ],
+    "title": "802-L",
+    "statement": "L. Send the Fool Further! (hard)time limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputHeidi is terrified by your estimate and she found it unrealistic that her friends would collaborate to drive her into debt. She expects that, actually, each person will just pick a random friend to send Heidi to. (This randomness assumption implies, however, that she can now visit the same friend an arbitrary number of times...) Moreover, if a person only has one friend in common with Heidi (i.e., if that person is in a leaf of the tree), then that person will not send Heidi back (so that Heidi's travel will end at some point).Heidi also found unrealistic the assumption that she can make all the travels in one day. Therefore now she assumes that every time she travels a route between two friends, she needs to buy a new ticket. She wants to know: how much should she expect to spend on the trips?For what it's worth, Heidi knows that Jenny has at least two friends.InputThe first line contains the number of friendsn(3 ≤n≤ 105). The nextn- 1lines each contain three space-separated integersu,vandc(0 ≤u,v≤n- 1,1 ≤c≤ 104) meaning thatuandvare friends and the cost for traveling betweenuandvisc(paid every time!).It is again guaranteed that the social network of the input forms a tree.OutputAssume that the expected cost of the trips is written as an irreducible fractiona/b(that is,aandbare coprime). Then Heidi, the weird cow that she is, asks you to output. (Output a single integer between0and109+ 6.)ExamplesInput30 1 100 2 20Output15Input40 1 30 2 90 3 27Output13Input70 1 30 5 71 2 21 3 11 4 55 6 8Output400000019Input111 0 66462 0 88163 2 93754 2 59505 1 87026 2 26577 2 8858 7 26609 2 536910 6 3798Output153869806Input60 1 80 2 241 3 401 4 164 5 8Output39NoteIn the first example, with probability1 / 2Heidi will go to1from0, and with probability1 / 2she will go to2. In the first case the cost would be10, and in the second it would be20. After reaching1or2she will stop, as1and2are leaves of the social tree. Hence, the expected cost she has to pay is10·1 / 2 + 20·1 / 2 = 15.In the third example, the expected cost is81 / 5. You should output400000019.In her travels, Heidi has learned an intriguing fact about the structure of her social network. She tells you the following:The mysterious determinant that you might be wondering about is such that it does not cause strange errors in your reasonable solution...Did we mention that Heidi is a weird cow?",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,13 @@
+{
+    "uid": "208-C",
+    "url": "https://codeforces.com/contest/208/problem/C",
+    "tags": [
+        "dp",
+        " graphs",
+        " shortest paths"
+    ],
+    "title": "208-C",
+    "statement": "C. Police Stationtime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutThe Berland road network consists ofncities and ofmbidirectional roads. The cities are numbered from 1 ton, where the main capital city has numbern, and the culture capital — number1. The road network is set up so that it is possible to reach any city from any other one by the roads. Moving on each road in any direction takes the same time.All residents of Berland are very lazy people, and so when they want to get from cityvto cityu, they always choose one of the shortest paths (no matter which one).The Berland government wants to make this country's road network safer. For that, it is going to put a police station in one city. The police station has a rather strange property: when a citizen of Berland is driving along the road with a police station at one end of it, the citizen drives more carefully, so all such roads are considered safe. The roads, both ends of which differ from the city with the police station, are dangerous.Now the government wonders where to put the police station so that the average number of safe roads forallthe shortest paths from the cultural capital to the main capital would take the maximum value.InputThe first input line contains two integersnandm(2 ≤n≤ 100,) — the number of cities and the number of roads in Berland, correspondingly. Nextmlines contain pairs of integersvi,ui(1 ≤vi,ui≤n,vi≠ui) — the numbers of cities that are connected by thei-th road. The numbers on a line are separated by a space.It is guaranteed that each pair of cities is connected with no more than one road and that it is possible to get from any city to any other one along Berland roads.OutputPrint the maximum possible value of the average number of safe roads among all shortest paths from the culture capital to the main one. The answer will be considered valid if its absolute or relative inaccuracy does not exceed10- 6.ExamplesInput4 41 22 41 33 4Output1.000000000000Input11 141 21 32 43 44 54 65 116 111 88 99 711 71 1010 4Output1.714285714286NoteIn the first sample you can put a police station in one of the capitals, then each path will have exactly one safe road. If we place the station not in the capital, then the average number of safe roads will also make.In the second sample we can obtain the maximum sought value if we put the station in city4, then6paths will have2safe roads each, and one path will have0safe roads, so the answer will equal.",
+    "source": "CF",
+    "vjudge": false
+}

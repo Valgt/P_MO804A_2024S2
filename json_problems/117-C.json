@@ -1,0 +1,12 @@
+{
+    "uid": "117-C",
+    "url": "https://codeforces.com/contest/117/problem/C",
+    "tags": [
+        "dfs and similar",
+        " graphs"
+    ],
+    "title": "117-C",
+    "statement": "C. Cycletime limit per test2.5 secondsmemory limit per test256 megabytesinputstdinoutputstdoutAtournamentis a directed graph without self-loops in which every pair of vertexes is connected by exactly one directed edge. That is, for any two vertexesuandv(u≠v) exists either an edge going fromutov, or an edge fromvtou.You are given a tournament consisting ofnvertexes. Your task is to find there a cycle of length three.InputThe first line contains an integern(1 ≤n≤ 5000). Nextnlines contain the adjacency matrixAof the graph (without spaces).Ai,j= 1if the graph has an edge going from vertexito vertexj, otherwiseAi,j= 0.Ai,jstands for thej-th character in thei-th line.It is guaranteed that the given graph is a tournament, that is,Ai,i= 0,Ai,j≠Aj,i(1 ≤i,j≤n,i≠j).OutputPrint three distinct vertexes of the grapha1,a2,a3(1 ≤ai≤n), such thatAa1,a2=Aa2,a3=Aa3,a1= 1, or \"-1\", if a cycle whose length equals three does not exist.If there are several solutions, print any of them.ExamplesInput50010010000010011110111000Output1 3 2Input50111100000010000110001110Output-1",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,13 @@
+{
+    "uid": "354-E",
+    "url": "https://codeforces.com/contest/354/problem/E",
+    "tags": [
+        "constructive algorithms",
+        " dfs and similar",
+        " dp"
+    ],
+    "title": "354-E",
+    "statement": "E. Lucky Number Representationtime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutWe know that lucky digits are digits4and7, however Vasya's got another favorite digit0and he assumes it also is lucky! Lucky numbers are suchnon-negativeintegers whose decimal record only contains lucky digits. For example, numbers0, 47, 7074are lucky, but1, 7377, 895,-7are not.Vasya hastimportant positive integers he needs to remember. Vasya is quite superstitious and he wants to remember lucky numbers only, so he is asking you for each important number to represent it as a sum of exactly six lucky numbers (Vasya just can't remember more numbers). Then Vasya can just remember these six numbers and calculate the important number at any moment.For each oftimportant integers represent it as the sum of six lucky numbers or state that this is impossible.InputThe first line contains a single integert(1 ≤t≤ 5000).Nexttlines contain a single positive integerni(1 ≤ni≤ 1018)— the list of important numbers.Please, do not use the%lldto read or write 64-bit integers С++. It is preferred to read thecin,coutstreams or the%I64dspecifier.OutputPrinttlines. Thei-th line must contain the answer for thei-th important number: if the solution exists, the line must contain exactly six lucky numbers the sum of which equalsni, if the solution doesn't exist the string must contain a single integer-1.If there are multiple answers print any of them.ExamplesInput54217444751Output7 7 7 7 7 7-1400 0 40 0 4 07 0 0 0 0 047 4 0 0 0 0",
+    "source": "CF",
+    "vjudge": false
+}

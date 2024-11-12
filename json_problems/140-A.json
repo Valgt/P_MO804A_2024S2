@@ -1,0 +1,12 @@
+{
+    "uid": "140-A",
+    "url": "https://codeforces.com/contest/140/problem/A",
+    "tags": [
+        "geometry",
+        " math"
+    ],
+    "title": "140-A",
+    "statement": "A. New Year Tabletime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutGerald is setting the New Year table. The table has the form of a circle; its radius equalsR. Gerald invited many guests and is concerned whether the table has enough space for plates for all those guests. Consider all plates to be round and have the same radii that equalr. Each plate must be completely inside the table and must touch the edge of the table. Of course, the plates must not intersect, but they can touch each other. Help Gerald determine whether the table is large enough fornplates.InputThe first line contains three integersn,Randr(1 ≤n≤ 100,1 ≤r,R≤ 1000) — the number of plates, the radius of the table and the plates' radius.OutputPrint \"YES\" (without the quotes) if it is possible to placenplates on the table by the rules given above. If it is impossible, print \"NO\".Remember, that each plate must touch the edge of the table.ExamplesInput4 10 4OutputYESInput5 10 4OutputNOInput1 10 10OutputYESNoteThe possible arrangement of the plates for the first sample is:",
+    "source": "CF",
+    "vjudge": false
+}

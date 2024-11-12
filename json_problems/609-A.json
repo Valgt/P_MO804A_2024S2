@@ -1,0 +1,13 @@
+{
+    "uid": "609-A",
+    "url": "https://codeforces.com/contest/609/problem/A",
+    "tags": [
+        "greedy",
+        " implementation",
+        " sortings"
+    ],
+    "title": "609-A",
+    "statement": "A. USB Flash Drivestime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputSean is trying to save a large file to a USB flash drive. He hasnUSB flash drives with capacities equal toa1,a2, ...,anmegabytes. The file size is equal tommegabytes.Find the minimum number of USB flash drives needed to write Sean's file, if he can split the file between drives.InputThe first line contains positive integern(1 ≤n≤ 100) — the number of USB flash drives.The second line contains positive integerm(1 ≤m≤ 105) — the size of Sean's file.Each of the nextnlines contains positive integerai(1 ≤ai≤ 1000) — the sizes of USB flash drives in megabytes.It is guaranteed that the answer exists, i. e. the sum of allaiis not less thanm.OutputPrint the minimum number of USB flash drives to write Sean's file, if he can split the file between drives.ExamplesInput35213Output2Input36232Output3Input25510Output1NoteIn the first example Sean needs only two USB flash drives — the first and the third.In the second example Sean needs all three USB flash drives.In the third example Sean needs only one USB flash drive and he can use any available USB flash drive — the first or the second.",
+    "source": "CF",
+    "vjudge": false
+}

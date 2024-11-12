@@ -1,0 +1,12 @@
+{
+    "uid": "901-E",
+    "url": "https://codeforces.com/contest/901/problem/E",
+    "tags": [
+        "fft",
+        " math"
+    ],
+    "title": "901-E",
+    "statement": "E. Cyclic Ciphertime limit per test5 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputSenor Vorpal Kickass'o invented an innovative method to encrypt integer sequences of lengthn. To encrypt a sequence, one has to choose a secret sequence, that acts as a key.Vorpal is very selective, so the key should be such a sequencebi, that its cyclic shifts are linearly independent, that is, there is no non-zero set of coefficientsx0,x1, ...,xn- 1, such thatfor allkat the same time.After that for a sequenceyou should build the following cipher:In other words, you are to compute the quadratic deviation between each cyclic shift ofbiand the sequenceai. The resulting sequence is the Kickass's cipher. The cipher is in development right now and Vorpal wants to decipher a sequence after it has been encrypted. You are to solve this problem for him. You are given sequencesciandbi. You are to find all suitable sequencesai.InputThe first line contains a single integern().The second line containsnintegersb0,b1, ...,bn- 1().The third line containsnintegersc0,c1, ...,cn- 1().It is guaranteed that all cyclic shifts of sequencebiare linearly independent.OutputIn the first line print a single integerk— the number of sequencesai, such that after encrypting them with keybiyou get the sequenceci.After that in each ofknext lines printnintegersa0,a1, ...,an- 1. Print the sequences in lexicographical order.Note thatkcould be equal to0.ExamplesInput110Output11Input110081Output291109Input31 1 3165 185 197Output2-6 -9 -18 5 13",
+    "source": "CF",
+    "vjudge": false
+}

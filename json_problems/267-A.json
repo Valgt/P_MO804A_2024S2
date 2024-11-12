@@ -1,0 +1,12 @@
+{
+    "uid": "267-A",
+    "url": "https://codeforces.com/contest/267/problem/A",
+    "tags": [
+        "math",
+        " number theory"
+    ],
+    "title": "267-A",
+    "statement": "A. Subtractionstime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutYou've got two numbers. As long as they are both larger than zero, they go through the same operation: subtract the lesser number from the larger one. If they equal substract one number from the another. For example, one operation transforms pair (4,17) to pair (4,13), it transforms (5,5) to (0,5).You've got some number of pairs (ai,bi). How many operations will be performed for each of them?InputThe first line contains the number of pairsn(1  ≤n≤  1000). Then follownlines, each line contains a pair of positive integersai,bi(1  ≤ai,bi≤  109).OutputPrint the sought number of operations for each pair on a single line.ExamplesInput24 177 987654321Output8141093479",
+    "source": "CF",
+    "vjudge": false
+}

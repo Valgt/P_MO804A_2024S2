@@ -1,0 +1,12 @@
+{
+    "uid": "72-H",
+    "url": "https://codeforces.com/contest/72/problem/H",
+    "tags": [
+        "*special",
+        " implementation"
+    ],
+    "title": "72-H",
+    "statement": "H. Reverse It!time limit per test4 secondsmemory limit per test256 megabytesinputstdinoutputstdoutThe 14th of March was the international day of mathematics, because of numberπ = 3.1415926...In the occasion of this day Goofy Nephews Unity Organization (GNU) wants to publish the fastest program in math at 1:59:26 AM.Now the time is 1:11:11 AM and the project team haven't checked their program yet. Because of shortage of time they want to check their program with some queries. So they hired Hormizd (one of the greatest programmers in world) to write a tester for GNU's new program. Because Hormizd has much more important things to do, he wants you to write a small part of tester and it is reversing the numbers. Help him before 1:59:26.We can reverse numbers easily. For example by reversing1234we get4321.Note, that if the integer is negative then its reverse would be also negative. For example reverse of- 123is- 321.Also, you have to delete all the leading zeroes before and after the reverse.Given an integer you have to help Hormizd reverse it.InputThe first line contains a single integern. It is less than101000by it's absolute value. This integer may have leading zeros. If it had leading zeros you should first omit them and print the reverse of remaining digits. It's guaranteed that input contains less than 10001 characters.OutputOutput a single integer, the reverse of the given number. You have to omit leading zeros in the output.ExamplesInput23Output32Input-032Output-23Input01234560Output654321",
+    "source": "CF",
+    "vjudge": false
+}

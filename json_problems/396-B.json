@@ -1,0 +1,12 @@
+{
+    "uid": "396-B",
+    "url": "https://codeforces.com/contest/396/problem/B",
+    "tags": [
+        "math",
+        " number theory"
+    ],
+    "title": "396-B",
+    "statement": "B. On Sum of Fractionstime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutLet's assume thatv(n)is the largest prime number, that does not exceedn;u(n)is the smallest prime number strictly greater thann.Find.InputThe first line contains integert(1 ≤t≤ 500)— the number of testscases.Each of the followingtlines of the input contains integern(2 ≤n≤ 109).OutputPrinttlines: thei-th of them must contain the answer to thei-th test as an irreducible fraction \"p/q\", wherep,qare integers,q> 0.ExamplesInput223Output1/67/30",
+    "source": "CF",
+    "vjudge": false
+}

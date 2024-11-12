@@ -1,0 +1,13 @@
+{
+    "uid": "802-O",
+    "url": "https://codeforces.com/contest/802/problem/O",
+    "tags": [
+        "binary search",
+        " data structures",
+        " flows"
+    ],
+    "title": "802-O",
+    "statement": "O. April Fools' Problem (hard)time limit per test10 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputThe plans for HC2are rather far-fetched: we are just over 500 000 days away from HC23387, for example, and accordingly we are planning to have a couple hundred thousand problems in that edition (we hope that programming contests will become wildly more popular). The marmots need to get to work, and they could use a good plan...InputSame as the medium version, but the limits have changed:1 ≤k≤n≤ 500 000.OutputSame as the medium version.ExampleInput8 43 8 7 9 9 4 6 82 5 9 4 3 8 9 1Output32",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,11 @@
+{
+    "uid": "457-C",
+    "url": "https://codeforces.com/contest/457/problem/C",
+    "tags": [
+        "brute force"
+    ],
+    "title": "457-C",
+    "statement": "C. Electionstime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutYou are running for a governor in a small city in Russia. You ran some polls and did some research, and for every person in the city you know whom he will vote for, and how much it will cost to bribe that person to vote for you instead of whomever he wants to vote for right now. You are curious, what is the smallest amount of money you need to spend on bribing to win the elections. To win elections you need to have strictly more votes than any other candidate.InputFirst line contains one integern(1 ≤n≤ 105) — number of voters in the city. Each of the nextnlines describes one voter and contains two integersaiandbi(0 ≤ai≤ 105; 0 ≤bi≤ 104) — number of the candidate that voter is going to vote for and amount of money you need to pay him to change his mind. You are the candidate0(so if a voter wants to vote for you,aiis equal to zero, in which casebiwill also be equal to zero).OutputPrint one integer — smallest amount of money you need to spend to win the elections.ExamplesInput51 21 21 22 10 0Output3Input41 21 22 10 0Output2Input1100000 0Output0",
+    "source": "CF",
+    "vjudge": false
+}

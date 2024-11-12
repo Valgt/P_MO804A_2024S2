@@ -1,0 +1,16 @@
+{
+    "uid": "441-D",
+    "url": "https://codeforces.com/contest/441/problem/D",
+    "tags": [
+        "constructive algorithms",
+        " dsu",
+        " graphs",
+        " implementation",
+        " math",
+        " string suffix structures"
+    ],
+    "title": "441-D",
+    "statement": "D. Valera and Swapstime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutApermutationpof lengthnis a sequence of distinct integersp1,p2, ...,pn(1 ≤pi≤n). A permutation is an identity permutation, if for anyithe following equation holdspi=i.Aswap(i,j)is the operation that swaps elementspiandpjin the permutation. Let's assume thatf(p)is the minimum number of swaps that you need to make the permutationpan identity permutation.Valera wonders, how he can transform permutationpinto any permutationq, such thatf(q) =m, using the minimum number of swaps. Help him do that.InputThe first line contains integern(1 ≤n≤ 3000) — the length of permutationp. The second line containsndistinct integersp1,p2, ...,pn(1 ≤pi≤n) — Valera's initial permutation. The last line contains integerm(0 ≤m<n).OutputIn the first line, print integerk— the minimum number of swaps.In the second line, print2kintegersx1,x2, ...,x2k— the description of the swap sequence. The printed numbers show that you need to consecutively make swaps(x1,x2),(x3,x4), ...,(x2k- 1,x2k).If there are multiple sequence swaps of the minimum length, print the lexicographically minimum one.ExamplesInput51 2 3 4 52Output21 2 1 3Input52 1 4 5 32Output11 2NoteSequencex1,x2, ...,xsis lexicographically smaller than sequencey1,y2, ...,ys, if there is such integerr(1 ≤r≤s), thatx1=y1,x2=y2, ...,xr- 1=yr- 1andxr<yr.",
+    "source": "CF",
+    "vjudge": false
+}

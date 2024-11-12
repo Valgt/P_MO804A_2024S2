@@ -1,0 +1,14 @@
+{
+    "uid": "633-B",
+    "url": "https://codeforces.com/contest/633/problem/B",
+    "tags": [
+        "brute force",
+        " constructive algorithms",
+        " math",
+        " number theory"
+    ],
+    "title": "633-B",
+    "statement": "B. A Trivial Problemtime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputMr. Santa asks all the great programmers of the world to solve a trivial problem. He gives them an integermand asks for the number of positive integersn, such that the factorial ofnends with exactlymzeroes. Are you among those great programmers who can solve this problem?InputThe only line of input contains an integerm(1 ≤m≤ 100 000) — the required number of trailing zeroes in factorial.OutputFirst printk— the number of values ofnsuch that the factorial ofnends withmzeroes. Then print thesekintegers in increasing order.ExamplesInput1Output55 6 7 8 9Input5Output0NoteThe factorial ofnis equal to the product of all integers from1toninclusive, that isn! = 1·2·3·...·n.In the first sample,5! = 120,6! = 720,7! = 5040,8! = 40320and9! = 362880.",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,14 @@
+{
+    "uid": "893-E",
+    "url": "https://codeforces.com/contest/893/problem/E",
+    "tags": [
+        "combinatorics",
+        " dp",
+        " math",
+        " number theory"
+    ],
+    "title": "893-E",
+    "statement": "E. Counting Arraystime limit per test3 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given two positive integer numbersxandy. An arrayFis called any-factorizationofxiff the following conditions are met:There areyelements inF, and all of them are integer numbers;.You have to count the number of pairwise distinct arrays that arey-factorizations ofx. Two arraysAandBare considered different iff there exists at least one indexi(1 ≤i≤y) such thatAi≠Bi. Since the answer can be very large, print it modulo109+ 7.InputThe first line contains one integerq(1 ≤q≤ 105) — the number of testcases to solve.Thenqlines follow, each containing two integersxiandyi(1 ≤xi,yi≤ 106). Each of these lines represents a testcase.OutputPrintqintegers.i-th integer has to be equal to the number ofyi-factorizations ofximodulo109+ 7.ExampleInput26 34 2Output366NoteIn the second testcase of the example there are sixy-factorizations:{ - 4,  - 1};{ - 2,  - 2};{ - 1,  - 4};{1, 4};{2, 2};{4, 1}.",
+    "source": "CF",
+    "vjudge": false
+}

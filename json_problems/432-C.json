@@ -1,0 +1,12 @@
+{
+    "uid": "432-C",
+    "url": "https://codeforces.com/contest/432/problem/C",
+    "tags": [
+        "greedy",
+        " sortings"
+    ],
+    "title": "432-C",
+    "statement": "C. Prime Swapstime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutYou have an arraya[1],a[2], ...,a[n], containing distinct integers from1ton. Your task is to sort this array in increasing order with the following operation (you may need to apply it multiple times):choose two indexes,iandj(1 ≤i<j≤n;(j-i+ 1)is a prime number);swap the elements on positionsiandj; in other words, you are allowed to apply the following sequence of assignments:tmp=a[i],a[i] =a[j],a[j] =tmp(tmpis a temporary variable).You do not need to minimize the number of used operations. However, you need to make sure that there are at most5noperations.InputThe first line contains integern(1 ≤n≤ 105). The next line containsndistinct integersa[1],a[2], ...,a[n](1 ≤a[i] ≤n).OutputIn the first line, print integerk(0 ≤k≤ 5n)— the number of used operations. Next, print the operations. Each operation must be printed as \"ij\" (1 ≤i<j≤n;(j-i+ 1)is a prime).If there are multiple answers, you can print any of them.ExamplesInput33 2 1Output11 3Input21 2Output0Input44 2 3 1Output32 41 22 4",
+    "source": "CF",
+    "vjudge": false
+}

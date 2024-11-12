@@ -1,0 +1,12 @@
+{
+    "uid": "111-D",
+    "url": "https://codeforces.com/contest/111/problem/D",
+    "tags": [
+        "combinatorics",
+        " dp"
+    ],
+    "title": "111-D",
+    "statement": "D. Petya and Coloringtime limit per test5 secondsmemory limit per test256 megabytesinputstdinoutputstdoutLittle Petya loves counting. He wants to count the number of ways to paint a rectangular checkered board of sizen×m(nrows,mcolumns) inkcolors. Besides, the coloring should have the following property: for any vertical line that passes along the grid lines and divides the board in two non-empty parts the number of distinct colors in both these parts should be the same. Help Petya to count these colorings.InputThe first line contains space-separated integersn,mandk(1 ≤n,m≤ 1000, 1 ≤k≤ 106) — the board's vertical and horizontal sizes and the number of colors respectively.OutputPrint the answer to the problem. As the answer can be quite a large number, you should print it modulo109+ 7(1000000007).ExamplesInput2 2 1Output1Input2 2 2Output8Input3 2 2Output40",
+    "source": "CF",
+    "vjudge": false
+}

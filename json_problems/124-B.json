@@ -1,0 +1,13 @@
+{
+    "uid": "124-B",
+    "url": "https://codeforces.com/contest/124/problem/B",
+    "tags": [
+        "brute force",
+        " combinatorics",
+        " implementation"
+    ],
+    "title": "124-B",
+    "statement": "B. Permutationstime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutYou are givennk-digit integers. You have to rearrange the digits in the integers so that the difference between the largest and the smallest number was minimum. Digits should be rearranged by the same rule in all integers.InputThe first line contains integersnandk— the number and digit capacity of numbers correspondingly (1 ≤n,k≤ 8). Nextnlines containk-digit positive integers. Leading zeroes are allowed both in the initial integers and the integers resulting from the rearranging of digits.OutputPrint a single number: the minimally possible difference between the largest and the smallest number after the digits are rearranged in all integers by the same rule.ExamplesInput6 4523727537523572353272537Output2700Input3 3010909012Output3Input7 550808366033719844911299944254350156Output20522NoteIn the first sample, if we rearrange the digits in numbers as (3,1,4,2), then the 2-nd and the 4-th numbers will equal 5237 and 2537 correspondingly (they will be maximum and minimum for such order of digits).In the second sample, if we swap the second digits and the first ones, we get integers 100, 99 and 102.",
+    "source": "CF",
+    "vjudge": false
+}

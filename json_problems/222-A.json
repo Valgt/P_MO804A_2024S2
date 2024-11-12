@@ -1,0 +1,12 @@
+{
+    "uid": "222-A",
+    "url": "https://codeforces.com/contest/222/problem/A",
+    "tags": [
+        "brute force",
+        " implementation"
+    ],
+    "title": "222-A",
+    "statement": "A. Shooshuns and Sequencetime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutOne day shooshuns found a sequence ofnintegers, written on a blackboard. The shooshuns can perform one operation with it, the operation consists of two steps:Find the number that goesk-th in the current sequence and add the same number to the end of the sequence;Delete the first number of the current sequence.The shooshuns wonder after how many operations all numbers on the board will be the same and whether all numbers will ever be the same.InputThe first line contains two space-separated integersnandk(1 ≤k≤n≤ 105).The second line containsnspace-separated integers:a1,a2, ...,an(1 ≤ai≤ 105) — the sequence that the shooshuns found.OutputPrint the minimum number of operations, required for all numbers on the blackboard to become the same. If it is impossible to achieve, print -1.ExamplesInput3 23 1 1Output1Input3 13 1 1Output-1NoteIn the first test case after the first operation the blackboard will have sequence[1, 1, 1]. So, one operation is enough to make all numbers the same. Thus, the answer equals one.In the second test case the sequence will never consist of the same numbers. It will always contain at least two distinct numbers 3 and 1. Thus, the answer equals -1.",
+    "source": "CF",
+    "vjudge": false
+}

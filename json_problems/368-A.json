@@ -1,0 +1,11 @@
+{
+    "uid": "368-A",
+    "url": "https://codeforces.com/contest/368/problem/A",
+    "tags": [
+        "implementation"
+    ],
+    "title": "368-A",
+    "statement": "A. Sereja and Coat Racktime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutSereja owns a restaurant fornpeople. The restaurant hall has a coat rack withnhooks. Each restaurant visitor can use a hook to hang his clothes on it. Using thei-th hook costsairubles. Only one person can hang clothes on one hook.Tonight Sereja expectsmguests in the restaurant. Naturally, each guest wants to hang his clothes on an available hook with minimum price (if there are multiple such hooks, he chooses any of them). However if the moment a guest arrives the rack has no available hooks, Sereja must pay adruble fine to the guest.Help Sereja find out the profit in rubles (possibly negative) that he will get tonight. You can assume that before the guests arrive, all hooks on the rack are available, all guests come at different time, nobody besides themguests is visiting Sereja's restaurant tonight.InputThe first line contains two integersnandd(1 ≤n,d≤ 100). The next line contains integersa1,a2,...,an(1 ≤ai≤ 100). The third line contains integerm(1 ≤m≤ 100).OutputIn a single line print a single integer — the answer to the problem.ExamplesInput2 12 12Output3Input2 12 110Output-5NoteIn the first test both hooks will be used, so Sereja gets1 + 2 = 3rubles.In the second test both hooks will be used but Sereja pays a fine8times, so the answer is3 - 8 =  - 5.",
+    "source": "CF",
+    "vjudge": false
+}

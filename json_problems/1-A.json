@@ -1,0 +1,11 @@
+{
+    "uid": "1-A",
+    "url": "https://codeforces.com/contest/1/problem/A",
+    "tags": [
+        "math"
+    ],
+    "title": "1-A",
+    "statement": "A. Theatre Squaretime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutTheatre Square in the capital city of Berland has a rectangular shape with the sizen×mmeters. On the occasion of the city's anniversary, a decision was taken to pave the Square with square granite flagstones. Each flagstone is of the sizea×a.What is the least number of flagstones needed to pave the Square? It's allowed to cover the surface larger than the Theatre Square, but the Square has to be covered. It's not allowed to break the flagstones. The sides of flagstones should be parallel to the sides of the Square.InputThe input contains three positive integer numbers in the first line:n,manda(1 ≤n,m,a≤ 109).OutputWrite the needed number of flagstones.ExamplesInput6 6 4Output4",
+    "source": "CF",
+    "vjudge": false
+}

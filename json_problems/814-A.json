@@ -1,0 +1,14 @@
+{
+    "uid": "814-A",
+    "url": "https://codeforces.com/contest/814/problem/A",
+    "tags": [
+        "constructive algorithms",
+        " greedy",
+        " implementation",
+        " sortings"
+    ],
+    "title": "814-A",
+    "statement": "A. An abandoned sentiment from pasttime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputA few years ago, Hitagi encountered a giant crab, who stole the whole of her body weight. Ever since, she tried to avoid contact with others, for fear that this secret might be noticed.To get rid of the oddity and recover her weight, a special integer sequence is needed. Hitagi's sequence has been broken for a long time, but now Kaiki provides an opportunity.Hitagi's sequenceahas a length ofn. Lost elements in it are denoted by zeros. Kaiki provides another sequenceb, whose lengthkequals the number of lost elements ina(i.e. the number of zeros). Hitagi is to replace each zero inawith an element frombso thateach element inbshould be used exactly once. Hitagi knows, however, that,apart from0, no integer occurs inaandbmore than once in total.If the resulting sequence isnotan increasing sequence, then it has the power to recover Hitagi from the oddity. You are to determine whether this is possible, or Kaiki's sequence is just another fake. In other words, you should detect whether it is possible to replace each zero inawith an integer frombso that each integer frombis used exactly once, and the resulting sequence isnotincreasing.InputThe first line of input contains two space-separated positive integersn(2 ≤n≤ 100) andk(1 ≤k≤n) — the lengths of sequenceaandbrespectively.The second line containsnspace-separated integersa1,a2, ...,an(0 ≤ai≤ 200) — Hitagi's broken sequence with exactlykzero elements.The third line containskspace-separated integersb1,b2, ...,bk(1 ≤bi≤ 200) — the elements to fill into Hitagi's sequence.Input guarantees that apart from0, no integer occurs inaandbmore than once in total.OutputOutput \"Yes\" if it's possible to replace zeros inawith elements inband make the resulting sequence not increasing, and \"No\" otherwise.ExamplesInput4 211 0 0 145 4OutputYesInput6 12 3 0 8 9 105OutputNoInput4 18 94 0 489OutputYesInput7 70 0 0 0 0 0 01 2 3 4 5 6 7OutputYesNoteIn the first sample:Sequenceais11, 0, 0, 14.Two of the elements are lost, and the candidates inbare5and4.There are two possible resulting sequences:11, 5, 4, 14and11, 4, 5, 14, both of which fulfill the requirements. Thus the answer is \"Yes\".In the second sample, the only possible resulting sequence is2, 3, 5, 8, 9, 10, which is an increasing sequence and therefore invalid.",
+    "source": "CF",
+    "vjudge": false
+}

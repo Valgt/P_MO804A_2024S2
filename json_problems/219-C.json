@@ -1,0 +1,13 @@
+{
+    "uid": "219-C",
+    "url": "https://codeforces.com/contest/219/problem/C",
+    "tags": [
+        "brute force",
+        " dp",
+        " greedy"
+    ],
+    "title": "219-C",
+    "statement": "C. Color Stripetime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutA colored stripe is represented by a horizontal row ofnsquare cells, each cell is pained one ofkcolors. Your task is to repaint the minimum number of cells so that no two neighbouring cells are of the same color. You can use any color from 1 tokto repaint the cells.InputThe first input line contains two integersnandk(1 ≤n≤ 5·105; 2 ≤k≤ 26). The second line containsnuppercase English letters. Letter \"A\" stands for the first color, letter \"B\" stands for the second color and so on. The firstkEnglish letters may be used. Each letter represents the color of the corresponding cell of the stripe.OutputPrint a single integer — the required minimum number of repaintings. In the second line print any possible variant of the repainted stripe.ExamplesInput6 3ABBACCOutput2ABCACAInput3 2BBBOutput1BAB",
+    "source": "CF",
+    "vjudge": false
+}

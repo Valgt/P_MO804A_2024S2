@@ -1,0 +1,11 @@
+{
+    "uid": "409-F",
+    "url": "https://codeforces.com/contest/409/problem/F",
+    "tags": [
+        "*special"
+    ],
+    "title": "409-F",
+    "statement": "F. 000001time limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutInputThe input contains a single integera(1 ≤a≤ 64).OutputOutput a single integer.ExamplesInput2Output1Input4Output2Input27Output5Input42Output6",
+    "source": "CF",
+    "vjudge": false
+}

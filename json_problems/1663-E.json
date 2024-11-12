@@ -1,0 +1,12 @@
+{
+    "uid": "1663-E",
+    "url": "https://codeforces.com/contest/1663/problem/E",
+    "tags": [
+        "*special",
+        " implementation"
+    ],
+    "title": "1663-E",
+    "statement": "E. Are You Safe?time limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputSeven boys and seven girls from Athens were brought before King Minos. The evil king laughed and said \"I hope you enjoy your stay in Crete\".With a loud clang, the doors behind them shut, and darkness reigned. The terrified children huddled together. In the distance they heard a bellowing, unholy roar.Bravely, they advanced forward, to their doom.Input$$$n$$$ ($$$1 \\\\le n \\\\le 100$$$) — the dimensions of the labyrinth.Each of the next $$$n$$$ lines contains a string of lowercase English letters of length $$$n$$$.ExampleInput10 atzxcodera mzhappyayc mineodteri trxesonaac mtollexcxc hjikeoutlc eascripsni rgvymnjcxm onzazwswwg geothermalOutputYES",
+    "source": "CF",
+    "vjudge": false
+}

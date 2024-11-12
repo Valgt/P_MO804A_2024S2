@@ -1,0 +1,13 @@
+{
+    "uid": "864-F",
+    "url": "https://codeforces.com/contest/864/problem/F",
+    "tags": [
+        "dfs and similar",
+        " graphs",
+        " trees"
+    ],
+    "title": "864-F",
+    "statement": "F. Cities Excursionstime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputThere arencities in Berland. Some pairs of them are connected withmdirected roads. One can use only these roads to move from one city to another. There are no roads that connect a city to itself. For each pair of cities(x,y)there is at most one road fromxtoy.A path from citysto citytis a sequence of citiesp1,p2, ... ,pk, wherep1=s,pk=t, and there is a road from citypito citypi+ 1for eachifrom1tok- 1. The path can pass multiple times through each city exceptt. It can't pass throughtmore than once.A pathpfromstotisidealif it is the lexicographically minimal such path. In other words,pisidealpath fromstotif for any other pathqfromstotpi<qi, whereiis the minimum integer such thatpi≠qi.There is a tourist agency in the country that offersqunusual excursions: thej-th excursion starts at citysjand ends in citytj.For each pairsj,tjhelp the agency to study the ideal path fromsjtotj. Note that it is possible that there is no ideal path fromsjtotj. This is possible due to two reasons:there is no path fromsjtotj;there are paths fromsjtotj, but for every such pathpthere is another pathqfromsjtotj, such thatpi>qi, whereiis the minimum integer for whichpi≠qi.The agency would like to know for the ideal path fromsjtotjthekj-th city in that path (on the way fromsjtotj).For each triplesj,tj,kj(1 ≤j≤q) find if there is an ideal path fromsjtotjand print thekj-th city in that path, if there is any.InputThe first line contains three integersn,mandq(2 ≤n≤ 3000,0 ≤m≤ 3000,1 ≤q≤ 4·105) — the number of cities, the number of roads and the number of excursions.Each of the nextmlines contains two integersxiandyi(1 ≤xi,yi≤n,xi≠yi), denoting that thei-th road goes from cityxito cityyi. All roads are one-directional. There can't be more than one road in each direction between two cities.Each of the nextqlines contains three integerssj,tjandkj(1 ≤sj,tj≤n,sj≠tj,1 ≤kj≤ 3000).OutputIn thej-th line print the city that is thekj-th in the ideal path fromsjtotj. If there is no ideal path fromsjtotj, or the integerkjis greater than the length of this path, print the string '-1' (without quotes) in thej-th line.ExampleInput7 7 51 22 31 33 44 55 34 61 4 22 6 11 7 31 3 21 3 5Output2-1-12-1",
+    "source": "CF",
+    "vjudge": false
+}

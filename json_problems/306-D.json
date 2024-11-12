@@ -1,0 +1,12 @@
+{
+    "uid": "306-D",
+    "url": "https://codeforces.com/contest/306/problem/D",
+    "tags": [
+        "constructive algorithms",
+        " geometry"
+    ],
+    "title": "306-D",
+    "statement": "D. Polygontime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutPolycarpus loves convex polygons, especially if all their angles are the same and all their sides are different. Draw for him any such polygon with the given number of vertexes.InputThe input contains a single integern(3 ≤n≤ 100) — the number of the polygon vertexes.OutputPrintnlines, containing the coordinates of the vertexes of then-gon \"xiyi\" in the counter clockwise order. The coordinates of the vertexes shouldn't exceed106in their absolute value. The side lengths should fit within limits[1, 1000](not necessarily integer). Mutual comparing sides and angles of your polygon during the test will go with precision of10- 3.If there is no solution, print \"No solution\" (without the quotes).ExamplesInput8Output1.000 0.0007.000 0.0009.000 2.0009.000 3.0005.000 7.0003.000 7.0000.000 4.0000.000 1.000",
+    "source": "CF",
+    "vjudge": false
+}

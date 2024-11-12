@@ -1,0 +1,13 @@
+{
+    "uid": "130-B",
+    "url": "https://codeforces.com/contest/130/problem/B",
+    "tags": [
+        "*special",
+        " implementation",
+        " strings"
+    ],
+    "title": "130-B",
+    "statement": "B. Gnikool Ssalgtime limit per test2 secondsmemory limit per test64 megabytesinputstdinoutputstdoutYou are given a string. Reverse its characters.InputThe only line of input contains a string between1and100characters long. Each character of the string has ASCII-code between33(exclamation mark) and126(tilde), inclusive.OutputOutput the characters of this string in reverse order.ExamplesInputsecrofedocOutputcodeforcesInput!ssalg-gnikool5Output5looking-glass!",
+    "source": "CF",
+    "vjudge": false
+}

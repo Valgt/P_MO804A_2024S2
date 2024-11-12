@@ -1,0 +1,11 @@
+{
+    "uid": "451-D",
+    "url": "https://codeforces.com/contest/451/problem/D",
+    "tags": [
+        "math"
+    ],
+    "title": "451-D",
+    "statement": "D. Count Good Substringstime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutWe call a stringgood, if after merging all the consecutive equal characters, the resulting string is palindrome. For example, \"aabba\" is good, because after the merging step it will become \"aba\".Given a string, you have to find two values:the number of good substrings of even length;the number of good substrings of odd length.InputThe first line of the input contains a single string of lengthn(1 ≤n≤ 105). Each character of the string will be either 'a' or 'b'.OutputPrint two space-separated integers: the number of good substrings of even length and the number of good substrings of odd length.ExamplesInputbbOutput1 2InputbaabOutput2 4InputbabbOutput2 5InputbabaaOutput2 7NoteIn example 1, there are three good substrings (\"b\", \"b\", and \"bb\"). One of them has even length and two of them have odd length.In example 2, there are six good substrings (i.e. \"b\", \"a\", \"a\", \"b\", \"aa\", \"baab\"). Two of them have even length and four of them have odd length.In example 3, there are seven good substrings (i.e. \"b\", \"a\", \"b\", \"b\", \"bb\", \"bab\", \"babb\"). Two of them have even length and five of them have odd length.DefinitionsA substrings[l,r](1 ≤l≤r≤n)of strings=s1s2...snis stringslsl+ 1...sr.A strings=s1s2...snis a palindrome if it is equal to stringsnsn- 1...s1.",
+    "source": "CF",
+    "vjudge": false
+}

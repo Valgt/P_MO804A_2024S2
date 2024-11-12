@@ -1,0 +1,13 @@
+{
+    "uid": "50-D",
+    "url": "https://codeforces.com/contest/50/problem/D",
+    "tags": [
+        "binary search",
+        " dp",
+        " probabilities"
+    ],
+    "title": "50-D",
+    "statement": "D. Bombingtime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutThe commanding officers decided to drop a nuclear bomb on the enemy's forces. You are ordered to determine the power of the warhead that needs to be used.The enemy hasNstrategically important objects. Their positions are known due to the intelligence service. The aim of the strike is to deactivate at leastKimportant objects of the enemy. The bombing impact point is already determined and has coordinates of[X0;Y0].The nuclear warhead is marked by the estimated impact radiusR≥ 0. All the buildings that are located closer thanRto the bombing epicentre will be destroyed. All the buildings that are located further thanRfrom the epicentre, can also be deactivated with some degree of probability. Let's assume thatDis the distance between a building and the epicentre. This building's deactivation probabilityP(D,R)is calculated according to the following formula:We should regardasea, wheree≈ 2.7182818284590452353602874713527If the estimated impact radius of the warhead is equal to zero, then all the buildings located in the impact point will be completely demolished and all the rest of important objects will not be damaged.The commanding officers want the probability of failing the task to be no more thanε. Nuclear warheads are too expensive a luxury, that's why you have to minimise the estimated impact radius of the warhead.InputThe first line contains an integerNwhich represents the number of the enemy's objects (1 ≤N≤ 100). The second line contains two integers:Kis the required number of deactivated objects, andεis the maximally permitted probability of not completing the task, given in per mils (1 ≤K≤N,1 ≤ ε ≤ 999). The third line containsX0andY0which are the coordinates of the strike impact point. The nextNlines contain two numbersXiandYieach which are the coordinates of every strategically important object. All the coordinates are integer, their absolute values do not exceed1000.Let us remind you that there are a thousand per mils in unity (number one).There can be several objects in one point.OutputPrint the sought estimated impact radius of the warhead. The absolute or relative measure of the inaccuracy of your answer should not exceed10- 6.ExamplesInput11 5005 51 2Output3.84257761518762740Input53 1000 03 460 70100 10010 105 12Output13.45126176453737600",
+    "source": "CF",
+    "vjudge": false
+}

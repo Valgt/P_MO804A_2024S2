@@ -1,0 +1,11 @@
+{
+    "uid": "3-D",
+    "url": "https://codeforces.com/contest/3/problem/D",
+    "tags": [
+        "greedy"
+    ],
+    "title": "3-D",
+    "statement": "D. Least Cost Bracket Sequencetime limit per test1 secondmemory limit per test64 megabytesinputstdinoutputstdoutThis is yet another problem on regular bracket sequences.A bracket sequence is called regular, if by inserting \"+\" and \"1\" into it we get a correct mathematical expression. For example, sequences \"(())()\", \"()\" and \"(()(()))\" are regular, while \")(\", \"(()\" and \"(()))(\" are not. You have a pattern of a bracket sequence that consists of characters \"(\", \")\" and \"?\". You have to replace each character \"?\" with a bracket so, that you get a regular bracket sequence.For each character \"?\" the cost of its replacement with \"(\" and \")\" is given. Among all the possible variants your should choose the cheapest.InputThe first line contains a non-empty pattern of even length, consisting of characters \"(\", \")\" and \"?\". Its length doesn't exceed5·104. Then there followmlines, wheremis the number of characters \"?\" in the pattern. Each line contains two integer numbersaiandbi(1 ≤ai,bi≤ 106), whereaiis the cost of replacing thei-th character \"?\" with an opening bracket, andbi— with a closing one.OutputPrint the cost of the optimal regular bracket sequence in the first line, and the required sequence in the second.Print-1, if there is no answer. If the answer is not unique, print any of them.ExamplesInput(??)1 22 8Output4()()",
+    "source": "CF",
+    "vjudge": false
+}

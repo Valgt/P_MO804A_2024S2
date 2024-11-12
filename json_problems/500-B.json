@@ -1,0 +1,16 @@
+{
+    "uid": "500-B",
+    "url": "https://codeforces.com/contest/500/problem/B",
+    "tags": [
+        "dfs and similar",
+        " dsu",
+        " graphs",
+        " greedy",
+        " math",
+        " sortings"
+    ],
+    "title": "500-B",
+    "statement": "B. New Year Permutationtime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutUser ainta has a permutationp1,p2, ...,pn. As the New Year is coming, he wants to make his permutation as pretty as possible.Permutationa1,a2, ...,anisprettierthan permutationb1,b2, ...,bn, if and only if there exists an integerk(1 ≤k≤n) wherea1=b1,a2=b2, ...,ak- 1=bk- 1andak<bkall holds.As known, permutationpis so sensitive that it could be only modified by swapping two distinct elements. But swapping two elements is harder than you think. Given ann×nbinary matrixA, user ainta can swap the values ofpiandpj(1 ≤i,j≤n,i≠j) if and only ifAi,j= 1.Given the permutationpand the matrixA, user ainta wants to know the prettiest permutation that he can obtain.InputThe first line contains an integern(1 ≤n≤ 300) — the size of the permutationp.The second line containsnspace-separated integersp1,p2, ...,pn— the permutationpthat user ainta has. Each integer between1andnoccurs exactly once in the given permutation.Nextnlines describe the matrixA. Thei-th line containsncharacters '0' or '1' and describes thei-th row ofA. Thej-th character of thei-th lineAi,jis the element on the intersection of thei-th row and thej-th column of A. It is guaranteed that, for all integersi,jwhere1 ≤i<j≤n,Ai,j=Aj,iholds. Also, for all integersiwhere1 ≤i≤n,Ai,i= 0holds.OutputIn the first and only line, printnspace-separated integers, describing the prettiest permutation that can be obtained.ExamplesInput75 2 4 3 6 7 10001001000000000000101000001000000000100001001000Output1 2 4 3 6 7 5Input54 2 1 5 30010000011100100110101010Output1 2 3 4 5NoteIn the first sample, the swap needed to obtain the prettiest permutation is:(p1,p7).In the second sample, the swaps needed to obtain the prettiest permutation is(p1,p3), (p4,p5), (p3,p4).Apermutationpis a sequence of integersp1,p2, ...,pn, consisting ofndistinct positive integers, each of them doesn't exceedn. Thei-th element of the permutationpis denoted aspi. The size of the permutationpis denoted asn.",
+    "source": "CF",
+    "vjudge": false
+}

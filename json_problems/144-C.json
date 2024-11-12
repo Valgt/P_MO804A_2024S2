@@ -1,0 +1,12 @@
+{
+    "uid": "144-C",
+    "url": "https://codeforces.com/contest/144/problem/C",
+    "tags": [
+        "implementation",
+        " strings"
+    ],
+    "title": "144-C",
+    "statement": "C. Anagram Searchtime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutA stringtis called ananagramof the strings, if it is possible to rearrange letters intso that it is identical to the strings. For example, the string \"aab\" is an anagram of the string \"aba\" and the string \"aaa\" is not.The stringtis called asubstringof the stringsif it can be read starting from some position in the strings. For example, the string \"aba\" has six substrings: \"a\", \"b\", \"a\", \"ab\", \"ba\", \"aba\".You are given a strings, consisting of lowercase Latin letters and characters \"?\". You are also given a stringp, consisting of lowercase Latin letters only. Let's assume that a string isgoodif you can obtain an anagram of the stringpfrom it, replacing the \"?\" characters by Latin letters. Each \"?\" can be replaced by exactly one character of the Latin alphabet. For example, if the stringp= «aba», then the string \"a??\" is good, and the string «?bc» is not.Your task is to find the number of good substrings of the strings(identical substrings must be counted in the answer several times).InputThe first line is non-empty strings, consisting of no more than105lowercase Latin letters and characters \"?\". The second line is non-empty stringp, consisting of no more than105lowercase Latin letters. Please note that the length of the stringpcan exceed the length of the strings.OutputPrint the single number representing the number of good substrings of strings.Two substrings are considered different in their positions of occurrence are different. Thus, if some string occurs several times, then it should be counted the same number of times.ExamplesInputbb??x???aabOutput2Inputab?cacbOutput2NoteConsider the first sample test. Here the stringshas two good substrings: \"b??\" (after we replace the question marks we get \"baa\"), \"???\" (after we replace the question marks we get \"baa\").Let's consider the second sample test. Here the stringshas two good substrings: \"ab?\" (\"?\" can be replaced by \"c\"), \"b?c\" (\"?\" can be replaced by \"a\").",
+    "source": "CF",
+    "vjudge": false
+}

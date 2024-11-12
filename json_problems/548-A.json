@@ -1,0 +1,13 @@
+{
+    "uid": "548-A",
+    "url": "https://codeforces.com/contest/548/problem/A",
+    "tags": [
+        "brute force",
+        " implementation",
+        " strings"
+    ],
+    "title": "548-A",
+    "statement": "A. Mike and Faxtime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputWhile Mike was walking in the subway, all the stuff in his back-bag dropped on the ground. There were several fax messages among them. He concatenated these strings in some order and now he has strings.He is not sure if this is his own back-bag or someone else's. He remembered that there were exactlykmessages in his own bag, each was apalindromestring and all those strings had the same length.He asked you to help him and tell him if he has worn his own back-bag. Check if the given stringsis a concatenation ofkpalindromesof the same length.InputThe first line of input contains stringscontaining lowercase English letters (1 ≤ |s| ≤ 1000).The second line contains integerk(1 ≤k≤ 1000).OutputPrint \"YES\"(without quotes) if he has worn his own back-bag or \"NO\"(without quotes) otherwise.ExamplesInputsaba2OutputNOInputsaddastavvat2OutputYESNotePalindromeis a string reading the same forward and backward.In the second sample, the faxes in his back-bag can be \"saddas\" and \"tavvat\".",
+    "source": "CF",
+    "vjudge": false
+}

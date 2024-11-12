@@ -1,0 +1,14 @@
+{
+    "uid": "893-D",
+    "url": "https://codeforces.com/contest/893/problem/D",
+    "tags": [
+        "data structures",
+        " dp",
+        " greedy",
+        " implementation"
+    ],
+    "title": "893-D",
+    "statement": "D. Credit Cardtime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputRecenlty Luba got a credit card and started to use it. Let's considernconsecutive days Luba uses the card.She starts with0money on her account.In theeveningofi-th day a transactionaioccurs. Ifai> 0, thenaibourles are deposited to Luba's account. Ifai< 0, thenaibourles are withdrawn. And ifai= 0, then the amount of money on Luba's account is checked.In themorningof any ofndays Luba can go to the bank and deposit anypositiveinteger amount of burles to her account. But there is a limitation: the amount of money on the account can never exceedd.It can happen that the amount of money goes greater thandby some transaction in the evening. In this case answer will be «-1».Luba must not exceed this limit, and also she wants thatevery day her account is checked(the days whenai= 0) the amount of money on her account is non-negative. It takes a lot of time to go to the bank, so Luba wants to know the minimum number of days she needs to deposit some money to her account (if it is possible to meet all the requirements). Help her!InputThe first line contains two integersn,d(1 ≤n≤ 105,1 ≤d≤ 109) —the number of days and the money limitation.The second line containsninteger numbersa1,a2, ...an(- 104≤ai≤ 104), whereairepresents the transaction ini-th day.OutputPrint-1if Luba cannot deposit the money to her account in such a way that the requirements are met. Otherwise print the minimum number of days Luba has to deposit money.ExamplesInput5 10-1 5 0 -5 3Output0Input3 4-10 0 20Output-1Input5 10-5 0 10 -11 0Output2",
+    "source": "CF",
+    "vjudge": false
+}

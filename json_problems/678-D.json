@@ -1,0 +1,12 @@
+{
+    "uid": "678-D",
+    "url": "https://codeforces.com/contest/678/problem/D",
+    "tags": [
+        "math",
+        " number theory"
+    ],
+    "title": "678-D",
+    "statement": "D. Iterated Linear Functiontime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputConsider a linear functionf(x) =Ax+B. Let's defineg(0)(x) =xandg(n)(x) =f(g(n- 1)(x))forn> 0. For the given integer valuesA,B,nandxfind the value ofg(n)(x)modulo109+ 7.InputThe only line contains four integersA,B,nandx(1 ≤A,B,x≤ 109, 1 ≤n≤ 1018) — the parameters from the problem statement.Note that the given valuencan be too large, so you should use64-bit integer type to store it. InC++you can use thelong longinteger type and inJavayou can uselonginteger type.OutputPrint the only integers— the valueg(n)(x)modulo109+ 7.ExamplesInput3 4 1 1Output7Input3 4 2 1Output25Input3 4 3 1Output79",
+    "source": "CF",
+    "vjudge": false
+}

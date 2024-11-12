@@ -1,0 +1,12 @@
+{
+    "uid": "43-B",
+    "url": "https://codeforces.com/contest/43/problem/B",
+    "tags": [
+        "implementation",
+        " strings"
+    ],
+    "title": "43-B",
+    "statement": "B. Lettertime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutVasya decided to write an anonymous letter cutting the letters out of a newspaper heading. He knows headings1and texts2that he wants to send. Vasya can use every single heading letter no more than once. Vasya doesn't have to cut the spaces out of the heading — he just leaves some blank space to mark them. Help him; find out if he will manage to compose the needed text.InputThe first line contains a newspaper headings1. The second line contains the letter texts2.s1иs2are non-empty lines consisting of spaces, uppercase and lowercase Latin letters, whose lengths do not exceed 200 symbols. The uppercase and lowercase letters should be differentiated. Vasya does not cut spaces out of the heading.OutputIf Vasya can write the given anonymous letter, printYES, otherwise printNOExamplesInputInstead of dogging Your footsteps it disappears but you dont notice anythingwhere is your dogOutputNOInputInstead of dogging Your footsteps it disappears but you dont notice anythingYour dog is upstearsOutputYESInputInstead of dogging your footsteps it disappears but you dont notice anythingYour dog is upstearsOutputNOInputabcdefg hijkk j i h g f e d c b aOutputYES",
+    "source": "CF",
+    "vjudge": false
+}

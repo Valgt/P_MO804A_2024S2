@@ -1,0 +1,14 @@
+{
+    "uid": "671-A",
+    "url": "https://codeforces.com/contest/671/problem/A",
+    "tags": [
+        "dp",
+        " geometry",
+        " greedy",
+        " implementation"
+    ],
+    "title": "671-A",
+    "statement": "A. Recycling Bottlestime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputIt was recycling day in Kekoland. To celebrate it Adil and Bera went to Central Perk where they can take bottles from the ground and put them into a recycling bin.We can think Central Perk as coordinate plane. There arenbottles on the ground, thei-th bottle is located at position(xi,yi). Both Adil and Bera can carry only one bottle at once each.For both Adil and Bera the process looks as follows:Choose to stop or to continue to collect bottles.If the choice was to continue then choose some bottle and walk towards it.Pick this bottle and walk to the recycling bin.Go to step1.Adil and Bera may move independently. They are allowed to pick bottles simultaneously, all bottles may be picked by any of the two, it's allowed that one of them stays still while the other one continues to pick bottles.They want to organize the process such that the total distance they walk (the sum of distance walked by Adil and distance walked by Bera) is minimum possible. Of course, at the end all bottles should lie in the recycling bin.InputFirst line of the input contains six integersax,ay,bx,by,txandty(0 ≤ax,ay,bx,by,tx,ty≤ 109) — initial positions of Adil, Bera and recycling bin respectively.The second line contains a single integern(1 ≤n≤ 100 000) — the number of bottles on the ground.Then follownlines, each of them contains two integersxiandyi(0 ≤xi,yi≤ 109) — position of thei-th bottle.It's guaranteed that positions of Adil, Bera, recycling bin and all bottles are distinct.OutputPrint one real number — the minimum possible total distance Adil and Bera need to walk in order to put all bottles into recycling bin. Your answer will be considered correct if its absolute or relative error does not exceed10- 6.Namely: let's assume that your answer isa, and the answer of the jury isb. The checker program will consider your answer correct if.ExamplesInput3 1 1 2 0 031 12 12 3Output11.084259940083Input5 0 4 2 2 055 23 05 53 53 3Output33.121375178000NoteConsider the first sample.Adil will use the following path:.Bera will use the following path:.Adil's path will beunits long, while Bera's path will beunits long.",
+    "source": "CF",
+    "vjudge": false
+}

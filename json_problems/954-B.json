@@ -1,0 +1,12 @@
+{
+    "uid": "954-B",
+    "url": "https://codeforces.com/contest/954/problem/B",
+    "tags": [
+        "implementation",
+        " strings"
+    ],
+    "title": "954-B",
+    "statement": "B. String Typingtime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given a stringsconsisting ofnlowercase Latin letters. You have to type this string using your keyboard.Initially, you have an empty string. Until you type the whole string, you may perform the following operation:add a character to the end of the string.Besides,at most onceyou may perform one additional operation: copy the string and append it to itself.For example, if you have to type stringabcabca, you can type it in7operations if you type all the characters one by one. However, you can type it in5operations if you type the stringabcfirst and then copy it and type the last character.If you have to type stringaaaaaaaaa, the best option is to type4characters one by one, then copy the string, and then type the remaining character.Print the minimum number of operations you need to type the given string.InputThe first line of the input containing only one integer numbern(1 ≤n≤ 100) — the length of the string you have to type. The second line containing the stringsconsisting ofnlowercase Latin letters.OutputPrint one integer number — the minimum number of operations you need to type the given string.ExamplesInput7abcabcaOutput5Input8abcdefghOutput8NoteThe first test described in the problem statement.In the second test you can only type all the characters one by one.",
+    "source": "CF",
+    "vjudge": false
+}

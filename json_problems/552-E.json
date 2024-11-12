@@ -1,0 +1,16 @@
+{
+    "uid": "552-E",
+    "url": "https://codeforces.com/contest/552/problem/E",
+    "tags": [
+        "brute force",
+        " dp",
+        " expression parsing",
+        " greedy",
+        " implementation",
+        " strings"
+    ],
+    "title": "552-E",
+    "statement": "E. Vanya and Bracketstime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputVanya is doing his maths homework. He has an expression of form, wherex1,x2, ...,xnare digits from1to9, and signrepresents either a plus '+' or the multiplication sign'*'. Vanya needs to addonepair of brackets in this expression so that to maximize the value of the resulting expression.InputThe first line contains expressions(1 ≤ |s| ≤ 5001,|s|is odd), its odd positions only contain digits from1to9, and even positions only contain signs+and*.The number of signs*doesn't exceed 15.OutputIn the first line print the maximum possible value of an expression.ExamplesInput3+5*7+8*4Output303Input2+3*5Output25Input3*4*5Output60NoteNote to the first sample test.3 + 5 * (7 + 8) * 4 = 303.Note to the second sample test.(2 + 3) * 5 = 25.Note to the third sample test.(3 * 4) * 5 = 60(also many other variants are valid, for instance,(3) * 4 * 5 = 60).",
+    "source": "CF",
+    "vjudge": false
+}

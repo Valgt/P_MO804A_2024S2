@@ -1,0 +1,14 @@
+{
+    "uid": "1488-G",
+    "url": "https://codeforces.com/contest/1488/problem/G",
+    "tags": [
+        "*special",
+        " data structures",
+        " greedy",
+        " number theory"
+    ],
+    "title": "1488-G",
+    "statement": "G. Painting Numberstime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given $$$n$$$ integers, each integer is from $$$1$$$ to $$$n$$$, all of them are pairwise distinct. You have to paint them red and blue (each integer should have exactly one color).The cost of painting is the number of pairs $$$(x, y)$$$ such that $$$y \\\\bmod x = 0$$$, $$$y$$$ is red and $$$x$$$ is blue.For each $$$k \\\\in [1, n]$$$, calculate the maximum cost of painting if exactly $$$k$$$ integers should have a red color.InputThe first line contains one integer $$$n$$$ ($$$2 \\\\le n \\\\le 10^5$$$).OutputFor each $$$k \\\\in [1,n]$$$ print one integer — the maximum cost of painting, if exactly $$$k$$$ integers should be red.ExamplesInput6Output3 5 6 6 5 0Input2Output1 0Input11Output3 6 9 11 12 13 14 14 13 10 0",
+    "source": "CF",
+    "vjudge": false
+}

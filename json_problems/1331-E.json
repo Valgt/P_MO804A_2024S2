@@ -1,0 +1,14 @@
+{
+    "uid": "1331-E",
+    "url": "https://codeforces.com/contest/1331/problem/E",
+    "tags": [
+        "*special",
+        " dfs and similar",
+        " geometry",
+        " implementation"
+    ],
+    "title": "1331-E",
+    "statement": "E. Jordan Smileytime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputInputThe input contains two integers $$$row$$$, $$$col$$$ ($$$0 \\\\le row, col \\\\le 63$$$), separated by a single space.OutputOutput \"IN\" or \"OUT\".ExamplesInput0 0OutputOUTInput27 0OutputINInput0 27OutputOUTInput27 27OutputIN",
+    "source": "CF",
+    "vjudge": false
+}

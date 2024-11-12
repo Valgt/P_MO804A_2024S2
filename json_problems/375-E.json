@@ -1,0 +1,13 @@
+{
+    "uid": "375-E",
+    "url": "https://codeforces.com/contest/375/problem/E",
+    "tags": [
+        "dp",
+        " implementation",
+        " math"
+    ],
+    "title": "375-E",
+    "statement": "E. Red and Black Treetime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutYou have a weighted tree, consisting ofnvertices. Each vertex is either painted black or is painted red. A red and black tree is calledbeautiful, if for any its vertex we can find a black vertex at distance at mostx.The distance between two nodes is the shortest path between them.You have a red and black tree. Your task is to make it beautiful in the minimum number of color swap operations. In one color swap operation, you can choose two vertices of different colors and paint each of them the other color. In other words, if you choose a red vertexpand a black vertexq, then in one operation you are allowed to paintpblack and paintqred.Print the minimum number of required actions.InputThe first line contains two integersnandx(2 ≤n≤ 500; 1 ≤x≤ 109). The next line containsnintegers, each of them is either a zero or one. If thei-th number equals 1, then vertexiof the tree is black, otherwise vertexiis red. Nextn- 1lines contain the tree edges. Thej-th line contains integersujvjwj(1 ≤uj,vj≤n;uj≠vj; 1 ≤wj≤ 109)which means that the tree has an edge of weightwjbetween verticesvjanduj.Assume that the tree vertices are numbered from 1 ton.OutputPrint a single integer — the minimum number of required swap operations.If it is impossible to get a beautiful tree at any number of operations, print -1.ExamplesInput3 21 0 01 2 22 3 2Output1Input4 20 1 0 01 2 22 3 23 4 2Output-1",
+    "source": "CF",
+    "vjudge": false
+}

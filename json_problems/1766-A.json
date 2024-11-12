@@ -1,0 +1,12 @@
+{
+    "uid": "1766-A",
+    "url": "https://codeforces.com/contest/1766/problem/A",
+    "tags": [
+        "brute force",
+        " implementation"
+    ],
+    "title": "1766-A",
+    "statement": "A. Extremely Roundtime limit per test3 secondsmemory limit per test512 megabytesinputstandard inputoutputstandard outputLet's call a positive integerextremely roundif it has only one non-zero digit. For example, $$$5000$$$, $$$4$$$, $$$1$$$, $$$10$$$, $$$200$$$ are extremely round integers; $$$42$$$, $$$13$$$, $$$666$$$, $$$77$$$, $$$101$$$ are not.You are given an integer $$$n$$$. You have to calculate the number of extremely round integers $$$x$$$ such that $$$1 \\\\le x \\\\le n$$$.InputThe first line contains one integer $$$t$$$ ($$$1 \\\\le t \\\\le 10^4$$$) — the number of test cases.Then, $$$t$$$ lines follow. The $$$i$$$-th of them contains one integer $$$n$$$ ($$$1 \\\\le n \\\\le 999999$$$) — the description of the $$$i$$$-th test case.OutputFor each test case, print one integer — the number of extremely round integers $$$x$$$ such that $$$1 \\\\le x \\\\le n$$$.ExampleInput594213100111Output9 13 10 19 19",
+    "source": "CF",
+    "vjudge": false
+}

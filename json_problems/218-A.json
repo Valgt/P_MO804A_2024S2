@@ -1,0 +1,13 @@
+{
+    "uid": "218-A",
+    "url": "https://codeforces.com/contest/218/problem/A",
+    "tags": [
+        "brute force",
+        " constructive algorithms",
+        " implementation"
+    ],
+    "title": "218-A",
+    "statement": "A. Mountain Scenerytime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutLittle Bolek has found a picture withnmountain peaks painted on it. Thenpainted peaks are represented by a non-closed polyline, consisting of2nsegments. The segments go through2n+ 1points with coordinates(1,y1),(2,y2),...,(2n+ 1,y2n+ 1), with thei-th segment connecting the point(i,yi)and the point(i+ 1,yi+ 1). For any eveni(2 ≤i≤ 2n)the following condition holds:yi- 1<yiandyi>yi+ 1.We shall call a vertex of a polyline with an evenxcoordinate amountain peak.The figure to the left shows the initial picture, the figure to the right shows what the picture looks like after Bolek's actions. The affected peaks are marked red,k= 2.Bolek fancied a little mischief. He chose exactlykmountain peaks, rubbed out the segments that went through those peaks and increased each peak's height by one (that is, he increased theycoordinate of the corresponding points). Then he painted the missing segments to get a new picture of mountain peaks. Let us denote the points through which the new polyline passes on Bolek's new picture as(1,r1),(2,r2),...,(2n+ 1,r2n+ 1).Given Bolek's final picture, restore the initial one.InputThe first line contains two space-separated integersnandk(1 ≤k≤n≤ 100). The next line contains2n+ 1space-separated integersr1,r2, ...,r2n+ 1(0 ≤ri≤ 100)— theycoordinates of the polyline vertices on Bolek's picture.It is guaranteed that we can obtain the given picture after performing the described actions on some picture of mountain peaks.OutputPrint2n+ 1integersy1,y2, ...,y2n+ 1— theycoordinates of the vertices of the polyline on the initial picture. If there are multiple answers, output any one of them.ExamplesInput3 20 5 3 5 1 5 2Output0 5 3 4 1 4 2Input1 10 2 0Output0 1 0",
+    "source": "CF",
+    "vjudge": false
+}

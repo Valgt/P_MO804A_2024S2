@@ -1,0 +1,13 @@
+{
+    "uid": "776-G",
+    "url": "https://codeforces.com/contest/776/problem/G",
+    "tags": [
+        "bitmasks",
+        " combinatorics",
+        " dp"
+    ],
+    "title": "776-G",
+    "statement": "G. Sherlock and the Encrypted Datatime limit per test2 secondsmemory limit per test512 megabytesinputstandard inputoutputstandard outputSherlock found a piece of encrypted data which he thinks will be useful to catch Moriarty. The encrypted data consists of two integerlandr. He noticed that these integers were in hexadecimal form.He takes each of the integers fromltor, and performs the following operations:He lists the distinct digits present in the given number. For example: for101416, he lists the digits as1, 0, 4.Then he sums respective powers of two for each digit listed in the step above. Like in the above examplesum= 21+ 20+ 24= 1910.He changes the initial number by applying bitwisexorof the initial number and the sum. Example:. Note thatxoris done in binary notation.One more example: for integer1ethe sum issum= 21+ 214. Lettersa,b,c,d,e,fdenote hexadecimal digits10,11,12,13,14,15, respertively.Sherlock wants to count the numbers in the range fromltor(both inclusive) which decrease on application of the above four steps. He wants you to answer hisqqueries for differentlandr.InputFirst line contains the integerq(1 ≤q≤ 10000).Each of the nextqlines contain two hexadecimal integerslandr(0 ≤l≤r< 1615).The hexadecimal integers are written using digits from0to9and/or lowercase English lettersa,b,c,d,e,f.The hexadecimal integers do not contain extra leading zeros.OutputOutputqlines,i-th line contains answer to thei-th query (in decimal notation).ExamplesInput11014 1014Output1Input21 1e1 fOutput10Input21 abcd0e fe23Output41228464NoteFor the second input,1416= 2010sum= 21+ 24= 18Thus, it reduces. And, we can verify that it is the only number in range1to1ethat reduces.",
+    "source": "CF",
+    "vjudge": false
+}

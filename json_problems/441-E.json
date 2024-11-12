@@ -1,0 +1,14 @@
+{
+    "uid": "441-E",
+    "url": "https://codeforces.com/contest/441/problem/E",
+    "tags": [
+        "bitmasks",
+        " dp",
+        " math",
+        " probabilities"
+    ],
+    "title": "441-E",
+    "statement": "E. Valera and Numbertime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutValera is a coder. Recently he wrote a funny program. The pseudo code for this program is given below://input: integers x, k, pa = x;for(step = 1; step <= k; step = step + 1){rnd = [random integer from 1 to 100];if(rnd <= p)a = a * 2;elsea = a + 1;}s = 0;while(remainder after dividing a by 2 equals 0){a = a / 2;s = s + 1;}Now Valera wonders: given the valuesx,kandp, what is the expected value of the resulting numbers?InputThe first line of the input contains three integersx,k,p(1 ≤x≤ 109; 1 ≤k≤ 200; 0 ≤p≤ 100).OutputPrint the required expected value. Your answer will be considered correct if the absolute or relative error doesn't exceed10- 6.ExamplesInput1 1 50Output1.0000000000000Input5 3 0Output3.0000000000000Input5 3 25Output1.9218750000000NoteIf the concept of expected value is new to you, you can read about it by the link:http://en.wikipedia.org/wiki/Expected_value",
+    "source": "CF",
+    "vjudge": false
+}

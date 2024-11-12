@@ -1,0 +1,11 @@
+{
+    "uid": "455-E",
+    "url": "https://codeforces.com/contest/455/problem/E",
+    "tags": [
+        "data structures"
+    ],
+    "title": "455-E",
+    "statement": "E. Functiontime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutSerega and Fedor play with functions. One day they came across a very interesting function. It looks like that:f(1,j) =a[j],1 ≤j≤n.f(i,j) =min(f(i- 1,j),f(i- 1,j- 1)) +a[j],2 ≤i≤n,i≤j≤n.Hereais an integer array of lengthn.Serega and Fedya want to know what values this function takes at some points. But they don't want to calculate the values manually. So they ask you to help them.InputThe first line contains integern(1 ≤n≤ 105) — the length of arraya. The next line containsnintegers:a[1],a[2], ...,a[n](0 ≤a[i] ≤ 104).The next line contains integerm(1 ≤m≤ 105)— the number of queries. Each of the nextmlines contains two integers:xi,yi(1 ≤xi≤yi≤n). Each line means that Fedor and Serega want to know the value off(xi,yi).OutputPrintmlines — the answers to the guys' queries.ExamplesInput62 2 3 4 3 444 53 43 42 3Output12995Input71 3 2 3 4 0 244 52 31 44 6Output11430",
+    "source": "CF",
+    "vjudge": false
+}

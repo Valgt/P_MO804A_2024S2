@@ -1,0 +1,13 @@
+{
+    "uid": "659-G",
+    "url": "https://codeforces.com/contest/659/problem/G",
+    "tags": [
+        "combinatorics",
+        " dp",
+        " number theory"
+    ],
+    "title": "659-G",
+    "statement": "G. Fence Divercitytime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputLong ago, Vasily built a good fence at his country house. Vasily calls a fencegood, if it is a series ofnconsecutively fastened vertical boards of centimeter width, the height of each in centimeters isa positive integer. The house owner remembers that the height of thei-th board to the left ishi.Today Vasily decided to change the design of the fence he had built, by cutting his top connected part so that the fence remained good. The cut part should consist of only the upper parts of the boards, while the adjacent parts must be interconnected (share a non-zero length before cutting out of the fence).You, as Vasily's curious neighbor, will count the number of possible ways to cut exactly one part as is described above. Two ways to cut a part are called distinct, if for the remaining fences there is suchi, that the height of thei-th boards vary.As Vasily's fence can be very high and long, get the remainder after dividing the required number of ways by1 000 000 007(109+ 7).InputThe first line contains integern(1 ≤n≤ 1 000 000) — the number of boards in Vasily's fence.The second line containsnspace-separated numbersh1,h2, ...,hn(1 ≤hi≤ 109), wherehiequals the height of thei-th board to the left.OutputPrint the remainder after dividingrby1 000 000 007, whereris the number of ways to cut exactly one connected part so that the part consisted of the upper parts of the boards and the remaining fence wasgood.ExamplesInput21 1Output0Input33 4 2Output13NoteFrom the fence from the first example it is impossible to cut exactly one piece so as the remaining fence wasgood.All the possible variants of the resulting fence from the second sample look as follows (the grey shows the cut out part):",
+    "source": "CF",
+    "vjudge": false
+}

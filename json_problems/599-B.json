@@ -1,0 +1,11 @@
+{
+    "uid": "599-B",
+    "url": "https://codeforces.com/contest/599/problem/B",
+    "tags": [
+        "implementation"
+    ],
+    "title": "599-B",
+    "statement": "B. Spongebob and Joketime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputWhile Patrick was gone shopping, Spongebob decided to play a little trick on his friend. The naughty Sponge browsed through Patrick's personal stuff and found a sequencea1,a2, ...,amof lengthm, consisting of integers from1ton, not necessarily distinct. Then he picked some sequencef1,f2, ...,fnof lengthnand for each numberaigot numberbi=fai. To finish the prank he erased the initial sequenceai.It's hard to express how sad Patrick was when he returned home from shopping! We will just say that Spongebob immediately got really sorry about what he has done and he is now trying to restore the original sequence. Help him do this or determine that this is impossible.InputThe first line of the input contains two integersnandm(1 ≤n,m≤ 100 000) — the lengths of sequencesfiandbirespectively.The second line containsnintegers, determining sequencef1,f2, ...,fn(1 ≤fi≤n).The last line containsmintegers, determining sequenceb1,b2, ...,bm(1 ≤bi≤n).OutputPrint \"Possible\" if there is exactly one sequenceai, such thatbi=faifor allifrom1tom. Then printmintegersa1,a2, ...,am.If there are multiple suitable sequencesai, print \"Ambiguity\".If Spongebob has made a mistake in his calculations and no suitable sequenceaiexists, print \"Impossible\".ExamplesInput3 33 2 11 2 3OutputPossible3 2 1Input3 31 1 11 1 1OutputAmbiguityInput3 31 2 13 3 3OutputImpossibleNoteIn the first sample3is replaced by1and vice versa, while2never changes. The answer exists and is unique.In the second sample all numbers are replaced by1, so it is impossible to unambiguously restore the original sequence.In the third samplefi≠ 3for alli, so no sequenceaitransforms into suchbiand we can say for sure that Spongebob has made a mistake.",
+    "source": "CF",
+    "vjudge": false
+}

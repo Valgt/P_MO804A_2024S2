@@ -1,0 +1,13 @@
+{
+    "uid": "474-F",
+    "url": "https://codeforces.com/contest/474/problem/F",
+    "tags": [
+        "data structures",
+        " math",
+        " number theory"
+    ],
+    "title": "474-F",
+    "statement": "F. Ant colonytime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutMole is hungry again. He found one ant colony, consisting ofnants, ordered in a row. Each anti(1 ≤i≤n) has a strengthsi.In order to make his dinner more interesting, Mole organizes a version of «Hunger Games» for the ants. He chooses two numberslandr(1 ≤l≤r≤n) and each pair of ants with indices betweenlandr(inclusively) will fight. When two antsiandjfight, antigets one battle point only ifsidividessj(also, antjgets one battle point only ifsjdividessi).After all fights have been finished, Mole makes the ranking. An anti, withvibattle points obtained, is going to be freed only ifvi=r-l, or in other words only if it took a point in every fight it participated. After that, Mole eats the rest of the ants. Note that there can be many ants freed or even none.In order to choose the best sequence, Mole gives youtsegments[li,ri]and asks for each of them how many ants is he going to eat if those ants fight.InputThe first line contains one integern(1 ≤n≤ 105), the size of the ant colony.The second line containsnintegerss1,s2, ...,sn(1 ≤si≤ 109), the strengths of the ants.The third line contains one integert(1 ≤t≤ 105), the number of test cases.Each of the nexttlines contains two integersliandri(1 ≤li≤ri≤n), describing one query.OutputPrint to the standard outputtlines. Thei-th line contains number of ants that Mole eats from the segment[li,ri].ExamplesInput51 3 2 4 241 52 53 54 5Output4411NoteIn the first test battle points for each ant arev= [4, 0, 2, 0, 2], so ant number1is freed. Mole eats the ants2,3,4,5.In the second test case battle points arev= [0, 2, 0, 2], so no ant is freed and all of them are eaten by Mole.In the third test case battle points arev= [2, 0, 2], so ants number3and5are freed. Mole eatsonly the ant4.In the fourth test case battle points arev= [0, 1], so ant number5is freed. Mole eats the ant4.",
+    "source": "CF",
+    "vjudge": false
+}

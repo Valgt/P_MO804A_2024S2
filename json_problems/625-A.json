@@ -1,0 +1,12 @@
+{
+    "uid": "625-A",
+    "url": "https://codeforces.com/contest/625/problem/A",
+    "tags": [
+        "implementation",
+        " math"
+    ],
+    "title": "625-A",
+    "statement": "A. Guest From the Pasttime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputKolya Gerasimov loves kefir very much. He lives in year 1984 and knows all the details of buying this delicious drink. One day, as you probably know, he found himself in year 2084, and buying kefir there is much more complicated.Kolya is hungry, so he went to the nearest milk shop. In 2084 you may buy kefir in a plastic liter bottle, that costsarubles, or in glass liter bottle, that costsbrubles. Also, you may return empty glass bottle and getc(c<b) rubles back, but you cannot return plastic bottles.Kolya hasnrubles and he is really hungry, so he wants to drink as much kefir as possible. There were no plastic bottles in his 1984, so Kolya doesn't know how to act optimally and asks for your help.InputFirst line of the input contains a single integern(1 ≤n≤ 1018) — the number of rubles Kolya has at the beginning.Then follow three lines containing integersa,bandc(1 ≤a≤ 1018,1 ≤c<b≤ 1018) — the cost of one plastic liter bottle, the cost of one glass liter bottle and the money one can get back by returning an empty glass bottle, respectively.OutputPrint the only integer — maximum number of liters of kefir, that Kolya can drink.ExamplesInput101198Output2Input10561Output2NoteIn the first sample, Kolya can buy one glass bottle, then return it and buy one more glass bottle. Thus he will drink2liters of kefir.In the second sample, Kolya can buy two plastic bottle and get two liters of kefir, or he can buy one liter glass bottle, then return it and buy one plastic bottle. In both cases he will drink two liters of kefir.",
+    "source": "CF",
+    "vjudge": false
+}

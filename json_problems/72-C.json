@@ -1,0 +1,12 @@
+{
+    "uid": "72-C",
+    "url": "https://codeforces.com/contest/72/problem/C",
+    "tags": [
+        "*special",
+        " math"
+    ],
+    "title": "72-C",
+    "statement": "C. Extraordinarily Nice Numberstime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutThe positive integerais a divisor of the positive integerbif and only if there exists a positive integercsuch thata×c=b.King Astyages thinks a positive integerxisextraordinarily niceif the number of its even divisors is equal to the number of its odd divisors.For example3has two positive divisors3and1, both of which are odd, so3is not extraordinarily nice. On the other hand2is only divisible by2and1, so it has one odd and one even divisor. Therefore2is extraordinarily nice.Given a positive integerxdetermine whether it's extraordinarily nice.InputThe input contains only a single integerx(1 ≤x≤ 103).OutputWrite a singleyesorno. Writeyesif the number is extraordinarily nice andnootherwise.You don't need to care about capital or small letters. The output is case-insensitive.ExamplesInput2OutputyesInput3Outputno",
+    "source": "CF",
+    "vjudge": false
+}

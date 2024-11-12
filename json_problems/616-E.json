@@ -1,0 +1,13 @@
+{
+    "uid": "616-E",
+    "url": "https://codeforces.com/contest/616/problem/E",
+    "tags": [
+        "implementation",
+        " math",
+        " number theory"
+    ],
+    "title": "616-E",
+    "statement": "E. Sum of Remainderstime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputCalculate the value of the sum:nmod1+nmod2+nmod3+ ... +nmodm. As the result can be very large, you should print the value modulo109+ 7(the remainder when divided by109+ 7).The modulo operatoramodbstands for the remainder after dividingabyb. For example10mod3=1.InputThe only line contains two integersn,m(1 ≤n,m≤ 1013) — the parameters of the sum.OutputPrint integers— the value of the required sum modulo109+ 7.ExamplesInput3 4Output4Input4 4Output1Input1 1Output0",
+    "source": "CF",
+    "vjudge": false
+}

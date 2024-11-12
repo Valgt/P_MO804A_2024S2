@@ -1,0 +1,14 @@
+{
+    "uid": "959-F",
+    "url": "https://codeforces.com/contest/959/problem/F",
+    "tags": [
+        "bitmasks",
+        " dp",
+        " math",
+        " matrices"
+    ],
+    "title": "959-F",
+    "statement": "F. Mahmoud and Ehab and yet another xor tasktime limit per test1 secondmemory limit per test512 megabytesinputstandard inputoutputstandard outputEhab has an arrayaofnintegers. He likes thebitwise-xor operationand he likes to bother Mahmoud so he came up with a problem. He gave Mahmoudqqueries. In each of them, he gave Mahmoud 2 integerslandx, and asked him to find the number of subsequences of the firstlelements of the array such that their bitwise-xor sum isx. Can you help Mahmoud answer the queries?A subsequence can contain elements that are not neighboring.InputThe first line contains integersnandq(1 ≤n,q≤ 105), the number of elements in the array and the number of queries.The next line containsnintegersa1,a2,...,an(0 ≤ai< 220), the elements of the array.The nextqlines, each contains integerslandx(1 ≤l≤n,0 ≤x< 220), representing the queries.OutputFor each query, output its answer modulo109+ 7in a newline.ExamplesInput5 50 1 2 3 44 32 03 75 75 8Output42040Input3 21 1 13 12 0Output42NoteThe bitwise-xor sum of the empty set is 0 and the bitwise-xor sum of a set containing one element is that element itself.",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,12 @@
+{
+    "uid": "899-D",
+    "url": "https://codeforces.com/contest/899/problem/D",
+    "tags": [
+        "constructive algorithms",
+        " math"
+    ],
+    "title": "899-D",
+    "statement": "D. Shovel Saletime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputThere arenshovels in Polycarp's shop. Thei-th shovel costsiburles, that is, the first shovel costs1burle, the second shovel costs2burles, the third shovel costs3burles, and so on. Polycarps wants to sell shovels in pairs.Visitors are more likely to buy a pair of shovels if their total cost ends with several9s. Because of this, Polycarp wants to choose a pair of shovels to sell in such a way that the sum of their costs ends with maximum possible number of nines. For example, if he chooses shovels with costs12345and37454, their total cost is49799, it ends with two nines.You are to compute the number of pairs of shovels such that their total cost ends with maximum possible number of nines. Two pairs are considered different if there is a shovel presented in one pair, but not in the other.InputThe first line contains a single integern(2 ≤n≤ 109) — the number of shovels in Polycarp's shop.OutputPrint the number of pairs of shovels such that their total cost ends with maximum possible number of nines.Note that it is possible that the largest number of 9s at the end is 0, then you should count all such ways.It is guaranteed that for everyn≤ 109the answer doesn't exceed2·109.ExamplesInput7Output3Input14Output9Input50Output1NoteIn the first example the maximum possible number of nines at the end is one. Polycarp cah choose the following pairs of shovels for that purpose:2and7;3and6;4and5.In the second example the maximum number of nines at the end of total cost of two shovels is one. The following pairs of shovels suit Polycarp:1and8;2and7;3and6;4and5;5and14;6and13;7and12;8and11;9and10.In the third example it is necessary to choose shovels49and50, because the sum of their cost is99, that means that the total number of nines is equal to two, which is maximum possible forn= 50.",
+    "source": "CF",
+    "vjudge": false
+}

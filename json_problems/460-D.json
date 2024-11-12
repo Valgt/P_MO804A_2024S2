@@ -1,0 +1,13 @@
+{
+    "uid": "460-D",
+    "url": "https://codeforces.com/contest/460/problem/D",
+    "tags": [
+        "brute force",
+        " constructive algorithms",
+        " math"
+    ],
+    "title": "460-D",
+    "statement": "D. Little Victor and Settime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutLittle Victor adores the sets theory. Let us remind you that a set is a group of numbers where all numbers are pairwise distinct. Today Victor wants to find a set of integersSthat has the following properties:for allxthe following inequality holdsl≤x≤r;1 ≤ |S| ≤k;lets denote thei-th element of the setSassi; valuemust be as small as possible.Help Victor find the described set.InputThe first line contains three space-separated integersl,r,k(1 ≤l≤r≤ 1012; 1 ≤k≤min(106,r-l+ 1)).OutputPrint the minimum possible value off(S). Then print the cardinality of set|S|. Then print the elements of the set in any order.If there are multiple optimal sets, you can print any of them.ExamplesInput8 15 3Output1210 11Input8 30 7Output0514 9 28 11 16NoteOperationrepresents the operation of bitwise exclusive OR. In other words, it is the XOR operation.",
+    "source": "CF",
+    "vjudge": false
+}

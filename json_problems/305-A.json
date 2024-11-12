@@ -1,0 +1,13 @@
+{
+    "uid": "305-A",
+    "url": "https://codeforces.com/contest/305/problem/A",
+    "tags": [
+        "brute force",
+        " constructive algorithms",
+        " implementation"
+    ],
+    "title": "305-A",
+    "statement": "A. Strange Additiontime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutUnfortunately, Vasya can only sum pairs of integers (a,b), such that for any decimal place at least one number has digit0in this place. For example, Vasya can sum numbers505and50, but he cannot sum1and4.Vasya has a set ofkdistinct non-negative integersd1,d2, ...,dk.Vasya wants to choose some integers from this set so that he could sum any two chosen numbers. What maximal number of integers can he choose in the required manner?InputThe first input line contains integerk(1 ≤k≤ 100)— the number of integers.The second line containskdistinct space-separated integersd1,d2, ...,dk(0 ≤di≤ 100).OutputIn the first line print a single integernthe maximum number of the chosen integers. In the second line printndistinct non-negative integers — the required integers.If there are multiple solutions, print any of them. You can print the numbers in any order.ExamplesInput4100 10 1 0Output40 1 10 100Input32 70 3Output22 70",
+    "source": "CF",
+    "vjudge": false
+}

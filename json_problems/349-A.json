@@ -1,0 +1,12 @@
+{
+    "uid": "349-A",
+    "url": "https://codeforces.com/contest/349/problem/A",
+    "tags": [
+        "greedy",
+        " implementation"
+    ],
+    "title": "349-A",
+    "statement": "A. Cinema Linetime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutThe new \"Die Hard\" movie has just been released! There arenpeople at the cinema box office standing in a huge line. Each of them has a single100,50or25ruble bill. A \"Die Hard\" ticket costs25rubles. Can the booking clerk sell a ticket to each person and give the change if he initially has no money and sells the tickets strictly in the order people follow in the line?InputThe first line contains integern(1 ≤n≤ 105)— the number of people in the line. The next line containsnintegers, each of them equals25,50or100— the values of the bills the people have. The numbers are given in the order from the beginning of the line (at the box office) to the end of the line.OutputPrint \"YES\" (without the quotes) if the booking clerk can sell a ticket to each person and give the change. Otherwise print \"NO\".ExamplesInput425 25 50 50OutputYESInput225 100OutputNOInput450 50 25 25OutputNO",
+    "source": "CF",
+    "vjudge": false
+}

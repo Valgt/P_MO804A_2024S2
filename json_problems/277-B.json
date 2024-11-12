@@ -1,0 +1,12 @@
+{
+    "uid": "277-B",
+    "url": "https://codeforces.com/contest/277/problem/B",
+    "tags": [
+        "constructive algorithms",
+        " geometry"
+    ],
+    "title": "277-B",
+    "statement": "B. Set of Pointstime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutConvexity of a set of points on the plane is the size of the largest subset of points that form a convex polygon. Your task is to build a set ofnpoints with the convexity of exactlym. Your set of points should not contain three points that lie on a straight line.InputThe single line contains two integersnandm(3 ≤m≤ 100,m≤n≤ 2m).OutputIf there is no solution, print \"-1\". Otherwise, printnpairs of integers — the coordinates of points of any set with the convexity ofm. The coordinates shouldn't exceed108in their absolute value.ExamplesInput4 3Output0 03 00 31 1Input6 3Output-1Input6 6Output10 0-10 010 19 19 -10 -2Input7 4Output176166 6377709276 539564654734 174109910147 434207790497 366519606663 21061859328 886001",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,12 @@
+{
+    "uid": "449-C",
+    "url": "https://codeforces.com/contest/449/problem/C",
+    "tags": [
+        "constructive algorithms",
+        " number theory"
+    ],
+    "title": "449-C",
+    "statement": "C. Jzzhu and Applestime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutJzzhu has pickednapples from his big apple tree. All the apples are numbered from1ton. Now he wants to sell them to an apple store.Jzzhu will pack his apples into groups and then sell them. Each group must contain two apples, and the greatest common divisor of numbers of the apples in each group must be greater than 1. Of course, each apple can be part of at most one group.Jzzhu wonders how to get the maximum possible number of groups. Can you help him?InputA single integern(1 ≤n≤ 105), the number of the apples.OutputThe first line must contain a single integerm, representing the maximum number of groups he can get. Each of the nextmlines must contain two integers — the numbers of apples in the current group.If there are several optimal answers you can print any of them.ExamplesInput6Output26 32 4Input9Output39 32 46 8Input2Output0",
+    "source": "CF",
+    "vjudge": false
+}

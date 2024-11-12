@@ -1,0 +1,12 @@
+{
+    "uid": "873-B",
+    "url": "https://codeforces.com/contest/873/problem/B",
+    "tags": [
+        "dp",
+        " implementation"
+    ],
+    "title": "873-B",
+    "statement": "B. Balanced Substringtime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given a stringsconsisting only of characters0and1. A substring[l,r]ofsis a stringslsl+ 1sl+ 2...sr, and its length equals tor-l+ 1. A substring is calledbalancedif the number of zeroes (0) equals to the number of ones in this substring.You have to determine the length of the longestbalancedsubstring ofs.InputThe first line containsn(1 ≤n≤ 100000) — the number of characters ins.The second line contains a stringsconsisting of exactlyncharacters. Only characters0and1can appear ins.OutputIf there is no non-emptybalancedsubstring ins, print0. Otherwise, print the length of the longestbalancedsubstring.ExamplesInput811010111Output4Input3111Output0NoteIn the first example you can choose the substring[3, 6]. It isbalanced, and its length is4. Choosing the substring[2, 5]is also possible.In the second example it's impossible to find a non-emptybalancedsubstring.",
+    "source": "CF",
+    "vjudge": false
+}

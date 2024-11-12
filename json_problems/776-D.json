@@ -1,0 +1,14 @@
+{
+    "uid": "776-D",
+    "url": "https://codeforces.com/contest/776/problem/D",
+    "tags": [
+        "2-sat",
+        " dfs and similar",
+        " dsu",
+        " graphs"
+    ],
+    "title": "776-D",
+    "statement": "D. The Door Problemtime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputMoriarty has trappednpeople inndistinct rooms in a hotel. Some rooms are locked, others are unlocked. But, there is a condition that the people in the hotel can only escape when all the doors are unlocked at the same time. There aremswitches. Each switch control doors of some rooms, but each door is controlled byexactly twoswitches.You are given the initial configuration of the doors. Toggling any switch, that is, turning it ON when it is OFF, or turning it OFF when it is ON, toggles the condition of the doors that this switch controls. Say, we toggled switch1, which was connected to room1,2and3which were respectively locked, unlocked and unlocked. Then, after toggling the switch, they become unlocked, locked and locked.You need to tell Sherlock, if there exists a way to unlock all doors at the same time.InputFirst line of input contains two integersnandm(2 ≤n≤ 105,2 ≤m≤ 105) — the number of rooms and the number of switches.Next line containsnspace-separated integersr1,r2, ...,rn(0 ≤ri≤ 1) which tell the status of room doors. Thei-th room is locked ifri= 0, otherwise it is unlocked.Thei-th of nextmlines contains an integerxi(0 ≤xi≤n) followed byxidistinct integers separated by space, denoting the number of rooms controlled by thei-th switch followed by the room numbers that this switch controls. It is guaranteed that the room numbers are in the range from1ton. It is guaranteed that each door is controlled by exactly two switches.OutputOutput \"YES\" without quotes, if it is possible to open all doors at the same time, otherwise output \"NO\" without quotes.ExamplesInput3 31 0 12 1 32 1 22 2 3OutputNOInput3 31 0 13 1 2 31 22 1 3OutputYESInput3 31 0 13 1 2 32 1 21 3OutputNONoteIn the second example input, the initial statuses of the doors are[1, 0, 1](0means locked,1— unlocked).After toggling switch3, we get[0, 0, 0]that means all doors are locked.Then, after toggling switch1, we get[1, 1, 1]that means all doors are unlocked.It can be seen that for the first and for the third example inputs it is not possible to make all doors unlocked.",
+    "source": "CF",
+    "vjudge": false
+}

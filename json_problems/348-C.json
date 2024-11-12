@@ -1,0 +1,12 @@
+{
+    "uid": "348-C",
+    "url": "https://codeforces.com/contest/348/problem/C",
+    "tags": [
+        "brute force",
+        " data structures"
+    ],
+    "title": "348-C",
+    "statement": "C. Subset Sumstime limit per test3 secondsmemory limit per test256 megabytesinputstdinoutputstdoutYou are given an arraya1,a2, ...,anandmsetsS1,S2, ...,Smof indices of elements of this array. Let's denoteSk= {Sk,i} (1 ≤i≤ |Sk|). In other words,Sk,iis some element from setSk.In this problem you have to answerqqueries of the two types:Find the sum of elements with indices from setSk:. The query format is \"? k\".Add numberxto all elements at indices from setSk:aSk,iis replaced byaSk,i+xfor alli(1 ≤i≤ |Sk|). The query format is \"+ k x\".After each first type query print the required sum.InputThe first line contains integersn,m,q(1 ≤n,m,q≤ 105). The second line containsnintegersa1,a2, ...,an(|ai| ≤ 108)— elements of arraya.Each of the followingmlines describes one set of indices. Thek-th line first contains a positive integer, representing the number of elements in set (|Sk|), then follow|Sk|distinct integersSk, 1,Sk, 2, ...,Sk, |Sk|(1 ≤Sk,i≤n)— elements of setSk.The nextqlines contain queries. Each query looks like either \"? k\" or \"+ k x\" and sits on a single line. For all queries the following limits are held:1 ≤k≤m,|x| ≤ 108. The queries are given in order they need to be answered.It is guaranteed that the sum of sizes of all setsSkdoesn't exceed105.OutputAfter each first type query print the required sum on a single line.Please, do not write the%lldspecifier to read or write 64-bit integers in С++. It is preferred to use thecin,coutstreams or the%I64dspecifier.ExamplesInput5 3 55 -5 5 1 -42 1 24 2 1 4 52 2 5? 2+ 3 4? 1+ 2 1? 2Output-349",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,9 @@
+{
+    "uid": "393-A",
+    "url": "https://codeforces.com/contest/393/problem/A",
+    "tags": [],
+    "title": "393-A",
+    "statement": "A. Nineteentime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutAlice likes word \"nineteen\" very much. She has a stringsand wants the string to contain as many such words as possible. For that reason she can rearrange the letters of the string.For example, if she has string \"xiineteenppnnnewtnee\", she can get string \"xnineteenppnineteenw\", containing (the occurrences marked) two such words. More formally, word \"nineteen\" occurs in the string the number of times you can read it starting from some letter of the string. Of course, you shouldn't skip letters.Help her to find the maximum number of \"nineteen\"s that she can get in her string.InputThe first line contains a non-empty strings, consisting only of lowercase English letters. The length of stringsdoesn't exceed 100.OutputPrint a single integer — the maximum number of \"nineteen\"s that she can get in her string.ExamplesInputnniinneetteeeennOutput2InputnneteenabcnneteenabcnneteenabcnneteenabcnneteenabciiOutput2InputnineteenineteenOutput2",
+    "source": "CF",
+    "vjudge": false
+}

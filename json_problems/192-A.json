@@ -1,0 +1,13 @@
+{
+    "uid": "192-A",
+    "url": "https://codeforces.com/contest/192/problem/A",
+    "tags": [
+        "binary search",
+        " brute force",
+        " implementation"
+    ],
+    "title": "192-A",
+    "statement": "A. Funky Numberstime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutAs you very well know, this year's funkiest numbers are so called triangular numbers (that is, integers that are representable as, wherekis some positive integer), and the coolest numbers are those that are representable as a sum of two triangular numbers.A well-known hipster Andrew adores everything funky and cool but unfortunately, he isn't good at maths. Given numbern, help him define whether this number can be represented by a sum of two triangular numbers (not necessarily different)!InputThe first input line contains an integern(1 ≤n≤ 109).OutputPrint \"YES\" (without the quotes), ifncan be represented as a sum of two triangular numbers, otherwise print \"NO\" (without the quotes).ExamplesInput256OutputYESInput512OutputNONoteIn the first sample number.In the second sample number512can not be represented as a sum of two triangular numbers.",
+    "source": "CF",
+    "vjudge": false
+}

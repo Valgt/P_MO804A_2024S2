@@ -1,0 +1,13 @@
+{
+    "uid": "582-B",
+    "url": "https://codeforces.com/contest/582/problem/B",
+    "tags": [
+        "constructive algorithms",
+        " dp",
+        " matrices"
+    ],
+    "title": "582-B",
+    "statement": "B. Once Again...time limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given an array of positive integersa1,a2, ...,an×Tof lengthn×T. We know that for anyi>nit is true thatai=ai-n. Find the length of the longest non-decreasing sequence of the given array.InputThe first line contains two space-separated integers:n,T(1 ≤n≤ 100,1 ≤T≤ 107). The second line containsnspace-separated integersa1,a2, ...,an(1 ≤ai≤ 300).OutputPrint a single number — the length of a sought sequence.ExamplesInput4 33 1 4 2Output5NoteThe array given in the sample looks like that: 3,1, 4,2,3, 1,4, 2, 3, 1,4, 2. The elements in bold form the largest non-decreasing subsequence.",
+    "source": "CF",
+    "vjudge": false
+}

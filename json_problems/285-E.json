@@ -1,0 +1,13 @@
+{
+    "uid": "285-E",
+    "url": "https://codeforces.com/contest/285/problem/E",
+    "tags": [
+        "combinatorics",
+        " dp",
+        " math"
+    ],
+    "title": "285-E",
+    "statement": "E. Positions in Permutationstime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutPermutationpis an ordered set of integersp1,p2,  ...,pn, consisting ofndistinct positive integers, each of them doesn't exceedn. We'll denote thei-th element of permutationpaspi. We'll call numbernthe size or the length of permutationp1,p2,  ...,pn.We'll call positioni(1 ≤i≤n) in permutationp1,p2, ...,pngood, if|p[i] -i| = 1. Count the number of permutations of sizenwith exactlykgood positions. Print the answer modulo1000000007(109+ 7).InputThe single line contains two space-separated integersnandk(1 ≤n≤ 1000, 0 ≤k≤n).OutputPrint the number of permutations of lengthnwith exactlykgood positions modulo1000000007(109+ 7).ExamplesInput1 0Output1Input2 1Output0Input3 2Output4Input4 1Output6Input7 4Output328NoteThe only permutation of size 1 has 0 good positions.Permutation(1, 2)has 0 good positions, and permutation(2, 1)has 2 positions.Permutations of size 3:(1, 2, 3)— 0 positions— 2 positions— 2 positions— 2 positions— 2 positions(3, 2, 1)— 0 positions",
+    "source": "CF",
+    "vjudge": false
+}

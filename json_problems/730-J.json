@@ -1,0 +1,11 @@
+{
+    "uid": "730-J",
+    "url": "https://codeforces.com/contest/730/problem/J",
+    "tags": [
+        "dp"
+    ],
+    "title": "730-J",
+    "statement": "J. Bottlestime limit per test2 secondsmemory limit per test512 megabytesinputstandard inputoutputstandard outputNick hasnbottles of soda left after his birthday. Each bottle is described by two values: remaining amount of sodaaiand bottle volumebi(ai≤bi).Nick has decided to pour all remaining soda into minimal number of bottles, moreover he has to do it as soon as possible. Nick spendsxseconds to pourxunits of soda from one bottle to another.Nick asks you to help him to determinek— the minimal number of bottles to store all remaining soda andt— the minimal time to pour soda intokbottles. A bottle can't store more soda than its volume. All remaining soda should be saved.InputThe first line contains positive integern(1 ≤n≤ 100) — the number of bottles.The second line containsnpositive integersa1,a2, ...,an(1 ≤ai≤ 100), whereaiis the amount of soda remaining in thei-th bottle.The third line containsnpositive integersb1,b2, ...,bn(1 ≤bi≤ 100), wherebiis the volume of thei-th bottle.It is guaranteed thatai≤bifor anyi.OutputThe only line should contain two integerskandt, wherekis the minimal number of bottles that can store all the soda andtis the minimal time to pour the soda intokbottles.ExamplesInput43 3 4 34 7 6 5Output2 6Input21 1100 100Output1 1Input510 30 5 6 2410 41 7 8 24Output3 11NoteIn the first example Nick can pour soda from the first bottle to the second bottle. It will take 3 seconds. After it the second bottle will contain3 + 3 = 6units of soda. Then he can pour soda from the fourth bottle to the second bottle and to the third bottle: one unit to the second and two units to the third. It will take1 + 2 = 3seconds. So, all the soda will be in two bottles and he will spend3 + 3 = 6seconds to do it.",
+    "source": "CF",
+    "vjudge": false
+}

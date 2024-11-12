@@ -1,0 +1,14 @@
+{
+    "uid": "762-B",
+    "url": "https://codeforces.com/contest/762/problem/B",
+    "tags": [
+        "greedy",
+        " implementation",
+        " sortings",
+        " two pointers"
+    ],
+    "title": "762-B",
+    "statement": "B. USB vs. PS/2time limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputDue to the increase in the number of students of Berland State University it was decided to equip a new computer room. You were given the task of buying mouses, and you have to spend as little as possible. After all, the country is in crisis!The computers bought for the room were different. Some of them had only USB ports, some — only PS/2 ports, and some had both options.You have found a price list of a certain computer shop. In it, formmouses it is specified the cost and the type of the port that is required to plug the mouse in (USB or PS/2). Each mouse from the list can be bought at most once.You want to buy some set of mouses from the given price list in such a way so that you maximize the number of computers equipped with mouses (it is not guaranteed that you will be able to equip all of the computers), and in case of equality of this value you want to minimize the total cost of mouses you will buy.InputThe first line contains three integersa,bandc(0 ≤a,b,c≤ 105)  — the number of computers that only have USB ports, the number of computers, that only have PS/2 ports, and the number of computers, that have both options, respectively.The next line contains one integerm(0 ≤m≤ 3·105)  — the number of mouses in the price list.The nextmlines each describe another mouse. Thei-th line contains first integervali(1 ≤vali≤ 109)  — the cost of thei-th mouse, then the type of port (USB or PS/2) that is required to plug the mouse in.OutputOutput two integers separated by space — the number of equipped computers and the total cost of the mouses you will buy.ExampleInput2 1 145 USB6 PS/23 PS/27 PS/2Output3 14NoteIn the first example you can buy the first three mouses. This way you will equip one of the computers that has only a USB port with a USB mouse, and the two PS/2 mouses you will plug into the computer with PS/2 port and the computer with both ports.",
+    "source": "CF",
+    "vjudge": false
+}

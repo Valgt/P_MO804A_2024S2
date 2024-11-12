@@ -1,0 +1,14 @@
+{
+    "uid": "1331-F",
+    "url": "https://codeforces.com/contest/1331/problem/F",
+    "tags": [
+        "*special",
+        " brute force",
+        " dp",
+        " strings"
+    ],
+    "title": "1331-F",
+    "statement": "F. Elementary!time limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputInputThe input consists of a single string of uppercase letters A-Z. The length of the string is between 1 and 10 characters, inclusive.OutputOutput \"YES\" or \"NO\".ExamplesInputGENIUSOutputYESInputDOCTOROutputNOInputIRENEOutputYESInputMARYOutputNOInputSMARTPHONEOutputNOInputREVOLVEROutputYESInputHOLMESOutputNOInputWATSONOutputYES",
+    "source": "CF",
+    "vjudge": false
+}

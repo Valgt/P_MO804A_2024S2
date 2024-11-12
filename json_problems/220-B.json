@@ -1,0 +1,12 @@
+{
+    "uid": "220-B",
+    "url": "https://codeforces.com/contest/220/problem/B",
+    "tags": [
+        "constructive algorithms",
+        " data structures"
+    ],
+    "title": "220-B",
+    "statement": "B. Little Elephant and Arraytime limit per test4 secondsmemory limit per test256 megabytesinputstdinoutputstdoutThe Little Elephant loves playing with arrays. He has arraya, consisting ofnpositive integers, indexed from 1 ton. Let's denote the number with indexiasai.Additionally the Little Elephant hasmqueries to the array, each query is characterised by a pair of integersljandrj(1 ≤lj≤rj≤n). For each querylj,rjthe Little Elephant has to count, how many numbersxexist, such that numberxoccurs exactlyxtimes among numbersalj,alj+ 1, ...,arj.Help the Little Elephant to count the answers to all queries.InputThe first line contains two space-separated integersnandm(1 ≤n,m≤ 105)— the size of arrayaand the number of queries to it. The next line containsnspace-separated positive integersa1,a2,...,an(1 ≤ai≤ 109). Nextmlines contain descriptions of queries, one per line. Thej-th of these lines contains the description of thej-th query as two space-separated integersljandrj(1 ≤lj≤rj≤n).OutputInmlines printmintegers — the answers to the queries. Thej-th line should contain the answer to thej-th query.ExamplesInput7 23 1 2 2 3 3 71 73 4Output31",
+    "source": "CF",
+    "vjudge": false
+}

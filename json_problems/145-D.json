@@ -1,0 +1,13 @@
+{
+    "uid": "145-D",
+    "url": "https://codeforces.com/contest/145/problem/D",
+    "tags": [
+        "combinatorics",
+        " data structures",
+        " implementation"
+    ],
+    "title": "145-D",
+    "statement": "D. Lucky Pairtime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutPetya loves lucky numbers very much. Everybody knows that lucky numbers are positive integers whose decimal record contains only the lucky digits4and7. For example, numbers47,744,4are lucky and5,17,467are not.Petya has an arrayaofnintegers. The numbers in the array are numbered starting from1. Unfortunately, Petya has been misbehaving and so, his parents don't allow him play with arrays that have many lucky numbers. It is guaranteed that no more than1000elements in the arrayaare lucky numbers.Petya needs to find the number of pairs of non-intersecting segments[l1;r1]and[l2;r2](1 ≤l1≤r1<l2≤r2≤n, all four numbers are integers) such that there's no such lucky number that occurs simultaneously in the subarraya[l1..r1]and in the subarraya[l2..r2]. Help Petya count the number of such pairs.InputThe first line contains an integern(2 ≤n≤ 105)— the size of the arraya. The second line containsnspace-separated integersai(1 ≤ai≤ 109) — arraya. It is guaranteed that no more than1000elements in the arrayaare lucky numbers.OutputOn the single line print the only number — the answer to the problem.Please do not use the%lldspecificator to read or write 64-bit integers in С++. It is preferred to use thecin,coutstreams or the%I64dspecificator.ExamplesInput41 4 2 4Output9Input24 7Output1Input44 4 7 7Output9NoteThe subarraya[l..r]is an array that consists of elementsal,al+ 1, ...,ar.In the first sample there are9possible pairs that satisfy the condition:[1, 1]and[2, 2],[1, 1]and[2, 3],[1, 1]and[2, 4],[1, 1]and[3, 3],[1, 1]and[3, 4],[1, 1]and[4, 4],[1, 2]and[3, 3],[2, 2]and[3, 3],[3, 3]and[4, 4].In the second sample there is only one pair of segments —[1;1]and[2;2]and it satisfies the condition.",
+    "source": "CF",
+    "vjudge": false
+}

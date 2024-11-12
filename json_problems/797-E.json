@@ -1,0 +1,13 @@
+{
+    "uid": "797-E",
+    "url": "https://codeforces.com/contest/797/problem/E",
+    "tags": [
+        "brute force",
+        " data structures",
+        " dp"
+    ],
+    "title": "797-E",
+    "statement": "E. Array Queriestime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputais an array ofnpositive integers, all of which are not greater thann.You have to processqqueries to this array. Each query is represented by two numberspandk. Several operations are performed in each query; each operation changesptop+ap+k. There operations are applied untilpbecomes greater thann. The answer to the query is the number of performed operations.InputThe first line contains one integern(1 ≤n≤ 100000).The second line containsnintegers — elements ofa(1 ≤ai≤nfor eachifrom1ton).The third line containts one integerq(1 ≤q≤ 100000).Thenqlines follow. Each line contains the values ofpandkfor corresponding query(1 ≤p,k≤n).OutputPrintqintegers,ith integer must be equal to the answer toith query.ExampleInput31 1 131 12 13 1Output211NoteConsider first example:In first query after first operationp= 3, after second operationp= 5.In next two queriespis greater thannafter the first operation.",
+    "source": "CF",
+    "vjudge": false
+}

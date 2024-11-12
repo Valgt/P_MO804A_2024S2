@@ -1,0 +1,12 @@
+{
+    "uid": "173-C",
+    "url": "https://codeforces.com/contest/173/problem/C",
+    "tags": [
+        "brute force",
+        " dp"
+    ],
+    "title": "173-C",
+    "statement": "C. Spiral Maximumtime limit per test3 secondsmemory limit per test256 megabytesinputstdinoutputstdoutLet's consider ak×ksquare, divided into unit squares. Please note thatk≥ 3and is odd. We'll paint squares starting from the upper left square in the following order: first we move to the right, then down, then to the left, then up, then to the right again and so on. We finish moving in some direction in one of two cases: either we've reached the square's border or the square following after the next square is already painted. We finish painting at the moment when we cannot move in any direction and paint a square. The figure that consists of the painted squares is aspiral.The figure shows examples of spirals fork= 3, 5, 7, 9.You have ann×mtable, each of its cells contains a number. Let's consider all possible spirals, formed by the table cells. It means that we consider all spirals of any size that don't go beyond the borders of the table. Let's find the sum of the numbers of the cells that form the spiral. You have to find the maximum of those values among all spirals.InputThe first line contains two integersnandm(3 ≤n,m≤ 500) — the sizes of the table.Each of the nextnlines containsmspace-separated integers: thej-th number in thei-th lineaij(- 1000 ≤aij≤ 1000) is the number recorded in thej-th cell of thei-th row of the table.OutputPrint a single number — the maximum sum of numbers among all spirals.ExamplesInput6 50 0 0 0 01 1 1 1 10 0 0 0 11 1 1 0 11 0 0 0 11 1 1 1 1Output17Input3 31 1 11 0 01 1 1Output6Input6 6-3 2 0 1 5 -14 -1 2 -3 0 1-5 1 2 4 1 -20 -2 1 3 -1 23 1 4 -3 -2 0-1 2 -1 3 1 2Output13NoteIn the first sample the spiral with maximum sum will cover all 1's of the table.In the second sample the spiral may cover only six 1's.",
+    "source": "CF",
+    "vjudge": false
+}

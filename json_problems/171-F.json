@@ -1,0 +1,14 @@
+{
+    "uid": "171-F",
+    "url": "https://codeforces.com/contest/171/problem/F",
+    "tags": [
+        "*special",
+        " brute force",
+        " implementation",
+        " number theory"
+    ],
+    "title": "171-F",
+    "statement": "F. ucyhftime limit per test2 secondsmemory limit per test64 megabytesinputstdinoutputstdoutqd ucyhf yi q fhycu dkcruh mxeiu huluhiu yi q tyvvuhudj fhycu dkcruh. oekh jqia yi je vydt jxu djx ucyhf.Inputjxu ydfkj sediyiji ev q iydwbu ydjuwuhd(1 ≤d≤ 11184) — jxu edu-rqiut ydtun ev jxu ucyhf je vydt.Outputekjfkj q iydwbu dkcruh.ExamplesInput1Output13",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,13 @@
+{
+    "uid": "276-E",
+    "url": "https://codeforces.com/contest/276/problem/E",
+    "tags": [
+        "data structures",
+        " graphs",
+        " trees"
+    ],
+    "title": "276-E",
+    "statement": "E. Little Girl and Problem on Treestime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutA little girl loves problems on trees very much. Here's one of them.A tree is an undirected connected graph, not containing cycles. The degree of nodexin the tree is the number of nodesyof the tree, such that each of them is connected with nodexby some edge of the tree.Let's consider a tree that consists ofnnodes. We'll consider the tree's nodes indexed from 1 ton. The cosidered tree has the following property: each node except for node number 1 has the degree of at most 2.Initially, each node of the tree contains number 0. Your task is to quickly process the requests of two types:Request of form:0vxd. In reply to the request you should addxto all numbers that are written in the nodes that are located at the distance of at mostdfrom nodev. The distance between two nodes is the number of edges on the shortest path between them.Request of form:1v. In reply to the request you should print the current number that is written in nodev.InputThe first line contains integersn(2 ≤n≤ 105) andq(1 ≤q≤ 105) — the number of tree nodes and the number of requests, correspondingly.Each of the nextn-  1lines contains two integersuiandvi(1 ≤ui,vi≤n,ui≠vi), that show that there is an edge between nodesuiandvi. Each edge's description occurs in the input exactly once. It is guaranteed that the given graph is a tree that has the property that is described in the statement.Nextqlines describe the requests.The request to add has the following format:0vxd(1 ≤v≤n,1 ≤x≤ 104,1 ≤d<n).The request to print the node value has the following format:1v(1 ≤v≤n).The numbers in the lines are separated by single spaces.OutputFor each request to print the node value print an integer — the reply to the request.ExamplesInput3 61 21 30 3 1 20 2 3 10 1 5 21 11 21 3Output996Input6 111 22 55 41 61 30 3 1 30 3 4 50 2 1 40 1 5 50 4 6 21 11 21 31 41 51 6Output111711161711",
+    "source": "CF",
+    "vjudge": false
+}

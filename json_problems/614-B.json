@@ -1,0 +1,12 @@
+{
+    "uid": "614-B",
+    "url": "https://codeforces.com/contest/614/problem/B",
+    "tags": [
+        "implementation",
+        " math"
+    ],
+    "title": "614-B",
+    "statement": "B. Gena's Codetime limit per test0.5 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputIt's the year 4527 and the tanks game that we all know and love still exists. There also exists Great Gena's code, written in 2016. The problem this code solves is: given the number of tanks that go into the battle from each country, find their product. If it is turns to be too large, then the servers might have not enough time to assign tanks into teams and the whole game will collapse!There are exactlyndistinct countries in the world and thei-th country addedaitanks to the game. As the developers of the game are perfectionists, the number of tanks from each country is beautiful. Abeautifulnumber, according to the developers, is such number that its decimal representation consists only of digits '1' and '0', moreover it containsat most onedigit '1'. However, due to complaints from players, some number of tanks ofonecountry was removed from the game, hence the number of tanks of this country may not remain beautiful.Your task is to write the program that solves exactly the same problem in order to verify Gena's code correctness. Just in case.InputThe first line of the input contains the number of countriesn(1 ≤n≤ 100 000). The second line containsnnon-negative integersaiwithout leading zeroes — the number of tanks of thei-th country.It is guaranteed that the second line contains at leastn- 1beautiful numbers and the total length of all these number's representations doesn't exceed100 000.OutputPrint a single number without leading zeroes — the product of the number of tanks presented by each country.ExamplesInput35 10 1Output50Input41 1 10 11Output110Input50 3 1 100 1Output0NoteIn sample 1 numbers 10 and 1 arebeautiful, number 5 is not not.In sample 2 number 11 is notbeautiful(contains two '1's), all others arebeautiful.In sample 3 number 3 is notbeautiful, all others arebeautiful.",
+    "source": "CF",
+    "vjudge": false
+}

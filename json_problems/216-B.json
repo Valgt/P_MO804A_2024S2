@@ -1,0 +1,12 @@
+{
+    "uid": "216-B",
+    "url": "https://codeforces.com/contest/216/problem/B",
+    "tags": [
+        "dfs and similar",
+        " implementation"
+    ],
+    "title": "216-B",
+    "statement": "B. Forming Teamstime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutOne daynstudents come to the stadium. They want to play football, and for that they need to split into teams, the teams must have an equal number of people.We know that this group of people has archenemies. Each student has at most two archenemies. Besides, if studentAis an archenemy to studentB, then studentBis an archenemy to studentA.The students want to split so as no two archenemies were in one team. If splitting in the required manner is impossible, some students will have to sit on the bench.Determine the minimum number of students you will have to send to the bench in order to form the two teams in the described manner and begin the game at last.InputThe first line contains two integersnandm(2 ≤n≤ 100,1 ≤m≤ 100) — the number of students and the number of pairs of archenemies correspondingly.Nextmlines describe enmity between students. Each enmity is described as two numbersaiandbi(1 ≤ai,bi≤n,ai≠bi) — the indexes of the students who are enemies to each other. Each enmity occurs in the list exactly once. It is guaranteed that each student has no more than two archenemies.You can consider the students indexed in some manner with distinct integers from 1 ton.OutputPrint a single integer — the minimum number of students you will have to send to the bench in order to start the game.ExamplesInput5 41 22 45 31 4Output1Input6 21 43 4Output0Input6 61 22 33 14 55 66 4Output2",
+    "source": "CF",
+    "vjudge": false
+}

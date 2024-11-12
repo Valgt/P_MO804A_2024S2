@@ -1,0 +1,13 @@
+{
+    "uid": "551-E",
+    "url": "https://codeforces.com/contest/551/problem/E",
+    "tags": [
+        "binary search",
+        " data structures",
+        " implementation"
+    ],
+    "title": "551-E",
+    "statement": "E. GukiZ and GukiZianatime limit per test10 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputProfessor GukiZ was playing with arrays again and accidentally discovered new function, which he calledGukiZiana. For given arraya, indexed with integers from1ton, and numbery,GukiZiana(a,y)represents maximum value ofj-i, such thataj=ai=y. If there is noyas an element ina, thenGukiZiana(a,y)is equal to- 1. GukiZ also prepared a problem for you. This time, you have two types of queries:First type has form1lrxand asks you to increase values of allaisuch thatl≤i≤rby the non-negative integerx.Second type has form2yand asks you to find value ofGukiZiana(a,y).For each query of type2, print the answer and make GukiZ happy!InputThe first line contains two integersn,q(1 ≤n≤ 5 * 105, 1 ≤q≤ 5 * 104), size of arraya, and the number of queries.The second line containsnintegersa1,a2, ...an(1 ≤ai≤ 109), forming an arraya.Each of nextqlines contain either four or two numbers, as described in statement:If line starts with1, then the query looks like1lrx(1 ≤l≤r≤n,0 ≤x≤ 109), first type query.If line starts with2, then th query looks like2y(1 ≤y≤ 109), second type query.OutputFor each query of type2, print the value ofGukiZiana(a,y), foryvalue for that query.ExamplesInput4 31 2 3 41 1 2 11 1 1 12 3Output2Input2 31 21 2 2 12 32 4Output0-1",
+    "source": "CF",
+    "vjudge": false
+}

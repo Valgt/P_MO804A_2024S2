@@ -1,0 +1,11 @@
+{
+    "uid": "656-F",
+    "url": "https://codeforces.com/contest/656/problem/F",
+    "tags": [
+        "*special"
+    ],
+    "title": "656-F",
+    "statement": "F. Ace It!time limit per test2 secondsmemory limit per test64 megabytesinputstandard inputoutputstandard outputInputThe only line of the input is a string of 7 characters. The first character is letter A, followed by 6 digits. The input is guaranteed to be valid (for certain definition of \"valid\").OutputOutput a single integer.ExamplesInputA221033Output21InputA223635Output22InputA232726Output23",
+    "source": "CF",
+    "vjudge": false
+}

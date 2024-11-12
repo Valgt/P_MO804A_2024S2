@@ -1,0 +1,11 @@
+{
+    "uid": "879-A",
+    "url": "https://codeforces.com/contest/879/problem/A",
+    "tags": [
+        "implementation"
+    ],
+    "title": "879-A",
+    "statement": "A. Borya's Diagnosistime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputIt seems that Borya is seriously sick. He is going visitndoctors to find out the exact diagnosis. Each of the doctors needs the information about all previous visits, so Borya has to visit them in the prescribed order (i.e. Borya should first visit doctor1, then doctor2, then doctor3and so on). Borya will get the information about his health from the last doctor.Doctors have a strange working schedule. The doctorigoes to work on thesi-th day and works everydiday. So, he works on dayssi,si+di,si+ 2di, ....The doctor's appointment takes quite a long time, so Borya can not see more than one doctor per day. What is the minimum time he needs to visit all doctors?InputFirst line contains an integern— number of doctors (1 ≤n≤ 1000).Nextnlines contain two numberssianddi(1 ≤si,di≤ 1000).OutputOutput a single integer — the minimum day at which Borya can visit the last doctor.ExamplesInput32 21 22 2Output4Input210 16 5Output11NoteIn the first sample case, Borya can visit all doctors on days2,3and4.In the second sample case, Borya can visit all doctors on days10and11.",
+    "source": "CF",
+    "vjudge": false
+}

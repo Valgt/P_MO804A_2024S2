@@ -1,0 +1,12 @@
+{
+    "uid": "660-E",
+    "url": "https://codeforces.com/contest/660/problem/E",
+    "tags": [
+        "combinatorics",
+        " math"
+    ],
+    "title": "660-E",
+    "statement": "E. Different Subsets For All Tuplestime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputFor a sequenceaofnintegers between1andm, inclusive, denotef(a)as the number of distinct subsequences ofa(including the empty subsequence).You are given two positive integersnandm. LetSbe the set of all sequences of lengthnconsisting of numbers from1tom. Compute the sumf(a)over allainSmodulo109+ 7.InputThe only line contains two integersnandm(1 ≤n,m≤ 106) — the number of elements in arrays and the upper bound for elements.OutputPrint the only integerc— the desired sum modulo109+ 7.ExamplesInput1 3Output6Input2 2Output14Input3 3Output174",
+    "source": "CF",
+    "vjudge": false
+}

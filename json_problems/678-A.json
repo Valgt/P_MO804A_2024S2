@@ -1,0 +1,12 @@
+{
+    "uid": "678-A",
+    "url": "https://codeforces.com/contest/678/problem/A",
+    "tags": [
+        "implementation",
+        " math"
+    ],
+    "title": "678-A",
+    "statement": "A. Johny Likes Numberstime limit per test0.5 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputJohny likes numbersnandkvery much. Now Johny wants to find the smallest integerxgreater thann, so it is divisible by the numberk.InputThe only line contains two integersnandk(1 ≤n,k≤ 109).OutputPrint the smallest integerx>n, so it is divisible by the numberk.ExamplesInput5 3Output6Input25 13Output26Input26 13Output39",
+    "source": "CF",
+    "vjudge": false
+}

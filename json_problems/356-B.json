@@ -1,0 +1,12 @@
+{
+    "uid": "356-B",
+    "url": "https://codeforces.com/contest/356/problem/B",
+    "tags": [
+        "implementation",
+        " math"
+    ],
+    "title": "356-B",
+    "statement": "B. Xenia and Hammingtime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutXenia is an amateur programmer. Today on the IT lesson she learned about the Hamming distance.The Hamming distance between two stringss=s1s2...snandt=t1t2...tnof equal lengthnis value. Record[si≠ti]is the Iverson notation and represents the following: ifsi≠ti, it is one, otherwise — zero.Now Xenia wants to calculate the Hamming distance between two long stringsaandb. The first stringais the concatenation ofncopies of stringx, that is,. The second stringbis the concatenation ofmcopies of stringy.Help Xenia, calculate the required Hamming distance, givenn,x,m,y.InputThe first line contains two integersnandm(1 ≤n,m≤ 1012). The second line contains a non-empty stringx. The third line contains a non-empty stringy. Both strings consist of at most106lowercase English letters.It is guaranteed that stringsaandbthat you obtain from the input have the same length.OutputPrint a single integer — the required Hamming distance.Please, do not use the%lldspecifier to read or write 64-bit integers in С++. It is preferred to use thecin,coutstreams or the%I64dspecifier.ExamplesInput100 10aaaaaaaaaaaOutput0Input1 1abacabaabzczzzOutput4Input2 3rzrazOutput5NoteIn the first test case stringais the same as stringband equals 100 lettersa. As both strings are equal, the Hamming distance between them is zero.In the second test case stringsaandbdiffer in their 3-rd, 5-th, 6-th and 7-th characters. Thus, the Hamming distance equals 4.In the third test case stringaisrzrrzrand stringbisazazaz. The strings differ in all characters apart for the second one, the Hamming distance between them equals 5.",
+    "source": "CF",
+    "vjudge": false
+}

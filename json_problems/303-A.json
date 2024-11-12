@@ -1,0 +1,13 @@
+{
+    "uid": "303-A",
+    "url": "https://codeforces.com/contest/303/problem/A",
+    "tags": [
+        "constructive algorithms",
+        " implementation",
+        " math"
+    ],
+    "title": "303-A",
+    "statement": "A. Lucky Permutation Tripletime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutBike is interested in permutations. A permutation of lengthnis an integer sequence such that each integer from 0 to(n- 1)appears exactly once in it. For example,[0, 2, 1]is a permutation of length 3 while both[0, 2, 2]and[1, 2, 3]is not.A permutation triple of permutations of lengthn(a,b,c)is called a Lucky Permutation Triple if and only if. The signaidenotes thei-th element of permutationa. The modular equality described above denotes that the remainders after dividingai+bibynand dividingcibynare equal.Now, he has an integernand wants to find a Lucky Permutation Triple. Could you please help him?InputThe first line contains a single integern(1 ≤n≤ 105).OutputIf no Lucky Permutation Triple of lengthnexists print-1.Otherwise, you need to print three lines. Each line containsnspace-seperated integers. The first line must contain permutationa, the second line — permutationb, the third — permutationc.If there are multiple solutions, print any of them.ExamplesInput5Output1 4 3 2 01 0 2 4 32 4 0 1 3Input2Output-1NoteIn Sample 1, the permutation triple([1, 4, 3, 2, 0], [1, 0, 2, 4, 3], [2, 4, 0, 1, 3])is Lucky Permutation Triple, as following holds:;;;;.In Sample 2, you can easily notice that no lucky permutation triple exists.",
+    "source": "CF",
+    "vjudge": false
+}

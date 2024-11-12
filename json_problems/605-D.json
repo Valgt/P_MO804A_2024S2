@@ -1,0 +1,12 @@
+{
+    "uid": "605-D",
+    "url": "https://codeforces.com/contest/605/problem/D",
+    "tags": [
+        "data structures",
+        " dfs and similar"
+    ],
+    "title": "605-D",
+    "statement": "D. Board Gametime limit per test2.5 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are playing a board card game. In this game the player has two characteristics,xandy— the white magic skill and the black magic skill, respectively. There arenspell cards lying on the table, each of them has four characteristics,ai,bi,cianddi. In one move a player can pick one of the cards and cast the spell written on it, but only if first two of it's characteristics meet the requirementai≤xandbi≤y, i.e. if the player has enough magic skill to cast this spell. However, after casting the spell the characteristics of a player change and become equal tox=ciandy=di.At the beginning of the game both characteristics of a player are equal to zero. The goal of the game is to cast then-th spell. Your task is to make it in as few moves as possible. You are allowed to use spell in any order and any number of times (for example, you may not use some spells at all).InputThe first line of the input contains a single integern(1 ≤n≤ 100 000) — the number of cards on the table.Each of the nextnlines contains four integersai,bi,ci,di(0 ≤ai,bi,ci,di≤ 109) — the characteristics of the corresponding card.OutputIn the first line print a single integerk— the minimum number of moves needed to cast then-th spell and in the second line printknumbers — the indices of the cards in the order in which you should cast them. In case there are multiple possible solutions, print any of them.If it is impossible to cast then-th spell, print- 1.ExamplesInput40 0 3 42 2 5 34 1 1 75 3 8 8Output31 2 4Input20 0 4 65 1 1000000000 1000000000Output-1",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,14 @@
+{
+    "uid": "915-F",
+    "url": "https://codeforces.com/contest/915/problem/F",
+    "tags": [
+        "data structures",
+        " dsu",
+        " graphs",
+        " trees"
+    ],
+    "title": "915-F",
+    "statement": "F. Imbalance Value of a Treetime limit per test4 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given a treeTconsisting ofnvertices. A number is written on each vertex; the number written on vertexiisai. Let's denote the functionI(x,y)as the difference between maximum and minimum value ofaion a simple path connecting verticesxandy.Your task is to calculate.InputThe first line contains one integer numbern(1 ≤n≤ 106) — the number of vertices in the tree.The second line containsninteger numbersa1,a2, ...,an(1 ≤ai≤ 106) — the numbers written on the vertices.Thenn- 1lines follow. Each line contains two integersxandydenoting an edge connecting vertexxand vertexy(1 ≤x,y≤n,x≠y). It is guaranteed that these edges denote a tree.OutputPrint one number equal to.ExampleInput42 2 3 11 21 31 4Output6",
+    "source": "CF",
+    "vjudge": false
+}

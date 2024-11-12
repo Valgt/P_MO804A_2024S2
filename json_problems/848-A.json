@@ -1,0 +1,11 @@
+{
+    "uid": "848-A",
+    "url": "https://codeforces.com/contest/848/problem/A",
+    "tags": [
+        "constructive algorithms"
+    ],
+    "title": "848-A",
+    "statement": "A. From Y to Ytime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputFrom beginning till end, this message has been waiting to be conveyed.For a given unordered multiset ofnlowercase English letters (\"multi\" means that a letter may appear more than once), we treat all letters as strings of length1, and repeat the following operationn- 1times:Remove any two elementssandtfrom the set, and add their concatenations+tto the set.The cost of such operation is defined to be, wheref(s,c)denotes the number of times charactercappears in strings.Given a non-negative integerk, construct any valid non-empty set of no more than100 000letters, such that the minimum accumulative cost of the whole process isexactlyk. It can be shown that a solution always exists.InputThe first and only line of input contains a non-negative integerk(0 ≤k≤ 100 000) — the required minimum cost.OutputOutput a non-empty string of no more than100 000lowercase English letters — any multiset satisfying the requirements, concatenated to be a string.Note that the printed string doesn't need to be the final concatenated string. It only needs to represent an unordered multiset of letters.ExamplesInput12OutputababababInput3OutputcodeforcesNoteFor the multiset {'a','b','a','b','a','b','a','b'}, one of the ways to complete the process is as follows:{\"ab\",\"a\",\"b\",\"a\",\"b\",\"a\",\"b\"}, with a cost of0;{\"aba\",\"b\",\"a\",\"b\",\"a\",\"b\"}, with a cost of1;{\"abab\",\"a\",\"b\",\"a\",\"b\"}, with a cost of1;{\"abab\",\"ab\",\"a\",\"b\"}, with a cost of0;{\"abab\",\"aba\",\"b\"}, with a cost of1;{\"abab\",\"abab\"}, with a cost of1;{\"abababab\"}, with a cost of8.The total cost is12, and it can be proved to be the minimum cost of the process.",
+    "source": "CF",
+    "vjudge": false
+}

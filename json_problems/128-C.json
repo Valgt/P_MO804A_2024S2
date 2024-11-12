@@ -1,0 +1,12 @@
+{
+    "uid": "128-C",
+    "url": "https://codeforces.com/contest/128/problem/C",
+    "tags": [
+        "combinatorics",
+        " dp"
+    ],
+    "title": "128-C",
+    "statement": "C. Games with Rectangletime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutIn this task Anna and Maria play the following game. Initially they have a checkered piece of paper with a paintedn×mrectangle (only the border, no filling). Anna and Maria move in turns and Anna starts. During each move one should paint inside the last-painted rectangle a new lesser rectangle (along the grid lines). The new rectangle should have no common points with the previous one. Note that when we paint a rectangle, we always paint only the border, the rectangles aren't filled.Nobody wins the game — Anna and Maria simply play until they have donekmoves in total. Count the number of different ways to play this game.InputThe first and only line contains three integers:n,m,k(1 ≤n,m,k≤ 1000).OutputPrint the single number — the number of the ways to play the game. As this number can be very big, print the value modulo1000000007(109+ 7).ExamplesInput3 3 1Output1Input4 4 1Output9Input6 7 2Output75NoteTwo ways to play the game are considered different if the final pictures are different. In other words, if one way contains a rectangle that is not contained in the other way.In the first sample Anna, who performs her first and only move, has only one possible action plan — insert a1 × 1square inside the given3 × 3square.In the second sample Anna has as much as 9 variants: 4 ways to paint a1 × 1square, 2 ways to insert a1 × 2rectangle vertically, 2 more ways to insert it horizontally and one more way is to insert a2 × 2square.",
+    "source": "CF",
+    "vjudge": false
+}

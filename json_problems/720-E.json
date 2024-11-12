@@ -1,0 +1,11 @@
+{
+    "uid": "720-E",
+    "url": "https://codeforces.com/contest/720/problem/E",
+    "tags": [
+        "implementation"
+    ],
+    "title": "720-E",
+    "statement": "E. Ciphertime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputBorya has recently found a big electronic display. The computer that manages the display stores some integer number. The number hasndecimal digits, the display shows the encoded version of the number, where each digit is shown using some lowercase letter of the English alphabet.There is a legend near the display, that describes how the number is encoded. For each digit positioniand each digitjthe charactercis known, that encodes this digit at this position. Different digits can have the same code characters.Each second the number is increased by 1. And one second after a moment when the number reaches the value that is represented asn9-s in decimal notation, the loud beep sounds.Andrew knows the number that is stored in the computer. Now he wants to know how many seconds must pass until Borya can definitely tell what was the original number encoded by the display. Assume that Borya can precisely measure time, and that the encoded number will first be increased exactly one second after Borya started watching at the display.InputInput data contains multiple test cases. The first line of input containst(1 ≤t≤ 100) — the number of test cases.Each test case is described as follows. The first line of the description containsn(1 ≤n≤ 18) — the number of digits in the number. The second line containsndecimal digits without spaces (but possibly with leading zeroes) — the number initially stored in the display computer. The followingnlines contain 10 characters each. Thej-th character of thei-th of these lines is the code character for a digitj- 1in positioni, most significant digit positions are described first.OutputFor each test case print an integer: the number of seconds until Borya definitely knows what was the initial number stored on the display of the computer. Do not print leading zeroes.ExampleInput3242abcdefghijjihgfedcba242aaaaaaaaaaaaaaaaaaaa12abcdabcdffOutput0582",
+    "source": "CF",
+    "vjudge": false
+}

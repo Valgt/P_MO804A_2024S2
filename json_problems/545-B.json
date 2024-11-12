@@ -1,0 +1,11 @@
+{
+    "uid": "545-B",
+    "url": "https://codeforces.com/contest/545/problem/B",
+    "tags": [
+        "greedy"
+    ],
+    "title": "545-B",
+    "statement": "B. Equidistant Stringtime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputLittle Susie loves strings. Today she calculates distances between them. As Susie is a small girl after all, her strings contain only digits zero and one. She uses the definition of Hamming distance:We will define the distance between two stringssandtof the same length consisting of digits zero and one as the number of positionsi, such thatsiisn't equal toti.As besides everything else Susie loves symmetry, she wants to find for two stringssandtof lengthnsuch stringpof lengthn, that the distance fromptoswas equal to the distance fromptot.It's time for Susie to go to bed, help her find such stringpor state that it is impossible.InputThe first line contains stringsof lengthn.The second line contains stringtof lengthn.The length of stringnis within range from1to105. It is guaranteed that both strings contain only digits zero and one.OutputPrint a string of lengthn, consisting of digits zero and one, that meets the problem statement. If no such string exist, print on a single line \"impossible\" (without the quotes).If there are multiple possible answers, print any of them.ExamplesInput00011011Output0011Input000111OutputimpossibleNoteIn the first sample different answers are possible, namely — 0010, 0011, 0110, 0111, 1000, 1001, 1100, 1101.",
+    "source": "CF",
+    "vjudge": false
+}

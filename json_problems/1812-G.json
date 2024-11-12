@@ -1,0 +1,12 @@
+{
+    "uid": "1812-G",
+    "url": "https://codeforces.com/contest/1812/problem/G",
+    "tags": [
+        "*special",
+        " implementation"
+    ],
+    "title": "1812-G",
+    "statement": "G. Colour Visiontime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputExampleInput11RROutputYES",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,14 @@
+{
+    "uid": "769-D",
+    "url": "https://codeforces.com/contest/769/problem/D",
+    "tags": [
+        "*special",
+        " bitmasks",
+        " brute force",
+        " meet-in-the-middle"
+    ],
+    "title": "769-D",
+    "statement": "D. k-Interesting Pairs Of Integerstime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputVasya has the sequence consisting ofnintegers. Vasya consider the pair of integersxandyk-interesting, if their binary representation differs from each other exactly inkbits. For example, ifk= 2, the pair of integersx= 5andy= 3isk-interesting, because their binary representationx=101andy=011differs exactly in two bits.Vasya wants to know how many pairs of indexes (i,j) are in his sequence so thati<jand the pair of integersaiandajisk-interesting. Your task is to help Vasya and determine this number.InputThe first line contains two integersnandk(2 ≤n≤ 105,0 ≤k≤ 14) — the number of integers in Vasya's sequence and the number of bits in which integers ink-interestingpair should differ.The second line contains the sequencea1,a2, ...,an(0 ≤ai≤ 104), which Vasya has.OutputPrint the number of pairs (i,j) so thati<jand the pair of integersaiandajisk-interesting.ExamplesInput4 10 3 2 1Output4Input6 0200 100 100 100 200 200Output6NoteIn the first test there are 4k-interestingpairs:(1,3),(1,4),(2,3),(2,4).In the second testk= 0. Consequently, integers in anyk-interestingpair should be equal to themselves. Thus, for the second test there are 6k-interestingpairs:(1,5),(1,6),(2,3),(2,4),(3,4),(5,6).",
+    "source": "CF",
+    "vjudge": false
+}

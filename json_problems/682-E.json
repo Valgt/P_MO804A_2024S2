@@ -1,0 +1,12 @@
+{
+    "uid": "682-E",
+    "url": "https://codeforces.com/contest/682/problem/E",
+    "tags": [
+        "geometry",
+        " two pointers"
+    ],
+    "title": "682-E",
+    "statement": "E. Alyona and Trianglestime limit per test3 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are givennpoints with integer coordinates on the plane. Points are given in a way such that there is no triangle, formed by any three of thesenpoints, which area exceedsS.Alyona tried to construct a triangle with integer coordinates, which contains allnpoints and which area doesn't exceed4S, but, by obvious reason, had no success in that. Please help Alyona construct such triangle. Please note that vertices of resulting triangle are not necessarily chosen fromngiven points.InputIn the first line of the input two integersnandS(3 ≤n≤ 5000,1 ≤S≤ 1018) are given — the number of points given and the upper bound value of any triangle's area, formed by any three of givennpoints.The nextnlines describes given points:ithof them consists of two integersxiandyi( - 108≤xi,yi≤ 108)— coordinates ofithpoint.It is guaranteed that there is at least one triple of points not lying on the same line.OutputPrint the coordinates of three points — vertices of a triangle which contains allnpoints and which area doesn't exceed4S.Coordinates of every triangle's vertex should be printed on a separate line, every coordinate pair should be separated by a single space. Coordinates should be an integers not exceeding109by absolute value.It is guaranteed that there is at least one desired triangle. If there is more than one answer, print any of them.ExampleInput4 10 01 00 11 1Output-1 02 00 2Note",
+    "source": "CF",
+    "vjudge": false
+}

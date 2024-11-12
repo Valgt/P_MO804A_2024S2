@@ -1,0 +1,13 @@
+{
+    "uid": "855-B",
+    "url": "https://codeforces.com/contest/855/problem/B",
+    "tags": [
+        "brute force",
+        " data structures",
+        " dp"
+    ],
+    "title": "855-B",
+    "statement": "B. Marvolo Gaunt's Ringtime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputProfessor Dumbledore is helping Harry destroy the Horcruxes. He went to Gaunt Shack as he suspected a Horcrux to be present there. He saw Marvolo Gaunt's Ring and identified it as a Horcrux. Although he destroyed it, he is still affected by its curse. Professor Snape is helping Dumbledore remove the curse. For this, he wants to give Dumbledore exactlyxdrops of the potion he made.Value ofxis calculated as maximum ofp·ai+q·aj+r·akfor givenp,q,rand arraya1,a2, ...ansuch that1 ≤i≤j≤k≤n. Help Snape find the value ofx. Do note that the value ofxmay be negative.InputFirst line of input contains4integersn,p,q,r(- 109≤p,q,r≤ 109, 1 ≤n≤ 105).Next line of input containsnspace separated integersa1,a2, ...an(- 109≤ai≤ 109).OutputOutput a single integer the maximum value ofp·ai+q·aj+r·akthat can be obtained provided1 ≤i≤j≤k≤n.ExamplesInput5 1 2 31 2 3 4 5Output30Input5 1 2 -3-1 -2 -3 -4 -5Output12NoteIn the first sample case, we can takei=j=k= 5, thus making the answer as1·5 + 2·5 + 3·5 = 30.In second sample case, selectingi=j= 1andk= 5gives the answer12.",
+    "source": "CF",
+    "vjudge": false
+}

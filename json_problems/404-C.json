@@ -1,0 +1,13 @@
+{
+    "uid": "404-C",
+    "url": "https://codeforces.com/contest/404/problem/C",
+    "tags": [
+        "dfs and similar",
+        " graphs",
+        " sortings"
+    ],
+    "title": "404-C",
+    "statement": "C. Restore Graphtime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutValera had an undirected connected graph without self-loops and multiple edges consisting ofnvertices. The graph had an interesting property: there were at mostkedges adjacent to each of its vertices. For convenience, we will assume that the graph vertices were indexed by integers from 1 ton.One day Valera counted the shortest distances from one of the graph vertices to all other ones and wrote them out in arrayd. Thus, elementd[i]of the array shows the shortest distance from the vertex Valera chose to vertex numberi.Then something irreparable terrible happened. Valera lost the initial graph. However, he still has the arrayd. Help him restore the lost graph.InputThe first line contains two space-separated integersnandk(1 ≤k<n≤ 105). Numbernshows the number of vertices in the original graph. Numberkshows that at mostkedges were adjacent to each vertex in the original graph.The second line contains space-separated integersd[1],d[2], ...,d[n](0 ≤d[i] <n). Numberd[i]shows the shortest distance from the vertex Valera chose to the vertex numberi.OutputIf Valera made a mistake in his notes and the required graph doesn't exist, print in the first line number -1. Otherwise, in the first line print integerm(0 ≤m≤ 106)— the number of edges in the found graph.In each of the nextmlines print two space-separated integersaiandbi(1 ≤ai,bi≤n;ai≠bi), denoting the edge that connects vertices with numbersaiandbi. The graph shouldn't contain self-loops and multiple edges. If there are multiple possible answers, print any of them.ExamplesInput3 20 1 1Output31 21 33 2Input4 22 0 1 3Output31 31 42 3Input3 10 0 0Output-1",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,12 @@
+{
+    "uid": "440-D",
+    "url": "https://codeforces.com/contest/440/problem/D",
+    "tags": [
+        "dp",
+        " trees"
+    ],
+    "title": "440-D",
+    "statement": "D. Berland Federalizationtime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutRecently, Berland faces federalization requests more and more often. The proponents propose to divide the country into separate states. Moreover, they demand that there is a state which includes exactlyktowns.Currently, Berland hasntowns, some pairs of them are connected by bilateral roads. Berland has onlyn- 1roads. You can reach any city from the capital, that is, the road network forms atree.The Ministry of Roads fears that after the reform those roads that will connect the towns of different states will bring a lot of trouble.Your task is to come up with a plan to divide the country into states such that:each state is connected, i.e. for each state it is possible to get from any town to any other using its roads (that is, the roads that connect the state towns),there is a state that consisted of exactlykcities,the number of roads that connect different states is minimum.InputThe first line contains integersn,k(1 ≤k≤n≤ 400). Then follown- 1lines, each of them describes a road in Berland. The roads are given as pairs of integersxi,yi(1 ≤xi,yi≤n;xi≠yi) — the numbers of towns connected by the road. Assume that the towns are numbered from 1 ton.OutputThe the first line print the required minimum number of \"problem\" roadst. Then print a sequence oftintegers — their indices in the found division. The roads are numbered starting from 1 in the order they follow in the input. If there are multiple possible solutions, print any of them.If the solution shows that there are no \"problem\" roads at all, print a single integer0and either leave the second line empty or do not print it at all.ExamplesInput5 21 22 33 44 5Output12Input5 31 21 31 41 5Output23 4Input1 1Output0",
+    "source": "CF",
+    "vjudge": false
+}

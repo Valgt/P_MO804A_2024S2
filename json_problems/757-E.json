@@ -1,0 +1,14 @@
+{
+    "uid": "757-E",
+    "url": "https://codeforces.com/contest/757/problem/E",
+    "tags": [
+        "brute force",
+        " combinatorics",
+        " dp",
+        " number theory"
+    ],
+    "title": "757-E",
+    "statement": "E. Bash Plays with Functionstime limit per test3 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputBash got tired on his journey to become the greatest Pokemon master. So he decides to take a break and play with functions.Bash defines a functionf0(n), which denotes the number of ways of factoringninto two factorspandqsuch thatgcd(p,q) = 1. In other words,f0(n)is the number of ordered pairs of positive integers(p,q)such thatp·q=nandgcd(p,q) = 1.But Bash felt that it was too easy to calculate this function. So he defined a series of functions, wherefr+ 1is defined as:Where(u,v)is any ordered pair of positive integers, they need not to be co-prime.Now Bash wants to know the value offr(n)for differentrandn. Since the value could be huge, he would like to know the value modulo109+ 7. Help him!InputThe first line contains an integerq(1 ≤q≤ 106) — the number of values Bash wants to know.Each of the nextqlines contain two integersrandn(0 ≤r≤ 106,1 ≤n≤ 106), which denote Bash wants to know the valuefr(n).OutputPrintqintegers. For each pair ofrandngiven, printfr(n)modulo109+ 7on a separate line.ExampleInput50 301 253 652 54 48Output85254630",
+    "source": "CF",
+    "vjudge": false
+}

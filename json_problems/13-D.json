@@ -1,0 +1,12 @@
+{
+    "uid": "13-D",
+    "url": "https://codeforces.com/contest/13/problem/D",
+    "tags": [
+        "dp",
+        " geometry"
+    ],
+    "title": "13-D",
+    "statement": "D. Trianglestime limit per test2 secondsmemory limit per test64 megabytesinputstdinoutputstdoutLittle Petya likes to draw. He drewNred andMblue points on the plane in such a way that no three points lie on the same line. Now he wonders what is the number of distinct triangles with vertices in red points which do not contain any blue point inside.InputThe first line contains two non-negative integer numbersNandM(0 ≤N≤ 500,0 ≤M≤ 500) — the number of red and blue points respectively. The followingNlines contain two integer numbers each — coordinates of red points. The followingMlines contain two integer numbers each — coordinates of blue points. All coordinates do not exceed109by absolute value.OutputOutput one integer — the number of distinct triangles with vertices in red points which do not contain any blue point inside.ExamplesInput4 10 010 010 105 42 1Output2Input5 55 106 18 6-6 -77 -15 -110 -4-10 -8-10 5-2 -8Output7",
+    "source": "CF",
+    "vjudge": false
+}

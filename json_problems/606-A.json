@@ -1,0 +1,11 @@
+{
+    "uid": "606-A",
+    "url": "https://codeforces.com/contest/606/problem/A",
+    "tags": [
+        "implementation"
+    ],
+    "title": "606-A",
+    "statement": "A. Magic Spherestime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputCarl is a beginner magician. He hasablue,bviolet andcorange magic spheres. In one move he can transform two spheresof the same colorinto one sphere of any other color. To make a spell that has never been seen before, he needs at leastxblue,yviolet andzorange spheres. Can he get them (possible, in multiple actions)?InputThe first line of the input contains three integersa,bandc(0 ≤a,b,c≤ 1 000 000) — the number of blue, violet and orange spheres that are in the magician's disposal.The second line of the input contains three integers,x,yandz(0 ≤x,y,z≤ 1 000 000) — the number of blue, violet and orange spheres that he needs to get.OutputIf the wizard is able to obtain the required numbers of spheres, print \"Yes\". Otherwise, print \"No\".ExamplesInput4 4 02 1 2OutputYesInput5 6 12 7 2OutputNoInput3 3 32 2 2OutputYesNoteIn the first sample the wizard has4blue and4violet spheres. In his first action he can turn two blue spheres into one violet one. After that he will have2blue and5violet spheres. Then he turns4violet spheres into2orange spheres and he ends up with2blue,1violet and2orange spheres, which is exactly what he needs.",
+    "source": "CF",
+    "vjudge": false
+}

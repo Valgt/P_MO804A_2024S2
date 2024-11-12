@@ -1,0 +1,12 @@
+{
+    "uid": "18-C",
+    "url": "https://codeforces.com/contest/18/problem/C",
+    "tags": [
+        "data structures",
+        " implementation"
+    ],
+    "title": "18-C",
+    "statement": "C. Stripetime limit per test2 secondsmemory limit per test64 megabytesinputstdinoutputstdoutOnce Bob took a paper stripe ofnsquares (the height of the stripe is 1 square). In each square he wrote an integer number, possibly negative. He became interested in how many ways exist to cut this stripe into two pieces so that the sum of numbers from one piece is equal to the sum of numbers from the other piece, and each piece contains positive integer amount of squares. Would you help Bob solve this problem?InputThe first input line contains integern(1 ≤n≤ 105) — amount of squares in the stripe. The second line containsnspace-separated numbers — they are the numbers written in the squares of the stripe. These numbers are integer and do not exceed 10000 in absolute value.OutputOutput the amount of ways to cut the stripe into two non-empty pieces so that the sum of numbers from one piece is equal to the sum of numbers from the other piece. Don't forget that it's allowed to cut the stripe along the squares' borders only.ExamplesInput91 5 -6 7 9 -16 0 -2 2Output3Input31 1 1Output0Input20 0Output1",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,11 @@
+{
+    "uid": "530-B",
+    "url": "https://codeforces.com/contest/530/problem/B",
+    "tags": [
+        "*special"
+    ],
+    "title": "530-B",
+    "statement": "B. String inside outtime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given a stringSof even lengths1..s2n. Perform the following manipulations:divide it into two halvess1..snandsn+ 1..s2nreverse each of themsn..s1ands2n..sn+ 1concatenate the resulting strings intosn..s1s2n..sn+ 1Output the result of these manipulations.InputThe only line of the input contains a string of lowercase Latin letters. The length of the string is between 2 and 20, inclusive, and it is even.OutputOutput the string which is the result of the described manipulations.ExamplesInputcodeforcesOutputfedocsecroInputqwertyasdfghOutputytrewqhgfdsa",
+    "source": "CF",
+    "vjudge": false
+}

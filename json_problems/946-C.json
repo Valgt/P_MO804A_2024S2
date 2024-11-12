@@ -1,0 +1,12 @@
+{
+    "uid": "946-C",
+    "url": "https://codeforces.com/contest/946/problem/C",
+    "tags": [
+        "greedy",
+        " strings"
+    ],
+    "title": "946-C",
+    "statement": "C. String Transformationtime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given a stringsconsisting of|s|small english letters.In one move you can replace any character of this string to the next character in alphabetical order (awill be replaced withb,swill be replaced witht, etc.). You cannot replace letterzwith any other letter.Your target is to make some number of moves (not necessary minimal) to get stringabcdefghijklmnopqrstuvwxyz(english alphabet) as a subsequence. Subsequence of the string is the string that is obtained by deleting characters at some positions. You need to print the string that will be obtained from the given string and will be contain english alphabet as a subsequence or say that it is impossible.InputThe only one line of the input consisting of the stringsconsisting of|s|(1 ≤ |s| ≤ 105) small english letters.OutputIf you can get a string that can be obtained from the given string and will contain english alphabet as a subsequence, print it. Otherwise print «-1» (without quotes).ExamplesInputaacceeggiikkmmooqqssuuwwyyOutputabcdefghijklmnopqrstuvwxyzInputthereisnoanswerOutput-1",
+    "source": "CF",
+    "vjudge": false
+}

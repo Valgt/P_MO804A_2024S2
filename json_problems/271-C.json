@@ -1,0 +1,12 @@
+{
+    "uid": "271-C",
+    "url": "https://codeforces.com/contest/271/problem/C",
+    "tags": [
+        "constructive algorithms",
+        " implementation"
+    ],
+    "title": "271-C",
+    "statement": "C. Secrettime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutThe Greatest Secret Ever consists ofnwords, indexed by positive integers from1ton. The secret needs dividing betweenkKeepers (let's index them by positive integers from1tok), thei-th Keeper gets anon-emptyset of words with numbers from the setUi= (ui, 1,ui, 2, ...,ui, |Ui|). Here and below we'll presuppose that the set elements are written in the increasing order.We'll say that thesecret is safeif the following conditions are hold:for any two indexesi,j(1 ≤i<j≤k) the intersection of setsUiandUjis an empty set;the union of setsU1,U2, ...,Ukis set(1, 2, ...,n);in each setUi, its elementsui, 1,ui, 2, ...,ui, |Ui|do not forman arithmetic progression (in particular,|Ui| ≥ 3should hold).Let us remind you that the elements of set(u1,u2, ...,us)form an arithmetic progression if there is such numberd, that for alli(1 ≤i<s) fulfillsui+d=ui+ 1. For example, the elements of sets(5),(1, 10)and(1, 5, 9)form arithmetic progressions and the elements of sets(1, 2, 4)and(3, 6, 8)don't.Your task is to find any partition of the set of words into subsetsU1,U2, ...,Ukso that the secret is safe. Otherwise indicate that there's no such partition.InputThe input consists of a single line which contains two integersnandk(2 ≤k≤n≤ 106) — the number of words in the secret and the number of the Keepers. The numbers are separated by a single space.OutputIf there is no way to keep the secret safe, print a single integer \"-1\" (without the quotes). Otherwise, printnintegers, thei-th of them representing the number of the Keeper who's got thei-th word of the secret.If there are multiple solutions, print any of them.ExamplesInput11 3Output3 1 2 1 1 2 3 2 2 3 1Input5 2Output-1",
+    "source": "CF",
+    "vjudge": false
+}

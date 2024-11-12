@@ -1,0 +1,12 @@
+{
+    "uid": "7-C",
+    "url": "https://codeforces.com/contest/7/problem/C",
+    "tags": [
+        "math",
+        " number theory"
+    ],
+    "title": "7-C",
+    "statement": "C. Linetime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutA line on the plane is described by an equationAx+By+C= 0. You are to find any point on this line, whose coordinates are integer numbers from- 5·1018to5·1018inclusive, or to find out that such points do not exist.InputThe first line contains three integersA,BandC(- 2·109≤A,B,C≤ 2·109) — corresponding coefficients of the line equation. It is guaranteed thatA2+B2> 0.OutputIf the required point exists, output its coordinates, otherwise output-1.ExamplesInput2 5 3Output6 -3",
+    "source": "CF",
+    "vjudge": false
+}

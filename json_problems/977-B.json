@@ -1,0 +1,12 @@
+{
+    "uid": "977-B",
+    "url": "https://codeforces.com/contest/977/problem/B",
+    "tags": [
+        "implementation",
+        " strings"
+    ],
+    "title": "977-B",
+    "statement": "B. Two-gramtime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputTwo-gram is an ordered pair (i.e. string of length two) of capital Latin letters. For example, \"AZ\", \"AA\", \"ZA\" — three distinct two-grams.You are given a string $$$s$$$ consisting of $$$n$$$ capital Latin letters. Your task is to findanytwo-gram contained in the given stringas a substring(i.e. two consecutive characters of the string) maximal number of times. For example, for string $$$s$$$ = \"BBAABBBA\" the answer is two-gram \"BB\", which contained in $$$s$$$ three times. In other words, find any most frequent two-gram.Note that occurrences of the two-gram can overlap with each other.InputThe first line of the input contains integer number $$$n$$$ ($$$2 \\\\le n \\\\le 100$$$) — the length of string $$$s$$$. The second line of the input contains the string $$$s$$$ consisting of $$$n$$$ capital Latin letters.OutputPrint the only line containing exactly two capital Latin letters —anytwo-gram contained in the given string $$$s$$$as a substring(i.e. two consecutive characters of the string) maximal number of times.ExamplesInput7ABACABAOutputABInput5ZZZAAOutputZZNoteIn the first example \"BA\" is also valid answer.In the second example the only two-gram \"ZZ\" can be printed because it contained in the string \"ZZZAA\" two times.",
+    "source": "CF",
+    "vjudge": false
+}

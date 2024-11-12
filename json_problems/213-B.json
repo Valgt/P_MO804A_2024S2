@@ -1,0 +1,12 @@
+{
+    "uid": "213-B",
+    "url": "https://codeforces.com/contest/213/problem/B",
+    "tags": [
+        "combinatorics",
+        " dp"
+    ],
+    "title": "213-B",
+    "statement": "B. Numberstime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutFurik loves writing all sorts of problems, especially such that he can't solve himself. You've got one of his problems, the one Furik gave to Rubik. And Rubik asks you to solve it.There is integernand arraya, consisting of ten integers, indexed by numbers from 0 to 9. Your task is to count the number of positive integers with the following properties:the number's length does not exceedn;the number doesn't have leading zeroes;digiti(0 ≤i≤ 9)occurs in the number at leasta[i]times.InputThe first line contains integern(1 ≤n≤ 100). The next line contains 10 integersa[0],a[1],...,a[9](0 ≤a[i] ≤ 100)— elements of arraya. The numbers are separated by spaces.OutputOn a single line print the remainder of dividing the answer to the problem by1000000007(109+ 7).ExamplesInput10 0 0 0 0 0 0 0 0 1Output1Input21 1 0 0 0 0 0 0 0 0Output1Input31 1 0 0 0 0 0 0 0 0Output36NoteIn the first sample number 9 meets the requirements.In the second sample number 10 meets the requirements.In the third sample numbers10, 110, 210, 120, 103meet the requirements. There are other suitable numbers, 36 in total.",
+    "source": "CF",
+    "vjudge": false
+}

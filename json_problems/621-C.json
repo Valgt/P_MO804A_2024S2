@@ -1,0 +1,14 @@
+{
+    "uid": "621-C",
+    "url": "https://codeforces.com/contest/621/problem/C",
+    "tags": [
+        "combinatorics",
+        " math",
+        " number theory",
+        " probabilities"
+    ],
+    "title": "621-C",
+    "statement": "C. Wet Shark and Flowerstime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputThere arensharks who grow flowers for Wet Shark. They are all sitting around the table, such that sharksiandi+ 1are neighbours for allifrom1ton- 1. Sharksnand1are neighbours too.Each shark will grow some number of flowerssi. Fori-th shark valuesiis random integer equiprobably chosen in range fromlitori. Wet Shark has it's favourite prime numberp, and he really likes it! If for any pair ofneighbouringsharksiandjthe productsi·sjis divisible byp, then Wet Shark becomes happy and gives1000dollars to each of these sharks.At the end of the day sharks sum all the money Wet Shark granted to them. Find the expectation of this value.InputThe first line of the input contains two space-separated integersnandp(3 ≤n≤ 100 000, 2 ≤p≤ 109) — the number of sharks and Wet Shark's favourite prime number. It is guaranteed thatpis prime.Thei-th of the followingnlines contains information abouti-th shark — two space-separated integersliandri(1 ≤li≤ri≤ 109), the range of flowers sharkican produce. Remember thatsiis chosen equiprobably among all integers fromlitori, inclusive.OutputPrint a single real number — the expected number of dollars that the sharks receive in total. You answer will be considered correct if its absolute or relative error does not exceed10- 6.Namely: let's assume that your answer isa, and the answer of the jury isb. The checker program will consider your answer correct, if.ExamplesInput3 21 2420 421420420 420421Output4500.0Input3 51 42 311 14Output0.0NoteA prime number is a positive integer number that is divisible only by1and itself.1is not considered to be prime.Consider the first sample. First shark grows some number of flowers from1to2, second sharks grows from420to421flowers and third from420420to420421. There are eight cases for the quantities of flowers(s0,s1,s2)each shark grows:(1, 420, 420420): note thats0·s1= 420,s1·s2= 176576400, ands2·s0= 420420. For each pair,1000dollars will be awarded to each shark. Therefore, each shark will be awarded2000dollars, for a total of6000dollars.(1, 420, 420421): now, the products2·s0is not divisible by2. Therefore, sharkss0ands2will receive1000dollars, while sharks1will receive2000. The total is4000.(1, 421, 420420): total is4000(1, 421, 420421): total is0.(2, 420, 420420): total is6000.(2, 420, 420421): total is6000.(2, 421, 420420): total is6000.(2, 421, 420421): total is4000.The expected value is.In the second sample, no combination of quantities will garner the sharks any money.",
+    "source": "CF",
+    "vjudge": false
+}

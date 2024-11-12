@@ -1,0 +1,17 @@
+{
+    "uid": "1671-E",
+    "url": "https://codeforces.com/contest/1671/problem/E",
+    "tags": [
+        "combinatorics",
+        " divide and conquer",
+        " dp",
+        " dsu",
+        " hashing",
+        " sortings",
+        " trees"
+    ],
+    "title": "1671-E",
+    "statement": "E. Preordertime limit per test2 secondsmemory limit per test512 megabytesinputstandard inputoutputstandard outputYou are given a rooted tree of $$$2^n - 1$$$ vertices. Every vertex of this tree has either $$$0$$$ children, or $$$2$$$ children. All leaves of this tree have the same distance from the root, and for every non-leaf vertex, one of its children is the left one, and the other child is the right one. Formally, you are given aperfect binary tree.The vertices of the tree are numbered in the following order:the root has index $$$1$$$;if a vertex has index $$$x$$$, then its left child has index $$$2x$$$, and its right child has index $$$2x+1$$$.Every vertex of the tree has a letter written on it, eitherAorB. Let's define the character on the vertex $$$x$$$ as $$$s_x$$$.Let thepreorder stringof some vertex $$$x$$$ be defined in the following way:if the vertex $$$x$$$ is a leaf, then thepreorder stringof $$$x$$$ be consisting of only one character $$$s_x$$$;otherwise, thepreorder stringof $$$x$$$ is $$$s_x + f(l_x) + f(r_x)$$$, where $$$+$$$ operator defines concatenation of strings, $$$f(l_x)$$$ is thepreorder stringof the left child of $$$x$$$, and $$$f(r_x)$$$ is thepreorder stringof the right child of $$$x$$$.Thepreorder stringof the tree is thepreorder stringof its root.Now, for the problem itself...You have to calculate the number of different strings that can be obtained as thepreorder stringof the given tree, if you are allowed to perform the following operation any number of times before constructing thepreorder stringof the tree:choose any non-leaf vertex $$$x$$$, and swap its children (so, the left child becomes the right one, and vice versa).InputThe first line contains one integer $$$n$$$ ($$$2 \\\\le n \\\\le 18$$$).The second line contains a sequence of $$$2^n-1$$$ characters $$$s_1, s_2, \\\\dots, s_{2^n-1}$$$. Each character is eitherAorB. The characters arenot separatedby spaces or anything else.OutputPrint one integer — the number of different strings that can be obtained as thepreorder stringof the given tree, if you can apply any number of operations described in the statement. Since it can be very large, print it modulo $$$998244353$$$.ExamplesInput4 BAAAAAAAABBABABOutput16Input2 BAAOutput1Input2 ABAOutput2Input2 AABOutput2Input2 AAAOutput1",
+    "source": "CF",
+    "vjudge": false
+}

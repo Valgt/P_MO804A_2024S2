@@ -1,0 +1,11 @@
+{
+    "uid": "661-H",
+    "url": "https://codeforces.com/contest/661/problem/H",
+    "tags": [
+        "*special"
+    ],
+    "title": "661-H",
+    "statement": "H. Rotate Matrixtime limit per test2 secondsmemory limit per test64 megabytesinputstandard inputoutputstandard outputYou are given a square matrix of integer numbers. Rotate it90degrees clockwise (see examples for clarification of rotation).InputThe input consists ofnlines (1 ≤n≤ 10,nis not given explicitly). Each of the lines containsnspace-separated integers;j-th integer ini-th line corresponds to matrix elementmij(1 ≤mij≤ 100).OutputOutput the rotated matrix in the same format as the input.ExamplesInput1 2 34 5 67 8 9Output7 4 18 5 29 6 3Input1 2 3 45 6 7 89 10 11 1213 14 15 16Output13 9 5 114 10 6 215 11 7 316 12 8 4",
+    "source": "CF",
+    "vjudge": false
+}

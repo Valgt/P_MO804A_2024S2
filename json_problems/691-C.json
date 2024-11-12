@@ -1,0 +1,12 @@
+{
+    "uid": "691-C",
+    "url": "https://codeforces.com/contest/691/problem/C",
+    "tags": [
+        "implementation",
+        " strings"
+    ],
+    "title": "691-C",
+    "statement": "C. Exponential notationtime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given a positive decimal numberx.Your task is to convert it to the \"simple exponential notation\".Letx=a·10b, where1 ≤a< 10, then in general case the \"simple exponential notation\" looks like \"aEb\". Ifbequals to zero, the part \"Eb\" should be skipped. Ifais an integer, it should be written without decimal point. Also there should not be extra zeroes inaandb.InputThe only line contains the positive decimal numberx. The length of the line will not exceed106. Note that you are given too large number, so you can't use standard built-in data types \"float\", \"double\" and other.OutputPrint the only line — the \"simple exponential notation\" of the given numberx.ExamplesInput16Output1.6E1Input01.23400Output1.234Input.100Output1E-1Input100.Output1E2",
+    "source": "CF",
+    "vjudge": false
+}

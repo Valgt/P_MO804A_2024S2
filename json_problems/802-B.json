@@ -1,0 +1,12 @@
+{
+    "uid": "802-B",
+    "url": "https://codeforces.com/contest/802/problem/B",
+    "tags": [
+        "data structures",
+        " greedy"
+    ],
+    "title": "802-B",
+    "statement": "B. Heidi and Library (medium)time limit per test10 secondsmemory limit per test256 megabytesinputstdinoutputstdoutWhereas humans nowadays read fewer and fewer books on paper, book readership among marmots has surged. Heidi has expanded the library and is now serving longer request sequences.InputSame as the easy version, but the limits have changed:1 ≤n,k≤ 400 000.OutputSame as the easy version.ExamplesInput4 1001 2 2 1Output2Input4 11 2 2 1Output3Input4 21 2 3 1Output3",
+    "source": "CF",
+    "vjudge": false
+}

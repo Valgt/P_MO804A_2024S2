@@ -1,0 +1,12 @@
+{
+    "uid": "576-A",
+    "url": "https://codeforces.com/contest/576/problem/A",
+    "tags": [
+        "math",
+        " number theory"
+    ],
+    "title": "576-A",
+    "statement": "A. Vasya and Petya's Gametime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputVasya and Petya are playing a simple game. Vasya thought of numberxbetween1andn, and Petya tries to guess the number.Petya can ask questions like: \"Is the unknown number divisible by numbery?\".The game is played by the following rules: first Petya asksallthe questions that interest him (also, he can ask no questions), and then Vasya responds to each question with a 'yes' or a 'no'. After receiving all the answers Petya should determine the number that Vasya thought of.Unfortunately, Petya is not familiar with the number theory. Help him find the minimum number of questions he should ask to make a guaranteed guess of Vasya's number, and the numbersyi, he should ask the questions about.InputA single line contains numbern(1 ≤n≤ 103).OutputPrint the length of the sequence of questionsk(0 ≤k≤n), followed byknumbers — the questionsyi(1 ≤yi≤n).If there are several correct sequences of questions of the minimum length, you are allowed to print any of them.ExamplesInput4Output32 4 3Input6Output42 4 3 5NoteThe sequence from the answer to the first sample test is actually correct.If the unknown number is not divisible by one of the sequence numbers, it is equal to1.If the unknown number is divisible by4, it is4.If the unknown number is divisible by3, then the unknown number is3.Otherwise, it is equal to2. Therefore, the sequence of questions allows you to guess the unknown number. It can be shown that there is no correct sequence of questions of length 2 or shorter.",
+    "source": "CF",
+    "vjudge": false
+}

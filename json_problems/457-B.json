@@ -1,0 +1,11 @@
+{
+    "uid": "457-B",
+    "url": "https://codeforces.com/contest/457/problem/B",
+    "tags": [
+        "greedy"
+    ],
+    "title": "457-B",
+    "statement": "B. Distributed Jointime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutPiegirl was asked to implement two table join operation for distributed database system, minimizing the network traffic.Suppose she wants to join two tables,AandB. Each of them has certain number of rows which are distributed on different number of partitions. TableAis distributed on the first cluster consisting ofmpartitions. Partition with indexihasairows fromA. Similarly, second cluster containing tableBhasnpartitions,i-th one havingbirows fromB.In one network operation she can copy one row from any partition to any other partition. At the end, for each row fromAand each row fromBthere should be a partition that has both rows. Determine the minimal number of network operations to achieve this.InputFirst line contains two integer numbers,mandn(1 ≤m,n≤ 105). Second line contains description of the first cluster withmspace separated integers,ai(1 ≤ai≤ 109). Similarly, third line describes second cluster withnspace separated integers,bi(1 ≤bi≤ 109).OutputPrint one integer — minimal number of copy operations.ExamplesInput2 22 63 100Output11Input2 310 101 1 1Output6NoteIn the first example it makes sense to move all the rows to the second partition of the second cluster which is achieved in2 + 6 + 3 = 11operationsIn the second example Piegirl can copy each row fromBto the both partitions of the first cluster which needs2·3 = 6copy operations.",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,12 @@
+{
+    "uid": "16-C",
+    "url": "https://codeforces.com/contest/16/problem/C",
+    "tags": [
+        "binary search",
+        " number theory"
+    ],
+    "title": "16-C",
+    "statement": "C. Monitortime limit per test0.5 secondmemory limit per test64 megabytesinputstdinoutputstdoutReca company makes monitors, the most popular of their models is AB999 with the screen sizea×bcentimeters. Because of some production peculiarities a screen parameters are integer numbers. Recently the screen sides ratiox:ybecame popular with users. That's why the company wants to reduce monitor AB999 size so that its screen sides ratio becomesx:y, at the same time they want its total area to be maximal of all possible variants. Your task is to find the screen parameters of the reduced size model, or find out that such a reduction can't be performed.InputThe first line of the input contains 4 integers —a,b,xandy(1 ≤a,b,x,y≤ 2·109).OutputIf the answer exists, output 2 positive integers — screen parameters of the reduced size model. Output0 0otherwise.ExamplesInput800 600 4 3Output800 600Input1920 1200 16 9Output1920 1080Input1 1 1 2Output0 0",
+    "source": "CF",
+    "vjudge": false
+}

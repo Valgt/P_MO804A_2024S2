@@ -1,0 +1,14 @@
+{
+    "uid": "798-E",
+    "url": "https://codeforces.com/contest/798/problem/E",
+    "tags": [
+        "constructive algorithms",
+        " data structures",
+        " graphs",
+        " sortings"
+    ],
+    "title": "798-E",
+    "statement": "E. Mike and code of a permutationtime limit per test4 secondsmemory limit per test512 megabytesinputstandard inputoutputstandard outputMike has discovered a new way to encode permutations. If he has a permutationP= [p1,p2, ...,pn], he will encode it in the following way:Denote byA= [a1,a2, ...,an]a sequence of lengthnwhich will represent the code of the permutation. For eachifrom1tonsequentially, he will choose the smallest unmarkedj(1 ≤j≤n) such thatpi<pjand will assign toaithe numberj(in other words he performsai=j) and will markj. If there is no suchj, he'll assign toaithe number- 1(he performsai=  - 1).Mike forgot his original permutation but he remembers its code. Your task is simple: findanypermutation such that its code is the same as the code of Mike's original permutation.You may assume that there will always be at least one valid permutation.InputThe first line contains single integern(1 ≤n≤ 500 000) — length of permutation.The second line containsnspace-separated integersa1,a2, ...,an(1 ≤ai≤norai=  - 1) — the code of Mike's permutation.You may assume that all positive values fromAare different.OutputIn first and only line printnnumbersp1,p2, ...,pn(1 ≤pi≤n) — a permutationPwhich has the same code as the given one. Note that numbers in permutation are distinct.ExamplesInput62 -1 1 5 -1 4Output2 6 1 4 5 3Input82 -1 4 -1 6 -1 8 -1Output1 8 2 7 3 6 4 5NoteFor the permutation from the first example:i= 1, the smallestjis2becausep2= 6 >p1= 2.i= 2, there is nojbecausep2= 6is the greatest element in the permutation.i= 3, the smallestjis1becausep1= 2 >p3= 1.i= 4, the smallestjis5(2was already marked) becausep5= 5 >p4= 4.i= 5, there is nojbecause2is already marked.i= 6, the smallestjis4becausep4= 4 >p6= 3.",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,11 @@
+{
+    "uid": "501-D",
+    "url": "https://codeforces.com/contest/501/problem/D",
+    "tags": [
+        "data structures"
+    ],
+    "title": "501-D",
+    "statement": "D. Misha and Permutations Summationtime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutLet's define the sum of two permutationspandqof numbers0, 1, ..., (n- 1)as permutation, wherePerm(x)is thex-th lexicographically permutation of numbers0, 1, ..., (n- 1)(counting from zero), andOrd(p)is the number of permutationpin the lexicographical order.For example,Perm(0) = (0, 1, ...,n- 2,n- 1),Perm(n! - 1) = (n- 1,n- 2, ..., 1, 0)Misha has two permutations,pandq. Your task is to find their sum.Permutationa= (a0,a1, ...,an- 1)is called to be lexicographically smaller than permutationb= (b0,b1, ...,bn- 1), if for somekfollowing conditions hold:a0=b0,a1=b1, ...,ak- 1=bk- 1,ak<bk.InputThe first line contains an integern(1 ≤n≤ 200 000).The second line containsndistinct integers from0ton- 1, separated by a space, forming permutationp.The third line containsndistinct integers from0ton- 1, separated by spaces, forming permutationq.OutputPrintndistinct integers from0ton- 1, forming the sum of the given permutations. Separate the numbers by spaces.ExamplesInput20 10 1Output0 1Input20 11 0Output1 0Input31 2 02 1 0Output1 0 2NotePermutations of numbers from 0 to 1 in the lexicographical order:(0, 1), (1, 0).In the first sampleOrd(p) = 0andOrd(q) = 0, so the answer is.In the second sampleOrd(p) = 0andOrd(q) = 1, so the answer is.Permutations of numbers from 0 to 2 in the lexicographical order:(0, 1, 2), (0, 2, 1), (1, 0, 2), (1, 2, 0), (2, 0, 1), (2, 1, 0).In the third sampleOrd(p) = 3andOrd(q) = 5, so the answer is.",
+    "source": "CF",
+    "vjudge": false
+}

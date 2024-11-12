@@ -1,0 +1,12 @@
+{
+    "uid": "60-C",
+    "url": "https://codeforces.com/contest/60/problem/C",
+    "tags": [
+        "brute force",
+        " dfs and similar"
+    ],
+    "title": "60-C",
+    "statement": "C. Mushroom Strifetime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutPasha and Akim were making a forest map — the lawns were the graph's vertexes and the roads joining the lawns were its edges. They decided to encode the number of laughy mushrooms on every lawn in the following way: on every edge between two lawns they wrote two numbers, the greatest common divisor (GCD) and the least common multiple (LCM) of the number of mushrooms on these lawns. But one day Pasha and Akim had an argument about the laughy mushrooms and tore the map. Pasha was left with just some part of it, containing onlymroads. Your task is to help Pasha — use the map he has to restore the number of mushrooms on every lawn. As the result is not necessarily unique, help Pasha to restore any one or report that such arrangement of mushrooms does not exist. It is guaranteed that the numbers on the roads on the initial map were no less that1and did not exceed106.InputThe first line contains two numbersnandm() which are the numbers of lawns and roads we know about. Each of the followingmlines contains four numbers which are the numbers of lawns the road connects, the GCD and the LCM of the numbers of mushrooms on these lawns (1 ≤GCD,LCM≤ 106).It is guaranteed, that no road connects lawn to itself, and no two lawns are connected by more than one road.OutputThe answer should contain \"YES\" or \"NO\" on the first line, saying whether it is possible or not to perform the arrangement. If the answer is \"YES\", print on the following linennumbers which are the numbers of mushrooms on the corresponding lawns.ExamplesInput1 0OutputYES1Input2 11 2 1 3OutputYES1 3Input3 23 2 1 23 1 1 10OutputYES5 1 2Input2 11 2 3 7OutputNO",
+    "source": "CF",
+    "vjudge": false
+}

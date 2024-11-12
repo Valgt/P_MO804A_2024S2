@@ -1,0 +1,12 @@
+{
+    "uid": "933-E",
+    "url": "https://codeforces.com/contest/933/problem/E",
+    "tags": [
+        "constructive algorithms",
+        " dp"
+    ],
+    "title": "933-E",
+    "statement": "E. A Preponderant Reuniontime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputEast or west, home is best. That's why family reunion, the indispensable necessity of Lunar New Year celebration, is put in such a position.After the reunion dinner, Little Tommy plays a game with the family. Here is a concise introduction to this game:There is a sequence ofnnon-negative integersp1,p2, ...,pnin the beginning. It is ruled that each integer in this sequence should be non-negativeat any time.You can select twoconsecutive positiveintegers in this sequence,piandpi+ 1(1 ≤i<n), and then decrease them by their minimum (i. e.min(pi,pi+ 1)), the cost of this operation is equal tomin(pi,pi+ 1). We call such operation as adescension.The game immediately ends when there are no two consecutive positive integers. Your task is to end the game so that the total cost of your operations is as small as possible.Obviously, every game ends after at mostn- 1descensions. Please share your solution of this game with the lowest cost.InputThe first line contains one integern(1 ≤n≤ 3·105).The second line containsnspace-separated integersp1,p2, ...,pn(0 ≤pi≤ 109,i= 1, 2, ...,n).OutputIn the first line print one integer as the number of descensionsm(0 ≤m≤n- 1).In the nextmlines print the descensions chronologically. More precisely, in each line of the nextmlines print one integeri(1 ≤i<n)representing a descension would operate onpiandpi+ 1such that all the descensions could be utilized from top to bottom.If there are many possible solutions to reach the minimal cost, print any of them.ExamplesInput42 1 3 1Output213Input52 2 1 3 1Output3214NoteIn the first sample, one possible best solution is, of which the cost is1 + 1 = 2.In the second sample, one possible best solution is, of which the cost is1 + 1 + 1 = 3.",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,14 @@
+{
+    "uid": "865-E",
+    "url": "https://codeforces.com/contest/865/problem/E",
+    "tags": [
+        "bitmasks",
+        " brute force",
+        " dp",
+        " graphs"
+    ],
+    "title": "865-E",
+    "statement": "E. Hex Dyslexiatime limit per test3 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputCopying large hexadecimal (base 16) strings by hand can be error prone, but that doesn't stop people from doing it. You've discovered a bug in the code that was likely caused by someone making a mistake when copying such a string. You suspect that whoever copied the string did not change any of the digits in the string, nor the length of the string, but may have permuted the digits arbitrarily. For example, if the original string was0abcthey may have changed it toa0cbor0bca, but notabcor0abb.Unfortunately you don't have access to the original string nor the copied string, but you do know the length of the strings and their numerical absolute difference. You will be given this difference as a hexadecimal stringS, which has been zero-extended to be equal in length to the original and copied strings. Determine the smallest possible numerical value of the original string.InputInput will contain a hexadecimal stringSconsisting only of digits0to9and lowercase English letters fromatof, with length at most14. At least one of the characters is non-zero.OutputIf it is not possible, print \"NO\" (without quotes).Otherwise, print the lowercase hexadecimal string corresponding to the smallest possible numerical value, including any necessary leading zeros for the length to be correct.ExamplesInputf1eOutputNOInput0f1eOutput00f1Input12d2cOutput00314NoteThe numerical value of a hexadecimal string is computed by multiplying each digit by successive powers of16, starting with the rightmost digit, which is multiplied by160. Hexadecimal digits representing values greater than9are represented by letters:a= 10,b= 11,c= 12,d= 13,e= 14,f= 15.For example, the numerical value of0f1eis0·163+ 15·162+ 1·161+ 14·160= 3870, the numerical value of00f1is0·163+ 0·162+ 15·161+ 1·160= 241, and the numerical value of100fis1·163+ 0·162+ 0·161+ 15·160= 4111. Since3870 + 241 = 4111and00f1is a permutation of100f,00f1is a valid answer to the second test case.",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,12 @@
+{
+    "uid": "1145-C",
+    "url": "https://codeforces.com/contest/1145/problem/C",
+    "tags": [
+        "bitmasks",
+        " brute force"
+    ],
+    "title": "1145-C",
+    "statement": "C. Mystery Circuittime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputInputThe input contains a single integer $$$a$$$ ($$$0 \\\\le a \\\\le 15$$$).OutputOutput a single integer.ExampleInput3Output13",
+    "source": "CF",
+    "vjudge": false
+}

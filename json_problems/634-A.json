@@ -1,0 +1,12 @@
+{
+    "uid": "634-A",
+    "url": "https://codeforces.com/contest/634/problem/A",
+    "tags": [
+        "constructive algorithms",
+        " implementation"
+    ],
+    "title": "634-A",
+    "statement": "A. Island Puzzletime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputA remote island chain containsnislands, labeled1throughn. Bidirectional bridges connect the islands to form a simple cycle — a bridge connects islands1and2, islands2and3, and so on, and additionally a bridge connects islandsnand1. The center of each island contains an identical pedestal, and all but one of the islands has a fragile, uniquely colored statue currently held on the pedestal. The remaining island holds only an empty pedestal.The islanders want to rearrange the statues in a new order. To do this, they repeat the following process: First, they choose an island directly adjacent to the island containing an empty pedestal. Then, they painstakingly carry the statue on this island across the adjoining bridge and place it on the empty pedestal.Determine if it is possible for the islanders to arrange the statues in the desired order.InputThe first line contains a single integern(2 ≤n≤ 200 000) — the total number of islands.The second line containsnspace-separated integersai(0 ≤ai≤n- 1) — the statue currently placed on thei-th island. Ifai= 0, then the island has no statue. It is guaranteed that theaiare distinct.The third line containsnspace-separated integersbi(0 ≤bi≤n- 1) — the desired statues of theith island. Once again,bi= 0indicates the island desires no statue. It is guaranteed that thebiare distinct.OutputPrint \"YES\" (without quotes) if the rearrangement can be done in the existing network, and \"NO\" otherwise.ExamplesInput31 0 22 0 1OutputYESInput21 00 1OutputYESInput41 2 3 00 3 2 1OutputNONoteIn the first sample, the islanders can first move statue1from island1to island2, then move statue2from island3to island1, and finally move statue1from island2to island3.In the second sample, the islanders can simply move statue1from island1to island2.In the third sample, no sequence of movements results in the desired position.",
+    "source": "CF",
+    "vjudge": false
+}

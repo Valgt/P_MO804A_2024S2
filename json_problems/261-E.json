@@ -1,0 +1,13 @@
+{
+    "uid": "261-E",
+    "url": "https://codeforces.com/contest/261/problem/E",
+    "tags": [
+        "brute force",
+        " dp",
+        " two pointers"
+    ],
+    "title": "261-E",
+    "statement": "E. Maxim and Calculatortime limit per test4 secondsmemory limit per test256 megabytesinputstdinoutputstdoutMaxim has got a calculator. The calculator has two integer cells. Initially, the first cell contains number1, and the second cell contains number0. In one move you can perform one of the following operations:Let's assume that at the current time the first cell contains numbera, and the second cell contains numberb. Write to the second cell numberb+ 1;Let's assume that at the current time the first cell contains numbera, and the second cell contains numberb. Write to the first cell numbera·b.Maxim is wondering, how many integersx(l≤x≤r)are there, such that we can write the numberxto the first cell of the calculator, having performed at mostpmoves.InputThe first line contains three integers:l,r,p(2 ≤l≤r≤ 109, 1 ≤p≤ 100).The numbers in the line are separated by single spaces.OutputIn a single line print a single integer — the answer to the problem.ExamplesInput2 10 3Output1Input2 111 100Output106Input2 111 11Output47",
+    "source": "CF",
+    "vjudge": false
+}

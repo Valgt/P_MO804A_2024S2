@@ -1,0 +1,13 @@
+{
+    "uid": "670-F",
+    "url": "https://codeforces.com/contest/670/problem/F",
+    "tags": [
+        "brute force",
+        " constructive algorithms",
+        " strings"
+    ],
+    "title": "670-F",
+    "statement": "F. Restore a Numbertime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputVasya decided to pass a very large integernto Kate. First, he wrote that number as a string, then he appended to the right integerk— the number of digits inn.Magically, all the numbers were shuffled in arbitrary order while this note was passed to Kate. The only thing that Vasya remembers, is a non-empty substring ofn(a substring ofnis a sequence of consecutive digits of the numbern).Vasya knows that there may be more than one way to restore the numbern. Your task is to find the smallest possible initial integern. Note that decimal representation of numberncontained no leading zeroes, except the case the integernwas equal to zero itself (in this case a single digit0was used).InputThe first line of the input contains the string received by Kate. The number of digits in this string does not exceed1 000 000.The second line contains the substring ofnwhich Vasya remembers. This string can contain leading zeroes.It is guaranteed that the input data is correct, and the answer always exists.OutputPrint the smalles integernwhich Vasya could pass to Kate.ExamplesInput003512021Output30021Input19996663330063Output3036366999",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,14 @@
+{
+    "uid": "696-B",
+    "url": "https://codeforces.com/contest/696/problem/B",
+    "tags": [
+        "dfs and similar",
+        " math",
+        " probabilities",
+        " trees"
+    ],
+    "title": "696-B",
+    "statement": "B. Puzzlestime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputBarney lives in country USC (United States of Charzeh). USC hasncities numbered from1throughnandn- 1roads between them. Cities and roads of USC form a rooted tree (Barney's not sure why it is rooted). Root of the tree is the city number1. Thus if one will start his journey from city1, he can visit any city he wants by following roads.Some girl has stolen Barney's heart, and Barney wants to find her. He starts looking for in the root of the tree and (since he is Barney Stinson not a random guy), he uses arandom DFSto search in the cities. A pseudo code of this algorithm is as follows:let starting_time be an array of length ncurrent_time = 0dfs(v):current_time = current_time + 1starting_time[v] = current_timeshuffle children[v] randomly (each permutation with equal possibility)// children[v] is vector of children cities of city vfor u in children[v]:dfs(u)As told before, Barney will start his journey in the root of the tree (equivalent to calldfs(1)).Now Barney needs to pack a backpack and so he wants to know more about his upcoming journey: for every cityi, Barney wants to know the expected value ofstarting_time[i]. He's a friend of Jon Snow and knows nothing, that's why he asked for your help.InputThe first line of input contains a single integern(1 ≤n≤ 105) — the number of cities in USC.The second line containsn- 1integersp2,p3, ...,pn(1 ≤pi<i), wherepiis the number of the parent city of city numberiin the tree, meaning there is a road between cities numberedpiandiin USC.OutputIn the first and only line of output printnnumbers, wherei-th number is the expected value ofstarting_time[i].Your answer for each city will be considered correct if its absolute or relative error does not exceed10- 6.ExamplesInput71 2 1 1 4 4Output1.0 4.0 5.0 3.5 4.5 5.0 5.0Input121 1 2 2 4 4 3 3 1 10 8Output1.0 5.0 5.5 6.5 7.5 8.0 8.0 7.0 7.5 6.5 7.5 8.0",
+    "source": "CF",
+    "vjudge": false
+}

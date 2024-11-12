@@ -1,0 +1,12 @@
+{
+    "uid": "878-B",
+    "url": "https://codeforces.com/contest/878/problem/B",
+    "tags": [
+        "data structures",
+        " implementation"
+    ],
+    "title": "878-B",
+    "statement": "B. Teams Formationtime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputThis time the Berland Team Olympiad in Informatics is held in a remote city that can only be reached by one small bus. Bus hasnpassenger seats, seatican be occupied only by a participant from the cityai.Today the bus has completedmtrips, each time bringingnparticipants. The participants were then aligned in one line in the order they arrived, with people from the same bus standing in the order of their seats (i. e. if we write down the cities where the participants came from, we get the sequencea1,a2, ...,anrepeatedmtimes).After that some teams were formed, each consisting ofkparticipants form the same city standing next to each other in the line. Once formed, teams left the line. The teams were formed until there were nokneighboring participants from the same city.Help the organizers determine how many participants have left in the line after that process ended. We can prove that answer doesn't depend on the order in which teams were selected.InputThe first line contains three integersn,kandm(1 ≤n≤ 105,2 ≤k≤ 109,1 ≤m≤ 109).The second line containsnintegersa1,a2, ...,an(1 ≤ai≤ 105), whereaiis the number of city, person from which must take seatiin the bus.OutputOutput the number of remaining participants in the line.ExamplesInput4 2 51 2 3 1Output12Input1 9 101Output1Input3 2 101 2 1Output0NoteIn the second example, the line consists of ten participants from the same city. Nine of them will form a team. At the end, only one participant will stay in the line.",
+    "source": "CF",
+    "vjudge": false
+}

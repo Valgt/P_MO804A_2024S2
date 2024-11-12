@@ -1,0 +1,11 @@
+{
+    "uid": "873-A",
+    "url": "https://codeforces.com/contest/873/problem/A",
+    "tags": [
+        "implementation"
+    ],
+    "title": "873-A",
+    "statement": "A. Chorestime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputLuba has to donchores today.i-th chore takesaiunits of time to complete. It is guaranteed that for everythe conditionai≥ai- 1is met, so the sequence is sorted.Also Luba can work really hard on some chores. She can choose not more thankany chores and do each of them inxunits of time instead ofai().Luba is very responsible, so she has to do allnchores, and now she wants to know the minimum time she needs to do everything. Luba cannot do two chores simultaneously.InputThe first line contains three integersn,k,x(1 ≤k≤n≤ 100, 1 ≤x≤ 99) — the number of chores Luba has to do, the number of chores she can do inxunits of time, and the numberxitself.The second line containsninteger numbersai(2 ≤ai≤ 100)— the time Luba has to spend to doi-th chore.It is guaranteed that, and for eachai≥ai- 1.OutputPrint one number — minimum time Luba needs to do allnchores.ExamplesInput4 2 23 6 7 10Output13Input5 2 1100 100 100 100 100Output302NoteIn the first example the best option would be to do the third and the fourth chore, spendingx= 2time on each instead ofa3anda4, respectively. Then the answer is3 + 6 + 2 + 2 = 13.In the second example Luba can choose any two chores to spendxtime on them instead ofai. So the answer is100·3 + 2·1 = 302.",
+    "source": "CF",
+    "vjudge": false
+}

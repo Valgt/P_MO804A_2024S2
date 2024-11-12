@@ -1,0 +1,15 @@
+{
+    "uid": "765-G",
+    "url": "https://codeforces.com/contest/765/problem/G",
+    "tags": [
+        "brute force",
+        " dp",
+        " math",
+        " meet-in-the-middle",
+        " number theory"
+    ],
+    "title": "765-G",
+    "statement": "G. Math, math everywheretime limit per test5 secondsmemory limit per test512 megabytesinputstandard inputoutputstandard outputIf you have gone that far, you'll probably skip unnecessary legends anyway...You are given a binary stringand an integer. Find the number of integersk,0 ≤k<N, such that for alli= 0,1, ...,m- 1Print the answer modulo109+ 7.InputIn the first line of input there is a stringsconsisting of0's and1's (1 ≤ |s| ≤ 40).In the next line of input there is an integern(1 ≤n≤ 5·105).Each of the nextnlines contains two space-separated integerspi,αi(1 ≤pi, αi≤ 109,piis prime). Allpiare distinct.OutputA single integer — the answer to the problem.ExamplesInput122 13 1Output2Input0123 25 1Output15Input101113 1000000000Output411979884",
+    "source": "CF",
+    "vjudge": false
+}

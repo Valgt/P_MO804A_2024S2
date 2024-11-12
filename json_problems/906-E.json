@@ -1,0 +1,13 @@
+{
+    "uid": "906-E",
+    "url": "https://codeforces.com/contest/906/problem/E",
+    "tags": [
+        "dp",
+        " string suffix structures",
+        " strings"
+    ],
+    "title": "906-E",
+    "statement": "E. Reversestime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputHurricane came to Berland and to suburbs Stringsvill. You are going to it to check if it's all right with you favorite string. Hurrinace broke it a bit by reversing some of its non-intersecting substrings. You have a photo of this string before hurricane and you want to restore it to original state using reversing minimum possible number of its substrings and find out which substrings you should reverse.You are given a strings— original state of your string and stringt— state of the string after hurricane. You should selectknon-intersecting substrings oftin such a way that after reverse of these substrings string will be equalsandkis minimum possible.InputFirst line of input contains stringsand second line contains stringt. Both strings have same length and consist of lowercase English letters.1 ≤ |s| = |t| ≤ 5·105OutputIn first line printk— minimum number of substrings you should reverse. Next outputklines. Each line should contain two integersli,rimeaning that you should reverse substring from symbol numberlito symbolri(strings are 1-indexed). These substrings shouldn't intersect. If there are multiple answers print any. If it's impossible to restore string output-1.ExampleInputabcxxxdefcbaxxxfedOutput27 91 3",
+    "source": "CF",
+    "vjudge": false
+}

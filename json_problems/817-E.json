@@ -1,0 +1,13 @@
+{
+    "uid": "817-E",
+    "url": "https://codeforces.com/contest/817/problem/E",
+    "tags": [
+        "bitmasks",
+        " data structures",
+        " trees"
+    ],
+    "title": "817-E",
+    "statement": "E. Choosing The Commandertime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputAs you might remember from the previous round, Vova is currently playing a strategic game known as Rage of Empires.Vova managed to build a large army, but forgot about the main person in the army - the commander. So he tries to hire a commander, and he wants to choose the person who will be respected by warriors.Each warrior is represented by his personality — an integer numberpi. Each commander has two characteristics — his personalitypjand leadershiplj(both are integer numbers). Warriorirespectscommanderjonly if(is the bitwise excluding OR ofxandy).Initially Vova's army is empty. There are three different types of events that can happen with the army:1pi— one warrior with personalitypijoins Vova's army;2pi— one warrior with personalitypileaves Vova's army;3pili— Vova tries to hire a commander with personalitypiand leadershipli.For each event of the third type Vova wants to know how many warriors (counting only those who joined the army and haven't left yet)respectthe commander he tries to hire.InputThe first line contains one integerq(1 ≤q≤ 100000) — the number of events.Thenqlines follow. Each line describes the event:1pi(1 ≤pi≤ 108) — one warrior with personalitypijoins Vova's army;2pi(1 ≤pi≤ 108) — one warrior with personalitypileaves Vova's army (it is guaranteed that there is at least one such warrior in Vova's army by this moment);3pili(1 ≤pi,li≤ 108) — Vova tries to hire a commander with personalitypiand leadershipli. There is at least one event of this type.OutputFor each event of the third type print one integer — the number of warriors whorespectthe commander Vova tries to hire in the event.ExampleInput51 31 43 6 32 43 6 3Output10NoteIn the example the army consists of two warriors with personalities3and4after first two events. Then Vova tries to hire a commander with personality6and leadership3, and only one warrior respects him (, and2 < 3, but, and5 ≥ 3). Then warrior with personality4leaves, and when Vova tries to hire that commander again, there are no warriors who respect him.",
+    "source": "CF",
+    "vjudge": false
+}

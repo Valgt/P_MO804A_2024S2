@@ -1,0 +1,12 @@
+{
+    "uid": "34-B",
+    "url": "https://codeforces.com/contest/34/problem/B",
+    "tags": [
+        "greedy",
+        " sortings"
+    ],
+    "title": "34-B",
+    "statement": "B. Saletime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutOnce Bob got to a sale of old TV sets. There werenTV sets at that sale. TV set with indexicostsaibellars. Some TV sets have a negative price — their owners are ready to pay Bob if he buys their useless apparatus. Bob can «buy» any TV sets he wants. Though he's very strong, Bob can carry at mostmTV sets, and he has no desire to go to the sale for the second time. Please, help Bob find out the maximum sum of money that he can earn.InputThe first line contains two space-separated integersnandm(1 ≤m≤n≤ 100) — amount of TV sets at the sale, and amount of TV sets that Bob can carry. The following line containsnspace-separated integersai(- 1000 ≤ai≤ 1000) — prices of the TV sets.OutputOutput the only number — the maximum sum of money that Bob can earn, given that he can carry at mostmTV sets.ExamplesInput5 3-6 0 35 -2 4Output8Input4 27 0 0 -7Output7",
+    "source": "CF",
+    "vjudge": false
+}

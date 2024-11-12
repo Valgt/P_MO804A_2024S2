@@ -1,0 +1,13 @@
+{
+    "uid": "496-B",
+    "url": "https://codeforces.com/contest/496/problem/B",
+    "tags": [
+        "brute force",
+        " constructive algorithms",
+        " implementation"
+    ],
+    "title": "496-B",
+    "statement": "B. Secret Combinationtime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutYou got a box with a combination lock. The lock has a display showingndigits. There are two buttons on the box, each button changes digits on the display. You have quickly discovered that the first button adds 1 to all the digits (all digits 9 become digits 0), and the second button shifts all the digits on the display one position to the right (the last digit becomes the first one). For example, if the display is currently showing number579, then if we push the first button, the display will show680, and if after that we push the second button, the display will show068.You know that the lock will open if the display is showing the smallest possible number that can be obtained by pushing the buttons in some order. The leading zeros are ignored while comparing numbers. Now your task is to find the desired number.InputThe first line contains a single integern(1 ≤n≤ 1000) — the number of digits on the display.The second line containsndigits — the initial state of the display.OutputPrint a single line containingndigits — the desired state of the display containing the smallest possible number.ExamplesInput3579Output024Input42014Output0142",
+    "source": "CF",
+    "vjudge": false
+}

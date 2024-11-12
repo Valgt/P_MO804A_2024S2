@@ -1,0 +1,13 @@
+{
+    "uid": "873-E",
+    "url": "https://codeforces.com/contest/873/problem/E",
+    "tags": [
+        "brute force",
+        " data structures",
+        " dp"
+    ],
+    "title": "873-E",
+    "statement": "E. Awards For Contestantstime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputAlexey recently held a programming contest for students from Berland.nstudents participated in a contest,i-th of them solvedaiproblems. Now he wants to award some contestants. Alexey can award the students with diplomas of three different degrees. Each student either will receive one diploma of some degree, or won't receive any diplomas at all. Letcntxbe the number of students that are awarded with diplomas of degreex(1 ≤x≤ 3). The following conditions must hold:For eachx(1 ≤x≤ 3)cntx> 0;For any two degreesxandycntx≤ 2·cnty.Of course, there are a lot of ways to distribute the diplomas. Letbibe the degree of diplomai-th student will receive (or- 1ifi-th student won't receive any diplomas). Also for anyxsuch that1 ≤x≤ 3letcxbe the maximum number of problems solved by a student that receives a diploma of degreex, anddxbe the minimum number of problems solved by a student that receives a diploma of degreex. Alexey wants to distribute the diplomas in such a way that:If studentisolved more problems than studentj, then he has to be awarded not worse than studentj(it's impossible that studentjreceives a diploma andidoesn't receive any, and also it's impossible that both of them receive a diploma, butbj<bi);d1-c2is maximum possible;Among all ways that maximize the previous expression,d2-c3is maximum possible;Among all ways that correspond to the two previous conditions,d3-c- 1is maximum possible, wherec- 1is the maximum number of problems solved by a student that doesn't receive any diploma (or0if each student is awarded with some diploma).Help Alexey to find a way to award the contestants!InputThe first line contains one integer numbern(3 ≤n≤ 3000).The second line containsninteger numbersa1,a2, ...,an(1 ≤ai≤ 5000).OutputOutputnnumbers.i-th number must be equal to the degree of diplomai-th contestant will receive (or- 1if he doesn't receive any diploma).If there are multiple optimal solutions, print any of them. It is guaranteed that the answer always exists.ExamplesInput41 2 3 4Output3 3 2 1Input61 4 3 1 1 2Output-1 1 2 -1 -1 3",
+    "source": "CF",
+    "vjudge": false
+}

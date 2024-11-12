@@ -1,0 +1,13 @@
+{
+    "uid": "443-B",
+    "url": "https://codeforces.com/contest/443/problem/B",
+    "tags": [
+        "brute force",
+        " implementation",
+        " strings"
+    ],
+    "title": "443-B",
+    "statement": "B. Kolya and Tandem Repeattime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutKolya got stringsfor his birthday, the string consists of small English letters. He immediately addedkmore characters to the right of the string.Then Borya came and said that the new string contained atandem repeatof lengthlas a substring. How large couldlbe?See notes for definition of atandem repeat.InputThe first line containss(1 ≤ |s| ≤ 200). This string contains only small English letters. The second line contains numberk(1 ≤k≤ 200) — the number of the added characters.OutputPrint a single number — the maximum length of the tandem repeat that could have occurred in the new string.ExamplesInputaaba2Output6Inputaaabbbb2Output6Inputabracadabra10Output20NoteA tandem repeat of length2nis strings, where for any positioni(1 ≤i≤n) the following condition fulfills:si=si+n.In the first sample Kolya could obtain a stringaabaab, in the second —aaabbbbbb, in the third —abracadabrabracadabra.",
+    "source": "CF",
+    "vjudge": false
+}

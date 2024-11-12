@@ -1,0 +1,13 @@
+{
+    "uid": "526-D",
+    "url": "https://codeforces.com/contest/526/problem/D",
+    "tags": [
+        "hashing",
+        " string suffix structures",
+        " strings"
+    ],
+    "title": "526-D",
+    "statement": "D. Om Nom and Necklacetime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputOne day Om Nom found a thread withnbeads of different colors. He decided to cut the first several beads from this thread to make a bead necklace and present it to his girlfriend Om Nelly.Om Nom knows that his girlfriend loves beautiful patterns. That's why he wants the beads on the necklace to form aregularpattern. A sequence of beadsSisregularif it can be represented asS=A+B+A+B+A+ ... +A+B+A, whereAandBare some bead sequences, \"+\" is the concatenation of sequences, there are exactly2k+ 1summands in this sum, among which there arek+ 1\"A\" summands andk\"B\" summands that follow in alternating order. Om Nelly knows that her friend is an eager mathematician, so she doesn't mind ifAorBis an empty sequence.Help Om Nom determine in which ways he can cut off the first several beads from the found thread (at least one; probably, all) so that they form aregular pattern. When Om Nom cuts off the beads, he doesn't change their order.InputThe first line contains two integersn,k(1 ≤n,k≤ 1 000 000) — the number of beads on the thread that Om Nom found and numberkfrom the definition of the regular sequence above.The second line contains the sequence ofnlowercase Latin letters that represent the colors of the beads. Each color corresponds to a single letter.OutputPrint a string consisting ofnzeroes and ones. Positioni(1 ≤i≤n) must contain either number one if the firstibeads on the thread form a regular sequence, or a zero otherwise.ExamplesInput7 2bcabcabOutput0000011Input21 2ababaababaababaababaaOutput000110000111111000011NoteIn the first sample test a regular sequence is both a sequence of the first 6 beads (we can takeA=\"\",B=\"bca\"), and a sequence of the first 7 beads (we can takeA=\"b\",B=\"ca\").In the second sample test, for example, a sequence of the first 13 beads is regular, if we takeA=\"aba\",B=\"ba\".",
+    "source": "CF",
+    "vjudge": false
+}

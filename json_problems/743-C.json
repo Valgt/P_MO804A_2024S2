@@ -1,0 +1,14 @@
+{
+    "uid": "743-C",
+    "url": "https://codeforces.com/contest/743/problem/C",
+    "tags": [
+        "brute force",
+        " constructive algorithms",
+        " math",
+        " number theory"
+    ],
+    "title": "743-C",
+    "statement": "C. Vladik and fractionstime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputVladik and Chloe decided to determine who of them is better at math. Vladik claimed that for any positive integernhe can represent fractionas a sum of three distinct positive fractions in form.Help Vladik with that, i.e for a givennfind three distinct positive integersx,yandzsuch that. Because Chloe can't check Vladik's answer if the numbers are large, he asks you to print numbers not exceeding109.If there is no such answer, print-1.InputThe single line contains single integern(1 ≤n≤ 104).OutputIf the answer exists, print3distinct numbersx,yandz(1 ≤x,y,z≤ 109,x≠y,x≠z,y≠z). Otherwise print-1.If there are multiple answers, print any of them.ExamplesInput3Output2 7 42Input7Output7 8 56",
+    "source": "CF",
+    "vjudge": false
+}

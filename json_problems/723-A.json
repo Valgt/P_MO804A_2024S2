@@ -1,0 +1,13 @@
+{
+    "uid": "723-A",
+    "url": "https://codeforces.com/contest/723/problem/A",
+    "tags": [
+        "implementation",
+        " math",
+        " sortings"
+    ],
+    "title": "723-A",
+    "statement": "A. The New Year: Meeting Friendstime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputThere are three friend living on the straight lineOxin Lineland. The first friend lives at the pointx1, the second friend lives at the pointx2, and the third friend lives at the pointx3. They plan to celebrate the New Year together, so they need to meet at one point. What is the minimum total distance they have to travel in order to meet at some point and celebrate the New Year?It's guaranteed that the optimal answer is always integer.InputThe first line of the input contains threedistinctintegersx1,x2andx3(1 ≤x1,x2,x3≤ 100) — the coordinates of the houses of the first, the second and the third friends respectively.OutputPrint one integer — the minimum total distance the friends need to travel in order to meet together.ExamplesInput7 1 4Output6Input30 20 10Output20NoteIn the first sample, friends should meet at the point4. Thus, the first friend has to travel the distance of3(from the point7to the point4), the second friend also has to travel the distance of3(from the point1to the point4), while the third friend should not go anywhere because he lives at the point4.",
+    "source": "CF",
+    "vjudge": false
+}

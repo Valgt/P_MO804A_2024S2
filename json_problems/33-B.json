@@ -1,0 +1,11 @@
+{
+    "uid": "33-B",
+    "url": "https://codeforces.com/contest/33/problem/B",
+    "tags": [
+        "shortest paths"
+    ],
+    "title": "33-B",
+    "statement": "B. String Problemtime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutBoy Valera likes strings. And even more he likes them, when they are identical. That's why in his spare time Valera plays the following game. He takes any two strings, consisting of lower case Latin letters, and tries to make them identical. According to the game rules, with each move Valera can changeonearbitrary characterAiin one of the strings into arbitrary characterBi, but he has to pay for every move a particular sum of money, equal toWi. He is allowed to make as many moves as he needs. Since Valera is a very economical boy and never wastes his money, he asked you, an experienced programmer, to help him answer the question: what minimum amount of money should Valera have to get identical strings.InputThe first input line contains two initial non-empty stringssandt, consisting of lower case Latin letters. The length of each string doesn't exceed105. The following line contains integern(0 ≤n≤ 500) — amount of possible changings. Then follownlines, each containing charactersAiandBi(lower case Latin letters) and integerWi(0 ≤Wi≤ 100), saying that it's allowed to change characterAiinto characterBiin any of the strings and spend sum of moneyWi.OutputIf the answer exists, output the answer to the problem, and the resulting string. Otherwise output-1in the only line. If the answer is not unique, output any.ExamplesInputuayduxxd3a x 8x y 13d c 3Output21uxydInputab3a b 2a b 3b a 5Output2bInputabcab6a b 4a b 7b a 8c b 11c a 3a c 0Output-1",
+    "source": "CF",
+    "vjudge": false
+}

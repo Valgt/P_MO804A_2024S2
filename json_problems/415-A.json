@@ -1,0 +1,11 @@
+{
+    "uid": "415-A",
+    "url": "https://codeforces.com/contest/415/problem/A",
+    "tags": [
+        "implementation"
+    ],
+    "title": "415-A",
+    "statement": "A. Mashmokh and Lightstime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutMashmokh works in a factory. At the end of each day he must turn off all of the lights.The lights on the factory are indexed from1ton. There arenbuttons in Mashmokh's room indexed from1tonas well. If Mashmokh pushes button with indexi, then each light with index not less thanithat is still turned on turns off.Mashmokh is not very clever. So instead of pushing the first button he pushes some of the buttons randomly each night. He pushedmdistinct buttonsb1,b2, ...,bm(the buttons were pushed consecutively in the given order) this night. Now he wants to know for each light the index of the button that turned this light off. Please note that the index of buttonbiis actuallybi, noti.Please, help Mashmokh, print these indices.InputThe first line of the input contains two space-separated integersnandm(1 ≤n,m≤ 100), the number of the factory lights and the pushed buttons respectively. The next line containsmdistinct space-separated integersb1,b2, ...,bm(1 ≤bi≤n).It is guaranteed that all lights will be turned off after pushing all buttons.OutputOutputnspace-separated integers where thei-th number is index of the button that turns thei-th light off.ExamplesInput5 44 3 1 2Output1 1 3 4 4Input5 55 4 3 2 1Output1 2 3 4 5NoteIn the first sample, after pressing button number 4, lights 4 and 5 are turned off and lights 1, 2 and 3 are still on. Then after pressing button number 3, light number 3 is turned off as well. Pressing button number 1 turns off lights number 1 and 2 as well so pressing button number 2 in the end has no effect. Thus button number 4 turned lights 4 and 5 off, button number 3 turned light 3 off and button number 1 turned light 1 and 2 off.",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,12 @@
+{
+    "uid": "277-E",
+    "url": "https://codeforces.com/contest/277/problem/E",
+    "tags": [
+        "flows",
+        " trees"
+    ],
+    "title": "277-E",
+    "statement": "E. Binary Tree on Planetime limit per test3 secondsmemory limit per test256 megabytesinputstdinoutputstdoutA root tree is a directed acyclic graph that contains one node (root), from which there is exactly one path to any other node.A root tree is binary if each node has at most two outgoing arcs.When a binary tree is painted on the plane, all arcs should be directed from top to bottom. That is, each arc going fromutovmust meet the conditionyu>yv.You've been given the coordinates of all tree nodes. Your task is to connect these nodes by arcs so as to get the binary root tree and make the total length of the arcs minimum. All arcs of the built tree must be directed from top to bottom.InputThe first line contains a single integern(2 ≤n≤ 400) — the number of nodes in the tree. Then follownlines, two integers per line:xi,yi(|xi|, |yi| ≤ 103) — coordinates of the nodes. It is guaranteed that all points are distinct.OutputIf it is impossible to build a binary root tree on the given points, print \"-1\". Otherwise, print a single real number — the total length of the arcs in the minimum binary tree. The answer will be considered correct if the absolute or relative error doesn't exceed10- 6.ExamplesInput30 01 02 1Output3.650281539872885Input40 01 02 12 0Output-1",
+    "source": "CF",
+    "vjudge": false
+}

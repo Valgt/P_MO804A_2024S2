@@ -1,0 +1,13 @@
+{
+    "uid": "37-C",
+    "url": "https://codeforces.com/contest/37/problem/C",
+    "tags": [
+        "data structures",
+        " greedy",
+        " trees"
+    ],
+    "title": "37-C",
+    "statement": "C. Old Berland Languagetime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutBerland scientists know that the Old Berland language had exactlynwords. Those words had lengths ofl1,l2, ...,lnletters. Every word consisted of two letters,0and1. Ancient Berland people spoke quickly and didn’t make pauses between the words, but at the same time they could always understand each other perfectly. It was possible because no word was a prefix of another one. The prefix of a string is considered to be one of its substrings that starts from the initial symbol.Help the scientists determine whether all the words of the Old Berland language can be reconstructed and if they can, output the words themselves.InputThe first line contains one integerN(1 ≤N≤ 1000) — the number of words in Old Berland language. The second line containsNspace-separated integers — the lengths of these words. All the lengths are natural numbers not exceeding1000.OutputIf there’s no such set of words, in the single line outputNO. Otherwise, in the first line outputYES, and in the nextNlines output the words themselves in the order their lengths were given in the input file. If the answer is not unique, output any.ExamplesInput31 2 3OutputYES010110Input31 1 1OutputNO",
+    "source": "CF",
+    "vjudge": false
+}

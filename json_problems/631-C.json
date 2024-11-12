@@ -1,0 +1,12 @@
+{
+    "uid": "631-C",
+    "url": "https://codeforces.com/contest/631/problem/C",
+    "tags": [
+        "data structures",
+        " sortings"
+    ],
+    "title": "631-C",
+    "statement": "C. Reporttime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputEach month Blake gets the report containing main economic indicators of the company \"Blake Technologies\". There arencommodities produced by the company. For each of them there is exactly one integer in the final report, that denotes corresponding revenue. Before the report gets to Blake, it passes through the hands ofmmanagers. Each of them may reorder the elements in some order. Namely, thei-th manager either sorts firstrinumbers in non-descending or non-ascending order and then passes the report to the manageri+ 1, or directly to Blake (if this manager has numberi=m).Employees of the \"Blake Technologies\" are preparing the report right now. You know the initial sequenceaiof lengthnand the description of each manager, that is valueriand his favourite order. You are asked to speed up the process and determine how the final report will look like.InputThe first line of the input contains two integersnandm(1 ≤n,m≤ 200 000) — the number of commodities in the report and the number of managers, respectively.The second line containsnintegersai(|ai| ≤ 109) — the initial report before it gets to the first manager.Then followmlines with the descriptions of the operations managers are going to perform. Thei-th of these lines contains two integerstiandri(,1 ≤ri≤n), meaning that thei-th manager sorts the firstrinumbers either in the non-descending (ifti= 1) or non-ascending (ifti= 2) order.OutputPrintnintegers — the final report, which will be passed to Blake by manager numberm.ExamplesInput3 11 2 32 2Output2 1 3Input4 21 2 4 32 31 2Output2 4 1 3NoteIn the first sample, the initial report looked like:1 2 3. After the first manager the first two numbers were transposed:2 13. The report got to Blake in this form.In the second sample the original report was like this:1 2 4 3. After the first manager the report changed to:4 2 13. After the second manager the report changed to:2 41 3. This report was handed over to Blake.",
+    "source": "CF",
+    "vjudge": false
+}

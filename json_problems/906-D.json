@@ -1,0 +1,13 @@
+{
+    "uid": "906-D",
+    "url": "https://codeforces.com/contest/906/problem/D",
+    "tags": [
+        "chinese remainder theorem",
+        " math",
+        " number theory"
+    ],
+    "title": "906-D",
+    "statement": "D. Power Towertime limit per test4.5 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputPriests of the Quetzalcoatl cult want to build a tower to represent a power of their god. Tower is usually made of power-charged rocks. It is built with the help of rare magic by levitating the current top of tower and adding rocks at its bottom. If top, which is built fromk- 1rocks, possesses powerpand we want to add the rock charged with powerwkthen value of power of a new tower will be{wk}p.Rocks are added from the last to the first. That is for sequencew1, ...,wmvalue of power will beAfter tower is built, its power may be extremely large. But still priests want to get some information about it, namely they want to know a number called cumulative power which is the true value of power taken modulom. Priests havenrocks numbered from1ton. They ask you to calculate which value of cumulative power will the tower possess if they will build it from rocks numberedl,l+ 1, ...,r.InputFirst line of input contains two integersn(1 ≤n≤ 105) andm(1 ≤m≤ 109).Second line of input containsnintegerswk(1 ≤wk≤ 109) which is the power of rocks that priests have.Third line of input contains single integerq(1 ≤q≤ 105) which is amount of queries from priests to you.kthof nextqlines contains two integerslkandrk(1 ≤lk≤rk≤n).OutputOutputqintegers.k-th of them must be the amount of cumulative power the tower will have if is built from rockslk,lk+ 1, ...,rk.ExampleInput6 10000000001 2 2 3 3 381 11 62 22 32 44 44 54 6Output1124256327597484987Note327= 7625597484987",
+    "source": "CF",
+    "vjudge": false
+}

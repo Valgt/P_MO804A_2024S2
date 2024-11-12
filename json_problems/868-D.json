@@ -1,0 +1,15 @@
+{
+    "uid": "868-D",
+    "url": "https://codeforces.com/contest/868/problem/D",
+    "tags": [
+        "bitmasks",
+        " brute force",
+        " dp",
+        " implementation",
+        " strings"
+    ],
+    "title": "868-D",
+    "statement": "D. Huge Stringstime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are givennstringss1,s2, ...,snconsisting of characters0and1.moperations are performed, on each of them you concatenate two existing strings into a new one. On thei-th operation the concatenationsaisbiis saved into a new stringsn+i(the operations are numbered starting from1). After each operation you need to find the maximum positive integerksuch that all possible strings consisting of0and1of lengthk(there are2ksuch strings) are substrings of the new string. If there is no suchk, print0.InputThe first line contains single integern(1 ≤n≤ 100) — the number of strings. The nextnlines contain stringss1,s2, ...,sn(1 ≤ |si| ≤ 100), one per line. The total length of strings is not greater than100.The next line contains single integerm(1 ≤m≤ 100) — the number of operations.mlines follow, each of them contains two integersaiabdbi(1 ≤ai,bi≤n+i- 1) — the number of strings that are concatenated to formsn+i.OutputPrintmlines, each should contain one integer — the answer to the question after the corresponding operation.ExampleInput5011010111111031 26 54 4Output120NoteOn the first operation, a new string \"0110\" is created. Fork= 1the two possible binary strings of lengthkare \"0\" and \"1\", they are substrings of the new string. Fork= 2and greater there exist strings of lengthkthat do not appear in this string (fork= 2such string is \"00\"). So the answer is1.On the second operation the string \"01100\" is created. Now all strings of lengthk= 2are present.On the third operation the string \"1111111111\" is created. There is no zero, so the answer is0.",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,14 @@
+{
+    "uid": "144-D",
+    "url": "https://codeforces.com/contest/144/problem/D",
+    "tags": [
+        "data structures",
+        " dfs and similar",
+        " graphs",
+        " shortest paths"
+    ],
+    "title": "144-D",
+    "statement": "D. Missile Silostime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutA country called Berland consists ofncities, numbered with integer numbers from1ton. Some of them are connected by bidirectional roads. Each road has some length. There is a path from each city to any other one by these roads. According to some Super Duper Documents, Berland is protected by the Super Duper Missiles. The exact position of the Super Duper Secret Missile Silos is kept secret but Bob managed to get hold of the information. That information says that all silos are located exactly at a distancelfrom the capital. The capital is located in the city with numbers.The documents give the formal definition: the Super Duper Secret Missile Silo is located at some place (which is either city or a point on a road) if and only if the shortest distance from this place to the capital along the roads of the country equals exactlyl.Bob wants to know how many missile silos are located in Berland to sell the information then to enemy spies. Help Bob.InputThe first line contains three integersn,mands(2 ≤n≤ 105,,1 ≤s≤n) — the number of cities, the number of roads in the country and the number of the capital, correspondingly. Capital is the city no.s.Thenmlines contain the descriptions of roads. Each of them is described by three integersvi,ui,wi(1 ≤vi,ui≤n,vi≠ui,1 ≤wi≤ 1000), wherevi,uiare numbers of the cities connected by this road andwiis its length. The last input line contains integerl(0 ≤l≤ 109) — the distance from the capital to the missile silos. It is guaranteed that:between any two cities no more than one road exists;each road connects two different cities;from each city there is at least one way to any other city by the roads.OutputPrint the single number — the number of Super Duper Secret Missile Silos that are located in Berland.ExamplesInput4 6 11 2 11 3 32 3 12 4 13 4 11 4 22Output3Input5 6 33 1 13 2 13 4 13 5 11 2 64 5 84Output3NoteIn the first sample the silos are located in cities3and4and on road(1, 3)at a distance2from city1(correspondingly, at a distance1from city3).In the second sample one missile silo is located right in the middle of the road(1, 2). Two more silos are on the road(4, 5)at a distance3from city4in the direction to city5and at a distance3from city5to city4.",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,16 @@
+{
+    "uid": "1567-F",
+    "url": "https://codeforces.com/contest/1567/problem/F",
+    "tags": [
+        "2-sat",
+        " constructive algorithms",
+        " dfs and similar",
+        " dsu",
+        " graphs",
+        " implementation"
+    ],
+    "title": "1567-F",
+    "statement": "F. One-Four Overloadtime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputAlice has an empty grid with $$$n$$$ rows and $$$m$$$ columns. Some of the cells are marked, andno marked cells are adjacent to the edge of the grid. (Two squares areadjacentif they share a side.)Alice wants to fill each cell with a number such that the following statements are true:everyunmarkedcell contains either the number $$$1$$$ or $$$4$$$;everymarkedcell contains the sum of the numbers in allunmarkedcells adjacent to it (if a marked cell is not adjacent to any unmarked cell, this sum is $$$0$$$);everymarkedcell contains a multiple of $$$5$$$.Alice couldn't figure it out, so she asks Bob to help her. Help Bob find any such grid, or state that no such grid exists.InputThe first line of input contains two integers $$$n$$$ and $$$m$$$ ($$$1 \\\\leq n, m \\\\leq 500$$$) — the number of rows and the number of columns in the grid, respectively.Then $$$n$$$ lines follow, each containing $$$m$$$ characters. Each of these characters is either '.' or 'X' — an unmarked and a marked cell, respectively.No marked cells are adjacent to the edge of the grid.OutputOutput \"'NO\" if no suitable grid exists. Otherwise, output \"'YES\"'. Then output $$$n$$$ lines of $$$m$$$ space-separated integers — the integers in the grid.ExamplesInput5 5 ..... .XXX. .X.X. .XXX. .....OutputYES 4 1 4 4 1 4 5 5 5 1 4 5 1 5 4 1 5 5 5 4 1 4 4 1 4Input5 5 ..... .XXX. .XXX. .XXX. .....OutputNOInput3 2 .. .. ..OutputYES 4 1 4 1 1 4Input9 9 ......... .XXXXX.X. .X...X... .X.XXXXX. .X.X.X.X. .X.XXX.X. .X.....X. .XXXXXXX. .........OutputYES 4 4 4 1 4 1 4 1 4 1 5 5 5 5 5 4 10 1 4 5 1 4 1 5 4 4 4 4 5 1 5 5 0 5 5 1 4 5 1 5 4 5 1 5 4 4 5 1 5 5 5 4 5 1 1 5 4 4 1 1 4 5 1 4 5 5 5 5 5 5 5 4 1 1 1 1 4 4 1 1 4NoteIt can be shown that no such grid exists for the second test.",
+    "source": "CF",
+    "vjudge": false
+}

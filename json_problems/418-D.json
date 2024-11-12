@@ -1,0 +1,13 @@
+{
+    "uid": "418-D",
+    "url": "https://codeforces.com/contest/418/problem/D",
+    "tags": [
+        "data structures",
+        " graphs",
+        " trees"
+    ],
+    "title": "418-D",
+    "statement": "D. Big Problems for Organizerstime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutThe Finals of the \"Russian Code Cup\" 2214 will be held innhotels. Two hotels (let's assume that they are the main hotels), will host all sorts of events, and the remaining hotels will accommodate the participants. The hotels are connected byn- 1roads, you can get from any hotel to any other one.The organizers wonder what is the minimum time all the participants need to get to the main hotels, if each participant goes to the main hotel that is nearest to him and moving between two hotels connected by a road takes one unit of time.The hosts consider various options for the location of the main hotels. For each option help the organizers to find minimal time.InputThe first line contains an integern(2 ≤n≤ 100000) — the number of hotels. The nextn- 1lines contain two integers each  — the numbers of the hotels that have a road between them. Consider hotels are numbered from1ton.The next line contains an integerm(1 ≤m≤ 100000) — the number of queries. The followingmlines contains two distinct integers each — the numbers of the hotels we assume to be the main.OutputFor each request of the organizers print a single integer — the time that all participants need to reach the main hotels.ExamplesInput32 33 132 12 33 1Output111Input41 41 22 331 41 32 3Output212",
+    "source": "CF",
+    "vjudge": false
+}

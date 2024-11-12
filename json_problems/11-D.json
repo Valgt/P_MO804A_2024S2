@@ -1,0 +1,13 @@
+{
+    "uid": "11-D",
+    "url": "https://codeforces.com/contest/11/problem/D",
+    "tags": [
+        "bitmasks",
+        " dp",
+        " graphs"
+    ],
+    "title": "11-D",
+    "statement": "D. A Simple Tasktime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutGiven a simple graph, output the number of simple cycles in it. A simple cycle is a cycle with no repeated vertices or edges.InputThe first line of input contains two integersnandm(1 ≤n≤ 19,0 ≤m) – respectively the number of vertices and edges of the graph. Each of the subsequentmlines contains two integersaandb, (1 ≤a,b≤n,a≠b) indicating that verticesaandbare connected by an undirected edge. There is no more than one edge connecting any pair of vertices.OutputOutput the number of cycles in the given graph.ExamplesInput4 61 21 31 42 32 43 4Output7NoteThe example graph is a clique and contains four cycles of length 3 and three cycles of length 4.",
+    "source": "CF",
+    "vjudge": false
+}

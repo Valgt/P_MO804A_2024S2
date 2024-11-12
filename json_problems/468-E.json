@@ -1,0 +1,14 @@
+{
+    "uid": "468-E",
+    "url": "https://codeforces.com/contest/468/problem/E",
+    "tags": [
+        "dp",
+        " graph matchings",
+        " math",
+        " meet-in-the-middle"
+    ],
+    "title": "468-E",
+    "statement": "E. Permanenttime limit per test2 secondsmemory limit per test512 megabytesinputstdinoutputstdoutLittle X has solved the #P-complete problem in polynomial time recently. So he gives this task to you.There is a specialn×nmatrixA, you should calculate its permanent modulo1000000007 (109+ 7). The special property of matrixAis almost all its elements equal to1. Onlykelements have specified value.You can find the definition of permanent at the link:https://en.wikipedia.org/wiki/PermanentInputThe first line contains two space-separated integersn,k(1 ≤n≤ 105; 1 ≤k≤ 50).The nextklines contain the description of the matrix. Thei-th line contains three space-separated integersxi,yi,wi(1 ≤xi,yi≤n; 0  ≤wi≤ 109). These numbers denote thatAxi,yi=wi. All the elements of the matrix except of the given elements are equal to1.It's guaranteed that all the positions(xi,yi)are distinct.OutputPrint the permanent of the matrix modulo1000000007 (109+  7).ExamplesInput3 11 1 2Output8Input10 103 3 3670567946 2 1245612731 3 467181466 9 41591686910 5 9859683363 1 5267922651 4 38635705810 4 3493041872 7 1020324993 6 502679075Output233333333",
+    "source": "CF",
+    "vjudge": false
+}

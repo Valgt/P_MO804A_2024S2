@@ -1,0 +1,12 @@
+{
+    "uid": "164-A",
+    "url": "https://codeforces.com/contest/164/problem/A",
+    "tags": [
+        "dfs and similar",
+        " graphs"
+    ],
+    "title": "164-A",
+    "statement": "A. Variable, or There and Back Againtime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutLife is not easy for the perfectly common variable named Vasya. Wherever it goes, it is either assigned a value, or simply ignored, or is being used!Vasya's life goes in states of a program. In each state, Vasya can either be used (for example, to calculate the value of another variable), or be assigned a value, or ignored. Between some states are directed (oriented) transitions.Apathis a sequence of statesv1,v2, ...,vx, where for any1 ≤i<xexists a transition fromvitovi+ 1.Vasya's value in statevis interesting to the world, if exists pathp1,p2, ...,pksuch, thatpi=vfor somei(1 ≤i≤k), in statep1Vasya gets assigned a value, in statepkVasya is used and there is no statepi(except forp1) where Vasya gets assigned a value.Help Vasya, find the states in which Vasya's value is interesting to the world.InputThe first line contains two space-separated integersnandm(1 ≤n,m≤ 105) — the numbers of states and transitions, correspondingly.The second line contains space-separatednintegersf1,f2, ...,fn(0 ≤fi≤ 2),fidescribed actions performed upon Vasya in statei:0represents ignoring,1— assigning a value,2— using.Nextmlines contain space-separated pairs of integersai,bi(1 ≤ai,bi≤n,ai≠bi), each pair represents the transition from the state numberaito the state numberbi. Between two states can be any number of transitions.OutputPrintnintegersr1,r2, ...,rn, separated by spaces or new lines. Numberrishould equal1, if Vasya's value in stateiis interesting to the world and otherwise, it should equal0. The states are numbered from1tonin the order, in which they are described in the input.ExamplesInput4 31 0 0 21 22 33 4Output1111Input3 11 0 21 3Output101Input3 12 0 11 3Output000NoteIn the first sample the program states can be used to make the only path in which the value of Vasya interests the world, 1234; it includes all the states, so in all of them Vasya's value is interesting to the world.The second sample the only path in which Vasya's value is interesting to the world is , — 13; state 2 is not included there.In the third sample we cannot make from the states any path in which the value of Vasya would be interesting to the world, so the value of Vasya is never interesting to the world.",
+    "source": "CF",
+    "vjudge": false
+}

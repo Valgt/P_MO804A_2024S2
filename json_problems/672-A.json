@@ -1,0 +1,11 @@
+{
+    "uid": "672-A",
+    "url": "https://codeforces.com/contest/672/problem/A",
+    "tags": [
+        "implementation"
+    ],
+    "title": "672-A",
+    "statement": "A. Summer Camptime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputEvery year, hundreds of people come to summer camps, they learn new algorithms and solve hard problems.This is your first year at summer camp, and you are asked to solve the following problem. All integers starting with1are written in one line. The prefix of these line is \"123456789101112131415...\". Your task is to print then-th digit of this string (digits are numbered starting with1.InputThe only line of the input contains a single integern(1 ≤n≤ 1000) — the position of the digit you need to print.OutputPrint then-th digit of the line.ExamplesInput3Output3Input11Output0NoteIn the first sample the digit at position3is '3', as both integers1and2consist on one digit.In the second sample, the digit at position11is '0', it belongs to the integer10.",
+    "source": "CF",
+    "vjudge": false
+}

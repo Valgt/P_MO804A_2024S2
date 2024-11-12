@@ -1,0 +1,13 @@
+{
+    "uid": "246-A",
+    "url": "https://codeforces.com/contest/246/problem/A",
+    "tags": [
+        "constructive algorithms",
+        " greedy",
+        " sortings"
+    ],
+    "title": "246-A",
+    "statement": "A. Buggy Sortingtime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutLittle boy Valera studies an algorithm of sorting an integer array. After studying the theory, he went on to the practical tasks. As a result, he wrote a program that sorts an array ofnintegersa1,a2, ...,anin the non-decreasing order. The pseudocode of the program, written by Valera, is given below. The input of the program gets numbernand arraya.loop integer variableifrom1ton- 1loop integer variablejfromiton- 1if(aj>aj+ 1), then swap the values of elementsajandaj+ 1But Valera could have made a mistake, because he hasn't yet fully learned the sorting algorithm. If Valera made a mistake in his program, you need to give a counter-example that makes his program work improperly (that is, the example that makes the program sort the array not in the non-decreasing order). If such example for the given value ofndoesn't exist, print -1.InputYou've got a single integern(1 ≤n≤ 50)— the size of the sorted array.OutputPrintnspace-separated integersa1,a2, ...,an(1 ≤ai≤ 100) — the counter-example, for which Valera's algorithm won't work correctly. If the counter-example that meets the described conditions is impossible to give, print -1.If there are several counter-examples, consisting ofnnumbers, you are allowed to print any of them.ExamplesInput1Output-1",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,12 @@
+{
+    "uid": "341-E",
+    "url": "https://codeforces.com/contest/341/problem/E",
+    "tags": [
+        "constructive algorithms",
+        " greedy"
+    ],
+    "title": "341-E",
+    "statement": "E. Candies Gametime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutIahub is playing an uncommon game. Initially, he hasnboxes, numbered 1, 2, 3,...,n. Each box has some number of candies in it, described by a sequencea1,a2,...,an. The numberakrepresents the number of candies in boxk.The goal of the game is to move all candies intoexactlytwo boxes. The rest ofn- 2boxes must containzerocandies. Iahub is allowed to do several (possible zero) moves. At each move he chooses two different boxesiandj, such thatai≤aj. Then, Iahub moves from boxjto boxiexactlyaicandies. Obviously, when two boxes have equal number of candies, box numberjbecomes empty.Your task is to give him a set of moves such as Iahub to archive the goal of the game. If Iahub can't win the game for the given configuration of boxes, output -1. Please note that in case there exist a solution, you don't need to print the solution using minimal number of moves.InputThe first line of the input contains integern(3 ≤n≤ 1000). The next line containsnnon-negative integers:a1,a2, ...,an— sequence elements. It is guaranteed that sum of all numbers in sequenceais up to106.OutputIn case there exists no solution, output -1. Otherwise, in the first line output integerc(0 ≤c≤ 106), representing number of moves in your solution. Each of the nextclines should contain two integersiandj(1 ≤i,j≤n,i≠j): integersi,jin thekth line mean that at thek-th move you will move candies from thej-th box to thei-th one.ExamplesInput33 6 9Output22 31 3Input30 1 0Output-1Input40 1 1 0Output0NoteFor the first sample, after the first move the boxes will contain 3, 12 and 3 candies. After the second move, the boxes will contain 6, 12 and 0 candies. Now all candies are in exactly 2 boxes.For the second sample, you can observe that the given configuration is not valid, as all candies are in a single box and they should be in two boxes. Also, any move won't change the configuration, so there exists no solution.For the third sample, all candies are already in 2 boxes. Hence, no move is needed.",
+    "source": "CF",
+    "vjudge": false
+}

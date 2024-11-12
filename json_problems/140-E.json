@@ -1,0 +1,12 @@
+{
+    "uid": "140-E",
+    "url": "https://codeforces.com/contest/140/problem/E",
+    "tags": [
+        "combinatorics",
+        " dp"
+    ],
+    "title": "140-E",
+    "statement": "E. New Year Garlandtime limit per test5 secondsmemory limit per test256 megabytesinputstdinoutputstdoutAs Gerald, Alexander, Sergey and Gennady are already busy with the usual New Year chores, Edward hastily decorates the New Year Tree. And any decent New Year Tree must be decorated with a good garland. Edward has lamps ofmcolors and he wants to make a garland from them. That garland should represent a sequence whose length equalsL. Edward's tree isnlayers high and Edward plans to hang the garland so as to decorate the first layer with the firstl1lamps, the second layer — with the nextl2lamps and so on. The lastn-th layer should be decorated with the lastlnlamps,Edward adores all sorts of math puzzles, so he suddenly wondered: how many different ways to assemble the garland are there given that the both following two conditions are met:Any two lamps that follow consecutively in the same layer should have different colors.The sets of used colors in every twoneighbouringlayers must be different. We consider unordered sets (not multisets), where every color occurs no more than once. So the number of lamps of particular color does not matter.Help Edward find the answer to this nagging problem or else he won't manage to decorate the Tree by New Year. You may consider that Edward has an unlimited number of lamps of each ofmcolors and it is not obligatory to use allmcolors. The garlands are considered different if they differ in at least one position when represented as sequences. Calculate the answer modulop.InputThe first line contains three integersn,mandp(1 ≤n,m≤ 106,2 ≤p≤ 109) which are the number of the tree's layers, the number of the lamps' colors and module correspondingly. The next line containsnintegersli(1 ≤li≤ 5000,).OutputPrint the only integer — the number of garlands modulop.ExamplesInput3 2 10003 1 2Output8Input2 3 10002 2Output24Input1 1 10005Output0NoteIn the first sample the following variants are possible: 121|1|12, 121|1|21, 121|2|12, 121|2|21, 212|1|12, 212|1|21, 212|2|12, 212|2|21. In the second sample the following variants are possible: 12|13, 12|23, 12|31, 12|32 and so on.Figure for the first sample:",
+    "source": "CF",
+    "vjudge": false
+}

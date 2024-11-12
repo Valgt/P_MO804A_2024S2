@@ -1,0 +1,12 @@
+{
+    "uid": "764-B",
+    "url": "https://codeforces.com/contest/764/problem/B",
+    "tags": [
+        "constructive algorithms",
+        " implementation"
+    ],
+    "title": "764-B",
+    "statement": "B. Timofey and cubestime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputYoung Timofey has a birthday today! He got kit ofncubes as a birthday present from his parents. Every cube has a numberai, which is written on it. Timofey put all the cubes in a row and went to unpack other presents.In this time, Timofey's elder brother, Dima reordered the cubes using the following rule. Suppose the cubes are numbered from1tonin their order. Dima performs several steps, on stepihe reverses the segment of cubes fromi-th to(n-i+ 1)-th. He does this whilei≤n-i+ 1.After performing the operations Dima went away, being very proud of himself. When Timofey returned to his cubes, he understood that their order was changed. Help Timofey as fast as you can and save the holiday — restore the initial order of the cubes using information of their current location.InputThe first line contains single integern(1 ≤n≤ 2·105) — the number of cubes.The second line containsnintegersa1,a2, ...,an(- 109≤ai≤ 109), whereaiis the number written on thei-th cube after Dima has changed their order.OutputPrintnintegers, separated by spaces — the numbers written on the cubes in their initial order.It can be shown that the answer is unique.ExamplesInput74 3 7 6 9 1 2Output2 3 9 6 7 1 4Input86 1 4 2 5 6 9 2Output2 1 6 2 5 4 9 6NoteConsider the first sample.At the begining row was [2,3,9,6,7,1,4].After first operation row was [4,1,7,6,9,3,2].After second operation row was [4,3,9,6,7,1,2].After third operation row was [4,3,7,6,9,1,2].At fourth operation we reverse just middle element, so nothing has changed. The final row is [4,3,7,6,9,1,2]. So the answer for this case is row [2,3,9,6,7,1,4].",
+    "source": "CF",
+    "vjudge": false
+}

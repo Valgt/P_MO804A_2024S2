@@ -1,0 +1,13 @@
+{
+    "uid": "1996-A",
+    "url": "https://codeforces.com/contest/1996/problem/A",
+    "tags": [
+        "binary search",
+        " math",
+        " ternary search"
+    ],
+    "title": "1996-A",
+    "statement": "A. Legstime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputIt's another beautiful day on Farmer John's farm.After Farmer John arrived at his farm, he counted $$$n$$$ legs. It is known only chickens and cows live on the farm, and a chicken has $$$2$$$ legs while a cow has $$$4$$$.What is the minimum number of animals Farmer John can have on his farm assuming he counted the legs of all animals?InputThe first line contains single integer $$$t$$$ ($$$1 \\\\leq t \\\\leq 10^3$$$) — the number of test cases.Each test case contains an integer $$$n$$$ ($$$2 \\\\leq n \\\\leq 2 \\\\cdot 10^3$$$, $$$n$$$is even).OutputFor each test case, output an integer, the minimum number of animals Farmer John can have on his farm.ExampleInput3268Output1 2 2",
+    "source": "CF",
+    "vjudge": false
+}

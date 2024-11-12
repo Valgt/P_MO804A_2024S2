@@ -1,0 +1,15 @@
+{
+    "uid": "570-B",
+    "url": "https://codeforces.com/contest/570/problem/B",
+    "tags": [
+        "constructive algorithms",
+        " games",
+        " greedy",
+        " implementation",
+        " math"
+    ],
+    "title": "570-B",
+    "statement": "B. Simple Gametime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputOne day Misha and Andrew were playing a very simple game. First, each player chooses an integer in the range from1ton. Let's assume that Misha chose numberm, and Andrew chose numbera.Then, by using a random generator they choose a random integercin the range between1andn(any integer from1tonis chosen with the same probability), after which the winner is the player, whose number was closer toc. The boys agreed that ifmandaare located on the same distance fromc, Misha wins.Andrew wants to win very much, so he asks you to help him. You know the number selected by Misha, and numbern. You need to determine which value ofaAndrew must choose, so that the probability of his victory is the highest possible.More formally, you need to find such integera(1 ≤a≤n), that the probability thatis maximal, wherecis the equiprobably chosen integer from1ton(inclusive).InputThe first line contains two integersnandm(1 ≤m≤n≤ 109) — the range of numbers in the game, and the number selected by Misha respectively.OutputPrint a single number — such valuea, that probability that Andrew wins is the highest. If there are multiple such values, print the minimum of them.ExamplesInput3 1Output2Input4 3Output2NoteIn the first sample test: Andrew wins ifcis equal to2or3. The probability that Andrew wins is2 / 3. If Andrew choosesa= 3, the probability of winning will be1 / 3. Ifa= 1, the probability of winning is0.In the second sample test: Andrew wins ifcis equal to1and2. The probability that Andrew wins is1 / 2. For other choices ofathe probability of winning is less.",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,12 @@
+{
+    "uid": "183-B",
+    "url": "https://codeforces.com/contest/183/problem/B",
+    "tags": [
+        "brute force",
+        " geometry"
+    ],
+    "title": "183-B",
+    "statement": "B. Zootime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutThe Zoo in the Grid Kingdom is represented by an infinite grid. The Zoo hasnobservation binoculars located at theOXaxis. For eachibetween1andn, inclusive, there exists a single binocular located at the point with coordinates(i, 0). There aremflamingos in the Zoo, located at points with positive coordinates. The flamingos are currently sleeping and you can assume that they don't move.In order to get a good view over the flamingos, each of the binoculars can be independently rotated to face any angle (not necessarily integer). Then, the binocular can be used to observe all flamingos that is located at the straight line passing through the binocular at the angle it is set. In other words, you can assign each binocular a direction corresponding to any straight line passing through the binocular, and the binocular will be able to see all flamingos located on that line.Today, some kids from the prestigious Codeforces kindergarten went on a Field Study to the Zoo. Their teacher would like to set each binocular an angle to maximize the number of flamingos that can be seen by the binocular. The teacher is very interested in the sum of these values over all binoculars. Please help him find this sum.InputThe first line contains two space-separated integersnandm(1 ≤n≤ 106, 1 ≤m≤ 250), denoting the number of binoculars and the number of flamingos, respectively.Thenmlines follow, thei-th line will contain two space-separated integersxiandyi(1 ≤xi,yi≤ 109), which means that thei-th flamingo is located at point(xi,yi).All flamingos will be located at distinct points.OutputPrint a single integer denoting the maximum total number of flamingos that can be seen by all the binoculars.ExamplesInput5 52 14 13 24 34 4Output11NoteThis picture shows the answer to the example test case.",
+    "source": "CF",
+    "vjudge": false
+}

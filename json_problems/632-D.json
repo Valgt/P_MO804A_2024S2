@@ -1,0 +1,13 @@
+{
+    "uid": "632-D",
+    "url": "https://codeforces.com/contest/632/problem/D",
+    "tags": [
+        "brute force",
+        " math",
+        " number theory"
+    ],
+    "title": "632-D",
+    "statement": "D. Longest Subsequencetime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given arrayawithnelements and the numberm. Consider some subsequence ofaand the value of least common multiple (LCM) of its elements. Denote LCM asl. Find any longest subsequence ofawith the valuel≤m.A subsequence ofais an array we can get by erasing some elements ofa. It is allowed to erase zero or all elements.The LCM of an empty array equals1.InputThe first line contains two integersnandm(1 ≤n,m≤ 106) — the size of the arrayaand the parameter from the problem statement.The second line containsnintegersai(1 ≤ai≤ 109) — the elements ofa.OutputIn the first line print two integerslandkmax(1 ≤l≤m, 0 ≤kmax≤n) — the value of LCM and the number of elements in optimal subsequence.In the second line printkmaxintegers — the positions of the elements from the optimal subsequence in the ascending order.Note that you can find and print any subsequence with the maximum length.ExamplesInput7 86 2 9 2 7 2 3Output6 51 2 4 6 7Input6 42 2 2 3 3 3Output2 31 2 3",
+    "source": "CF",
+    "vjudge": false
+}

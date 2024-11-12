@@ -1,0 +1,12 @@
+{
+    "uid": "818-A",
+    "url": "https://codeforces.com/contest/818/problem/A",
+    "tags": [
+        "implementation",
+        " math"
+    ],
+    "title": "818-A",
+    "statement": "A. Diplomas and Certificatestime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputThere arenstudents who have taken part in an olympiad. Now it's time to award the students.Some of them will receive diplomas, some wiil get certificates, and others won't receive anything. Students with diplomas and certificates are calledwinners. But there are some rules of counting the number of diplomas and certificates. The number of certificates must beexactlyktimes greater than the number of diplomas. The number ofwinnersmustnot be greater than half of the number of all students(i.e. not be greater than half ofn). It's possible that there are nowinners.You have to identify the maximum possible number ofwinners, according to these rules. Also for this case you have to calculate the number of students with diplomas, the number of students with certificates and the number of students who are notwinners.InputThe first (and the only) line of input contains two integersnandk(1 ≤n,k≤ 1012), wherenis the number of students andkis the ratio between the number of certificates and the number of diplomas.OutputOutput three numbers: the number of students with diplomas, the number of students with certificates and the number of students who are notwinnersin case when the number ofwinnersis maximum possible.It's possible that there are nowinners.ExamplesInput18 2Output3 6 9Input9 10Output0 0 9Input1000000000000 5Output83333333333 416666666665 500000000002Input1000000000000 499999999999Output1 499999999999 500000000000",
+    "source": "CF",
+    "vjudge": false
+}

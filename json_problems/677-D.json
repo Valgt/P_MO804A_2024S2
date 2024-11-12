@@ -1,0 +1,14 @@
+{
+    "uid": "677-D",
+    "url": "https://codeforces.com/contest/677/problem/D",
+    "tags": [
+        "data structures",
+        " dp",
+        " graphs",
+        " shortest paths"
+    ],
+    "title": "677-D",
+    "statement": "D. Vanya and Treasuretime limit per test1.5 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputVanya is in the palace that can be represented as a gridn×m. Each room contains a single chest, an the room located in thei-th row andj-th columns contains the chest of typeaij. Each chest of typex≤p- 1contains a key that can open any chest of typex+ 1, and all chests of type1are not locked. There is exactly one chest of typepand it contains a treasure.Vanya starts in cell(1, 1)(top left corner). What is the minimum total distance Vanya has to walk in order to get the treasure? Consider the distance between cell(r1,c1)(the cell in the rowr1and columnc1) and(r2,c2)is equal to|r1-r2| + |c1-c2|.InputThe first line of the input contains three integersn,mandp(1 ≤n,m≤ 300, 1 ≤p≤n·m) — the number of rows and columns in the table representing the palace and the number of different types of the chests, respectively.Each of the followingnlines containsmintegersaij(1 ≤aij≤p) — the types of the chests in corresponding rooms. It's guaranteed that for eachxfrom1topthere is at least one chest of this type (that is, there exists a pair ofrandc, such thatarc=x). Also, it's guaranteed that there is exactly one chest of typep.OutputPrint one integer — the minimum possible total distance Vanya has to walk in order to get the treasure from the chest of typep.ExamplesInput3 4 32 1 1 11 1 1 12 1 1 3Output5Input3 3 91 3 58 9 74 6 2Output22Input3 4 121 2 3 48 7 6 59 10 11 12Output11",
+    "source": "CF",
+    "vjudge": false
+}

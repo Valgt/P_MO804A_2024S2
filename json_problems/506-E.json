@@ -1,0 +1,14 @@
+{
+    "uid": "506-E",
+    "url": "https://codeforces.com/contest/506/problem/E",
+    "tags": [
+        "combinatorics",
+        " dp",
+        " matrices",
+        " strings"
+    ],
+    "title": "506-E",
+    "statement": "E. Mr. Kitayuta's Gifttime limit per test6 secondsmemory limit per test768 megabytesinputstdinoutputstdoutMr. Kitayuta has kindly given you a stringsconsisting of lowercase English letters. You are asked to insert exactlynlowercase English letters intosto make it a palindrome. (Apalindromeis a string that reads the same forward and backward. For example, \"noon\", \"testset\" and \"a\" are all palindromes, while \"test\" and \"kitayuta\" are not.) You can choose anynlowercase English letters, and insert each of them to any position ofs, possibly to the beginning or the end ofs. You have to insert exactlynletters even if it is possible to turnsinto a palindrome by inserting less thannletters.Find the number of the palindromes that can be obtained in this way, modulo10007.InputThe first line contains a strings(1 ≤ |s| ≤ 200). Each character insis a lowercase English letter.The second line contains an integern(1 ≤n≤ 109).OutputPrint the number of the palindromes that can be obtained, modulo10007.ExamplesInputrevive1Output1Inputadd2Output28NoteFor the first sample, you can obtain the palindrome \"reviver\" by inserting 'r' to the end of \"revive\".For the second sample, the following 28 palindromes can be obtained: \"adada\", \"adbda\", ..., \"adzda\", \"dadad\" and \"ddadd\".",
+    "source": "CF",
+    "vjudge": false
+}

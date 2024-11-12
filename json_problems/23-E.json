@@ -1,0 +1,11 @@
+{
+    "uid": "23-E",
+    "url": "https://codeforces.com/contest/23/problem/E",
+    "tags": [
+        "dp"
+    ],
+    "title": "23-E",
+    "statement": "E. Treetime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutRecently Bob invented a new game with a tree (we should remind you, that a tree is a connected graph without cycles): he deletes any (possibly, zero) amount of edges of the tree, and counts the product of sizes of the connected components left after the deletion. Your task is to find out the maximum number that Bob can get in his new game for a given tree.InputThe first input line contains integer numbern(1 ≤n≤ 700) — amount of vertices in the tree. The followingn- 1lines contain the description of the edges. Each line contains the pair of vertices' indexes, joined by an edge,ai,bi(1 ≤ai,bi≤n). It's guaranteed that the graph described in the input is a tree.OutputOutput the only number — the maximum product of sizes of the connected components, that Bob can get after deleting some of the tree's edges.ExamplesInput51 22 33 44 5Output6Input81 21 32 42 53 63 76 8Output18Input31 21 3Output3",
+    "source": "CF",
+    "vjudge": false
+}

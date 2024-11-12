@@ -1,0 +1,12 @@
+{
+    "uid": "835-C",
+    "url": "https://codeforces.com/contest/835/problem/C",
+    "tags": [
+        "dp",
+        " implementation"
+    ],
+    "title": "835-C",
+    "statement": "C. Star skytime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputThe Cartesian coordinate system is set in the sky. There you can seenstars, thei-th has coordinates (xi,yi), a maximum brightnessc, equal for all stars, and an initial brightnesssi(0 ≤si≤c).Over time the stars twinkle. At moment0thei-th star has brightnesssi. Let at momenttsome star has brightnessx. Then at moment(t+ 1)this star will have brightnessx+ 1, ifx+ 1 ≤c, and0, otherwise.You want to look at the skyqtimes. In thei-th time you will look at the momenttiand you will see a rectangle with sides parallel to the coordinate axes, the lower left corner has coordinates (x1i,y1i) and the upper right — (x2i,y2i). For each view, you want to know the total brightness of the stars lying in the viewed rectangle.A star lies in a rectangle if it lies on its border or lies strictly inside it.InputThe first line contains three integersn,q,c(1 ≤n,q≤ 105,1 ≤c≤ 10) — the number of the stars, the number of the views and the maximum brightness of the stars.The nextnlines contain the stars description. Thei-th from these lines contains three integersxi,yi,si(1 ≤xi,yi≤ 100,0 ≤si≤c≤ 10) — the coordinates ofi-th star and its initial brightness.The nextqlines contain the views description. Thei-th from these lines contains five integersti,x1i,y1i,x2i,y2i(0 ≤ti≤ 109,1 ≤x1i<x2i≤ 100,1 ≤y1i<y2i≤ 100) — the moment of thei-th view and the coordinates of the viewed rectangle.OutputFor each view print the total brightness of the viewed stars.ExamplesInput2 3 31 1 13 2 02 1 1 2 20 2 1 4 55 1 1 5 5Output303Input3 4 51 1 22 3 03 3 10 1 1 100 1001 2 2 4 42 2 1 4 71 50 50 51 51Output3350NoteLet's consider the first example.At the first view, you can see only the first star. At moment2its brightness is3, so the answer is3.At the second view, you can see only the second star. At moment0its brightness is0, so the answer is0.At the third view, you can see both stars. At moment5brightness of the first is2, and brightness of the second is1, so the answer is3.",
+    "source": "CF",
+    "vjudge": false
+}

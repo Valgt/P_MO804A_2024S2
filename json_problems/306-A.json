@@ -1,0 +1,11 @@
+{
+    "uid": "306-A",
+    "url": "https://codeforces.com/contest/306/problem/A",
+    "tags": [
+        "implementation"
+    ],
+    "title": "306-A",
+    "statement": "A. Candiestime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutPolycarpus has gotncandies andmfriends (n≥m). He wants to make a New Year present with candies to each friend. Polycarpus is planning to present all candies and he wants to do this in the fairest (that is, most equal) manner. He wants to choose suchai, whereaiis the number of candies in thei-th friend's present, that the maximumaidiffers from the leastaias little as possible.For example, ifnis divisible bym, then he is going to present the same number of candies to all his friends, that is, the maximumaiwon't differ from the minimum one.InputThe single line of the input contains a pair of space-separated positive integersn,m(1 ≤n,m≤ 100;n≥m) — the number of candies and the number of Polycarpus's friends.OutputPrint the required sequencea1,a2, ...,am, whereaiis the number of candies in thei-th friend's present. All numbersaimust be positive integers, total up ton, the maximum one should differ from the minimum one by the smallest possible value.ExamplesInput12 3Output4 4 4Input15 4Output3 4 4 4Input18 7Output2 2 2 3 3 3 3NotePrintaiin any order, separate the numbers by spaces.",
+    "source": "CF",
+    "vjudge": false
+}

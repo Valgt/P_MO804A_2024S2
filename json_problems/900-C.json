@@ -1,0 +1,13 @@
+{
+    "uid": "900-C",
+    "url": "https://codeforces.com/contest/900/problem/C",
+    "tags": [
+        "brute force",
+        " data structures",
+        " math"
+    ],
+    "title": "900-C",
+    "statement": "C. Remove Extra Onetime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given a permutationpof lengthn. Remove one element from permutation to make the number of records the maximum possible.We remind that in a sequence of numbersa1,a2, ...,akthe elementaiis arecordif for every integerj(1 ≤j<i) the following holds:aj<ai.InputThe first line contains the only integern(1 ≤n≤ 105) — the length of the permutation.The second line containsnintegersp1,p2, ...,pn(1 ≤pi≤n) — the permutation. All the integers are distinct.OutputPrint the only integer — the element that should be removed to make the number of records the maximum possible. If there are multiple such elements, print the smallest one.ExamplesInput11Output1Input55 1 2 3 4Output5NoteIn the first example the only element can be removed.",
+    "source": "CF",
+    "vjudge": false
+}

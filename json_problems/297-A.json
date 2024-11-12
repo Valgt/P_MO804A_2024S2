@@ -1,0 +1,11 @@
+{
+    "uid": "297-A",
+    "url": "https://codeforces.com/contest/297/problem/A",
+    "tags": [
+        "constructive algorithms"
+    ],
+    "title": "297-A",
+    "statement": "A. Parity Gametime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutYou are fishing with polar bears Alice and Bob. While waiting for the fish to bite, the polar bears get bored. They come up with a game. First Alice and Bob each writes a 01-string (strings that only contain character \"0\" and \"1\")aandb. Then you try to turnaintobusing two types of operations:Writeparity(a)to the end ofa. For example,.Remove the first character ofa. For example,. You cannot perform this operation ifais empty.You can use as many operations as you want. The problem is, is it possible to turnaintob?Theparityof a 01-string is1if there is an odd number of \"1\"s in the string, and0otherwise.InputThe first line contains the stringaand the second line contains the stringb(1 ≤ |a|, |b| ≤ 1000). Both strings contain only the characters \"0\" and \"1\". Here|x|denotes the length of the stringx.OutputPrint \"YES\" (without quotes) if it is possible to turnaintob, and \"NO\" (without quotes) otherwise.ExamplesInput010110110OutputYESInput00111110OutputNONoteIn the first sample, the steps are as follows:01011 → 1011 → 011 → 0110",
+    "source": "CF",
+    "vjudge": false
+}

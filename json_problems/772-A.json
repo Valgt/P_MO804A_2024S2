@@ -1,0 +1,12 @@
+{
+    "uid": "772-A",
+    "url": "https://codeforces.com/contest/772/problem/A",
+    "tags": [
+        "binary search",
+        " math"
+    ],
+    "title": "772-A",
+    "statement": "A. Voltage Keepsaketime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou havendevices that you want to use simultaneously.Thei-th device usesaiunits of power per second. This usage is continuous. That is, inλseconds, the device will useλ·aiunits of power. Thei-th device currently hasbiunits of power stored. All devices can store an arbitrary amount of power.You have a single charger that can plug to any single device. The charger will addpunits of power per second to a device. This charging is continuous. That is, if you plug in a device forλseconds, it will gainλ·punits of power. You can switch which device is charging at any arbitrary unit of time (including real numbers), and the time it takes to switch is negligible.You are wondering, what is the maximum amount of time you can use the devices until one of them hits0units of power.If you can use the devices indefinitely, print-1. Otherwise, print the maximum amount of time before any one device hits0power.InputThe first line contains two integers,nandp(1 ≤n≤ 100 000,1 ≤p≤ 109) — the number of devices and the power of the charger.This is followed bynlines which contain two integers each. Lineicontains the integersaiandbi(1 ≤ai,bi≤ 100 000) — the power of the device and the amount of power stored in the device in the beginning.OutputIf you can use the devices indefinitely, print-1. Otherwise, print the maximum amount of time before any one device hits0power.Your answer will be considered correct if its absolute or relative error does not exceed10- 4.Namely, let's assume that your answer isaand the answer of the jury isb. The checker program will consider your answer correct if.ExamplesInput2 12 22 1000Output2.0000000000Input1 1001 1Output-1Input3 54 35 26 1Output0.5000000000NoteIn sample test 1, you can charge the first device for the entire time until it hits zero power. The second device has enough power to last this time without being charged.In sample test 2, you can use the device indefinitely.In sample test 3, we can charge the third device for2 / 5of a second, then switch to charge the second device for a1 / 10of a second.",
+    "source": "CF",
+    "vjudge": false
+}

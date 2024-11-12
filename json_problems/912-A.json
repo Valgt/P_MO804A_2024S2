@@ -1,0 +1,11 @@
+{
+    "uid": "912-A",
+    "url": "https://codeforces.com/contest/912/problem/A",
+    "tags": [
+        "implementation"
+    ],
+    "title": "912-A",
+    "statement": "A. Tricky Alchemytime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputDuring the winter holidays, the demand for Christmas balls is exceptionally high. Since it's already2018, the advances in alchemy allow easy and efficient ball creation by utilizing magic crystals.Grisha needs to obtain some yellow, green and blue balls. It's known that to produce ayellowball one needs two yellow crystals,green— one yellow and one blue, and for ablueball, three blue crystals are enough.Right now there areAyellow andBblue crystals in Grisha's disposal. Find out how many additional crystals he should acquire in order to produce the required number of balls.InputThe first line features two integersAandB(0 ≤A,B≤ 109), denoting the number of yellow and blue crystals respectively at Grisha's disposal.The next line contains three integersx,yandz(0 ≤x,y,z≤ 109) — the respective amounts of yellow, green and blue balls to be obtained.OutputPrint a single integer — the minimum number of crystals that Grisha should acquire in addition.ExamplesInput4 32 1 1Output2Input3 91 1 3Output1Input12345678 8765432143043751 1000000000 53798715Output2147483648NoteIn the first sample case, Grisha needs five yellow and four blue crystals to create two yellow balls, one green ball, and one blue ball. To do that, Grisha needs to obtain two additional crystals: one yellow and one blue.",
+    "source": "CF",
+    "vjudge": false
+}

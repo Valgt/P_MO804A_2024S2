@@ -1,0 +1,13 @@
+{
+    "uid": "431-E",
+    "url": "https://codeforces.com/contest/431/problem/E",
+    "tags": [
+        "binary search",
+        " data structures",
+        " ternary search"
+    ],
+    "title": "431-E",
+    "statement": "E. Chemistry Experimenttime limit per test4 secondsmemory limit per test256 megabytesinputstdinoutputstdoutOne day two students, Grisha and Diana, found themselves in the university chemistry lab. In the lab the students foundntest tubes with mercury numbered from1tonand decided to conduct an experiment.The experiment consists ofqsteps. On each step, one of the following actions occurs:Diana pours all the contents from tube numberpiand then pours there exactlyxiliters of mercury.Let's consider all the ways to addviliters of water into the tubes; for each way let's count the volumeof liquid(water and mercury) in the tubewith waterwith maximum amount of liquid; finally let's find the minimum among counted maximums. That is the number the students want to count. At that, the students don't actually pour the mercury. They perform calculations without changing the contents of the tubes.Unfortunately, the calculations proved to be too complex and the students asked you to help them. Help them conduct the described experiment.InputThe first line contains two integersnandq(1 ≤n,q≤ 105) — the number of tubes ans the number of experiment steps. The next line containsnspace-separated integers:h1,h2, ...,hn(0 ≤hi≤ 109), wherehiis the volume of mercury in theі-th tube at the beginning of the experiment.The nextqlines contain the game actions in the following format:A line of form \"1pixi\" means an action of the first type (1 ≤pi≤n; 0 ≤xi≤ 109).A line of form \"2vi\" means an action of the second type (1 ≤vi≤ 1015).It is guaranteed that there is at least one action of the second type. It is guaranteed that all numbers that describe the experiment are integers.OutputFor each action of the second type print the calculated value. The answer will be considered correct if its relative or absolute error doesn't exceed10- 4.ExamplesInput3 31 2 02 21 2 12 3Output1.500001.66667Input4 51 3 0 12 32 11 3 22 32 4Output1.666671.000002.333332.66667",
+    "source": "CF",
+    "vjudge": false
+}

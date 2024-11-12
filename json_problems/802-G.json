@@ -1,0 +1,12 @@
+{
+    "uid": "802-G",
+    "url": "https://codeforces.com/contest/802/problem/G",
+    "tags": [
+        "implementation",
+        " strings"
+    ],
+    "title": "802-G",
+    "statement": "G. Fake News (easy)time limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputAs it's the first of April, Heidi is suspecting that the news she reads today are fake, and she does not want to look silly in front of all the contestants. She knows that a newspiece is fake if it containsheidias a subsequence. Help Heidi assess whether the given piece is true, but please be discreet about it...InputThe first and only line of input contains a single nonempty stringsof length at most1000composed of lowercase letters (a-z).OutputOutputYESif the stringscontainsheidias a subsequence andNOotherwise.ExamplesInputabcheaibcdiOutputYESInputhiediOutputNONoteA stringscontains another stringpas asubsequenceif it is possible to delete some characters fromsand obtainp.",
+    "source": "CF",
+    "vjudge": false
+}

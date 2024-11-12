@@ -1,0 +1,11 @@
+{
+    "uid": "952-D",
+    "url": "https://codeforces.com/contest/952/problem/D",
+    "tags": [
+        "probabilities"
+    ],
+    "title": "952-D",
+    "statement": "D. I'm Feeling Lucky!time limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou have one chip and one chance to play roulette. Are you feeling lucky?OutputPrint your bet. Your chip must be placed entirely within some square (not on an edge or a corner shared by adjacent squares).",
+    "source": "CF",
+    "vjudge": false
+}

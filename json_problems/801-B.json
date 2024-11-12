@@ -1,0 +1,13 @@
+{
+    "uid": "801-B",
+    "url": "https://codeforces.com/contest/801/problem/B",
+    "tags": [
+        "constructive algorithms",
+        " greedy",
+        " strings"
+    ],
+    "title": "801-B",
+    "statement": "B. Valued Keystime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou found a mysterious functionf. The function takes two stringss1ands2. These strings must consist only of lowercase English letters, and must be the same length.The output of the functionfis another string of the same length. Thei-th character of the output is equal to the minimum of thei-th character ofs1and thei-th character ofs2.For example,f(\"ab\", \"ba\")= \"aa\", andf(\"nzwzl\", \"zizez\")= \"niwel\".You found two stringsxandyof the same length and consisting of only lowercase English letters. Find any stringzsuch thatf(x,z) =y, or print-1if no such stringzexists.InputThe first line of input contains the stringx.The second line of input contains the stringy.Bothxandyconsist only of lowercase English letters,xandyhave same length and this length is between1and100.OutputIf there is no stringzsuch thatf(x,z) =y, print-1.Otherwise, print a stringzsuch thatf(x,z) =y. If there are multiple possible answers, print any of them. The stringzshould be the same length asxandyand consist only of lowercase English letters.ExamplesInputabaaOutputbaInputnzwzlniwelOutputxiyezInputabbaOutput-1NoteThe first case is from the statement.Another solution for the second case is \"zizez\"There is no solution for the third case. That is, there is nozsuch thatf(\"ab\",z) =\"ba\".",
+    "source": "CF",
+    "vjudge": false
+}

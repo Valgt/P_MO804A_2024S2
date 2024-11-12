@@ -1,0 +1,12 @@
+{
+    "uid": "215-C",
+    "url": "https://codeforces.com/contest/215/problem/C",
+    "tags": [
+        "brute force",
+        " implementation"
+    ],
+    "title": "215-C",
+    "statement": "C. Crossestime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutThere is a board with a grid consisting ofnrows andmcolumns, the rows are numbered from1from top to bottom and the columns are numbered from1from left to right. In this grid we will denote the cell that lies on row numberiand column numberjas(i,j).A group of six numbers(a,b,c,d,x0,y0), where0 ≤a,b,c,d, is across, and there is a set of cells that are assigned to it. Cell(x,y)belongs to this set ifat least oneof two conditions are fulfilled:|x0-x| ≤aand|y0-y| ≤b|x0-x| ≤cand|y0-y| ≤dThe picture shows the cross(0, 1, 1, 0, 2, 3)on the grid3 × 4.Your task is to find the number of different groups of six numbers,(a,b,c,d,x0,y0)that determine the crosses of an area equal tos, which are placed entirely on the grid. The cross is placed entirely on the grid, if any of its cells is in the range of the grid (that is for each cell(x,y)of the cross1 ≤x≤n; 1 ≤y≤mholds). The area of the cross is the number of cells it has.Note that two crosses are considered distinct if the ordered groups of six numbers that denote them are distinct, even if these crosses coincide as sets of points.InputThe input consists of a single line containing three integersn,mands(1 ≤n,m≤ 500,1 ≤s≤n·m). The integers are separated by a space.OutputPrint a single integer — the number of distinct groups of six integers that denote crosses with areasand that are fully placed on then×mgrid.Please, do not use the%lldspecifier to read or write 64-bit integers in С++. It is preferred to use the cin, cout streams or the%I64dspecifier.ExamplesInput2 2 1Output4Input3 4 5Output4NoteIn the first sample the sought groups of six numbers are:(0, 0, 0, 0, 1, 1),(0, 0, 0, 0, 1, 2),(0, 0, 0, 0, 2, 1),(0, 0, 0, 0, 2, 2).In the second sample the sought groups of six numbers are:(0, 1, 1, 0, 2, 2),(0, 1, 1, 0, 2, 3),(1, 0, 0, 1, 2, 2),(1, 0, 0, 1, 2, 3).",
+    "source": "CF",
+    "vjudge": false
+}

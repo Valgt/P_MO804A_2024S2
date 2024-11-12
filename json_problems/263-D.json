@@ -1,0 +1,12 @@
+{
+    "uid": "263-D",
+    "url": "https://codeforces.com/contest/263/problem/D",
+    "tags": [
+        "dfs and similar",
+        " graphs"
+    ],
+    "title": "263-D",
+    "statement": "D. Cycle in Graphtime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutYou've got a undirected graphG, consisting ofnnodes. We will consider the nodes of the graph indexed by integers from 1 ton. We know that each node of graphGis connected by edges with at leastkother nodes of this graph. Your task is to find in the given graph a simple cycle of length of at leastk+ 1.Asimple cycleof lengthd(d> 1)in graphGis a sequence of distinct graph nodesv1,v2, ...,vdsuch, that nodesv1andvdare connected by an edge of the graph, also for any integeri(1 ≤i<d)nodesviandvi+ 1are connected by an edge of the graph.InputThe first line contains three integersn,m,k(3 ≤n,m≤ 105; 2 ≤k≤n- 1)— the number of the nodes of the graph, the number of the graph's edges and the lower limit on the degree of the graph node. Nextmlines contain pairs of integers. Thei-th line contains integersai,bi(1 ≤ai,bi≤n;ai≠bi)— the indexes of the graph nodes that are connected by thei-th edge.It is guaranteed that the given graph doesn't contain any multiple edges or self-loops. It is guaranteed that each node of the graph is connected by the edges with at leastkother nodes of the graph.OutputIn the first line print integerr(r≥k+ 1)— the length of the found cycle. In the next line printrdistinct integersv1,v2, ...,vr(1 ≤vi≤n)— the found simple cycle.It is guaranteed that the answer exists. If there are multiple correct answers, you are allowed to print any of them.ExamplesInput3 3 21 22 33 1Output31 2 3Input4 6 34 31 21 31 42 32 4Output43 4 1 2",
+    "source": "CF",
+    "vjudge": false
+}

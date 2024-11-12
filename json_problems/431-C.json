@@ -1,0 +1,13 @@
+{
+    "uid": "431-C",
+    "url": "https://codeforces.com/contest/431/problem/C",
+    "tags": [
+        "dp",
+        " implementation",
+        " trees"
+    ],
+    "title": "431-C",
+    "statement": "C. k-Treetime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutQuite recently a creative student Lesha had a lecture on trees. After the lecture Lesha was inspired and came up with the tree of his own which he called ak-tree.Ak-tree is an infinite rooted tree where:each vertex has exactlykchildren;each edge has some weight;if we look at the edges that goes from some vertex to its children (exactlykedges), then their weights will equal1, 2, 3, ...,k.The picture below shows a part of a 3-tree.As soon as Dima, a good friend of Lesha, found out about the tree, he immediately wondered: \"How many paths of total weightn(the sum of all weights of the edges in the path) are there, starting from the root of ak-tree and also containing at least one edge of weight at leastd?\".Help Dima find an answer to his question. As the number of ways can be rather large, print it modulo1000000007(109+ 7).InputA single line contains three space-separated integers:n,kandd(1 ≤n,k≤ 100;1 ≤d≤k).OutputPrint a single integer — the answer to the problem modulo1000000007(109+ 7).ExamplesInput3 3 2Output3Input3 3 3Output1Input4 3 2Output6Input4 5 2Output7",
+    "source": "CF",
+    "vjudge": false
+}

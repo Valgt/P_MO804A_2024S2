@@ -1,0 +1,13 @@
+{
+    "uid": "741-B",
+    "url": "https://codeforces.com/contest/741/problem/B",
+    "tags": [
+        "dfs and similar",
+        " dp",
+        " dsu"
+    ],
+    "title": "741-B",
+    "statement": "B. Arpa's weak amphitheater and Mehrdad's valuable Hosestime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputJust to remind, girls in Arpa's land are really nice.Mehrdad wants to invite some Hoses to the palace for a dancing party. Each Hos has some weightwiand some beautybi. Also each Hos may have some friends. Hoses are divided in some friendship groups. Two Hosesxandyare in the same friendship group if and only if there is a sequence of Hosesa1,a2, ...,aksuch thataiandai+ 1are friends for each1 ≤i<k, anda1=xandak=y.Arpa allowed to use the amphitheater of palace to Mehrdad for this party. Arpa's amphitheater can hold at mostwweight on it.Mehrdad is so greedy that he wants to invite some Hoses such that sum of their weights is not greater thanwand sum of their beauties is as large as possible. Along with that, from each friendship group he can either invite all Hoses, or no more than one. Otherwise, some Hoses will be hurt. Find for Mehrdad the maximum possible total beauty of Hoses he can invite so that no one gets hurt and the total weight doesn't exceedw.InputThe first line contains integersn,mandw(1  ≤n≤  1000,,1 ≤w≤ 1000) — the number of Hoses, the number of pair of friends and the maximum total weight of those who are invited.The second line containsnintegersw1,w2, ...,wn(1 ≤wi≤ 1000) — the weights of the Hoses.The third line containsnintegersb1,b2, ...,bn(1 ≤bi≤ 106) — the beauties of the Hoses.The nextmlines contain pairs of friends, thei-th of them contains two integersxiandyi(1 ≤xi,yi≤n,xi≠yi), meaning that Hosesxiandyiare friends. Note that friendship is bidirectional. All pairs(xi,yi)are distinct.OutputPrint the maximum possible total beauty of Hoses Mehrdad can invite so that no one gets hurt and the total weight doesn't exceedw.ExamplesInput3 1 53 2 52 4 21 2Output6Input4 2 112 4 6 66 4 2 11 22 3Output7NoteIn the first sample there are two friendship groups: Hoses{1, 2}and Hos{3}. The best way is to choose all of Hoses in the first group, sum of their weights is equal to5and sum of their beauty is6.In the second sample there are two friendship groups: Hoses{1, 2, 3}and Hos{4}. Mehrdad can't invite all the Hoses from the first group because their total weight is12 > 11, thus the best way is to choose the first Hos from the first group and the only one from the second group. The total weight will be8, and the total beauty will be7.",
+    "source": "CF",
+    "vjudge": false
+}

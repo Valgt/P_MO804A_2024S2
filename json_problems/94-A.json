@@ -1,0 +1,12 @@
+{
+    "uid": "94-A",
+    "url": "https://codeforces.com/contest/94/problem/A",
+    "tags": [
+        "implementation",
+        " strings"
+    ],
+    "title": "94-A",
+    "statement": "A. Restoring Passwordtime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutIgor K. always used to trust his favorite Kashpirovsky Antivirus. That is why he didn't hesitate to download the link one of his groupmates sent him via QIP Infinium. The link was said to contain \"some real funny stuff about swine influenza\". The antivirus had no objections and Igor K. run the flash application he had downloaded. Immediately his QIP Infinium said: \"invalid login/password\".Igor K. entered the ISQ from his additional account and looked at the info of his main one. His name and surname changed to \"H1N1\" and \"Infected\" correspondingly, and the \"Additional Information\" field contained a strange-looking binary code80characters in length, consisting of zeroes and ones. \"I've been hacked\" — thought Igor K. and run the Internet Exploiter browser to quickly type his favourite search engine's address.Soon he learned that it really was a virus that changed ISQ users' passwords. Fortunately, he soon found out that the binary code was actually the encrypted password where each group of10characters stood for one decimal digit. Accordingly, the original password consisted of8decimal digits.Help Igor K. restore his ISQ account by the encrypted password and encryption specification.InputThe input data contains11lines. The first line represents the binary code80characters in length. That is the code written in Igor K.'s ISQ account's info. Next10lines contain pairwise distinct binary codes10characters in length, corresponding to numbers 0, 1, ..., 9.OutputPrint one line containing8characters — The password to Igor K.'s ISQ account. It is guaranteed that the solution exists.ExamplesInput010011001001011000000101100010010110010001011001100101101000010110101001011011000100110000010011001001011000000101100010010110010001011001100101101000010110101001011011000101101110Output12345678Input101011011110010000101001000110101011011100101101110110001000110111100101100010001001000010110111100110010001101010110111001011011111010011011011000001111001010110110110000110001000Output30234919",
+    "source": "CF",
+    "vjudge": false
+}

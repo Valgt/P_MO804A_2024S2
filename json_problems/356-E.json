@@ -1,0 +1,15 @@
+{
+    "uid": "356-E",
+    "url": "https://codeforces.com/contest/356/problem/E",
+    "tags": [
+        "dp",
+        " hashing",
+        " implementation",
+        " string suffix structures",
+        " strings"
+    ],
+    "title": "356-E",
+    "statement": "E. Xenia and String Problemtime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutXenia the coder went to The Olympiad of Informatics and got a string problem. Unfortunately, Xenia isn't fabulous in string algorithms. Help her solve the problem.Stringsis a sequence of characterss1s2...s|s|, where record|s|shows the length of the string.Substrings[i...j]of stringsis stringsisi+ 1...sj.Stringsis aGraystring, if it meets the conditions:the length of string|s|is odd;characteroccurs exactly once in the string;either|s| = 1, or substringsandare the same and are Gray strings.For example, strings \"abacaba\", \"xzx\", \"g\" are Gray strings and strings \"aaa\", \"xz\", \"abaxcbc\" are not.Thebeautyof stringpis the sum of the squares of the lengths of all substrings of stringpthat are Gray strings. In other words, consider all pairs of valuesi,j(1 ≤i≤j≤ |p|). If substringp[i...j]is a Gray string, you should add(j-i+ 1)2to the beauty.Xenia has got stringtconsisting of lowercase English letters. She is allowed to replace at most one letter of the string by any other English letter. The task is to get a string of maximum beauty.InputThe first line contains a non-empty stringt(1 ≤ |t| ≤ 105). Stringtonly consists of lowercase English letters.OutputPrint the sought maximum beauty value Xenia can get.Please do not use the%lldspecifier to read or write 64-bit integers in С++. It is preferred to use thecin,coutstreams or the%I64dspecifier.ExamplesInputzzzOutput12InputabaOutput12InputabacabaOutput83InputaaaaaaOutput15NoteIn the first test sample the given string can be transformed into stringp= \"zbz\". Such string contains Gray strings as substringsp[1... 1],p[2... 2],p[3... 3]иp[1... 3]. In total, the beauty of stringpgets equal to12+ 12+ 12+ 32= 12. You can't obtain a more beautiful string.In the second test case it is not necessary to perform any operation. The initial string has the maximum possible beauty.",
+    "source": "CF",
+    "vjudge": false
+}

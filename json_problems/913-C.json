@@ -1,0 +1,13 @@
+{
+    "uid": "913-C",
+    "url": "https://codeforces.com/contest/913/problem/C",
+    "tags": [
+        "bitmasks",
+        " dp",
+        " greedy"
+    ],
+    "title": "913-C",
+    "statement": "C. Party Lemonadetime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputA New Year party is not a New Year party without lemonade! As usual, you are expecting a lot of guests, and buying lemonade has already become a pleasant necessity.Your favorite store sells lemonade in bottles ofndifferent volumes at different costs. A single bottle of typeihas volume2i- 1liters and costsciroubles. The number of bottles of each type in the store can be considered infinite.You want to buy at leastLliters of lemonade. How many roubles do you have to spend?InputThe first line contains two integersnandL(1 ≤n≤ 30;1 ≤L≤ 109) — the number of types of bottles in the store and the required amount of lemonade in liters, respectively.The second line containsnintegersc1,c2, ...,cn(1 ≤ci≤ 109) — the costs of bottles of different types.OutputOutput a single integer — the smallest number of roubles you have to pay in order to buy at leastLliters of lemonade.ExamplesInput4 1220 30 70 90Output150Input4 310000 1000 100 10Output10Input4 310 100 1000 10000Output30Input5 787787787123456789 234567890 345678901 456789012 987654321Output44981600785557577NoteIn the first example you should buy one 8-liter bottle for 90 roubles and two 2-liter bottles for 30 roubles each. In total you'll get 12 liters of lemonade for just 150 roubles.In the second example, even though you need only 3 liters, it's cheaper to buy a single 8-liter bottle for 10 roubles.In the third example it's best to buy three 1-liter bottles for 10 roubles each, getting three liters for 30 roubles.",
+    "source": "CF",
+    "vjudge": false
+}

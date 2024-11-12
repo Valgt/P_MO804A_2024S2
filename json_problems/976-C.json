@@ -1,0 +1,13 @@
+{
+    "uid": "976-C",
+    "url": "https://codeforces.com/contest/976/problem/C",
+    "tags": [
+        "greedy",
+        " implementation",
+        " sortings"
+    ],
+    "title": "976-C",
+    "statement": "C. Nested Segmentstime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given a sequencea1,a2, ...,anof one-dimensional segments numbered1throughn. Your task is to find two distinct indicesiandjsuch that segmentailies within segmentaj.Segment[l1,r1]lies within segment[l2,r2]iffl1≥l2andr1≤r2.Print indicesiandj. If there are multiple answers, print any of them. If no answer exists, print-1 -1.InputThe first line contains one integern(1 ≤n≤ 3·105) — the number of segments.Each of the nextnlines contains two integersliandri(1 ≤li≤ri≤ 109) — thei-th segment.OutputPrint two distinct indicesiandjsuch that segmentailies within segmentaj. If there are multiple answers, print any of them. If no answer exists, print-1 -1.ExamplesInput51 102 93 92 32 9Output2 1Input31 52 66 20Output-1 -1NoteIn the first example the following pairs are considered correct:(2, 1), (3, 1), (4, 1), (5, 1)— not even touching borders;(3, 2), (4, 2), (3, 5), (4, 5)— touch one border;(5, 2), (2, 5)— match exactly.",
+    "source": "CF",
+    "vjudge": false
+}

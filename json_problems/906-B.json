@@ -1,0 +1,13 @@
+{
+    "uid": "906-B",
+    "url": "https://codeforces.com/contest/906/problem/B",
+    "tags": [
+        "brute force",
+        " constructive algorithms",
+        " math"
+    ],
+    "title": "906-B",
+    "statement": "B. Seating of Studentstime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputStudents went into a class to write a test and sat in some way. The teacher thought: \"Probably they sat in this order to copy works of each other. I need to rearrange them in such a way that students that were neighbors are not neighbors in a new seating.\"The class can be represented as a matrix withnrows andmcolumns with a student in each cell. Two students are neighbors if cells in which they sit have a common side.Let's enumerate students from1ton·min order of rows. So a student who initially sits in the cell in rowiand columnjhas a number(i- 1)·m+j. You have to find a matrix withnrows andmcolumns in which all numbers from1ton·mappear exactly once and adjacent numbers in the original matrix are not adjacent in it, or determine that there is no such matrix.InputThe only line contains two integersnandm(1 ≤n,m≤ 105;n·m≤ 105) — the number of rows and the number of columns in the required matrix.OutputIf there is no such matrix, output \"NO\" (without quotes).Otherwise in the first line output \"YES\" (without quotes), and in the nextnlines outputmintegers which form the required matrix.ExamplesInput2 4OutputYES5 4 7 23 6 1 8Input2 1OutputNONoteIn the first test case the matrix initially looks like this:1 2 3 45 6 7 8It's easy to see that there are no two students that are adjacent in both matrices.In the second test case there are only two possible seatings and in both of them students with numbers 1 and 2 are neighbors.",
+    "source": "CF",
+    "vjudge": false
+}

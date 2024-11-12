@@ -1,0 +1,14 @@
+{
+    "uid": "1354-B",
+    "url": "https://codeforces.com/contest/1354/problem/B",
+    "tags": [
+        "binary search",
+        " dp",
+        " implementation",
+        " two pointers"
+    ],
+    "title": "1354-B",
+    "statement": "B. Ternary Stringtime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given a string $$$s$$$ such that each its character is either1,2, or3. You have to choose the shortest contiguous substring of $$$s$$$ such that it contains each of these three characters at least once.A contiguous substring of string $$$s$$$ is a string that can be obtained from $$$s$$$ by removing some (possibly zero) characters from the beginning of $$$s$$$ and some (possibly zero) characters from the end of $$$s$$$.InputThe first line contains one integer $$$t$$$ ($$$1 \\\\le t \\\\le 20000$$$) — the number of test cases.Each test case consists of one line containing the string $$$s$$$ ($$$1 \\\\le |s| \\\\le 200000$$$). It is guaranteed that each character of $$$s$$$ is either1,2, or3.The sum of lengths of all strings in all test cases does not exceed $$$200000$$$.OutputFor each test case, print one integer — the length of the shortest contiguous substring of $$$s$$$ containing all three types of characters at least once. If there is no such substring, print $$$0$$$ instead.ExampleInput7 123 12222133333332 112233 332211 12121212 333333 31121Output3 3 4 4 0 0 4NoteConsider the example test:In the first test case, the substring123can be used.In the second test case, the substring213can be used.In the third test case, the substring1223can be used.In the fourth test case, the substring3221can be used.In the fifth test case, there is no character3in $$$s$$$.In the sixth test case, there is no character1in $$$s$$$.In the seventh test case, the substring3112can be used.",
+    "source": "CF",
+    "vjudge": false
+}

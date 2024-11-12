@@ -1,0 +1,12 @@
+{
+    "uid": "902-A",
+    "url": "https://codeforces.com/contest/902/problem/A",
+    "tags": [
+        "greedy",
+        " implementation"
+    ],
+    "title": "902-A",
+    "statement": "A. Visiting a Friendtime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputPig is visiting a friend.Pig's house is located at point0, and his friend's house is located at pointmon an axis.Pig can use teleports to move along the axis.To use a teleport, Pig should come to a certain point (where the teleport is located) and choose where to move: for each teleport there is the rightmost point it can move Pig to, this point is known as the limit of the teleport.Formally, a teleport located at pointxwith limitycan move Pig from pointxto any point within the segment[x;y], including the bounds.Determine if Pig can visit the friend using teleports only, or he should use his car.InputThe first line contains two integersnandm(1 ≤n≤ 100, 1 ≤m≤ 100) — the number of teleports and the location of the friend's house.The nextnlines contain information about teleports.Thei-th of these lines contains two integersaiandbi(0 ≤ai≤bi≤m), whereaiis the location of thei-th teleport, andbiis its limit.It is guaranteed thatai≥ai- 1for everyi(2 ≤i≤n).OutputPrint \"YES\" if there is a path from Pig's house to his friend's house that uses only teleports, and \"NO\" otherwise.You can print each letter in arbitrary case (upper or lower).ExamplesInput3 50 22 43 5OutputYESInput3 70 42 56 7OutputNONoteThe first example is shown on the picture below:Pig can use the first teleport from his house (point0) to reach point2, then using the second teleport go from point2to point3, then using the third teleport go from point3to point5, where his friend lives.The second example is shown on the picture below:You can see that there is no path from Pig's house to his friend's house that uses only teleports.",
+    "source": "CF",
+    "vjudge": false
+}

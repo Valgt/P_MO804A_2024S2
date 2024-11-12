@@ -1,0 +1,14 @@
+{
+    "uid": "463-D",
+    "url": "https://codeforces.com/contest/463/problem/D",
+    "tags": [
+        "dfs and similar",
+        " dp",
+        " graphs",
+        " implementation"
+    ],
+    "title": "463-D",
+    "statement": "D. Gargari and Permutationstime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutGargari got bored to play with the bishops and now, after solving the problem about them, he is trying to do math homework. In a math book he have foundkpermutations. Each of them consists of numbers1, 2, ...,nin some order. Now he should find the length of the longest common subsequence of these permutations. Can you help Gargari?You can read about longest common subsequence there:https://en.wikipedia.org/wiki/Longest_common_subsequence_problemInputThe first line contains two integersnandk(1 ≤n≤ 1000; 2 ≤k≤ 5). Each of the nextklines contains integers1, 2, ...,nin some order — description of the current permutation.OutputPrint the length of the longest common subsequence.ExamplesInput4 31 4 2 34 1 2 31 2 4 3Output3NoteThe answer for the first test sample is subsequence [1, 2, 3].",
+    "source": "CF",
+    "vjudge": false
+}

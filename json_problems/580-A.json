@@ -1,0 +1,13 @@
+{
+    "uid": "580-A",
+    "url": "https://codeforces.com/contest/580/problem/A",
+    "tags": [
+        "brute force",
+        " dp",
+        " implementation"
+    ],
+    "title": "580-A",
+    "statement": "A. Kefa and First Stepstime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputKefa decided to make some money doing business on the Internet for exactlyndays. He knows that on thei-th day (1 ≤i≤n) he makesaimoney. Kefa loves progress, that's why he wants to know the length of the maximum non-decreasing subsegment in sequenceai. Let us remind you that the subsegment of the sequence is its continuous fragment. A subsegment of numbers is called non-decreasing if all numbers in it follow in the non-decreasing order.Help Kefa cope with this task!InputThe first line contains integern(1 ≤n≤ 105).The second line containsnintegersa1,a2,  ...,an(1 ≤ai≤ 109).OutputPrint a single integer — the length of the maximum non-decreasing subsegment of sequencea.ExamplesInput62 2 1 3 4 1Output3Input32 2 9Output3NoteIn the first test the maximum non-decreasing subsegment is the numbers from the third to the fifth one.In the second test the maximum non-decreasing subsegment is the numbers from the first to the third one.",
+    "source": "CF",
+    "vjudge": false
+}

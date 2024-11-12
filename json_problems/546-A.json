@@ -1,0 +1,13 @@
+{
+    "uid": "546-A",
+    "url": "https://codeforces.com/contest/546/problem/A",
+    "tags": [
+        "brute force",
+        " implementation",
+        " math"
+    ],
+    "title": "546-A",
+    "statement": "A. Soldier and Bananastime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputA soldier wants to buywbananas in the shop. He has to paykdollars for the first banana,2kdollars for the second one and so on (in other words, he has to payi·kdollars for thei-th banana).He hasndollars. How many dollars does he have to borrow from his friend soldier to buywbananas?InputThe first line contains three positive integersk,n,w(1  ≤k,w≤  1000,0 ≤n≤ 109), the cost of the first banana, initial number of dollars the soldier has and number of bananas he wants.OutputOutput one integer — the amount of dollars that the soldier must borrow from his friend. If he doesn't have to borrow money, output0.ExamplesInput3 17 4Output13",
+    "source": "CF",
+    "vjudge": false
+}

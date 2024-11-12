@@ -1,0 +1,12 @@
+{
+    "uid": "915-C",
+    "url": "https://codeforces.com/contest/915/problem/C",
+    "tags": [
+        "dp",
+        " greedy"
+    ],
+    "title": "915-C",
+    "statement": "C. Permute Digitstime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given two positive integer numbersaandb. Permute (change order) of the digits ofato construct maximal number not exceedingb. No number in input and/or output can start with the digit0.It is allowed to leaveaas it is.InputThe first line contains integera(1 ≤a≤ 1018). The second line contains integerb(1 ≤b≤ 1018). Numbers don't have leading zeroes. It is guaranteed that answer exists.OutputPrint the maximum possible number that is a permutation of digits ofaand is not greater thanb. The answer can't have any leading zeroes. It is guaranteed that the answer exists.The number in the output should have exactly the same length as numbera. It should be a permutation of digits ofa.ExamplesInput123222Output213Input392110000Output9321Input49405000Output4940",
+    "source": "CF",
+    "vjudge": false
+}

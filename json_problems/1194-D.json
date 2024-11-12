@@ -1,0 +1,12 @@
+{
+    "uid": "1194-D",
+    "url": "https://codeforces.com/contest/1194/problem/D",
+    "tags": [
+        "games",
+        " math"
+    ],
+    "title": "1194-D",
+    "statement": "D. 1-2-K Gametime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputAlice and Bob play a game. There is a paper strip which is divided inton+ 1cells numbered from left to right starting from0. There is a chip placed in then-th cell (the last one).Players take turns, Alice is first. Each player during his or her turn has to move the chip1,2orkcells to the left (so, if the chip is currently in the celli, the player can move it into celli- 1,i- 2ori-k). The chip should not leave the borders of the paper strip: it is impossible, for example, to move itkcells to the left if the current cell has numberi<k. The player who can't make a move loses the game.Who wins if both participants play optimally?Alice and Bob would like to play several games, so you should determine the winner in each game.InputThe first line contains the single integerT(1 ≤T≤ 100) — the number of games. NextTlines contain one game per line. All games are independent.Each of the nextTlines contains two integersnandk(0 ≤n≤ 109,3 ≤k≤ 109) — the length of the strip and the constant denoting the third move, respectively.OutputFor each game, printAliceif Alice wins this game andBobotherwise.ExampleInput40 33 33 44 4OutputBobAliceBobAlice",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,11 @@
+{
+    "uid": "327-B",
+    "url": "https://codeforces.com/contest/327/problem/B",
+    "tags": [
+        "math"
+    ],
+    "title": "327-B",
+    "statement": "B. Hungry Sequencetime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutIahub and Iahubina went to a date at a luxury restaurant. Everything went fine until paying for the food. Instead of money, the waiter wants Iahub to write a Hungry sequence consisting ofnintegers.A sequencea1,a2, ...,an, consisting ofnintegers, isHungryif and only if:Its elements are in increasing order. That is an inequalityai<ajholds for any two indicesi,j(i<j).For any two indicesiandj(i<j),ajmustnotbe divisible byai.Iahub is in trouble, so he asks you for help. Find a Hungry sequence withnelements.InputThe input contains a single integer:n(1 ≤n≤ 105).OutputOutput a line that containsnspace-separated integersa1a2, ...,an(1 ≤ai≤ 107), representing a possible Hungry sequence. Note, that eachaimust not be greater than10000000(107) and less than1.If there are multiple solutions you can output any one.ExamplesInput3Output2 9 15Input5Output11 14 20 27 31",
+    "source": "CF",
+    "vjudge": false
+}

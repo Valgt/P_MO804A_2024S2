@@ -1,0 +1,12 @@
+{
+    "uid": "285-A",
+    "url": "https://codeforces.com/contest/285/problem/A",
+    "tags": [
+        "greedy",
+        " implementation"
+    ],
+    "title": "285-A",
+    "statement": "A. Slightly Decreasing Permutationstime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutPermutationpis an ordered set of integersp1,p2,  ...,pn, consisting ofndistinct positive integers, each of them doesn't exceedn. We'll denote thei-th element of permutationpaspi. We'll call numbernthe size or the length of permutationp1,p2,  ...,pn.The decreasing coefficient of permutationp1,p2, ...,pnis the number of suchi(1 ≤i<n), thatpi>pi+ 1.You have numbersnandk. Your task is to print the permutation of lengthnwith decreasing coefficientk.InputThe single line contains two space-separated integers:n,k(1 ≤n≤ 105, 0 ≤k<n)— the permutation length and the decreasing coefficient.OutputIn a single line printnspace-separated integers:p1,p2, ...,pn— the permutation of lengthnwith decreasing coefficientk.If there are several permutations that meet this condition, print any of them. It is guaranteed that the permutation with the sought parameters exists.ExamplesInput5 2Output1 5 2 4 3Input3 0Output1 2 3Input3 2Output3 2 1",
+    "source": "CF",
+    "vjudge": false
+}

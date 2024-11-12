@@ -1,0 +1,12 @@
+{
+    "uid": "625-C",
+    "url": "https://codeforces.com/contest/625/problem/C",
+    "tags": [
+        "constructive algorithms",
+        " implementation"
+    ],
+    "title": "625-C",
+    "statement": "C. K-special Tablestime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputPeople do many crazy things to stand out in a crowd. Some of them dance, some learn by heart rules of Russian language, some try to become an outstanding competitive programmers, while others collect funny math objects.Alis is among these collectors. Right now she wants to get one ofk-special tables. In case you forget, the tablen×nis calledk-special if the following three conditions are satisfied:every integer from1ton2appears in the table exactly once;in each row numbers are situated in increasing order;the sum of numbers in thek-th column is maximum possible.Your goal is to help Alice and find at least onek-special table of sizen×n. Both rows and columns are numbered from1ton, with rows numbered from top to bottom and columns numbered from left to right.InputThe first line of the input contains two integersnandk(1 ≤n≤ 500, 1 ≤k≤n) — the size of the table Alice is looking for and the column that should have maximum possible sum.OutputFirst print the sum of the integers in thek-th column of the required table.Nextnlines should contain the description of the table itself: first line should containsnelements of the first row, second line should containnelements of the second row and so on.If there are multiple suitable table, you are allowed to print any.ExamplesInput4 1Output281 2 3 45 6 7 89 10 11 1213 14 15 16Input5 3Output855 6 17 18 199 10 23 24 257 8 20 21 223 4 14 15 161 2 11 12 13",
+    "source": "CF",
+    "vjudge": false
+}

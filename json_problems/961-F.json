@@ -1,0 +1,13 @@
+{
+    "uid": "961-F",
+    "url": "https://codeforces.com/contest/961/problem/F",
+    "tags": [
+        "binary search",
+        " hashing",
+        " string suffix structures"
+    ],
+    "title": "961-F",
+    "statement": "F. k-substringstime limit per test4 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given a stringsconsisting ofnlowercase Latin letters.Let's denotek-substring ofsas a stringsubsk=sksk+ 1..sn+ 1 -k. Obviously,subs1=s, and there are exactlysuch substrings.Let's call some stringtanodd proper suprefixof a stringTiff the following conditions are met:|T| > |t|;|t|is an odd number;tis simultaneously a prefix and a suffix ofT.For eveyk-substring () ofsyou have to calculate the maximum length of its odd proper suprefix.InputThe first line contains one integern(2 ≤n≤ 106)— the lengths.The second line contains the stringsconsisting ofnlowercase Latin letters.OutputPrintintegers.i-th of them should be equal to maximum length of an odd proper suprefix ofi-substring ofs(or- 1, if there is no such string that is an odd proper suprefix ofi-substring).ExamplesInput15bcabcabcabcabcaOutput9 7 5 3 1 -1 -1 -1Input24abaaabaaaabaaabaaaabaaabOutput15 13 11 9 7 5 3 1 1 -1 -1 1Input19cabcabbcabcabbcabcaOutput5 3 1 -1 -1 1 1 -1 -1 -1NoteThe answer for first sample test is folowing:1-substring:bcabcabcabcabca2-substring:cabcabcabcabc3-substring:abcabcabcab4-substring:bcabcabca5-substring:cabcabc6-substring: abcab7-substring: bca8-substring: c",
+    "source": "CF",
+    "vjudge": false
+}

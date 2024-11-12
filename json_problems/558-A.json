@@ -1,0 +1,13 @@
+{
+    "uid": "558-A",
+    "url": "https://codeforces.com/contest/558/problem/A",
+    "tags": [
+        "brute force",
+        " implementation",
+        " sortings"
+    ],
+    "title": "558-A",
+    "statement": "A. Lala Land and Apple Treestime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputAmr lives in Lala Land. Lala Land is a very beautiful country that is located on a coordinate line. Lala Land is famous with its apple trees growing everywhere.Lala Land has exactlynapple trees. Tree numberiis located in a positionxiand hasaiapples growing on it. Amr wants to collect apples from the apple trees. Amr currently stands inx= 0position. At the beginning, he can choose whether to go right or left. He'll continue in his direction until he meets an apple tree he didn't visit before. He'll take all of its apples and then reverse his direction, continue walking in this direction until he meets another apple tree he didn't visit before and so on. In the other words, Amr reverses his direction when visiting each new apple tree. Amr will stop collecting apples when there are no more trees he didn't visit in the direction he is facing.What is the maximum number of apples he can collect?InputThe first line contains one numbern(1 ≤n≤ 100), the number of apple trees in Lala Land.The followingnlines contains two integers eachxi,ai(- 105≤xi≤ 105,xi≠ 0,1 ≤ai≤ 105), representing the position of thei-th tree and number of apples on it.It's guaranteed that there is at most one apple tree at each coordinate. It's guaranteed that no tree grows in point0.OutputOutput the maximum number of apples Amr can collect.ExamplesInput2-1 51 5Output10Input3-2 21 4-1 3Output9Input31 93 57 10Output9NoteIn the first sample test it doesn't matter if Amr chose at first to go left or right. In both cases he'll get all the apples.In the second sample test the optimal solution is to go left tox=  - 1, collect apples from there, then the direction will be reversed, Amr has to go tox= 1, collect apples from there, then the direction will be reversed and Amr goes to the final treex=  - 2.In the third sample test the optimal solution is to go right tox= 1, collect apples from there, then the direction will be reversed and Amr will not be able to collect anymore apples because there are no apple trees to his left.",
+    "source": "CF",
+    "vjudge": false
+}

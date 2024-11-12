@@ -1,0 +1,14 @@
+{
+    "uid": "492-B",
+    "url": "https://codeforces.com/contest/492/problem/B",
+    "tags": [
+        "binary search",
+        " implementation",
+        " math",
+        " sortings"
+    ],
+    "title": "492-B",
+    "statement": "B. Vanya and Lanternstime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutVanya walks late at night along a straight street of lengthl, lit bynlanterns. Consider the coordinate system with the beginning of the street corresponding to the point0, and its end corresponding to the pointl. Then thei-th lantern is at the pointai. The lantern lights all points of the street that are at the distance of at mostdfrom it, wheredis some positive number, common for all lanterns.Vanya wonders: what is the minimum light radiusdshould the lanterns have to light the whole street?InputThe first line contains two integersn,l(1 ≤n≤ 1000,1 ≤l≤ 109) — the number of lanterns and the length of the street respectively.The next line containsnintegersai(0 ≤ai≤l). Multiple lanterns can be located at the same point. The lanterns may be located at the ends of the street.OutputPrint the minimum light radiusd, needed to light the whole street. The answer will be considered correct if its absolute or relative error doesn't exceed10- 9.ExamplesInput7 1515 5 3 7 9 14 0Output2.5000000000Input2 52 5Output2.0000000000NoteConsider the second sample. Atd= 2the first lantern will light the segment[0, 4]of the street, and the second lantern will light segment[3, 5]. Thus, the whole street will be lit.",
+    "source": "CF",
+    "vjudge": false
+}

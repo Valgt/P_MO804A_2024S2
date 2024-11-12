@@ -1,0 +1,12 @@
+{
+    "uid": "976-F",
+    "url": "https://codeforces.com/contest/976/problem/F",
+    "tags": [
+        "flows",
+        " graphs"
+    ],
+    "title": "976-F",
+    "statement": "F. Minimal k-coveringtime limit per test1.5 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given a bipartite graphG= (U,V,E),Uis the set of vertices of the first part,Vis the set of vertices of the second part andEis the set of edges. There might be multiple edges.Let's call some subset of its edgesk-coveringiff the graphhas each of its vertices incident to at leastkedges.Minimalk-coveringis such ak-covering that the size of the subsetis minimal possible.Your task is to find minimalk-covering for each, whereminDegreeis the minimal degree of any vertex in graphG.InputThe first line contains three integersn1,n2andm(1 ≤n1,n2≤ 2000,0 ≤m≤ 2000) — the number of vertices in the first part, the number of vertices in the second part and the number of edges, respectively.Thei-th of the nextmlines contain two integersuiandvi(1 ≤ui≤n1, 1 ≤vi≤n2) — the description of thei-th edge,uiis the index of the vertex in the first part andviis the index of the vertex in the second part.OutputFor eachprint the subset of edges (minimalk-covering) in separate line.The first integercntkof thek-th line is the number of edges in minimalk-covering of the graph. Thencntkintegers follow — original indices of the edges which belong to the minimalk-covering, these indices should be pairwise distinct. Edges are numbered1throughmin order they are given in the input.ExamplesInput3 3 71 22 31 33 23 32 12 1Output03 3 7 46 1 3 6 7 4 5Input1 1 51 11 11 11 11 1Output01 52 4 53 3 4 54 2 3 4 55 1 2 3 4 5",
+    "source": "CF",
+    "vjudge": false
+}

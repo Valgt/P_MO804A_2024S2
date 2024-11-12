@@ -1,0 +1,12 @@
+{
+    "uid": "248-B",
+    "url": "https://codeforces.com/contest/248/problem/B",
+    "tags": [
+        "math",
+        " number theory"
+    ],
+    "title": "248-B",
+    "statement": "B. Chilly Willytime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutChilly Willy loves playing with numbers. He only knows prime numbers that are digits yet. These numbers are2,3,5and7. But Willy grew rather bored of such numbers, so he came up with a few games that were connected with them.Chilly Willy wants to find the minimum number of lengthn, such that it is simultaneously divisible by all numbers Willy already knows (2,3,5and7). Help him with that.A number's length is the number of digits in its decimal representation without leading zeros.InputA single input line contains a single integern(1 ≤n≤ 105).OutputPrint a single integer — the answer to the problem without leading zeroes, or \"-1\" (without the quotes), if the number that meet the problem condition does not exist.ExamplesInput1Output-1Input5Output10080",
+    "source": "CF",
+    "vjudge": false
+}

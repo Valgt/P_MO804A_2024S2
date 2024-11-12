@@ -1,0 +1,14 @@
+{
+    "uid": "961-B",
+    "url": "https://codeforces.com/contest/961/problem/B",
+    "tags": [
+        "data structures",
+        " dp",
+        " implementation",
+        " two pointers"
+    ],
+    "title": "961-B",
+    "statement": "B. Lecture Sleeptime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputYour friend Mishka and you attend a calculus lecture. Lecture lastsnminutes. Lecturer tellsaitheorems during thei-th minute.Mishka is really interested in calculus, though it is so hard to stay awake for all the time of lecture. You are given an arraytof Mishka's behavior. If Mishka is asleep during thei-th minute of the lecture thentiwill be equal to0, otherwise it will be equal to1. When Mishka is awake he writes down all the theorems he is being told —aiduring thei-th minute. Otherwise he writes nothing.You know some secret technique to keep Mishka awake forkminutes straight. However you can use itonly once. You can start using it at the beginning of any minute between1andn-k+ 1. If you use it on some minuteithen Mishka will be awake during minutesjsuch thatand will write down all the theorems lecturer tells.You task is to calculate the maximum number of theorems Mishka will be able to write down if you use your techniqueonly onceto wake him up.InputThe first line of the input contains two integer numbersnandk(1 ≤k≤n≤ 105) — the duration of the lecture in minutes and the number of minutes you can keep Mishka awake.The second line of the input containsninteger numbersa1,a2, ...an(1 ≤ai≤ 104) — the number of theorems lecturer tells during thei-th minute.The third line of the input containsninteger numberst1,t2, ...tn(0 ≤ti≤ 1) — type of Mishka's behavior at thei-th minute of the lecture.OutputPrint only one integer — the maximum number of theorems Mishka will be able to write down if you use your techniqueonly onceto wake him up.ExampleInput6 31 3 5 2 5 41 1 0 1 0 0Output16NoteIn the sample case the better way is to use the secret technique at the beginning of the third minute. Then the number of theorems Mishka will be able to write down will be equal to16.",
+    "source": "CF",
+    "vjudge": false
+}

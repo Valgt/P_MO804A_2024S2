@@ -1,0 +1,14 @@
+{
+    "uid": "432-D",
+    "url": "https://codeforces.com/contest/432/problem/D",
+    "tags": [
+        "dp",
+        " string suffix structures",
+        " strings",
+        " two pointers"
+    ],
+    "title": "432-D",
+    "statement": "D. Prefixes and Suffixestime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutYou have a strings=s1s2...s|s|, where|s|is the length of strings, andsiitsi-th character.Let's introduce several definitions:A substrings[i..j](1 ≤i≤j≤ |s|)of stringsis stringsisi+ 1...sj.The prefix of stringsof lengthl(1 ≤l≤ |s|)is strings[1..l].The suffix of stringsof lengthl(1 ≤l≤ |s|)is strings[|s| -l+ 1..|s|].Your task is, for any prefix of stringswhich matches a suffix of strings, print the number of times it occurs in stringsas a substring.InputThe single line contains a sequence of characterss1s2...s|s|(1 ≤ |s| ≤ 105)— strings. The string only consists of uppercase English letters.OutputIn the first line, print integerk(0 ≤k≤ |s|)— the number of prefixes that match a suffix of strings. Next printklines, in each line print two integerslici. Numberslicimean that the prefix of the lengthlimatches the suffix of lengthliand occurs in stringsas a substringcitimes. Print pairsliciin the order of increasingli.ExamplesInputABACABAOutput31 43 27 1InputAAAOutput31 32 23 1",
+    "source": "CF",
+    "vjudge": false
+}

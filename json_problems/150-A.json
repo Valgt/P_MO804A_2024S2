@@ -1,0 +1,13 @@
+{
+    "uid": "150-A",
+    "url": "https://codeforces.com/contest/150/problem/A",
+    "tags": [
+        "games",
+        " math",
+        " number theory"
+    ],
+    "title": "150-A",
+    "statement": "A. Win or Freezetime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutYou can't possibly imagine how cold our friends are this winter in Nvodsk! Two of them play the following game to warm up: initially a piece of paper has an integerq. During a move a player should write any integer number that is anon-trivialdivisor of the last written number. Then he should run this number of circles around the hotel. Let us remind you that a number's divisor is callednon-trivialif it is different from one and from the divided number itself.The first person whocan't make a move winsas he continues to lie in his warm bed under three blankets while the other one keeps running. Determine which player wins considering that both players play optimally. If the first player wins, print any winning first move.InputThe first line contains the only integerq(1 ≤q≤ 1013).Please do not use the%lldspecificator to read or write 64-bit integers in С++. It is preferred to use thecin,coutstreams or the%I64dspecificator.OutputIn the first line print the number of the winning player (1or2). If the first player wins then the second line should contain another integer — his first move (if the first player can't even make the first move, print0). If there are multiple solutions, print any of them.ExamplesInput6Output2Input30Output16Input1Output10NoteNumber6has only two non-trivial divisors:2and3. It is impossible to make a move after the numbers2and3are written, so both of them are winning, thus, number6is the losing number. A player can make a move and write number6after number30;6, as we know, is a losing number. Thus, this move will bring us the victory.",
+    "source": "CF",
+    "vjudge": false
+}

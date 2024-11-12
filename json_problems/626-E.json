@@ -1,0 +1,13 @@
+{
+    "uid": "626-E",
+    "url": "https://codeforces.com/contest/626/problem/E",
+    "tags": [
+        "binary search",
+        " math",
+        " ternary search"
+    ],
+    "title": "626-E",
+    "statement": "E. Simple Skewnesstime limit per test3 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputDefine thesimple skewnessof a collection of numbers to be the collection's mean minus its median. You are given a list ofn(not necessarily distinct) integers. Find the non-empty subset (with repetition) with the maximum simple skewness.The mean of a collection is the average of its elements. The median of a collection is its middle element when all of its elements are sorted, or the average of its two middle elements if it has even size.InputThe first line of the input contains a single integern(1 ≤n≤ 200 000) — the number of elements in the list.The second line containsnintegersxi(0 ≤xi≤ 1 000 000) — theith element of the list.OutputIn the first line, print a single integerk— the size of the subset.In the second line, printkintegers — the elements of the subset in any order.If there are multiple optimal subsets, print any.ExamplesInput41 2 3 12Output31 2 12Input41 1 2 2Output31 1 2Input21 2Output21 2NoteIn the first case, the optimal subset is, which has mean5, median2, and simple skewness of5 - 2 = 3.In the second case, the optimal subset is. Note that repetition is allowed.In the last case, any subset has the same median and mean, so all have simple skewness of0.",
+    "source": "CF",
+    "vjudge": false
+}

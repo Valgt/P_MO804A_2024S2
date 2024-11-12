@@ -1,0 +1,13 @@
+{
+    "uid": "690-C2",
+    "url": "https://codeforces.com/contest/690/problem/C2",
+    "tags": [
+        "dfs and similar",
+        " graphs",
+        " trees"
+    ],
+    "title": "690-C2",
+    "statement": "C2. Brain Network (medium)time limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputFurther research on zombie thought processes yielded interesting results. As we know from the previous problem, the nervous system of a zombie consists ofnbrains andmbrain connectors joining some pairs of brains together. It was observed that the intellectual abilities of a zombie depend mainly on the topology of its nervous system. More precisely, we define the distance between two brainsuandv(1 ≤u,v≤n) as the minimum number of brain connectors used when transmitting a thought between these two brains. The brain latency of a zombie is defined to be the maximum distance between any two of its brains. Researchers conjecture that the brain latency is the crucial parameter which determines how smart a given zombie is. Help them test this conjecture by writing a program to compute brain latencies of nervous systems.In this problem you may assume that any nervous system given in the input is valid, i.e., it satisfies conditions (1) and (2) from the easy version.InputThe first line of the input contains two space-separated integersnandm(1 ≤n,m≤ 100000) denoting the number of brains (which are conveniently numbered from1ton) and the number of brain connectors in the nervous system, respectively. In the nextmlines, descriptions of brain connectors follow. Every connector is given as a pair of brainsabit connects (1 ≤a,b≤nanda≠b).OutputPrint one number – the brain latency.ExamplesInput4 31 21 31 4Output2Input5 41 22 33 43 5Output3",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,12 @@
+{
+    "uid": "520-C",
+    "url": "https://codeforces.com/contest/520/problem/C",
+    "tags": [
+        "math",
+        " strings"
+    ],
+    "title": "520-C",
+    "statement": "C. DNA Alignmenttime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputVasya became interested in bioinformatics. He's going to write an article about similar cyclic DNA sequences, so he invented a new method for determining the similarity of cyclic sequences.Let's assume that stringssandthave the same lengthn, then the functionh(s,t)is defined as the number of positions in which the respective symbols ofsandtarethe same. Functionh(s,t)can be used to define the function of Vasya distanceρ(s,t):whereis obtained from strings, by applying left circular shiftitimes. For example,ρ(\"AGC\", \"CGT\") =h(\"AGC\", \"CGT\") +h(\"AGC\", \"GTC\") +h(\"AGC\", \"TCG\") +h(\"GCA\", \"CGT\") +h(\"GCA\", \"GTC\") +h(\"GCA\", \"TCG\") +h(\"CAG\", \"CGT\") +h(\"CAG\", \"GTC\") +h(\"CAG\", \"TCG\") =1 + 1 + 0 + 0 + 1 + 1 + 1 + 0 + 1 = 6Vasya found a stringsof lengthnon the Internet. Now he wants to count how many stringstthere are such that the Vasya distance from the stringsattains maximum possible value. Formally speaking,tmust satisfy the equation:.Vasya could not try all possible strings to find an answer, so he needs your help. As the answer may be very large, count the number of such strings modulo109+ 7.InputThe first line of the input contains a single integern(1 ≤n≤ 105).The second line of the input contains a single string of lengthn, consisting of characters\"ACGT\".OutputPrint a single number — the answer modulo109+ 7.ExamplesInput1COutput1Input2AGOutput4Input3TTTOutput1NotePlease note that if for two distinct stringst1andt2valuesρ(s,t1)иρ(s,t2)are maximum among all possiblet, then both strings must be taken into account in the answer even if one of them can be obtained by a circular shift of another one.In the first sample, there isρ(\"C\", \"C\") = 1, for the remaining stringstof length 1 the value ofρ(s,t)is 0.In the second sample,ρ(\"AG\", \"AG\") = ρ(\"AG\", \"GA\") = ρ(\"AG\", \"AA\") = ρ(\"AG\", \"GG\") = 4.In the third sample,ρ(\"TTT\", \"TTT\") = 27",
+    "source": "CF",
+    "vjudge": false
+}

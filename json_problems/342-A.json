@@ -1,0 +1,12 @@
+{
+    "uid": "342-A",
+    "url": "https://codeforces.com/contest/342/problem/A",
+    "tags": [
+        "greedy",
+        " implementation"
+    ],
+    "title": "342-A",
+    "statement": "A. Xenia and Divisorstime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutXenia the mathematician has a sequence consisting ofn(nis divisible by 3) positive integers, each of them is at most 7. She wants to split the sequence into groups of three so that for each group of threea,b,cthe following conditions held:a<b<c;adividesb,bdividesc.Naturally, Xenia wants each element of the sequence to belong to exactly one group of three. Thus, if the required partition exists, then it hasgroups of three.Help Xenia, find the required partition or else say that it doesn't exist.InputThe first line contains integern(3 ≤n≤ 99999)— the number of elements in the sequence. The next line containsnpositive integers, each of them is at most 7.It is guaranteed thatnis divisible by 3.OutputIf the required partition exists, printgroups of three. Print each group as values of the elements it contains. You should print values in increasing order. Separate the groups and integers in groups by whitespaces. If there are multiple solutions, you can print any of them.If there is no solution, print -1.ExamplesInput61 1 1 2 2 2Output-1Input62 2 1 1 4 6Output1 2 41 2 6",
+    "source": "CF",
+    "vjudge": false
+}

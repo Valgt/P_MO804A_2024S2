@@ -1,0 +1,14 @@
+{
+    "uid": "407-A",
+    "url": "https://codeforces.com/contest/407/problem/A",
+    "tags": [
+        "brute force",
+        " geometry",
+        " implementation",
+        " math"
+    ],
+    "title": "407-A",
+    "statement": "A. Triangletime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutThere is a right triangle with legs of lengthaandb. Your task is to determine whether it is possible to locate the triangle on the plane in such a way that none of its sides is parallel to the coordinate axes. All the vertices must have integer coordinates. If there exists such a location, you have to output the appropriate coordinates of vertices.InputThe first line contains two integersa,b(1 ≤a,b≤ 1000), separated by a single space.OutputIn the first line print either \"YES\" or \"NO\" (without the quotes) depending on whether the required location exists. If it does, print in the next three lines three pairs of integers — the coordinates of the triangle vertices, one pair per line. The coordinates must be integers, not exceeding109in their absolute value.ExamplesInput1 1OutputNOInput5 5OutputYES2 15 5-2 4Input5 10OutputYES-10 4-2 -21 2",
+    "source": "CF",
+    "vjudge": false
+}

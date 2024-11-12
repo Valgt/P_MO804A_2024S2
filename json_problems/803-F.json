@@ -1,0 +1,13 @@
+{
+    "uid": "803-F",
+    "url": "https://codeforces.com/contest/803/problem/F",
+    "tags": [
+        "bitmasks",
+        " combinatorics",
+        " number theory"
+    ],
+    "title": "803-F",
+    "statement": "F. Coprime Subsequencestime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputLet's call a non-empty sequence of positive integersa1,a2...akcoprimeif the greatest common divisor of all elements of this sequence is equal to1.Given an arrayaconsisting ofnpositive integers, find the number of itscoprimesubsequences. Since the answer may be very large, print it modulo109+ 7.Note that two subsequences are considered different if chosen indices are different. For example, in the array[1, 1]there are3different subsequences:[1],[1]and[1, 1].InputThe first line contains one integer numbern(1 ≤n≤ 100000).The second line containsninteger numbersa1,a2...an(1 ≤ai≤ 100000).OutputPrint the number ofcoprimesubsequences ofamodulo109+ 7.ExamplesInput31 2 3Output5Input41 1 1 1Output15Input71 3 5 15 3 105 35Output100NoteIn the first examplecoprimesubsequences are:11, 21, 31, 2, 32, 3In the second example all subsequences arecoprime.",
+    "source": "CF",
+    "vjudge": false
+}

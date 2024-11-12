@@ -1,0 +1,12 @@
+{
+    "uid": "1984-B",
+    "url": "https://codeforces.com/contest/1984/problem/B",
+    "tags": [
+        "implementation",
+        " math"
+    ],
+    "title": "1984-B",
+    "statement": "B. Large Additiontime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputA digit islargeif it is between $$$5$$$ and $$$9$$$, inclusive. A positive integer islargeif all of its digits are large.You are given an integer $$$x$$$. Can it be the sum of twolargepositive integers with thesame number of digits?InputThe first line contains a single integer $$$t$$$ ($$$1 \\\\leq t \\\\leq 10^4$$$) — the number of test cases.The only line of each test case contains a single integer $$$x$$$ ($$$10 \\\\leq x \\\\leq 10^{18}$$$).OutputFor each test case, output $$$\\\\texttt{YES}$$$ if $$$x$$$ satisfies the condition, and $$$\\\\texttt{NO}$$$ otherwise.You can output $$$\\\\texttt{YES}$$$ and $$$\\\\texttt{NO}$$$ in any case (for example, strings $$$\\\\texttt{yES}$$$, $$$\\\\texttt{yes}$$$, and $$$\\\\texttt{Yes}$$$ will be recognized as a positive response).ExampleInput11133720013939381434987654321234567891111111111111111142019841069119OutputYES NO YES YES NO YES NO YES YES NO NONoteIn the first test case, we can have $$$658 + 679 = 1337$$$.In the second test case, it can be shown that no numbers of equal length and only consisting of large digits can add to $$$200$$$.In the third test case, we can have $$$696\\\\,969 + 696\\\\,969 = 1\\\\,393\\\\,938$$$.In the fourth test case, we can have $$$777 + 657 = 1434$$$.",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,12 @@
+{
+    "uid": "219-A",
+    "url": "https://codeforces.com/contest/219/problem/A",
+    "tags": [
+        "implementation",
+        " strings"
+    ],
+    "title": "219-A",
+    "statement": "A. k-Stringtime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutA string is called ak-string if it can be represented askconcatenated copies of some string. For example, the string \"aabaabaabaab\" is at the same time a 1-string, a 2-string and a 4-string, but it is not a 3-string, a 5-string, or a 6-string and so on. Obviously any string is a 1-string.You are given a strings, consisting of lowercase English letters and a positive integerk. Your task is to reorder the letters in the stringsin such a way that the resulting string is ak-string.InputThe first input line contains integerk(1 ≤k≤ 1000). The second line containss, all characters insare lowercase English letters. The string lengthssatisfies the inequality1 ≤ |s| ≤ 1000, where|s|is the length of strings.OutputRearrange the letters in stringsin such a way that the result is ak-string. Print the result on a single output line. If there are multiple solutions, print any of them.If the solution doesn't exist, print \"-1\" (without quotes).ExamplesInput2aazzOutputazazInput3abcabcabzOutput-1",
+    "source": "CF",
+    "vjudge": false
+}

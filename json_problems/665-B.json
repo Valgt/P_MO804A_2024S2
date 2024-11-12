@@ -1,0 +1,11 @@
+{
+    "uid": "665-B",
+    "url": "https://codeforces.com/contest/665/problem/B",
+    "tags": [
+        "brute force"
+    ],
+    "title": "665-B",
+    "statement": "B. Shoppingtime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputAyush is a cashier at the shopping center. Recently his department has started a ''click and collect\" service which allows users to shop online.The store containskitems.ncustomers have already used the above service. Each user paid formitems. Letaijdenote thej-th item in thei-th person's order.Due to the space limitations all the items are arranged in one single row. When Ayush receives thei-th order he will find one by one all the itemsaij(1 ≤j≤m) in the row. Letpos(x)denote the position of the itemxin the row at the moment of its collection. Then Ayush takes time equal topos(ai1) +pos(ai2) + ... +pos(aim)for thei-th customer.When Ayush accesses thex-th element he keeps a new stock in the front of the row and takes away thex-th element. Thus the values are updating.Your task is to calculate the total time it takes for Ayush to process all the orders.You can assume that the market has endless stock.InputThe first line contains three integersn,mandk(1 ≤n,k≤ 100, 1 ≤m≤k) — the number of users, the number of items each user wants to buy and the total number of items at the market.The next line containskdistinct integerspl(1 ≤pl≤k) denoting the initial positions of the items in the store. The items are numbered with integers from1tok.Each of the nextnlines containsmdistinct integersaij(1 ≤aij≤k) — the order of thei-th person.OutputPrint the only integert— the total time needed for Ayush to process all the orders.ExampleInput2 2 53 4 1 2 51 53 1Output14NoteCustomer1wants the items1and5.pos(1) = 3, so the new positions are:[1, 3, 4, 2, 5].pos(5) = 5, so the new positions are:[5, 1, 3, 4, 2].Time taken for the first customer is3 + 5 = 8.Customer2wants the items3and1.pos(3) = 3, so the new positions are:[3, 5, 1, 4, 2].pos(1) = 3, so the new positions are:[1, 3, 5, 4, 2].Time taken for the second customer is3 + 3 = 6.Total time is8 + 6 = 14.Formallypos(x)is the index ofxin the current row.",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,12 @@
+{
+    "uid": "246-B",
+    "url": "https://codeforces.com/contest/246/problem/B",
+    "tags": [
+        "greedy",
+        " math"
+    ],
+    "title": "246-B",
+    "statement": "B. Increase and Decreasetime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutPolycarpus has an array, consisting ofnintegersa1,a2, ...,an. Polycarpus likes it when numbers in an array match. That's why he wants the array to have as many equal numbers as possible. For that Polycarpus performs the following operation multiple times:he chooses two elements of the arrayai,aj(i≠j);he simultaneously increases numberaiby1and decreases numberajby1, that is, executesai=ai+ 1andaj=aj- 1.The given operation changes exactly two distinct array elements. Polycarpus can apply the described operation an infinite number of times.Now he wants to know what maximum number of equal array elements he can get if he performs an arbitrary number of such operation. Help Polycarpus.InputThe first line contains integern(1 ≤n≤ 105) — the array size. The second line contains space-separated integersa1,a2, ...,an(|ai| ≤ 104) — the original array.OutputPrint a single integer — the maximum number of equal array elements he can get if he performs an arbitrary number of the given operation.ExamplesInput22 1Output1Input31 4 1Output3",
+    "source": "CF",
+    "vjudge": false
+}

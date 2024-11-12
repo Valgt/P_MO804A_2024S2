@@ -1,0 +1,14 @@
+{
+    "uid": "159-E",
+    "url": "https://codeforces.com/contest/159/problem/E",
+    "tags": [
+        "*special",
+        " data structures",
+        " greedy",
+        " sortings"
+    ],
+    "title": "159-E",
+    "statement": "E. Zebra Towertime limit per test1.5 secondsmemory limit per test256 megabytesinputstdinoutputstdoutLittle Janet likes playing with cubes. Actually, she likes to play with anything whatsoever, cubes or tesseracts, as long as they are multicolored. Each cube is described by two parameters — colorciand sizesi. A Zebra Tower is a tower that consists of cubes of exactly two colors. Besides, the colors of the cubes in the tower must alternate (colors of adjacent cubes must differ). The Zebra Tower should have at least two cubes. There are no other limitations. The figure below shows an example of a Zebra Tower.A Zebra Tower's height is the sum of sizes of all cubes that form the tower. Help little Janet build the Zebra Tower of the maximum possible height, using the available cubes.InputThe first line contains an integern(2 ≤n≤ 105) — the number of cubes. Nextnlines contain the descriptions of the cubes, one description per line. A cube description consists of two space-separated integersciandsi(1 ≤ci,si≤ 109) — thei-th cube's color and size, correspondingly. It is guaranteed that there are at least two cubes of different colors.OutputPrint the description of the Zebra Tower of the maximum height in the following form. In the first line print the tower's height, in the second line print the number of cubes that form the tower, and in the third line print the space-separated indices of cubes in the order in which they follow in the tower from the bottom to the top. Assume that the cubes are numbered from 1 tonin the order in which they were given in the input.If there are several existing Zebra Towers with maximum heights, it is allowed to print any of them.Please do not use the%lldspecificator to read or write 64-bit integers in С++. It is preferred to use thecin,coutstreams or the%I64dspecificator.ExamplesInput41 21 32 43 3Output932 3 1Input21 12 1Output222 1",
+    "source": "CF",
+    "vjudge": false
+}

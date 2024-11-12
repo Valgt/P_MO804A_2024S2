@@ -1,0 +1,12 @@
+{
+    "uid": "813-C",
+    "url": "https://codeforces.com/contest/813/problem/C",
+    "tags": [
+        "dfs and similar",
+        " graphs"
+    ],
+    "title": "813-C",
+    "statement": "C. The Tag Gametime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputAlice got tired of playing the tag game by the usual rules so she offered Bob a little modification to it. Now the game should be played on an undirected rooted tree ofnvertices. Vertex1is the root of the tree.Alice starts at vertex1and Bob starts at vertexx(x≠ 1). The moves are made in turns, Bob goes first. In one move one can either stay at the current vertex or travel to the neighbouring one.The game ends when Alice goes to the same vertex where Bob is standing. Alice wants to minimize the total number of moves and Bob wants to maximize it.You should write a program which will determine how many moves will the game last.InputThe first line contains two integer numbersnandx(2 ≤n≤ 2·105,2 ≤x≤n).Each of the nextn- 1lines contains two integer numbersaandb(1 ≤a,b≤n) — edges of the tree. It is guaranteed that the edges form a valid tree.OutputPrint the total number of moves Alice and Bob will make.ExamplesInput4 31 22 32 4Output4Input5 21 22 33 42 5Output6NoteIn the first example the tree looks like this:The red vertex is Alice's starting position, the blue one is Bob's. Bob will make the game run the longest by standing at the vertex3during all the game. So here are the moves:B: stay at vertex3A: go to vertex2B: stay at vertex3A: go to vertex3In the second example the tree looks like this:The moves in the optimal strategy are:B: go to vertex3A: go to vertex2B: go to vertex4A: go to vertex3B: stay at vertex4A: go to vertex4",
+    "source": "CF",
+    "vjudge": false
+}

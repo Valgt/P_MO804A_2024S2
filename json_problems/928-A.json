@@ -1,0 +1,12 @@
+{
+    "uid": "928-A",
+    "url": "https://codeforces.com/contest/928/problem/A",
+    "tags": [
+        "*special",
+        " strings"
+    ],
+    "title": "928-A",
+    "statement": "A. Login Verificationtime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputWhen registering in a social network, users are allowed to create their own convenient login to make it easier to share contacts, print it on business cards, etc.Login is an arbitrary sequence of lower and uppercase latin letters, digits and underline symbols («_»). However, in order to decrease the number of frauds and user-inattention related issues, it is prohibited to register a login if it issimilarwith an already existing login. More precisely, two loginssandtare considered similar if we can transformstotvia a sequence of operations of the following types:transform lowercase letters to uppercase and vice versa;change letter «O» (uppercase latin letter) to digit «0» and vice versa;change digit «1» (one) to any letter among «l» (lowercase latin «L»), «I» (uppercase latin «i») and vice versa, or change one of these letters to other.For example, logins «Codeforces» and «codef0rces» as well as «OO0OOO00O0OOO0O00OOO0OO_lol» and «OO0OOO0O00OOO0O00OO0OOO_1oI» are considered similar whereas «Codeforces» and «Code_forces» are not.You're given a list of existing logins with no twosimilaramonst and a newly created user login. Check whether this new login issimilarwith any of the existing ones.InputThe first line contains a non-empty stringsconsisting of lower and uppercase latin letters, digits and underline symbols («_») with length not exceeding50— the login itself.The second line contains a single integern(1 ≤n≤ 1 000) — the number of existing logins.The nextnlines describe the existing logins, following the same constraints as the user login (refer to the first line of the input). It's guaranteed that no two existing logins are similar.OutputPrint «Yes» (without quotes), if user can register via this login, i.e. none of the existing logins issimilarwith it.Otherwise print «No» (without quotes).ExamplesInput1_wat22_watwat_1OutputYesInput000300ooAoOoOutputNoInput_i_3__i__1_IOutputNoInputLa032a0La11a0OutputNoInputabc1aBcOutputNoInput0Lil2LIL00RilOutputYesNoteIn the second sample case the user wants to create a login consisting of three zeros. It's impossible due to collision with the third among the existing.In the third sample case the new login is similar with the second one.",
+    "source": "CF",
+    "vjudge": false
+}

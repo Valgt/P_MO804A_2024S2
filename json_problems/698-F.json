@@ -1,0 +1,12 @@
+{
+    "uid": "698-F",
+    "url": "https://codeforces.com/contest/698/problem/F",
+    "tags": [
+        "combinatorics",
+        " number theory"
+    ],
+    "title": "698-F",
+    "statement": "F. Coprime Permutationtime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputTwo positive integers are coprime if and only if they don't have a common divisor greater than1.Some bear doesn't want to tell Radewoosh how to solve some algorithmic problem. So, Radewoosh is going to break into that bear's safe with solutions. To pass through the door, he must enter a permutation of numbers1throughn. The door opens if and only if an entered permutationp1,p2, ...,pnsatisfies:In other words, two different elements are coprime if and only if their indices are coprime.Some elements of a permutation may be already fixed. In how many ways can Radewoosh fill the remaining gaps so that the door will open? Print the answer modulo109+ 7.InputThe first line of the input contains one integern(2 ≤n≤ 1 000 000).The second line containsnintegersp1,p2, ...,pn(0 ≤pi≤n) wherepi= 0means a gap to fill, andpi≥ 1means a fixed number.It's guaranteed that ifi≠jandpi,pj≥ 1thenpi≠pj.OutputPrint the number of ways to fill the gaps modulo109+ 7(i.e. modulo1000000007).ExamplesInput40 0 0 0Output4Input50 0 1 2 0Output2Input60 0 1 2 0 0Output0Input55 3 4 2 1Output0NoteIn the first sample test, none of four element is fixed. There are four permutations satisfying the given conditions: (1,2,3,4), (1,4,3,2), (3,2,1,4), (3,4,1,2).In the second sample test, there must bep3= 1andp4= 2. The two permutations satisfying the conditions are: (3,4,1,2,5), (5,4,1,2,3).",
+    "source": "CF",
+    "vjudge": false
+}

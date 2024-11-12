@@ -1,0 +1,14 @@
+{
+    "uid": "1411-D",
+    "url": "https://codeforces.com/contest/1411/problem/D",
+    "tags": [
+        "brute force",
+        " greedy",
+        " implementation",
+        " strings"
+    ],
+    "title": "1411-D",
+    "statement": "D. Grime Zootime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputCurrently, XXOC's rap is a string consisting of zeroes, ones, and question marks. Unfortunately, haters gonna hate. They will write $$$x$$$ angry comments for every occurrence ofsubsequence01and $$$y$$$ angry comments for every occurrence ofsubsequence10. You should replace all the question marks with0or1in such a way that the number of angry comments would be as small as possible.String $$$b$$$ is a subsequence of string $$$a$$$, if it can be obtained by removing some characters from $$$a$$$. Two occurrences of a subsequence are considered distinct if sets of positions of remaining characters are distinct.InputThe first line contains string $$$s$$$ — XXOC's rap ($$$1 \\\\le |s| \\\\leq 10^5$$$). The second line contains two integers $$$x$$$ and $$$y$$$ — the number of angry comments XXOC will recieve for every occurrence of01and10accordingly ($$$0 \\\\leq x, y \\\\leq 10^6$$$).OutputOutput a single integer — the minimum number of angry comments.ExamplesInput0?1 2 3Output4Input????? 13 37Output0Input?10? 239 7Output28Input01101001 5 7Output96NoteIn the first example one of the optimum ways to replace is001. Then there will be $$$2$$$ subsequences01and $$$0$$$ subsequences10. Total number of angry comments will be equal to $$$2 \\\\cdot 2 + 0 \\\\cdot 3 = 4$$$.In the second example one of the optimum ways to replace is11111. Then there will be $$$0$$$ subsequences01and $$$0$$$ subsequences10. Total number of angry comments will be equal to $$$0 \\\\cdot 13 + 0 \\\\cdot 37 = 0$$$.In the third example one of the optimum ways to replace is1100. Then there will be $$$0$$$ subsequences01and $$$4$$$ subsequences10. Total number of angry comments will be equal to $$$0 \\\\cdot 239 + 4 \\\\cdot 7 = 28$$$.In the fourth example one of the optimum ways to replace is01101001. Then there will be $$$8$$$ subsequences01and $$$8$$$ subsequences10. Total number of angry comments will be equal to $$$8 \\\\cdot 5 + 8 \\\\cdot 7 = 96$$$.",
+    "source": "CF",
+    "vjudge": false
+}

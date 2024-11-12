@@ -1,0 +1,11 @@
+{
+    "uid": "621-A",
+    "url": "https://codeforces.com/contest/621/problem/A",
+    "tags": [
+        "implementation"
+    ],
+    "title": "621-A",
+    "statement": "A. Wet Shark and Odd and Eventime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutToday, Wet Shark is givennintegers. Using any of these integers no more than once, Wet Shark wants to get maximum possible even (divisible by2) sum. Please, calculate this value for Wet Shark.Note, that if Wet Shark uses no integers from thenintegers, the sum is an even integer0.InputThe first line of the input contains one integer,n(1 ≤n≤ 100 000). The next line containsnspace separated integers given to Wet Shark. Each of these integers is in range from1to109, inclusive.OutputPrint the maximum possible even sum that can be obtained if we use some of the given integers.ExamplesInput31 2 3Output6Input5999999999 999999999 999999999 999999999 999999999Output3999999996NoteIn the first sample, we can simply take all three integers for a total sum of6.In the second sample Wet Shark should take any four out of five integers999 999 999.",
+    "source": "CF",
+    "vjudge": false
+}

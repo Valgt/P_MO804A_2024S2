@@ -1,0 +1,12 @@
+{
+    "uid": "1970-A1",
+    "url": "https://codeforces.com/contest/1970/problem/A1",
+    "tags": [
+        "implementation",
+        " sortings"
+    ],
+    "title": "1970-A1",
+    "statement": "A1. Balanced Shuffle (Easy)time limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputAparentheses sequenceis a string consisting of characters \"(\" and \")\", for example \"(()((\".Abalanced parentheses sequenceis a parentheses sequence which can become a valid mathematical expression after inserting numbers and operations into it, for example \"(()(()))\".Thebalanceof a parentheses sequence is defined as the number of opening parentheses \"(\" minus the number of closing parentheses \")\". For example, the balance of the sequence \"(()((\" is 3.A balanced parentheses sequence can also be defined as a parentheses sequence with balance 0 such that each of its prefixes has a non-negative balance.We define thebalanced shuffleoperation that takes a parentheses sequence and returns a parentheses sequence as follows: first, for every character of the input sequence, we compute the balance of the prefix of the sequencebeforethat character and write those down in a table together with the positions of the characters in the input sequence, for example:Prefix balance01212321Position12345678Character(()(()))Then, we sort the columns of this table inincreasingorder of prefix balance, breaking ties indecreasingorder of position. In the above example, we get:Prefix balance01112223Position18427536Character()(()())The last row of this table forms another parentheses sequence, in this case \"()(()())\". This sequence is called the result of applying the balanced shuffle operation to the input sequence, or in short just the balanced shuffle of the input sequence.You are given a balanced parentheses sequence. Print its balanced shuffle.InputThe only line of input contains a string $$$s$$$ consisting only of characters \"(\" and \")\". This string is guaranteed to be a non-empty balanced parentheses sequence with its length not exceeding $$$500\\\\,000$$$.OutputPrint the parentheses sequence $$$t$$$ — the balanced shuffle of $$$s$$$.ExampleInput(()(()))Output()(()())",
+    "source": "CF",
+    "vjudge": false
+}

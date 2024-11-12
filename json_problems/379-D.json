@@ -1,0 +1,13 @@
+{
+    "uid": "379-D",
+    "url": "https://codeforces.com/contest/379/problem/D",
+    "tags": [
+        "bitmasks",
+        " brute force",
+        " dp"
+    ],
+    "title": "379-D",
+    "statement": "D. New Year Lettertime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutMany countries have such a New Year or Christmas tradition as writing a letter to Santa including a wish list for presents. Vasya is an ordinary programmer boy. Like all ordinary boys, he is going to write the letter to Santa on the New Year Eve (we Russians actually expect Santa for the New Year, not for Christmas).Vasya has come up with an algorithm he will follow while writing a letter. First he chooses two strings,s1anfs2, consisting of uppercase English letters. Then the boy makes stringsk, using a recurrent equationsn=sn- 2+sn- 1, operation '+' means a concatenation (that is, the sequential record) of strings in the given order. Then Vasya writes down stringskon a piece of paper, puts it in the envelope and sends in to Santa.Vasya is absolutely sure that Santa will bring him the best present if the resulting stringskhas exactlyxoccurrences of substringAC(the short-cut reminds him оf accepted problems). Besides, Vasya decided that strings1should have lengthn, and strings2should have lengthm. Vasya hasn't decided anything else.At the moment Vasya's got urgent New Year business, so he asks you to choose two strings for him,s1ands2in the required manner. Help Vasya.InputThe first line contains four integersk,x,n,m(3 ≤k≤ 50; 0 ≤x≤ 109; 1 ≤n,m≤ 100).OutputIn the first line print strings1, consisting ofnuppercase English letters. In the second line print strings2, consisting ofmuppercase English letters. If there are multiple valid strings, print any of them.If the required pair of strings doesn't exist, print \"Happy new year!\" without the quotes.ExamplesInput3 2 2 2OutputACACInput3 3 2 2OutputHappy new year!Input3 0 2 2OutputAAAAInput4 3 2 1OutputHappy new year!Input4 2 2 1OutputHappy new year!",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,13 @@
+{
+    "uid": "584-E",
+    "url": "https://codeforces.com/contest/584/problem/E",
+    "tags": [
+        "constructive algorithms",
+        " greedy",
+        " math"
+    ],
+    "title": "584-E",
+    "statement": "E. Anton and Iratime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputAnton loves transforming one permutation into another one by swapping elements for money, and Ira doesn't like paying for stupid games. Help them obtain the required permutation by paying as little money as possible.More formally, we have two permutations,pandsof numbers from1ton. We can swappiandpj, by paying|i-j|coins for it. Find and print the smallest number of coins required to obtain permutationsfrom permutationp. Also print the sequence of swap operations at which we obtain a solution.InputThe first line contains a single numbern(1 ≤n≤ 2000) — the length of the permutations.The second line contains a sequence ofnnumbers from1ton— permutationp. Each number from1tonoccurs exactly once in this line.The third line contains a sequence ofnnumbers from1ton— permutations. Each number from1tonoccurs once in this line.OutputIn the first line print the minimum number of coins that you need to spend to transform permutationpinto permutations.In the second line print numberk(0 ≤k≤ 2·106) — the number of operations needed to get the solution.In the nextklines print the operations. Each line must contain two numbersiandj(1 ≤i,j≤n,i≠j), which means that you need to swappiandpj.It is guaranteed that the solution exists.ExamplesInput44 2 1 33 2 4 1Output324 33 1NoteIn the first sample test we swap numbers on positions 3 and 4 and permutationpbecomes 4 2 3 1. We pay|3 - 4| = 1coins for that. On second turn we swap numbers on positions 1 and 3 and get permutation3241equal tos. We pay|3 - 1| = 2coins for that. In total we pay three coins.",
+    "source": "CF",
+    "vjudge": false
+}

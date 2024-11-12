@@ -1,0 +1,15 @@
+{
+    "uid": "786-D",
+    "url": "https://codeforces.com/contest/786/problem/D",
+    "tags": [
+        "data structures",
+        " dfs and similar",
+        " hashing",
+        " strings",
+        " trees"
+    ],
+    "title": "786-D",
+    "statement": "D. Rap Godtime limit per test7 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputRick is in love with Unity. But Mr. Meeseeks also love Unity, so Rick and Mr. Meeseeks are \"love rivals\".Unity loves rap, so it decided that they have to compete in a rap game (battle) in order to choose the best. Rick is too nerds, so instead he's gonna make his verse with running his original algorithm on lyrics \"Rap God\" song.His algorithm is a little bit complicated. He's made a tree withnvertices numbered from1tonand there's a lowercase english letter written on each edge. He denotesstr(a,b)to be the string made by writing characters on edges on the shortest path fromatobone by one (a string of length equal to distance ofatob). Note thatstr(a,b)is reverse ofstr(b,a)andstr(a,a)is empty.In order to make the best verse he can, he needs to answer some queries, but he's not a computer scientist and is not able to answer those queries, so he asked you to help him. Each query is characterized by two verticesxandy(x≠y). Answer to this query is the number of vertices likezsuch thatz≠x,z≠yandstr(x,y)is lexicographically larger thanstr(x,z).Stringx=x1x2...x|x|is lexicographically larger than stringy=y1y2...y|y|, if either|x|  >  |y|andx1=y1,x2=y2,  ...,x|y|=y|y|, or exists such numberr(r<  |x|,r<  |y|), thatx1=y1,x2=y2,  ...,xr=yrandxr+  1>yr+  1. Characters are compared like their ASCII codes (or alphabetic order).Help Rick get the girl (or whatever gender Unity has).InputThe first line of input contain two integersnandq(2 ≤n≤ 20000,1 ≤q≤ 20000) — number of vertices in tree and number of queries respectively.The nextn- 1lines contain the edges. Each line contains two integersvandu(endpoints of the edge) followed by an English lowercase letterc(1 ≤v,u≤n,v≠u).The nextqline contain the queries. Each line contains two integersxandy(1 ≤x,y≤n,x≠y).OutputPrint the answer for each query in one line.ExamplesInput4 34 1 t3 2 p1 2 s3 21 32 1Output011Input8 44 6 p3 7 o7 8 p4 5 d1 3 o4 3 p3 2 e8 63 78 14 3Output6131NoteHere's the tree of first sample testcase:Here's the tree of second sample testcase:In this test:str(8, 1)=poostr(8, 2)=poestr(8, 3)=postr(8, 4)=popstr(8, 5)=popdstr(8, 6)=poppstr(8, 7)=pSo, for the first query,and for the third queryis the answer.",
+    "source": "CF",
+    "vjudge": false
+}

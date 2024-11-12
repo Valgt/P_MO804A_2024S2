@@ -1,0 +1,12 @@
+{
+    "uid": "64-A",
+    "url": "https://codeforces.com/contest/64/problem/A",
+    "tags": [
+        "*special",
+        " implementation"
+    ],
+    "title": "64-A",
+    "statement": "A. Factorialtime limit per test2 secondsmemory limit per test64 megabytesinputstdinoutputstdoutPrint the factorial of the given integer numbern. The factorial ofnis equal to1·2·...·n.InputThe only line containsn(1 ≤n≤ 10).OutputPrint the factorial ofn.ExamplesInput3Output6Input5Output120",
+    "source": "CF",
+    "vjudge": false
+}

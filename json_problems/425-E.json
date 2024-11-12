@@ -1,0 +1,11 @@
+{
+    "uid": "425-E",
+    "url": "https://codeforces.com/contest/425/problem/E",
+    "tags": [
+        "dp"
+    ],
+    "title": "425-E",
+    "statement": "E. Sereja and Setstime limit per test1.5 secondsmemory limit per test256 megabytesinputstdinoutputstdoutLet's assume that setSconsists ofmdistinct intervals[l1,r1],[l2,r2],...,[lm,rm](1 ≤li≤ri≤n;li,riare integers).Let's assume thatf(S)is the maximum number of intervals that you can choose from the setS, such that every two of them do not intersect. We assume that two intervals,[l1,r1]and[l2,r2], intersect if there is an integerx, which meets two inequalities:l1≤x≤r1andl2≤x≤r2.Sereja wonders, how many setsSare there, such thatf(S) =k? Count this number modulo1000000007(109+ 7).InputThe first line contains integersn,k(1 ≤n≤ 500; 0 ≤k≤ 500).OutputIn a single line, print the answer to the problem modulo1000000007(109+ 7).ExamplesInput3 1Output23Input3 2Output32Input2 0Output1Input2 2Output2",
+    "source": "CF",
+    "vjudge": false
+}

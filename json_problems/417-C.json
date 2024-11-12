@@ -1,0 +1,13 @@
+{
+    "uid": "417-C",
+    "url": "https://codeforces.com/contest/417/problem/C",
+    "tags": [
+        "constructive algorithms",
+        " graphs",
+        " implementation"
+    ],
+    "title": "417-C",
+    "statement": "C. Footballtime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutOne day, at the \"Russian Code Cup\" event it was decided to play football as an out of competition event. All participants was divided intonteams and played several matches, two teams could not play against each other more than once.The appointed Judge was the most experienced member — Pavel. But since he was the wisest of all, he soon got bored of the game and fell asleep. Waking up, he discovered that the tournament is over and the teams want to know the results of all the matches.Pavel didn't want anyone to discover about him sleeping and not keeping an eye on the results, so he decided to recover the results of all games. To do this, he asked all the teams and learned that the real winner was friendship, that is, each team beat the other teams exactlyktimes. Help Pavel come up with chronology of the tournir that meets all the conditions, or otherwise report that there is no such table.InputThe first line contains two integers —nandk(1 ≤n,k≤ 1000).OutputIn the first line print an integerm— number of the played games. The followingmlines should contain the information about all the matches, one match per line. Thei-th line should contain two integersaiandbi(1 ≤ai,bi≤n;ai≠bi). The numbersaiandbimean, that in thei-th match the team with numberaiwon against the team with numberbi. You can assume, that the teams are numbered from1ton.If a tournir that meets the conditions of the problem does not exist, then print -1.ExamplesInput3 1Output31 22 33 1",
+    "source": "CF",
+    "vjudge": false
+}

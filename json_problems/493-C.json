@@ -1,0 +1,16 @@
+{
+    "uid": "493-C",
+    "url": "https://codeforces.com/contest/493/problem/C",
+    "tags": [
+        "binary search",
+        " brute force",
+        " data structures",
+        " implementation",
+        " sortings",
+        " two pointers"
+    ],
+    "title": "493-C",
+    "statement": "C. Vasya and Basketballtime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutVasya follows a basketball game and marks the distances from which each team makes a throw. He knows that each successful throw has value of either 2 or 3 points. A throw is worth 2 points if the distance it was made from doesn't exceed some value ofdmeters, and a throw is worth 3 points if the distance is larger thandmeters, wheredis somenon-negativeinteger.Vasya would like the advantage of the points scored by the first team (the points of the first team minus the points of the second team) to be maximum. For that he can mentally choose the value ofd. Help him to do that.InputThe first line contains integern(1 ≤n≤ 2·105) — the number of throws of the first team. Then followninteger numbers — the distances of throwsai(1 ≤ai≤ 2·109).Then follows numberm(1 ≤m≤ 2·105) — the number of the throws of the second team. Then followminteger numbers — the distances of throws ofbi(1 ≤bi≤ 2·109).OutputPrint two numbers in the formata:b— the score that is possible considering the problem conditions where the result of subtractiona-bis maximum. If there are several such scores, find the one in which numberais maximum.ExamplesInput31 2 325 6Output9:6Input56 7 8 9 1051 2 3 4 5Output15:10",
+    "source": "CF",
+    "vjudge": false
+}

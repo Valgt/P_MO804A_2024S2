@@ -1,0 +1,13 @@
+{
+    "uid": "850-C",
+    "url": "https://codeforces.com/contest/850/problem/C",
+    "tags": [
+        "bitmasks",
+        " dp",
+        " games"
+    ],
+    "title": "850-C",
+    "statement": "C. Arpa and a game with Mojtabatime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputMojtaba and Arpa are playing a game. They have a list ofnnumbers in the game.In a player's turn, he chooses a numberpk(wherepis a prime number andkis a positive integer) such thatpkdivides at least one number in the list. For each number in the list divisible bypk, call itx, the player will deletexand addto the list. The player who can not make a valid choice ofpandkloses.Mojtaba starts the game and the players alternatively make moves. Determine which one of players will be the winner if both players play optimally.InputThe first line contains a single integern(1 ≤n≤ 100) — the number of elements in the list.The second line containsnintegersa1,a2, ...,an(1 ≤ai≤ 109) — the elements of the list.OutputIf Mojtaba wins, print \"Mojtaba\", otherwise print \"Arpa\" (without quotes).You can print each letter in any case (upper or lower).ExamplesInput41 1 1 1OutputArpaInput41 1 17 17OutputMojtabaInput41 1 17 289OutputArpaInput51 2 3 4 5OutputArpaNoteIn the first sample test, Mojtaba can't move.In the second sample test, Mojtaba choosesp= 17andk= 1, then the list changes to[1, 1, 1, 1].In the third sample test, if Mojtaba choosesp= 17andk= 1, then Arpa choosesp= 17andk= 1and wins, if Mojtaba choosesp= 17andk= 2, then Arpa choosesp= 17andk= 1and wins.",
+    "source": "CF",
+    "vjudge": false
+}

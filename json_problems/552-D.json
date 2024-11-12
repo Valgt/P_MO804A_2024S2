@@ -1,0 +1,16 @@
+{
+    "uid": "552-D",
+    "url": "https://codeforces.com/contest/552/problem/D",
+    "tags": [
+        "brute force",
+        " combinatorics",
+        " data structures",
+        " geometry",
+        " math",
+        " sortings"
+    ],
+    "title": "552-D",
+    "statement": "D. Vanya and Trianglestime limit per test4 secondsmemory limit per test512 megabytesinputstandard inputoutputstandard outputVanya got bored and he paintedndistinct points on the plane. After that he connected all the points pairwise and saw that as a result many triangles were formed with vertices in the painted points. He asks you to count the number of the formed triangles with thenon-zeroarea.InputThe first line contains integern(1 ≤n≤ 2000) — the number of the points painted on the plane.Nextnlines contain two integers eachxi,yi(- 100 ≤xi,yi≤ 100) — the coordinates of thei-th point. It is guaranteed that no two given points coincide.OutputIn the first line print an integer — the number of triangles with the non-zero area among the painted points.ExamplesInput40 01 12 02 2Output3Input30 01 12 0Output1Input11 1Output0NoteNote to the first sample test. There are3triangles formed:(0, 0) - (1, 1) - (2, 0);(0, 0) - (2, 2) - (2, 0);(1, 1) - (2, 2) - (2, 0).Note to the second sample test. There is1triangle formed:(0, 0) - (1, 1) - (2, 0).Note to the third sample test. A single point doesn't form a single triangle.",
+    "source": "CF",
+    "vjudge": false
+}

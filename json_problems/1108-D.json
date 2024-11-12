@@ -1,0 +1,13 @@
+{
+    "uid": "1108-D",
+    "url": "https://codeforces.com/contest/1108/problem/D",
+    "tags": [
+        "constructive algorithms",
+        " dp",
+        " greedy"
+    ],
+    "title": "1108-D",
+    "statement": "D. Diverse Garlandtime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou have a garland consisting of $$$n$$$ lamps. Each lamp is colored red, green or blue. The color of the $$$i$$$-th lamp is $$$s_i$$$ ('R', 'G' and 'B' — colors of lamps in the garland).You have to recolor some lamps in this garland (recoloring a lamp means changing its initial color to another) in such a way that the obtained garland isdiverse.A garland is calleddiverseif any two adjacent (consecutive) lamps (i. e. such lamps that the distance between their positions is $$$1$$$) have distinct colors.In other words, if the obtained garland is $$$t$$$ then for each $$$i$$$ from $$$1$$$ to $$$n-1$$$ the condition $$$t_i \\\\ne t_{i + 1}$$$ should be satisfied.Among all ways to recolor the initial garland to make itdiverseyou have to choose one with theminimumnumber of recolored lamps. If there are multiple optimal solutions, printanyof them.InputThe first line of the input contains one integer $$$n$$$ ($$$1 \\\\le n \\\\le 2 \\\\cdot 10^5$$$) — the number of lamps.The second line of the input contains the string $$$s$$$ consisting of $$$n$$$ characters 'R', 'G' and 'B' — colors of lamps in the garland.OutputIn the first line of the output print one integer $$$r$$$ — theminimumnumber of recolors needed to obtain adiversegarland from the given one.In the second line of the output print one string $$$t$$$ of length $$$n$$$ — adiversegarland obtained from the initial one withminimumnumber of recolors. If there are multiple optimal solutions, printanyof them.ExamplesInput9 RBGRRBRGGOutput2 RBGRGBRGRInput8 BBBGBRRROutput2 BRBGBRGRInput13 BBRRRRGGGGGRROutput6 BGRBRBGBGBGRG",
+    "source": "CF",
+    "vjudge": false
+}

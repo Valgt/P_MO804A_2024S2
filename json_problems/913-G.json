@@ -1,0 +1,12 @@
+{
+    "uid": "913-G",
+    "url": "https://codeforces.com/contest/913/problem/G",
+    "tags": [
+        "math",
+        " number theory"
+    ],
+    "title": "913-G",
+    "statement": "G. Power Substringtime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are givennpositive integersa1,a2, ...,an.For everyaiyou need to find a positive integerkisuch that the decimal notation of2kicontains the decimal notation ofaias a substring among its lastmin(100,length(2ki))digits. Herelength(m)is the length of the decimal notation ofm.Note that you don't have to minimizeki. The decimal notations in this problem do not contain leading zeros.InputThe first line contains a single integern(1 ≤n≤ 2 000) — the number of integersai.Each of the nextnlines contains a positive integerai(1 ≤ai< 1011).OutputPrintnlines. Thei-th of them should contain a positive integerkisuch that the lastmin(100,length(2ki))digits of2kicontain the decimal notation ofaias a substring. Integerskimust satisfy1 ≤ki≤ 1050.It can be shown that the answer always exists under the given constraints. If there are multiple answers, print any of them.ExamplesInput282Output31Input234857Output520",
+    "source": "CF",
+    "vjudge": false
+}

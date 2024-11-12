@@ -1,0 +1,13 @@
+{
+    "uid": "166-C",
+    "url": "https://codeforces.com/contest/166/problem/C",
+    "tags": [
+        "greedy",
+        " math",
+        " sortings"
+    ],
+    "title": "166-C",
+    "statement": "C. Mediantime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutAmedianin an array with the length ofnis an element which occupies position numberafter we sort the elements in the non-decreasing order (the array elements are numbered starting with1). A median of an array(2, 6, 1, 2, 3)is the number2, and a median of array(0, 96, 17, 23)— the number17.We define an expressionas the integer part of dividing numberaby numberb.One day Vasya showed Petya an array consisting ofnintegers and suggested finding the array's median. Petya didn't even look at the array and said that it equalsx. Petya is a very honest boy, so he decided to add several numbers to the given array so that the median of the resulting array would be equal tox.Petya can add any integers from1to105to the array, including the same numbers. Of course, he can add nothing to the array. If a number is added multiple times, then we should consider it the number of times it occurs. It is not allowed to delete of change initial numbers of the array.While Petya is busy distracting Vasya, your task is to find the minimum number of elements he will need.InputThe first input line contains two space-separated integersnandx(1 ≤n≤ 500,1 ≤x≤ 105) — the initial array's length and the required median's value. The second line containsnspace-separated numbers — the initial array. The elements of the array are integers from1to105. The array elements are not necessarily different.OutputPrint the only integer — the minimum number of elements Petya needs to add to the array so that its median equalsx.ExamplesInput3 1010 20 30Output1Input3 41 2 3Output4NoteIn the first sample we can add number9to array(10, 20, 30). The resulting array(9, 10, 20, 30)will have a median in position, that is,10.In the second sample you should add numbers4,5,5,5. The resulting array has median equal to4.",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,12 @@
+{
+    "uid": "294-A",
+    "url": "https://codeforces.com/contest/294/problem/A",
+    "tags": [
+        "implementation",
+        " math"
+    ],
+    "title": "294-A",
+    "statement": "A. Shaass and Oskolstime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutShaass has decided to hunt some birds. There arenhorizontal electricity wires aligned parallel to each other. Wires are numbered1tonfrom top to bottom. On each wire there are some oskols sitting next to each other. Oskol is the name of a delicious kind of birds in Shaass's territory. Supposed there areaioskols sitting on thei-th wire.Sometimes Shaass shots one of the birds and the bird dies (suppose that this bird sat at thei-th wire). Consequently all the birds on thei-th wire to the left of the dead bird get scared and jump up on the wire numberi- 1, if there exists no upper wire they fly away. Also all the birds to the right of the dead bird jump down on wire numberi+ 1, if there exists no such wire they fly away.Shaass has shotmbirds. You're given the initial number of birds on each wire, tell him how many birds are sitting on each wire after the shots.InputThe first line of the input contains an integern,(1 ≤n≤ 100). The next line contains a list of space-separated integersa1,a2, ...,an,(0 ≤ai≤ 100).The third line contains an integerm,(0 ≤m≤ 100). Each of the nextmlines contains two integersxiandyi. The integers mean that for thei-th time Shaass shoot theyi-th (from left) bird on thexi-th wire,(1 ≤xi≤n, 1 ≤yi). It's guaranteed there will be at leastyibirds on thexi-th wire at that moment.OutputOn thei-th line of the output print the number of birds on thei-th wire.ExamplesInput510 10 10 10 1052 53 132 121 134 6Output0125016Input32 4 112 2Output303",
+    "source": "CF",
+    "vjudge": false
+}

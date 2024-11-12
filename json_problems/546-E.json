@@ -1,0 +1,13 @@
+{
+    "uid": "546-E",
+    "url": "https://codeforces.com/contest/546/problem/E",
+    "tags": [
+        "flows",
+        " graphs",
+        " math"
+    ],
+    "title": "546-E",
+    "statement": "E. Soldier and Travelingtime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputIn the country there arencities andmbidirectional roads between them. Each city has an army. Army of thei-th city consists ofaisoldiers. Now soldiers roam. After roaming each soldier has to either stay in his city or to go to the one of neighboring cities by atmoving along at most one road.Check if is it possible that after roaming there will be exactlybisoldiers in thei-th city.InputFirst line of input consists of two integersnandm(1 ≤n≤ 100,0 ≤m≤ 200).Next line containsnintegersa1,a2, ...,an(0 ≤ai≤ 100).Next line containsnintegersb1,b2, ...,bn(0 ≤bi≤ 100).Thenmlines follow, each of them consists of two integerspandq(1 ≤p,q≤n,p≠q) denoting that there is an undirected road between citiespandq.It is guaranteed that there is at most one road between each pair of cities.OutputIf the conditions can not be met output single word \"NO\".Otherwise output word \"YES\" and thennlines, each of them consisting ofnintegers. Number in thei-th line in thej-th column should denote how many soldiers should road from cityito cityj(ifi≠j) or how many soldiers should stay in cityi(ifi=j).If there are several possible answers you may output any of them.ExamplesInput4 41 2 6 33 5 3 11 22 33 44 2OutputYES1 0 0 02 0 0 00 5 1 00 0 2 1Input2 01 22 1OutputNO",
+    "source": "CF",
+    "vjudge": false
+}

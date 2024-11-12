@@ -1,0 +1,14 @@
+{
+    "uid": "708-B",
+    "url": "https://codeforces.com/contest/708/problem/B",
+    "tags": [
+        "constructive algorithms",
+        " greedy",
+        " implementation",
+        " math"
+    ],
+    "title": "708-B",
+    "statement": "B. Recover the Stringtime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputFor each stringsconsisting of characters '0' and '1' one can define four integersa00,a01,a10anda11, whereaxyis the number ofsubsequencesof length2of the stringsequal to the sequence{x,y}.In these problem you are given four integersa00,a01,a10,a11and have to find any non-empty stringsthat matches them, or determine that there is no such string. One can prove that if at least one answer exists, there exists an answer of length no more than1 000 000.InputThe only line of the input contains four non-negative integersa00,a01,a10anda11. Each of them doesn't exceed109.OutputIf there exists a non-empty string that matches four integers from the input, print it in the only line of the output. Otherwise, print \"Impossible\". The length of your answer must not exceed1 000 000.ExamplesInput1 2 3 4OutputImpossibleInput1 2 2 1Output0110",
+    "source": "CF",
+    "vjudge": false
+}

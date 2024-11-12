@@ -1,0 +1,14 @@
+{
+    "uid": "707-D",
+    "url": "https://codeforces.com/contest/707/problem/D",
+    "tags": [
+        "bitmasks",
+        " data structures",
+        " dfs and similar",
+        " implementation"
+    ],
+    "title": "707-D",
+    "statement": "D. Persistent Bookcasetime limit per test2 secondsmemory limit per test512 megabytesinputstandard inputoutputstandard outputRecently in school Alina has learned what are thepersistent data structures: they are data structures that always preserves the previous version of itself and access to it when it is modified.After reaching home Alina decided to invent her own persistent data structure. Inventing didn't take long: there is a bookcase right behind her bed. Alina thinks that the bookcase is a good choice for a persistent data structure. Initially the bookcase is empty, thus there is no book at any position at any shelf.The bookcase consists ofnshelves, and each shelf has exactlympositions for books at it. Alina enumerates shelves by integers from1tonand positions at shelves — from1tom. Initially the bookcase is empty, thus there is no book at any position at any shelf in it.Alina wrote downqoperations, which will be consecutively applied to the bookcase. Each of the operations has one of four types:1ij— Place a book at positionjat shelfiif there is no book at it.2ij— Remove the book from positionjat shelfiif there is a book at it.3i— Invert book placing at shelfi. This means that from every position at shelfiwhich has a book at it, the book should be removed, and at every position at shelfiwhich has not book at it, a book should be placed.4k— Return the books in the bookcase in a state they were after applyingk-th operation. In particular,k= 0means that the bookcase should be in initial state, thus every book in the bookcase should be removed from its position.After applying each of operation Alina is interested in the number of books in the bookcase. Alina got 'A' in the school and had no problem finding this values. Will you do so?InputThe first line of the input contains three integersn,mandq(1 ≤n,m≤ 103,1 ≤q≤ 105) — the bookcase dimensions and the number of operations respectively.The nextqlines describes operations in chronological order —i-th of them describesi-th operation in one of the four formats described in the statement.It is guaranteed that shelf indices and position indices are correct, and in each of fourth-type operation the numberkcorresponds to some operation before it or equals to0.OutputFor each operation, print the number of books in the bookcase after applying it in a separate line. The answers should be printed in chronological order.ExamplesInput2 3 31 1 13 24 0Output140Input4 2 63 22 2 23 33 22 2 23 2Output213324Input2 2 23 22 2 1Output21NoteThis image illustrates the second sample case.",
+    "source": "CF",
+    "vjudge": false
+}

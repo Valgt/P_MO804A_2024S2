@@ -1,0 +1,12 @@
+{
+    "uid": "645-C",
+    "url": "https://codeforces.com/contest/645/problem/C",
+    "tags": [
+        "binary search",
+        " two pointers"
+    ],
+    "title": "645-C",
+    "statement": "C. Enduring Exodustime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputIn an attempt to escape the Mischievous Mess Makers' antics, Farmer John has abandoned his farm and is traveling to the other side of Bovinia. During the journey, he and hiskcows have decided to stay at the luxurious Grand Moo-dapest Hotel. The hotel consists ofnrooms located in a row, some of which are occupied.Farmer John wants to book a set ofk+ 1currently unoccupied rooms for him and his cows. He wants his cows to stay as safe as possible, so he wishes to minimize the maximum distance from his room to the room of his cow. The distance between roomsiandjis defined as|j-i|. Help Farmer John protect his cows by calculating this minimum possible distance.InputThe first line of the input contains two integersnandk(1 ≤k<n≤ 100 000) — the number of rooms in the hotel and the number of cows travelling with Farmer John.The second line contains a string of lengthndescribing the rooms. Thei-th character of the string will be '0' if thei-th room is free, and '1' if thei-th room is occupied. It is guaranteed that at leastk+ 1characters of this string are '0', so there exists at least one possible choice ofk+ 1rooms for Farmer John and his cows to stay in.OutputPrint the minimum possible distance between Farmer John's room and his farthest cow.ExamplesInput7 20100100Output2Input5 101010Output2Input3 2000Output1NoteIn the first sample, Farmer John can book room3for himself, and rooms1and4for his cows. The distance to the farthest cow is2. Note that it is impossible to make this distance1, as there is no block of three consecutive unoccupied rooms.In the second sample, Farmer John can book room1for himself and room3for his single cow. The distance between him and his cow is2.In the third sample, Farmer John books all three available rooms, taking the middle room for himself so that both cows are next to him. His distance from the farthest cow is1.",
+    "source": "CF",
+    "vjudge": false
+}

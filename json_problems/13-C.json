@@ -1,0 +1,12 @@
+{
+    "uid": "13-C",
+    "url": "https://codeforces.com/contest/13/problem/C",
+    "tags": [
+        "dp",
+        " sortings"
+    ],
+    "title": "13-C",
+    "statement": "C. Sequencetime limit per test1 secondmemory limit per test64 megabytesinputstdinoutputstdoutLittle Petya likes to play very much. And most of all he likes to play the following game:He is given a sequence ofNinteger numbers. At each step it is allowed to increase the value of any number by1or to decrease it by1. The goal of the game is to make the sequence non-decreasing with the smallest number of steps. Petya is not good at math, so he asks for your help.The sequenceais called non-decreasing ifa1≤a2≤ ... ≤aNholds, whereNis the length of the sequence.InputThe first line of the input contains single integerN(1 ≤N≤ 5000) — the length of the initial sequence. The followingNlines contain one integer each — elements of the sequence. These numbers do not exceed109by absolute value.OutputOutput one integer — minimum number of steps required to achieve the goal.ExamplesInput53 2 -1 2 11Output4Input52 1 1 1 1Output1",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,13 @@
+{
+    "uid": "498-B",
+    "url": "https://codeforces.com/contest/498/problem/B",
+    "tags": [
+        "dp",
+        " probabilities",
+        " two pointers"
+    ],
+    "title": "498-B",
+    "statement": "B. Name That Tunetime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutIt turns out that you are a great fan of rock band AC/PE. Peter learned that and started the following game: he plays the first song of the list ofnsongs of the group, and you have to find out the name of the song. After you tell the song name, Peter immediately plays the following song in order, and so on.Thei-th song of AC/PE has its recognizabilitypi. This means that if the song has not yet been recognized by you, you listen to it for exactly one more second and with probability ofpipercent you recognize it and tell it's name. Otherwise you continue listening it. Note that you can only try to guess it only when it is integer number of seconds after the moment the song starts playing.In all AC/PE songs the first words of chorus are the same as the title, so when you've heard the firsttiseconds ofi-th song and its chorus starts, you immediately guess its name for sure.For example, in the song Highway To Red the chorus sounds pretty late, but the song has high recognizability. In the song Back In Blue, on the other hand, the words from the title sound close to the beginning of the song, but it's hard to name it before hearing those words. You can name both of these songs during a few more first seconds.Determine the expected number songs of you will recognize if the game lasts for exactlyTseconds (i. e. you can make the last guess on the secondT, after that the game stops).If all songs are recognized faster than inTseconds, the game stops after the last song is recognized.InputThe first line of the input contains numbersnandT(1 ≤n≤ 5000,1 ≤T≤ 5000), separated by a space. Nextnlines contain pairs of numberspiandti(0 ≤pi≤ 100,1 ≤ti≤T). The songs are given in the same order as in Petya's list.OutputOutput a single number — the expected number of the number of songs you will recognize inTseconds. Your answer will be considered correct if its absolute or relative error does not exceed10- 6.ExamplesInput2 250 210 1Output1.500000000Input2 20 2100 2Output1.000000000Input3 350 350 225 2Output1.687500000Input2 20 20 2Output1.000000000",
+    "source": "CF",
+    "vjudge": false
+}

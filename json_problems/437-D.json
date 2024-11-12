@@ -1,0 +1,12 @@
+{
+    "uid": "437-D",
+    "url": "https://codeforces.com/contest/437/problem/D",
+    "tags": [
+        "dsu",
+        " sortings"
+    ],
+    "title": "437-D",
+    "statement": "D. The Child and Zootime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutOf course our child likes walking in a zoo. The zoo hasnareas, that are numbered from1ton. Thei-th area containsaianimals in it. Also there aremroads in the zoo, and each road connects two distinct areas. Naturally the zoo is connected, so you can reach any area of the zoo from any other area using the roads.Our child is very smart. Imagine the child want to go from areapto areaq. Firstly he considers all the simple routes fromptoq. For each route the child writes down the number, that is equal to the minimum number of animals among the route areas. Let's denote the largest of the written numbers asf(p,q). Finally, the child chooses one of the routes for which he writes down the valuef(p,q).After the child has visited the zoo, he thinks about the question: what is the average value off(p,q)for all pairsp,q(p≠q)? Can you answer his question?InputThe first line contains two integersnandm(2 ≤n≤ 105;0 ≤m≤ 105). The second line containsnintegers:a1,a2, ...,an(0 ≤ai≤ 105). Then followmlines, each line contains two integersxiandyi(1 ≤xi,yi≤n;xi≠yi), denoting the road between areasxiandyi.All roads are bidirectional, each pair of areas is connected by at most one road.OutputOutput a real number — the value of.The answer will be considered correct if its relative or absolute error doesn't exceed10- 4.ExamplesInput4 310 20 30 401 32 34 3Output16.666667Input3 310 20 301 22 33 1Output13.333333Input7 840 20 10 30 20 50 401 22 33 44 55 66 71 45 7Output18.571429NoteConsider the first sample. There are12possible situations:p= 1,q= 3,f(p,q) = 10.p= 2,q= 3,f(p,q) = 20.p= 4,q= 3,f(p,q) = 30.p= 1,q= 2,f(p,q) = 10.p= 2,q= 4,f(p,q) = 20.p= 4,q= 1,f(p,q) = 10.Another6cases are symmetrical to the above. The average is.Consider the second sample. There are6possible situations:p= 1,q= 2,f(p,q) = 10.p= 2,q= 3,f(p,q) = 20.p= 1,q= 3,f(p,q) = 10.Another3cases are symmetrical to the above. The average is.",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,11 @@
+{
+    "uid": "214-A",
+    "url": "https://codeforces.com/contest/214/problem/A",
+    "tags": [
+        "brute force"
+    ],
+    "title": "214-A",
+    "statement": "A. System of Equationstime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutFurik loves math lessons very much, so he doesn't attend them, unlike Rubik. But now Furik wants to get a good mark for math. For that Ms. Ivanova, his math teacher, gave him a new task. Furik solved the task immediately. Can you?You are given a system of equations:You should count, how many there are pairs of integers(a,b)(0 ≤a,b)which satisfy the system.InputA single line contains two integersn,m(1 ≤n,m≤ 1000)— the parameters of the system. The numbers on the line are separated by a space.OutputOn a single line print the answer to the problem.ExamplesInput9 3Output1Input14 28Output1Input4 20Output0NoteIn the first sample the suitable pair is integers(3, 0). In the second sample the suitable pair is integers(3, 5). In the third sample there is no suitable pair.",
+    "source": "CF",
+    "vjudge": false
+}

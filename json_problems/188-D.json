@@ -1,0 +1,12 @@
+{
+    "uid": "188-D",
+    "url": "https://codeforces.com/contest/188/problem/D",
+    "tags": [
+        "*special",
+        " implementation"
+    ],
+    "title": "188-D",
+    "statement": "D. Asteriskstime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutYou are given a numbern. Printnlines,i-th line should consist oficharacters \"*\". Lines' indices are 1-based.InputThe only line of input contains an integern(1 ≤n≤ 50).OutputOutput the described pattern.ExamplesInput3Output******Input6Output*********************",
+    "source": "CF",
+    "vjudge": false
+}

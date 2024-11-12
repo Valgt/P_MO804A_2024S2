@@ -1,0 +1,11 @@
+{
+    "uid": "932-A",
+    "url": "https://codeforces.com/contest/932/problem/A",
+    "tags": [
+        "constructive algorithms"
+    ],
+    "title": "932-A",
+    "statement": "A. Palindromic Supersequencetime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given a stringA. Find a stringB, whereBis a palindrome andAis a subsequence ofB.A subsequence of a string is a string that can be derived from it by deleting some (not necessarily consecutive) characters without changing the order of the remaining characters. For example, \"cotst\" is a subsequence of \"contest\".A palindrome is a string that reads the same forward or backward.The length of stringBshould be at most104. It is guaranteed that there always exists such string.You do not need to find the shortest answer, the only restriction is that the length of stringBshould not exceed104.InputFirst line contains a stringA(1 ≤ |A| ≤ 103) consisting of lowercase Latin letters, where|A|is a length ofA.OutputOutput single line containingBconsisting of only lowercase Latin letters. You do not need to find the shortest answer, the only restriction is that the length of stringBshould not exceed104. If there are many possibleB, print any of them.ExamplesInputabaOutputabaInputabOutputaabaaNoteIn the first example, \"aba\" is a subsequence of \"aba\" which is a palindrome.In the second example, \"ab\" is a subsequence of \"aabaa\" which is a palindrome.",
+    "source": "CF",
+    "vjudge": false
+}

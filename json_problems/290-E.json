@@ -1,0 +1,12 @@
+{
+    "uid": "290-E",
+    "url": "https://codeforces.com/contest/290/problem/E",
+    "tags": [
+        "*special",
+        " constructive algorithms"
+    ],
+    "title": "290-E",
+    "statement": "E. HQtime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutThe famous joke programming language HQ9+ has only 4 commands. In this problem we will explore its subset — a language called HQ...InputThe only line of the input is a string between1and106characters long.OutputOutput \"Yes\" or \"No\".ExamplesInputHHHHOutputYesInputHQHQHOutputNoInputHHQHHQHOutputNoInputHHQQHHQQHHOutputYesNoteThe rest of the problem statement was destroyed by a stray raccoon. We are terribly sorry for the inconvenience.",
+    "source": "CF",
+    "vjudge": false
+}

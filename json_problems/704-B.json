@@ -1,0 +1,13 @@
+{
+    "uid": "704-B",
+    "url": "https://codeforces.com/contest/704/problem/B",
+    "tags": [
+        "dp",
+        " graphs",
+        " greedy"
+    ],
+    "title": "704-B",
+    "statement": "B. Ant Mantime limit per test4 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputScott Lang is at war with Darren Cross. There arenchairs in a hall where they are, numbered with1, 2, ...,nfrom left to right. Thei-th chair is located at coordinatexi. Scott is on chair numbersand Cross is on chair numbere. Scott can jump to all other chairs (not only neighboring chairs). He wants to start at his position (chair numbers), visit each chairexactly onceand end up on chair numberewith Cross.As we all know, Scott can shrink or grow big (grow big only to his normal size), so at any moment of time he can be either small or large (normal). The thing is, he can only shrink or grow big while being on a chair (not in the air while jumping to another chair). Jumping takes time, but shrinking and growing big takes no time. Jumping from chair numberito chair numberjtakes|xi-xj|seconds. Also, jumping off a chair and landing on a chair takes extra amount of time.If Scott wants to jump to a chair on his left, he can only be small, and if he wants to jump to a chair on his right he should be large.Jumping off thei-th chair takes:ciextra seconds if he's small.diextra seconds otherwise (he's large).Also, landing oni-th chair takes:biextra seconds if he's small.aiextra seconds otherwise (he's large).In simpler words, jumping fromi-th chair toj-th chair takes exactly:|xi-xj| +ci+bjseconds ifj<i.|xi-xj| +di+ajseconds otherwise (j>i).Given values ofx,a,b,c,dfind the minimum time Scott can get to Cross, assuming he wants to visit each chair exactly once.InputThe first line of the input contains three integersn,sande(2 ≤n≤ 5000, 1 ≤s,e≤n,s≠e) — the total number of chairs, starting and ending positions of Scott.The second line containsnintegersx1,x2, ...,xn(1 ≤x1<x2< ... <xn≤ 109).The third line containsnintegersa1,a2, ...,an(1 ≤a1,a2, ...,an≤ 109).The fourth line containsnintegersb1,b2, ...,bn(1 ≤b1,b2, ...,bn≤ 109).The fifth line containsnintegersc1,c2, ...,cn(1 ≤c1,c2, ...,cn≤ 109).The sixth line containsnintegersd1,d2, ...,dn(1 ≤d1,d2, ...,dn≤ 109).OutputPrint the minimum amount of time Scott needs to get to the Cross while visiting each chair exactly once.ExampleInput7 4 38 11 12 16 17 18 2017 16 20 2 20 5 1317 8 8 16 12 15 1312 4 16 4 15 7 68 14 2 11 17 12 8Output139NoteIn the sample testcase, an optimal solution would be. Spent time would be17 + 24 + 23 + 20 + 33 + 22 = 139.",
+    "source": "CF",
+    "vjudge": false
+}

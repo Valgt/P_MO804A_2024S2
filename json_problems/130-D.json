@@ -1,0 +1,11 @@
+{
+    "uid": "130-D",
+    "url": "https://codeforces.com/contest/130/problem/D",
+    "tags": [
+        "*special"
+    ],
+    "title": "130-D",
+    "statement": "D. Exponentiationtime limit per test2 secondsmemory limit per test64 megabytesinputstdinoutputstdoutYou are given integersa,bandc. Calculateabmoduloc.InputInput data contains numbersa,bandc, one number per line. Each number is an integer between1and100, inclusive.OutputOutputabmodc.ExamplesInput2540Output32Input2526Output6",
+    "source": "CF",
+    "vjudge": false
+}

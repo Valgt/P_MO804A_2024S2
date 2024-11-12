@@ -1,0 +1,12 @@
+{
+    "uid": "323-B",
+    "url": "https://codeforces.com/contest/323/problem/B",
+    "tags": [
+        "constructive algorithms",
+        " graphs"
+    ],
+    "title": "323-B",
+    "statement": "B. Tournament-graphtime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutIn this problem you have to build tournament graph, consisting ofnvertices, such, that for any oriented pair of vertices(v,u)(v≠u)there exists a path from vertexvto vertexuconsisting of no more then two edges.A directed graph without self-loops is atournament, if there is exactly one edge between any two distinct vertices (in one out of two possible directions).InputThe first line contains an integern(3 ≤n≤ 1000), the number of the graph's vertices.OutputPrint-1if there is no graph, satisfying the described conditions.Otherwise, printnlines withnintegers in each. The numbers should be separated with spaces. That is adjacency matrixaof the found tournament. Consider the graph vertices to be numbered with integers from1ton. Thenav,u= 0, if there is no edge fromvtou, andav,u= 1if there is one.As the output graph has to be a tournament, following equalities must be satisfied:av,u+au,v= 1for eachv,u(1 ≤v,u≤n;v≠u);av,v= 0for eachv(1 ≤v≤n).ExamplesInput3Output0 1 00 0 11 0 0Input4Output-1",
+    "source": "CF",
+    "vjudge": false
+}

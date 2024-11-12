@@ -1,0 +1,12 @@
+{
+    "uid": "346-C",
+    "url": "https://codeforces.com/contest/346/problem/C",
+    "tags": [
+        "greedy",
+        " math"
+    ],
+    "title": "346-C",
+    "statement": "C. Number Transformation IItime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutYou are given a sequence of positive integersx1,x2, ...,xnand two non-negative integersaandb. Your task is to transformaintob. To do that, you can perform the following moves:subtract 1 from the currenta;subtractamodxi(1 ≤i≤n)from the currenta.Operationamodximeans taking the remainder after division of numberaby numberxi.Now you want to know the minimum number of moves needed to transformaintob.InputThe first line contains a single integern(1 ≤n≤ 105). The second line containsnspace-separated integersx1,x2, ...,xn(2 ≤xi≤ 109). The third line contains two integersaandb(0  ≤b≤a≤ 109,a-b≤ 106).OutputPrint a single integer — the required minimum number of moves needed to transform numberainto numberb.ExamplesInput33 4 530 17Output6Input35 6 71000 200Output206",
+    "source": "CF",
+    "vjudge": false
+}

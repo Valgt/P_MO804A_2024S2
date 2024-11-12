@@ -1,0 +1,13 @@
+{
+    "uid": "369-C",
+    "url": "https://codeforces.com/contest/369/problem/C",
+    "tags": [
+        "dfs and similar",
+        " graphs",
+        " trees"
+    ],
+    "title": "369-C",
+    "statement": "C. Valera and Electionstime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutThe city Valera lives in is going to hold elections to the city Parliament.The city hasndistricts andn- 1bidirectional roads. We know that from any district there is a path along the roads to any other district. Let's enumerate all districts in some way by integers from1ton, inclusive. Furthermore, for each road the residents decided if it is the problem road or not.A problem roadis a road that needs to be repaired.There arencandidates running the elections. Let's enumerate all candidates in some way by integers from1ton, inclusive. If the candidate numberiwill be elected in the city Parliament, he will perform exactly one promise — to repair all problem roads on the way from thei-th district to the district1, where the city Parliament is located.Help Valera and determine the subset of candidates such that if all candidates from the subset will be elected to the city Parliament, all problem roads in the city will be repaired. If there are several such subsets, you should choose the subset consisting of the minimum number of candidates.InputThe first line contains a single integern(2 ≤n≤ 105) — the number of districts in the city.Thenn- 1lines follow. Each line contains the description of a city road as three positive integersxi,yi,ti(1 ≤xi,yi≤n,1 ≤ti≤ 2) — the districts connected by thei-th bidirectional road and the road type. Iftiequals to one, then thei-th road isn't the problem road; iftiequals to two, then thei-th road is the problem road.It's guaranteed that the graph structure of the city is a tree.OutputIn the first line print a single non-negative numberk— the minimum size of the required subset of candidates. Then on the second line printkspace-separated integersa1,a2, ...ak— the numbers of the candidates that form the required subset. If there are multiple solutions, you are allowed to print any of them.ExamplesInput51 2 22 3 23 4 24 5 2Output15Input51 2 12 3 22 4 14 5 1Output13Input51 2 21 3 21 4 21 5 2Output45 4 3 2",
+    "source": "CF",
+    "vjudge": false
+}

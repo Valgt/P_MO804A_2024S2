@@ -1,0 +1,11 @@
+{
+    "uid": "802-E",
+    "url": "https://codeforces.com/contest/802/problem/E",
+    "tags": [
+        "math"
+    ],
+    "title": "802-E",
+    "statement": "E. Marmots (medium)time limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputGood job! Now that Heidi is able to distinguish between Poisson and uniform distributions, she is in a good position to actually estimate the populations.Can you help Heidi estimate each village's population?InputSame as the easy version.OutputOutput one line per village, in the same order as provided in the input, containing your (integer) population estimate.Your answer is considered correct if it is an integer that falls into the interval, wherePis the real population of the village, used to create the distribution (either Poisson or uniform) from which the marmots drew their answers.",
+    "source": "CF",
+    "vjudge": false
+}

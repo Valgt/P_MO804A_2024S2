@@ -1,0 +1,13 @@
+{
+    "uid": "137-E",
+    "url": "https://codeforces.com/contest/137/problem/E",
+    "tags": [
+        "data structures",
+        " implementation",
+        " strings"
+    ],
+    "title": "137-E",
+    "statement": "E. Last Chancetime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutHaving read half of the book called \"Storm and Calm\" on the IT lesson, Innocentius was absolutely determined to finish the book on the maths lessons. All was fine until the math teacher Ms. Watkins saw Innocentius reading fiction books instead of solving equations of the fifth degree. As during the last maths class Innocentius suggested the algorithm of solving equations of the fifth degree in the general case, Ms. Watkins had no other choice but to give him a new task.The teacher asked to write consecutively (without spaces) all words from the \"Storm and Calm\" in one long strings. She thought that a string is good if the number of vowels in the string is no more than twice more than the number of consonants. That is, the string withvvowels andcconsonants is good if and only ifv≤ 2c.The task Innocentius had to solve turned out to be rather simple: he should find the number of the longest good substrings of the strings.InputThe only input line contains a non-empty stringsconsisting of no more than2·105uppercase and lowercase Latin letters. We shall regard letters \"a\", \"e\", \"i\", \"o\", \"u\" and their uppercase variants as vowels.OutputPrint on a single line two numbers without a space: the maximum length of a good substring and the number of good substrings with this length. If no good substring exists, print \"No solution\" without the quotes.Two substrings are considered different if their positions of occurrence are different. So if some string occurs more than once, then it should be counted more than once.ExamplesInputAboOutput3 1InputOEISOutput3 1InputauBAAbeeliiOutput9 3InputAaaBRAaaCAaaDAaaBRAaaOutput18 4InputEAOutputNo solutionNoteIn the first sample there is only one longest good substring: \"Abo\" itself. The other good substrings are \"b\", \"Ab\", \"bo\", but these substrings have shorter length.In the second sample there is only one longest good substring: \"EIS\". The other good substrings are: \"S\", \"IS\".",
+    "source": "CF",
+    "vjudge": false
+}

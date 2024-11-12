@@ -1,0 +1,12 @@
+{
+    "uid": "1331-D",
+    "url": "https://codeforces.com/contest/1331/problem/D",
+    "tags": [
+        "*special",
+        " implementation"
+    ],
+    "title": "1331-D",
+    "statement": "D. Again?time limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputInputThe only line of the input contains a 7-digit hexadecimal number. The first \"digit\" of the number is letter A, the rest of the \"digits\" are decimal digits 0-9.OutputOutput a single integer.ExamplesInputA278832Output0InputA089956Output0InputA089957Output1InputA144045Output1",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,13 @@
+{
+    "uid": "1331-B",
+    "url": "https://codeforces.com/contest/1331/problem/B",
+    "tags": [
+        "*special",
+        " math",
+        " number theory"
+    ],
+    "title": "1331-B",
+    "statement": "B. Limerickstime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputThere was once young lass called Mary,Whose jokes were occasionally scary.On this April's FoolFixed limerick rulesAllowed her to trip the unwary.Can she fill all the linesTo work at all times?On juggling the wordsRight around two-thirdsShe nearly ran out of rhymes.InputThe input contains a single integer $$$a$$$ ($$$4 \\\\le a \\\\le 998$$$). Not every integer in the range is a valid input for the problem; you are guaranteed that the input will be a valid integer.OutputOutput a single number.ExamplesInput35Output57Input57Output319Input391Output1723",
+    "source": "CF",
+    "vjudge": false
+}

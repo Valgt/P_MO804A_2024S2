@@ -1,0 +1,12 @@
+{
+    "uid": "854-B",
+    "url": "https://codeforces.com/contest/854/problem/B",
+    "tags": [
+        "constructive algorithms",
+        " math"
+    ],
+    "title": "854-B",
+    "statement": "B. Maxim Buys an Apartmenttime limit per test1 secondmemory limit per test512 megabytesinputstandard inputoutputstandard outputMaxim wants to buy an apartment in a new house at Line Avenue of Metropolis. The house hasnapartments that are numbered from1tonand are arranged in a row. Two apartments are adjacent if their indices differ by1. Some of the apartments can already be inhabited, others are available for sale.Maxim often visits his neighbors, so apartment isgoodfor him if it is available for sale and there is at least one already inhabited apartment adjacent to it. Maxim knows that there are exactlykalready inhabited apartments, but he doesn't know their indices yet.Find out what could be the minimum possible and the maximum possible number of apartments that are good for Maxim.InputThe only line of the input contains two integers:nandk(1 ≤n≤ 109,0 ≤k≤n).OutputPrint the minimum possible and the maximum possible number of apartments good for Maxim.ExampleInput6 3Output1 3NoteIn the sample test, the number of good apartments could be minimum possible if, for example, apartments with indices1,2and3were inhabited. In this case only apartment4is good. The maximum possible number could be, for example, if apartments with indices1,3and5were inhabited. In this case all other apartments:2,4and6are good.",
+    "source": "CF",
+    "vjudge": false
+}

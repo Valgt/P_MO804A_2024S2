@@ -1,0 +1,13 @@
+{
+    "uid": "938-D",
+    "url": "https://codeforces.com/contest/938/problem/D",
+    "tags": [
+        "data structures",
+        " graphs",
+        " shortest paths"
+    ],
+    "title": "938-D",
+    "statement": "D. Buy a Tickettime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputMusicians of a popular band \"Flayer\" have announced that they are going to \"make their exit\" with a world tour. Of course, they will visit Berland as well.There arencities in Berland. People can travel between cities using two-directional train routes; there are exactlymroutes,i-th route can be used to go from cityvito cityui(and fromuitovi), and it costswicoins to use this route.Each city will be visited by \"Flayer\", and the cost of the concert ticket ini-th city isaicoins.You have friends in every city of Berland, and they, knowing about your programming skills, asked you to calculate the minimum possible number of coins they have to pay to visit the concert. For every cityiyou have to compute the minimum number of coins a person from cityihas to spend to travel to some cityj(or possibly stay in cityi), attend a concert there, and return to cityi(ifj≠i).Formally, for everyyou have to calculate, whered(i,j)is the minimum number of coins you have to spend to travel from cityito cityj. If there is no way to reach cityjfrom cityi, then we considerd(i,j)to be infinitely large.InputThe first line contains two integersnandm(2 ≤n≤ 2·105,1 ≤m≤ 2·105).Thenmlines follow,i-th contains three integersvi,uiandwi(1 ≤vi,ui≤n,vi≠ui,1 ≤wi≤ 1012) denotingi-th train route. There are no multiple train routes connecting the same pair of cities, that is, for each(v,u)neither extra(v,u)nor(u,v)present in input.The next line containsnintegersa1,a2, ...ak(1 ≤ai≤ 1012) — price to attend the concert ini-th city.OutputPrintnintegers.i-th of them must be equal to the minimum number of coins a person from cityihas to spend to travel to some cityj(or possibly stay in cityi), attend a concert there, and return to cityi(ifj≠i).ExamplesInput4 21 2 42 3 76 20 1 25Output6 14 1 25Input3 31 2 12 3 11 3 130 10 20Output12 10 12",
+    "source": "CF",
+    "vjudge": false
+}

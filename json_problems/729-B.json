@@ -1,0 +1,12 @@
+{
+    "uid": "729-B",
+    "url": "https://codeforces.com/contest/729/problem/B",
+    "tags": [
+        "dp",
+        " implementation"
+    ],
+    "title": "729-B",
+    "statement": "B. Spotlightstime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputTheater stage is a rectangular field of sizen×m. The director gave you the stage's plan which actors will follow. For each cell it is stated in the plan if there would be an actor in this cell or not.You are to place a spotlight on the stage in somegoodposition. The spotlight will project light in one of the four directions (if you look at the stage from above) — left, right, up or down. Thus, the spotlight's position is a cell it is placed to and a direction it shines.A position isgoodif two conditions hold:there is no actor in the cell the spotlight is placed to;there is at least one actor in the direction the spotlight projects.Count the number ofgoodpositions for placing the spotlight. Two positions of spotlight are considered to be different if the location cells or projection direction differ.InputThe first line contains two positive integersnandm(1 ≤n,m≤ 1000) — the number of rows and the number of columns in the plan.The nextnlines containmintegers,0or1each — the description of the plan. Integer1, means there will be an actor in the corresponding cell, while0means the cell will remain empty. It is guaranteed that there is at least one actor in the plan.OutputPrint one integer — the number ofgoodpositions for placing the spotlight.ExamplesInput2 40 1 0 01 0 1 0Output9Input4 40 0 0 01 0 0 10 1 1 00 1 0 0Output20NoteIn the first example the following positions aregood:the (1, 1) cell and right direction;the (1, 1) cell and down direction;the (1, 3) cell and left direction;the (1, 3) cell and down direction;the (1, 4) cell and left direction;the (2, 2) cell and left direction;the (2, 2) cell and up direction;the (2, 2) and right direction;the (2, 4) cell and left direction.Therefore, there are9goodpositions in this example.",
+    "source": "CF",
+    "vjudge": false
+}

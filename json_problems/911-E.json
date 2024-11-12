@@ -1,0 +1,14 @@
+{
+    "uid": "911-E",
+    "url": "https://codeforces.com/contest/911/problem/E",
+    "tags": [
+        "constructive algorithms",
+        " data structures",
+        " greedy",
+        " implementation"
+    ],
+    "title": "911-E",
+    "statement": "E. Stack Sortingtime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputLet's suppose you have an arraya, a stacks(initially empty) and an arrayb(also initially empty).You may perform the following operations until bothaandsare empty:Take the first element ofa, push it intosand remove it froma(ifais not empty);Take the top element froms, append it to the end of arrayband remove it froms(ifsis not empty).You can perform these operations in arbitrary order.If there exists a way to perform the operations such that arraybis sorted in non-descending order in the end, then arrayais calledstack-sortable.For example,[3, 1, 2]isstack-sortable, becausebwill be sorted if we perform the following operations:Remove3fromaand push it intos;Remove1fromaand push it intos;Remove1fromsand append it to the end ofb;Remove2fromaand push it intos;Remove2fromsand append it to the end ofb;Remove3fromsand append it to the end ofb.After all these operationsb= [1, 2, 3], so[3, 1, 2]isstack-sortable.[2, 3, 1]is notstack-sortable.You are givenkfirst elements of some permutationpof sizen(recall that a permutation of sizenis an array of sizenwhere each integer from1tonoccurs exactly once). You have to restore the remainingn-kelements of this permutation so it isstack-sortable. If there are multiple answers, choose the answer such thatpis lexicographically maximal (an arrayqis lexicographically greater than an arraypiff there exists some integerksuch that for everyi<kqi=pi, andqk>pk).You may not swap or change any of firstkelements of the permutation.Print the lexicographically maximal permutationpyou can obtain.If there exists no answer then output-1.InputThe first line contains two integersnandk(2 ≤n≤ 200000,1 ≤k<n) — the size of a desired permutation, and the number of elements you are given, respectively.The second line containskintegersp1,p2, ...,pk(1 ≤pi≤n) — the firstkelements ofp. These integers are pairwise distinct.OutputIf it is possible to restore astack-sortablepermutationpof sizensuch that the firstkelements ofpare equal to elements given in the input, print lexicographically maximal such permutation.Otherwise print-1.ExamplesInput5 33 2 1Output3 2 1 5 4Input5 32 3 1Output-1Input5 13Output3 2 1 5 4Input5 23 4Output-1",
+    "source": "CF",
+    "vjudge": false
+}

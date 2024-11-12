@@ -1,0 +1,11 @@
+{
+    "uid": "380-E",
+    "url": "https://codeforces.com/contest/380/problem/E",
+    "tags": [
+        "data structures"
+    ],
+    "title": "380-E",
+    "statement": "E. Sereja and Dividingtime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutLet's assume that we have a sequence of doublesa1,a2, ...,a|a|and a double variablex. You are allowed to perform the following two-staged operation:choose an index of the sequence elementi(1 ≤i≤ |a|);consecutively perform assignments:.Let's use functiong(a,x)to represent the largest value that can be obtained from variablex, using the described operation any number of times and sequencea.Sereja has sequenceb1,b2, ...,b|b|. Help Sereja calculate sum:. Record[bi,bi+ 1, ...,bj]represents a sequence containing the elements in brackets in the given order. To avoid problems with precision, please, print the required sum divided by|b|2.InputThe first line contains integer|b|(1 ≤ |b| ≤ 3·105)— the length of sequenceb. The second line contains|b|integersb1,b2,...,b|b|(1 ≤bi≤ 105).OutputIn a single line print a real number — the required sum divided by|b|2. Your answer will be considered correct if its absolute or relative error won't exceed10- 6.ExamplesInput51 2 3 4 1Output1.238750000000000",
+    "source": "CF",
+    "vjudge": false
+}

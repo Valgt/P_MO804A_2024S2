@@ -1,0 +1,12 @@
+{
+    "uid": "507-D",
+    "url": "https://codeforces.com/contest/507/problem/D",
+    "tags": [
+        "dp",
+        " implementation"
+    ],
+    "title": "507-D",
+    "statement": "D. The Maths Lecturetime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutAmr doesn't like Maths as he finds it really boring, so he usually sleeps in Maths lectures. But one day the teacher suspected that Amr is sleeping and asked him a question to make sure he wasn't.First he gave Amr two positive integersnandk. Then he asked Amr, how many integer numbersx> 0exist such that:Decimal representation ofx(without leading zeroes) consists of exactlyndigits;There exists some integery> 0such that:;decimal representation ofyis asuffixof decimal representation ofx.As the answer to this question may be pretty huge the teacher asked Amr to output only its remainder modulo a numberm.Can you help Amr escape this embarrassing situation?InputInput consists of three integersn,k,m(1 ≤n≤ 1000,1 ≤k≤ 100,1 ≤m≤ 109).OutputPrint the required number modulom.ExamplesInput1 2 1000Output4Input2 2 1000Output45Input5 3 1103Output590NoteA suffix of a stringSis a non-empty string that can be obtained by removing some number (possibly, zero) of first characters fromS.",
+    "source": "CF",
+    "vjudge": false
+}

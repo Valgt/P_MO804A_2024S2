@@ -1,0 +1,12 @@
+{
+    "uid": "768-G",
+    "url": "https://codeforces.com/contest/768/problem/G",
+    "tags": [
+        "binary search",
+        " data structures"
+    ],
+    "title": "768-G",
+    "statement": "G. The Winds of Wintertime limit per test2 secondsmemory limit per test512 megabytesinputstandard inputoutputstandard outputGiven a rooted tree withnnodes. The Night King removes exactly one node from the tree and all the edges associated with it. Doing this splits the tree and forms a forest. The node which is removed is not a part of the forest.The root of a tree in the forest is the node in that tree which does not have a parent. We define the strength of the forest as the size of largest tree in forest.Jon Snow wants to minimize the strength of the forest. To do this he can perform the following operation at most once.He removes the edge between a node and its parent and inserts a new edge between this node and any other node in forest such that the total number of trees in forest remain same.For each nodevyou need to find the minimum value of strength of the forest formed when nodevis removed.InputThe first line of the input contains an integern(1  ≤n≤  105) — the number of vertices in the tree. Each of the nextnlines contains a pair of vertex indicesuiandvi(1  ≤ui,vi≤n) whereuiis the parent ofvi. Ifui= 0thenviis the root.OutputPrintnline each containing a single integer. Thei-th of them should be equal to minimum value of strength of forest formed wheni-th node is removed and Jon Snow performs the operation described above at most once.ExamplesInput100 11 21 31 42 52 63 74 84 95 10Output3455599999Input22 10 2Output11NoteThe tree for first test case is depicted below.When you remove the first node, the tree splits to form the following forest. The strength of this forest is4.Jon Snow now changes the parent of vertex10from5to3. The strength of forest now becomes3.",
+    "source": "CF",
+    "vjudge": false
+}

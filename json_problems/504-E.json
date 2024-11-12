@@ -1,0 +1,15 @@
+{
+    "uid": "504-E",
+    "url": "https://codeforces.com/contest/504/problem/E",
+    "tags": [
+        "binary search",
+        " dfs and similar",
+        " hashing",
+        " string suffix structures",
+        " trees"
+    ],
+    "title": "504-E",
+    "statement": "E. Misha and LCP on Treetime limit per test8 secondsmemory limit per test512 megabytesinputstdinoutputstdoutMisha has a tree with characters written on the vertices. He can choose two verticessandtof this tree and write down characters of vertices lying on a path fromstot. We'll say that such string corresponds to pair(s,t).Misha hasmqueries of type: you are given4verticesa,b,c,d; you need to find the largest common prefix of the strings that correspond to pairs(a,b)and(c,d). Your task is to help him.InputThe first line contains integern(1 ≤n≤ 300 000) — the number of vertices in the tree.Next follows a line consisting ofnsmall English letters. Thei-th character of the string corresponds to the character written on thei-th vertex.Nextn- 1lines contain information about edges. An edge is defined by a pair of integersu,v(1 ≤u,v≤n,u≠v), separated by spaces.The next line contains integerm(1 ≤m≤ 1 000 000) — the number of queries.Nextmlines contain information about queries. A query is defined by four integersa,b,c,d(1 ≤a,b,c,d≤n), separated by spaces.OutputFor each query print the length of the largest common prefix on a separate line.ExamplesInput6bbbabb2 13 24 35 26 562 5 3 11 5 2 35 6 5 66 3 4 16 2 3 42 2 4 5Output222010",
+    "source": "CF",
+    "vjudge": false
+}

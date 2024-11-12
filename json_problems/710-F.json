@@ -1,0 +1,16 @@
+{
+    "uid": "710-F",
+    "url": "https://codeforces.com/contest/710/problem/F",
+    "tags": [
+        "brute force",
+        " data structures",
+        " hashing",
+        " interactive",
+        " string suffix structures",
+        " strings"
+    ],
+    "title": "710-F",
+    "statement": "F. String Set Queriestime limit per test3 secondsmemory limit per test768 megabytesinputstandard inputoutputstandard outputYou should processmqueries over a setDof strings. Each query is one of three kinds:Add a stringsto the setD. It is guaranteed that the stringswas not added before.Delete a stringsfrom the setD. It is guaranteed that the stringsis in the setD.For the given stringsfind the number of occurrences of the strings from the setD. If some stringpfromDhas several occurrences insyou should count all of them.Note that you should solve the problem inonlinemode. It means that you can't read the whole input at once. You can read each query only after writing the answer for the last query of the third type. Use functionsfflushinC++andBufferedWriter.flushinJavalanguages after each writing in your program.InputThe first line contains integerm(1 ≤m≤ 3·105) — the number of queries.Each of the nextmlines contains integert(1 ≤t≤ 3) and nonempty strings— the kind of the query and the string to process. All strings consist of only lowercase English letters.The sum of lengths of all strings in the input will not exceed3·105.OutputFor each query of the third kind print the only integerc— the desired number of occurrences in the strings.ExamplesInput51 abc3 abcabc2 abc1 aba3 abababcOutput22Input101 abc1 bcd1 abcd3 abcd2 abcd3 abcd2 bcd3 abcd2 abc3 abcdOutput3210",
+    "source": "CF",
+    "vjudge": false
+}

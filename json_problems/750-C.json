@@ -1,0 +1,13 @@
+{
+    "uid": "750-C",
+    "url": "https://codeforces.com/contest/750/problem/C",
+    "tags": [
+        "binary search",
+        " greedy",
+        " math"
+    ],
+    "title": "750-C",
+    "statement": "C. New Year and Ratingtime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputEvery Codeforces user has rating, described with one integer, possibly negative or zero. Users are divided into two divisions. The first division is for users with rating1900or higher. Those with rating1899or lower belong to the second division. In every contest, according to one's performance, his or her rating changes by some value, possibly negative or zero.Limak competed inncontests in the year 2016. He remembers that in thei-th contest he competed in the divisiondi(i.e. he belonged to this divisionjust beforethe start of this contest) and his rating changed bycijust after the contest. Note that negativecidenotes the loss of rating.What is the maximum possible rating Limak can have right now, after allncontests? If his rating may be arbitrarily big, print \"Infinity\". If there is no scenario matching the given information, print \"Impossible\".InputThe first line of the input contains a single integern(1 ≤n≤ 200 000).Thei-th of nextnlines contains two integerscianddi(- 100 ≤ci≤ 100,1 ≤di≤ 2), describing Limak's rating change after thei-th contest and his division during thei-th contest contest.OutputIf Limak's current rating can be arbitrarily big, print \"Infinity\" (without quotes). If the situation is impossible, print \"Impossible\" (without quotes). Otherwise print one integer, denoting the maximum possible value of Limak's current rating, i.e. rating after thencontests.ExamplesInput3-7 15 28 2Output1907Input257 122 2OutputImpossibleInput1-5 1OutputInfinityInput427 213 1-50 18 2Output1897NoteIn the first sample, the following scenario matches all information Limak remembers and has maximum possible final rating:Limak has rating1901and belongs to the division1in the first contest. His rating decreases by7.With rating1894Limak is in the division2. His rating increases by5.Limak has rating1899and is still in the division2. In the last contest of the year he gets+ 8and ends the year with rating1907.In the second sample, it's impossible that Limak is in the division1, his rating increases by57and after that Limak is in the division2in the second contest.",
+    "source": "CF",
+    "vjudge": false
+}

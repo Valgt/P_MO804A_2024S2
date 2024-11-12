@@ -1,0 +1,11 @@
+{
+    "uid": "847-G",
+    "url": "https://codeforces.com/contest/847/problem/G",
+    "tags": [
+        "implementation"
+    ],
+    "title": "847-G",
+    "statement": "G. University Classestime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputThere arenstudent groups at the university. During the study day, each group can take no more than7classes. Seven time slots numbered from1to7are allocated for the classes.The schedule on Monday is known for each group, i. e. time slots when group will have classes are known.Your task is to determine the minimum number of rooms needed to hold classes for all groups on Monday. Note that one room can hold at most one group class in a single time slot.InputThe first line contains a single integern(1 ≤n≤ 1000) — the number of groups.Each of the followingnlines contains a sequence consisting of7zeroes and ones — the schedule of classes on Monday for a group. If the symbol in a position equals to1then the group has class in the corresponding time slot. In the other case, the group has no class in the corresponding time slot.OutputPrint minimum number of rooms needed to hold all groups classes on Monday.ExamplesInput201010101010101Output1Input3010101100110010110111Output3NoteIn the first example one room is enough. It will be occupied in each of the seven time slot by the first group or by the second group.In the second example three rooms is enough, because in the seventh time slot all three groups have classes.",
+    "source": "CF",
+    "vjudge": false
+}

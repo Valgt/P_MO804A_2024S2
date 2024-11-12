@@ -1,0 +1,13 @@
+{
+    "uid": "873-F",
+    "url": "https://codeforces.com/contest/873/problem/F",
+    "tags": [
+        "dsu",
+        " string suffix structures",
+        " strings"
+    ],
+    "title": "873-F",
+    "statement": "F. Forbidden Indicestime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given a stringsconsisting ofnlowercase Latin letters. Some indices in this string are marked asforbidden.You want to find a stringasuch that the value of|a|·f(a)is maximum possible, wheref(a)is the number of occurences ofainssuch that these occurences end in non-forbidden indices. So, for example, ifsisaaaa,aisaaand index3is forbidden, thenf(a) = 2because there are three occurences ofains(starting in indices1,2and3), but one of them (starting in index2) ends in a forbidden index.Calculate the maximum possible value of|a|·f(a)you can get.InputThe first line contains an integer numbern(1 ≤n≤ 200000) — the length ofs.The second line contains a strings, consisting ofnlowercase Latin letters.The third line contains a stringt, consisting ofncharacters0and1. Ifi-th character intis1, theniis a forbidden index (otherwiseiis not forbidden).OutputPrint the maximum possible value of|a|·f(a).ExamplesInput5ababa00100Output5Input5ababa00000Output6Input5ababa11111Output0",
+    "source": "CF",
+    "vjudge": false
+}

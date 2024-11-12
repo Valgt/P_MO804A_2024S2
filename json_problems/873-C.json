@@ -1,0 +1,12 @@
+{
+    "uid": "873-C",
+    "url": "https://codeforces.com/contest/873/problem/C",
+    "tags": [
+        "greedy",
+        " two pointers"
+    ],
+    "title": "873-C",
+    "statement": "C. Strange Game On Matrixtime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputIvan is playing a strange game.He has a matrixawithnrows andmcolumns. Each element of the matrix is equal to either0or1. Rows and columns are1-indexed. Ivan can replace any number of ones in this matrix with zeroes. After that, his score in the game will be calculated as follows:Initially Ivan's score is0;In each column, Ivan will find the topmost1(that is, if the current column isj, then he will find minimumisuch thatai,j= 1). If there are no1's in the column, this column is skipped;Ivan will look at the nextmin(k,n-i+ 1)elements in this column (starting from the element he found) and count the number of1's among these elements. This number will be added to his score.Of course, Ivan wants to maximize his score in this strange game. Also he doesn't want to change many elements, so he will replace the minimum possible number of ones with zeroes. Help him to determine the maximum possible score he can get and the minimum possible number of replacements required to achieve that score.InputThe first line contains three integer numbersn,mandk(1 ≤k≤n≤ 100,1 ≤m≤ 100).Thennlines follow,i-th of them containsminteger numbers — the elements ofi-th row of matrixa. Each number is either0or1.OutputPrint two numbers: the maximum possible score Ivan can get and the minimum number of replacements required to get this score.ExamplesInput4 3 20 1 01 0 10 1 01 1 1Output4 1Input3 2 11 00 10 0Output2 0NoteIn the first example Ivan will replace the elementa1, 2.",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,11 @@
+{
+    "uid": "283-C",
+    "url": "https://codeforces.com/contest/283/problem/C",
+    "tags": [
+        "dp"
+    ],
+    "title": "283-C",
+    "statement": "C. Coin Troublestime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutIn the Isle of Guernsey there arendifferent types of coins. For eachi(1 ≤i≤n), coin of typeiis worthaicents. It is possible thatai=ajfor someiandj(i≠j).Bessie has some set of these coins totalingtcents. She tells Jessieqpairs of integers. For eachi(1 ≤i≤q), the pairbi,citells Jessie that Bessie has a strictly greater number of coins of typebithan coins of typeci. It is known that allbiare distinct and allciare distinct.Help Jessie find the number of possible combinations of coins Bessie could have. Two combinations are considered different if there is somei(1 ≤i≤n), such that the number of coins Bessie has of typeiis different in the two combinations. Since the answer can be very large, output it modulo1000000007(109+ 7).If there are no possible combinations of coins totalingtcents that satisfy Bessie's conditions, output 0.InputThe first line contains three space-separated integers,n,qandt(1 ≤n≤ 300; 0 ≤q≤n; 1 ≤t≤ 105). The second line containsnspace separated integers,a1,a2, ...,an(1 ≤ai≤ 105). The nextqlines each contain two distinct space-separated integers,biandci(1 ≤bi,ci≤n;bi≠ci).It's guaranteed that allbiare distinct and allciare distinct.OutputA single integer, the number of valid coin combinations that Bessie could have, modulo1000000007(109+ 7).ExamplesInput4 2 173 1 2 54 23 4Output3Input3 2 63 1 11 22 3Output0Input3 2 101 2 31 22 1Output0NoteFor the first sample, the following 3 combinations give a total of 17 cents and satisfy the given conditions:{0oftype1, 1oftype2, 3oftype3, 2oftype4}, {0, 0, 6, 1}, {2, 0, 3, 1}.No other combinations exist. Note that even though 4 occurs in bothbiandci,the problem conditions are still satisfied because allbiare distinct and allciare distinct.",
+    "source": "CF",
+    "vjudge": false
+}

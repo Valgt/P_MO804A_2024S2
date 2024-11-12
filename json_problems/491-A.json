@@ -1,0 +1,12 @@
+{
+    "uid": "491-A",
+    "url": "https://codeforces.com/contest/491/problem/A",
+    "tags": [
+        "constructive algorithms",
+        " implementation"
+    ],
+    "title": "491-A",
+    "statement": "A. Up the hilltime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutHiking club \"Up the hill\" just returned from a walk. Now they are trying to remember which hills they've just walked through.It is known that there wereNstops, all on different integer heights between1andNkilometers (inclusive) above the sea level. On the first day they've traveled from the first stop to the second stop, on the second day they've traveled from the second to the third and so on, and on the last day they've traveled from the stopN- 1to the stopNand successfully finished their expedition.They are trying to find out which heights were their stops located at. They have an entry in a travel journal specifying how many days did they travel up the hill, and how many days did they walk down the hill.Help them by suggesting some possible stop heights satisfying numbers from the travel journal.InputIn the first line there is an integer non-negative numberAdenoting the number of days of climbing up the hill. Second line contains an integer non-negative numberB— the number of days of walking down the hill (A+B+ 1 =N,1 ≤N≤ 100 000).OutputOutputNspace-separated distinct integers from1toNinclusive, denoting possible heights of the stops in order of visiting.ExamplesInput01Output2 1Input21Output1 3 4 2",
+    "source": "CF",
+    "vjudge": false
+}

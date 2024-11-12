@@ -1,0 +1,12 @@
+{
+    "uid": "873-D",
+    "url": "https://codeforces.com/contest/873/problem/D",
+    "tags": [
+        "constructive algorithms",
+        " divide and conquer"
+    ],
+    "title": "873-D",
+    "statement": "D. Merge Sorttime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputMerge sort is a well-known sorting algorithm. The main function that sorts the elements of arrayawith indices from[l,r)can be implemented as follows:If the segment[l,r)is already sorted in non-descending order (that is, for anyisuch thatl≤i<r- 1a[i] ≤a[i+ 1]), then end the function call;Let;Callmergesort(a,l,mid);Callmergesort(a,mid,r);Merge segments[l,mid)and[mid,r), making the segment[l,r)sorted in non-descending order. The merge algorithm doesn't call any other functions.The array in this problem is0-indexed, so to sort the whole array, you need to callmergesort(a, 0,n).The number of calls of functionmergesortis very important, so Ivan has decided to calculate it while sorting the array. For example, ifa= {1, 2, 3, 4}, then there will be1call ofmergesort—mergesort(0, 4), which will check that the array is sorted and then end. Ifa= {2, 1, 3}, then the number of calls is3: first of all, you callmergesort(0, 3), which then setsmid= 1and callsmergesort(0, 1)andmergesort(1, 3), which do not perform any recursive calls because segments(0, 1)and(1, 3)are sorted.Ivan has implemented the program that counts the number ofmergesortcalls, but now he needs to test it. To do this, he needs to find an arrayasuch thatais a permutation of sizen(that is, the number of elements inaisn, and every integer number from[1,n]can be found in this array), and the number ofmergesortcalls when sorting the array is exactlyk.Help Ivan to find an array he wants!InputThe first line contains two numbersnandk(1 ≤n≤ 100000,1 ≤k≤ 200000) — the size of a desired permutation and the number ofmergesortcalls required to sort it.OutputIf a permutation of sizensuch that there will be exactlykcalls ofmergesortwhile sorting it doesn't exist, output- 1. Otherwise outputninteger numbersa[0],a[1], ...,a[n- 1]— the elements of a permutation that would meet the required conditions. If there are multiple answers, print any of them.ExamplesInput3 3Output2 1 3Input4 1Output1 2 3 4Input5 6Output-1",
+    "source": "CF",
+    "vjudge": false
+}

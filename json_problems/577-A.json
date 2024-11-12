@@ -1,0 +1,12 @@
+{
+    "uid": "577-A",
+    "url": "https://codeforces.com/contest/577/problem/A",
+    "tags": [
+        "implementation",
+        " number theory"
+    ],
+    "title": "577-A",
+    "statement": "A. Multiplication Tabletime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputLet's consider a table consisting ofnrows andncolumns. The cell located at the intersection ofi-th row andj-th column contains numberi×j. The rows and columns are numbered starting from 1.You are given a positive integerx. Your task is to count the number of cells in a table that contain numberx.InputThe single line contains numbersnandx(1 ≤n≤ 105,1 ≤x≤ 109) — the size of the table and the number that we are looking for in the table.OutputPrint a single number: the number of timesxoccurs in the table.ExamplesInput10 5Output2Input6 12Output4Input5 13Output0NoteA table for the second sample test is given below. The occurrences of number12are marked bold.",
+    "source": "CF",
+    "vjudge": false
+}

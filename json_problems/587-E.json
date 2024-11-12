@@ -1,0 +1,11 @@
+{
+    "uid": "587-E",
+    "url": "https://codeforces.com/contest/587/problem/E",
+    "tags": [
+        "data structures"
+    ],
+    "title": "587-E",
+    "statement": "E. Duff as a Queentime limit per test7 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputDuff is the queen of her country, Andarz Gu. She's a competitive programming fan. That's why, when he saw her minister, Malek, free, she gave her a sequence consisting ofnnon-negative integers,a1,a2, ...,anand asked him to performqqueries for her on this sequence.There are two types of queries:given numbersl,randk, Malek should performfor eachl≤i≤r(, bitwise exclusive OR of numbersaandb).given numberslandrMalek should tell her the score of sequenceal,al+ 1, ... ,ar.Score of a sequenceb1, ...,bkis the number of its different Kheshtaks. A non-negative integerwis a Kheshtak of this sequence if and only if there exists a subsequence ofb, let's denote it asbi1,bi2, ... ,bix(possibly empty) such that(1 ≤i1<i2< ... <ix≤k). If this subsequence is empty, thenw= 0.Unlike Duff, Malek is not a programmer. That's why he asked for your help. Please help him perform these queries.InputThe first line of input contains two integers,nandq(1 ≤n≤ 2 × 105and1 ≤q≤ 4 × 104).The second line of input containsnintegers,a1,a2, ...,anseparated by spaces (0 ≤ai≤ 109for each1 ≤i≤n).The nextqlines contain the queries. Each line starts with an integert(1 ≤t≤ 2), type of the corresponding query. Ift= 1, then there are three more integers in that line,l,randk. Otherwise there are two more integers,landr. (1 ≤l≤r≤nand0 ≤k≤ 109)OutputPrint the answer of each query of the second type in one line.ExamplesInput5 51 2 3 4 22 1 51 2 2 82 1 51 1 3 102 2 2Output8161NoteIn the first query, we want all Kheshtaks of sequence1, 2, 3, 4, 2which are:0, 1, 2, 3, 4, 5, 6, 7.In the third query, we want all Khestaks of sequence1, 10, 3, 4, 2which are:0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15.In the fifth query, we want all Kheshtaks of sequence0which is0.",
+    "source": "CF",
+    "vjudge": false
+}

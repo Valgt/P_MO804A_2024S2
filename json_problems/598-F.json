@@ -1,0 +1,11 @@
+{
+    "uid": "598-F",
+    "url": "https://codeforces.com/contest/598/problem/F",
+    "tags": [
+        "geometry"
+    ],
+    "title": "598-F",
+    "statement": "F. Cut Lengthtime limit per test0.5 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputGiven simple (without self-intersections)n-gon. It is not necessary convex. Also you are givenmlines. For each line find the length of common part of the line and then-gon.The boundary ofn-gon belongs to polygon. It is possible thatn-gon contains 180-degree angles.InputThe first line contains integersnandm(3 ≤n≤ 1000;1 ≤m≤ 100). The followingnlines contain coordinates of polygon vertices (in clockwise or counterclockwise direction). All vertices are distinct.The followingmlines contain line descriptions. Each of them contains two distict points of a line by their coordinates.All given in the input coordinates are real numbers, given with at most two digits after decimal point. They do not exceed105by absolute values.OutputPrintmlines, thei-th line should contain the length of common part of the givenn-gon and thei-th line. The answer will be considered correct if the absolute or relative error doesn't exceed10- 6.ExamplesInput4 30 01 01 10 10 0 1 10 0 0 10 0 1 -1Output1.414213562373095145471.000000000000000000000.00000000000000000000",
+    "source": "CF",
+    "vjudge": false
+}

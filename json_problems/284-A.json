@@ -1,0 +1,13 @@
+{
+    "uid": "284-A",
+    "url": "https://codeforces.com/contest/284/problem/A",
+    "tags": [
+        "implementation",
+        " math",
+        " number theory"
+    ],
+    "title": "284-A",
+    "statement": "A. Cows and Primitive Rootstime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutThe cows have just learned what a primitive root is! Given a primep, a primitive rootis an integerx(1 ≤x<p)such that none of integersx- 1,x2- 1, ...,xp- 2- 1are divisible byp, butxp- 1- 1is.Unfortunately, computing primitive roots can be time consuming, so the cows need your help. Given a primep, help the cows find the number of primitive roots.InputThe input contains a single line containing an integerp(2 ≤p< 2000). It is guaranteed thatpis a prime.OutputOutput on a single line the number of primitive roots.ExamplesInput3Output1Input5Output2NoteThe only primitive rootis2.The primitive rootsare2and3.",
+    "source": "CF",
+    "vjudge": false
+}

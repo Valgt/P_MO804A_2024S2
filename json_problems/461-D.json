@@ -1,0 +1,12 @@
+{
+    "uid": "461-D",
+    "url": "https://codeforces.com/contest/461/problem/D",
+    "tags": [
+        "dsu",
+        " math"
+    ],
+    "title": "461-D",
+    "statement": "D. Appleman and Complicated Tasktime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutToastman came up with a very complicated task. He gives it to Appleman, but Appleman doesn't know how to solve it. Can you help him?Given an×ncheckerboard. Each cell of the board has either character 'x', or character 'o', or nothing. How many ways to fill all the empty cells with 'x' or 'o' (each cell must contain only one character in the end) are there, such that for each cell the number of adjacent cells with 'o' will be even? Find the number of ways modulo1000000007(109+ 7). Two cells of the board are adjacent if they share a side.InputThe first line contains two integersn,k(1 ≤n,k≤ 105) — the size of the board, and the number of cells that has characters initially.Thenklines follows. Thei-th line contains two integers and a character:ai,bi,ci(1 ≤ai,bi≤n;ciis either 'o' or 'x'). This line means: there is a characterciin the cell that is located on the intersection of theai-th row andbi-th column. All the given cells are distinct.Consider that the rows are numbered from1tonfrom top to bottom. Analogically, the columns are numbered from1tonfrom left to right.OutputPrint a single integer — the answer to the problem.ExamplesInput3 21 1 x2 2 oOutput2Input4 32 4 x3 4 x3 2 xOutput2NoteIn the first example there are two ways:xxo          xooxox          ooooxx          oox",
+    "source": "CF",
+    "vjudge": false
+}

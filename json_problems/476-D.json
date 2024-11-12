@@ -1,0 +1,13 @@
+{
+    "uid": "476-D",
+    "url": "https://codeforces.com/contest/476/problem/D",
+    "tags": [
+        "constructive algorithms",
+        " greedy",
+        " math"
+    ],
+    "title": "476-D",
+    "statement": "D. Dreamoon and Setstime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutDreamoon likes to play with sets, integers and.is defined as the largest positive integer that divides bothaandb.LetSbe a set of exactly four distinct integers greater than0. DefineSto be of rankkif and only if for all pairs of distinct elementssi,sjfromS,.Givenkandn, Dreamoon wants to make upnsets of rankkusing integers from1tomsuch that no integer is used in two different sets (of course you can leave some integers without use). Calculate the minimummthat makes it possible and print one possible solution.InputThe single line of the input contains two space separated integersn,k(1 ≤n≤ 10 000, 1 ≤k≤ 100).OutputOn the first line print a single integer — the minimal possiblem.On each of the nextnlines print four space separated integers representing thei-th set.Neither the order of the sets nor the order of integers within a set is important. If there are multiple possible solutions with minimalm, print any one of them.ExamplesInput1 1Output51 2 3 5Input2 2Output222 4 6 2214 18 10 16NoteFor the first example it's easy to see that set{1, 2, 3, 4}isn't a valid set of rank 1 since.",
+    "source": "CF",
+    "vjudge": false
+}

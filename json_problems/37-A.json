@@ -1,0 +1,11 @@
+{
+    "uid": "37-A",
+    "url": "https://codeforces.com/contest/37/problem/A",
+    "tags": [
+        "sortings"
+    ],
+    "title": "37-A",
+    "statement": "A. Towerstime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutLittle Vasya has received a young builder’s kit. The kit consists of several wooden bars, the lengths of all of them are known. The bars can be put one on the top of the other if their lengths are the same.Vasya wants to construct the minimal number of towers from the bars. Help Vasya to use the bars in the best way possible.InputThe first line contains an integerN(1 ≤N≤ 1000) — the number of bars at Vasya’s disposal. The second line containsNspace-separated integersli— the lengths of the bars. All the lengths are natural numbers not exceeding1000.OutputIn one line output two numbers — the height of the largest tower and their total number. Remember that Vasya should use all the bars.ExamplesInput31 2 3Output1 3Input46 5 6 7Output2 3",
+    "source": "CF",
+    "vjudge": false
+}

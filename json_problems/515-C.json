@@ -1,0 +1,13 @@
+{
+    "uid": "515-C",
+    "url": "https://codeforces.com/contest/515/problem/C",
+    "tags": [
+        "greedy",
+        " math",
+        " sortings"
+    ],
+    "title": "515-C",
+    "statement": "C. Drazil and Factorialtime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutDrazil is playing a math game with Varda.Let's definefor positive integerxas a product of factorials of its digits. For example,.First, they choose a decimal numberaconsisting ofndigits that contains at least one digit larger than1. This number may possibly start with leading zeroes. Then they should find maximum positive numberxsatisfying following two conditions:1.xdoesn't contain neither digit0nor digit1.2.=.Help friends find such number.InputThe first line contains an integern(1 ≤n≤ 15) — the number of digits ina.The second line containsndigits ofa. There is at least one digit inathat is larger than1. Numberamay possibly contain leading zeroes.OutputOutput a maximum possible integer satisfying the conditions above. There should be no zeroes and ones in this number decimal representation.ExamplesInput41234Output33222Input3555Output555NoteIn the first case,",
+    "source": "CF",
+    "vjudge": false
+}

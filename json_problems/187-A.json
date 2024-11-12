@@ -1,0 +1,11 @@
+{
+    "uid": "187-A",
+    "url": "https://codeforces.com/contest/187/problem/A",
+    "tags": [
+        "greedy"
+    ],
+    "title": "187-A",
+    "statement": "A. Permutationstime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutHappy PMP is freshman and he is learning about algorithmic problems. He enjoys playing algorithmic games a lot.One of the seniors gave Happy PMP a nice game. He is given two permutations of numbers1throughnand is asked to convert the first one to the second. In one move he can remove the last number from the permutation of numbers and inserts it back in an arbitrary position. He can either insert last number between any two consecutive numbers, or he can place it at the beginning of the permutation.Happy PMP has an algorithm that solves the problem. But it is not fast enough. He wants to know the minimum number of moves to convert the first permutation to the second.InputThe first line contains a single integern(1 ≤n≤ 2·105) — the quantity of the numbers in the both given permutations.Next line containsnspace-separated integers — the first permutation. Each number between1tonwill appear in the permutation exactly once.Next line describe the second permutation in the same format.OutputPrint a single integer denoting the minimum number of moves required to convert the first permutation to the second.ExamplesInput33 2 11 2 3Output2Input51 2 3 4 51 5 2 3 4Output1Input51 5 2 3 41 2 3 4 5Output3NoteIn the first sample, he removes number 1 from end of the list and places it at the beginning. After that he takes number 2 and places it between 1 and 3.In the second sample, he removes number 5 and inserts it after 1.In the third sample, the sequence of changes are like this:1 5 2 3 41 4 5 2 31 3 4 5 21 2 3 4 5So he needs three moves.",
+    "source": "CF",
+    "vjudge": false
+}

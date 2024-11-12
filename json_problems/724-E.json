@@ -1,0 +1,13 @@
+{
+    "uid": "724-E",
+    "url": "https://codeforces.com/contest/724/problem/E",
+    "tags": [
+        "dp",
+        " flows",
+        " greedy"
+    ],
+    "title": "724-E",
+    "statement": "E. Goods transportationtime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputThere arencities located along the one-way road. Cities are numbered from1tonin the direction of the road.Thei-th city had producedpiunits of goods. No more thansiunits of goods can be sold in thei-th city.For each pair of citiesiandjsuch that1 ≤i<j≤nyou canno more than oncetransportno more thancunits of goods from the cityito the cityj. Note that goods can only be transported from a city with a lesser index to the city with a larger index.You can transport goods between cities in any order.Determine the maximum number of produced goods that can be sold in total in all the cities after a sequence of transportations.InputThe first line of the input contains two integersnandc(1 ≤n≤ 10 000,0 ≤c≤ 109) — the number of cities and the maximum amount of goods for a single transportation.The second line containsnintegerspi(0 ≤pi≤ 109) — the number of units of goods that were produced in each city.The third line of input containsnintegerssi(0 ≤si≤ 109) — the number of units of goods that can be sold in each city.OutputPrint the maximum total number of produced goods that can be sold in all cities after a sequence of transportations.ExamplesInput3 01 2 33 2 1Output4Input5 17 4 2 1 01 2 3 4 5Output12Input4 313 10 7 44 7 10 13Output34",
+    "source": "CF",
+    "vjudge": false
+}

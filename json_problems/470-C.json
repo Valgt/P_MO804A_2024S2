@@ -1,0 +1,11 @@
+{
+    "uid": "470-C",
+    "url": "https://codeforces.com/contest/470/problem/C",
+    "tags": [
+        "*special"
+    ],
+    "title": "470-C",
+    "statement": "C. Evaltime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutYou are given a simple arithmetic expression of the forma?b, whereaandbare integer constants, and?can be one of the following operations: '+' (addition), '-' (subtraction), '*' (multiplication), '/' (integer division) or '%' (modulo operation).Output the result of evaluation of this expression.InputThe input is a single line containing an expressiona?b. Hereaandbare integers between 1 and 999, inclusive;?is an operation character: '+', '-' (ASCII code 45), '*', '/' or '%'.OutputOutput a single integer — the result of evaluation of this expression.ExamplesInput123+456Output579Input192/5Output38Input945%19Output14",
+    "source": "CF",
+    "vjudge": false
+}

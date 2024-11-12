@@ -1,0 +1,15 @@
+{
+    "uid": "350-D",
+    "url": "https://codeforces.com/contest/350/problem/D",
+    "tags": [
+        "binary search",
+        " data structures",
+        " geometry",
+        " hashing",
+        " sortings"
+    ],
+    "title": "350-D",
+    "statement": "D. Looking for Owlstime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutEmperor Palpatine loves owls very much. The emperor has some blueprints with the new Death Star, the blueprints containndistinct segments andmdistinct circles. We will consider the segments indexed from1tonin some way and the circles — indexed from1tomin some way.Palpatine defines an owl as a set of a pair of distinct circles(i,j)(i<j) and one segmentk, such that:circlesiandjare symmetrical relatively to the straight line containing segmentk;circlesiandjdon't have any common points;circlesiandjhave the same radius;segmentkintersects the segment that connects the centers of circlesiandj.Help Palpatine, count the number of distinct owls on the picture.InputThe first line contains two integers —nandm(1 ≤n≤ 3·105,2 ≤m≤ 1500).The nextnlines contain four integers each,x1,y1,x2,y2— the coordinates of the two endpoints of the segment. It's guaranteed that each segment has positive length.The nextmlines contain three integers each,xi,yi,ri— the coordinates of the center and the radius of thei-th circle. All coordinates are integers of at most104in their absolute value. The radius is a positive integer of at most104.It is guaranteed that all segments and all circles are dictinct.OutputPrint a single number — the answer to the problem.Please, do not use the%lldspecifier to output 64-bit integers is С++. It is preferred to use thecoutstream or the%I64dspecifier.ExamplesInput1 23 2 3 -20 0 26 0 2Output1Input3 20 0 0 10 -1 0 10 -1 0 02 0 1-2 0 1Output3Input1 2-1 0 1 0-100 0 1100 0 1Output0NoteHere's an owl from the first sample. The owl is sitting and waiting for you to count it.",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,13 @@
+{
+    "uid": "379-F",
+    "url": "https://codeforces.com/contest/379/problem/F",
+    "tags": [
+        "data structures",
+        " divide and conquer",
+        " trees"
+    ],
+    "title": "379-F",
+    "statement": "F. New Year Treetime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutYou are a programmer and you have a New Year Tree (not the traditional fur tree, though) — a tree of four vertices: one vertex of degree three (has number 1), connected with three leaves (their numbers are from 2 to 4).On the New Year, programmers usually have fun. You decided to have fun as well by adding vertices to the tree. One adding operation looks as follows:First we choose some leaf of the tree with numberv.Let's mark the number of vertices on the tree at this moment by variablen, then two vertexes are added to the tree, their numbers aren+ 1andn+ 2, also you get new edges, one between verticesvandn+ 1and one between verticesvandn+ 2.Your task is not just to model the process of adding vertices to the tree, but after each adding operation print the diameter of the current tree. Come on, let's solve the New Year problem!InputThe first line contains integerq(1 ≤q≤ 5·105)— the number of operations. Each of the nextqlines contains integervi(1 ≤vi≤n)— the operation of adding leaves to vertexvi. Variablenrepresents the number of vertices in the current tree.It is guaranteed that all given operations are correct.OutputPrintqintegers — the diameter of the current tree after each operation.ExamplesInput523485Output34456",
+    "source": "CF",
+    "vjudge": false
+}

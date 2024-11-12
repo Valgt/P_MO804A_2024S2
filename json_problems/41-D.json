@@ -1,0 +1,11 @@
+{
+    "uid": "41-D",
+    "url": "https://codeforces.com/contest/41/problem/D",
+    "tags": [
+        "dp"
+    ],
+    "title": "41-D",
+    "statement": "D. Pawntime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutOn some square in the lowest row of a chessboard a stands a pawn. It has only two variants of moving: upwards and leftwards or upwards and rightwards. The pawn can choose from which square of the lowest row it can start its journey. On each square lay from 0 to 9 peas. The pawn wants to reach the uppermost row having collected as many peas as possible. As there it will have to divide the peas between itself and itskbrothers, the number of peas must be divisible byk+ 1. Find the maximal number of peas it will be able to collect and which moves it should make to do it.The pawn cannot throw peas away or leave the board. When a pawn appears in some square of the board (including the first and last square of the way), it necessarily takes all the peas.InputThe first line contains three integersn,m,k(2 ≤n,m≤ 100, 0 ≤k≤ 10) — the number of rows and columns on the chessboard, the number of the pawn's brothers. Then follownlines containing eachmnumbers from 0 to 9 without spaces — the chessboard's description. Each square is described by one number — the number of peas in it. The first line corresponds to the uppermost row and the last line — to the lowest row.OutputIf it is impossible to reach the highest row having collected the number of peas divisible byk+ 1, print-1.Otherwise, the first line must contain a single number — the maximal number of peas the pawn can collect given that the number must be divisible byk+ 1. The second line must contain a single number — the number of the square's column in the lowest row, from which the pawn must start its journey. The columns are numbered from the left to the right with integral numbers starting from1. The third line must contain a line consisting ofn- 1symbols — the description of the pawn's moves. If the pawn must move upwards and leftwards, printL, if it must move upwards and rightwards, printR. If there are several solutions to that problem, print any of them.ExamplesInput3 3 1123456789Output162RLInput3 3 0123456789Output173LRInput2 2 109875Output-1",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,11 @@
+{
+    "uid": "341-D",
+    "url": "https://codeforces.com/contest/341/problem/D",
+    "tags": [
+        "data structures"
+    ],
+    "title": "341-D",
+    "statement": "D. Iahub and Xorstime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutIahub does not like background stories, so he'll tell you exactly what this problem asks you for.You are given a matrixawithnrows andncolumns. Initially, all values of the matrix are zeros. Both rows and columns are 1-based, that is rows are numbered 1, 2, ...,nand columns are numbered 1, 2, ...,n. Let's denote an element on thei-th row andj-th column asai,j.We will call a submatrix(x0,y0,x1,y1)such elementsai,jfor which two inequalities hold:x0≤i≤x1,y0≤j≤y1.Write a program to perform two following operations:Query(x0,y0,x1,y1): print the xor sum of the elements of the submatrix(x0,y0,x1,y1).Update(x0,y0,x1,y1,v): each element from submatrix(x0,y0,x1,y1)gets xor-ed by valuev.InputThe first line contains two integers:n(1 ≤n≤ 1000) andm(1 ≤m≤ 105). The numbermrepresents the number of operations you need to perform. Each of the nextmlines contains five or six integers, depending on operation type.If thei-th operation from the input is a query, the first number fromi-th line will be 1. It will be followed by four integersx0,y0,x1,y1. If thei-th operation is an update, the first number from thei-th line will be 2. It will be followed by five integersx0,y0,x1,y1,v.It is guaranteed that for each update operation, the following inequality holds:0 ≤v< 262. It is guaranteed that for each operation, the following inequalities hold:1 ≤x0≤x1≤n,1 ≤y0≤y1≤n.OutputFor each query operation, output on a new line the result.ExamplesInput3 52 1 1 2 2 12 1 3 2 3 22 3 1 3 3 31 2 2 3 31 2 2 3 2Output32NoteAfter the first3operations, the matrix will look like this:1 1 21 1 23 3 3The fourth operation asks us to compute 1 xor 2 xor 3 xor 3 = 3.The fifth operation asks us to compute 1 xor 3 = 2.",
+    "source": "CF",
+    "vjudge": false
+}

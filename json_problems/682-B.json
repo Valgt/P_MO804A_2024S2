@@ -1,0 +1,11 @@
+{
+    "uid": "682-B",
+    "url": "https://codeforces.com/contest/682/problem/B",
+    "tags": [
+        "sortings"
+    ],
+    "title": "682-B",
+    "statement": "B. Alyona and Mextime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputSomeone gave Alyona an array containingnpositive integersa1,a2, ...,an. In one operation, Alyona can choose any element of the array and decrease it, i.e. replace with any positive integer that is smaller than the current one. Alyona can repeat this operation as many times as she wants. In particular, she may not apply any operation to the array at all.Formally, after applying some operations Alyona will get an array ofnpositive integersb1,b2, ...,bnsuch that1 ≤bi≤aifor every1 ≤i≤n. Your task is to determine the maximum possible value of mex of this array.Mexof an array in this problem is theminimum positiveinteger that doesn't appear in this array. For example, mex of the array containing1,3and4is equal to2, while mex of the array containing2,3and2is equal to1.InputThe first line of the input contains a single integern(1 ≤n≤ 100 000) — the number of elements in the Alyona's array.The second line of the input containsnintegersa1,a2, ...,an(1 ≤ai≤ 109) — the elements of the array.OutputPrint one positive integer — the maximum possible value of mex of the array after Alyona applies some (possibly none) operations.ExamplesInput51 3 3 3 6Output5Input22 1Output3NoteIn the first sample case if one will decrease the second element value to2and the fifth element value to4then themexvalue of resulting array12334will be equal to5.To reach the answer to the second sample case one must not decrease any of the array elements.",
+    "source": "CF",
+    "vjudge": false
+}

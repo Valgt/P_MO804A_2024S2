@@ -1,0 +1,12 @@
+{
+    "uid": "879-B",
+    "url": "https://codeforces.com/contest/879/problem/B",
+    "tags": [
+        "data structures",
+        " implementation"
+    ],
+    "title": "879-B",
+    "statement": "B. Table Tennistime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputnpeople are standing in a line to play table tennis. At first, the first two players in the line play a game. Then the loser goes to the end of the line, and the winner plays with the next person from the line, and so on. They play until someone winskgames in a row. This player becomes the winner.For each of the participants, you know the power to play table tennis, and for all players these values are different. In a game the player with greater power always wins. Determine who will be the winner.InputThe first line contains two integers:nandk(2 ≤n≤ 500,2 ≤k≤ 1012) — the number of people and the number of wins.The second line containsnintegersa1,a2, ...,an(1 ≤ai≤n) — powers of the player. It's guaranteed that this line contains a valid permutation, i.e. allaiare distinct.OutputOutput a single integer —powerof the winner.ExamplesInput2 21 2Output2Input4 23 1 2 4Output3Input6 26 5 3 1 2 4Output6Input2 100000000002 1Output2NoteGames in the second sample:3plays with1.3wins.1goes to the end of the line.3plays with2.3wins. He wins twice in a row. He becomes the winner.",
+    "source": "CF",
+    "vjudge": false
+}

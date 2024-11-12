@@ -1,0 +1,13 @@
+{
+    "uid": "762-F",
+    "url": "https://codeforces.com/contest/762/problem/F",
+    "tags": [
+        "combinatorics",
+        " graphs",
+        " trees"
+    ],
+    "title": "762-F",
+    "statement": "F. Tree nestingtime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given two trees (connected undirected acyclic graphs)SandT.Count the number of subtrees (connected subgraphs) ofSthat are isomorphic to treeT. Since this number can get quite large, output it modulo109+ 7.Two subtrees of treeSare considered different, if there exists a vertex inSthat belongs to exactly one of them.TreeGis called isomorphic to treeHif there exists a bijectionffrom the set of vertices ofGto the set of vertices ofHthat has the following property: if there is an edge between verticesAandBin treeG, then there must be an edge between verticesf(A)andf(B)in treeH. And vice versa — if there is an edge between verticesAandBin treeH, there must be an edge betweenf- 1(A)andf- 1(B)in treeG.InputThe first line contains a single integer|S|(1 ≤ |S| ≤ 1000) — the number of vertices of treeS.Next|S| - 1lines contain two integersuiandvi(1 ≤ui,vi≤ |S|) and describe edges of treeS.The next line contains a single integer|T|(1 ≤ |T| ≤ 12) — the number of vertices of treeT.Next|T| - 1lines contain two integersxiandyi(1 ≤xi,yi≤ |T|) and describe edges of treeT.OutputOn the first line output a single integer — the answer to the given task modulo109+ 7.ExamplesInput51 22 33 44 531 22 3Output3Input32 33 131 21 3Output1Input71 21 31 41 51 61 744 14 24 3Output20Input51 22 33 44 544 14 24 3Output0",
+    "source": "CF",
+    "vjudge": false
+}

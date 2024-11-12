@@ -1,0 +1,12 @@
+{
+    "uid": "756-B",
+    "url": "https://codeforces.com/contest/756/problem/B",
+    "tags": [
+        "binary search",
+        " dp"
+    ],
+    "title": "756-B",
+    "statement": "B. Travel Cardtime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputA new innovative ticketing systems for public transport is introduced in Bytesburg. Now there is a single travel card for all transport. To make a trip a passenger scan his card and then he is charged according to the fare.The fare is constructed in the following manner. There are three types of tickets:a ticket for one trip costs20byteland rubles,a ticket for90minutes costs50byteland rubles,a ticket for one day (1440minutes) costs120byteland rubles.Note that a ticket forxminutes activated at timetcan be used for trips started in time range fromttot+x- 1, inclusive. Assume that all trips take exactly one minute.To simplify the choice for the passenger, the system automatically chooses the optimal tickets. After each trip starts, the system analyses all the previous trips and the current trip and chooses a set of tickets for these trips with a minimum total cost. Let the minimum total cost of tickets to cover all trips from the first to the current isa, and the total sum charged before isb. Then the system charges the passenger the suma-b.You have to write a program that, for given trips made by a passenger, calculates the sum the passenger is charged after each trip.InputThe first line of input contains integer numbern(1 ≤n≤ 105) — the number of trips made by passenger.Each of the followingnlines contains the time of tripti(0 ≤ti≤ 109), measured in minutes from the time of starting the system. Alltiare different, given in ascending order, i. e.ti+ 1>tiholds for all1 ≤i<n.OutputOutputnintegers. For each trip, print the sum the passenger is charged after it.ExamplesInput3102030Output202010Input1013454660103115126150256516Output20201002000202010NoteIn the first example, the system works as follows: for the first and second trips it is cheaper to pay for two one-trip tickets, so each time20rubles is charged, after the third trip the system understands that it would be cheaper to buy a ticket for90minutes. This ticket costs50rubles, and the passenger had already paid40rubles, so it is necessary to charge10rubles only.",
+    "source": "CF",
+    "vjudge": false
+}

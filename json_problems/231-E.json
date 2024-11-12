@@ -1,0 +1,15 @@
+{
+    "uid": "231-E",
+    "url": "https://codeforces.com/contest/231/problem/E",
+    "tags": [
+        "data structures",
+        " dfs and similar",
+        " dp",
+        " graphs",
+        " trees"
+    ],
+    "title": "231-E",
+    "statement": "E. Cactustime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutA connected undirected graph is called avertex cactus, if each vertex of this graph belongs to at most one simple cycle.Asimple cyclein a undirected graph is a sequence of distinct verticesv1,v2, ...,vt(t> 2), such that for anyi(1 ≤i<t)exists an edge between verticesviandvi+ 1, and also exists an edge between verticesv1andvt.Asimple pathin a undirected graph is a sequence of not necessarily distinct verticesv1,v2, ...,vt(t> 0), such that for anyi(1 ≤i<t)exists an edge between verticesviandvi+ 1and furthermore eachedge occurs no more than once. We'll say that a simple pathv1,v2, ...,vtstarts at vertexv1and ends at vertexvt.You've got a graph consisting ofnvertices andmedges, that is a vertex cactus. Also, you've got a list ofkpairs of interesting verticesxi,yi, for which you want to know the following information — the number of distinct simple paths that start at vertexxiand end at vertexyi. We will consider two simple paths distinct if the sets of edges of the paths are distinct.For each pair of interesting vertices count the number of distinct simple paths between them. As this number can be rather large, you should calculate it modulo1000000007(109+ 7).InputThe first line contains two space-separated integersn,m(2 ≤n≤ 105; 1 ≤m≤ 105)— the number of vertices and edges in the graph, correspondingly. Nextmlines contain the description of the edges: thei-th line contains two space-separated integersai,bi(1 ≤ai,bi≤n)— the indexes of the vertices connected by thei-th edge.The next line contains a single integerk(1 ≤k≤ 105)— the number of pairs of interesting vertices. Nextklines contain the list of pairs of interesting vertices: thei-th line contains two space-separated numbersxi,yi(1 ≤xi,yi≤n;xi≠yi)— the indexes of interesting vertices in thei-th pair.It is guaranteed that the given graph is a vertex cactus. It is guaranteed that the graph contains no loops or multiple edges. Consider the graph vertices are numbered from 1 ton.OutputPrintklines: in thei-th line print a single integer — the number of distinct simple ways, starting atxiand ending atyi, modulo1000000007(109+ 7).ExamplesInput10 111 22 33 41 43 55 68 68 77 67 99 1061 23 56 99 29 39 10Output222441",
+    "source": "CF",
+    "vjudge": false
+}

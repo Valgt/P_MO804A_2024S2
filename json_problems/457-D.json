@@ -1,0 +1,13 @@
+{
+    "uid": "457-D",
+    "url": "https://codeforces.com/contest/457/problem/D",
+    "tags": [
+        "combinatorics",
+        " math",
+        " probabilities"
+    ],
+    "title": "457-D",
+    "statement": "D. Bingo!time limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutThe game of bingo is played on a5 × 5square grid filled with distinct numbers between1and75. In this problem you will consider a generalized version played on ann×ngrid with distinct numbers between1andm(m≥n2).A player begins by selecting a randomly generated bingo grid (generated uniformly among all available grids). Thenkdistinct numbers between1andmwill be called at random (called uniformly among all available sets ofknumbers). For each called number that appears on the grid, the player marks that cell. The score at the end is 2 raised to the power of (number of completely marked rows plus number of completely marked columns).Determine the expected value of the score. The expected score may be very large. If the expected score is larger than1099, print1099instead (for example as \"1e99\" without the quotes).InputInput will consist of three integersn,m,k(1 ≤n≤ 300;n2≤m≤ 100000;n≤k≤m).OutputPrint the smaller of1099and the expected score. Your answer must be correct within an absolute or relative error of10- 9.ExamplesInput1 2 1Output2.5Input2 4 3Output4Input7 59164 40872Output3.1415926538",
+    "source": "CF",
+    "vjudge": false
+}

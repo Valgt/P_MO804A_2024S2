@@ -1,0 +1,12 @@
+{
+    "uid": "34-D",
+    "url": "https://codeforces.com/contest/34/problem/D",
+    "tags": [
+        "dfs and similar",
+        " graphs"
+    ],
+    "title": "34-D",
+    "statement": "D. Road Maptime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutThere arencities in Berland. Each city has its index — an integer number from1ton. The capital has indexr1. All the roads in Berland are two-way. The road system is such that there is exactly one path from the capital to each city, i.e. the road map looks like a tree. In Berland's chronicles the road map is kept in the following way: for each cityi, different from the capital, there is kept numberpi— index of the last city on the way from the capital toi.Once the king of Berland Berl XXXIV decided to move the capital from cityr1to cityr2. Naturally, after this the old representation of the road map in Berland's chronicles became incorrect. Please, help the king find out a new representation of the road map in the way described above.InputThe first line contains three space-separated integersn,r1,r2(2 ≤n≤ 5·104, 1 ≤r1≠r2≤n) — amount of cities in Berland, index of the old capital and index of the new one, correspondingly.The following line containsn- 1space-separated integers — the old representation of the road map. For each city, apart fromr1, there is given integerpi— index of the last city on the way from the capital to cityi. All the cities are described in order of increasing indexes.OutputOutputn- 1numbers — new representation of the road map in the same format.ExamplesInput3 2 32 2Output2 3Input6 2 46 1 2 4 2Output6 4 1 4 2",
+    "source": "CF",
+    "vjudge": false
+}

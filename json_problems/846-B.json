@@ -1,0 +1,12 @@
+{
+    "uid": "846-B",
+    "url": "https://codeforces.com/contest/846/problem/B",
+    "tags": [
+        "brute force",
+        " greedy"
+    ],
+    "title": "846-B",
+    "statement": "B. Math Showtime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputPolycarp takes part in a math show. He is givenntasks, each consists ofksubtasks, numbered1throughk. It takes himtjminutes to solve thej-th subtask of any task. Thus, time required to solve a subtask depends only on its index, but not on the task itself. Polycarp can solve subtasks in any order.By solving subtask of arbitrary problem he earns one point. Thus, the number of points for task is equal to the number of solved subtasks in it. Moreover, if Polycarpcompletelysolves the task (solves allkof its subtasks), he recieves one extra point. Thus, total number of points he recieves for the complete solution of the task isk+ 1.Polycarp hasMminutes of time. What is the maximum number of points he can earn?InputThe first line contains three integer numbersn,kandM(1 ≤n≤ 45,1 ≤k≤ 45,0 ≤M≤ 2·109).The second line containskinteger numbers, valuestj(1 ≤tj≤ 1000000), wheretjis the time in minutes required to solvej-th subtask of any task.OutputPrint the maximum amount of points Polycarp can earn inMminutes.ExamplesInput3 4 111 2 3 4Output6Input5 5 101 2 4 8 16Output7NoteIn the first example Polycarp can complete the first task and spend1 + 2 + 3 + 4 = 10minutes. He also has the time to solve one subtask of the second task in one minute.In the second example Polycarp can solve the first subtask of all five tasks and spend5·1 = 5minutes. Also he can solve the second subtasks of two tasks and spend2·2 = 4minutes. Thus, he earns5 + 2 = 7points in total.",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,13 @@
+{
+    "uid": "29-D",
+    "url": "https://codeforces.com/contest/29/problem/D",
+    "tags": [
+        "constructive algorithms",
+        " dfs and similar",
+        " trees"
+    ],
+    "title": "29-D",
+    "statement": "D. Ant on the Treetime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutConnected undirected graph without cycles is called a tree. Trees is a class of graphs which is interesting not only for people, but for ants too.An ant stands at the root of some tree. He sees that there arenvertexes in the tree, and they are connected byn- 1edges so that there is a path between any pair of vertexes. A leaf is a distinct from root vertex, which is connected with exactly one other vertex.The ant wants to visit every vertex in the tree and return to the root, passing every edge twice. In addition, he wants to visit the leaves in a specific order. You are to find some possible route of the ant.InputThe first line contains integern(3 ≤n≤ 300) — amount of vertexes in the tree. Nextn- 1lines describe edges. Each edge is described with two integers — indexes of vertexes which it connects. Each edge can be passed in any direction. Vertexes are numbered starting from1. The root of the tree has number1. The last line containskintegers, wherekis amount of leaves in the tree. These numbers describe the order in which the leaves should be visited. It is guaranteed that each leaf appears in this order exactly once.OutputIf the required route doesn't exist, output-1. Otherwise, output2n- 1numbers, describing the route. Every time the ant comes to a vertex, output it's index.ExamplesInput31 22 33Output1 2 3 2 1Input61 21 32 44 54 65 6 3Output1 2 4 5 4 6 4 2 1 3 1Input61 21 32 44 54 65 3 6Output-1",
+    "source": "CF",
+    "vjudge": false
+}

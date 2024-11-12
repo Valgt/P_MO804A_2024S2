@@ -1,0 +1,11 @@
+{
+    "uid": "83-A",
+    "url": "https://codeforces.com/contest/83/problem/A",
+    "tags": [
+        "math"
+    ],
+    "title": "83-A",
+    "statement": "A. Magical Arraytime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutValery is very interested in magic. Magic attracts him so much that he sees it everywhere. He explains any strange and weird phenomenon through intervention of supernatural forces. But who would have thought that even in a regular array of numbers Valera manages to see something beautiful and magical.Valera absolutely accidentally got a piece of ancient parchment on which an array of numbers was written. He immediately thought that the numbers in this array were not random. As a result of extensive research Valera worked out a wonderful property that a magical array should have: an array is defined as magic if itsminimum and maximum coincide.He decided to share this outstanding discovery with you, but he asks you for help in return. Despite the tremendous intelligence and wit, Valera counts very badly and so you will have to complete his work. All you have to do is count the number of magical subarrays of the original array of numbers, written on the parchment. Subarray is defined asnon-empty sequence of consecutive elements.InputThe first line of the input data contains an integern(1 ≤n≤ 105). The second line contains an array of original integersa1,a2, ...,an(- 109≤ai≤ 109).OutputPrint on the single line the answer to the problem: the amount of subarrays, which are magical.Please do not use the%lldspecificator to read or write 64-bit numbers in C++. It is recommended to usecin,coutstreams (you can also use the%I64dspecificator).ExamplesInput42 1 1 4Output5Input5-2 -2 -2 0 1Output8NoteNotes to sample tests:Magical subarrays are shown with pairs of indices [a;b] of the beginning and the end.In the first sample: [1;1], [2;2], [3;3], [4;4], [2;3].In the second sample: [1;1], [2;2], [3;3], [4;4], [5;5], [1;2], [2;3], [1;3].",
+    "source": "CF",
+    "vjudge": false
+}

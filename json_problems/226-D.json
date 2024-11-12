@@ -1,0 +1,12 @@
+{
+    "uid": "226-D",
+    "url": "https://codeforces.com/contest/226/problem/D",
+    "tags": [
+        "constructive algorithms",
+        " greedy"
+    ],
+    "title": "226-D",
+    "statement": "D. The tabletime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutHarry Potter has a difficult homework. Given a rectangular table, consisting ofn×mcells. Each cell of the table contains the integer. Harry knows how to use two spells: the first spell change the sign of the integers in the selected row, the second — in the selected column. Harry's task is to make non-negative the sum of the numbers in each row and each column using these spells.Alone, the boy can not cope. Help the young magician!InputThe first line contains two integersnandm(1 ≤n,m≤ 100)— the number of rows and the number of columns.Nextnlines follow, each containsmintegers:j-th integer in thei-th line isai,j(|ai,j| ≤ 100), the number in thei-th row andj-th column of the table.The rows of the table numbered from 1 ton. The columns of the table numbered from 1 tom.OutputIn the first line print the numbera— the number of required applications of the first spell. Next printaspace-separated integers — the row numbers, you want to apply a spell. These row numbers must be distinct!In the second line print the numberb— the number of required applications of the second spell. Next printbspace-separated integers — the column numbers, you want to apply a spell. These column numbers must be distinct!If there are several solutions are allowed to print any of them.ExamplesInput4 1-1-1-1-1Output4 1 2 3 40Input2 4-1 -1 -1 21 1 1 1Output1 11 4",
+    "source": "CF",
+    "vjudge": false
+}

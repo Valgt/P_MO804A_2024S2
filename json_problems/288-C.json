@@ -1,0 +1,12 @@
+{
+    "uid": "288-C",
+    "url": "https://codeforces.com/contest/288/problem/C",
+    "tags": [
+        "implementation",
+        " math"
+    ],
+    "title": "288-C",
+    "statement": "C. Polo the Penguin and XOR operationtime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutLittle penguin Polo likes permutations. But most of all he likes permutations of integers from0ton, inclusive.For permutationp=p0,p1, ...,pn, Polo has defined its beauty — number.Expressionmeans applying the operation of bitwise excluding \"OR\" to numbersxandy. This operation exists in all modern programming languages, for example, in languageC++andJavait is represented as \"^\" and inPascal— as \"xor\".Help him find among all permutations of integers from0tonthe permutation with the maximum beauty.InputThe single line contains a positive integern(1 ≤n≤ 106).OutputIn the first line print integermthe maximum possible beauty. In the second line print any permutation of integers from0tonwith the beauty equal tom.If there are several suitable permutations, you are allowed to print any of them.ExamplesInput4Output200 2 1 4 3",
+    "source": "CF",
+    "vjudge": false
+}

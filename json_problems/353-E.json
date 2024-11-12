@@ -1,0 +1,13 @@
+{
+    "uid": "353-E",
+    "url": "https://codeforces.com/contest/353/problem/E",
+    "tags": [
+        "dp",
+        " graph matchings",
+        " greedy"
+    ],
+    "title": "353-E",
+    "statement": "E. Antichaintime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutYou have a directed acyclic graphG, consisting ofnvertexes, numbered from0ton- 1. The graph containsnedges numbered from0ton- 1. An edge with numbericonnects vertexesiand(i+ 1)modn, and it can be directed in either direction (fromito(i+ 1)modn, or vise versa).Operationxmodymeans taking the remainder after dividing numberxby numbery.Let's call two vertexesuandvin graphGcomparable if the graph contains a path either fromutovor fromvtou. We'll assume that an antichain is a set of vertexes of graphG, where any two distinct vertexes are not comparable. The size of an antichain is the number of vertexes in the corresponding set. An antichain is maximum if the graph doesn't have antichains of a larger size.Your task is to find the size of the maximum antichain in graphG.InputThe first line contains the sequence of characterss0s1...sn- 1(2 ≤n≤ 106), consisting of numbers zero and one. The length of the line (numbern) corresponds to the number of vertexes and edges in graphG. If charactersi(i≥ 0)equals0, then the edge between vertexesiand(i+ 1)modnis directed from thei-th vertex to the(i+ 1)modn-th one, otherwise — to the opposite point.It is guaranteed that the given graph is acyclic.OutputPrint a single integer — the size of the maximum antichain of graphG.ExamplesInput001Output1Input110010Output3NoteConsider the first test sample. The graph'sGedges are:0 → 1,1 → 2,0 → 2. We can choose the set of vertexes[0]as the maximum antichain. We cannot choose an antichain of larger size.",
+    "source": "CF",
+    "vjudge": false
+}

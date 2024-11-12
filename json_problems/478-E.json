@@ -1,0 +1,14 @@
+{
+    "uid": "478-E",
+    "url": "https://codeforces.com/contest/478/problem/E",
+    "tags": [
+        "brute force",
+        " dfs and similar",
+        " meet-in-the-middle",
+        " sortings"
+    ],
+    "title": "478-E",
+    "statement": "E. Wavy numberstime limit per test1.5 secondsmemory limit per test256 megabytesinputstdinoutputstdoutAwavy numberis such positive integer that for any digit of its decimal representation except for the first one and the last one following condition holds: the digit is either strictly larger than both its adjacent digits or strictly less than both its adjacent digits. For example, numbers35270,102,747,20and3arewavyand numbers123,1000and2212are not.The task is to find thek-thsmallestwavy numberrthat is divisible bynfor the given integer valuesnandk.You are to write a program that will find the value ofrif it doesn't exceed1014.InputThe only line of input contains two integersnandk, separated by a single space (1 ≤n,k≤ 1014).OutputYour task is to output the only integerr— the answer to the given problem. If such number does not exist or it is larger than1014, then print \"-1\" (minus one without the quotes) instead.ExamplesInput123 4Output1845Input100 1Output-1Input97461 457Output1805270103NoteThe values of the first fourwavy numbersthat are divisible bynfor the first sample are:492,615,738and1845.",
+    "source": "CF",
+    "vjudge": false
+}

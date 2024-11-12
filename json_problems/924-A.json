@@ -1,0 +1,12 @@
+{
+    "uid": "924-A",
+    "url": "https://codeforces.com/contest/924/problem/A",
+    "tags": [
+        "greedy",
+        " implementation"
+    ],
+    "title": "924-A",
+    "statement": "A. Mystical Mosaictime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputThere is a rectangular grid ofnrows ofminitially-white cells each.Arkady performed a certain number (possibly zero) of operations on it. In thei-th operation, a non-empty subset of rowsRiand a non-empty subset of columnsCiare chosen. For each rowrinRiand each columncinCi, the intersection of rowrand columncis coloured black.There's another constraint: a row or a column can only be chosen at most once among all operations. In other words, it means that no pair of(i,j)(i<j) exists such thator, wheredenotes intersection of sets, anddenotes the empty set.You are to determine whether a valid sequence of operations exists that produces a given final grid.InputThe first line contains two space-separated integersnandm(1 ≤n,m≤ 50) — the number of rows and columns of the grid, respectively.Each of the followingnlines contains a string ofmcharacters, each being either '.' (denoting a white cell) or '#' (denoting a black cell), representing the desired setup.OutputIf the given grid can be achieved by any valid sequence of operations, output \"Yes\"; otherwise output \"No\" (both without quotes).You can print each character in any case (upper or lower).ExamplesInput5 8.#.#..#......#...#.#..#.#.#....#.....#..OutputYesInput5 5..#....#..#####..#....#..OutputNoInput5 9........##..........##.#..........#.....#.#.#OutputNoNoteFor the first example, the desired setup can be produced by3operations, as is shown below.For the second example, the desired setup cannot be produced, since in order to colour the center row, the third row and all columns must be selected in one operation, but after that no column can be selected again, hence it won't be possible to colour the other cells in the center column.",
+    "source": "CF",
+    "vjudge": false
+}

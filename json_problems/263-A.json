@@ -1,0 +1,11 @@
+{
+    "uid": "263-A",
+    "url": "https://codeforces.com/contest/263/problem/A",
+    "tags": [
+        "implementation"
+    ],
+    "title": "263-A",
+    "statement": "A. Beautiful Matrixtime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutYou've got a5 × 5matrix, consisting of24zeroes and a single number one. Let's index the matrix rows by numbers from1to5from top to bottom, let's index the matrix columns by numbers from1to5from left to right. In one move, you are allowed to apply one of the two following transformations to the matrix:Swap two neighboring matrix rows, that is, rows with indexesiandi+ 1for some integeri(1 ≤i< 5).Swap two neighboring matrix columns, that is, columns with indexesjandj+ 1for some integerj(1 ≤j< 5).You think that a matrix looksbeautiful, if the single number one of the matrix is located in its middle (in the cell that is on the intersection of the third row and the third column). Count the minimum number of moves needed to make the matrix beautiful.InputThe input consists of five lines, each line contains five integers: thej-th integer in thei-th line of the input represents the element of the matrix that is located on the intersection of thei-th row and thej-th column. It is guaranteed that the matrix consists of24zeroes and a single number one.OutputPrint a single integer — the minimum number of moves needed to make the matrix beautiful.ExamplesInput0 0 0 0 00 0 0 0 10 0 0 0 00 0 0 0 00 0 0 0 0Output3Input0 0 0 0 00 0 0 0 00 1 0 0 00 0 0 0 00 0 0 0 0Output1",
+    "source": "CF",
+    "vjudge": false
+}

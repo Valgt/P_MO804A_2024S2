@@ -1,0 +1,13 @@
+{
+    "uid": "917-C",
+    "url": "https://codeforces.com/contest/917/problem/C",
+    "tags": [
+        "combinatorics",
+        " dp",
+        " matrices"
+    ],
+    "title": "917-C",
+    "statement": "C. Pollywogtime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputAs we all know, Dart is some kind of creature from Upside Down world. For simplicity, we call their kindpollywogs. Dart andx- 1other pollywogs are playing a game. There arenstones in a row, numbered from1throughnfrom left to right. At most1pollywog may be sitting on each stone at a time. Initially, the pollywogs are sitting on the firstxstones (one pollywog on each stone).Dart and his friends want to end up on the lastxstones. At each second, the leftmost pollywog should jump to the right. A pollywog can jump at mostkstones; more specifically, a pollywog can jump from stone numberito stonesi+ 1,i+ 2, ...i+k. A pollywog can't jump on an occupied stone. Jumping a distanceitakesciamounts of energy from the pollywog.Also,qstones arespecialEach time landing on a special stonep, takeswpamounts of energy (in addition to the energy for jump) from the pollywog.wpcould be negative, in this case, it means the pollywog absorbs|wp|amounts of energy.Pollywogs want to spend as little energy as possible (this value could be negative).They're just pollywogs, so they asked for your help. Tell them the total change in their energy, in case they move optimally.InputThe first line of input contains four integers,x,k,nandq(1 ≤x≤k≤ 8,k≤n≤ 108,0 ≤q≤min(25,n-x)) — the number of pollywogs, the maximum length of jump, the number of stones and the number of special stones.The next line containskintegers,c1,c2, ...ck, separated by spaces (1 ≤ci≤ 109) — the energetic costs of jumps.The nextqlines contain description of the special stones. Each line contains two integerspandwp(x+ 1 ≤p≤n,|wp| ≤ 109). Allpare distinct.OutputPrint the minimum amount of energy they need, in the first and only line of output.ExamplesInput2 3 10 21 2 35 -106 1000Output6Input4 7 85 317 5 28 4 52 46 659 -7633 -6919 2018Output135",
+    "source": "CF",
+    "vjudge": false
+}

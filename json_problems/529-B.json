@@ -1,0 +1,13 @@
+{
+    "uid": "529-B",
+    "url": "https://codeforces.com/contest/529/problem/B",
+    "tags": [
+        "brute force",
+        " greedy",
+        " sortings"
+    ],
+    "title": "529-B",
+    "statement": "B. Group Photo 2 (online mirror version)time limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputMany years have passed, andnfriends met at a party again. Technologies have leaped forward since the last meeting, cameras with timer appeared and now it is not obligatory for one of the friends to stand with a camera, and, thus, being absent on the photo.Simply speaking, the process of photographing can be described as follows. Each friend occupies a rectangle of pixels on the photo: thei-th of them in a standing state occupies awipixels wide and ahipixels high rectangle. But also, each person can lie down for the photo, and then he will occupy ahipixels wide and awipixels high rectangle.The total photo will have sizeW×H, whereWis the total width of all the people rectangles, andHis the maximum of the heights. The friends want to determine what minimum area the group photo can they obtain if no more thann/ 2of them can lie on the ground (it would be strange if more thann/ 2gentlemen lie on the ground together, isn't it?..)Help them to achieve this goal.InputThe first line contains integern(1 ≤n≤ 1000) — the number of friends.The nextnlines have two integerswi,hi(1 ≤wi,hi≤ 1000) each, representing the size of the rectangle, corresponding to thei-th friend.OutputPrint a single integer equal to the minimum possible area of the photo containing all friends if no more thann/ 2of them can lie on the ground.ExamplesInput310 120 230 3Output180Input33 12 24 3Output21Input15 10Output50",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,15 @@
+{
+    "uid": "765-E",
+    "url": "https://codeforces.com/contest/765/problem/E",
+    "tags": [
+        "dfs and similar",
+        " dp",
+        " greedy",
+        " implementation",
+        " trees"
+    ],
+    "title": "765-E",
+    "statement": "E. Tree Foldingtime limit per test2 secondsmemory limit per test512 megabytesinputstandard inputoutputstandard outputVanya wants to minimize a tree. He can perform the following operation multiple times: choose a vertexv, and two disjoint (except forv) paths of equal lengtha0=v,a1, ...,ak, andb0=v,b1, ...,bk. Additionally, verticesa1, ...,ak,b1, ...,bkmust not have any neighbours in the tree other than adjacent vertices of corresponding paths. After that, one of the paths may be merged into the other, that is, the verticesb1, ...,bkcan be effectively erased:Help Vanya determine if it possible to make the tree into a path via a sequence of described operations, and if the answer is positive, also determine the shortest length of such path.InputThe first line of input contains the number of verticesn(2 ≤n≤ 2·105).Nextn- 1lines describe edges of the tree. Each of these lines contains two space-separated integersuandv(1 ≤u,v≤n,u≠v) — indices of endpoints of the corresponding edge. It is guaranteed that the given graph is a tree.OutputIf it is impossible to obtain a path, print-1. Otherwise, print the minimum number of edges in a possible path.ExamplesInput61 22 32 44 51 6Output3Input71 21 33 41 55 66 7Output-1NoteIn the first sample case, a path of three edges is obtained after merging paths2 - 1 - 6and2 - 4 - 5.It is impossible to perform any operation in the second sample case. For example, it is impossible to merge paths1 - 3 - 4and1 - 5 - 6, since vertex 6 additionally has a neighbour 7 that is not present in the corresponding path.",
+    "source": "CF",
+    "vjudge": false
+}

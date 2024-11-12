@@ -1,0 +1,14 @@
+{
+    "uid": "448-E",
+    "url": "https://codeforces.com/contest/448/problem/E",
+    "tags": [
+        "brute force",
+        " dfs and similar",
+        " implementation",
+        " number theory"
+    ],
+    "title": "448-E",
+    "statement": "E. Divisorstime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutBizon the Champion isn't just friendly, he also is a rigorous coder.Let's define functionf(a), whereais a sequence of integers. Functionf(a)returns the following sequence: first all divisors ofa1go in the increasing order, then all divisors ofa2go in the increasing order, and so on till the last element of sequencea. For example,f([2, 9, 1]) = [1, 2, 1, 3, 9, 1].Let's determine the sequenceXi, for integeri(i≥ 0):X0= [X]([X]is a sequence consisting of a single numberX),Xi=f(Xi- 1)(i> 0). For example, atX= 6we getX0= [6],X1= [1, 2, 3, 6],X2= [1, 1, 2, 1, 3, 1, 2, 3, 6].Given the numbersXandk, find the sequenceXk. As the answer can be rather large, find only the first105elements of this sequence.InputA single line contains two space-separated integers —X(1 ≤X≤ 1012)andk(0 ≤k≤ 1018).OutputPrint the elements of the sequenceXkin a single line, separated by a space. If the number of elements exceeds105, then print only the first105elements.ExamplesInput6 1Output1 2 3 6Input4 2Output1 1 2 1 2 4Input10 3Output1 1 1 2 1 1 5 1 1 2 1 5 1 2 5 10",
+    "source": "CF",
+    "vjudge": false
+}

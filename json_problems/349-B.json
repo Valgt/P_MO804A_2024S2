@@ -1,0 +1,14 @@
+{
+    "uid": "349-B",
+    "url": "https://codeforces.com/contest/349/problem/B",
+    "tags": [
+        "data structures",
+        " dp",
+        " greedy",
+        " implementation"
+    ],
+    "title": "349-B",
+    "statement": "B. Color the Fencetime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutIgor has fallen in love with Tanya. Now Igor wants to show his feelings and write a number on the fence opposite to Tanya's house. Igor thinks that the larger the number is, the more chance to win Tanya's heart he has.Unfortunately, Igor could only getvliters of paint. He did the math and concluded that digitdrequiresadliters of paint. Besides, Igor heard that Tanya doesn't like zeroes. That's why Igor won't use them in his number.Help Igor find the maximum number he can write on the fence.InputThe first line contains a positive integerv(0 ≤v≤ 106). The second line contains nine positive integersa1,a2, ...,a9(1 ≤ai≤ 105).OutputPrint the maximum number Igor can write on the fence. If he has too little paint for any digit (so, he cannot write anything), print -1.ExamplesInput55 4 3 2 1 2 3 4 5Output55555Input29 11 1 12 5 8 9 10 6Output33Input01 1 1 1 1 1 1 1 1Output-1",
+    "source": "CF",
+    "vjudge": false
+}

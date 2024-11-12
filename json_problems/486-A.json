@@ -1,0 +1,12 @@
+{
+    "uid": "486-A",
+    "url": "https://codeforces.com/contest/486/problem/A",
+    "tags": [
+        "implementation",
+        " math"
+    ],
+    "title": "486-A",
+    "statement": "A. Calculating Functiontime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutFor a positive integernlet's define a functionf:f(n) =  - 1 + 2 - 3 + .. + ( - 1)nnYour task is to calculatef(n)for a given integern.InputThe single line contains the positive integern(1 ≤n≤ 1015).OutputPrintf(n)in a single line.ExamplesInput4Output2Input5Output-3Notef(4) =  - 1 + 2 - 3 + 4 = 2f(5) =  - 1 + 2 - 3 + 4 - 5 =  - 3",
+    "source": "CF",
+    "vjudge": false
+}

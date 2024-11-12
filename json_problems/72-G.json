@@ -1,0 +1,12 @@
+{
+    "uid": "72-G",
+    "url": "https://codeforces.com/contest/72/problem/G",
+    "tags": [
+        "*special",
+        " dp"
+    ],
+    "title": "72-G",
+    "statement": "G. Fibonacci armytime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutKing Cambyses loves Fibonacci numbers. He has several armies. Today he wants to make a new army for himself and he wants the number of men in this army to be then-th Fibonacci number.Givennyou should findn-th Fibonacci number. The set of Fibonacci numbers start withf0=f1= 1and for eachi≥ 2,fi=fi- 1+fi- 2.InputInput contains a single integern(1 ≤n≤ 20).OutputWrite a single integer. Then-th Fibonacci number.ExamplesInput2Output2Input1Output1",
+    "source": "CF",
+    "vjudge": false
+}

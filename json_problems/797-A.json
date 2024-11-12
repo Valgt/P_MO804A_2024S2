@@ -1,0 +1,13 @@
+{
+    "uid": "797-A",
+    "url": "https://codeforces.com/contest/797/problem/A",
+    "tags": [
+        "implementation",
+        " math",
+        " number theory"
+    ],
+    "title": "797-A",
+    "statement": "A. k-Factorizationtime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputGiven a positive integern, findkintegers (not necessary distinct) such that all these integers are strictly greater than1, and their product is equal ton.InputThe first line contains two integersnandk(2 ≤n≤ 100000,1 ≤k≤ 20).OutputIf it's impossible to find the representation ofnas a product ofknumbers, print-1.Otherwise, printkintegers in any order. Their product must be equal ton. If there are multiple answers, print any of them.ExamplesInput100000 2Output2 50000Input100000 20Output-1Input1024 5Output2 64 2 2 2",
+    "source": "CF",
+    "vjudge": false
+}

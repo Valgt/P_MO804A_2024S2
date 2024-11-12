@@ -1,0 +1,12 @@
+{
+    "uid": "954-H",
+    "url": "https://codeforces.com/contest/954/problem/H",
+    "tags": [
+        "combinatorics",
+        " dp"
+    ],
+    "title": "954-H",
+    "statement": "H. Path Countingtime limit per test5 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given a rooted tree. Let's denoted(x)as depth of nodex: depth of the root is1, depth of any other nodexisd(y) + 1, whereyis a parent ofx.The tree has the following property: every nodexwithd(x) =ihas exactlyaichildren. Maximum possible depth of a node isn, andan= 0.We definefkas the number of unordered pairs of vertices in the tree such that the number of edges on the simple path between them is equal tok.Calculatefkmodulo109+ 7for every1 ≤k≤ 2n- 2.InputThe first line of input contains an integern(2  ≤n≤  5 000) — the maximum depth of a node.The second line of input containsn- 1integersa1,a2,  ...,an- 1(2 ≤ai≤ 109), whereaiis the number of children of every nodexsuch thatd(x) =i. Sincean= 0, it is not given in the input.OutputPrint2n- 2numbers. Thek-th of these numbers must be equal tofkmodulo109+ 7.ExamplesInput42 2 2Output14 19 20 20 16 16Input32 3Output8 13 6 9NoteThis the tree from the first sample:",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,12 @@
+{
+    "uid": "371-C",
+    "url": "https://codeforces.com/contest/371/problem/C",
+    "tags": [
+        "binary search",
+        " brute force"
+    ],
+    "title": "371-C",
+    "statement": "C. Hamburgerstime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutPolycarpus loves hamburgers very much. He especially adores the hamburgers he makes with his own hands. Polycarpus thinks that there are only three decent ingredients to make hamburgers from: a bread, sausage and cheese. He writes down the recipe of his favorite \"Le Hamburger de Polycarpus\" as a string of letters 'B' (bread), 'S' (sausage) и 'C' (cheese). The ingredients in the recipe go from bottom to top, for example, recipe \"ВSCBS\" represents the hamburger where the ingredients go from bottom to top as bread, sausage, cheese, bread and sausage again.Polycarpus hasnbpieces of bread,nspieces of sausage andncpieces of cheese in the kitchen. Besides, the shop nearby has all three ingredients, the prices arepbrubles for a piece of bread,psfor a piece of sausage andpcfor a piece of cheese.Polycarpus hasrrubles and he is ready to shop on them. What maximum number of hamburgers can he cook? You can assume that Polycarpus cannot break or slice any of the pieces of bread, sausage or cheese. Besides, the shop has an unlimited number of pieces of each ingredient.InputThe first line of the input contains a non-empty string that describes the recipe of \"Le Hamburger de Polycarpus\". The length of the string doesn't exceed 100, the string contains only letters 'B' (uppercase EnglishB), 'S' (uppercase EnglishS) and 'C' (uppercase EnglishC).The second line contains three integersnb,ns,nc(1 ≤nb,ns,nc≤ 100) — the number of the pieces of bread, sausage and cheese on Polycarpus' kitchen. The third line contains three integerspb,ps,pc(1 ≤pb,ps,pc≤ 100) — the price of one piece of bread, sausage and cheese in the shop. Finally, the fourth line contains integerr(1 ≤r≤ 1012) — the number of rubles Polycarpus has.Please, do not write the%lldspecifier to read or write 64-bit integers in С++. It is preferred to use thecin,coutstreams or the%I64dspecifier.OutputPrint the maximum number of hamburgers Polycarpus can make. If he can't make any hamburger, print0.ExamplesInputBBBSSC6 4 11 2 34Output2InputBBC1 10 11 10 121Output7InputBSC1 1 11 1 31000000000000Output200000000001",
+    "source": "CF",
+    "vjudge": false
+}

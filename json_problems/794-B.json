@@ -1,0 +1,12 @@
+{
+    "uid": "794-B",
+    "url": "https://codeforces.com/contest/794/problem/B",
+    "tags": [
+        "geometry",
+        " math"
+    ],
+    "title": "794-B",
+    "statement": "B. Cutting Carrottime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputIgor the analyst has adoptednlittle bunnies. As we all know, bunnies love carrots. Thus, Igor has bought a carrot to be shared between his bunnies. Igor wants to treat all the bunnies equally, and thus he wants to cut the carrot intonpieces of equal area.Formally, the carrot can be viewed as an isosceles triangle with base length equal to1and height equal toh. Igor wants to maken- 1cutsparallel to the baseto cut the carrot intonpieces. He wants to make sure that allnpieces have the same area. Can you help Igor determine where to cut the carrot so that each piece have equal area?Illustration to the first example.InputThe first and only line of input contains two space-separated integers,nandh(2 ≤n≤ 1000,1 ≤h≤ 105).OutputThe output should containn- 1real numbersx1,x2, ...,xn- 1. The numberxidenotes that thei-th cut must be madexiunits away from the apex of the carrot. In addition,0 <x1<x2< ... <xn- 1<hmust hold.Your output will be considered correct if absolute or relative error of every number in your output doesn't exceed10- 6.Formally, let your answer bea, and the jury's answer beb. Your answer is considered correct if.ExamplesInput3 2Output1.154700538379 1.632993161855Input2 100000Output70710.678118654752NoteDefinition of isosceles triangle:https://en.wikipedia.org/wiki/Isosceles_triangle.",
+    "source": "CF",
+    "vjudge": false
+}

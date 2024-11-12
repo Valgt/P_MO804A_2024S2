@@ -1,0 +1,11 @@
+{
+    "uid": "334-A",
+    "url": "https://codeforces.com/contest/334/problem/A",
+    "tags": [
+        "implementation"
+    ],
+    "title": "334-A",
+    "statement": "A. Candy Bagstime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutGerald hasnyounger brothers and their number happens to be even. One day he boughtn2candy bags. One bag has one candy, one bag has two candies, one bag has three candies and so on. In fact, for each integerkfrom1ton2he has exactly one bag withkcandies.Help him givenbags of candies to each brother so that all brothers got the same number of candies.InputThe single line contains a single integern(nis even,2 ≤n≤ 100) — the number of Gerald's brothers.OutputLet's assume that Gerald indexes his brothers with numbers from1ton. You need to printnlines, on thei-th line printnintegers — the numbers of candies in the bags for thei-th brother. Naturally, all these numbers should be distinct and be within limits from1ton2. You can print the numbers in the lines in any order.It is guaranteed that the solution exists at the given limits.ExamplesInput2Output1 42 3NoteThe sample shows Gerald's actions if he has two brothers. In this case, his bags contain 1, 2, 3 and 4 candies. He can give the bags with 1 and 4 candies to one brother and the bags with 2 and 3 to the other brother.",
+    "source": "CF",
+    "vjudge": false
+}

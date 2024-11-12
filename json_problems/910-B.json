@@ -1,0 +1,12 @@
+{
+    "uid": "910-B",
+    "url": "https://codeforces.com/contest/910/problem/B",
+    "tags": [
+        "greedy",
+        " implementation"
+    ],
+    "title": "910-B",
+    "statement": "B. Door Framestime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputPetya has equal wooden bars of lengthn. He wants to make a frame fortwoequal doors. Each frame has two vertical (left and right) sides of lengthaand one top side of lengthb. A solid (i.e. continuous without breaks) piece of bar is needed for each side.Determine a minimal number of wooden bars which are needed to make the frames for two doors. Petya can cut the wooden bars into any parts, but each side of each door should be a solid piece of a wooden bar (or a whole wooden bar).InputThe first line contains a single integern(1 ≤n≤ 1 000) — the length of each wooden bar.The second line contains a single integera(1 ≤a≤n) — the length of the vertical (left and right) sides of a door frame.The third line contains a single integerb(1 ≤b≤n) — the length of the upper side of a door frame.OutputPrint the minimal number of wooden bars with lengthnwhich are needed to make the frames for two doors.ExamplesInput812Output1Input534Output6Input642Output4Input2056Output2NoteIn the first example one wooden bar is enough, since the total length of all six sides of the frames for two doors is8.In the second example6wooden bars is enough, because for each side of the frames the new wooden bar is needed.",
+    "source": "CF",
+    "vjudge": false
+}

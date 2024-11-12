@@ -1,0 +1,11 @@
+{
+    "uid": "130-C",
+    "url": "https://codeforces.com/contest/130/problem/C",
+    "tags": [
+        "*special"
+    ],
+    "title": "130-C",
+    "statement": "C. Decimal sumtime limit per test2 secondsmemory limit per test64 megabytesinputstdinoutputstdoutYou are given an array of integer numbers. Calculate the sum of its elements.InputThe first line of the input contains an integern(1 ≤n≤ 100) — the size of the array. Nextnlines contain the elements of the array, one per line. Each element is an integer between1and100, inclusive.OutputOutput the sum of the elements of the array.ExamplesInput512345Output15Input710054586142030Output300",
+    "source": "CF",
+    "vjudge": false
+}

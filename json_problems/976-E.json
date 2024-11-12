@@ -1,0 +1,12 @@
+{
+    "uid": "976-E",
+    "url": "https://codeforces.com/contest/976/problem/E",
+    "tags": [
+        "greedy",
+        " sortings"
+    ],
+    "title": "976-E",
+    "statement": "E. Well played!time limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputRecently Max has got himself into popular CCG \"BrainStone\". As \"BrainStone\" is a pretty intellectual game, Max has to solve numerous hard problems during the gameplay. Here is one of them:Max ownsncreatures,i-th of them can be described with two numbers — its healthhpiand its damagedmgi. Max also has two types of spells in stock:Doubles health of the creature (hpi:=hpi·2);Assigns value ofhealthof the creature to itsdamage(dmgi:=hpi).Spell of first type can be used no more thanatimes in total, of the second type — no more thanbtimes in total. Spell can be used on a certain creature multiple times. Spells can be used in arbitrary order. It isn't necessary to use all the spells.Max is really busy preparing for his final exams, so he asks you to determine what is the maximal total damage of all creatures he can achieve if he uses spells in most optimal way.InputThe first line contains three integersn,a,b(1 ≤n≤ 2·105,0 ≤a≤ 20,0 ≤b≤ 2·105) — the number of creatures, spells of the first type and spells of the second type, respectively.Thei-th of the nextnlines contain two numberhpianddmgi(1 ≤hpi,dmgi≤ 109) — description of thei-th creature.OutputPrint single integer — maximum total damage creatures can deal.ExamplesInput2 1 110 156 1Output27Input3 0 310 87 115 2Output26NoteIn the first example Max should use the spell of the first type on the second creature, then the spell of the second type on the same creature. Then total damage will be equal to15 + 6·2 = 27.In the second example Max should use the spell of the second type on the first creature, then the spell of the second type on the third creature. Total damage will be equal to10 + 11 + 5 = 26.",
+    "source": "CF",
+    "vjudge": false
+}

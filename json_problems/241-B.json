@@ -1,0 +1,14 @@
+{
+    "uid": "241-B",
+    "url": "https://codeforces.com/contest/241/problem/B",
+    "tags": [
+        "binary search",
+        " bitmasks",
+        " data structures",
+        " math"
+    ],
+    "title": "241-B",
+    "statement": "B. Friendstime limit per test6 secondsmemory limit per test256 megabytesinputstdinoutputstdoutYou havenfriends and you want to takempictures of them. Exactly two of your friends should appear in each picture and no two pictures should contain the same pair of your friends. So if you haven= 3friends you can take3different pictures, each containing a pair of your friends.Each of your friends has an attractiveness level which is specified by the integer numberaifor thei-th friend. You know that the attractiveness of a picture containing thei-th and thej-th friends is equal to the exclusive-or (xoroperation) of integersaiandaj.You want to take pictures in a way that the total sum of attractiveness of your pictures is maximized. You have to calculate this value. Since the result may not fit in a 32-bit integer number, print it modulo1000000007(109+ 7).InputThe first line of input contains two integersnandm— the number of friends and the number of pictures that you want to take.Next line containsnspace-separated integersa1,a2, ...,an(0 ≤ai≤ 109) — the values of attractiveness of the friends.OutputThe only line of output should contain an integer — the optimal total sum of attractiveness of your pictures.ExamplesInput3 11 2 3Output3Input3 21 2 3Output5Input3 31 2 3Output6",
+    "source": "CF",
+    "vjudge": false
+}

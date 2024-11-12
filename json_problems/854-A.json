@@ -1,0 +1,13 @@
+{
+    "uid": "854-A",
+    "url": "https://codeforces.com/contest/854/problem/A",
+    "tags": [
+        "brute force",
+        " constructive algorithms",
+        " math"
+    ],
+    "title": "854-A",
+    "statement": "A. Fractiontime limit per test1 secondmemory limit per test512 megabytesinputstandard inputoutputstandard outputPetya is a big fan of mathematics, especially its part related to fractions. Recently he learned that a fractionis calledproperiff its numerator is smaller than its denominator (a<b) and that the fraction is calledirreducibleif its numerator and its denominator are coprime (they do not have positive common divisors except1).During his free time, Petya thinks about proper irreducible fractions and converts them to decimals using the calculator. One day he mistakenly pressed addition button (+) instead of division button (÷) and got sum of numerator and denominator that was equal toninstead of the expected decimal notation.Petya wanted to restore the original fraction, but soon he realized that it might not be done uniquely. That's why he decided to determine maximum possible proper irreducible fractionsuch that sum of its numerator and denominator equalsn. Help Petya deal with this problem.InputIn the only line of input there is an integern(3 ≤n≤ 1000), the sum of numerator and denominator of the fraction.OutputOutput two space-separated positive integersaandb, numerator and denominator of the maximum possible proper irreducible fraction satisfying the given sum.ExamplesInput3Output1 2Input4Output1 3Input12Output5 7",
+    "source": "CF",
+    "vjudge": false
+}

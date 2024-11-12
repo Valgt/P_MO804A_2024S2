@@ -1,0 +1,12 @@
+{
+    "uid": "714-A",
+    "url": "https://codeforces.com/contest/714/problem/A",
+    "tags": [
+        "implementation",
+        " math"
+    ],
+    "title": "714-A",
+    "statement": "A. Meeting of Old Friendstime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputToday an outstanding event is going to happen in the forest — hedgehog Filya will come to his old fried Sonya!Sonya is an owl and she sleeps during the day and stay awake from minutel1to minuter1inclusive. Also, during the minutekshe prinks and is unavailable for Filya.Filya works a lot and he plans to visit Sonya from minutel2to minuter2inclusive.Calculate the number of minutes they will be able to spend together.InputThe only line of the input contains integersl1,r1,l2,r2andk(1 ≤l1,r1,l2,r2,k≤ 1018,l1≤r1,l2≤r2), providing the segments of time for Sonya and Filya and the moment of time when Sonya prinks.OutputPrint one integer — the number of minutes Sonya and Filya will be able to spend together.ExamplesInput1 10 9 20 1Output2Input1 100 50 200 75Output50NoteIn the first sample, they will be together during minutes9and10.In the second sample, they will be together from minute50to minute74and from minute76to minute100.",
+    "source": "CF",
+    "vjudge": false
+}

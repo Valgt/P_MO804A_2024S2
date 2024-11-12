@@ -1,0 +1,14 @@
+{
+    "uid": "266-B",
+    "url": "https://codeforces.com/contest/266/problem/B",
+    "tags": [
+        "constructive algorithms",
+        " graph matchings",
+        " implementation",
+        " shortest paths"
+    ],
+    "title": "266-B",
+    "statement": "B. Queue at the Schooltime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutDuring the break the schoolchildren, boys and girls, formed a queue ofnpeople in the canteen. Initially the children stood in the order they entered the canteen. However, after a while the boys started feeling awkward for standing in front of the girls in the queue and they started letting the girls move forward each second.Let's describe the process more precisely. Let's say that the positions in the queue are sequentially numbered by integers from1ton, at that the person in the position number1is served first. Then, if at timexa boy stands on thei-th position and a girl stands on the(i+ 1)-th position, then at timex+ 1thei-th position will have a girl and the(i+ 1)-th position will have a boy. The time is given in seconds.You've got the initial position of the children, at the initial moment of time. Determine the way the queue is going to look aftertseconds.InputThe first line contains two integersnandt(1 ≤n,t≤ 50), which represent the number of children in the queue and the time after which the queue will transform into the arrangement you need to find.The next line contains strings, which represents the schoolchildren's initial arrangement. If thei-th position in the queue contains a boy, then thei-th character of stringsequals \"B\", otherwise thei-th character equals \"G\".OutputPrint stringa, which describes the arrangement aftertseconds. If thei-th position has a boy after the needed time, then thei-th characteramust equal \"B\", otherwise it must equal \"G\".ExamplesInput5 1BGGBGOutputGBGGBInput5 2BGGBGOutputGGBGBInput4 1GGGBOutputGGGB",
+    "source": "CF",
+    "vjudge": false
+}

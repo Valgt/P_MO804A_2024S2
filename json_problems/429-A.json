@@ -1,0 +1,12 @@
+{
+    "uid": "429-A",
+    "url": "https://codeforces.com/contest/429/problem/A",
+    "tags": [
+        "dfs and similar",
+        " trees"
+    ],
+    "title": "429-A",
+    "statement": "A. Xor-treetime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutIahub is very proud of his recent discovery, propagating trees. Right now, he invented a new tree, called xor-tree. After this new revolutionary discovery, he invented a game for kids which uses xor-trees.The game is played on a tree havingnnodes, numbered from1ton. Each nodeihas an initial valueiniti, which is either 0 or 1. The root of the tree is node 1.One can perform several (possibly, zero) operations on the tree during the game. The only available type of operation is to pick a nodex. Right after someone has picked nodex, the value of nodexflips, the values of sons ofxremain the same, the values of sons of sons ofxflips, the values of sons of sons of sons ofxremain the same and so on.The goal of the game is to get each nodeito have valuegoali, which can also be only 0 or 1. You need to reach the goal of the game by using minimum number of operations.InputThe first line contains an integern(1 ≤n≤ 105). Each of the nextn- 1lines contains two integersuiandvi(1 ≤ui,vi≤n;ui≠vi) meaning there is an edge between nodesuiandvi.The next line containsninteger numbers, thei-th of them corresponds toiniti(initiis either 0 or 1). The following line also containsninteger numbers, thei-th number corresponds togoali(goaliis either 0 or 1).OutputIn the first line output an integer numbercnt, representing the minimal number of operations you perform. Each of the nextcntlines should contain an integerxi, representing that you pick a nodexi.ExamplesInput102 13 14 25 16 27 58 69 810 51 0 1 1 0 1 0 1 0 11 0 1 0 0 1 1 1 0 1Output247",
+    "source": "CF",
+    "vjudge": false
+}

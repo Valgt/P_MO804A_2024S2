@@ -1,0 +1,13 @@
+{
+    "uid": "337-E",
+    "url": "https://codeforces.com/contest/337/problem/E",
+    "tags": [
+        "brute force",
+        " number theory",
+        " trees"
+    ],
+    "title": "337-E",
+    "statement": "E. Divisor Treetime limit per test0.5 secondsmemory limit per test256 megabytesinputstdinoutputstdoutAdivisor treeis a rooted tree that meets the following conditions:Each vertex of the tree contains a positive integer number.The numbers written in the leaves of the tree are prime numbers.For any inner vertex, the number within it is equal to the product of the numbers written in its children.Manao hasndistinct integersa1,a2, ...,an. He tries to build a divisor tree which contains each of these numbers. That is, for eachai, there should be at least one vertex in the tree which containsai. Manao loves compact style, but his trees are too large. Help Manao determine the minimum possible number of vertices in the divisor tree sought.InputThe first line contains a single integern(1 ≤n≤ 8). The second line containsndistinct space-separated integersai(2 ≤ai≤ 1012).OutputPrint a single integer — the minimum number of vertices in the divisor tree that contains each of the numbersai.ExamplesInput26 10Output7Input46 72 8 4Output12Input17Output1NoteSample 1. The smallest divisor tree looks this way:Sample 2. In this case you can build the following divisor tree:Sample 3. Note that the tree can consist of a single vertex.",
+    "source": "CF",
+    "vjudge": false
+}

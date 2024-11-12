@@ -1,0 +1,14 @@
+{
+    "uid": "931-A",
+    "url": "https://codeforces.com/contest/931/problem/A",
+    "tags": [
+        "brute force",
+        " greedy",
+        " implementation",
+        " math"
+    ],
+    "title": "931-A",
+    "statement": "A. Friends Meetingtime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputTwo friends are on the coordinate axisOxin points with integer coordinates. One of them is in the pointx1=a, another one is in the pointx2=b.Each of the friends can move by one along the line in any direction unlimited number of times. When a friend moves, the tiredness of a friend changes according to the following rules: the first move increases the tiredness by1, the second move increases the tiredness by2, the third — by3and so on. For example, if a friend moves first to the left, then to the right (returning to the same point), and then again to the left his tiredness becomes equal to1 + 2 + 3 = 6.The friends want to meet in a integer point. Determine the minimum total tiredness they should gain, if they meet in the same point.InputThe first line contains a single integera(1 ≤a≤ 1000) — the initial position of the first friend.The second line contains a single integerb(1 ≤b≤ 1000) — the initial position of the second friend.It is guaranteed thata≠b.OutputPrint the minimum possible total tiredness if the friends meet in the same point.ExamplesInput34Output1Input10199Output2Input510Output9NoteIn the first example the first friend should move by one to the right (then the meeting happens at point4), or the second friend should move by one to the left (then the meeting happens at point3). In both cases, the total tiredness becomes1.In the second example the first friend should move by one to the left, and the second friend should move by one to the right. Then they meet in the point100, and the total tiredness becomes1 + 1 = 2.In the third example one of the optimal ways is the following. The first friend should move three times to the right, and the second friend — two times to the left. Thus the friends meet in the point8, and the total tiredness becomes1 + 2 + 3 + 1 + 2 = 9.",
+    "source": "CF",
+    "vjudge": false
+}

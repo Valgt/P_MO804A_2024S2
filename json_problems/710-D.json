@@ -1,0 +1,12 @@
+{
+    "uid": "710-D",
+    "url": "https://codeforces.com/contest/710/problem/D",
+    "tags": [
+        "math",
+        " number theory"
+    ],
+    "title": "710-D",
+    "statement": "D. Two Arithmetic Progressionstime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given two arithmetic progressions:a1k+b1anda2l+b2. Find the number of integersxsuch thatL≤x≤Randx=a1k' +b1=a2l' +b2, for some integersk',l' ≥ 0.InputThe only line contains six integersa1,b1,a2,b2,L,R(0 <a1,a2≤ 2·109,  - 2·109≤b1,b2,L,R≤ 2·109,L≤R).OutputPrint the desired number of integersx.ExamplesInput2 0 3 3 5 21Output3Input2 4 3 0 6 17Output2",
+    "source": "CF",
+    "vjudge": false
+}

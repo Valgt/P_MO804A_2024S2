@@ -1,0 +1,13 @@
+{
+    "uid": "487-A",
+    "url": "https://codeforces.com/contest/487/problem/A",
+    "tags": [
+        "binary search",
+        " brute force",
+        " implementation"
+    ],
+    "title": "487-A",
+    "statement": "A. Fight the Monstertime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutA monster is attacking the Cyberland!Master Yang, a braver, is going to beat the monster. Yang and the monster each have 3 attributes: hitpoints (HP), offensive power (ATK) and defensive power (DEF).During the battle, every second the monster's HP decrease bymax(0,ATKY-DEFM), while Yang's HP decreases bymax(0,ATKM-DEFY), where indexYdenotes Master Yang and indexMdenotes monster. Both decreases happen simultaneously Once monster'sHP≤ 0and the same time Master Yang'sHP> 0, Master Yang wins.Master Yang can buy attributes from the magic shop of Cyberland:hbitcoins perHP,abitcoins perATK, anddbitcoins perDEF.Now Master Yang wants to know the minimum number of bitcoins he can spend in order to win.InputThe first line contains three integersHPY,ATKY,DEFY, separated by a space, denoting the initialHP,ATKandDEFof Master Yang.The second line contains three integersHPM,ATKM,DEFM, separated by a space, denoting theHP,ATKandDEFof the monster.The third line contains three integersh,a,d, separated by a space, denoting the price of1HP,1ATKand1DEF.All numbers in input areintegerand lie between1and100inclusively.OutputThe only output line should contain an integer, denoting the minimum bitcoins Master Yang should spend in order to win.ExamplesInput1 2 11 100 11 100 100Output99Input100 100 1001 1 11 1 1Output0NoteFor the first sample, prices forATKandDEFare extremely high. Master Yang can buy99HP, then he can beat the monster with1HP left.For the second sample, Master Yang is strong enough to beat the monster, so he doesn't need to buy anything.",
+    "source": "CF",
+    "vjudge": false
+}

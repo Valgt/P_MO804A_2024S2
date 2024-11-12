@@ -1,0 +1,11 @@
+{
+    "uid": "67-B",
+    "url": "https://codeforces.com/contest/67/problem/B",
+    "tags": [
+        "greedy"
+    ],
+    "title": "67-B",
+    "statement": "B. Restoration of the Permutationtime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutLetA= {a1,a2, ...,an}be any permutation of the firstnnatural numbers{1, 2, ...,n}. You are given a positive integerkand another sequenceB= {b1,b2, ...,bn}, wherebiis the number of elementsajinAto the left of the elementat=isuch thataj≥ (i+k).For example, ifn= 5, a possibleAis{5, 1, 4, 2, 3}. Fork= 2,Bis given by{1, 2, 1, 0, 0}. But ifk= 3, thenB= {1, 1, 0, 0, 0}.For two sequencesX= {x1,x2, ...,xn}andY= {y1,y2, ...,yn}, leti-th elements be the first elements such thatxi≠yi. Ifxi<yi, thenXis lexicographically smaller thanY, while ifxi>yi, thenXis lexicographically greater thanY.Givenn,kandB, you need to determine the lexicographically smallestA.InputThe first line contains two space separated integersnandk(1 ≤n≤ 1000,1 ≤k≤n). On the second line arenintegers specifying the values ofB= {b1,b2, ...,bn}.OutputPrint on a single linenintegers ofA= {a1,a2, ...,an}such thatAis lexicographically minimal. It is guaranteed that the solution exists.ExamplesInput5 21 2 1 0 0Output4 1 5 2 3Input4 21 0 0 0Output2 3 1 4",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,11 @@
+{
+    "uid": "456-A",
+    "url": "https://codeforces.com/contest/456/problem/A",
+    "tags": [
+        "sortings"
+    ],
+    "title": "456-A",
+    "statement": "A. Laptopstime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutOne day Dima and Alex had an argument about the price and quality of laptops. Dima thinks that the more expensive a laptop is, the better it is. Alex disagrees. Alex thinks that there are two laptops, such that the price of the first laptop is less (strictly smaller) than the price of the second laptop but the quality of the first laptop is higher (strictly greater) than the quality of the second laptop.Please, check the guess of Alex. You are given descriptions ofnlaptops. Determine whether two described above laptops exist.InputThe first line contains an integern(1 ≤n≤ 105) — the number of laptops.Nextnlines contain two integers each,aiandbi(1 ≤ai,bi≤n), whereaiis the price of thei-th laptop, andbiis the number that represents the quality of thei-th laptop (the larger the number is, the higher is the quality).Allaiare distinct. Allbiare distinct.OutputIf Alex is correct, print \"Happy Alex\", otherwise print \"Poor Alex\" (without the quotes).ExamplesInput21 22 1OutputHappy Alex",
+    "source": "CF",
+    "vjudge": false
+}

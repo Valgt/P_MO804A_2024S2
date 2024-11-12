@@ -1,0 +1,15 @@
+{
+    "uid": "839-C",
+    "url": "https://codeforces.com/contest/839/problem/C",
+    "tags": [
+        "dfs and similar",
+        " dp",
+        " graphs",
+        " probabilities",
+        " trees"
+    ],
+    "title": "839-C",
+    "statement": "C. Journeytime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputThere arencities andn- 1roads in the Seven Kingdoms, each road connects two cities and we can reach any city from any other by the roads.Theon and Yara Greyjoy are on a horse in the first city, they are starting traveling through the roads. But the weather is foggy, so they can’t see where the horse brings them. When the horse reaches a city (including the first one), it goes to one of the cities connected to the current city. But it is a strange horse, it only goes to cities in which they weren't before. In each such city, the horse goes with equal probabilities and it stops when there are no such cities.Let the length of each road be1. The journey starts in the city1. What is the expected length (expected value of length) of their journey? You can read about expected (average) value by the linkhttps://en.wikipedia.org/wiki/Expected_value.InputThe first line contains a single integern(1 ≤n≤ 100000) — number of cities.Thenn- 1lines follow. Thei-th line of these lines contains two integersuiandvi(1 ≤ui,vi≤n,ui≠vi) — the cities connected by thei-th road.It is guaranteed that one can reach any city from any other by the roads.OutputPrint a number — the expected length of their journey. The journey starts in the city1.Your answer will be considered correct if its absolute or relative error does not exceed10- 6.Namely: let's assume that your answer isa, and the answer of the jury isb. The checker program will consider your answer correct, if.ExamplesInput41 21 32 4Output1.500000000000000Input51 21 33 42 5Output2.000000000000000NoteIn the first sample, their journey may end in cities3or4with equal probability. The distance to city3is1and to city4is2, so the expected length is1.5.In the second sample, their journey may end in city4or5. The distance to the both cities is2, so the expected length is2.",
+    "source": "CF",
+    "vjudge": false
+}

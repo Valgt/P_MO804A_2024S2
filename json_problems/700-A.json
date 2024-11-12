@@ -1,0 +1,12 @@
+{
+    "uid": "700-A",
+    "url": "https://codeforces.com/contest/700/problem/A",
+    "tags": [
+        "binary search",
+        " math"
+    ],
+    "title": "700-A",
+    "statement": "A. As Fast As Possibletime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputOn vacationsnpupils decided to go on excursion and gather all together. They need to overcome the path with the lengthlmeters. Each of the pupils will go with the speed equal tov1. To get to the excursion quickly, it was decided to rent a bus, which has seats forkpeople (it means that it can't fit more thankpeople at the same time) and the speed equal tov2. In order to avoid seasick, each of the pupils want to get into the busno more than once.Determine the minimum time required for allnpupils to reach the place of excursion. Consider that the embarkation and disembarkation of passengers, as well as the reversal of the bus, take place immediately and this time can be neglected.InputThe first line of the input contains five positive integersn,l,v1,v2andk(1 ≤n≤ 10 000,1 ≤l≤ 109,1 ≤v1<v2≤ 109,1 ≤k≤n) — the number of pupils, the distance from meeting to the place of excursion, the speed of each pupil, the speed of bus and the number of seats in the bus.OutputPrint the real number — the minimum time in which all pupils can reach the place of excursion. Your answer will be considered correct if its absolute or relative error won't exceed10- 6.ExamplesInput5 10 1 2 5Output5.0000000000Input3 6 1 2 1Output4.7142857143NoteIn the first sample we should immediately put all five pupils to the bus. The speed of the bus equals2and the distance is equal to10, so the pupils will reach the place of excursion in time10 / 2 = 5.",
+    "source": "CF",
+    "vjudge": false
+}

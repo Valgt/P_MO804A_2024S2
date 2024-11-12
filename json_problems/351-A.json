@@ -1,0 +1,14 @@
+{
+    "uid": "351-A",
+    "url": "https://codeforces.com/contest/351/problem/A",
+    "tags": [
+        "dp",
+        " greedy",
+        " implementation",
+        " math"
+    ],
+    "title": "351-A",
+    "statement": "A. Jeff and Roundingtime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutJeff got2nreal numbersa1,a2, ...,a2nas a birthday present. The boy hates non-integer numbers, so he decided to slightly \"adjust\" the numbers he's got. Namely, Jeff consecutively executesnoperations, each of them goes as follows:choose indexesiandj(i≠j)that haven't been chosen yet;round elementaito the nearest integer that isn't more thanai(assign toai:⌊ai⌋);round elementajto the nearest integer that isn't less thanaj(assign toaj:⌈aj⌉).Nevertheless, Jeff doesn't want to hurt the feelings of the person who gave him the sequence. That's why the boy wants to perform the operations so as to make the absolute value of the difference between the sum of elements before performing the operations and the sum of elements after performing the operations as small as possible. Help Jeff find the minimum absolute value of the difference.InputThe first line contains integern(1 ≤n≤ 2000). The next line contains2nreal numbersa1,a2,...,a2n(0 ≤ai≤ 10000), given with exactly three digits after the decimal point. The numbers are separated by spaces.OutputIn a single line print a single real number — the required difference withexactly three digitsafter the decimal point.ExamplesInput30.000 0.500 0.750 1.000 2.000 3.000Output0.250Input34469.000 6526.000 4864.000 9356.383 7490.000 995.896Output0.279NoteIn the first test case you need to perform the operations as follows:(i= 1,j= 4),(i= 2,j= 3),(i= 5,j= 6). In this case, the difference will equal|(0 + 0.5 + 0.75 + 1 + 2 + 3) - (0 + 0 + 1 + 1 + 2 + 3)| = 0.25.",
+    "source": "CF",
+    "vjudge": false
+}

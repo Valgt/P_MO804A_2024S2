@@ -1,0 +1,12 @@
+{
+    "uid": "404-D",
+    "url": "https://codeforces.com/contest/404/problem/D",
+    "tags": [
+        "dp",
+        " implementation"
+    ],
+    "title": "404-D",
+    "statement": "D. Minesweeper 1Dtime limit per test2 secondsmemory limit per test512 megabytesinputstdinoutputstdoutGame \"Minesweeper 1D\" is played on a line of squares, the line's height is 1 square, the line's width isnsquares. Some of the squares contain bombs. If a square doesn't contain a bomb, then it contains a number from 0 to 2 — the total number of bombs in adjacent squares.For example, the correct field to play looks like that:001*2***101*. The cells that are marked with \"*\" contain bombs. Note that on the correct field the numbers represent the number of bombs in adjacent cells. For example, field2*is not correct, because cell with value 2 must have two adjacent cells with bombs.Valera wants to make a correct field to play \"Minesweeper 1D\". He has already painted a squared field with width ofncells, put several bombs on the field and wrote numbers into some cells. Now he wonders how many ways to fill the remaining cells with bombs and numbers are there if we should get a correct field in the end.InputThe first line contains sequence of characters without spacess1s2...sn(1 ≤n≤ 106), containing only characters \"*\", \"?\" and digits \"0\", \"1\" or \"2\". If charactersiequals \"*\", then thei-th cell of the field contains a bomb. If charactersiequals \"?\", then Valera hasn't yet decided what to put in thei-th cell. Charactersi, that is equal to a digit, represents the digit written in thei-th square.OutputPrint a single integer — the number of ways Valera can fill the empty cells and get a correct field.As the answer can be rather large, print it modulo1000000007(109+ 7).ExamplesInput?01???Output4Input?Output2Input**12Output0Input1Output0NoteIn the first test sample you can get the following correct fields:001**1,001***,001*2*,001*10.",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,13 @@
+{
+    "uid": "263-B",
+    "url": "https://codeforces.com/contest/263/problem/B",
+    "tags": [
+        "greedy",
+        " implementation",
+        " sortings"
+    ],
+    "title": "263-B",
+    "statement": "B. Squarestime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutVasya has found a piece of paper with a coordinate system written on it. There arendistinct squares drawn in this coordinate system. Let's number the squares with integers from 1 ton. It turned out that points with coordinates(0, 0)and(ai,ai)are the opposite corners of thei-th square.Vasya wants to find such integer point (with integer coordinates) of the plane, that belongs to exactlykdrawn squares. We'll say that a point belongs to a square, if the point is located either inside the square, or on its boundary.Help Vasya find a point that would meet the described limits.InputThe first line contains two space-separated integersn,k(1 ≤n,k≤ 50). The second line contains space-separated integersa1,a2, ...,an(1 ≤ai≤ 109).It is guaranteed that all given squares are distinct.OutputIn a single line print two space-separated integersxandy(0 ≤x,y≤ 109)— the coordinates of the point that belongs to exactlyksquares. If there are multiple answers, you are allowed to print any of them.If there is no answer, print \"-1\" (without the quotes).ExamplesInput4 35 1 3 4Output2 1Input3 12 4 1Output4 0Input4 505 1 10 2Output-1",
+    "source": "CF",
+    "vjudge": false
+}

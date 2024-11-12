@@ -1,0 +1,15 @@
+{
+    "uid": "958-B2",
+    "url": "https://codeforces.com/contest/958/problem/B2",
+    "tags": [
+        "data structures",
+        " dfs and similar",
+        " graphs",
+        " greedy",
+        " trees"
+    ],
+    "title": "958-B2",
+    "statement": "B2. Maximum Control (medium)time limit per test3 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputThe Resistance is trying to take control over as many planets of a particular solar system as possible. Princess Heidi is in charge of the fleet, and she must send ships to some planets in order to maximize the number of controlled planets.The Galaxy containsNplanets, connected by bidirectional hyperspace tunnels in such a way that there is a unique path between every pair of the planets.A planet is controlled by the Resistance if there is a Resistance ship in its orbit, or if the planet lies on the shortest path between some two planets that have Resistance ships in their orbits.Heidi has not yet made up her mind as to how many ships to use. Therefore, she is asking you to compute, for everyK= 1, 2, 3, ...,N, the maximum number of planets that can be controlled with a fleet consisting ofKships.InputThe first line of the input contains an integerN(1 ≤N≤ 105) – the number of planets in the galaxy.The nextN- 1lines describe the hyperspace tunnels between the planets. Each of theN- 1lines contains two space-separated integersuandv(1 ≤u,v≤N) indicating that there is a bidirectional hyperspace tunnel between the planetsuandv. It is guaranteed that every two planets are connected by a path of tunnels, and that each tunnel connects a different pair of planets.OutputOn a single line, printNspace-separated integers. TheK-th number should correspond to the maximum number of planets that can be controlled by the Resistance using a fleet ofKships.ExamplesInput31 22 3Output1 3 3Input41 23 24 2Output1 3 4 4NoteConsider the first example. IfK= 1, then Heidi can only send one ship to some planet and control it. However, forK≥ 2, sending ships to planets 1 and 3 will allow the Resistance to control all planets.",
+    "source": "CF",
+    "vjudge": false
+}

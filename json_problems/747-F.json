@@ -1,0 +1,14 @@
+{
+    "uid": "747-F",
+    "url": "https://codeforces.com/contest/747/problem/F",
+    "tags": [
+        "brute force",
+        " combinatorics",
+        " dp",
+        " math"
+    ],
+    "title": "747-F",
+    "statement": "F. Igor and Interesting Numberstime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputIgor likes hexadecimal notation and considerspositiveinteger in the hexadecimal notationinterestingif each digit and each letter in it appears no more thanttimes. For example, ift= 3, then integers13a13322,aaa,abcdef0123456789are interesting, but numbersaaaa,ababababand1000000are not interesting.Your task is to find thek-th smallestinterestingfor Igor integer in the hexadecimal notation. The integer should not contain leading zeros.InputThe first line contains the two integerskandt(1 ≤k≤ 2·109,1 ≤t≤ 10) — the number of the required integer and the maximum number of times some integer or letter can appear in interesting integer.It can be shown that the answer always exists for such constraints.OutputPrint in the hexadecimal notation the only integer that is thek-th smallestinterestinginteger for Igor.ExamplesInput17 1Output12Input1000000 2Outputfca2cNoteThe first 20interestingintegers ift= 1:1,2,3,4,5,6,7,8,9,a,b,c,d,e,f,10,12,13,14,15. So the answer for the first example equals12.",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,14 @@
+{
+    "uid": "835-F",
+    "url": "https://codeforces.com/contest/835/problem/F",
+    "tags": [
+        "dfs and similar",
+        " dp",
+        " graphs",
+        " trees"
+    ],
+    "title": "835-F",
+    "statement": "F. Roads in the Kingdomtime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputIn the Kingdom K., there arentowns numbered with integers from1ton. The towns are connected bynbi-directional roads numbered with integers from1ton. Thei-th road connects the townsuiandviand its length isli. There is no more than one road between two towns. Also, there are no roads that connect the towns with itself.Let's call the inconvenience of the roads the maximum of the shortest distances between all pairs of towns.Because of lack of money, it was decided to close down one of the roads so that after its removal it is still possible to reach any town from any other. You have to find the minimum possible inconvenience of the roads after closing down one of the roads.InputThe first line contains the integern(3 ≤n≤ 2·105) — the number of towns and roads.The nextnlines contain the roads description. Thei-th from these lines contains three integersui,vi,li(1 ≤ui,vi≤n,1 ≤li≤ 109) — the numbers of towns connected by thei-th road and the length of thei-th road. No road connects a town to itself, no two roads connect the same towns.It's guaranteed that it's always possible to close down one of the roads so that all the towns are still reachable from each other.OutputPrint a single integer — the minimum possible inconvenience of the roads after the refusal from one of the roads.ExamplesInput31 2 42 3 51 3 1Output5Input52 3 73 1 94 1 83 5 44 5 5Output18",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,13 @@
+{
+    "uid": "533-F",
+    "url": "https://codeforces.com/contest/533/problem/F",
+    "tags": [
+        "hashing",
+        " string suffix structures",
+        " strings"
+    ],
+    "title": "533-F",
+    "statement": "F. Encodingtime limit per test3 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputPolycarp invented a new way to encode strings. Let's assume that we have stringT, consisting of lowercase English letters. Let's choose several pairs of letters of the English alphabet in such a way that each letter occurs in at most one pair. Then let's replace each letter inTwith its pair letter if there is a pair letter for it. For example, if you chose pairs (l,r), (p,q) and (a,o), then word \"parallelogram\" according to the given encoding principle transforms to word \"qolorreraglom\".Polycarpus already has two strings,SandT. He suspects that stringTwas obtained after applying the given encoding method from some substring of stringS. Find all positionsmiinS(1 ≤mi≤ |S| - |T| + 1), such thatTcan be obtained fro substringSmiSmi+ 1...Smi+ |T| - 1by applying the described encoding operation by using some set of pairs of English alphabet lettersInputThe first line of the input contains two integers,|S|and|T|(1 ≤ |T| ≤ |S| ≤ 2·105) — the lengths of stringSand stringT, respectively.The second and third line of the input contain stringsSandT, respectively. Both strings consist only of lowercase English letters.OutputPrint numberk— the number of suitable positions in stringS.In the next line printkintegersm1,m2, ...,mk— the numbers of the suitable positions in the increasing order.ExamplesInput11 5abacabadabaacabaOutput31 3 7Input21 13paraparallelogramgramqolorreraglomOutput15",
+    "source": "CF",
+    "vjudge": false
+}

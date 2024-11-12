@@ -1,0 +1,13 @@
+{
+    "uid": "797-C",
+    "url": "https://codeforces.com/contest/797/problem/C",
+    "tags": [
+        "data structures",
+        " greedy",
+        " strings"
+    ],
+    "title": "797-C",
+    "statement": "C. Minimal stringtime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputPetya recieved a gift of a stringswith length up to105characters for his birthday. He took two more empty stringstanduand decided to play a game. This game has two possible moves:Extract thefirstcharacter ofsand appendtwith this character.Extract thelastcharacter oftand appenduwith this character.Petya wants to get stringssandtempty and stringulexicographically minimal.You should write a program that will help Petya win the game.InputFirst line contains non-empty strings(1 ≤ |s| ≤ 105), consisting of lowercase English letters.OutputPrint resulting stringu.ExamplesInputcabOutputabcInputacdbOutputabdc",
+    "source": "CF",
+    "vjudge": false
+}

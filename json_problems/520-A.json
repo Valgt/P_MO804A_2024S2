@@ -1,0 +1,12 @@
+{
+    "uid": "520-A",
+    "url": "https://codeforces.com/contest/520/problem/A",
+    "tags": [
+        "implementation",
+        " strings"
+    ],
+    "title": "520-A",
+    "statement": "A. Pangramtime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputA word or a sentence in some language is called apangramif all the characters of the alphabet of this language appear in itat least once. Pangrams are often used to demonstrate fonts in printing or test the output devices.You are given a string consisting of lowercase and uppercase Latin letters. Check whether this string is a pangram. We say that the string contains a letter of the Latin alphabet if this letter occurs in the string in uppercase or lowercase.InputThe first line contains a single integern(1 ≤n≤ 100) — the number of characters in the string.The second line contains the string. The string consists only of uppercase and lowercase Latin letters.OutputOutput \"YES\", if the string is a pangram and \"NO\" otherwise.ExamplesInput12toosmallwordOutputNOInput35TheQuickBrownFoxJumpsOverTheLazyDogOutputYES",
+    "source": "CF",
+    "vjudge": false
+}

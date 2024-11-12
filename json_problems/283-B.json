@@ -1,0 +1,13 @@
+{
+    "uid": "283-B",
+    "url": "https://codeforces.com/contest/283/problem/B",
+    "tags": [
+        "dfs and similar",
+        " dp",
+        " graphs"
+    ],
+    "title": "283-B",
+    "statement": "B. Cow Programtime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutFarmer John has just given the cows a program to play with! The program contains two integer variables,xandy, and performs the following operations on a sequencea1,a2, ...,anof positive integers:Initially,x= 1andy= 0. If, after any step,x≤ 0orx>n, the program immediately terminates.The program increases bothxandyby a value equal toaxsimultaneously.The program now increasesybyaxwhile decreasingxbyax.The program executes steps 2 and 3 (first step 2, then step 3) repeatedly until it terminates (it may never terminate). So, the sequence of executed steps may start with: step 2, step 3, step 2, step 3, step 2 and so on.The cows are not very good at arithmetic though, and they want to see how the program works. Please help them!You are given the sequencea2,a3, ...,an. Suppose for eachi(1 ≤i≤n- 1)we run the program on the sequencei,a2,a3, ...,an. For each such run output the final value ofyif the program terminates or-1if it does not terminate.InputThe first line contains a single integer,n(2 ≤n≤ 2·105). The next line containsn- 1space separated integers,a2,a3, ...,an(1 ≤ai≤ 109).OutputOutputn- 1lines. On thei-th line, print the requested value when the program is run on the sequencei,a2,a3, ...an.Please do not use the%lldspecifier to read or write 64-bit integers in С++. It is preferred to use thecin,coutstreams or the%I64dspecifier.ExamplesInput42 4 1Output368Input31 2Output-1-1NoteIn the first sampleFori= 1,xbecomesandybecomes1 + 2 = 3.Fori= 2,xbecomesandybecomes2 + 4 = 6.Fori= 3,xbecomesandybecomes3 + 1 + 4 = 8.",
+    "source": "CF",
+    "vjudge": false
+}

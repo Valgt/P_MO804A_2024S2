@@ -1,0 +1,11 @@
+{
+    "uid": "124-A",
+    "url": "https://codeforces.com/contest/124/problem/A",
+    "tags": [
+        "math"
+    ],
+    "title": "124-A",
+    "statement": "A. The number of positionstime limit per test0.5 secondmemory limit per test256 megabytesinputstdinoutputstdoutPetr stands in line ofnpeople, but he doesn't know exactly which position he occupies. He can say that there are no less thanapeople standing in front of him and no more thanbpeople standing behind him. Find the number of different positions Petr can occupy.InputThe only line contains three integersn,aandb(0 ≤a,b<n≤ 100).OutputPrint the single number — the number of the sought positions.ExamplesInput3 1 1Output2Input5 2 3Output3NoteThe possible positions in the first sample are: 2 and 3 (if we number the positions starting with 1).In the second sample they are 3, 4 and 5.",
+    "source": "CF",
+    "vjudge": false
+}

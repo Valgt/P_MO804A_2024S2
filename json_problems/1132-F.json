@@ -1,0 +1,11 @@
+{
+    "uid": "1132-F",
+    "url": "https://codeforces.com/contest/1132/problem/F",
+    "tags": [
+        "dp"
+    ],
+    "title": "1132-F",
+    "statement": "F. Clear the Stringtime limit per test3 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given a string $$$s$$$ of length $$$n$$$ consisting of lowercase Latin letters. You may apply some operations to this string: in one operation you can delete some contiguous substring of this string, if all letters in the substring you delete are equal. For example, after deleting substringbbbbfrom stringabbbbaccddwe get the stringaaccdd.Calculate the minimum number of operations to delete the whole string $$$s$$$.InputThe first line contains one integer $$$n$$$ ($$$1 \\\\le n \\\\le 500$$$) — the length of string $$$s$$$.The second line contains the string $$$s$$$ ($$$|s| = n$$$) consisting of lowercase Latin letters.OutputOutput a single integer — the minimal number of operation to delete string $$$s$$$.ExamplesInput5 abacaOutput3Input8 abcddcbaOutput4",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,11 @@
+{
+    "uid": "153-D",
+    "url": "https://codeforces.com/contest/153/problem/D",
+    "tags": [
+        "*special"
+    ],
+    "title": "153-D",
+    "statement": "D. Date Changetime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutYou are given a date in \"DD.MM.YYYY\" (\"day.month.year\") format and a number of daysshiftyou have to add to this date. Output the resulting date.InputThe first line of input contains the date in \"DD.MM.YYYY\" format: two digits for day (with leading zero if needed), dot, two digits for month (with leading zero if needed), dot, four digits for year. The notation is guaranteed to give a valid date between 1980 and 2020, inclusive.The second line contains an integershift(- 1000 ≤shift≤ 1000).OutputOutput a date equal to the given one +shiftdays, in the same format \"DD.MM.YYYY\".ExamplesInput10.02.201212Output22.02.2012Input01.02.2010-40Output23.12.2009Input01.01.2000365Output31.12.2000Input13.08.1990-609Output12.12.1988NoteWhen manipulating the dates, take into account leap years; don't care about time zones/daylight saving time.",
+    "source": "CF",
+    "vjudge": false
+}

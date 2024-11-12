@@ -1,0 +1,13 @@
+{
+    "uid": "886-E",
+    "url": "https://codeforces.com/contest/886/problem/E",
+    "tags": [
+        "combinatorics",
+        " dp",
+        " math"
+    ],
+    "title": "886-E",
+    "statement": "E. Maximum Elementtime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputOne day Petya was solving a very interesting problem. But although he used many optimization techniques, his solution still got Time limit exceeded verdict. Petya conducted a thorough analysis of his program and found out that his function for finding maximum element in an array ofnpositive integers was too slow. Desperate, Petya decided to use a somewhat unexpected optimization using parameterk, so now his function contains the following code:int fast_max(int n, int a[]) {int ans = 0;int offset = 0;for (int i = 0; i < n; ++i)if (ans < a[i]) {ans = a[i];offset = 0;} else {offset = offset + 1;if (offset == k)return ans;}return ans;}That way the function iteratively checks array elements, storing the intermediate maximum, and if afterkconsecutive iterations that maximum has not changed, it is returned as the answer.Now Petya is interested in fault rate of his function. He asked you to find the number of permutations of integers from1tonsuch that the return value of his function on those permutations is not equal ton. Since this number could be very big, output the answer modulo109+ 7.InputThe only line contains two integersnandk(1 ≤n,k≤ 106), separated by a space — the length of the permutations and the parameterk.OutputOutput the answer to the problem modulo109+ 7.ExamplesInput5 2Output22Input5 3Output6Input6 3Output84NotePermutations from second example:[4, 1, 2, 3, 5],[4, 1, 3, 2, 5],[4, 2, 1, 3, 5],[4, 2, 3, 1, 5],[4, 3, 1, 2, 5],[4, 3, 2, 1, 5].",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,12 @@
+{
+    "uid": "448-D",
+    "url": "https://codeforces.com/contest/448/problem/D",
+    "tags": [
+        "binary search",
+        " brute force"
+    ],
+    "title": "448-D",
+    "statement": "D. Multiplication Tabletime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutBizon the Champion isn't just charming, he also is very smart.While some of us were learning the multiplication table, Bizon the Champion had fun in his own manner. Bizon the Champion painted ann×mmultiplication table, where the element on the intersection of thei-th row andj-th column equalsi·j(the rows and columns of the table are numbered starting from 1). Then he was asked: what number in the table is thek-th largest number? Bizon the Champion always answered correctly and immediately. Can you repeat his success?Consider the given multiplication table. If you write out alln·mnumbers from the table in the non-decreasing order, then thek-th number you write out is called thek-th largest number.InputThe single line contains integersn,mandk(1 ≤n,m≤ 5·105; 1 ≤k≤n·m).OutputPrint thek-th largest number in an×mmultiplication table.ExamplesInput2 2 2Output2Input2 3 4Output3Input1 10 5Output5NoteA2 × 3multiplication table looks like this:1 2 32 4 6",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,15 @@
+{
+    "uid": "159-C",
+    "url": "https://codeforces.com/contest/159/problem/C",
+    "tags": [
+        "*special",
+        " binary search",
+        " brute force",
+        " data structures",
+        " strings"
+    ],
+    "title": "159-C",
+    "statement": "C. String Manipulation 1.0time limit per test3 secondsmemory limit per test256 megabytesinputstdinoutputstdoutOne popular website developed an unusual username editing procedure. One can change the username only by deleting some characters from it: to change the current names, a user can pick numberpand charactercand delete thep-th occurrence of charactercfrom the name. After the user changed his name, he can't undo the change.For example, one can change name \"arca\" by removing the second occurrence of character \"a\" to get \"arc\".Polycarpus learned that some user initially registered under nicknamet, wheretis a concatenation ofkcopies of strings. Also, Polycarpus knows the sequence of this user's name changes. Help Polycarpus figure out the user's final name.InputThe first line contains an integerk(1 ≤k≤ 2000). The second line contains a non-empty strings, consisting of lowercase Latin letters, at most100characters long. The third line contains an integern(0 ≤n≤ 20000) — the number of username changes. Each of the nextnlines contains the actual changes, one per line. The changes are written as \"pici\" (without the quotes), wherepi(1 ≤pi≤ 200000) is the number of occurrences of letterci,ciis a lowercase Latin letter. It is guaranteed that the operations are correct, that is, the letter to be deleted always exists, and after all operations not all letters are deleted from the name. The letters' occurrences are numbered starting from 1.OutputPrint a single string — the user's final name after all changes are applied to it.ExamplesInput2bac32 a1 b2 cOutputacbInput1abacaba41 a1 a1 c2 bOutputbaaNoteLet's consider the first sample. Initially we have name \"bacbac\"; the first operation transforms it into \"bacbc\", the second one — to \"acbc\", and finally, the third one transforms it into \"acb\".",
+    "source": "CF",
+    "vjudge": false
+}

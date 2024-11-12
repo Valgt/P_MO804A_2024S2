@@ -1,0 +1,16 @@
+{
+    "uid": "778-C",
+    "url": "https://codeforces.com/contest/778/problem/C",
+    "tags": [
+        "brute force",
+        " dfs and similar",
+        " dsu",
+        " hashing",
+        " strings",
+        " trees"
+    ],
+    "title": "778-C",
+    "statement": "C. Peterson Polyglottime limit per test4 secondsmemory limit per test512 megabytesinputstandard inputoutputstandard outputPeterson loves to learn new languages, but his favorite hobby is making new ones. Language is a set of words, and word is a sequence of lowercase Latin letters.Peterson makes new language every morning. It is difficult task to store the whole language, so Peterson have invented new data structure for storing his languages which is calledbroom. Broom is rooted tree with edges marked with letters. Initially broom is represented by the only vertex — the root of the broom. When Peterson wants to add new word to the language he stands at the root and processes the letters of new word one by one. Consider that Peterson stands at the vertexu. If there is an edge fromumarked with current letter, Peterson goes through this edge. Otherwise Peterson adds new edge fromuto the new vertexv, marks it with the current letter and goes through the new edge. Size of broom is the number of vertices in it.In the evening after working day Peterson can't understand the language he made this morning. It is too difficult for bored Peterson and he tries to make it simpler. Simplification of the language is the process of erasing some letters from some words of this language. Formally, Peterson takes some positive integerpand erasesp-th letter from all the words of this language having length at leastp. Letters in words are indexed starting by 1. Peterson considers that simplification should change at least one word, i.e. there has to be at least one word of length at leastp. Peterson tries to make his language as simple as possible, so he wants to choosepsuch that the size of the broom for his simplified language is as small as possible.Peterson is pretty annoyed with this task so he asks you for help. Write a program to find the smallest possible size of the broom and integerp.InputThe first line of input contains integern(2 ≤n≤ 3·105) — the size of the broom.Nextn- 1lines describe the broom:i-th of them contains integersui,viand letterxi— describing the edge fromuitovimarked with letterxi.Vertices are numbered from 1 ton. Allxiare lowercase latin letters. Vertex 1 is the root of the broom.Edges describe correct broom which is made from Peterson's language.OutputThe first line of output should contain the minimum possible size of the broom after its simplification. The second line of output should contain integerpto choose. If there are several suitablepvalues, print the smallest one.ExamplesInput51 2 c2 3 a3 4 t2 5 tOutput32Input161 2 o2 3 f1 4 p4 5 i5 6 e6 7 c7 8 e4 9 r9 10 e10 11 t11 12 t12 13 y10 14 f14 15 i15 16 xOutput122NoteBroom from the second sample test can be built using language \"piece\", \"of\", \"pie\", \"pretty\", \"prefix\". Its simplification withp= 2obtains the language of words \"pece\", \"o\", \"pe\", \"petty\", \"pefix\". This language gives us the broom with minimum possible size.",
+    "source": "CF",
+    "vjudge": false
+}

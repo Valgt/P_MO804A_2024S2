@@ -1,0 +1,13 @@
+{
+    "uid": "446-B",
+    "url": "https://codeforces.com/contest/446/problem/B",
+    "tags": [
+        "brute force",
+        " data structures",
+        " greedy"
+    ],
+    "title": "446-B",
+    "statement": "B. DZY Loves Modificationtime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutAs we know, DZY loves playing games. One day DZY decided to play with an×mmatrix. To be more precise, he decided to modify the matrix with exactlykoperations.Each modification is one of the following:Pick some row of the matrix and decrease each element of the row byp. This operation brings to DZY the value of pleasure equal to the sum of elements of the row before the decreasing.Pick some column of the matrix and decrease each element of the column byp. This operation brings to DZY the value of pleasure equal to the sum of elements of the column before the decreasing.DZY wants to know: what is the largest total value of pleasure he could get after performing exactlykmodifications? Please, help him to calculate this value.InputThe first line contains four space-separated integersn,m,kandp(1 ≤n,m≤ 103; 1 ≤k≤ 106; 1 ≤p≤ 100).Thennlines follow. Each of them containsmintegers representingaij(1 ≤aij≤ 103)— the elements of the current row of the matrix.OutputOutput a single integer — the maximum possible total pleasure value DZY could get.ExamplesInput2 2 2 21 32 4Output11Input2 2 5 21 32 4Output11NoteFor the first sample test, we can modify: column 2, row 2. After that the matrix becomes:1 10 0For the second sample test, we can modify: column 2, row 2, row 1, column 1, column 2. After that the matrix becomes:-3 -3-2 -2",
+    "source": "CF",
+    "vjudge": false
+}

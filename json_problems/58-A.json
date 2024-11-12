@@ -1,0 +1,12 @@
+{
+    "uid": "58-A",
+    "url": "https://codeforces.com/contest/58/problem/A",
+    "tags": [
+        "greedy",
+        " strings"
+    ],
+    "title": "58-A",
+    "statement": "A. Chat roomtime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutVasya has recently learned to type and log on to the Internet. He immediately entered a chat room and decided to say hello to everybody. Vasya typed the words. It is considered that Vasya managed to say hello if several letters can be deleted from the typed word so that it resulted in the word \"hello\". For example, if Vasya types the word \"ahhellllloou\", it will be considered that he said hello, and if he types \"hlelo\", it will be considered that Vasya got misunderstood and he didn't manage to say hello. Determine whether Vasya managed to say hello by the given words.InputThe first and only line contains the words, which Vasya typed. This word consisits of small Latin letters, its length is no less that 1 and no more than 100 letters.OutputIf Vasya managed to say hello, print \"YES\", otherwise print \"NO\".ExamplesInputahhellllloouOutputYESInputhleloOutputNO",
+    "source": "CF",
+    "vjudge": false
+}

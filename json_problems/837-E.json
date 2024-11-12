@@ -1,0 +1,13 @@
+{
+    "uid": "837-E",
+    "url": "https://codeforces.com/contest/837/problem/E",
+    "tags": [
+        "binary search",
+        " implementation",
+        " math"
+    ],
+    "title": "837-E",
+    "statement": "E. Vasya's Functiontime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputVasya is studying number theory. He has denoted a functionf(a,b)such that:f(a, 0) = 0;f(a,b) = 1 +f(a,b-gcd(a,b)), wheregcd(a,b)is the greatest common divisor ofaandb.Vasya has two numbersxandy, and he wants to calculatef(x,y). He tried to do it by himself, but found out that calculating this function the way he wants to do that might take very long time. So he decided to ask you to implement a program that will calculate this function swiftly.InputThe first line contains two integer numbersxandy(1 ≤x,y≤ 1012).OutputPrintf(x,y).ExamplesInput3 5Output3Input6 3Output1",
+    "source": "CF",
+    "vjudge": false
+}

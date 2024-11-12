@@ -1,0 +1,14 @@
+{
+    "uid": "258-C",
+    "url": "https://codeforces.com/contest/258/problem/C",
+    "tags": [
+        "binary search",
+        " combinatorics",
+        " dp",
+        " math"
+    ],
+    "title": "258-C",
+    "statement": "C. Little Elephant and LCMtime limit per test4 secondsmemory limit per test256 megabytesinputstdinoutputstdoutThe Little Elephant loves the LCM (least common multiple) operation of a non-empty set of positive integers. The result of the LCM operation ofkpositive integersx1,x2, ...,xkis the minimum positive integer that is divisible by each of numbersxi.Let's assume that there is a sequence of integersb1,b2, ...,bn. Let's denote their LCMs aslcm(b1,b2, ...,bn)and the maximum of them asmax(b1,b2, ...,bn). The Little Elephant considers a sequencebgood, iflcm(b1,b2, ...,bn) =max(b1,b2, ...,bn).The Little Elephant has a sequence of integersa1,a2, ...,an. Help him find the number of good sequences of integersb1,b2, ...,bn, such that for alli(1 ≤i≤n)the following condition fulfills:1 ≤bi≤ai. As the answer can be rather large, print the remainder from dividing it by1000000007(109+ 7).InputThe first line contains a single positive integern(1 ≤n≤ 105)— the number of integers in the sequencea. The second line containsnspace-separated integersa1,a2, ...,an(1 ≤ai≤ 105)— sequencea.OutputIn the single line print a single integer — the answer to the problem modulo1000000007(109+ 7).ExamplesInput41 4 3 2Output15Input26 3Output13",
+    "source": "CF",
+    "vjudge": false
+}

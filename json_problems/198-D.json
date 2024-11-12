@@ -1,0 +1,11 @@
+{
+    "uid": "198-D",
+    "url": "https://codeforces.com/contest/198/problem/D",
+    "tags": [
+        "constructive algorithms"
+    ],
+    "title": "198-D",
+    "statement": "D. Cube Snaketime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutYou've got ann×n×ncube, split into unit cubes. Your task is to number all unit cubes in this cube with positive integers from1ton3so that:each number was used as a cube's number exactly once;for each1 ≤i<n3, unit cubes with numbersiandi+ 1were neighbouring (that is, shared a side);for each1 ≤i<nthere were at least two different subcubes with sizesi×i×i, made from unit cubes, which are numbered with consecutive numbers. That is, there are such two numbersxandy, that the unit cubes of the first subcube are numbered by numbersx,x+ 1,...,x+i3- 1, and the unit cubes of the second subcube are numbered by numbersy,y+ 1,...,y+i3- 1.Find and print the required numeration of unit cubes of the cube.InputThe first line contains a single integern(1 ≤n≤ 50) — the size of the cube, whose unit cubes need to be numbered.OutputPrint all layers of the cube asnn×nmatrices. Separate them with new lines. Print the layers in the order in which they follow in the cube. See the samples for clarifications.It is guaranteed that there always is a solution that meets the conditions given in the problem statement.ExamplesInput3Output1 4 172 3 1827 26 198 5 167 6 1524 25 209 12 1310 11 1423 22 21NoteIn the sample the cubes with sizes2 × 2 × 2are numbered with integers1, ..., 8and5, ..., 12.",
+    "source": "CF",
+    "vjudge": false
+}

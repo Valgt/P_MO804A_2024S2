@@ -1,0 +1,11 @@
+{
+    "uid": "720-A",
+    "url": "https://codeforces.com/contest/720/problem/A",
+    "tags": [
+        "greedy"
+    ],
+    "title": "720-A",
+    "statement": "A. Closing ceremonytime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputThe closing ceremony of Squanch Code Cup is held in the big hall withn×mseats, arranged innrows,mseats in a row. Each seat has two coordinates(x,y)(1 ≤x≤n,1 ≤y≤m).There are two queues of people waiting to enter the hall:kpeople are standing at(0, 0)andn·m-kpeople are standing at(0,m+ 1). Each person should have a ticket for a specific seat. If personpat(x,y)has ticket for seat(xp,yp)then he should walk|x-xp| + |y-yp|to get to his seat.Each person has a stamina — the maximum distance, that the person agrees to walk. You should find out if this is possible to distribute alln·mtickets in such a way that each person has enough stamina to get to their seat.InputThe first line of input contains two integersnandm(1 ≤n·m≤ 104) — the size of the hall.The second line contains several integers. The first integerk(0 ≤k≤n·m) — the number of people at(0, 0). The followingkintegers indicate stamina of each person there.The third line also contains several integers. The first integerl(l=n·m-k) — the number of people at(0,m+ 1). The followinglintegers indicate stamina of each person there.The stamina of the person is a positive integer less that or equal ton+m.OutputIf it is possible to distribute tickets between people in the described manner print \"YES\", otherwise print \"NO\".ExamplesInput2 23 3 3 21 3OutputYESInput2 23 2 3 31 2OutputNO",
+    "source": "CF",
+    "vjudge": false
+}

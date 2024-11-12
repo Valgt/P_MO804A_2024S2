@@ -1,0 +1,9 @@
+{
+    "uid": "393-B",
+    "url": "https://codeforces.com/contest/393/problem/B",
+    "tags": [],
+    "title": "393-B",
+    "statement": "B. Three matricestime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutChubby Yang is studying linear equations right now. He came up with a nice problem. In the problem you are given ann×nmatrixW, consisting of integers, and you should find twon×nmatricesAandB, all the following conditions must hold:Aij=Aji, for alli,j(1 ≤i,j≤n);Bij=  -Bji, for alli,j(1 ≤i,j≤n);Wij=Aij+Bij, for alli,j(1 ≤i,j≤n).Can you solve the problem?InputThe first line contains an integern(1 ≤n≤ 170). Each of the followingnlines containsnintegers. Thej-th integer in thei-th line isWij(0 ≤ |Wij| < 1717).OutputThe firstnlines must contain matrixA. The nextnlines must contain matrixB. Print the matrices in the format equal to format of matrixWin input. It is guaranteed that the answer exists. If there are multiple answers, you are allowed to print any of them.The answer will be considered correct if the absolute or relative error doesn't exceed10- 4.ExamplesInput21 43 2Output1.00000000 3.500000003.50000000 2.000000000.00000000 0.50000000-0.50000000 0.00000000Input31 2 34 5 67 8 9Output1.00000000 3.00000000 5.000000003.00000000 5.00000000 7.000000005.00000000 7.00000000 9.000000000.00000000 -1.00000000 -2.000000001.00000000 0.00000000 -1.000000002.00000000 1.00000000 0.00000000",
+    "source": "CF",
+    "vjudge": false
+}

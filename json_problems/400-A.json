@@ -1,0 +1,11 @@
+{
+    "uid": "400-A",
+    "url": "https://codeforces.com/contest/400/problem/A",
+    "tags": [
+        "implementation"
+    ],
+    "title": "400-A",
+    "statement": "A. Inna and Choose Optionstime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutThere always is something to choose from! And now, instead of \"Noughts and Crosses\", Inna choose a very unusual upgrade of this game. The rules of the game are given below:There is one person playing the game. Before the beginning of the game he puts 12 cards in a row on the table. Each card contains a character: \"X\" or \"O\". Then the player chooses two positive integersaandb(a·b= 12), after that he makes a table of sizea×bfrom the cards he put on the table as follows: the firstbcards form the first row of the table, the secondbcards form the second row of the table and so on, the lastbcards form the last (numbera) row of the table. The player wins if some column of the table contain characters \"X\" on all cards. Otherwise, the player loses.Inna has already put 12 cards on the table in a row. But unfortunately, she doesn't know what numbersaandbto choose. Help her win the game: print to her all the possible ways of numbersa,bthat she can choose and win.InputThe first line of the input contains integert(1 ≤t≤ 100). This value shows the number of sets of test data in the input. Next follows the description of each of thettests on a separate line.The description of each test is a string consisting of 12 characters, each character is either \"X\", or \"O\". Thei-th character of the string shows the character that is written on thei-th card from the start.OutputFor each test, print the answer to the test on a single line. The first number in the line must represent the number of distinct ways to choose the paira,b. Next, print on this line the pairs in the formataxb. Print the pairs in the order of increasing first parameter (a). Separate the pairs in the line by whitespaces.ExamplesInput4OXXXOXOOXOOXOXOXOXOXOXOXXXXXXXXXXXXXOOOOOOOOOOOOOutput3 1x12 2x6 4x34 1x12 2x6 3x4 6x26 1x12 2x6 3x4 4x3 6x2 12x10",
+    "source": "CF",
+    "vjudge": false
+}

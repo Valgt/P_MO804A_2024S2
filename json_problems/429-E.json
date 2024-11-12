@@ -1,0 +1,11 @@
+{
+    "uid": "429-E",
+    "url": "https://codeforces.com/contest/429/problem/E",
+    "tags": [
+        "graphs"
+    ],
+    "title": "429-E",
+    "statement": "E. Points and Segmentstime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutIahub isn't well prepared on geometry problems, but he heard that this year there will be a lot of geometry problems on the IOI selection camp. Scared, Iahub locked himself in the basement and started thinking of new problems of this kind. One of them is the following.Iahub wants to drawndistinct segments[li,ri]on theOXaxis. He can draw each segment with either red or blue. The drawing is good if and only if the following requirement is met: for each pointxof theOXaxis consider all the segments that contains pointx; suppose, thatrxred segments andbxblue segments contain pointx; for each pointxinequality|rx-bx| ≤ 1must be satisfied.A segment[l,r]contains a pointxif and only ifl≤x≤r.Iahub gives you the starting and ending points of all the segments. You have to find any good drawing for him.InputThe first line of input contains integern(1 ≤n≤ 105) — the number of segments. Thei-th of the nextnlines contains two integersliandri(0 ≤li≤ri≤ 109) — the borders of thei-th segment.It's guaranteed that all the segments are distinct.OutputIf there is no good drawing for a given test, output a single integer -1. Otherwise outputnintegers; each integer must be 0 or 1. Thei-th number denotes the color of thei-th segment (0 is red and 1 is blue).If there are multiple good drawings you can output any of them.ExamplesInput20 22 3Output0 1Input61 51 33 52 1011 1112 12Output0 1 0 1 0 0",
+    "source": "CF",
+    "vjudge": false
+}

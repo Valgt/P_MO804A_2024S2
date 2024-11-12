@@ -1,0 +1,13 @@
+{
+    "uid": "1015-E1",
+    "url": "https://codeforces.com/contest/1015/problem/E1",
+    "tags": [
+        "brute force",
+        " dp",
+        " greedy"
+    ],
+    "title": "1015-E1",
+    "statement": "E1. Stars Drawing (Easy Edition)time limit per test3 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputAstaris a figure of the following type: an asterisk character '*' in the center of the figure and four rays (to the left, right, top, bottom) of the same positive length. The size of astaris the length of its rays. The size of a star must be a positive number (i.e. rays of length $$$0$$$ are not allowed).Let's consider empty cells are denoted by '.', then the following figures arestars:The leftmost figure is astarof size $$$1$$$, the middle figure is astarof size $$$2$$$ and the rightmost figure is astarof size $$$3$$$.You are given a rectangular grid of size $$$n \\\\times m$$$ consisting only of asterisks '*' and periods (dots) '.'. Rows are numbered from $$$1$$$ to $$$n$$$, columns are numbered from $$$1$$$ to $$$m$$$. Your task is to draw this grid usinganynumber ofstarsor find out that it is impossible.Starscan intersect, overlap or even coincide with each other. The number ofstarsin the output can't exceed $$$n \\\\cdot m$$$. Each star should be completely inside the grid. You can use stars of same and arbitrary sizes.In this problem, you do not need to minimize the number of stars. Just find any way to draw the given grid with at most $$$n \\\\cdot m$$$ stars.InputThe first line of the input contains two integers $$$n$$$ and $$$m$$$ ($$$3 \\\\le n, m \\\\le 100$$$) — the sizes of the given grid.The next $$$n$$$ lines contains $$$m$$$ characters each, the $$$i$$$-th line describes the $$$i$$$-th row of the grid. It is guaranteed that grid consists of characters '*' and '.' only.OutputIf it is impossible to draw the given grid usingstarsonly, print \"-1\".Otherwise in the first line print one integer $$$k$$$ ($$$0 \\\\le k \\\\le n \\\\cdot m$$$) — the number ofstarsneeded to draw the given grid. The next $$$k$$$ lines should contain three integers each — $$$x_j$$$, $$$y_j$$$ and $$$s_j$$$, where $$$x_j$$$ is the row index of the centralstarcharacter, $$$y_j$$$ is the column index of the centralstarcharacter and $$$s_j$$$ is the size of thestar. Eachstarshould be completely inside the grid.ExamplesInput6 8....*......**.....*****....**.......*...........Output33 4 13 5 23 5 1Input5 5.*...****..****..**......Output32 2 13 3 13 4 1Input5 5.*...***...*....*........Output-1Input3 3*.*.*.*.*Output-1NoteIn the first example the output23 4 13 5 2is also correct.",
+    "source": "CF",
+    "vjudge": false
+}

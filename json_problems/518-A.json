@@ -1,0 +1,12 @@
+{
+    "uid": "518-A",
+    "url": "https://codeforces.com/contest/518/problem/A",
+    "tags": [
+        "constructive algorithms",
+        " strings"
+    ],
+    "title": "518-A",
+    "statement": "A. Vitaly and Stringstime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutVitaly is a diligent student who never missed a lesson in his five years of studying in the university. He always does his homework on time and passes his exams in time.During the last lesson the teacher has provided two stringssandtto Vitaly. The strings have the same length, they consist of lowercase English letters, stringsis lexicographically smaller than stringt. Vitaly wondered if there is such string that is lexicographically larger than stringsand at the same is lexicographically smaller than stringt. This string should also consist of lowercase English letters and have the length equal to the lengths of stringssandt.Let's help Vitaly solve this easy problem!InputThe first line contains strings(1 ≤ |s| ≤ 100), consisting of lowercase English letters. Here,|s|denotes the length of the string.The second line contains stringt(|t| = |s|), consisting of lowercase English letters.It is guaranteed that the lengths of stringssandtare the same and stringsis lexicographically less than stringt.OutputIf the string that meets the given requirements doesn't exist, print a single string \"No such string\" (without the quotes).If such string exists, print it. If there are multiple valid strings, you may print any of them.ExamplesInputacOutputbInputaaazzzOutputkkkInputabcdefgabcdefhOutputNo such stringNoteStrings=s1s2...snis said to be lexicographically smaller thant=t1t2...tn, if there exists suchi, thats1=t1,s2=t2, ...si- 1=ti- 1,si<ti.",
+    "source": "CF",
+    "vjudge": false
+}

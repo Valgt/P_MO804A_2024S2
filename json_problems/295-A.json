@@ -1,0 +1,12 @@
+{
+    "uid": "295-A",
+    "url": "https://codeforces.com/contest/295/problem/A",
+    "tags": [
+        "data structures",
+        " implementation"
+    ],
+    "title": "295-A",
+    "statement": "A. Greg and Arraytime limit per test1.5 secondsmemory limit per test256 megabytesinputstdinoutputstdoutGreg has an arraya=a1,a2, ...,anandmoperations. Each operation looks as:li,ri,di,(1 ≤li≤ri≤n). To apply operationito the array means to increase all array elements with numbersli,li+ 1, ...,riby valuedi.Greg wrote downkqueries on a piece of paper. Each query has the following form:xi,yi,(1 ≤xi≤yi≤m). That means that one should apply operations with numbersxi,xi+ 1, ...,yito the array.Now Greg is wondering, what the arrayawill be after all the queries are executed. Help Greg.InputThe first line contains integersn,m,k(1 ≤n,m,k≤ 105). The second line containsnintegers:a1,a2, ...,an(0 ≤ai≤ 105)— the initial array.Nextmlines contain operations, the operation numberiis written as three integers:li,ri,di,(1 ≤li≤ri≤n),(0 ≤di≤ 105).Nextklines contain the queries, the query numberiis written as two integers:xi,yi,(1 ≤xi≤yi≤m).The numbers in the lines are separated by single spaces.OutputOn a single line printnintegersa1,a2, ...,an— the array after executing all the queries. Separate the printed numbers by spaces.Please, do not use the%lldspecifier to read or write 64-bit integers inC++. It is preferred to use thecin,coutstreams of the%I64dspecifier.ExamplesInput3 3 31 2 31 2 11 3 22 3 41 21 32 3Output9 18 17Input1 1 111 1 11 1Output2Input4 3 61 2 3 41 2 12 3 23 4 41 21 32 31 21 32 3Output5 18 31 20",
+    "source": "CF",
+    "vjudge": false
+}

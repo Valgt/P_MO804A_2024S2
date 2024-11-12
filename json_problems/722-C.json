@@ -1,0 +1,12 @@
+{
+    "uid": "722-C",
+    "url": "https://codeforces.com/contest/722/problem/C",
+    "tags": [
+        "data structures",
+        " dsu"
+    ],
+    "title": "722-C",
+    "statement": "C. Destroying Arraytime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given an array consisting ofnnon-negative integersa1,a2, ...,an.You are going to destroy integers in the array one by one. Thus, you are given the permutation of integers from1tondefining the order elements of the array are destroyed.After each element is destroyed you have to find out the segment of the array, such that it contains no destroyed elements and the sum of its elements is maximum possible. The sum of elements in the empty segment is considered to be0.InputThe first line of the input contains a single integern(1 ≤n≤ 100 000) — the length of the array.The second line containsnintegersa1,a2, ...,an(0 ≤ai≤ 109).The third line contains a permutation of integers from1ton— the order used to destroy elements.OutputPrintnlines. Thei-th line should contain a single integer — the maximum possible sum of elements on the segment containing no destroyed elements, after firstioperations are performed.ExamplesInput41 3 2 53 4 1 2Output5430Input51 2 3 4 54 2 3 5 1Output65510Input85 5 4 4 6 6 5 55 2 8 7 1 3 4 6Output18161188660NoteConsider the first sample:Third element is destroyed. Array is now1 3  *  5. Segment with maximum sum5consists of one integer5.Fourth element is destroyed. Array is now1 3  *   *. Segment with maximum sum4consists of two integers1 3.First element is destroyed. Array is now*  3  *   *. Segment with maximum sum3consists of one integer3.Last element is destroyed. At this moment there are no valid nonempty segments left in this array, so the answer is equal to0.",
+    "source": "CF",
+    "vjudge": false
+}

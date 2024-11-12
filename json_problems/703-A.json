@@ -1,0 +1,11 @@
+{
+    "uid": "703-A",
+    "url": "https://codeforces.com/contest/703/problem/A",
+    "tags": [
+        "implementation"
+    ],
+    "title": "703-A",
+    "statement": "A. Mishka and Gametime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputMishka is a little polar bear. As known, little bears loves spending their free time playing dice for chocolates. Once in a wonderful sunny morning, walking around blocks of ice, Mishka met her friend Chris, and they started playing the game.Rules of the game are very simple: at first number of roundsnis defined. In every round each of the players throws a cubical dice with distinct numbers from1to6written on its faces. Player, whose value after throwing the dice is greater, wins the round. In case if player dice values are equal, no one of them is a winner.In average, player, who won most of the rounds, is the winner of the game. In case if two players won the same number of rounds, the result of the game is draw.Mishka is still very little and can't count wins and losses, so she asked you to watch their game and determine its result. Please help her!InputThe first line of the input contains single integernn(1 ≤n≤ 100) — the number of game rounds.The nextnlines contains rounds description.i-th of them contains pair of integersmiandci(1 ≤mi,ci≤ 6) — values on dice upper face after Mishka's and Chris' throws ini-th round respectively.OutputIf Mishka is the winner of the game, print\"Mishka\"(without quotes) in the only line.If Chris is the winner of the game, print\"Chris\"(without quotes) in the only line.If the result of the game is draw, print\"Friendship is magic!^^\"(without quotes) in the only line.ExamplesInput33 52 14 2OutputMishkaInput26 11 6OutputFriendship is magic!^^Input31 53 32 2OutputChrisNoteIn the first sample case Mishka loses the first round, but wins second and third rounds and thus she is the winner of the game.In the second sample case Mishka wins the first round, Chris wins the second round, and the game ends with draw with score 1:1.In the third sample case Chris wins the first round, but there is no winner of the next two rounds. The winner of the game is Chris.",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,11 @@
+{
+    "uid": "967-A",
+    "url": "https://codeforces.com/contest/967/problem/A",
+    "tags": [
+        "implementation"
+    ],
+    "title": "967-A",
+    "statement": "A. Mind the Gaptime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputThese days Arkady works as an air traffic controller at a large airport. He controls a runway which is usually used for landings only. Thus, he has a schedule of planes that are landing in the nearest future, each landing lasts $$$1$$$ minute.He was asked to insert one takeoff in the schedule. The takeoff takes $$$1$$$ minute itself, but for safety reasons there should be a time space between the takeoff and any landing of at least $$$s$$$ minutes from both sides.Find the earliest time when Arkady can insert the takeoff.InputThe first line of input contains two integers $$$n$$$ and $$$s$$$ ($$$1 \\\\le n \\\\le 100$$$, $$$1 \\\\le s \\\\le 60$$$) — the number of landings on the schedule and the minimum allowed time (in minutes) between a landing and a takeoff.Each of next $$$n$$$ lines contains two integers $$$h$$$ and $$$m$$$ ($$$0 \\\\le h \\\\le 23$$$, $$$0 \\\\le m \\\\le 59$$$) — the time, in hours and minutes, when a plane will land, starting from current moment (i. e. the current time is $$$0$$$ $$$0$$$). These times are given in increasing order.OutputPrint two integers $$$h$$$ and $$$m$$$ — the hour and the minute from the current moment of the earliest time Arkady can insert the takeoff.ExamplesInput6 600 01 203 215 019 3023 40Output6 1Input16 500 301 203 04 306 107 509 3011 1012 5014 3016 1017 5019 3021 1022 5023 59Output24 50Input3 170 301 012 0Output0 0NoteIn the first example note that there is not enough time between1:20and3:21, because each landing and the takeoff take one minute.In the second example there is no gaps in the schedule, so Arkady can only add takeoff after all landings. Note that it is possible that one should wait more than $$$24$$$ hours to insert the takeoff.In the third example Arkady can insert the takeoff even between the first landing.",
+    "source": "CF",
+    "vjudge": false
+}

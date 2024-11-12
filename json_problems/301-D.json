@@ -1,0 +1,11 @@
+{
+    "uid": "301-D",
+    "url": "https://codeforces.com/contest/301/problem/D",
+    "tags": [
+        "data structures"
+    ],
+    "title": "301-D",
+    "statement": "D. Yaroslav and Divisorstime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutYaroslav has an arrayp=p1,p2, ...,pn(1 ≤pi≤n), consisting ofndistinct integers. Also, he hasmqueries:Query numberiis represented as a pair of integersli,ri(1 ≤li≤ri≤n).The answer to the queryli,riis the number of pairs of integersq,w(li≤q,w≤ri)such thatpqis the divisor ofpw.Help Yaroslav, answer all his queries.InputThe first line contains the integersnandm(1 ≤n,m≤ 2·105). The second line containsndistinct integersp1,p2, ...,pn(1 ≤pi≤n). The followingmlines contain Yaroslav's queries. Thei-th line contains integersli,ri(1 ≤li≤ri≤n).OutputPrintmintegers — the answers to Yaroslav's queries in the order they appear in the input.Please, do not use the%lldspecifier to read or write 64-bit integers inC++. It is preferred to use thecin,coutstreams or the%I64dspecifier.ExamplesInput1 111 1Output1Input10 91 2 3 4 5 6 7 8 9 101 102 93 84 75 62 29 105 104 10Output27148421279",
+    "source": "CF",
+    "vjudge": false
+}

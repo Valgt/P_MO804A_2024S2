@@ -1,0 +1,14 @@
+{
+    "uid": "665-E",
+    "url": "https://codeforces.com/contest/665/problem/E",
+    "tags": [
+        "data structures",
+        " divide and conquer",
+        " strings",
+        " trees"
+    ],
+    "title": "665-E",
+    "statement": "E. Beautiful Subarraystime limit per test3 secondsmemory limit per test512 megabytesinputstandard inputoutputstandard outputOne day, ZS the Coder wrote down an array of integersawith elementsa1,a2,  ...,an.A subarray of the arrayais a sequenceal,al+  1,  ...,arfor some integers(l,r)such that1  ≤l≤r≤n. ZS the Coder thinks that a subarray ofais beautiful if the bitwise xor of all the elements in the subarray is at leastk.Help ZS the Coder find the number of beautiful subarrays ofa!InputThe first line contains two integersnandk(1 ≤n≤ 106, 1 ≤k≤ 109) — the number of elements in the arrayaand the value of the parameterk.The second line containsnintegersai(0 ≤ai≤ 109) — the elements of the arraya.OutputPrint the only integerc— the number of beautiful subarrays of the arraya.ExamplesInput3 11 2 3Output5Input3 21 2 3Output3Input3 31 2 3Output2",
+    "source": "CF",
+    "vjudge": false
+}

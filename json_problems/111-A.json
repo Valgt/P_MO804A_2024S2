@@ -1,0 +1,11 @@
+{
+    "uid": "111-A",
+    "url": "https://codeforces.com/contest/111/problem/A",
+    "tags": [
+        "greedy"
+    ],
+    "title": "111-A",
+    "statement": "A. Petya and Inequiationstime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutLittle Petya loves inequations. Help him findnpositive integersa1,a2, ...,an, such that the following two conditions are satisfied:a12+a22+ ... +an2≥xa1+a2+ ... +an≤yInputThe first line contains three space-separated integersn,xandy(1 ≤n≤ 105, 1 ≤x≤ 1012, 1 ≤y≤ 106).Please do not use the %lld specificator to read or write 64-bit integers in С++. It is recommended to use cin, cout streams or the %I64d specificator.OutputPrintnpositive integers that satisfy the conditions, one integer per line. If such numbers do not exist, print a single number \"-1\". If there are several solutions, print any of them.ExamplesInput5 15 15Output44112Input2 3 2Output-1Input1 99 11Output11",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,14 @@
+{
+    "uid": "817-C",
+    "url": "https://codeforces.com/contest/817/problem/C",
+    "tags": [
+        "binary search",
+        " brute force",
+        " dp",
+        " math"
+    ],
+    "title": "817-C",
+    "statement": "C. Really Big Numberstime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputIvan likes to learn different things about numbers, but he is especially interested inreally bignumbers. Ivan thinks that a positive integer numberxisreally bigif the difference betweenxand the sum of its digits (in decimal representation) is not less thans. To prove that these numbers may have different special properties, he wants to know how rare (or not rare) they are — in fact, he needs to calculate the quantity ofreally bignumbers that are not greater thann.Ivan tried to do the calculations himself, but soon realized that it's too difficult for him. So he asked you to help him in calculations.InputThe first (and the only) line contains two integersnands(1 ≤n,s≤ 1018).OutputPrint one integer — the quantity ofreally bignumbers that are not greater thann.ExamplesInput12 1Output3Input25 20Output0Input10 9Output1NoteIn the first example numbers10,11and12arereally big.In the second example there are noreally bignumbers that are not greater than25(in fact, the firstreally bignumber is30:30 - 3 ≥ 20).In the third example10is the onlyreally bignumber (10 - 1 ≥ 9).",
+    "source": "CF",
+    "vjudge": false
+}

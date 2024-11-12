@@ -1,0 +1,12 @@
+{
+    "uid": "1619-A",
+    "url": "https://codeforces.com/contest/1619/problem/A",
+    "tags": [
+        "implementation",
+        " strings"
+    ],
+    "title": "1619-A",
+    "statement": "A. Square String?time limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputA string is calledsquareif it is some string written twice in a row. For example, the strings \"aa\", \"abcabc\", \"abab\" and \"baabaa\" are square. But the strings \"aaa\", \"abaaab\" and \"abcdabc\" are not square.For a given string $$$s$$$ determine if it is square.InputThe first line of input data contains an integer $$$t$$$ ($$$1 \\\\le t \\\\le 100$$$) —the number of test cases.This is followed by $$$t$$$ lines, each containing a description of one test case. The given strings consist only of lowercase Latin letters and have lengths between $$$1$$$ and $$$100$$$ inclusive.OutputFor each test case, output on a separate line:YESif the string in the corresponding test case is square,NOotherwise.You can outputYESandNOin any case (for example, stringsyEs,yes,YesandYESwill be recognized as a positive response).ExampleInput10 a aa aaa aaaa abab abcabc abacaba xxyy xyyx xyxyOutputNO YES NO YES YES YES NO NO NO YES",
+    "source": "CF",
+    "vjudge": false
+}

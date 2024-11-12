@@ -1,0 +1,13 @@
+{
+    "uid": "11-A",
+    "url": "https://codeforces.com/contest/11/problem/A",
+    "tags": [
+        "constructive algorithms",
+        " implementation",
+        " math"
+    ],
+    "title": "11-A",
+    "statement": "A. Increasing Sequencetime limit per test1 secondmemory limit per test64 megabytesinputstdinoutputstdoutA sequencea0,a1, ...,at- 1is called increasing ifai- 1<aifor eachi: 0 <i<t.You are given a sequenceb0,b1, ...,bn- 1and a positive integerd. In each move you may choose one element of the given sequence and adddto it. What is the least number of moves required to make the given sequence increasing?InputThe first line of the input contains two integer numbersnandd(2 ≤n≤ 2000, 1 ≤d≤ 106). The second line contains space separated sequenceb0,b1, ...,bn- 1(1 ≤bi≤ 106).OutputOutput the minimal number of moves needed to make the sequence increasing.ExamplesInput4 21 3 3 2Output3",
+    "source": "CF",
+    "vjudge": false
+}

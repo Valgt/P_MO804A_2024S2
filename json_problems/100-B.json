@@ -1,0 +1,12 @@
+{
+    "uid": "100-B",
+    "url": "https://codeforces.com/contest/100/problem/B",
+    "tags": [
+        "*special",
+        " implementation"
+    ],
+    "title": "100-B",
+    "statement": "B. Friendly Numberstime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutKiana thinks two integers are friends if and only if one of them divides the other one. For example, 12 and 4 are friends, also 6 and 6 are friends too, but 120 and 36 are not.A group of non-zero integers is called friendly, if each pair of its integers form a friend pair.You are given a group of non-zero integers. See if they're friendly.InputThe first line containsn(1 ≤n≤ 1000), wheren— the number of integers in the group.The next line contains the elements, sorted in the non-decreasing order. The numbers are comma separated, they have at most 7 digits in their decimal notation and do not have any leading zeros.OutputIf the group is friendly write \"FRIENDS\", else write \"NOT FRIENDS\".ExamplesInput41,3,6,12OutputFRIENDSInput31,2,9OutputNOT FRIENDS",
+    "source": "CF",
+    "vjudge": false
+}

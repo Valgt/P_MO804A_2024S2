@@ -1,0 +1,12 @@
+{
+    "uid": "166-B",
+    "url": "https://codeforces.com/contest/166/problem/B",
+    "tags": [
+        "geometry",
+        " sortings"
+    ],
+    "title": "166-B",
+    "statement": "B. Polygonstime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutYou've got another geometrical task. You are given two non-degenerate polygonsAandBas vertex coordinates. PolygonAis strictly convex. PolygonBis an arbitrary polygon without any self-intersections and self-touches. The vertices of both polygons are given in the clockwise order. For each polygon no three consecutively following vertices are located on the same straight line.Your task is to check whether polygonBis positioned strictly inside polygonA. It means that any point of polygonBshould be strictly inside polygonA. \"Strictly\" means that the vertex of polygonBcannot lie on the side of the polygonA.InputThe first line contains the only integern(3 ≤n≤ 105) — the number of vertices of polygonA. Thennlines contain pairs of integersxi,yi(|xi|, |yi| ≤ 109) — coordinates of thei-th vertex of polygonA. The vertices are given in the clockwise order.The next line contains a single integerm(3 ≤m≤ 2·104) — the number of vertices of polygonB. Then followingmlines contain pairs of integersxj,yj(|xj|, |yj| ≤ 109) — the coordinates of thej-th vertex of polygonB. The vertices are given in the clockwise order.The coordinates of the polygon's vertices are separated by a single space. It is guaranteed that polygonsAandBare non-degenerate, that polygonAis strictly convex, that polygonBhas no self-intersections and self-touches and also for each polygon no three consecutively following vertices are located on the same straight line.OutputPrint on the only line the answer to the problem — if polygonBis strictly inside polygonA, print \"YES\", otherwise print \"NO\" (without the quotes).ExamplesInput6-2 10 33 34 13 -22 -240 12 23 11 0OutputYESInput51 24 23 -3-2 -2-2 140 11 24 12 -1OutputNOInput5-1 22 34 13 -20 -351 01 13 15 -12 -1OutputNO",
+    "source": "CF",
+    "vjudge": false
+}

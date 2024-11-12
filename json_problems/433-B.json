@@ -1,0 +1,13 @@
+{
+    "uid": "433-B",
+    "url": "https://codeforces.com/contest/433/problem/B",
+    "tags": [
+        "dp",
+        " implementation",
+        " sortings"
+    ],
+    "title": "433-B",
+    "statement": "B. Kuriyama Mirai's Stonestime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutKuriyama Mirai has killed many monsters and got many (namelyn) stones. She numbers the stones from1ton. The cost of thei-th stone isvi. Kuriyama Mirai wants to know something about these stones so she will ask you two kinds of questions:She will tell you two numbers,landr(1 ≤l≤r≤n), and you should tell her.Letuibe the cost of thei-th cheapest stone (the cost that will be on thei-th place if we arrange all the stone costs in non-decreasing order). This time she will tell you two numbers,landr(1 ≤l≤r≤n), and you should tell her.For every question you should give the correct answer, or Kuriyama Mirai will say \"fuyukai desu\" and then become unhappy.InputThe first line contains an integern(1 ≤n≤ 105). The second line containsnintegers:v1,v2, ...,vn(1 ≤vi≤ 109)— costs of the stones.The third line contains an integerm(1 ≤m≤ 105)— the number of Kuriyama Mirai's questions. Then followmlines, each line contains three integerstype,landr(1 ≤l≤r≤n; 1 ≤type≤ 2), describing a question. Iftypeequal to1, then you should output the answer for the first question, else you should output the answer for the second one.OutputPrintmlines. Each line must contain an integer — the answer to Kuriyama Mirai's question. Print the answers to the questions in the order of input.ExamplesInput66 4 2 7 2 732 3 61 3 41 1 6Output24928Input45 5 2 3101 2 42 1 41 1 12 1 42 1 21 1 11 3 31 1 31 4 41 2 2Output10155155521235NotePlease note that the answers to the questions may overflow 32-bit integer type.",
+    "source": "CF",
+    "vjudge": false
+}

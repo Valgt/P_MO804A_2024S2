@@ -1,0 +1,12 @@
+{
+    "uid": "216-A",
+    "url": "https://codeforces.com/contest/216/problem/A",
+    "tags": [
+        "implementation",
+        " math"
+    ],
+    "title": "216-A",
+    "statement": "A. Tiling with Hexagonstime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutSeveral ages ago Berland was a kingdom. The King of Berland adored math. That's why, when he first visited one of his many palaces, he first of all paid attention to the floor in one hall. The floor was tiled with hexagonal tiles.The hall also turned out hexagonal in its shape. The King walked along the perimeter of the hall and concluded that each of the six sides hasa,b,c,a,bandcadjacent tiles, correspondingly.To better visualize the situation, look at the picture showing a similar hexagon fora= 2,b= 3andc= 4.According to the legend, as the King of Berland obtained the valuesa,bandc, he almost immediately calculated the total number of tiles on the hall floor. Can you do the same?InputThe first line contains three integers:a,bandc(2 ≤a,b,c≤ 1000).OutputPrint a single number — the total number of tiles on the hall floor.ExamplesInput2 3 4Output18",
+    "source": "CF",
+    "vjudge": false
+}

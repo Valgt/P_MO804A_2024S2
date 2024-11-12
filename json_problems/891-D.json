@@ -1,0 +1,14 @@
+{
+    "uid": "891-D",
+    "url": "https://codeforces.com/contest/891/problem/D",
+    "tags": [
+        "dfs and similar",
+        " dp",
+        " graph matchings",
+        " trees"
+    ],
+    "title": "891-D",
+    "statement": "D. Slothtime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputSloth is bad, mkay? So we decided to prepare a problem to punish lazy guys.You are given a tree, you should count the number of ways to remove an edge from it and then add an edge to it such that the final graph is a tree and has a perfect matching. Two ways of this operation are considered different if their removed edges or their added edges aren't the same. The removed edge and the added edge can be equal.A perfect matching is a subset of edges such that each vertex is an endpoint of exactly one of these edges.InputThe first line containsn(2 ≤n≤ 5·105) — the number of vertices.Each of the nextn- 1lines contains two integersaandb(1 ≤a,b≤n) — the endpoints of one edge. It's guaranteed that the graph is a tree.OutputOutput a single integer — the answer to the problem.ExamplesInput41 22 33 4Output8Input51 22 33 43 5Output0Input81 22 33 41 55 66 71 8Output22NoteIn first sample, there are8ways:edge between2and3turns to edge between1and3,edge between2and3turns to edge between1and4,edge between2and3turns to edge between2and3,edge between2and3turns to edge between2and4,edge between1and2turns to edge between1and2,edge between1and2turns to edge between1and4,edge between3and4turns to edge between1and4,edge between3and4turns to edge between3and4.",
+    "source": "CF",
+    "vjudge": false
+}

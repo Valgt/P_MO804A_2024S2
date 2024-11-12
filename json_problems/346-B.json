@@ -1,0 +1,12 @@
+{
+    "uid": "346-B",
+    "url": "https://codeforces.com/contest/346/problem/B",
+    "tags": [
+        "dp",
+        " strings"
+    ],
+    "title": "346-B",
+    "statement": "B. Lucky Common Subsequencetime limit per test3 secondsmemory limit per test512 megabytesinputstdinoutputstdoutIn mathematics, asubsequenceis a sequence that can be derived from another sequence by deleting some elements without changing the order of the remaining elements. For example, the sequenceBDFis a subsequence ofABCDEF. Asubstringof a string is a continuous subsequence of the string. For example,BCDis a substring ofABCDEF.You are given two stringss1,s2and another string calledvirus. Your task is to find the longest common subsequence ofs1ands2, such that it doesn't containvirusas a substring.InputThe input contains three strings in three separate lines:s1,s2andvirus(1 ≤ |s1|, |s2|, |virus| ≤ 100). Each string consists only of uppercase English letters.OutputOutput the longest common subsequence ofs1ands2withoutvirusas a substring. If there are multiple answers, any of them will be accepted.If there is no valid common subsequence, output 0.ExamplesInputAJKEQSLOBSROFGZOVGURWZLWVLUXTHOZOutputORZInputAAAAOutput0",
+    "source": "CF",
+    "vjudge": false
+}

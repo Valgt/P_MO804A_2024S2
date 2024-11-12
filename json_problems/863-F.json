@@ -1,0 +1,11 @@
+{
+    "uid": "863-F",
+    "url": "https://codeforces.com/contest/863/problem/F",
+    "tags": [
+        "flows"
+    ],
+    "title": "863-F",
+    "statement": "F. Almost Permutationtime limit per test3 secondsmemory limit per test512 megabytesinputstandard inputoutputstandard outputRecently Ivan noticed an arrayawhile debugging his code. Now Ivan can't remember this array, but the bug he was trying to fix didn't go away, so Ivan thinks that the data from this array might help him to reproduce the bug.Ivan clearly remembers that there werenelements in the array, and each element was not less than1and not greater thann. Also he remembersqfacts about the array. There are two types of facts that Ivan remembers:1lirivi— for eachxsuch thatli≤x≤riax≥vi;2lirivi— for eachxsuch thatli≤x≤riax≤vi.Also Ivan thinks that this array was a permutation, but he is not so sure about it. He wants to restore some array that corresponds to theqfacts that he remembers and is very similar to permutation. Formally, Ivan has denoted thecostof array as follows:, wherecnt(i)is the number of occurences ofiin the array.Help Ivan to determine minimum possiblecostof the array that corresponds to the facts!InputThe first line contains two integer numbersnandq(1 ≤n≤ 50,0 ≤q≤ 100).Thenqlines follow, each representing a fact about the array.i-th line contains the numbersti,li,riandvifori-th fact (1 ≤ti≤ 2,1 ≤li≤ri≤n,1 ≤vi≤n,tidenotes the type of the fact).OutputIf the facts are controversial and there is no array that corresponds to them, print-1. Otherwise, print minimum possiblecostof the array.ExamplesInput3 0Output3Input3 11 1 3 2Output5Input3 21 1 3 22 1 3 2Output9Input3 21 1 3 22 1 3 1Output-1",
+    "source": "CF",
+    "vjudge": false
+}

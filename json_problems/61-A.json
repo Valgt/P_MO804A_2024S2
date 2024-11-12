@@ -1,0 +1,11 @@
+{
+    "uid": "61-A",
+    "url": "https://codeforces.com/contest/61/problem/A",
+    "tags": [
+        "implementation"
+    ],
+    "title": "61-A",
+    "statement": "A. Ultra-Fast Mathematiciantime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutShapur was an extremely gifted student. He was great at everything including Combinatorics, Algebra, Number Theory, Geometry, Calculus, etc. He was not only smart but extraordinarily fast! He could manage to sum1018numbers in a single second.One day in 230 AD Shapur was trying to find out if any one can possibly do calculations faster than him. As a result he made a very great contest and asked every one to come and take part.In his contest he gave the contestants many different pairs of numbers. Each number is made from digits0or1. The contestants should write a new number corresponding to the given pair of numbers. The rule is simple: Thei-th digit of the answer is1if and only if thei-th digit of the two given numbers differ. In the other case thei-th digit of the answer is0.Shapur made many numbers and first tried his own speed. He saw that he can perform these operations on numbers of length∞(length of a number is number of digits in it) in a glance! He always gives correct answers so he expects the contestants to give correct answers, too. He is a good fellow so he won't give anyone very big numbers and he always gives one person numbers of same length.Now you are going to take part in Shapur's contest. See if you are faster and more accurate.InputThere are two lines in each input. Each of them contains a single number. It is guaranteed that the numbers are made from0and1only and that their length is same. The numbers may start with0. The length of each number doesn't exceed 100.OutputWrite one line — the corresponding answer. Do not omit the leading0s.ExamplesInput10101000100101Output1110001Input000111Output111Input11101010Output0100Input0111001100Output00010",
+    "source": "CF",
+    "vjudge": false
+}

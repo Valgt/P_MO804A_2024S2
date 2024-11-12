@@ -1,0 +1,13 @@
+{
+    "uid": "660-C",
+    "url": "https://codeforces.com/contest/660/problem/C",
+    "tags": [
+        "binary search",
+        " dp",
+        " two pointers"
+    ],
+    "title": "660-C",
+    "statement": "C. Hard Processtime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given an arrayawithnelements. Each element ofais either0or1.Let's denote the length of the longest subsegment of consecutive elements ina, consisting of only numbers one, asf(a). You can change no more thankzeroes to ones to maximizef(a).InputThe first line contains two integersnandk(1 ≤n≤ 3·105, 0 ≤k≤n) — the number of elements inaand the parameterk.The second line containsnintegersai(0 ≤ai≤ 1) — the elements ofa.OutputOn the first line print a non-negative integerz— the maximal value off(a)after no more thankchanges of zeroes to ones.On the second line printnintegersaj— the elements of the arrayaafter the changes.If there are multiple answers, you can print any one of them.ExamplesInput7 11 0 0 1 1 0 1Output41 0 0 1 1 1 1Input10 21 0 0 1 0 1 0 1 0 1Output51 0 0 1 1 1 1 1 0 1",
+    "source": "CF",
+    "vjudge": false
+}

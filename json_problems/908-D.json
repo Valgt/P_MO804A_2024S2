@@ -1,0 +1,13 @@
+{
+    "uid": "908-D",
+    "url": "https://codeforces.com/contest/908/problem/D",
+    "tags": [
+        "dp",
+        " math",
+        " probabilities"
+    ],
+    "title": "908-D",
+    "statement": "D. New Year and Arbitrary Arrangementtime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given three integersk,paandpb.You will construct a sequence with the following algorithm: Initially, start with the empty sequence. Each second, you do the following. With probabilitypa/ (pa+pb), add 'a' to the end of the sequence. Otherwise (with probabilitypb/ (pa+pb)), add 'b' to the end of the sequence.You stop once there are at leastksubsequences that form 'ab'. Determine the expected number of times 'ab' is a subsequence in the resulting sequence. It can be shown that this can be represented byP/Q, wherePandQare coprime integers, and. Print the value of.InputThe first line will contain three integers integerk,pa,pb(1 ≤k≤ 1 000,1 ≤pa,pb≤ 1 000 000).OutputPrint a single integer, the answer to the problem.ExamplesInput1 1 1Output2Input3 1 4Output370000006NoteThe first sample, we will keep appending to our sequence until we get the subsequence 'ab' at least once. For instance, we get the sequence 'ab' with probability 1/4, 'bbab' with probability 1/16, and 'aab' with probability 1/8. Note, it's impossible for us to end with a sequence like 'aabab', since we would have stopped our algorithm once we had the prefix 'aab'.The expected amount of times that 'ab' will occur across all valid sequences is 2.For the second sample, the answer is equal to.",
+    "source": "CF",
+    "vjudge": false
+}

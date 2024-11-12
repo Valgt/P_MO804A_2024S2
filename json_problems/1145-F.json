@@ -1,0 +1,9 @@
+{
+    "uid": "1145-F",
+    "url": "https://codeforces.com/contest/1145/problem/F",
+    "tags": [],
+    "title": "1145-F",
+    "statement": "F. Neat Wordstime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputInputThe input consists of a single string of uppercase letters A-Z. The length of the string is between 1 and 10 characters, inclusive.OutputOutput \"YES\" or \"NO\".ExamplesInputNEATOutputYESInputWORDOutputNOInputCODEROutputNOInputAPRILFOOLOutputNOInputAIOutputYESInputJUROROutputYESInputYESOutputNO",
+    "source": "CF",
+    "vjudge": false
+}

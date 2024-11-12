@@ -1,0 +1,13 @@
+{
+    "uid": "946-F",
+    "url": "https://codeforces.com/contest/946/problem/F",
+    "tags": [
+        "combinatorics",
+        " dp",
+        " matrices"
+    ],
+    "title": "946-F",
+    "statement": "F. Fibonacci String Subsequencestime limit per test3.5 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given a binary strings(each character of this string is either0or1).Let's denote the cost of stringtas the number of occurences ofsint. For example, ifsis11andtis111011, then the cost oftis3.Let's also denote the Fibonacci strings sequence as follows:F(0)is0;F(1)is1;F(i) =F(i- 1) +F(i- 2)ifi> 1, where+means the concatenation of two strings.Your task is to calculate the sum of costs of all subsequences of the stringF(x). Since answer may be large, calculate it modulo109+ 7.InputThe first line contains two integersnandx(1 ≤n≤ 100,0 ≤x≤ 100) — the length ofsand the index of a Fibonacci string you are interested in, respectively.The second line containss— a string consisting ofncharacters. Each of these characters is either0or1.OutputPrint the only integer — the sum of costs of all subsequences of the stringF(x), taken modulo109+ 7.ExamplesInput2 411Output14Input10 1001010101010Output553403224",
+    "source": "CF",
+    "vjudge": false
+}

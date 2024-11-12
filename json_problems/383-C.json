@@ -1,0 +1,13 @@
+{
+    "uid": "383-C",
+    "url": "https://codeforces.com/contest/383/problem/C",
+    "tags": [
+        "data structures",
+        " dfs and similar",
+        " trees"
+    ],
+    "title": "383-C",
+    "statement": "C. Propagating treetime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutIahub likes trees very much. Recently he discovered an interesting tree named propagating tree. The tree consists ofnnodes numbered from1ton, each nodeihaving an initial valueai. The root of the tree is node1.This tree has a special property: when a valuevalis added to a value of nodei, the value -valis added to values of all the children of nodei. Note that when you add value -valto a child of nodei, you also add -(-val) to all children of the child of nodeiand so on. Look an example explanation to understand better how it works.This tree supports two types of queries:\"1xval\" —valis added to the value of nodex;\"2x\" — print the current value of nodex.In order to help Iahub understand the tree better, you must answermqueries of the preceding type.InputThe first line contains two integersnandm(1 ≤n,m≤ 200000). The second line containsnintegersa1,a2, ...,an(1 ≤ai≤ 1000). Each of the nextn–1lines contains two integersviandui(1 ≤vi,ui≤n), meaning that there is an edge between nodesviandui.Each of the nextmlines contains a query in the format described above. It is guaranteed that the following constraints hold for all queries:1 ≤x≤n, 1 ≤val≤ 1000.OutputFor each query of type two (print the value of nodex) you must print the answer to the query on a separate line. The queries must be answered in the order given in the input.ExamplesInput5 51 2 1 1 21 21 32 42 51 2 31 1 22 12 22 4Output330NoteThe values of the nodes are[1, 2, 1, 1, 2]at the beginning.Then value3is added to node2. It propagates and value -3is added to it's sons, node4and node5. Then it cannot propagate any more. So the values of the nodes are[1, 5, 1,  - 2,  - 1].Then value2is added to node1. It propagates and value -2is added to it's sons, node2and node3. From node2it propagates again, adding value2to it's sons, node4and node5. Node3has no sons, so it cannot propagate from there. The values of the nodes are[3, 3,  - 1, 0, 1].You can see all the definitions about the tree at the following link:http://en.wikipedia.org/wiki/Tree_(graph_theory)",
+    "source": "CF",
+    "vjudge": false
+}

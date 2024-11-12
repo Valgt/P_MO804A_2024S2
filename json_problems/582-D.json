@@ -1,0 +1,13 @@
+{
+    "uid": "582-D",
+    "url": "https://codeforces.com/contest/582/problem/D",
+    "tags": [
+        "dp",
+        " math",
+        " number theory"
+    ],
+    "title": "582-D",
+    "statement": "D. Number of Binominal Coefficientstime limit per test4 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputFor a given prime integerpand integersα,Acalculate the number of pairs of integers(n,k), such that0 ≤k≤n≤Aandis divisible bypα.As the answer can be rather large, print the remainder of the answer moduly109+ 7.Let us remind you thatis the number of wayskobjects can be chosen from the set ofnobjects.InputThe first line contains two integers,pandα(1 ≤p, α ≤ 109,pis prime).The second line contains the decimal record of integerA(0 ≤A< 101000) without leading zeroes.OutputIn the single line print the answer to the problem.ExamplesInput2 27Output3Input3 19Output17Input3 39Output0Input2 45000Output8576851NoteIn the first sample three binominal coefficients divisible by 4 are,and.",
+    "source": "CF",
+    "vjudge": false
+}

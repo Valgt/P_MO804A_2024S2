@@ -1,0 +1,14 @@
+{
+    "uid": "534-F",
+    "url": "https://codeforces.com/contest/534/problem/F",
+    "tags": [
+        "bitmasks",
+        " dp",
+        " hashing",
+        " meet-in-the-middle"
+    ],
+    "title": "534-F",
+    "statement": "F. Simplified Nonogramtime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputIn this task you have to write a program dealing with nonograms on fields no larger than5 × 20.Simplified nonogram is a task where you have to build such field (each cell is either white or black) that satisfies the given information about rows and columns. For each row and each column the number of contiguous black segments is specified.For example if size of the field isn= 3,m= 5, аnd numbers of contiguous black segments in rows are:[2, 3, 2]and in columns are:[1, 0, 1, 2, 1]then the solution may look like:It is guaranteed that on each test in the testset there exists at least one solution.InputIn the first line there follow two integersn,m(1 ≤n≤ 5, 1 ≤m≤ 20) — number of rows and number of columns respectively.Second line containsnintegersa1,a2, ...,anwhereaiis the number of contiguous black segments ini-th row of the field.Similarly, third line containsmintegersb1,b2, ...,bmwherebiis the number of contiguous black segments in thei-th column of the field.It is guaranteed that there exists at least one solution.OutputOutput any possible solution. Output should consist ofnlines each containingmcharacters. Denote white cell as \".\" and black cell as \"*\".ExamplesInput3 52 3 21 0 1 2 1Output*.**.*.*.**..**Input3 32 1 22 1 2Output*.*.*.*.*Input3 31 0 12 2 2Output***...***",
+    "source": "CF",
+    "vjudge": false
+}

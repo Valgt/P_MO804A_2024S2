@@ -1,0 +1,13 @@
+{
+    "uid": "744-C",
+    "url": "https://codeforces.com/contest/744/problem/C",
+    "tags": [
+        "bitmasks",
+        " brute force",
+        " dp"
+    ],
+    "title": "744-C",
+    "statement": "C. Hongcow Buys a Deck of Cardstime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputOne day, Hongcow goes to the store and sees a brand new deck ofnspecial cards. Each individual card is either red or blue. He decides he wants to buy them immediately. To do this, he needs to play a game with the owner of the store.This game takes some number of turns to complete. On a turn, Hongcow may do one of two things:Collect tokens. Hongcow collects1red tokenand1blue token by choosing this option (thus,2tokens in total per one operation).Buy a card. Hongcow chooses some card and spends tokens to purchase it as specified below.Thei-th card requiresrired resources andbiblue resources. Suppose Hongcow currently hasAred cards andBblue cards. Then, thei-th card will require Hongcow to spendmax(ri-A, 0)red tokens, andmax(bi-B, 0)blue tokens. Note, only tokens disappear, but the cards stay with Hongcow forever. Each card can be bought only once.Given a description of the cards and their costs determine the minimum number of turns Hongcow needs to purchase all cards.InputThe first line of input will contain a single integern(1 ≤n≤ 16).The nextnlines of input will contain three tokensci,riandbi.ciwill be 'R' or 'B', denoting the color of the card as red or blue.riwill be an integer denoting the amount of red resources required to obtain the card, andbiwill be an integer denoting the amount of blue resources required to obtain the card (0 ≤ri,bi≤ 107).OutputOutput a single integer, denoting the minimum number of turns needed to acquire all the cards.ExamplesInput3R 0 1B 1 0R 1 1Output4Input3R 3 0R 2 0R 1 0Output6NoteFor the first sample, Hongcow's four moves are as follows:Collect tokensBuy card1Buy card2Buy card3Note, at the fourth step, Hongcow is able to buy card3because Hongcow already has one red and one blue card, so we don't need to collect tokens.For the second sample, one optimal strategy is as follows:Collect tokensCollect tokensBuy card2Collect tokensBuy card3Buy card1At the fifth step, even though Hongcow has a red token, Hongcow doesn't actually need to spend it, since Hongcow has a red card already.",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,15 @@
+{
+    "uid": "501-C",
+    "url": "https://codeforces.com/contest/501/problem/C",
+    "tags": [
+        "constructive algorithms",
+        " data structures",
+        " greedy",
+        " sortings",
+        " trees"
+    ],
+    "title": "501-C",
+    "statement": "C. Misha and Foresttime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutLet's define a forest as a non-directed acyclic graph (also without loops and parallel edges). One day Misha played with the forest consisting ofnvertices. For each vertexvfrom0ton- 1he wrote down two integers,degreevandsv, were the first integer is the number of vertices adjacent to vertexv, and the second integer is the XOR sum of the numbers of vertices adjacent tov(if there were no adjacent vertices, he wrote down0).Next day Misha couldn't remember what graph he initially had. Misha has valuesdegreevandsvleft, though. Help him find the number of edges and the edges of the initial graph. It is guaranteed that there exists a forest that corresponds to the numbers written by Misha.InputThe first line contains integern(1 ≤n≤ 216), the number of vertices in the graph.Thei-th of the next lines contains numbersdegreeiandsi(0 ≤degreei≤n- 1,0 ≤si< 216), separated by a space.OutputIn the first line print numberm, the number of edges of the graph.Next printmlines, each containing two distinct numbers,aandb(0 ≤a≤n- 1,0 ≤b≤n- 1), corresponding to edge(a,b).Edges can be printed in any order; vertices of the edge can also be printed in any order.ExamplesInput32 31 01 0Output21 02 0Input21 11 0Output10 1NoteThe XOR sum of numbers is the result of bitwise adding numbers modulo2. This operation exists in many modern programming languages. For example, in languages C++, Java and Python it is represented as \"^\", and in Pascal — as \"xor\".",
+    "source": "CF",
+    "vjudge": false
+}

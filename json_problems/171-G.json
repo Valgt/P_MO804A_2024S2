@@ -1,0 +1,11 @@
+{
+    "uid": "171-G",
+    "url": "https://codeforces.com/contest/171/problem/G",
+    "tags": [
+        "*special"
+    ],
+    "title": "171-G",
+    "statement": "G. Mysterious numbers - 2time limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutInputThe only line of input contains three integersa1,a2,a3(1 ≤a1,a2,a3≤ 20), separated by spaces.OutputOutput a single integer.ExamplesInput2 3 2Output5Input13 14 1Output14Input14 5 9Output464Input17 18 3Output53",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,12 @@
+{
+    "uid": "312-B",
+    "url": "https://codeforces.com/contest/312/problem/B",
+    "tags": [
+        "math",
+        " probabilities"
+    ],
+    "title": "312-B",
+    "statement": "B. Archertime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutSmallR is an archer. SmallR is taking a match of archer with Zanoes. They try to shoot in the target in turns, and SmallR shoots first. The probability of shooting the target each time isfor SmallR whilefor Zanoes. The one who shoots in the target first should be the winner.Output the probability that SmallR will win the match.InputA single line contains four integers.OutputPrint a single real number, the probability that SmallR will win the match.The answer will be considered correct if the absolute or relative error doesn't exceed10- 6.ExamplesInput1 2 1 2Output0.666666666667",
+    "source": "CF",
+    "vjudge": false
+}

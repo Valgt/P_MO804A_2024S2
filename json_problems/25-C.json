@@ -1,0 +1,12 @@
+{
+    "uid": "25-C",
+    "url": "https://codeforces.com/contest/25/problem/C",
+    "tags": [
+        "graphs",
+        " shortest paths"
+    ],
+    "title": "25-C",
+    "statement": "C. Roads in Berlandtime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutThere arencities numbered from 1 tonin Berland. Some of them are connected by two-way roads. Each road has its own length — an integer number from 1 to 1000. It is known that from each city it is possible to get to any other city by existing roads. Also for each pair of cities it is known the shortest distance between them. Berland Government plans to buildknew roads. For each of the planned road it is known its length, and what cities it will connect. To control the correctness of the construction of new roads, after the opening of another road Berland government wants to check the sum of the shortest distances between all pairs of cities. Help them — for a given matrix of shortest distances on the old roads and plans of all new roads, find out how the sum of the shortest distances between all pairs of cities changes after construction of each road.InputThe first line contains integern(2 ≤n≤ 300) — amount of cities in Berland. Then there follownlines withninteger numbers each — the matrix of shortest distances.j-th integer in thei-th row —di,j, the shortest distance between citiesiandj. It is guaranteed thatdi,i= 0,di,j=dj,i, and a given matrix is a matrix of shortest distances for some set of two-way roads with integer lengths from 1 to 1000, such that from each city it is possible to get to any other city using these roads.Next line contains integerk(1 ≤k≤ 300) — amount of planned roads. Followingklines contain the description of the planned roads. Each road is described by three space-separated integersai,bi,ci(1 ≤ai,bi≤n,ai≠bi, 1 ≤ci≤ 1000) —aiandbi— pair of cities, which the road connects,ci— the length of the road. It can be several roads between a pair of cities, but no road connects the city with itself.OutputOutputkspace-separated integersqi(1 ≤i≤k).qishould be equal to the sum of shortest distances between all pairs of cities after the construction of roads with indexes from 1 toi. Roads are numbered from 1 in the input order. Each pair of cities should be taken into account in the sum exactly once, i. e. we count unordered pairs.ExamplesInput20 55 011 2 3Output3Input30 4 54 0 95 9 022 3 81 2 1Output17 12",
+    "source": "CF",
+    "vjudge": false
+}

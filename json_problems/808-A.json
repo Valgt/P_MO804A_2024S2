@@ -1,0 +1,11 @@
+{
+    "uid": "808-A",
+    "url": "https://codeforces.com/contest/808/problem/A",
+    "tags": [
+        "implementation"
+    ],
+    "title": "808-A",
+    "statement": "A. Lucky Yeartime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputApart from having lots of holidays throughout the year, residents of Berland also have wholeluckyyears. Year is consideredluckyif it has no more than1non-zero digit in its number. So years 100, 40000, 5 areluckyand 12, 3001 and 12345 are not.You are given current year in Berland. Your task is to find how long will residents of Berland wait till the nextluckyyear.InputThe first line contains integer numbern(1 ≤n≤ 109) — current year in Berland.OutputOutput amount of years from the current year to the nextluckyone.ExamplesInput4Output1Input201Output99Input4000Output1000NoteIn the first example nextluckyyear is 5. In the second one — 300. In the third — 5000.",
+    "source": "CF",
+    "vjudge": false
+}

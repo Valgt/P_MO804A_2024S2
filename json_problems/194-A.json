@@ -1,0 +1,12 @@
+{
+    "uid": "194-A",
+    "url": "https://codeforces.com/contest/194/problem/A",
+    "tags": [
+        "implementation",
+        " math"
+    ],
+    "title": "194-A",
+    "statement": "A. Examstime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutOne day the Codeforces round author sat exams. He hadnexams and he needed to get an integer from2to5for each exam. He will have to re-sit each failed exam, i.e. the exam that gets mark2.The author would need to spend too much time and effort to make the sum of his marks strictly more thank. That could have spoilt the Codeforces round. On the other hand, if the sum of his marks is strictly less thank, the author's mum won't be pleased at all.The Codeforces authors are very smart and they always get the mark they choose themselves. Also, the Codeforces authors just hate re-sitting exams.Help the author and find the minimum number of exams he will have to re-sit if he passes the exams in the way that makes the sum of marks for allnexams equal exactlyk.InputThe single input line contains space-separated integersnandk(1 ≤n≤ 50,1 ≤k≤ 250) — the number of exams and the required sum of marks.It is guaranteed that there exists a way to passnexams in the way that makes the sum of marks equal exactlyk.OutputPrint the single number — the minimum number of exams that the author will get a2for, considering that the sum of marks for all exams must equalk.ExamplesInput4 8Output4Input4 10Output2Input1 3Output0NoteIn the first sample the author has to get a2for all his exams.In the second sample he should get a3for two exams and a2for two more.In the third sample he should get a3for one exam.",
+    "source": "CF",
+    "vjudge": false
+}

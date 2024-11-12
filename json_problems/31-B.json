@@ -1,0 +1,13 @@
+{
+    "uid": "31-B",
+    "url": "https://codeforces.com/contest/31/problem/B",
+    "tags": [
+        "greedy",
+        " implementation",
+        " strings"
+    ],
+    "title": "31-B",
+    "statement": "B. Sysadmin Bobtime limit per test0.5 secondmemory limit per test256 megabytesinputstdinoutputstdoutEmail address in Berland is a string of the formA@B, whereAandBare arbitrary strings consisting of small Latin letters.Bob is a system administrator in «Bersoft» company. He keeps a list of email addresses of the company's staff. This list is as a large string, where all addresses are written in arbitrary order, separated by commas. The same address can be written more than once.Suddenly, because of unknown reasons, all commas in Bob's list disappeared. Now Bob has a string, where all addresses are written one after another without any separators, and there is impossible to determine, where the boundaries between addresses are. Unfortunately, on the same day his chief asked him to bring the initial list of addresses. Now Bob wants to disjoin addresses in some valid way. Help him to do that.InputThe first line contains the list of addresses without separators. The length of this string is between1and200, inclusive. The string consists only from small Latin letters and characters «@».OutputIf there is no list of the valid (according to the Berland rules) email addresses such that after removing all commas it coincides with the given string, outputNo solution. In the other case, output the list. The same address can be written in this list more than once. If there are several solutions, output any of them.ExamplesInputa@aa@aOutputa@a,a@aInputa@a@aOutputNo solutionInput@aa@aOutputNo solution",
+    "source": "CF",
+    "vjudge": false
+}

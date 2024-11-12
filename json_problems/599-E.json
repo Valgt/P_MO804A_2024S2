@@ -1,0 +1,13 @@
+{
+    "uid": "599-E",
+    "url": "https://codeforces.com/contest/599/problem/E",
+    "tags": [
+        "bitmasks",
+        " dp",
+        " trees"
+    ],
+    "title": "599-E",
+    "statement": "E. Sandy and Nutstime limit per test3 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputRooted treeis a connected graph without any simple cycles with one vertex selected as a root. In this problem the vertex number1will always serve as a root.Lowest common ancestorof two verticesuandvis the farthest from the root vertex that lies on both the path fromuto the root and on path fromvto the root. We will denote it asLCA(u,v).Sandy had a rooted tree consisting ofnvertices that she used to store her nuts. Unfortunately, the underwater storm broke her tree and she doesn't remember all it's edges. She only managed to restoremedges of the initial tree andqtriplesai,biandci, for which she supposesLCA(ai,bi) =ci.Help Sandy count the number of trees of sizenwith vertex1as a root, that match all the information she remembered. If she made a mess and there are no such trees then print0. Two rooted trees are considered to be distinct if there exists an edge that occur in one of them and doesn't occur in the other one.InputThe first line of the input contains three integersn,mandq(1 ≤n≤ 13, 0 ≤m<n, 0 ≤q≤ 100) — the number of vertices, the number of edges andLCAtriples remembered by Sandy respectively.Each of the nextmlines contains two integersuiandvi(1 ≤ui,vi≤n,ui≠vi) — the numbers of vertices connected by thei-th edge. It's guaranteed that this set of edges is a subset of edges of some tree.The lastqlines contain the triplets of numbersai,bi,ci(1 ≤ai,bi,ci≤n). Each of these triples defineLCA(ai,bi) =ci. It'snot guaranteedthat there exists a tree that satisfy all the givenLCAconditions.OutputPrint a single integer — the number of trees of sizenthat satisfy all the conditions.ExamplesInput4 0 0Output16Input4 0 13 4 2Output1Input3 1 01 2Output2Input3 0 22 3 22 3 1Output0Input4 1 21 22 2 23 4 2Output1NoteIn the second sample correct answer looks like this:In the third sample there are two possible trees:In the fourth sample the answer is0because the information aboutLCAis inconsistent.",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,11 @@
+{
+    "uid": "579-A",
+    "url": "https://codeforces.com/contest/579/problem/A",
+    "tags": [
+        "bitmasks"
+    ],
+    "title": "579-A",
+    "statement": "A. Raising Bacteriatime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are a lover of bacteria. You want to raise some bacteria in a box.Initially, the box is empty. Each morning, you can put any number of bacteria into the box. And each night, every bacterium in the box will split into two bacteria. You hope to see exactlyxbacteria in the box at some moment.What is the minimum number of bacteria you need to put into the box across those days?InputThe only line containing one integerx(1 ≤x≤ 109).OutputThe only line containing one integer: the answer.ExamplesInput5Output2Input8Output1NoteFor the first sample, we can add one bacterium in the box in the first day morning and at the third morning there will be4bacteria in the box. Now we put one more resulting5in the box. We added2bacteria in the process so the answer is2.For the second sample, we can put one in the first morning and in the 4-th morning there will be8in the box. So the answer is1.",
+    "source": "CF",
+    "vjudge": false
+}

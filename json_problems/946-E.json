@@ -1,0 +1,12 @@
+{
+    "uid": "946-E",
+    "url": "https://codeforces.com/contest/946/problem/E",
+    "tags": [
+        "greedy",
+        " implementation"
+    ],
+    "title": "946-E",
+    "statement": "E. Largest Beautiful Numbertime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputYes, that's another problem with definition of \"beautiful\" numbers.Let's call a positive integerxbeautifulif its decimal representation without leading zeroes contains even number of digits, and there exists a permutation of this representation which is palindromic. For example,4242is a beautiful number, since it contains4digits, and there exists a palindromic permutation2442.Given a positive integers, find the largest beautiful number which is less thans.InputThe first line contains one integert(1 ≤t≤ 105) — the number of testcases you have to solve.Thentlines follow, each representing one testcase and containing one string which is the decimal representation of numbers. It is guaranteed that this string has even length, contains no leading zeroes, and there exists at least one beautiful number less thans.The sum of lengths ofsover all testcases doesn't exceed2·105.OutputFor each testcase print one line containing the largest beautiful number which is less thans(it is guaranteed that the answer exists).ExampleInput48988100028923845Output88779928923839",
+    "source": "CF",
+    "vjudge": false
+}

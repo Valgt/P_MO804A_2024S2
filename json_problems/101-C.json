@@ -1,0 +1,12 @@
+{
+    "uid": "101-C",
+    "url": "https://codeforces.com/contest/101/problem/C",
+    "tags": [
+        "implementation",
+        " math"
+    ],
+    "title": "101-C",
+    "statement": "C. Vectorstime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutAt a geometry lesson Gerald was given a task: to get vectorBout of vectorA. Besides, the teacher permitted him to perform the following operations with vectorА:Turn the vector by90degrees clockwise.Add to the vector a certain vectorC.Operations could be performed in any order any number of times.Can Gerald cope with the task?InputThe first line contains integersx1иy1— the coordinates of the vectorA(- 108≤x1,y1≤ 108). The second and the third line contain in the similar manner vectorsBandC(their coordinates are integers; their absolute value does not exceed108).OutputPrint \"YES\" (without the quotes) if it is possible to get vectorBusing the given operations. Otherwise print \"NO\" (without the quotes).ExamplesInput0 01 10 1OutputYESInput0 01 11 1OutputYESInput0 01 12 2OutputNO",
+    "source": "CF",
+    "vjudge": false
+}

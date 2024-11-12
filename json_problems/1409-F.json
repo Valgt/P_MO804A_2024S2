@@ -1,0 +1,12 @@
+{
+    "uid": "1409-F",
+    "url": "https://codeforces.com/contest/1409/problem/F",
+    "tags": [
+        "dp",
+        " strings"
+    ],
+    "title": "1409-F",
+    "statement": "F. Subsequences of Length Twotime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given two strings $$$s$$$ and $$$t$$$ consisting of lowercase Latin letters. The length of $$$t$$$ is $$$2$$$ (i.e. this string consists only of two characters).In one move, you can chooseanycharacter of $$$s$$$ and replace it withanylowercase Latin letter. More formally, you choose some $$$i$$$ and replace $$$s_i$$$ (the character at the position $$$i$$$) with some character from 'a' to 'z'.You want to dono more than$$$k$$$ replacements in such a way thatmaximizesthe number of occurrences of $$$t$$$ in $$$s$$$ as asubsequence.Recall that a subsequence is a sequence that can be derived from the given sequence by deleting zero or more elements without changing the order of the remaining elements.InputThe first line of the input contains two integers $$$n$$$ and $$$k$$$ ($$$2 \\\\le n \\\\le 200$$$; $$$0 \\\\le k \\\\le n$$$) — the length of $$$s$$$ and the maximum number of moves you can make. The second line of the input contains the string $$$s$$$ consisting of $$$n$$$ lowercase Latin letters. The third line of the input contains the string $$$t$$$ consisting of two lowercase Latin letters.OutputPrint one integer — the maximum possible number of occurrences of $$$t$$$ in $$$s$$$ as asubsequenceif you replace no more than $$$k$$$ characters in $$$s$$$ optimally.ExamplesInput4 2 bbaa abOutput3Input7 3 asddsaf sdOutput10Input15 6 qwertyhgfdsazxc qaOutput16Input7 2 abacaba aaOutput15NoteIn the first example, you can obtain the string \"abab\" replacing $$$s_1$$$ with 'a' and $$$s_4$$$ with 'b'. Then the answer is $$$3$$$.In the second example, you can obtain the string \"ssddsdd\" and get the answer $$$10$$$.In the fourth example, you can obtain the string \"aaacaaa\" and get the answer $$$15$$$.",
+    "source": "CF",
+    "vjudge": false
+}

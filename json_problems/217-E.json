@@ -1,0 +1,13 @@
+{
+    "uid": "217-E",
+    "url": "https://codeforces.com/contest/217/problem/E",
+    "tags": [
+        "data structures",
+        " dsu",
+        " trees"
+    ],
+    "title": "217-E",
+    "statement": "E. Alien DNAtime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutProfessor Bajtocy is conducting experiments on alien DNA. He has discovered that it is subject to repetitive mutations — each mutation happens in the same way: some continuous subsequence of the alien DNA becomes active, copies itself, the copy gets mangled and inserts itself right after the original subsequence. The mangled copy of the activated continuous subsequence is formed by first joining all the elements at the even positions in that subsequence, and then joining all the elements at the odd ones at the end. That is, if the activated subsequence consists of 11 elements and represented ass1s2...s11, its mangled copy iss2s4s6s8s10s1s3s5s7s9s11.For example, if the original sequence was \"ACTGG\" and the mutation happened on the segment[2, 4](that is the activated subsequence is \"CTG\"), the mutated DNA is: \"ACTGTCGG\". The mangled copy of the activated subsequence is marked with bold font.Professor Bajtocy has written down the original DNA sequence and the mutations that sequentially happened to it, and he now asks you to recover the firstkelements of the DNA sequence after all the mutations.InputThe first line of input contains the original DNA sequence, consisting only of letters \"A\", \"C\", \"T\" and \"G\" and not exceeding3·106in length.The second line contains a single integerk(1 ≤k≤ 3·106).The third line contains a single integern(0 ≤n≤ 5000) — the number of mutations. The nextnlines describe the mutations in chronological order — each mutation is described by two numbersliandri(1 ≤li≤ri≤ 109), meaning that the continuous subsequence[li,ri]has become active and cloned itself, joining itself with the mangled copy.It is guaranteed that the input data is correct, that is, no mutation acts on non-existing elements of the DNA sequence, and the resulting DNA sequence has at leastkelements.Assume that the DNA elements are indexed starting from 1 and that the notation[l,r]meaning the continuous subsequence of DNA sequence that consists ofr-l+ 1elements starting at thel-th DNA sequence element and ending at ther-th DNA sequence element.OutputOutput a single line, containing the firstkletters of the mutated DNA sequence.ExamplesInputGAGA40OutputGAGAInputACGTACGT1621 22 8OutputACCAGTACCGACATCGNoteIn the second example, after the first mutation the sequence is \"ACCAGTACGT\". After the second mutation it's \"ACCAGTACCGACATCGT\".",
+    "source": "CF",
+    "vjudge": false
+}

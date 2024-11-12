@@ -1,0 +1,12 @@
+{
+    "uid": "813-B",
+    "url": "https://codeforces.com/contest/813/problem/B",
+    "tags": [
+        "brute force",
+        " math"
+    ],
+    "title": "813-B",
+    "statement": "B. The Golden Agetime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputUnluckyyear in Berland is such a year that its numberncan be represented asn=xa+yb, whereaandbare non-negative integer numbers.For example, ifx= 2andy= 3then the years4and17areunlucky(4 = 20+ 31,17 = 23+ 32= 24+ 30) and year18isn'tunluckyas there is no such representation for it.Such interval of years that there are nounluckyyears in it is calledThe Golden Age.You should write a program which will find maximum length ofThe Golden Agewhich starts no earlier than the yearland ends no later than the yearr. If all years in the interval[l,r]areunluckythen the answer is0.InputThe first line contains four integer numbersx,y,landr(2 ≤x,y≤ 1018,1 ≤l≤r≤ 1018).OutputPrint the maximum length ofThe Golden Agewithin the interval[l,r].If all years in the interval[l,r]areunluckythen print0.ExamplesInput2 3 1 10Output1Input3 5 10 22Output8Input2 3 3 5Output0NoteIn the first example theunluckyyears are2, 3, 4, 5, 7, 9and10. So maximum length ofThe Golden Ageis achived in the intervals[1, 1],[6, 6]and[8, 8].In the second example the longestGolden Ageis the interval[15, 22].",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,11 @@
+{
+    "uid": "652-B",
+    "url": "https://codeforces.com/contest/652/problem/B",
+    "tags": [
+        "sortings"
+    ],
+    "title": "652-B",
+    "statement": "B. z-sorttime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputA student ofz-school found a kind of sorting calledz-sort. The arrayawithnelements arez-sorted if two conditions hold:ai≥ai- 1for all eveni,ai≤ai- 1for all oddi> 1.For example the arrays[1,2,1,2]and[1,1,1,1]arez-sorted while the array[1,2,3,4]isn’tz-sorted.Can you make the arrayz-sorted?InputThe first line contains a single integern(1 ≤n≤ 1000) — the number of elements in the arraya.The second line containsnintegersai(1 ≤ai≤ 109) — the elements of the arraya.OutputIf it's possible to make the arrayaz-sorted printnspace separated integersai— the elements afterz-sort. Otherwise print the only word \"Impossible\".ExamplesInput41 2 2 1Output1 2 1 2Input51 3 2 2 5Output1 5 2 3 2",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,11 @@
+{
+    "uid": "130-F",
+    "url": "https://codeforces.com/contest/130/problem/F",
+    "tags": [
+        "*special"
+    ],
+    "title": "130-F",
+    "statement": "F. Prime factorizationtime limit per test2 secondsmemory limit per test64 megabytesinputstdinoutputstdoutYou are given an integern. Output its prime factorization.Ifn=a1b1a2b2...akbk, whereakare prime numbers, the output of your program should look as follows:a1a1...a1a2a2...a2...akak...ak, where factors are ordered in non-decreasing order, and each factoraiis printedbitimes.InputThe only line of input contains an integern(2 ≤n≤ 250).OutputOutput the prime factorization ofn, as described above.ExamplesInput245Output5 7 7Input13Output13",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,12 @@
+{
+    "uid": "908-G",
+    "url": "https://codeforces.com/contest/908/problem/G",
+    "tags": [
+        "dp",
+        " math"
+    ],
+    "title": "908-G",
+    "statement": "G. New Year and Original Ordertime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputLetS(n)denote the number that represents the digits ofnin sorted order. For example,S(1) = 1,S(5) = 5,S(50394) = 3459,S(353535) = 333555.Given a numberX, computemodulo109+ 7.InputThe first line of input will contain the integerX(1 ≤X≤ 10700).OutputPrint a single integer, the answer to the question.ExamplesInput21Output195Input345342Output390548434NoteThe first few values ofSare1, 2, 3, 4, 5, 6, 7, 8, 9, 1, 11, 12, 13, 14, 15, 16, 17, 18, 19, 2, 12. The sum of these values is195.",
+    "source": "CF",
+    "vjudge": false
+}

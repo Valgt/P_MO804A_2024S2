@@ -1,0 +1,11 @@
+{
+    "uid": "1671-A",
+    "url": "https://codeforces.com/contest/1671/problem/A",
+    "tags": [
+        "implementation"
+    ],
+    "title": "1671-A",
+    "statement": "A. String Buildingtime limit per test2 secondsmemory limit per test512 megabytesinputstandard inputoutputstandard outputYou are given a string $$$s$$$. You have to determine whether it is possible to build the string $$$s$$$ out of stringsaa,aaa,bband/orbbbby concatenating them. You can use the stringsaa,aaa,bband/orbbbany number of times and in any order.For example:aaaabbbcan be built asaa$$$+$$$aa$$$+$$$bbb;bbaaaaabbbcan be built asbb$$$+$$$aaa$$$+$$$aa$$$+$$$bbb;aaaaaacan be built asaa$$$+$$$aa$$$+$$$aa;ababcannot be built fromaa,aaa,bband/orbbb.InputThe first line contains one integer $$$t$$$ ($$$1 \\\\le t \\\\le 1000$$$) — the number of test cases.Each test case consists of one line containing the string $$$s$$$ ($$$1 \\\\le |s| \\\\le 50$$$), consisting of charactersaand/orb.OutputFor each test case, printYESif it is possible to build the string $$$s$$$. Otherwise, printNO.You may print each letter in any case (for example,YES,yes,Yeswill all be recognized as positive answer,NO,noandnOwill all be recognized as negative answer).ExampleInput8aaaabbbbbaaaaabbbaaaaaaabababaaaabbbaaaOutputYES YES YES NO NO NO NO YESNoteThe first four test cases of the example are described in the statement.",
+    "source": "CF",
+    "vjudge": false
+}

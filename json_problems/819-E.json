@@ -1,0 +1,12 @@
+{
+    "uid": "819-E",
+    "url": "https://codeforces.com/contest/819/problem/E",
+    "tags": [
+        "constructive algorithms",
+        " graphs"
+    ],
+    "title": "819-E",
+    "statement": "E. Mister B and Flight to the Moontime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputIn order to fly to the Moon Mister B just needs to solve the following problem.There is a complete indirected graph withnvertices. You need to cover it with several simple cycles of length3and4so that each edge is in exactly2cycles.We are sure that Mister B will solve the problem soon and will fly to the Moon. Will you?InputThe only line contains single integern(3 ≤n≤ 300).OutputIf there is no answer, print-1.Otherwise, in the first line printk(1 ≤k≤n2) — the number of cycles in your solution.In each of the nextklines print description of one cycle in the following format: first print integerm(3 ≤m≤ 4) — the length of the cycle, then printmintegersv1,v2, ...,vm(1 ≤vi≤n) — the vertices in the cycle in the traverse order. Each edge should be in exactly two cycles.ExamplesInput3Output23 1 2 33 1 2 3Input5Output63 5 4 23 3 1 54 4 5 2 34 4 3 2 13 4 2 13 3 1 5",
+    "source": "CF",
+    "vjudge": false
+}

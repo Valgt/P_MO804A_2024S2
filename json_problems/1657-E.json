@@ -1,0 +1,14 @@
+{
+    "uid": "1657-E",
+    "url": "https://codeforces.com/contest/1657/problem/E",
+    "tags": [
+        "combinatorics",
+        " dp",
+        " graph matchings",
+        " math"
+    ],
+    "title": "1657-E",
+    "statement": "E. Star MSTtime limit per test6 secondsmemory limit per test512 megabytesinputstandard inputoutputstandard outputIn this problem, we will considercompleteundirected graphs consisting of $$$n$$$ vertices with weighted edges. The weight of each edge is an integer from $$$1$$$ to $$$k$$$.An undirected graph is consideredbeautifulif the sum of weights of all edges incident to vertex $$$1$$$ is equal to the weight of MST in the graph. MST is the minimum spanning tree — a tree consisting of $$$n-1$$$ edges of the graph, which connects all $$$n$$$ vertices and has the minimum sum of weights among all such trees; the weight of MST is the sum of weights of all edges in it.Calculate the number ofcompletebeautifulgraphs having exactly $$$n$$$ vertices and the weights of edges from $$$1$$$ to $$$k$$$. Since the answer might be large, print it modulo $$$998244353$$$.InputThe only line contains two integers $$$n$$$ and $$$k$$$ ($$$2 \\\\le n \\\\le 250$$$; $$$1 \\\\le k \\\\le 250$$$).OutputPrint one integer — the number ofcompletebeautifulgraphs having exactly $$$n$$$ vertices and the weights of edges from $$$1$$$ to $$$k$$$. Since the answer might be large, print it modulo $$$998244353$$$.ExamplesInput3 2Output5Input4 4Output571Input6 9Output310640163Input42 13Output136246935",
+    "source": "CF",
+    "vjudge": false
+}

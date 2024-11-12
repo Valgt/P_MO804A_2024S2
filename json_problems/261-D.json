@@ -1,0 +1,11 @@
+{
+    "uid": "261-D",
+    "url": "https://codeforces.com/contest/261/problem/D",
+    "tags": [
+        "dp"
+    ],
+    "title": "261-D",
+    "statement": "D. Maxim and Increasing Subsequencetime limit per test6 secondsmemory limit per test256 megabytesinputstdinoutputstdoutMaxim loves sequences, especially those that strictly increase. He is wondering, what is the length of the longest increasing subsequence of the given sequencea?Sequenceais given as follows:the length of the sequence equalsn×t;(1 ≤i≤n×t), where operationmeans taking the remainder after dividing numberxby numbery.Sequences1,s2,  ...,srof lengthris asubsequenceof sequencea1,a2,  ...,an, if there is such increasing sequence of indexesi1,i2, ...,ir(1  ≤i1<i2< ...   <ir≤n), thataij=sj. In other words, the subsequence can be obtained from the sequence by crossing out some elements.Sequences1,s2,  ...,srisincreasing, if the following inequality holds:s1<s2<  ... <sr.Maxim havekvariants of the sequencea. Help Maxim to determine for each sequence the length of the longest increasing subsequence.InputThe first line contains four integersk,n,maxbandt(1 ≤k≤ 10; 1 ≤n,maxb≤ 105; 1 ≤t≤ 109;n×maxb≤ 2·107). Each of the nextklines containnintegersb1,b2, ...,bn(1 ≤bi≤maxb).Note that for each variant of the sequenceathe valuesn,maxbandtcoincide, the only arraysbs differ.The numbers in the lines are separated by single spaces.OutputPrintkintegers — the answers for the variants of the sequencea. Print the answers in the order the variants follow in the input.ExamplesInput3 3 5 23 2 11 2 32 3 1Output233",
+    "source": "CF",
+    "vjudge": false
+}

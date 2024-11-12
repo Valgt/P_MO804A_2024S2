@@ -1,0 +1,15 @@
+{
+    "uid": "632-F",
+    "url": "https://codeforces.com/contest/632/problem/F",
+    "tags": [
+        "brute force",
+        " divide and conquer",
+        " graphs",
+        " matrices",
+        " trees"
+    ],
+    "title": "632-F",
+    "statement": "F. Magic Matrixtime limit per test5 secondsmemory limit per test512 megabytesinputstandard inputoutputstandard outputYou're given a matrixAof sizen×n.Let's call the matrix with nonnegative elements magic if it is symmetric (soaij=aji),aii= 0andaij≤max(aik,ajk)for all triplesi,j,k. Note thati,j,kdo not need to be distinct.Determine if the matrix is magic.As the input/output can reach very huge size it is recommended to use fast input/output methods: for example, prefer to usescanf/printfinstead ofcin/coutin C++, prefer to useBufferedReader/PrintWriterinstead ofScanner/System.outinJava.InputThe first line contains integern(1 ≤n≤ 2500) — the size of the matrixA.Each of the nextnlines containsnintegersaij(0 ≤aij< 109) — the elements of the matrixA.Note that the given matrix not necessarily is symmetric and can be arbitrary.OutputPrint ''MAGIC\" (without quotes) if the given matrixAis magic. Otherwise print ''NOT MAGIC\".ExamplesInput30 1 21 0 22 2 0OutputMAGICInput20 12 3OutputNOT MAGICInput40 1 2 31 0 3 42 3 0 53 4 5 0OutputNOT MAGIC",
+    "source": "CF",
+    "vjudge": false
+}

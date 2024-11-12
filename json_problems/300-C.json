@@ -1,0 +1,12 @@
+{
+    "uid": "300-C",
+    "url": "https://codeforces.com/contest/300/problem/C",
+    "tags": [
+        "brute force",
+        " combinatorics"
+    ],
+    "title": "300-C",
+    "statement": "C. Beautiful Numberstime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutVitaly is a very weird man. He's got two favorite digitsaandb. Vitaly calls a positive integergood, if the decimal representation of this integer only contains digitsaandb. Vitaly calls a good numberexcellent, if the sum of its digits is a good number.For example, let's say that Vitaly's favourite digits are1and3, then number12isn't good and numbers13or311are. Also, number111is excellent and number11isn't.Now Vitaly is wondering, how many excellent numbers of length exactlynare there. As this number can be rather large, he asks you to count the remainder after dividing it by1000000007(109+ 7).A number's length is the number of digits in its decimal representation without leading zeroes.InputThe first line contains three integers:a,b,n(1 ≤a<b≤ 9, 1 ≤n≤ 106).OutputPrint a single integer — the answer to the problem modulo1000000007(109+ 7).ExamplesInput1 3 3Output1Input2 3 10Output165",
+    "source": "CF",
+    "vjudge": false
+}

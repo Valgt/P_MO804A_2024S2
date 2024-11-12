@@ -1,0 +1,15 @@
+{
+    "uid": "1895-C",
+    "url": "https://codeforces.com/contest/1895/problem/C",
+    "tags": [
+        "brute force",
+        " dp",
+        " hashing",
+        " implementation",
+        " math"
+    ],
+    "title": "1895-C",
+    "statement": "C. Torn Lucky Tickettime limit per test2 secondsmemory limit per test512 megabytesinputstandard inputoutputstandard outputA ticket is a non-empty string of digits from $$$1$$$ to $$$9$$$.Aluckyticket is such a ticket that:it has an even length;the sum of digits in the first half is equal to the sum of digits in the second half.You are given $$$n$$$ ticket pieces $$$s_1, s_2, \\\\dots, s_n$$$. How many pairs $$$(i, j)$$$ (for $$$1 \\\\le i, j \\\\le n$$$) are there such that $$$s_i + s_j$$$ is aluckyticket? Note that it's possible that $$$i=j$$$.Here, the+operator denotes the concatenation of the two strings. For example, if $$$s_i$$$ is13, and $$$s_j$$$ is37, then $$$s_i + s_j$$$ is1337.InputThe first line contains a single integer $$$n$$$ ($$$1 \\\\le n \\\\le 2 \\\\cdot 10^5$$$) — the number of ticket pieces.The second line contains $$$n$$$ non-empty strings $$$s_1, s_2, \\\\dots, s_n$$$, each of length at most $$$5$$$ and consisting only of digits from $$$1$$$ to $$$9$$$.OutputPrint a single integer — the number of pairs $$$(i, j)$$$ (for $$$1 \\\\le i, j \\\\le n$$$) such that $$$s_i + s_j$$$ is aluckyticket.ExamplesInput105 93746 59 3746 593 746 5937 46 59374 6Output20Input52 22 222 2222 22222Output13Input31 1 1Output9",
+    "source": "CF",
+    "vjudge": false
+}

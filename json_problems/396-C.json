@@ -1,0 +1,13 @@
+{
+    "uid": "396-C",
+    "url": "https://codeforces.com/contest/396/problem/C",
+    "tags": [
+        "data structures",
+        " graphs",
+        " trees"
+    ],
+    "title": "396-C",
+    "statement": "C. On Changing Treetime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutYou are given a rooted tree consisting ofnvertices numbered from1ton. The root of the tree is a vertex number1.Initially all vertices contain number0. Then comeqqueries, each query has one of the two types:The format of the query:1vxk. In response to the query, you need to add to the number at vertexvnumberx; to the numbers at thedescendantsof vertexvat distance1, addx-k; and so on, to the numbers written in the descendants of vertexvat distancei, you need to addx- (i·k). The distance between two vertices is the number of edges in the shortest path between these vertices.The format of the query:2v. In reply to the query you should print the number written in vertexvmodulo1000000007(109+ 7).Process the queries given in the input.InputThe first line contains integern(1 ≤n≤ 3·105) — the number of vertices in the tree. The second line containsn- 1integersp2,p3, ...pn(1 ≤pi<i), wherepiis the number of the vertex that is the parent of vertexiin the tree.The third line contains integerq(1 ≤q≤ 3·105) — the number of queries. Nextqlines contain the queries, one per line. The first number in the line istype. It represents the type of the query. Iftype= 1, then next follow space-separated integersv,x,k(1 ≤v≤n;0 ≤x< 109+ 7;0 ≤k< 109+ 7). Iftype= 2, then next follows integerv(1 ≤v≤n) — the vertex where you need to find the value of the number.OutputFor each query of the second type print on a single line the number written in the vertex from the query. Print the number modulo1000000007(109+ 7).ExamplesInput31 131 1 2 12 12 2Output21NoteYou can read about a rooted tree here:http://en.wikipedia.org/wiki/Tree_(graph_theory).",
+    "source": "CF",
+    "vjudge": false
+}

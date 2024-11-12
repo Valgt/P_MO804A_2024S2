@@ -1,0 +1,12 @@
+{
+    "uid": "355-A",
+    "url": "https://codeforces.com/contest/355/problem/A",
+    "tags": [
+        "constructive algorithms",
+        " implementation"
+    ],
+    "title": "355-A",
+    "statement": "A. Vasya and Digital Roottime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutVasya has recently found out what a digital root of a number is and he decided to share his knowledge with you.Let's assume thatS(n)is the sum of digits of numbern, for example,S(4098) = 4 + 0 + 9 + 8 = 21. Then the digital root of numbernequals to:dr(n) =S(n), ifS(n) < 10;dr(n) =dr(S(n) ), ifS(n) ≥ 10.For example,dr(4098)  =dr(21)  =  3.Vasya is afraid of large numbers, so the numbers he works with are at most101000. For all such numbers, he has proved thatdr(n)  =S(S(S(S(n) ) ) )(n≤ 101000).Now Vasya wants to quickly find numbers with the given digital root. The problem is, he hasn't learned how to do that and he asked you to help him. You task is, given numberskandd, find the number consisting of exactlykdigits (the leading zeroes are not allowed), with digital root equal tod, or else state that such number does not exist.InputThe first line contains two integerskandd(1 ≤k≤ 1000; 0 ≤d≤ 9).OutputIn a single line print either any number that meets the requirements (without the leading zeroes) or \"No solution\" (without the quotes), if the corresponding number does not exist.The chosen number must consist of exactlykdigits. We assume that number 0 doesn't contain any leading zeroes.ExamplesInput4 4Output5881Input5 1Output36172Input1 0Output0NoteFor the first test sampledr(5881)  =dr(22)  =  4.For the second test sampledr(36172)  =dr(19)  =dr(10)  =  1.",
+    "source": "CF",
+    "vjudge": false
+}

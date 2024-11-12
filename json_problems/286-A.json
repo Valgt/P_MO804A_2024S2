@@ -1,0 +1,12 @@
+{
+    "uid": "286-A",
+    "url": "https://codeforces.com/contest/286/problem/A",
+    "tags": [
+        "constructive algorithms",
+        " math"
+    ],
+    "title": "286-A",
+    "statement": "A. Lucky Permutationtime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutA permutationpof sizenis the sequencep1,p2, ...,pn, consisting ofndistinct integers, each of them is from1ton(1 ≤pi≤n).A lucky permutation is such permutationp, that any integeri(1 ≤i≤n)meets this conditionppi=n-i+ 1.You have integern. Find some lucky permutationpof sizen.InputThe first line contains integern(1 ≤n≤ 105) — the required permutation size.OutputPrint \"-1\" (without the quotes) if the lucky permutationpof sizendoesn't exist.Otherwise, printndistinct integersp1,p2, ...,pn(1 ≤pi≤n)after a space — the required permutation.If there are multiple answers, you can print any of them.ExamplesInput1Output1Input2Output-1Input4Output2 4 1 3Input5Output2 5 3 1 4",
+    "source": "CF",
+    "vjudge": false
+}

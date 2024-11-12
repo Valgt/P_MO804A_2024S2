@@ -1,0 +1,12 @@
+{
+    "uid": "78-B",
+    "url": "https://codeforces.com/contest/78/problem/B",
+    "tags": [
+        "constructive algorithms",
+        " implementation"
+    ],
+    "title": "78-B",
+    "statement": "B. Easter Eggstime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutThe Easter Rabbit laidneggs in a circle and is about to paint them.Each egg should be painted one color out of 7: red, orange, yellow, green, blue, indigo or violet. Also, the following conditions should be satisfied:Each of the seven colors should be used to paint at least one egg.Any four eggslying sequentiallyshould be painted different colors.Help the Easter Rabbit paint the eggs in the required manner. We know that it is always possible.InputThe only line contains an integern— the amount of eggs (7 ≤n≤ 100).OutputPrint one line consisting ofncharacters. Thei-th character should describe the color of thei-th egg in the order they lie in the circle. The colors should be represented as follows: \"R\" stands for red, \"O\" stands for orange, \"Y\" stands for yellow, \"G\" stands for green, \"B\" stands for blue, \"I\" stands for indigo, \"V\" stands for violet.If there are several answers, print any of them.ExamplesInput8OutputROYGRBIVInput13OutputROYGBIVGBIVYGNoteThe way the eggs will be painted in the first sample is shown on the picture:",
+    "source": "CF",
+    "vjudge": false
+}

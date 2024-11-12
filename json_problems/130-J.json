@@ -1,0 +1,11 @@
+{
+    "uid": "130-J",
+    "url": "https://codeforces.com/contest/130/problem/J",
+    "tags": [
+        "*special"
+    ],
+    "title": "130-J",
+    "statement": "J. Date calculationtime limit per test2 secondsmemory limit per test64 megabytesinputstdinoutputstdoutIn Gregorian calendar a typical year consists of365days and12months. The numbers of days in the months are:31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31. If year index is divisible by400, or divisible by4but not by100, the year becomes leap year, with one extra day in the second month (the one which typically has28days).You are given the index of the year and the index of the day in the year. Find out the date of this day (day and month it will fall upon).InputThe first line of input contains the year index, between1600and2400, inclusive. The second line contains the day index, between1and366, inclusive. It is guaranteed that the day index will be valid for this year, i.e., day366will occur only in a leap year.OutputOutput the index of the day and the index of the month, separated with a space.ExamplesInput2011324Output20 11Input2012274Output30 9NoteAll indexes are1-based.",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,12 @@
+{
+    "uid": "130-I",
+    "url": "https://codeforces.com/contest/130/problem/I",
+    "tags": [
+        "*special",
+        " sortings"
+    ],
+    "title": "130-I",
+    "statement": "I. Array sortingtime limit per test2 secondsmemory limit per test64 megabytesinputstdinoutputstdoutSorting arrays is traditionally associated with high-level languages. How hard can it be in Befunge? Sort the given array in non-descending order.InputThe first line of input contains an integern(1 ≤n≤ 100) — the size of the array. The followingnlines contain the elements of the array, one per line. Each element of the array is an integer between1and60, inclusive. The array might contain duplicate elements.OutputOutput space-separated elements of the sorted array.ExamplesInput571973Output1 3 7 7 9Input10601601601601601Output1 1 1 1 1 60 60 60 60 60",
+    "source": "CF",
+    "vjudge": false
+}

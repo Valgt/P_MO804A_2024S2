@@ -1,0 +1,13 @@
+{
+    "uid": "364-A",
+    "url": "https://codeforces.com/contest/364/problem/A",
+    "tags": [
+        "combinatorics",
+        " data structures",
+        " implementation"
+    ],
+    "title": "364-A",
+    "statement": "A. Matrixtime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutYou have a string of decimal digitss. Let's definebij=si·sj. Find in matrixbthe number of such rectangles that the sumbijfor all cells(i,j)that are the elements of the rectangle equalsain each rectangle.A rectangle in a matrix is a group of four integers(x,y,z,t)(x≤y,z≤t). The elements of the rectangle are all cells(i,j)such thatx≤i≤y,z≤j≤t.InputThe first line contains integera(0 ≤a≤ 109), the second line contains a string of decimal integerss(1 ≤ |s| ≤ 4000).OutputPrint a single integer — the answer to a problem.Please, do not write the%lldspecifier to read or write 64-bit integers in С++. It is preferred to use thecin,coutstreams or the%I64dspecifier.ExamplesInput1012345Output6Input16439873893693495623498263984765Output40",
+    "source": "CF",
+    "vjudge": false
+}

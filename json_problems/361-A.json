@@ -1,0 +1,12 @@
+{
+    "uid": "361-A",
+    "url": "https://codeforces.com/contest/361/problem/A",
+    "tags": [
+        "constructive algorithms",
+        " implementation"
+    ],
+    "title": "361-A",
+    "statement": "A. Levko and Tabletime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutLevko loves tables that consist ofnrows andncolumns very much. He especially loves beautiful tables. A table isbeautifulto Levko if the sum of elements in each row and column of the table equalsk.Unfortunately, he doesn't know any such table. Your task is to help him to find at least one of them.InputThe single line contains two integers,nandk(1 ≤n≤ 100,1 ≤k≤ 1000).OutputPrint any beautiful table. Levko doesn't like too big numbers, so all elements of the table mustn't exceed1000in their absolute value.If there are multiple suitable tables, you are allowed to print any of them.ExamplesInput2 4Output1 33 1Input4 7Output2 1 0 44 0 2 11 3 3 00 3 2 2NoteIn the first sample the sum in the first row is1 + 3 = 4, in the second row —3 + 1 = 4, in the first column —1 + 3 = 4and in the second column —3 + 1 = 4. There are other beautiful tables for this sample.In the second sample the sum of elements in each row and each column equals7. Besides, there are other tables that meet the statement requirements.",
+    "source": "CF",
+    "vjudge": false
+}

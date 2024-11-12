@@ -1,0 +1,13 @@
+{
+    "uid": "342-E",
+    "url": "https://codeforces.com/contest/342/problem/E",
+    "tags": [
+        "data structures",
+        " divide and conquer",
+        " trees"
+    ],
+    "title": "342-E",
+    "statement": "E. Xenia and Treetime limit per test5 secondsmemory limit per test256 megabytesinputstdinoutputstdoutXenia the programmer has a tree consisting ofnnodes. We will consider the tree nodes indexed from 1 ton. We will also consider the first node to be initially painted red, and the other nodes — to be painted blue.Thedistancebetween two tree nodesvanduis the number of edges in the shortest path betweenvandu.Xenia needs to learn how to quickly execute queries of two types:paint a specified blue node in red;calculate which red node is the closest to the given one and print the shortest distance to the closest red node.Your task is to write a program which will execute the described queries.InputThe first line contains two integersnandm(2 ≤n≤ 105, 1 ≤m≤ 105)— the number of nodes in the tree and the number of queries. Nextn- 1lines contain the tree edges, thei-th line contains a pair of integersai,bi(1 ≤ai,bi≤n,ai≠bi)— an edge of the tree.Nextmlines contain queries. Each query is specified as a pair of integersti,vi(1 ≤ti≤ 2, 1 ≤vi≤n). Ifti= 1, then as a reply to the query we need to paint a blue nodeviin red. Ifti= 2, then we should reply to the query by printing the shortest distance from some red node to nodevi.It is guaranteed that the given graph is a tree and that all queries are correct.OutputFor each second type query print the reply in a single line.ExamplesInput5 41 22 32 44 52 12 51 22 5Output032",
+    "source": "CF",
+    "vjudge": false
+}

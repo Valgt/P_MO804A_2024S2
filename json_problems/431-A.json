@@ -1,0 +1,11 @@
+{
+    "uid": "431-A",
+    "url": "https://codeforces.com/contest/431/problem/A",
+    "tags": [
+        "implementation"
+    ],
+    "title": "431-A",
+    "statement": "A. Black Squaretime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutQuite recently, a very smart student named Jury decided that lectures are boring, so he downloaded a game called \"Black Square\" on his super cool touchscreen phone.In this game, the phone's screen is divided into four vertical strips. Each second, a black square appears on some of the strips. According to the rules of the game, Jury must use this second to touch the corresponding strip to make the square go away. As Jury is both smart and lazy, he counted that he wastes exactlyaicalories on touching thei-th strip.You've got a strings, describing the process of the game and numbersa1,a2,a3,a4. Calculate how many calories Jury needs to destroy all the squares?InputThe first line contains four space-separated integersa1,a2,a3,a4(0 ≤a1,a2,a3,a4≤ 104).The second line contains strings(1 ≤ |s| ≤ 105), where theі-th character of the string equals \"1\", if on thei-th second of the game the square appears on the first strip, \"2\", if it appears on the second strip, \"3\", if it appears on the third strip, \"4\", if it appears on the fourth strip.OutputPrint a single integer — the total number of calories that Jury wastes.ExamplesInput1 2 3 4123214Output13Input1 5 3 211221Output13",
+    "source": "CF",
+    "vjudge": false
+}

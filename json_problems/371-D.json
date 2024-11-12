@@ -1,0 +1,14 @@
+{
+    "uid": "371-D",
+    "url": "https://codeforces.com/contest/371/problem/D",
+    "tags": [
+        "data structures",
+        " dsu",
+        " implementation",
+        " trees"
+    ],
+    "title": "371-D",
+    "statement": "D. Vesselstime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutThere is a system ofnvessels arranged one above the other as shown in the figure below. Assume that the vessels are numbered from 1 ton, in the order from the highest to the lowest, the volume of thei-th vessel isailiters.Initially, all the vessels are empty. In some vessels water is poured. All the water that overflows from thei-th vessel goes to the(i+ 1)-th one. The liquid that overflows from then-th vessel spills on the floor.Your task is to simulate pouring water into the vessels. To do this, you will need to handle two types of queries:Addxiliters of water to thepi-th vessel;Print the number of liters of water in theki-th vessel.When you reply to the second request you can assume that all the water poured up to this point, has already overflown between the vessels.InputThe first line contains integern— the number of vessels (1 ≤n≤ 2·105). The second line containsnintegersa1,a2, ...,an— the vessels' capacities (1 ≤ai≤ 109). The vessels' capacities do not necessarily increase from the top vessels to the bottom ones (see the second sample). The third line contains integerm— the number of queries (1 ≤m≤ 2·105). Each of the nextmlines contains the description of one query. The query of the first type is represented as \"1pixi\", the query of the second type is represented as \"2ki\" (1 ≤pi≤n,1 ≤xi≤ 109,1 ≤ki≤n).OutputFor each query, print on a single line the number of liters of water in the corresponding vessel.ExamplesInput25 1061 1 42 11 2 51 1 42 12 2Output458Input35 10 861 1 122 21 1 61 3 22 22 3Output7105",
+    "source": "CF",
+    "vjudge": false
+}

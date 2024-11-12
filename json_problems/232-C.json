@@ -1,0 +1,15 @@
+{
+    "uid": "232-C",
+    "url": "https://codeforces.com/contest/232/problem/C",
+    "tags": [
+        "constructive algorithms",
+        " divide and conquer",
+        " dp",
+        " graphs",
+        " shortest paths"
+    ],
+    "title": "232-C",
+    "statement": "C. Doe Graphstime limit per test3 secondsmemory limit per test256 megabytesinputstdinoutputstdoutJohn Doe decided that some mathematical object must be named after him. So he invented the Doe graphs. The Doe graphs are a family of undirected graphs, each of them is characterized by a single non-negative number — its order.We'll denote a graph of orderkasD(k), and we'll denote the number of vertices in the graphD(k)as|D(k)|. Then let's define the Doe graphs as follows:D(0)consists of a single vertex, that has number1.D(1)consists of two vertices with numbers1and2, connected by an edge.D(n)forn≥ 2is obtained from graphsD(n- 1)andD(n- 2).D(n- 1)andD(n- 2)are joined in one graph, at that numbers of all vertices of graphD(n- 2)increase by|D(n- 1)|(for example, vertex number1of graphD(n- 2)becomes vertex number1 + |D(n- 1)|). After that two edges are added to the graph: the first one goes between vertices with numbers|D(n- 1)|and|D(n- 1)| + 1, the second one goes between vertices with numbers|D(n- 1)| + 1and1. Note that the definition of graphD(n)implies, thatD(n)is a connected graph, its vertices are numbered from1to|D(n)|.The picture shows the Doe graphs of order 1, 2, 3 and 4, from left to right.John thinks that Doe graphs are that great because for them exists a polynomial algorithm for the search of Hamiltonian path. However, your task is to answer queries of finding the shortest-length path between the verticesaiandbiin the graphD(n).A path between a pair of verticesuandvin the graph is a sequence of verticesx1,x2,...,xk(k> 1)such, thatx1=u,xk=v, and for anyi(i<k)verticesxiandxi+ 1are connected by a graph edge. The length of pathx1,x2,...,xkis number(k- 1).InputThe first line contains two integerstandn(1 ≤t≤ 105; 1 ≤n≤ 103) — the number of queries and the order of the given graph. Thei-th of the nexttlines contains two integersaiandbi(1 ≤ai,bi≤ 1016,ai≠bi) — numbers of two vertices in thei-th query. It is guaranteed thatai,bi≤ |D(n)|.Please, do not use the%lldspecifier to read or write 64-bit integers in С++. It is preferred to usecin,coutstreams or the%I64dspecifier.OutputFor each query print a single integer on a single line — the length of the shortest path between verticesaiandbi. Print the answers to the queries in the order, in which the queries are given in the input.ExamplesInput10 51 21 31 41 52 32 42 53 43 54 5Output1112123121",
+    "source": "CF",
+    "vjudge": false
+}

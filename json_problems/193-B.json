@@ -1,0 +1,11 @@
+{
+    "uid": "193-B",
+    "url": "https://codeforces.com/contest/193/problem/B",
+    "tags": [
+        "brute force"
+    ],
+    "title": "193-B",
+    "statement": "B. Xortime limit per test4 secondsmemory limit per test256 megabytesinputstdinoutputstdoutJohn Doe has four arrays:a,b,k, andp. Each array consists ofnintegers. Elements of all arrays are indexed starting from1. Arraypis a permutation of integers1ton.John invented a game for his friends and himself. Initially a player is given arraya. The player must consecutively execute exactlyuoperations ona. You are permitted to execute the following operations:Operation 1: For eachchangeaiinto. Expressionmeans applying the operation of a bitwise xor to numbersxandy. The given operation exists in all modern programming languages, for example, in languageC++andJavait is marked as \"^\", inPascal— as \"xor\".Operation 2: For eachchangeaiintoapi+r. When this operation is executed, all changes are made at the same time.After alluoperations are applied, the number of points the player gets is determined by the formula.John wants to find out what maximum number of points a player can win in his game. Help him.InputThe first line contains space-separated integersn,uandr(1 ≤n,u≤ 30,0 ≤r≤ 100) — the number of elements in each array, the number of operations and the number that describes one of the operations.Each of the next four lines containsnspace-separated integers — arraysa,b,k,p. The first line has arraya, the second line has arrayb, the third line has arraykand the fourth one has arrayp.It is guaranteed that elements of arraysaandbare positive and do not exceed104(1 ≤ai,bi≤ 104), elements of arraykdo not exceed104in the absolute value(|k| ≤ 104)andpis a permutation of numbers from1ton.OutputOn a single line print numbers— the maximum number of points that a player can win in John's game.Please, do not use the%lldspecifier to read or write 64-bit integers in С++. It is preferred to use thecin,coutstreams or the%I64dspecifier.ExamplesInput3 2 17 7 78 8 81 2 31 3 2Output96Input2 1 01 11 11 -11 2Output0NoteIn the first sample you should first apply the operation of the first type, then the operation of the second type.",
+    "source": "CF",
+    "vjudge": false
+}

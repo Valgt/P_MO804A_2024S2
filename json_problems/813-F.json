@@ -1,0 +1,13 @@
+{
+    "uid": "813-F",
+    "url": "https://codeforces.com/contest/813/problem/F",
+    "tags": [
+        "data structures",
+        " dsu",
+        " graphs"
+    ],
+    "title": "813-F",
+    "statement": "F. Bipartite Checkingtime limit per test6 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given an undirected graph consisting ofnvertices. Initially there are no edges in the graph. Also you are givenqqueries, each query either adds one undirected edge to the graph or removes it. After each query you have to check if the resulting graph is bipartite (that is, you can paint all vertices of the graph into two colors so that there is no edge connecting two vertices of the same color).InputThe first line contains two integersnandq(2 ≤n,q≤ 100000).Thenqlines follow.ith line contains two numbersxiandyi(1 ≤xi<yi≤n). These numbers describeith query: if there is an edge between verticesxiandyi, then remove it, otherwise add it.OutputPrintqlines.ith line must containYESif the graph is bipartite afterith query, andNOotherwise.ExampleInput3 52 31 31 21 21 2OutputYESYESNOYESNO",
+    "source": "CF",
+    "vjudge": false
+}

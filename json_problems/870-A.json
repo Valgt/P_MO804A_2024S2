@@ -1,0 +1,12 @@
+{
+    "uid": "870-A",
+    "url": "https://codeforces.com/contest/870/problem/A",
+    "tags": [
+        "brute force",
+        " implementation"
+    ],
+    "title": "870-A",
+    "statement": "A. Search for Pretty Integerstime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given two lists of non-zero digits.Let's call an integer pretty if its (base10) representation has at least one digit from the first list and at least one digit from the second list. What is the smallest positive pretty integer?InputThe first line contains two integersnandm(1 ≤n,m≤ 9) — the lengths of the first and the second lists, respectively.The second line containsndistinct digitsa1,a2, ...,an(1 ≤ai≤ 9) — the elements of the first list.The third line containsmdistinct digitsb1,b2, ...,bm(1 ≤bi≤ 9) — the elements of the second list.OutputPrint the smallest pretty integer.ExamplesInput2 34 25 7 6Output25Input8 81 2 3 4 5 6 7 88 7 6 5 4 3 2 1Output1NoteIn the first example25,46,24567are pretty, as well as many other integers. The smallest among them is25.42and24are not pretty because they don't have digits from the second list.In the second example all integers that have at least one digit different from9are pretty. It's obvious that the smallest among them is1, because it's the smallest positive integer.",
+    "source": "CF",
+    "vjudge": false
+}

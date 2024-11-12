@@ -1,0 +1,13 @@
+{
+    "uid": "1795-A",
+    "url": "https://codeforces.com/contest/1795/problem/A",
+    "tags": [
+        "brute force",
+        " implementation",
+        " strings"
+    ],
+    "title": "1795-A",
+    "statement": "A. Two Towerstime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputThere are two towers consisting of blocks of two colors: red and blue. Both towers are represented by strings of charactersBand/orRdenoting the order of blocks in themfrom the bottom to the top, whereBcorresponds to a blue block, andRcorresponds to a red block.These two towers are represented by stringsBRBBandRBR.You can perform the following operation any number of times: choose a tower withat least two blocks, and move itstopblock to thetopof the other tower.The pair of towers isbeautifulif no pair of touching blocks has the same color; i. e. no red block stands on top of another red block, and no blue block stands on top of another blue block.You have to check if it is possible to perform any number of operations (possibly zero) to make the pair of towers beautiful.InputThe first line contains one integer $$$t$$$ ($$$1 \\\\le t \\\\le 1000$$$) — the number of test cases.Each test case consists of three lines:the first line contains two integers $$$n$$$ and $$$m$$$ ($$$1 \\\\le n, m \\\\le 20$$$) — the number of blocks in the first tower and the number of blocks in the second tower, respectively;the second line contains $$$s$$$ — a string of exactly $$$n$$$ charactersBand/orR, denoting the first tower;the third line contains $$$t$$$ — a string of exactly $$$m$$$ charactersBand/orR, denoting the second tower.OutputFor each test case, printYESif it is possible to perform several (possibly zero) operations in such a way that the pair of towers becomes beautiful; otherwise printNO.You may print each letter in any case (YES,yes,Yeswill all be recognized as positive answer,NO,noandnOwill all be recognized as negative answer).ExampleInput44 3BRBBRBR4 7BRBRRRBRBRB3 4RBRBRBR5 4BRBRRBRBROutputYES YES YES NONoteIn the first test case, you can move the top block from the first tower to the second tower (see the third picture).In the second test case, you can move the top block from the second tower to the first tower $$$6$$$ times.In the third test case, the pair of towers is already beautiful.",
+    "source": "CF",
+    "vjudge": false
+}

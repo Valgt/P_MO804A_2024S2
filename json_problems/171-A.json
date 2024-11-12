@@ -1,0 +1,12 @@
+{
+    "uid": "171-A",
+    "url": "https://codeforces.com/contest/171/problem/A",
+    "tags": [
+        "*special",
+        " constructive algorithms"
+    ],
+    "title": "171-A",
+    "statement": "A. Mysterious numbers - 1time limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutInputThe input contains two integersa1,a2(0 ≤ai≤ 109), separated by a single space.OutputOutput a single integer.ExamplesInput3 14Output44Input27 12Output48Input100 200Output102",
+    "source": "CF",
+    "vjudge": false
+}

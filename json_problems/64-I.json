@@ -1,0 +1,12 @@
+{
+    "uid": "64-I",
+    "url": "https://codeforces.com/contest/64/problem/I",
+    "tags": [
+        "*special",
+        " sortings"
+    ],
+    "title": "64-I",
+    "statement": "I. Sort the Tabletime limit per test2 secondsmemory limit per test64 megabytesinputstdinoutputstdoutYou are given a rectangular table containing words. Each of its columns has its own name. You are also given the list of rules of sorting in form \"FIELD_NAME SORT_ORDER\", whereSORT_ORDERis eitherASC(nondescending order) orDESC(nonascending order). Rules in the list are separated by a single comma with a single space. You have to sort rows of the table primarily by the first rule, then, in case of a tie sort by the second rule. And so on. If two rows are equal in terms of every rule, then preserve their relative order. You can assume that each element of the table has type \"string\", so you have to use lexicographic comparison.InputThe first line contains column names. The second line contains the list of rules. The rest of the input data contains the table. All the words and column names are separated by single spaces. The number of rows and columns is between 1 and 100, inclusive. Names of columns and elements are strings containing only uppercase and lowercase Latin letters and digits, having the length between 1 and 10, inclusive.OutputPrint the table after the sorting.ExamplesInputNAME GROUP AGEGROUP ASC, AGE DESCAlex 412 19Peter 422 19Sergey 412 18Andrey 311 18OutputAndrey 311 18Alex 412 19Sergey 412 18Peter 422 19",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,13 @@
+{
+    "uid": "166-E",
+    "url": "https://codeforces.com/contest/166/problem/E",
+    "tags": [
+        "dp",
+        " math",
+        " matrices"
+    ],
+    "title": "166-E",
+    "statement": "E. Tetrahedrontime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutYou are given a tetrahedron. Let's mark its vertices with lettersA,B,CandDcorrespondingly.An ant is standing in the vertexDof the tetrahedron. The ant is quite active and he wouldn't stay idle. At each moment of time he makes a step from one vertex to another one along some edge of the tetrahedron. The ant just can't stand on one place.You do not have to do much to solve the problem: your task is to count the number of ways in which the ant can go from the initial vertexDto itself in exactlynsteps. In other words, you are asked to find out the number of different cyclic paths with the length ofnfrom vertexDto itself. As the number can be quite large, you should print it modulo1000000007(109+ 7).InputThe first line contains the only integern(1 ≤n≤ 107) — the required length of the cyclic path.OutputPrint the only integer — the required number of ways modulo1000000007(109+ 7).ExamplesInput2Output3Input4Output21NoteThe required paths in the first sample are:D-A-DD-B-DD-C-D",
+    "source": "CF",
+    "vjudge": false
+}

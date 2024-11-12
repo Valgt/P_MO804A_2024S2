@@ -1,0 +1,12 @@
+{
+    "uid": "776-E",
+    "url": "https://codeforces.com/contest/776/problem/E",
+    "tags": [
+        "math",
+        " number theory"
+    ],
+    "title": "776-E",
+    "statement": "E. The Holmes Childrentime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputThe Holmes children are fighting over who amongst them is the cleverest.Mycroft asked Sherlock and Eurus to find value off(n), wheref(1) = 1and forn≥ 2,f(n)is the number of distinct ordered positive integer pairs(x,y)that satisfyx+y=nandgcd(x,y) = 1. The integergcd(a,b)is the greatest common divisor ofaandb.Sherlock said that solving this was child's play and asked Mycroft to instead get the value of. Summation is done over all positive integersdthat dividen.Eurus was quietly observing all this and finally came up with her problem to astonish both Sherlock and Mycroft.She defined ak-composite functionFk(n)recursively as follows:She wants them to tell the value ofFk(n)modulo1000000007.InputA single line of input contains two space separated integersn(1 ≤n≤ 1012) andk(1 ≤k≤ 1012) indicating that Eurus asks Sherlock and Mycroft to find the value ofFk(n)modulo1000000007.OutputOutput a single integer — the value ofFk(n)modulo1000000007.ExamplesInput7 1Output6Input10 2Output4NoteIn the first case, there are6distinct ordered pairs(1, 6),(2, 5),(3, 4),(4, 3),(5, 2)and(6, 1)satisfyingx+y= 7andgcd(x,y) = 1. Hence,f(7) = 6. So,F1(7) =f(g(7)) =f(f(7) +f(1)) =f(6 + 1) =f(7) = 6.",
+    "source": "CF",
+    "vjudge": false
+}

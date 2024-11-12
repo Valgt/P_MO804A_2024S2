@@ -1,0 +1,12 @@
+{
+    "uid": "171-C",
+    "url": "https://codeforces.com/contest/171/problem/C",
+    "tags": [
+        "*special",
+        " implementation"
+    ],
+    "title": "171-C",
+    "statement": "C. A Piece of Caketime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutHow to make a cake you'll never eat.Ingredients.2 carrots0 calories100 g chocolate spread1 pack of flour1 eggMethod.Put calories into the mixing bowl.Take carrots from refrigerator.Chop carrots.Take chocolate spread from refrigerator.Put chocolate spread into the mixing bowl.Combine pack of flour into the mixing bowl.Fold chocolate spread into the mixing bowl.Add chocolate spread into the mixing bowl.Put pack of flour into the mixing bowl.Add egg into the mixing bowl.Fold pack of flour into the mixing bowl.Chop carrots until choped.Pour contents of the mixing bowl into the baking dish.Serves 1.InputThe only line of input contains a sequence of integersa0,a1, ...(1 ≤a0≤ 100,0 ≤ai≤ 1000fori≥ 1).OutputOutput a single integer.ExamplesInput4 1 2 3 4Output30",
+    "source": "CF",
+    "vjudge": false
+}

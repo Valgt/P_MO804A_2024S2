@@ -1,0 +1,12 @@
+{
+    "uid": "736-D",
+    "url": "https://codeforces.com/contest/736/problem/D",
+    "tags": [
+        "math",
+        " matrices"
+    ],
+    "title": "736-D",
+    "statement": "D. Permutationstime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputOstap Bender is worried that people started to forget that he is the Great Combinator. Now he wants to show them his skills in combinatorics. Now he studies the permutations of lengthn. He has a list ofmvalid pairs, pairaiandbimeans that he is allowed to place integersbiat positionai.He knows that the number of permutations that use only valid pairs isodd. Now, for each pair he wants to find out, will the number of valid permutations beoddif heremovesthis pair (and only it) from the list.InputThe first line contains two integersnandm(1 ≤n≤ 2000,n≤m≤min(n2, 500 000)) — the number of elements in the permutation. Then followmlines, each containing some valid pair(ai,bi)(1 ≤ai,bi≤n). It's guaranteed that no pair occurs in the input twice and that the total number of valid permutations (i.e. using only allowed pairs position-elements) is odd.OutputPrintmlines, one line for each valid pair. Thei-th line should contain \"YES\" if after Ostap removes thei-th pair (and only it) the remaining number of valid permutations is odd. Otherwise, print «NO».ExamplesInput2 31 11 22 2OutputNOYESNOInput3 31 12 23 3OutputNONONOInput3 73 33 11 31 12 21 22 1OutputYESNONONOYESNONO",
+    "source": "CF",
+    "vjudge": false
+}

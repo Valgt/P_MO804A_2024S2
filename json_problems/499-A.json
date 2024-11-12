@@ -1,0 +1,12 @@
+{
+    "uid": "499-A",
+    "url": "https://codeforces.com/contest/499/problem/A",
+    "tags": [
+        "greedy",
+        " implementation"
+    ],
+    "title": "499-A",
+    "statement": "A. Watching a movietime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutYou have decided to watch the best moments of some movie. There are two buttons on your player:Watch the current minute of the movie. By pressing this button, you watch the current minute of the movie and the player automatically proceeds to the next minute of the movie.Skip exactlyxminutes of the movie (xis some fixed positive integer). If the player is now at thet-th minute of the movie, then as a result of pressing this button, it proceeds to the minute(t+x).Initially the movie is turned on in the player on the first minute, and you want to watch exactlynbest moments of the movie, thei-th best moment starts at theli-th minute and ends at theri-th minute (more formally, thei-th best moment consists of minutes:li,li+ 1, ...,ri).Determine, what is the minimum number of minutes of the movie you have to watch if you want to watch all the best moments?InputThe first line contains two space-separated integersn,x(1 ≤n≤ 50,1 ≤x≤ 105) — the number of the best moments of the movie and the value ofxfor the second button.The followingnlines contain the descriptions of the best moments of the movie, thei-th line of the description contains two integers separated by a spaceli,ri(1 ≤li≤ri≤ 105).It is guaranteed that for all integersifrom2tonthe following condition holds:ri- 1<li.OutputOutput a single number — the answer to the problem.ExamplesInput2 35 610 12Output6Input1 11 100000Output100000NoteIn the first sample, the player was initially standing on the first minute. As the minutes from the1-st to the4-th one don't contain interesting moments, we press the second button. Now we can not press the second button and skip3more minutes, because some of them contain interesting moments. Therefore, we watch the movie from the4-th to the6-th minute, after that the current time is7. Similarly, we again skip3minutes and then watch from the10-th to the12-th minute of the movie. In total, we watch6minutes of the movie.In the second sample, the movie is very interesting, so you'll have to watch all100000minutes of the movie.",
+    "source": "CF",
+    "vjudge": false
+}

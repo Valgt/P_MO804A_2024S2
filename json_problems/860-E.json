@@ -1,0 +1,13 @@
+{
+    "uid": "860-E",
+    "url": "https://codeforces.com/contest/860/problem/E",
+    "tags": [
+        "data structures",
+        " dfs and similar",
+        " trees"
+    ],
+    "title": "860-E",
+    "statement": "E. Arkady and a Nobody-mentime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputArkady words in a large company. There arenemployees working in a system of a strict hierarchy. Namely, each employee, with an exception of the CEO, has exactly one immediate manager. The CEO is a manager (through a chain of immediate managers) of all employees.Each employee has an integer rank. The CEO has rank equal to1, each other employee has rank equal to the rank of his immediate manager plus1.Arkady has a good post in the company, however, he feels that he is nobody in the company's structure, and there are a lot of people who can replace him. He introduced the value ofreplaceability. Consider an employeeaand an employeeb, the latter being manager ofa(not necessarily immediate). Then the replaceabilityr(a,b)ofawith respect tobis the number of subordinates (not necessarily immediate) of the managerb, whose rank is not greater than the rank ofa. Apart from replaceability, Arkady introduced the value ofnegligibility. The negligibilityzaof employeeaequals the sum of his replaceabilities with respect to all his managers, i.e., where the sum is taken over all his managersb.Arkady is interested not only in negligibility of himself, but also in negligibility of all employees in the company. Find the negligibility of each employee for Arkady.InputThe first line contains single integern(1 ≤n≤ 5·105) — the number of employees in the company.The second line containsnintegersp1,p2, ...,pn(0 ≤pi≤n), wherepi= 0if thei-th employee is the CEO, otherwisepiequals the id of the immediate manager of the employee with idi. The employees are numbered from1ton. It is guaranteed that there is exactly one0among these values, and also that the CEO is a manager (not necessarily immediate) for all the other employees.OutputPrintnintegers — the negligibilities of all employees in the order of their ids:z1,z2, ...,zn.ExamplesInput40 1 2 1Output0 2 4 2Input52 3 4 5 0Output10 6 3 1 0Input50 1 1 1 3Output0 3 3 3 5NoteConsider the first example:The CEO has no managers, thusz1= 0.r(2, 1) = 2(employees2and4suit the conditions, employee3has too large rank). Thusz2=r(2, 1) = 2.Similarly,z4=r(4, 1) = 2.r(3, 2) = 1(employee3is a subordinate of2and has suitable rank).r(3, 1) = 3(employees2,3,4suit the conditions). Thusz3=r(3, 2) +r(3, 1) = 4.",
+    "source": "CF",
+    "vjudge": false
+}

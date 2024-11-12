@@ -1,0 +1,13 @@
+{
+    "uid": "641-C",
+    "url": "https://codeforces.com/contest/641/problem/C",
+    "tags": [
+        "brute force",
+        " constructive algorithms",
+        " implementation"
+    ],
+    "title": "641-C",
+    "statement": "C. Little Artem and Dancetime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputLittle Artem is fond of dancing. Most of all dances Artem likes rueda — Cuban dance that is danced by pairs of boys and girls forming a circle and dancing together.More detailed, there arenpairs of boys and girls standing in a circle. Initially, boy number1dances with a girl number1, boy number2dances with a girl number2and so on. Girls are numbered in the clockwise order. During the dance different moves are announced and all pairs perform this moves. While performing moves boys move along the circle, while girls always stay at their initial position. For the purpose of this problem we consider two different types of moves:Valuexand some direction are announced, and all boys movexpositions in the corresponding direction.Boys dancing with even-indexed girls swap positions with boys who are dancing with odd-indexed girls. That is the one who was dancing with the girl1swaps with the one who was dancing with the girl number2, while the one who was dancing with girl number3swaps with the one who was dancing with the girl number4and so one. It's guaranteed thatnis even.Your task is to determine the final position of each boy.InputThe first line of the input contains two integersnandq(2 ≤n≤ 1 000 000,1 ≤q≤ 2 000 000) — the number of couples in the rueda and the number of commands to perform, respectively. It's guaranteed thatnis even.Nextqlines contain the descriptions of the commands. Each command has type as the integer1or2first. Command of the first type is given asx(-n≤x≤n), where0 ≤x≤nmeans all boys movesxgirls in clockwise direction, while-xmeans all boys movexpositions in counter-clockwise direction. There is no other input for commands of the second type.OutputOutputnintegers, thei-th of them should be equal to the index of boy thei-th girl is dancing with after performing allqmoves.ExamplesInput6 31 221 2Output4 3 6 5 2 1Input2 31 121 -2Output1 2Input4 221 3Output1 4 3 2",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,13 @@
+{
+    "uid": "300-B",
+    "url": "https://codeforces.com/contest/300/problem/B",
+    "tags": [
+        "brute force",
+        " dfs and similar",
+        " graphs"
+    ],
+    "title": "300-B",
+    "statement": "B. Coachtime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutA programming coach hasnstudents to teach. We know thatnis divisible by3. Let's assume that all students are numbered from1ton, inclusive.Before the university programming championship the coach wants to split all students into groups of three. For some pairs of students we know that they want to be on the same team. Besides, if thei-th student wants to be on the same team with thej-th one, then thej-th student wants to be on the same team with thei-th one. The coach wants the teams to show good results, so he wants the following condition to hold: if thei-th student wants to be on the same team with thej-th, then thei-th and thej-th students must be on the same team. Also, it is obvious that each student must be on exactly one team.Help the coach and divide the teams the way he wants.InputThe first line of the input contains integersnandm(3 ≤n≤ 48,. Then followmlines, each contains a pair of integersai,bi(1 ≤ai<bi≤n)— the pairai,bimeans that students with numbersaiandbiwant to be on the same team.It is guaranteed thatnis divisible by3. It is guaranteed that each pairai,bioccurs in the input at most once.OutputIf the required division into teams doesn't exist, print number-1. Otherwise, printlines. In each line print three integersxi,yi,zi(1 ≤xi,yi,zi≤n) — thei-th team.If there are multiple answers, you are allowed to print any of them.ExamplesInput3 0Output3 2 1Input6 41 22 33 45 6Output-1Input3 31 22 31 3Output3 2 1",
+    "source": "CF",
+    "vjudge": false
+}

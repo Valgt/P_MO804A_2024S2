@@ -1,0 +1,14 @@
+{
+    "uid": "319-D",
+    "url": "https://codeforces.com/contest/319/problem/D",
+    "tags": [
+        "greedy",
+        " hashing",
+        " string suffix structures",
+        " strings"
+    ],
+    "title": "319-D",
+    "statement": "D. Have You Ever Heard About the Word?time limit per test6 secondsmemory limit per test256 megabytesinputstdinoutputstdoutAsubstringof a string is a contiguous subsequence of that string. So, stringbcais substring of stringabcabc, but stringccis not.Arepeating blockis a string formed by concatenating some string with itself. So, stringabcabcis a repeating block, but stringsabcabd,abababare not.You've got a sequence of Latin characters (string). At each step you find the shortest substring that is a repeating block, if there exists more than one you must choose the leftmost. As the substring is of formXX(X— some string) you replace this substring withX, in other words you delete one of theXsubstrings in the substring. You repeat this process until there remains no repeating block in the string.How would the final string looks like? Look at the sample explanation to understand the statement more precise.InputIn the first line of input you're given a string of small Latin characters with length between1to50000, inclusive.OutputPrint the final string after applying changes.ExamplesInputabccabcOutputabcInputaaaabaaabOutputabInputbirdbirdbirdisthewordOutputbirdisthewordNoteAt the first sample the string transforms as follows:abccabc→abcabc→abc.At the second sample the string transforms as follows:aaaabaaab→aaabaaab→aabaaab→abaaab→abaab→abab→ab.",
+    "source": "CF",
+    "vjudge": false
+}

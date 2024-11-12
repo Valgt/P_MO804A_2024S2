@@ -1,0 +1,11 @@
+{
+    "uid": "185-A",
+    "url": "https://codeforces.com/contest/185/problem/A",
+    "tags": [
+        "math"
+    ],
+    "title": "185-A",
+    "statement": "A. Planttime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutDwarfs have planted a very interesting plant, which is a triangle directed \"upwards\". This plant has an amusing feature. After one year a triangle plant directed \"upwards\" divides into four triangle plants: three of them will point \"upwards\" and one will point \"downwards\". After another year, each triangle plant divides into four triangle plants: three of them will be directed in the same direction as the parent plant, and one of them will be directed in the opposite direction. Then each year the process repeats. The figure below illustrates this process.Help the dwarfs find out how many triangle plants that point \"upwards\" will be innyears.InputThe first line contains a single integern(0 ≤n≤ 1018)— the number of full years when the plant grew.Please do not use the%lldspecifier to read or write 64-bit integers in С++. It is preferred to usecin,coutstreams or the%I64dspecifier.OutputPrint a single integer — the remainder of dividing the number of plants that will point \"upwards\" innyears by1000000007(109+ 7).ExamplesInput1Output3Input2Output10NoteThe first test sample corresponds to the second triangle on the figure in the statement. The second test sample corresponds to the third one.",
+    "source": "CF",
+    "vjudge": false
+}

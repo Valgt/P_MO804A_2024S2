@@ -1,0 +1,12 @@
+{
+    "uid": "837-B",
+    "url": "https://codeforces.com/contest/837/problem/B",
+    "tags": [
+        "brute force",
+        " implementation"
+    ],
+    "title": "837-B",
+    "statement": "B. Flag of Berlandtime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputThe flag of Berland is such rectangular fieldn×mthat satisfies following conditions:Flag consists of three colors which correspond to letters'R','G'and'B'.Flag consists of three equal in width and height stripes, parralel to each other and to sides of the flag. Each stripe hasexactly one color.Each color should be used inexactly one stripe.You are given a fieldn×m, consisting of characters'R','G'and'B'. Output \"YES\" (without quotes) if this field corresponds to correct flag of Berland. Otherwise, print \"NO\" (without quotes).InputThe first line contains two integer numbersnandm(1 ≤n,m≤ 100) — the sizes of the field.Each of the followingnlines consisting ofmcharacters'R','G'and'B'— the description of the field.OutputPrint \"YES\" (without quotes) if the given field corresponds to correct flag of Berland . Otherwise, print \"NO\" (without quotes).ExamplesInput6 5RRRRRRRRRRBBBBBBBBBBGGGGGGGGGGOutputYESInput4 3BRGBRGBRGBRGOutputYESInput6 7RRRGGGGRRRGGGGRRRGGGGRRRBBBBRRRBBBBRRRBBBBOutputNOInput4 4RRRRRRRRBBBBGGGGOutputNONoteThe field in the third example doesn't have three parralel stripes.Rows of the field in the fourth example are parralel to each other and to borders. But they have different heights —2,1and1.",
+    "source": "CF",
+    "vjudge": false
+}

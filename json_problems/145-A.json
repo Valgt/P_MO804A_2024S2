@@ -1,0 +1,12 @@
+{
+    "uid": "145-A",
+    "url": "https://codeforces.com/contest/145/problem/A",
+    "tags": [
+        "greedy",
+        " implementation"
+    ],
+    "title": "145-A",
+    "statement": "A. Lucky Conversiontime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutPetya loves lucky numbers very much. Everybody knows that lucky numbers are positive integers whose decimal record contains only the lucky digits4and7. For example, numbers47,744,4are lucky and5,17,467are not.Petya has two stringsaandbof the same lengthn. The strings consist only of lucky digits. Petya can performoperationsof two types:replace any one digit from stringaby its opposite (i.e., replace4by7and7by4);swap any pair of digits in stringa.Petya is interested in the minimum number of operations that are needed to make stringaequal to stringb. Help him with the task.InputThe first and the second line contains stringsaandb, correspondingly. Stringsaandbhave equal lengths and contain only lucky digits. The strings are not empty, their length does not exceed105.OutputPrint on the single line the single number — the minimum number of operations needed to convert stringainto stringb.ExamplesInput4774Output1Input774744Output1Input777444Output3NoteIn the first sample it is enough simply to swap the first and the second digit.In the second sample we should replace the second digit with its opposite.In the third number we should replace all three digits with their opposites.",
+    "source": "CF",
+    "vjudge": false
+}

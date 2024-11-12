@@ -1,0 +1,13 @@
+{
+    "uid": "475-C",
+    "url": "https://codeforces.com/contest/475/problem/C",
+    "tags": [
+        "brute force",
+        " constructive algorithms",
+        " greedy"
+    ],
+    "title": "475-C",
+    "statement": "C. Kamal-ol-molk's Paintingtime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutRumors say that one of Kamal-ol-molk's paintings has been altered. A rectangular brush has been moved right and down on the painting.Consider the painting as an×mrectangular grid. At the beginning anx×yrectangular brush is placed somewhere in the frame, with edges parallel to the frame, (1 ≤x≤n, 1 ≤y≤m). Then the brush is moved several times. Each time the brush is moved one unit right or down. The brush has been strictly inside the frame during the painting. The brush alters every cell it has covered at some moment.You have found one of the old Kamal-ol-molk's paintings. You want to know if it's possible that it has been altered in described manner. If yes, you also want to know minimum possible area of the brush.InputThe first line of input contains two integersnandm, (1 ≤n,m≤ 1000), denoting the height and width of the painting.The nextnlines contain the painting. Each line hasmcharacters. Character 'X' denotes an altered cell, otherwise it's showed by '.'. There will be at least one altered cell in the painting.OutputPrint the minimum area of the brush in a line, if the painting is possibly altered, otherwise print- 1.ExamplesInput4 4XX..XX..XXXXXXXXOutput4Input4 4.....XXX.XXX....Output2Input4 5XXXX.XXXX..XX...XX..Output-1",
+    "source": "CF",
+    "vjudge": false
+}

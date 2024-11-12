@@ -1,0 +1,15 @@
+{
+    "uid": "618-D",
+    "url": "https://codeforces.com/contest/618/problem/D",
+    "tags": [
+        "dfs and similar",
+        " dp",
+        " graph matchings",
+        " greedy",
+        " trees"
+    ],
+    "title": "618-D",
+    "statement": "D. Hamiltonian Spanning Treetime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputA group ofncities is connected by a network of roads. There is an undirected road between every pair of cities, so there areroads in total. It takes exactlyyseconds to traverseanysingle road.Aspanning treeis a set of roads containing exactlyn- 1roads such that it's possible to travel between any two cities using only these roads.Some spanning tree of the initial network was chosen. For every road in this tree the time one needs to traverse this road was changed fromytoxseconds. Note that it's not guaranteed thatxis smaller thany.You would like to travel through all the cities using the shortest path possible. Givenn,x,yand a description of the spanning tree that was chosen, find the cost of the shortest path that starts in any city, ends in any city and visits all citiesexactly once.InputThe first line of the input contains three integersn,xandy(2 ≤n≤ 200 000, 1 ≤x,y≤ 109).Each of the nextn- 1lines contains a description of a road in the spanning tree. Thei-th of these lines contains two integersuiandvi(1 ≤ui,vi≤n) — indices of the cities connected by thei-th road. It is guaranteed that these roads form a spanning tree.OutputPrint a single integer — the minimum number of seconds one needs to spend in order to visit all the cities exactly once.ExamplesInput5 2 31 21 33 45 3Output9Input5 3 21 21 33 45 3Output8NoteIn the first sample, roads of the spanning tree have cost2, while other roads have cost3. One example of an optimal path is.In the second sample, we have the same spanning tree, but roads in the spanning tree cost 3, while other roads cost 2. One example of an optimal path is.",
+    "source": "CF",
+    "vjudge": false
+}

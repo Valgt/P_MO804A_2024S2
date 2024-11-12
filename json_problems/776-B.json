@@ -1,0 +1,12 @@
+{
+    "uid": "776-B",
+    "url": "https://codeforces.com/contest/776/problem/B",
+    "tags": [
+        "constructive algorithms",
+        " number theory"
+    ],
+    "title": "776-B",
+    "statement": "B. Sherlock and his girlfriendtime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputSherlock has a new girlfriend (so unlike him!). Valentine's day is coming and he wants to gift her some jewelry.He boughtnpieces of jewelry. Thei-th piece has price equal toi+ 1, that is, the prices of the jewelry are2, 3, 4, ...n+ 1.Watson gave Sherlock a challenge to color these jewelry pieces such that two pieces don't have the same color if the price of one piece is a prime divisor of the price of the other piece. Also, Watson asked him to minimize the number of different colors used.Help Sherlock complete this trivial task.InputThe only line contains single integern(1 ≤n≤ 100000) — the number of jewelry pieces.OutputThe first line of output should contain a single integerk, the minimum number of colors that can be used to color the pieces of jewelry with the given constraints.The next line should consist ofnspace-separated integers (between1andk) that specify the color of each piece in the order of increasing price.If there are multiple ways to color the pieces usingkcolors, you can output any of them.ExamplesInput3Output21 1 2Input4Output22 1 1 2NoteIn the first input, the colors for first, second and third pieces of jewelry having respective prices2,3and4are1,1and2respectively.In this case, as2is a prime divisor of4, colors of jewelry having prices2and4must be distinct.",
+    "source": "CF",
+    "vjudge": false
+}

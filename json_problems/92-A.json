@@ -1,0 +1,12 @@
+{
+    "uid": "92-A",
+    "url": "https://codeforces.com/contest/92/problem/A",
+    "tags": [
+        "implementation",
+        " math"
+    ],
+    "title": "92-A",
+    "statement": "A. Chipstime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutThere arenwalruses sitting in a circle. All of them are numbered in the clockwise order: the walrus number2sits to the left of the walrus number1, the walrus number3sits to the left of the walrus number2, ..., the walrus number1sits to the left of the walrus numbern.The presenter hasmchips. The presenter stands in the middle of the circle and starts giving the chips to the walruses starting from walrus number1and moving clockwise. The walrus numberigetsichips. If the presenter can't give the current walrus the required number of chips, then the presenter takes the remaining chips and the process ends. Determine by the givennandmhow many chips the presenter will get in the end.InputThe first line contains two integersnandm(1 ≤n≤ 50,1 ≤m≤ 104) — the number of walruses and the number of chips correspondingly.OutputPrint the number of chips the presenter ended up with.ExamplesInput4 11Output0Input17 107Output2Input3 8Output1NoteIn the first sample the presenter gives one chip to the walrus number1, two chips to the walrus number2, three chips to the walrus number3, four chips to the walrus number4, then again one chip to the walrus number1. After that the presenter runs out of chips. He can't give anything to the walrus number2and the process finishes.In the third sample the presenter gives one chip to the walrus number1, two chips to the walrus number2, three chips to the walrus number3, then again one chip to the walrus number1. The presenter has one chip left and he can't give two chips to the walrus number2, that's why the presenter takes the last chip.",
+    "source": "CF",
+    "vjudge": false
+}

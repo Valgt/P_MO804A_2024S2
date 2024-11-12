@@ -1,0 +1,12 @@
+{
+    "uid": "1971-A",
+    "url": "https://codeforces.com/contest/1971/problem/A",
+    "tags": [
+        "implementation",
+        " sortings"
+    ],
+    "title": "1971-A",
+    "statement": "A. My First Sorting Problemtime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given two integers $$$x$$$ and $$$y$$$.Output two integers: the minimum of $$$x$$$ and $$$y$$$, followed by the maximum of $$$x$$$ and $$$y$$$.InputThe first line contains a single integer $$$t$$$ ($$$1 \\\\leq t \\\\leq 100$$$) — the number of test cases.The only line of each test case contains two space-separated integers $$$x$$$ and $$$y$$$ ($$$0 \\\\leq x, y \\\\leq 9$$$).OutputFor each test case, output two integers: the minimum of $$$x$$$ and $$$y$$$, followed by the maximum of $$$x$$$ and $$$y$$$.ExampleInput101 98 41 43 42 02 46 93 30 09 9Output1 9 4 8 1 4 3 4 0 2 2 4 6 9 3 3 0 0 9 9",
+    "source": "CF",
+    "vjudge": false
+}

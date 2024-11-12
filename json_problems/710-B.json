@@ -1,0 +1,12 @@
+{
+    "uid": "710-B",
+    "url": "https://codeforces.com/contest/710/problem/B",
+    "tags": [
+        "brute force",
+        " sortings"
+    ],
+    "title": "710-B",
+    "statement": "B. Optimal Point on a Linetime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are givennpoints on a line with their coordinatesxi. Find the pointxso the sum of distances to the given points is minimal.InputThe first line contains integern(1 ≤n≤ 3·105) — the number of points on the line.The second line containsnintegersxi(- 109≤xi≤ 109) — the coordinates of the givennpoints.OutputPrint the only integerx— the position of the optimal point on the line. If there are several optimal points print the position of the leftmost one. It is guaranteed that the answer is always the integer.ExampleInput41 2 3 4Output2",
+    "source": "CF",
+    "vjudge": false
+}

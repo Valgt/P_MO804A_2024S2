@@ -1,0 +1,13 @@
+{
+    "uid": "535-C",
+    "url": "https://codeforces.com/contest/535/problem/C",
+    "tags": [
+        "binary search",
+        " greedy",
+        " math"
+    ],
+    "title": "535-C",
+    "statement": "C. Tavas and Karafstime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputKarafs is some kind of vegetable in shape of an1 ×hrectangle. Tavaspolis people love Karafs and they use Karafs in almost any kind of food. Tavas, himself, is crazy about Karafs.Each Karafs has a positive integer height. Tavas has an infinite1-basedsequence of Karafses. The height of thei-th Karafs issi=A+ (i- 1) ×B.For a givenm, let's define anm-bite operation as decreasing the height of at mostmdistinct not eaten Karafses by 1. Karafs is considered as eaten when its height becomes zero.Now SaDDas asks younqueries. In each query he gives you numbersl,tandmand you should find the largest numberrsuch thatl≤rand sequencesl,sl+ 1, ...,srcan be eatenby performingm-bite no more thanttimesor print -1 if there is no such numberr.InputThe first line of input contains three integersA,Bandn(1 ≤A,B≤ 106,1 ≤n≤ 105).Nextnlines contain information about queries.i-th line contains integersl,t,m(1 ≤l,t,m≤ 106) fori-th query.OutputFor each query, print its answer in a single line.ExamplesInput2 1 41 5 33 3 107 10 26 4 8Output4-18-1Input1 5 21 5 102 7 4Output12",
+    "source": "CF",
+    "vjudge": false
+}

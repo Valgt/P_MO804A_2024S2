@@ -1,0 +1,13 @@
+{
+    "uid": "109-C",
+    "url": "https://codeforces.com/contest/109/problem/C",
+    "tags": [
+        "dp",
+        " dsu",
+        " trees"
+    ],
+    "title": "109-C",
+    "statement": "C. Lucky Treetime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutPetya loves lucky numbers. We all know that lucky numbers are the positive integers whose decimal representations contain only the lucky digits4and7. For example, numbers47,744,4are lucky and5,17,467are not.One day Petya encountered a tree withnvertexes. Besides, the tree was weighted, i. e. each edge of the tree has weight (a positive integer). An edge is lucky if its weight is a lucky number. Note that atree withnvertexesis an undirected connected graph that has exactlyn- 1edges.Petya wondered how many vertex triples(i,j,k)exists that on the way fromitoj, as well as on the way fromitokthere must be at least one lucky edge (all three vertexes are pairwise distinct). The order of numbers in the triple matters, that is, the triple(1, 2, 3)is not equal to the triple(2, 1, 3)and is not equal to the triple(1, 3, 2).Find how many such triples of vertexes exist.InputThe first line contains the single integern(1 ≤n≤ 105) — the number of tree vertexes. Nextn- 1lines contain three integers each:uiviwi(1 ≤ui,vi≤n, 1 ≤wi≤ 109) — the pair of vertexes connected by the edge and the edge's weight.OutputOn the single line print the single number — the answer.Please do not use the %lld specificator to read or write 64-bit numbers in С++. It is recommended to use the cin, cout streams or the %I64d specificator.ExamplesInput41 2 43 1 21 4 7Output16Input41 2 41 3 471 4 7447Output24NoteThe16triples of vertexes from the first sample are:(1, 2, 4), (1, 4, 2), (2, 1, 3), (2, 1, 4), (2, 3, 1), (2, 3, 4), (2, 4, 1), (2, 4, 3), (3, 2, 4), (3, 4, 2), (4, 1, 2), (4, 1, 3), (4, 2, 1), (4, 2, 3), (4, 3, 1), (4, 3, 2).In the second sample all the triples should be counted:4·3·2 = 24.",
+    "source": "CF",
+    "vjudge": false
+}

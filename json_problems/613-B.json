@@ -1,0 +1,16 @@
+{
+    "uid": "613-B",
+    "url": "https://codeforces.com/contest/613/problem/B",
+    "tags": [
+        "binary search",
+        " brute force",
+        " dp",
+        " greedy",
+        " sortings",
+        " two pointers"
+    ],
+    "title": "613-B",
+    "statement": "B. Skillstime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputLesha plays the recently published new version of the legendary game hacknet. In this version character skill mechanism was introduced. Now, each player character has exactlynskills. Each skill is represented by a non-negative integerai— the current skill level. All skills have the same maximum levelA.Along with the skills, global ranking of all players was added. Players are ranked according to the so-called Force. TheForceof a player is the sum of the following values:The number of skills that a character has perfected (i.e., such thatai=A), multiplied by coefficientcf.The minimum skill level among all skills (minai), multiplied by coefficientcm.Now Lesha hasmhacknetian currency units, which he is willing to spend. Each currency unit can increase the current level of any skill by1(if it's not equal toAyet). Help him spend his money in order to achieve the maximum possible value of the Force.InputThe first line of the input contains five space-separated integersn,A,cf,cmandm(1 ≤n≤ 100 000,1 ≤A≤ 109,0 ≤cf,cm≤ 1000,0 ≤m≤ 1015).The second line contains exactlynintegersai(0 ≤ai≤A), separated by spaces, — the current levels of skills.OutputOn the first line print the maximum value of the Force that the character can achieve using no more thanmcurrency units.On the second line printnintegersa'i(ai≤a'i≤A), skill levels which one must achieve in order to reach the specified value of the Force, while using no more thanmcurrency units. Numbers should be separated by spaces.ExamplesInput3 5 10 1 51 3 1Output122 5 2Input3 5 10 1 3391 3 1Output355 5 5NoteIn the first test the optimal strategy is to increase the second skill to its maximum, and increase the two others by1.In the second test one should increase all skills to maximum.",
+    "source": "CF",
+    "vjudge": false
+}

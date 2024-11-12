@@ -1,0 +1,11 @@
+{
+    "uid": "584-B",
+    "url": "https://codeforces.com/contest/584/problem/B",
+    "tags": [
+        "combinatorics"
+    ],
+    "title": "584-B",
+    "statement": "B. Kolya and Tanyatime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputKolya loves putting gnomes at the circle table and giving them coins, and Tanya loves studying triplets of gnomes, sitting in the vertexes of an equilateral triangle.More formally, there are3ngnomes sitting in a circle. Each gnome can have from1to3coins. Let's number the places in the order they occur in the circle by numbers from0to3n- 1, let the gnome sitting on thei-th place haveaicoins. If there is an integeri(0 ≤i<n) such thatai+ai+n+ai+ 2n≠ 6, then Tanya is satisfied.Count the number of ways to chooseaiso that Tanya is satisfied. As there can be many ways of distributing coins, print the remainder of this number modulo109+ 7. Two ways,aandb, are considered distinct if there is indexi(0 ≤i< 3n), such thatai≠bi(that is, some gnome got different number of coins in these two ways).InputA single line contains numbern(1 ≤n≤ 105) — the number of the gnomes divided by three.OutputPrint a single number — the remainder of the number of variants of distributing coins that satisfy Tanya modulo109+ 7.ExamplesInput1Output20Input2Output680Note20ways forn= 1(gnome with index0sits on the top of the triangle, gnome1on the right vertex, gnome2on the left vertex):",
+    "source": "CF",
+    "vjudge": false
+}

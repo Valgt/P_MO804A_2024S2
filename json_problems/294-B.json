@@ -1,0 +1,12 @@
+{
+    "uid": "294-B",
+    "url": "https://codeforces.com/contest/294/problem/B",
+    "tags": [
+        "dp",
+        " greedy"
+    ],
+    "title": "294-B",
+    "statement": "B. Shaass and Bookshelftime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutShaass hasnbooks. He wants to make a bookshelf for all his books. He wants the bookshelf's dimensions to be as small as possible. The thickness of thei-th book istiand its pages' width is equal towi. The thickness of each book is either1or2. All books have the same page heights.Shaass puts the books on the bookshelf in the following way. First he selects some of the books and put them vertically. Then he puts the rest of the books horizontally above the vertical books. The sum of the widths of the horizontal books must be no more than the total thickness of the vertical books. A sample arrangement of the books is depicted in the figure.Help Shaass to find the minimum total thickness of the vertical books that we can achieve.InputThe first line of the input contains an integern,(1 ≤n≤ 100). Each of the nextnlines contains two integerstiandwidenoting the thickness and width of thei-th book correspondingly, (1 ≤ti≤ 2, 1 ≤wi≤ 100).OutputOn the only line of the output print the minimum total thickness of the vertical books that we can achieve.ExamplesInput51 121 32 152 52 1Output5Input31 102 12 4Output3",
+    "source": "CF",
+    "vjudge": false
+}

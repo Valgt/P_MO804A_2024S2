@@ -1,0 +1,12 @@
+{
+    "uid": "713-D",
+    "url": "https://codeforces.com/contest/713/problem/D",
+    "tags": [
+        "binary search",
+        " data structures"
+    ],
+    "title": "713-D",
+    "statement": "D. Animals and Puzzletime limit per test5 secondsmemory limit per test512 megabytesinputstandard inputoutputstandard outputOwl Sonya gave a huge lake puzzle of sizen×mto hedgehog Filya as a birthday present. Friends immediately started to assemble the puzzle, but some parts of it turned out to be empty — there was no picture on them. Parts with picture on it are denoted by1, while empty parts are denoted by0. Rows of the puzzle are numbered from top to bottom with integers from1ton, while columns are numbered from left to right with integers from1tom.Animals decided to complete the picture and play with it, as it might be even more fun! Owl and hedgehog ask each other some queries. Each query is provided by four integersx1,y1,x2,y2which define the rectangle, where(x1,y1)stands for the coordinates of the up left cell of the rectangle, while(x2,y2)stands for the coordinates of the bottom right cell. The answer to the query is the size of the maximumsquareconsisting of picture parts only (only parts denoted by1) and located fully inside the query rectangle.Help Sonya and Filya answertqueries.InputThe first line of the input contains two integersnandm(1 ≤n,m≤ 1000) — sizes of the puzzle.Each of the followingnlines containsmintegersaij. Each of them is equal to1if the corresponding cell contains a picture and0if it's empty.Next line contains an integert(1 ≤t≤ 1 000 000) — the number of queries.Then followtlines with queries' descriptions. Each of them contains four integersx1,y1,x2,y2(1 ≤x1≤x2≤n,1 ≤y1≤y2≤m) — coordinates of the up left and bottom right cells of the query rectangle.OutputPrinttlines. Thei-th of them should contain the maximum size of the square consisting of1-s and lying fully inside the query rectangle.ExampleInput3 41 1 0 10 1 1 00 1 1 051 1 2 32 1 3 23 2 3 41 1 3 41 2 3 4Output11122",
+    "source": "CF",
+    "vjudge": false
+}

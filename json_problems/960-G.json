@@ -1,0 +1,14 @@
+{
+    "uid": "960-G",
+    "url": "https://codeforces.com/contest/960/problem/G",
+    "tags": [
+        "combinatorics",
+        " dp",
+        " fft",
+        " math"
+    ],
+    "title": "960-G",
+    "statement": "G. Bandit Bluestime limit per test3.5 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputJapate, while traveling through the forest of Mala, sawNbags of gold lying in a row. Each bag has somedistinctweight of gold between1toN. Japate can carry only one bag of gold with him, so he uses the following strategy to choose a bag.Initially, he starts with an empty bag (zero weight). He considers the bags in some order. If the current bag has a higher weight than the bag in his hand, he picks the current bag.Japate put the bags in some order. Japate realizes that he will pickAbags, if he starts picking bags from the front, and will pickBbags, if he starts picking bags from the back. By picking we mean replacing the bag in his hand with the current one.Now he wonders how many permutations of bags are possible, in which he picksAbags from the front andBbags from back using the above strategy.Since the answer can be very large, output it modulo998244353.InputThe only line of input contains three space separated integersN(1 ≤N≤ 105),AandB(0 ≤A,B≤N).OutputOutput a single integer — the number of valid permutations modulo998244353.ExamplesInput1 1 1Output1Input2 1 1Output0Input2 2 1Output1Input5 2 2Output22NoteIn sample case1, the only possible permutation is[1]In sample cases2and3, only two permutations of size2are possible:{[1, 2], [2, 1]}. The values ofaandbfor first permutation is2and1, and for the second permutation these values are1and2.In sample case4, out of 120 permutations of[1, 2, 3, 4, 5]possible, only 22 satisfy the given constraints ofaandb.",
+    "source": "CF",
+    "vjudge": false
+}

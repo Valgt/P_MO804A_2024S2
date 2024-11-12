@@ -1,0 +1,11 @@
+{
+    "uid": "36-B",
+    "url": "https://codeforces.com/contest/36/problem/B",
+    "tags": [
+        "implementation"
+    ],
+    "title": "36-B",
+    "statement": "B. Fractaltime limit per test2 secondsmemory limit per test64 megabytesinputinput.txtoutputoutput.txtEver since Kalevitch, a famous Berland abstractionist, heard of fractals, he made them the main topic of his canvases. Every morning the artist takes a piece of graph paper and starts with making a model of his future canvas. He takes a square as big asn×nsquares and paints some of them black. Then he takes a clean square piece of paper and paints the fractal using the following algorithm:Step 1. The paper is divided inton2identical squares and some of them are painted black according to the model.Step 2. Every square that remains white is divided inton2smaller squares and some of them are painted black according to the model.Every following step repeats step 2.Unfortunately, this tiresome work demands too much time from the painting genius. Kalevitch has been dreaming of making the process automatic to move to making 3D or even 4D fractals.InputThe first line contains integersnandk(2 ≤n≤ 3,1 ≤k≤ 5), wherekis the amount of steps of the algorithm. Each of the followingnlines containsnsymbols that determine the model. Symbol «.» stands for a white square, whereas «*» stands for a black one. It is guaranteed that the model has at least one white square.OutputOutput a matrixnk×nkwhich is what a picture should look like afterksteps of the algorithm.ExamplesInput2 3.*..Output.*******..******.*.*****....****.***.***..**..**.*.*.*.*........Input3 2.*.***.*.Output.*.***.*.*********.*.***.*.***************************.*.***.*.*********.*.***.*.",
+    "source": "CF",
+    "vjudge": false
+}

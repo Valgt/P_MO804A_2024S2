@@ -1,0 +1,14 @@
+{
+    "uid": "70-C",
+    "url": "https://codeforces.com/contest/70/problem/C",
+    "tags": [
+        "binary search",
+        " data structures",
+        " sortings",
+        " two pointers"
+    ],
+    "title": "70-C",
+    "statement": "C. Lucky Ticketstime limit per test1.5 secondsmemory limit per test256 megabytesinputstdinoutputstdoutIn Walrusland public transport tickets are characterized by two integers: by the number of the series and by the number of the ticket in the series. Let the series number be represented byaand the ticket number — byb, then a ticket is described by the ordered pair of numbers(a,b).The walruses believe that a ticket is lucky ifa*b=rev(a) *rev(b). The functionrev(x)reverses a number written in the decimal system, at that the leading zeroes disappear. For example,rev(12343) = 34321,rev(1200) = 21.The Public Transport Management Committee wants to releasexseries, each containingytickets, so thatatleastwlucky tickets were released and the total number of released tickets (x*y) were minimum. The series are numbered from1toxinclusive. The tickets in each series are numbered from1toyinclusive. The Transport Committee cannot release more thanmaxxseries and more thanmaxytickets in one series.InputThe first line contains three integersmaxx,maxy,w(1 ≤maxx,maxy≤ 105,1 ≤w≤ 107).OutputPrint on a single line two space-separated numbers, thexand they. If there are several possible variants, print any of them. If suchxandydo not exist, print a single number- 1.ExamplesInput2 2 1Output1 1Input132 10 35Output7 5Input5 18 1000Output-1Input48 132 235Output22 111",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,11 @@
+{
+    "uid": "691-E",
+    "url": "https://codeforces.com/contest/691/problem/E",
+    "tags": [
+        "matrices"
+    ],
+    "title": "691-E",
+    "statement": "E. Xor-sequencestime limit per test3 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are givennintegersa1,a2,  ...,an.A sequence of integersx1,x2,  ...,xkis called a \"xor-sequence\" if for every1  ≤i≤k- 1the number of ones in the binary representation of the numberxixi+  1's is a multiple of3andfor all1 ≤i≤k. The symbolis used for the binary exclusive or operation.How many \"xor-sequences\" of lengthkexist? Output the answer modulo109+ 7.Note ifa= [1, 1]andk= 1then the answer is2, because you should consider the ones fromaas different.InputThe first line contains two integersnandk(1 ≤n≤ 100,1 ≤k≤ 1018) — the number of given integers and the length of the \"xor-sequences\".The second line containsnintegersai(0 ≤ai≤ 1018).OutputPrint the only integerc— the number of \"xor-sequences\" of lengthkmodulo109+ 7.ExamplesInput5 215 1 2 4 8Output13Input5 115 1 2 4 8Output5",
+    "source": "CF",
+    "vjudge": false
+}

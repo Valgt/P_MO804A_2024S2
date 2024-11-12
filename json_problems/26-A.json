@@ -1,0 +1,11 @@
+{
+    "uid": "26-A",
+    "url": "https://codeforces.com/contest/26/problem/A",
+    "tags": [
+        "number theory"
+    ],
+    "title": "26-A",
+    "statement": "A. Almost Primetime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutA number is called almost prime if it has exactly two distinct prime divisors. For example, numbers 6, 18, 24 are almost prime, while 4, 8, 9, 42 are not. Find the amount of almost prime numbers which are between 1 andn, inclusive.InputInput contains one integer numbern(1 ≤n≤ 3000).OutputOutput the amount of almost prime numbers between 1 andn, inclusive.ExamplesInput10Output2Input21Output8",
+    "source": "CF",
+    "vjudge": false
+}

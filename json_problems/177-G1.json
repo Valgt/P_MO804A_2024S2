@@ -1,0 +1,11 @@
+{
+    "uid": "177-G1",
+    "url": "https://codeforces.com/contest/177/problem/G1",
+    "tags": [
+        "strings"
+    ],
+    "title": "177-G1",
+    "statement": "G1. Fibonacci Stringstime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutFibonacci strings are defined as follows:f1= «a»f2= «b»fn=fn- 1fn- 2,n> 2Thus, the first five Fibonacci strings are: \"a\", \"b\", \"ba\", \"bab\", \"babba\".You are given a Fibonacci string andmstringssi. For each stringsi, find the number of times it occurs in the given Fibonacci string as a substring.InputThe first line contains two space-separated integerskandm— the number of a Fibonacci string and the number of queries, correspondingly.Nextmlines contain stringssithat correspond to the queries. It is guaranteed that stringssiaren't empty and consist only of characters \"a\" and \"b\".The input limitations for getting 30 points are:1 ≤k≤ 30001 ≤m≤ 3000The total length of stringssidoesn't exceed3000The input limitations for getting 100 points are:1 ≤k≤ 10181 ≤m≤ 104The total length of stringssidoesn't exceed105Please do not use the%lldspecifier to read or write 64-bit integers in С++. It is preferred to usecin,coutstreams or the%I64dspecifier.OutputFor each stringsiprint the number of times it occurs in the given Fibonacci string as a substring. Since the numbers can be large enough, print them modulo1000000007(109+ 7). Print the answers for the strings in the order in which they are given in the input.ExamplesInput6 5ababbaabaOutput35331",
+    "source": "CF",
+    "vjudge": false
+}

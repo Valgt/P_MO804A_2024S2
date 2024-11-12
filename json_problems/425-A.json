@@ -1,0 +1,12 @@
+{
+    "uid": "425-A",
+    "url": "https://codeforces.com/contest/425/problem/A",
+    "tags": [
+        "brute force",
+        " sortings"
+    ],
+    "title": "425-A",
+    "statement": "A. Sereja and Swapstime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutAs usual, Sereja has arraya, its elements are integers:a[1],a[2], ...,a[n]. Let's introduce notation:A swap operation is the following sequence of actions:choose two indexesi,j(i≠j);perform assignmentstmp=a[i],a[i] =a[j],a[j] =tmp.What maximum value of functionm(a)can Sereja get if he is allowed to perform at mostkswap operations?InputThe first line contains two integersnandk(1 ≤n≤ 200; 1 ≤k≤ 10). The next line containsnintegersa[1],a[2],...,a[n]( - 1000 ≤a[i] ≤ 1000).OutputIn a single line print the maximum value ofm(a)that Sereja can get if he is allowed to perform at mostkswap operations.ExamplesInput10 210 -1 2 2 2 2 2 2 -1 10Output32Input5 10-1 -1 -1 -1 -1Output-1",
+    "source": "CF",
+    "vjudge": false
+}

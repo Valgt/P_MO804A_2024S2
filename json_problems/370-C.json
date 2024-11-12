@@ -1,0 +1,13 @@
+{
+    "uid": "370-C",
+    "url": "https://codeforces.com/contest/370/problem/C",
+    "tags": [
+        "constructive algorithms",
+        " greedy",
+        " sortings"
+    ],
+    "title": "370-C",
+    "statement": "C. Mittenstime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutA Christmas party in city S. hadnchildren. All children came in mittens. The mittens can be of different colors, but each child had the left and the right mitten of the same color. Let's say that the colors of the mittens are numbered with integers from 1 tom, and the children are numbered from 1 ton. Then thei-th child has both mittens of colorci.The Party had Santa Claus ('Father Frost' in Russian), his granddaughter Snow Girl, the children danced around the richly decorated Christmas tree. In fact, everything was so bright and diverse that the children wanted to wear mittens of distinct colors. The children decided to swap the mittens so that each of them got one left and one right mitten in the end, and these two mittens were of distinct colors. All mittens are of the same size and fit all the children.The children started exchanging the mittens haphazardly, but they couldn't reach the situation when each child has a pair of mittens of distinct colors. Vasily Petrov, the dad of one of the children, noted that in the general case the children's idea may turn out impossible. Besides, he is a mathematician and he came up with such scheme of distributing mittens that the number of children that have distinct-colored mittens was maximum. You task is to repeat his discovery. Note that the left and right mittens are different: each child must end up with one left and one right mitten.InputThe first line contains two integersnandm— the number of the children and the number of possible mitten colors (1 ≤n≤ 5000,1 ≤m≤ 100). The second line containsnintegersc1,c2, ...cn, whereciis the color of the mittens of thei-th child (1 ≤ci≤m).OutputIn the first line, print the maximum number of children who can end up with a distinct-colored pair of mittens. In the nextnlines print the way the mittens can be distributed in this case. On thei-th of these lines print two space-separated integers: the color of the left and the color of the right mitten thei-th child will get. If there are multiple solutions, you can print any of them.ExamplesInput6 31 3 2 2 1 1Output62 11 22 11 31 23 1Input4 21 2 1 1Output21 21 12 11 1",
+    "source": "CF",
+    "vjudge": false
+}

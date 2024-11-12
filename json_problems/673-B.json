@@ -1,0 +1,12 @@
+{
+    "uid": "673-B",
+    "url": "https://codeforces.com/contest/673/problem/B",
+    "tags": [
+        "greedy",
+        " implementation"
+    ],
+    "title": "673-B",
+    "statement": "B. Problems for Roundtime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputThere arenproblems prepared for the next Codeforces round. They are arranged in ascending order by their difficulty, and no two problems have the same difficulty. Moreover, there arempairs of similar problems. Authors want to split problems between two division according to the following rules:Problemset of each division should be non-empty.Each problem should be used in exactly one division (yes, it is unusual requirement).Each problem used in division 1 should be harder than any problem used in division 2.If two problems are similar, they should be used in different divisions.Your goal is count the number of ways to split problem between two divisions and satisfy all the rules. Two ways to split problems are considered to be different if there is at least one problem that belongs to division 1 in one of them and to division 2 in the other.Note, that the relation of similarityis nottransitive. That is, if problemiis similar to problemjand problemjis similar to problemk, it doesn't follow thatiis similar tok.InputThe first line of the input contains two integersnandm(2 ≤n≤ 100 000,0 ≤m≤ 100 000) — the number of problems prepared for the round and the number of pairs of similar problems, respectively.Each of the followingmlines contains a pair of similar problemsuiandvi(1 ≤ui,vi≤n,ui≠vi). It's guaranteed, that no pair of problems meets twice in the input.OutputPrint one integer — the number of ways to split problems in two divisions.ExamplesInput5 21 45 2Output2Input3 31 22 31 3Output0Input3 23 13 2Output1NoteIn the first sample, problems1and2should be used in division 2, while problems4and5in division 1. Problem3may be used either in division 1 or in division 2.In the second sample, all pairs of problems are similar and there is no way to split problem between two divisions without breaking any rules.Third sample reminds you that the similarity relation is not transitive. Problem3is similar to both1and2, but1is not similar to2, so they may be used together.",
+    "source": "CF",
+    "vjudge": false
+}

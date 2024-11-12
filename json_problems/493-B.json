@@ -1,0 +1,11 @@
+{
+    "uid": "493-B",
+    "url": "https://codeforces.com/contest/493/problem/B",
+    "tags": [
+        "implementation"
+    ],
+    "title": "493-B",
+    "statement": "B. Vasya and Wrestlingtime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutVasya has become interested in wrestling. In wrestling wrestlers use techniques for which they are awarded points by judges. The wrestler who gets the most points wins.When the numbers of points of both wrestlers are equal, the wrestler whose sequence of points islexicographically greater, wins.If the sequences of the awarded points coincide, the wrestler who performed the last technique wins. Your task is to determine which wrestler won.InputThe first line contains numbern— the number of techniques that the wrestlers have used (1 ≤n≤ 2·105).The followingnlines contain integer numbersai(|ai| ≤ 109,ai≠ 0). Ifaiis positive, that means that the first wrestler performed the technique that was awarded withaipoints. And ifaiis negative, that means that the second wrestler performed the technique that was awarded with( -ai)points.The techniques are given in chronological order.OutputIf the first wrestler wins, print string \"first\", otherwise print \"second\"ExamplesInput512-3-43OutputsecondInput3-1-23OutputfirstInput24-4OutputsecondNoteSequencex=x1x2...x|x|islexicographically largerthan sequencey=y1y2...y|y|, if either|x|  >  |y|andx1=y1,x2=y2, ... ,x|y|=y|y|, or there is such numberr(r<  |x|,r<  |y|), thatx1=y1,x2=y2,  ... ,xr=yrandxr+  1>yr+  1.We use notation|a|to denote length of sequencea.",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,12 @@
+{
+    "uid": "587-F",
+    "url": "https://codeforces.com/contest/587/problem/F",
+    "tags": [
+        "data structures",
+        " strings"
+    ],
+    "title": "587-F",
+    "statement": "F. Duff is Madtime limit per test4 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputDuff is mad at her friends. That's why she sometimes makes Malek to take candy from one of her friends for no reason!She hasnfriends. Heri-th friend's name issi(their names are not necessarily unique).qtimes, she asks Malek to take candy from her friends. She's angry, but also she acts with rules. When she wants to ask Malek to take candy from one of her friends, likek, she chooses two numberslandrand tells Malek to take exactlycandies from him/her, whereoccur(t,s)is the number of occurrences of stringtins.Malek is not able to calculate how many candies to take in each request from Duff. That's why she asked for your help. Please tell him how many candies to take in each request.InputThe first line of input contains two integersnandq(1 ≤n,q≤ 105).The nextnlines contain the names.i-th of them contains an stringsi, consisting of lowercase English letters   ().The nextqlines contain the requests. Each of them contains three integers,l,randk(says that Malek should takecandies from Duff'sk-th friend).OutputPrint the answer to each request in one line.ExamplesInput5 5aababababababb1 5 43 5 41 5 21 5 31 4 1Output126371",
+    "source": "CF",
+    "vjudge": false
+}

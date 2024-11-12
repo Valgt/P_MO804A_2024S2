@@ -1,0 +1,14 @@
+{
+    "uid": "797-F",
+    "url": "https://codeforces.com/contest/797/problem/F",
+    "tags": [
+        "data structures",
+        " dp",
+        " greedy",
+        " sortings"
+    ],
+    "title": "797-F",
+    "statement": "F. Mice and Holestime limit per test1.5 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputOne day Masha came home and noticednmice in the corridor of her flat. Of course, she shouted loudly, so scared mice started to run to the holes in the corridor.The corridor can be represeted as a numeric axis withnmice andmholes on it.ith mouse is at the coordinatexi, andjth hole — at coordinatepj.jth hole has enough room forcjmice, so not more thancjmice can enter this hole.What is the minimum sum of distances that mice have to go through so that they all can hide in the holes? Ifith mouse goes to the holej, then its distance is|xi-pj|.Print the minimum sum of distances.InputThe first line contains two integer numbersn,m(1 ≤n,m≤ 5000) — the number of mice and the number of holes, respectively.The second line containsnintegersx1,x2, ...,xn(- 109≤xi≤ 109), wherexiis the coordinate ofith mouse.Nextmlines contain pairs of integer numberspj,cj(- 109≤pj≤ 109, 1 ≤cj≤ 5000), wherepjis the coordinate ofjth hole, andcjis the maximum number of mice that can hide in the holej.OutputPrint one integer number — the minimum sum of distances. If there is no solution, print-1instead.ExamplesInput4 56 2 8 93 62 13 64 74 7Output11Input7 210 20 30 40 50 45 35-1000000000 101000000000 1Output7000000130",
+    "source": "CF",
+    "vjudge": false
+}

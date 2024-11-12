@@ -1,0 +1,12 @@
+{
+    "uid": "509-F",
+    "url": "https://codeforces.com/contest/509/problem/F",
+    "tags": [
+        "dp",
+        " trees"
+    ],
+    "title": "509-F",
+    "statement": "Error: (\"Connection broken: InvalidChunkLength(got length b'', 0 bytes read)\", InvalidChunkLength(got length b'', 0 bytes read))",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,13 @@
+{
+    "uid": "213-E",
+    "url": "https://codeforces.com/contest/213/problem/E",
+    "tags": [
+        "data structures",
+        " hashing",
+        " strings"
+    ],
+    "title": "213-E",
+    "statement": "E. Two Permutationstime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutRubik is very keen on number permutations.Apermutationawith lengthnis a sequence, consisting ofndifferent numbers from 1 ton. Element numberi(1 ≤i≤n)of this permutation will be denoted asai.Furik decided to make a present to Rubik and came up with a new problem on permutations. Furik tells Rubik two number permutations: permutationawith lengthnand permutationbwith lengthm. Rubik must give an answer to the problem: how many distinct integersdexist, such that sequencec(c1=a1+d,c2=a2+d, ...,cn=an+d)of lengthnis a subsequence ofb.Sequenceais asubsequenceof sequenceb, if there are such indicesi1,i2, ...,in(1 ≤i1<i2< ... <in≤m), thata1=bi1,a2=bi2,...,an=bin, wherenis the length of sequencea, andmis the length of sequenceb.You are given permutationsaandb, help Rubik solve the given problem.InputThe first line contains two integersnandm(1 ≤n≤m≤ 200000)— the sizes of the given permutations. The second line containsndistinct integers — permutationa, the third line containsmdistinct integers — permutationb. Numbers on the lines are separated by spaces.OutputOn a single line print the answer to the problem.ExamplesInput1 111Output1Input1 212 1Output2Input3 32 3 11 2 3Output0",
+    "source": "CF",
+    "vjudge": false
+}

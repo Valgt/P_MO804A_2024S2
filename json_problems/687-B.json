@@ -1,0 +1,13 @@
+{
+    "uid": "687-B",
+    "url": "https://codeforces.com/contest/687/problem/B",
+    "tags": [
+        "chinese remainder theorem",
+        " math",
+        " number theory"
+    ],
+    "title": "687-B",
+    "statement": "B. Remainders Gametime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputToday Pari and Arya are playing a game called Remainders.Pari chooses two positive integerxandk, and tells Aryakbut notx. Arya have to find the value. There arenancient numbersc1,c2, ...,cnand Pari has to tell Aryaif Arya wants. Givenkand the ancient values, tell us if Arya has a winning strategy independent of value ofxor not. Formally, is it true that Arya can understand the valuefor any positive integerx?Note, thatmeans the remainder ofxafter dividing it byy.InputThe first line of the input contains two integersnandk(1 ≤n,k≤ 1 000 000) — the number of ancient integers and valuekthat is chosen by Pari.The second line containsnintegersc1,c2, ...,cn(1 ≤ci≤ 1 000 000).OutputPrint \"Yes\" (without quotes) if Arya has a winning strategy independent of value ofx, or \"No\" (without quotes) otherwise.ExamplesInput4 52 3 5 12OutputYesInput2 72 3OutputNoNoteIn the first sample, Arya can understandbecause5is one of the ancient numbers.In the second sample, Arya can't be sure whatis. For example1and7have the same remainders after dividing by2and3, but they differ in remainders after dividing by7.",
+    "source": "CF",
+    "vjudge": false
+}

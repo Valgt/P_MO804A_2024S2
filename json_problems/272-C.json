@@ -1,0 +1,12 @@
+{
+    "uid": "272-C",
+    "url": "https://codeforces.com/contest/272/problem/C",
+    "tags": [
+        "data structures",
+        " implementation"
+    ],
+    "title": "272-C",
+    "statement": "C. Dima and Staircasetime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutDima's got a staircase that consists ofnstairs. The first stair is at heighta1, the second one is ata2, the last one is atan(1 ≤a1≤a2≤ ... ≤an).Dima decided to play with the staircase, so he is throwing rectangular boxes at the staircase from above. Thei-th box has widthwiand heighthi. Dima throws each box vertically down on the firstwistairs of the staircase, that is, the box covers stairs with numbers1, 2, ...,wi. Each thrown box flies vertically down until at least one of the two following events happen:the bottom of the box touches the top of a stair;the bottom of the box touches the top of a box, thrown earlier.We only consider touching of the horizontal sides of stairs and boxes, at that touching with the corners isn't taken into consideration. Specifically, that implies that a box with widthwicannot touch the stair numberwi+ 1.You are given the description of the staircase and the sequence in which Dima threw the boxes at it. For each box, determine how high the bottom of the box after landing will be. Consider a box to fall after the previous one lands.InputThe first line contains integern(1 ≤n≤ 105)— the number of stairs in the staircase. The second line contains a non-decreasing sequence, consisting ofnintegers,a1,a2, ...,an(1 ≤ai≤ 109;ai≤ai+ 1).The next line contains integerm(1 ≤m≤ 105)— the number of boxes. Each of the followingmlines contains a pair of integerswi,hi(1 ≤wi≤n; 1 ≤hi≤ 109)— the size of thei-th thrown box.The numbers in the lines are separated by spaces.OutputPrintmintegers — for each box the height, where the bottom of the box will be after landing. Print the answers for the boxes in the order, in which the boxes are given in the input.Please, do not use the%lldspecifier to read or write 64-bit integers inC++. It is preferred to use thecin,coutstreams or the%I64dspecifier.ExamplesInput51 2 3 6 641 13 11 14 3Output1346Input31 2 321 13 1Output13Input1151 21 101 101 101 10Output13132333NoteThe first sample are shown on the picture.",
+    "source": "CF",
+    "vjudge": false
+}

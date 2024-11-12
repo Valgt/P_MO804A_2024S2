@@ -1,0 +1,13 @@
+{
+    "uid": "142-B",
+    "url": "https://codeforces.com/contest/142/problem/B",
+    "tags": [
+        "constructive algorithms",
+        " greedy",
+        " implementation"
+    ],
+    "title": "142-B",
+    "statement": "B. Help Generaltime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutOnce upon a time in the Kingdom of Far Far Away lived Sir Lancelot, the chief Royal General. He was very proud of his men and he liked to invite the King to come and watch drill exercises which demonstrated the fighting techniques and tactics of the squad he was in charge of. But time went by and one day Sir Lancelot had a major argument with the Fairy Godmother (there were rumors that the argument occurred after the general spoke badly of the Godmother's flying techniques. That seemed to hurt the Fairy Godmother very deeply).As the result of the argument, the Godmother put a rather strange curse upon the general. It sounded all complicated and quite harmless: \"If the squared distance between some two soldiers equals to5, then those soldiers will conflict with each other!\"The drill exercises are held on a rectangularn×mfield, split intonmsquare1 × 1segments for each soldier. Thus, the square of the distance between the soldiers that stand on squares(x1,y1)and(x2,y2)equals exactly(x1-x2)2+ (y1-y2)2. Now not allnmsquad soldiers can participate in the drill exercises as it was before the Fairy Godmother's curse. Unless, of course, the general wants the soldiers to fight with each other or even worse... For example, if he puts a soldier in the square(2, 2), then he cannot put soldiers in the squares(1, 4),(3, 4),(4, 1)and(4, 3)— each of them will conflict with the soldier in the square(2, 2).Your task is to help the general. You are given the size of the drill exercise field. You are asked to calculate the maximum number of soldiers that can be simultaneously positioned on this field, so that no two soldiers fall under the Fairy Godmother's curse.InputThe single line contains space-separated integersnandm(1 ≤n,m≤ 1000) that represent the size of the drill exercise field.OutputPrint the desired maximum number of warriors.ExamplesInput2 4Output4Input3 4Output6NoteIn the first sample test Sir Lancelot can place his 4 soldiers on the2 × 4court as follows (the soldiers' locations are marked with gray circles on the scheme):In the second sample test he can place 6 soldiers on the3 × 4site in the following manner:",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,12 @@
+{
+    "uid": "833-A",
+    "url": "https://codeforces.com/contest/833/problem/A",
+    "tags": [
+        "math",
+        " number theory"
+    ],
+    "title": "833-A",
+    "statement": "A. The Meaningless Gametime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputSlastyona and her loyal dog Pushok are playing a meaninglessgamethat is indeed very interesting.Thegameconsists of multiplerounds. Its rules are very simple: in each round, a natural numberkis chosen. Then, the one who says (or barks) it faster than the other wins theround. After that, the winner's score is multiplied byk2, and the loser's score is multiplied byk. In the beginning of thegame, both Slastyona and Pushok have scores equal to one.Unfortunately, Slastyona had lost her notepad where the history of allngameswas recorded. She managed to recall the final results for each games, though, but all of her memories of them are vague. Help Slastyona verify their correctness, or, to put it another way, for each given pair of scores determine whether it was possible for a game to finish with such result or not.InputIn the first string, the number of gamesn(1 ≤n≤ 350000)is given.Eachgameis represented by a pair of scoresa,b(1 ≤a,b≤ 109)– the results of Slastyona and Pushok, correspondingly.OutputFor each pair of scores, answer \"Yes\" if it's possible for a game to finish with given score, and \"No\" otherwise.You can output each letter in arbitrary case (upper or lower).ExampleInput62 475 458 816 16247 9941000000000 1000000OutputYesYesYesNoNoYesNoteFirstgamemight have been consisted of one round, in which the number2would have been chosen and Pushok would have won.The secondgameneeds exactly two rounds to finish with such result: in the first one, Slastyona would have said the number5, and in the second one, Pushok would have barked the number3.",
+    "source": "CF",
+    "vjudge": false
+}

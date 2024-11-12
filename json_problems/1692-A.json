@@ -1,0 +1,11 @@
+{
+    "uid": "1692-A",
+    "url": "https://codeforces.com/contest/1692/problem/A",
+    "tags": [
+        "implementation"
+    ],
+    "title": "1692-A",
+    "statement": "A. Marathontime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given fourdistinctintegers $$$a$$$, $$$b$$$, $$$c$$$, $$$d$$$.Timur and three other people are running a marathon. The value $$$a$$$ is the distance that Timur has run and $$$b$$$, $$$c$$$, $$$d$$$ correspond to the distances the other three participants ran.Output the number of participants in front of Timur.InputThe first line contains a single integer $$$t$$$ ($$$1 \\\\leq t \\\\leq 10^4$$$) — the number of test cases.The description of each test case consists of fourdistinctintegers $$$a$$$, $$$b$$$, $$$c$$$, $$$d$$$ ($$$0 \\\\leq a, b, c, d \\\\leq 10^4$$$).OutputFor each test case, output a single integer — the number of participants in front of Timur.ExampleInput42 3 4 110000 0 1 2500 600 400 3000 9999 10000 9998Output2 0 1 3NoteFor the first test case, there are $$$2$$$ people in front of Timur, specifically the participants who ran distances of $$$3$$$ and $$$4$$$. The other participant is not in front of Timur because he ran a shorter distance than Timur.For the second test case, no one is in front of Timur, since he ran a distance of $$$10000$$$ while all others ran a distance of $$$0$$$, $$$1$$$, and $$$2$$$ respectively.For the third test case, only the second person is in front of Timur, who ran a total distance of $$$600$$$ while Timur ran a distance of $$$500$$$.",
+    "source": "CF",
+    "vjudge": false
+}

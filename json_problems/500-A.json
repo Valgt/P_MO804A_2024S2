@@ -1,0 +1,13 @@
+{
+    "uid": "500-A",
+    "url": "https://codeforces.com/contest/500/problem/A",
+    "tags": [
+        "dfs and similar",
+        " graphs",
+        " implementation"
+    ],
+    "title": "500-A",
+    "statement": "A. New Year Transportationtime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutNew Year is coming in Line World! In this world, there arencells numbered by integers from1ton, as a1 ×nboard. People live in cells. However, it was hard to move between distinct cells, because of the difficulty of escaping the cell. People wanted to meet people who live in other cells.So, user tncks0121 has made a transportation system to move between these cells, to celebrate the New Year. First, he thought ofn- 1positive integersa1,a2, ...,an- 1. For every integeriwhere1 ≤i≤n- 1the condition1 ≤ai≤n-iholds. Next, he maden- 1portals, numbered by integers from 1 ton- 1. Thei-th (1 ≤i≤n- 1) portal connects celliand cell(i+ai), and one can travel from cellito cell(i+ai)using thei-th portal. Unfortunately, one cannot use the portal backwards, which means one cannot move from cell(i+ai)to celliusing thei-th portal. It is easy to see that because of condition1 ≤ai≤n-ione can't leave the Line World using portals.Currently, I am standing at cell1, and I want to go to cellt. However, I don't know whether it is possible to go there. Please determine whether I can go to celltby only using the construted transportation system.InputThe first line contains two space-separated integersn(3 ≤n≤ 3 × 104) andt(2 ≤t≤n) — the number of cells, and the index of the cell which I want to go to.The second line containsn- 1space-separated integersa1,a2, ...,an- 1(1 ≤ai≤n-i). It is guaranteed, that using the given transportation system, one cannot leave the Line World.OutputIf I can go to celltusing the transportation system, print \"YES\". Otherwise, print \"NO\".ExamplesInput8 41 2 1 2 1 2 1OutputYESInput8 51 2 1 2 1 1 1OutputNONoteIn the first sample, the visited cells are:1, 2, 4; so we can successfully visit the cell4.In the second sample, the possible cells to visit are:1, 2, 4, 6, 7, 8; so we can't visit the cell5, which we want to visit.",
+    "source": "CF",
+    "vjudge": false
+}

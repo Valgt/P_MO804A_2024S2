@@ -1,0 +1,14 @@
+{
+    "uid": "615-C",
+    "url": "https://codeforces.com/contest/615/problem/C",
+    "tags": [
+        "dp",
+        " greedy",
+        " strings",
+        " trees"
+    ],
+    "title": "615-C",
+    "statement": "C. Running Tracktime limit per test1 secondmemory limit per test512 megabytesinputstandard inputoutputstandard outputA boy named Ayrat lives on planet AMI-1511. Each inhabitant of this planet has a talent. Specifically, Ayrat loves running, moreover, just running is not enough for him. He is dreaming of making running a real art.First, he wants to construct the running track with coatingt. On planet AMI-1511 the coating of the track is the sequence of colored blocks, where each block is denoted as the small English letter. Therefore, every coating can be treated as a string.Unfortunately, blocks aren't freely sold to non-business customers, but Ayrat found an infinite number of coatingss. Also, he has scissors and glue. Ayrat is going to buy some coatingss, then cut out from each of themexactly one continuous piece(substring) and glue it to the end of his track coating. Moreover, he may choose to flip this block before glueing it. Ayrat want's to know the minimum number of coatingshe needs to buy in order to get the coatingtfor his running track. Of course, he also want's to know some way to achieve the answer.InputFirst line of the input contains the strings— the coating that is present in the shop. Second line contains the stringt— the coating Ayrat wants to obtain. Both strings are non-empty, consist of only small English letters and their length doesn't exceed2100.OutputThe first line should contain the minimum needed number of coatingsnor-1if it's impossible to create the desired coating.If the answer is not-1, then the followingnlines should contain two integersxiandyi— numbers of ending blocks in the corresponding piece. Ifxi≤yithen this piece is used in the regular order, and ifxi>yipiece is used in the reversed order. Print the pieces in the order they should be glued to get the stringt.ExamplesInputabccbaabcOutput23 11 3InputaaabrytaaaayratOutput31 16 58 7InputaminoOutput-1NoteIn the first sample string \"cbaabc\" = \"cba\" + \"abc\".In the second sample: \"ayrat\" = \"a\" + \"yr\" + \"at\".",
+    "source": "CF",
+    "vjudge": false
+}

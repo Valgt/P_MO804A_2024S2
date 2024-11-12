@@ -1,0 +1,13 @@
+{
+    "uid": "787-B",
+    "url": "https://codeforces.com/contest/787/problem/B",
+    "tags": [
+        "greedy",
+        " implementation",
+        " math"
+    ],
+    "title": "787-B",
+    "statement": "B. Not Afraidtime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputSince the giant heads have appeared in the sky all humanity is in danger, soallRicks and Mortys from all parallel universes are gathering in groups to find a solution to get rid of them.There arenparallel universes participating in this event (nRicks andnMortys). I. e. each ofnuniverses has one Rick and one Morty. They're gathering inmgroups. Each person can be in many groups and a group can contain an arbitrary number of members.Ricks and Mortys have registered online in these groups. So, a person can have joined a group more than once (developer of this website hadn't considered this possibility).Summer from universe #1 knows that in each parallel universe (including hers) exactly one of Rick and Morty from that universe is a traitor and is loyal, but no one knows which one. She knows that we are doomed if there's a group such that every member in that group is a traitor (they will plan and destroy the world).Summer knows that if there's a possibility that world ends (there's a group where all members are traitors) she should immediately cancel this event. So she wants to know if she should cancel the event. You have to tell her yes if and only if there's at least one scenario (among all2npossible scenarios,2possible scenarios for who a traitor in each universe) such that in that scenario the world will end.InputThe first line of input contains two integersnandm(1 ≤n,m≤ 104) — number of universes and number of groups respectively.The nextmlines contain the information about the groups.i-th of them first contains an integerk(number of times someone joinedi-th group,k> 0) followed bykintegersvi, 1,vi, 2, ...,vi,k. Ifvi,jis negative, it means that Rick from universe number-vi,jhas joined this group and otherwise it means that Morty from universe numbervi,jhas joined it.Sum ofkfor all groups does not exceed104.OutputIn a single line print the answer to Summer's question. Print \"YES\" if she should cancel the event and \"NO\" otherwise.ExamplesInput4 21 -34 -2 3 2 -3OutputYESInput5 25 3 -2 1 -1 53 -5 2 5OutputNOInput7 23 -1 6 77 -5 4 2 4 7 -3 4OutputYESNoteIn the first sample testcase,1st group only contains the Rick from universe number3, so in case he's a traitor, then all members of this group are traitors and so Summer should cancel the event.",
+    "source": "CF",
+    "vjudge": false
+}

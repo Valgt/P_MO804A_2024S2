@@ -1,0 +1,11 @@
+{
+    "uid": "53-D",
+    "url": "https://codeforces.com/contest/53/problem/D",
+    "tags": [
+        "sortings"
+    ],
+    "title": "53-D",
+    "statement": "D. Physical Educationtime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutVasya is a school PE teacher. Unlike other PE teachers, Vasya doesn't like it when the students stand in line according to their height. Instead, he demands that the children stand in the following order:a1,a2, ...,an, whereaiis the height of thei-th student in the line andnis the number of students in the line. The children find it hard to keep in mind this strange arrangement, and today they formed the line in the following order:b1,b2, ...,bn, which upset Vasya immensely. Now Vasya wants to rearrange the children so that the resulting order is like this:a1,a2, ...,an. During each move Vasya can swap two people who stand next to each other in the line. Help Vasya, find the sequence of swaps leading to the arrangement Vasya needs. It is not required to minimize the number of moves.InputThe first line contains an integern(1 ≤n≤ 300) which is the number of students. The second line containsnspace-separated integersai(1 ≤ai≤ 109) which represent the height of the student occupying thei-th place must possess. The third line containsnspace-separated integersbi(1 ≤bi≤ 109) which represent the height of the student occupying thei-th place in the initial arrangement. It is possible that some students possess similar heights. It is guaranteed that it is possible to arrange the children in the required order, i.e.aandbcoincide as multisets.OutputIn the first line print an integerk(0 ≤k≤ 106) which is the number of moves. It is not required to minimizekbut it must not exceed106. Then printklines each containing two space-separated integers. Linepi,pi+ 1(1 ≤pi≤n- 1) means that Vasya should swap students occupying placespiandpi+ 1.ExamplesInput41 2 3 23 2 1 2Output42 31 23 42 3Input21 1005001 100500Output0",
+    "source": "CF",
+    "vjudge": false
+}

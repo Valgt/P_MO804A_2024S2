@@ -1,0 +1,12 @@
+{
+    "uid": "175-A",
+    "url": "https://codeforces.com/contest/175/problem/A",
+    "tags": [
+        "brute force",
+        " implementation"
+    ],
+    "title": "175-A",
+    "statement": "A. Robot Bicorn Attacktime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutVasya plays Robot Bicorn Attack.The game consists of three rounds. For each one a non-negative integer amount of points is given. The result of the game is the sum of obtained points. Vasya has already played three rounds and wrote obtained points one by one (without leading zeros) into the strings. Vasya decided to brag about his achievement to the friends. However, he has forgotten how many points he got for each round. The only thing he remembers is the strings.Help Vasya to find out what is the maximum amount of points he could get. Take into account that Vasya played Robot Bicorn Attack for the first time, so he could not get more than 1000000 (106) points for one round.InputThe only line of input contains non-empty stringsobtained by Vasya. The string consists of digits only. The string length does not exceed 30 characters.OutputPrint the only number — the maximum amount of points Vasya could get. If Vasya is wrong and the string could not be obtained according to the rules then output number -1.ExamplesInput1234Output37Input9000Output90Input0009Output-1NoteIn the first example the string must be split into numbers 1, 2 and 34.In the second example the string must be split into numbers 90, 0 and 0.In the third example the string is incorrect, because after splitting the string into 3 numbers number 00 or 09 will be obtained, but numbers cannot have leading zeroes.",
+    "source": "CF",
+    "vjudge": false
+}

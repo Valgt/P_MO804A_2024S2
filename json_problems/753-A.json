@@ -1,0 +1,13 @@
+{
+    "uid": "753-A",
+    "url": "https://codeforces.com/contest/753/problem/A",
+    "tags": [
+        "dp",
+        " greedy",
+        " math"
+    ],
+    "title": "753-A",
+    "statement": "A. Santa Claus and Candiestime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputSanta Claus hasncandies, he dreams to give them as gifts to children.What is the maximal number of children for whose he can give candies if Santa Claus want each kid should getdistinctpositive integer number of candies. Santa Class wants to give allncandies he has.InputThe only line contains positive integer numbern(1 ≤n≤ 1000) — number of candies Santa Claus has.OutputPrint to the first line integer numberk— maximal number of kids which can get candies.Print to the second linekdistinctinteger numbers: number of candies for each ofkkid. The sum ofkprinted numbers should be exactlyn.If there are many solutions, print any of them.ExamplesInput5Output22 3Input9Output33 5 1Input2Output12",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,13 @@
+{
+    "uid": "724-F",
+    "url": "https://codeforces.com/contest/724/problem/F",
+    "tags": [
+        "combinatorics",
+        " dp",
+        " trees"
+    ],
+    "title": "724-F",
+    "statement": "F. Uniformly Branched Treestime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputA tree is a connected graph without cycles.Two trees, consisting ofnvertices each, are calledisomorphicif there exists a permutationp: {1, ...,n} → {1, ...,n}such that the edge(u,v)is present in the first tree if and only if the edge(pu,pv)is present in the second tree.Vertex of the tree is called internal if its degree is greater than or equal to two.Count the number of different non-isomorphic trees, consisting ofnvertices, such that the degree of each internal vertex isexactlyd. Print the answer over the given prime modulomod.InputThe single line of the input contains three integersn,dandmod(1 ≤n≤ 1000,2 ≤d≤ 10,108≤mod≤ 109)  — the number of vertices in the tree, the degree of internal vertices and the prime modulo.OutputPrint the number of trees over the modulomod.ExamplesInput5 2 433416647Output1Input10 3 409693891Output2Input65 4 177545087Output910726",
+    "source": "CF",
+    "vjudge": false
+}

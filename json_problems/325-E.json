@@ -1,0 +1,15 @@
+{
+    "uid": "325-E",
+    "url": "https://codeforces.com/contest/325/problem/E",
+    "tags": [
+        "combinatorics",
+        " dfs and similar",
+        " dsu",
+        " graphs",
+        " greedy"
+    ],
+    "title": "325-E",
+    "statement": "E. The Red Buttontime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutPiegirl found the red button. You have one last chance to change the inevitable end.The circuit under the button consists ofnnodes, numbered from 0 ton- 1. In order to deactivate the button, thennodes must be disarmed in a particular order. Node 0 must be disarmed first. After disarming nodei, the next node to be disarmed must be either node(2·i)modulonor node(2·i) + 1modulon. The last node to be disarmed must be node 0. Node 0 must be disarmed twice, but all other nodes must be disarmed exactly once.Your task is to find any such order and print it. If there is no such order, print-1.InputInput consists of a single integern(2 ≤n≤ 105).OutputPrint an order in which you can to disarm all nodes. If it is impossible, print-1instead. If there are multiple orders, print any one of them.ExamplesInput2Output0 1 0Input3Output-1Input4Output0 1 3 2 0Input16Output0 1 2 4 9 3 6 13 10 5 11 7 15 14 12 8 0",
+    "source": "CF",
+    "vjudge": false
+}

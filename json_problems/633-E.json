@@ -1,0 +1,15 @@
+{
+    "uid": "633-E",
+    "url": "https://codeforces.com/contest/633/problem/E",
+    "tags": [
+        "binary search",
+        " constructive algorithms",
+        " data structures",
+        " probabilities",
+        " two pointers"
+    ],
+    "title": "633-E",
+    "statement": "E. Startup Fundingtime limit per test3 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputAn e-commerce startup pitches to the investors to get funding. They have been functional fornweeks now and also have a website!For each week they know the number of unique visitors during this weekviand the revenueci. To evaluate the potential of the startup at some range of weeks fromltorinclusive investors use the minimum among the maximum number of visitors multiplied by100and the minimum revenue during this period, that is:The truth is that investors have no idea how to efficiently evaluate the startup, so they are going to pick somekrandom distinct weeksliand give them to managers of the startup. For eachlithey should pick someri≥liand report maximum number of visitors and minimum revenue during this period.Then, investors will calculate the potential of the startup for each of these ranges and take minimum value ofp(li,ri)as the total evaluation grade of the startup. Assuming that managers of the startup always report the optimal values ofrifor some particularli, i.e., the value such that the resulting grade of the startup is maximized, what is the expected resulting grade of the startup?InputThe first line of the input contains two integersnandk(1 ≤k≤n≤ 1 000 000).The second line containsnintegersvi(1 ≤vi≤ 107) — the number of unique visitors during each week.The third line containsnintegersci(1 ≤ci≤ 107) —the revenue for each week.OutputPrint a single real value — the expected grade of the startup. Your answer will be considered correct if its absolute or relative error does not exceed10- 6.Namely: let's assume that your answer isa, and the answer of the jury isb. The checker program will consider your answer correct, if.ExamplesInput3 23 2 1300 200 300Output133.3333333NoteConsider the first sample.If the investors ask forli= 1onwards, startup will chooseri= 1, such that max number of visitors is3and minimum revenue is300. Thus, potential in this case ismin(3·100, 300) = 300.If the investors ask forli= 2onwards, startup will chooseri= 3, such that max number of visitors is2and minimum revenue is200. Thus, potential in this case ismin(2·100, 200) = 200.If the investors ask forli= 3onwards, startup will chooseri= 3, such that max number of visitors is1and minimum revenue is300. Thus, potential in this case ismin(1·100, 300) = 100.We have to choose a set of size2equi-probably and take minimum of each. The possible sets here are :{200, 300},{100, 300},{100, 200}, effectively the set of possible values as perceived by investors equi-probably:{200, 100, 100}. Thus, the expected value is(100 + 200 + 100) / 3 = 133.(3).",
+    "source": "CF",
+    "vjudge": false
+}

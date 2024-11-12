@@ -1,0 +1,16 @@
+{
+    "uid": "455-B",
+    "url": "https://codeforces.com/contest/455/problem/B",
+    "tags": [
+        "dfs and similar",
+        " dp",
+        " games",
+        " implementation",
+        " strings",
+        " trees"
+    ],
+    "title": "455-B",
+    "statement": "B. A Lot of Gamestime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutAndrew, Fedor and Alex are inventive guys. Now they invent the game with strings for two players.Given a group ofnnon-empty strings. During the game two players build the word together, initially the word is empty. The players move in turns. On his step player must add a single letter in the end of the word, the resulting word must be prefix of at least one string from the group. A player loses if he cannot move.Andrew and Alex decided to play this gamektimes. The player who is the loser of thei-th game makes the first move in the(i+ 1)-th game. Guys decided that the winner of all games is the player who wins the last (k-th) game. Andrew and Alex already started the game. Fedor wants to know who wins the game if both players will play optimally. Help him.InputThe first line contains two integers,nandk(1 ≤n≤ 105;1 ≤k≤ 109).Each of the nextnlines contains a single non-empty string from the given group. The total length of all strings from the group doesn't exceed105. Each string of the group consists only of lowercase English letters.OutputIf the player who moves first wins, print \"First\", otherwise print \"Second\" (without the quotes).ExamplesInput2 3abOutputFirstInput3 1abcOutputFirstInput1 2abOutputSecond",
+    "source": "CF",
+    "vjudge": false
+}

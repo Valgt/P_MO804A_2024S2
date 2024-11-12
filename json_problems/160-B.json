@@ -1,0 +1,12 @@
+{
+    "uid": "160-B",
+    "url": "https://codeforces.com/contest/160/problem/B",
+    "tags": [
+        "greedy",
+        " sortings"
+    ],
+    "title": "160-B",
+    "statement": "B. Unlucky Tickettime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutEach of you probably has your personal experience of riding public transportation and buying tickets. After a person buys a ticket (which traditionally has anevennumber of digits), he usually checks whether the ticket is lucky. Let us remind you that a ticket is lucky if the sum of digits in its first half matches the sum of digits in its second half.But of course, not every ticket can be lucky. Far from it! Moreover, sometimes one look at a ticket can be enough to say right away that the ticket is not lucky. So, let's consider the followingunluckiness criterionthat can definitely determine an unlucky ticket. We'll say that a ticket is definitely unlucky if each digit from the first half corresponds to some digit from the second half so that each digit from the first half isstrictly lessthan the corresponding digit from the second one or each digit from the first half isstrictly morethan the corresponding digit from the second one. Each digit should be used exactly once in the comparisons. In other words, there is suchbijective correspondencebetween the digits of the first and the second half of the ticket, that either each digit of the first half turns outstrictly lessthan the corresponding digit of the second half or each digit of the first half turns outstrictly morethan the corresponding digit from the second half.For example, ticket2421meets the following unluckiness criterion and will not be considered lucky (the sought correspondence is2 > 1and4 > 2), ticket0135also meets the criterion (the sought correspondence is0 < 3and1 < 5), and ticket3754does not meet the criterion.You have a ticket in your hands, it contains2ndigits. Your task is to check whether it meets the unluckiness criterion.InputThe first line contains an integern(1 ≤n≤ 100). The second line contains a string that consists of2ndigits and defines your ticket.OutputIn the first line print \"YES\" if the ticket meets the unluckiness criterion. Otherwise, print \"NO\" (without the quotes).ExamplesInput22421OutputYESInput20135OutputYESInput23754OutputNO",
+    "source": "CF",
+    "vjudge": false
+}

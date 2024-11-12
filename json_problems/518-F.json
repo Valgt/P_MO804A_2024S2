@@ -1,0 +1,15 @@
+{
+    "uid": "518-F",
+    "url": "https://codeforces.com/contest/518/problem/F",
+    "tags": [
+        "binary search",
+        " brute force",
+        " combinatorics",
+        " dp",
+        " implementation"
+    ],
+    "title": "518-F",
+    "statement": "F. Pasha and Pipetime limit per test4 secondsmemory limit per test512 megabytesinputstdinoutputstdoutOn a certain meeting of a ruling party \"A\" minister Pavel suggested to improve the sewer system and to create a new pipe in the city.The city is ann×mrectangular squared field. Each square of the field is either empty (then the pipe can go in it), or occupied (the pipe cannot go in such square). Empty squares are denoted by character '.', occupied squares are denoted by character '#'.The pipe must meet the following criteria:the pipe is a polyline of width1,the pipe goes in empty squares,the pipe starts from the edge of the field, but not from a corner square,the pipe ends at the edge of the field but not in a corner square,the pipe has at most2turns (90degrees),the border squares of the field must shareexactly twosquares with the pipe,if the pipe looks like a single segment, then the end points of the pipe must lie on distinct edges of the field,for each non-border square of the pipe there areexacly twoside-adjacent squares that also belong to the pipe,for each border square of the pipe there isexactly oneside-adjacent cell that also belongs to the pipe.Here are some samples ofallowedpiping routes:....#            ....#            .*..#*****            ****.            .***...#..            ..#*.            ..#*.#...#            #..*#            #..*#.....            ...*.            ...*.Here are some samples offorbiddenpiping routes:.**.#            *...#            .*.*#.....            ****.            .*.*...#..            ..#*.            .*#*.#...#            #..*#            #*.*#.....            ...*.            .***.In these samples the pipes are represented by characters '*'.You were asked to write a program that calculates the number of distinct ways to make exactly one pipe in the city.The two ways to make a pipe are considered distinct if they are distinct in at least one square.InputThe first line of the input contains two integersn,m(2 ≤n,m≤ 2000) — the height and width of Berland map.Each of the nextnlines containsmcharacters — the map of the city.If the square of the map is marked by character '.', then the square is empty and the pipe can through it.If the square of the map is marked by character '#', then the square is full and the pipe can't through it.OutputIn the first line of the output print a single integer — the number of distinct ways to create a pipe.ExamplesInput3 3.....#...Output3Input4 2........Output2Input4 5#...##...####.####.#Output4NoteIn the first sample there are 3 ways to make a pipe (the squares of the pipe are marked by characters '*'):.*.        .*.        ....*#        **#        **#.*.        ...        .*.",
+    "source": "CF",
+    "vjudge": false
+}

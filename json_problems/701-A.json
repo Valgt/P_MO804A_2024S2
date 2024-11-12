@@ -1,0 +1,12 @@
+{
+    "uid": "701-A",
+    "url": "https://codeforces.com/contest/701/problem/A",
+    "tags": [
+        "greedy",
+        " implementation"
+    ],
+    "title": "701-A",
+    "statement": "A. Cardstime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputThere arencards (niseven) in the deck. Each card has a positive integer written on it.n/ 2people will play new card game. At the beginning of the game each player gets two cards, each card is given to exactly one player.Find the way to distribute cards such that the sum of values written of the cards will be equal for each player. It is guaranteed that it is always possible.InputThe first line of the input contains integern(2 ≤n≤ 100) — the number of cards in the deck. It is guaranteed thatnis even.The second line contains the sequence ofnpositive integersa1,a2, ...,an(1 ≤ai≤ 100), whereaiis equal to the number written on thei-th card.OutputPrintn/ 2pairs of integers, thei-th pair denote the cards that should be given to thei-th player. Each card should be given to exactly one player. Cards are numbered in the order they appear in the input.It is guaranteed that solution exists. If there are several correct answers, you are allowed to print any of them.ExamplesInput61 5 7 4 4 3Output1 36 24 5Input410 10 10 10Output1 23 4NoteIn the first sample, cards are distributed in such a way that each player has the sum of numbers written on his cards equal to8.In the second sample, all valuesaiare equal. Thus, any distribution is acceptable.",
+    "source": "CF",
+    "vjudge": false
+}

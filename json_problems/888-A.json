@@ -1,0 +1,12 @@
+{
+    "uid": "888-A",
+    "url": "https://codeforces.com/contest/888/problem/A",
+    "tags": [
+        "brute force",
+        " implementation"
+    ],
+    "title": "888-A",
+    "statement": "A. Local Extrematime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given an arraya. Some element of this arrayaiis alocal minimumiff it is strictly less than both of its neighbours (that is,ai<ai- 1andai<ai+ 1). Also the element can be calledlocal maximumiff it is strictly greater than its neighbours (that is,ai>ai- 1andai>ai+ 1). Sincea1andanhave only one neighbour each, they are neither local minima nor local maxima.An element is called alocal extremumiff it is either local maximum or local minimum. Your task is to calculate the number of local extrema in the given array.InputThe first line contains one integern(1 ≤n≤ 1000) — the number of elements in arraya.The second line containsnintegersa1,a2, ...,an(1 ≤ai≤ 1000) — the elements of arraya.OutputPrint the number of local extrema in the given array.ExamplesInput31 2 3Output0Input41 5 2 5Output2",
+    "source": "CF",
+    "vjudge": false
+}

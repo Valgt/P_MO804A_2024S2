@@ -1,0 +1,13 @@
+{
+    "uid": "440-C",
+    "url": "https://codeforces.com/contest/440/problem/C",
+    "tags": [
+        "brute force",
+        " dfs and similar",
+        " divide and conquer"
+    ],
+    "title": "440-C",
+    "statement": "C. One-Based Arithmetictime limit per test0.5 secondsmemory limit per test256 megabytesinputstdinoutputstdoutProf. Vasechkin wants to represent positive integernas a sum of addends, where each addends is an integer number containing only1s. For example, he can represent 121 as 121=111+11+–1. Help him to find the least number of digits1in such sum.InputThe first line of the input contains integern(1 ≤n< 1015).OutputPrint expected minimal number of digits1.ExamplesInput121Output6",
+    "source": "CF",
+    "vjudge": false
+}

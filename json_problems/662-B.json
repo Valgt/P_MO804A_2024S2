@@ -1,0 +1,12 @@
+{
+    "uid": "662-B",
+    "url": "https://codeforces.com/contest/662/problem/B",
+    "tags": [
+        "dfs and similar",
+        " graphs"
+    ],
+    "title": "662-B",
+    "statement": "B. Graph Coloringtime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given an undirected graph that consists ofnvertices andmedges. Initially, each edge is colored either red or blue. Each turn a player picks a single vertex and switches the color ofalledges incident to it. That is, all red edges with an endpoint in this vertex change the color to blue, while all blue edges with an endpoint in this vertex change the color to red.Find the minimum possible number of moves required to make the colors of all edges equal.InputThe first line of the input contains two integersnandm(1 ≤n,m≤ 100 000) — the number of vertices and edges, respectively.The followingmlines provide the description of the edges, as thei-th of them contains two integersuiandvi(1 ≤ui,vi≤n,ui≠vi) — the indices of the vertices connected by thei-th edge, and a characterci() providing the initial color of this edge. Ifciequals 'R', then this edge is initially colored red. Otherwise,ciis equal to 'B' and this edge is initially colored blue. It's guaranteed that there are no self-loops and multiple edges.OutputIf there is no way to make the colors of all edges equal output- 1in the only line of the output. Otherwise first outputk— the minimum number of moves required to achieve the goal, then outputkintegersa1,a2, ...,ak, whereaiis equal to the index of the vertex that should be used at thei-th move.If there are multiple optimal sequences of moves, output any of them.ExamplesInput3 31 2 B3 1 R3 2 BOutput12Input6 51 3 R2 3 R3 4 B4 5 R4 6 ROutput23 4Input4 51 2 R1 3 R2 3 B3 4 B1 4 BOutput-1",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,11 @@
+{
+    "uid": "510-B",
+    "url": "https://codeforces.com/contest/510/problem/B",
+    "tags": [
+        "dfs and similar"
+    ],
+    "title": "510-B",
+    "statement": "B. Fox And Two Dotstime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutFox Ciel is playing a mobile puzzle game called \"Two Dots\". The basic levels are played on a board of sizen×mcells, like this:Each cell contains a dot that has some color. We will use different uppercase Latin characters to express different colors.The key of this game is to find a cycle that contain dots of same color. Consider 4 blue dots on the picture forming a circle as an example. Formally, we call a sequence of dotsd1,d2, ...,dkacycleif and only if it meets the following condition:Thesekdots are different: ifi≠jthendiis different fromdj.kis at least 4.All dots belong to the same color.For all1 ≤i≤k- 1:dianddi+ 1are adjacent. Also,dkandd1should also be adjacent. Cellsxandyare called adjacent if they share an edge.Determine if there exists acycleon the field.InputThe first line contains two integersnandm(2 ≤n,m≤ 50): the number of rows and columns of the board.Thennlines follow, each line contains a string consisting ofmcharacters, expressing colors of dots in each line. Each character is an uppercase Latin letter.OutputOutput \"Yes\" if there exists acycle, and \"No\" otherwise.ExamplesInput3 4AAAAABCAAAAAOutputYesInput3 4AAAAABCAAADAOutputNoInput4 4YYYRBYBYBBBYBBBYOutputYesInput7 6AAAAABABBBABABAAABABABBBABAAABABBBABAAAAABOutputYesInput2 13ABCDEFGHIJKLMNOPQRSTUVWXYZOutputNoNoteIn first sample test all 'A' form a cycle.In second sample there is no such cycle.The third sample is displayed on the picture above ('Y' = Yellow, 'B' = Blue, 'R' = Red).",
+    "source": "CF",
+    "vjudge": false
+}

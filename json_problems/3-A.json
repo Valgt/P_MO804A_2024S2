@@ -1,0 +1,12 @@
+{
+    "uid": "3-A",
+    "url": "https://codeforces.com/contest/3/problem/A",
+    "tags": [
+        "greedy",
+        " shortest paths"
+    ],
+    "title": "3-A",
+    "statement": "A. Shortest path of the kingtime limit per test1 secondmemory limit per test64 megabytesinputstdinoutputstdoutThe king is left alone on the chessboard. In spite of this loneliness, he doesn't lose heart, because he has business of national importance. For example, he has to pay an official visit to squaret. As the king is not in habit of wasting his time, he wants to get from his current positionsto squaretin the least number of moves. Help him to do this.In one move the king can get to the square that has a common side or a common vertex with the square the king is currently in (generally there are 8 different squares he can move to).InputThe first line contains the chessboard coordinates of squares, the second line — of squaret.Chessboard coordinates consist of two characters, the first one is a lowercase Latin letter (fromatoh), the second one is a digit from1to8.OutputIn the first line printn— minimum number of the king's moves. Then innlines print the moves themselves. Each move is described with one of the 8:L,R,U,D,LU,LD,RUorRD.L,R,U,Dstand respectively for moves left, right, up and down (according to the picture), and 2-letter combinations stand for diagonal moves. If the answer is not unique, print any of them.ExamplesInputa8h1Output7RDRDRDRDRDRDRD",
+    "source": "CF",
+    "vjudge": false
+}

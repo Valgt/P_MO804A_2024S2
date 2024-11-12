@@ -1,0 +1,14 @@
+{
+    "uid": "1307-C",
+    "url": "https://codeforces.com/contest/1307/problem/C",
+    "tags": [
+        "brute force",
+        " dp",
+        " math",
+        " strings"
+    ],
+    "title": "1307-C",
+    "statement": "C. Cow and Messagetime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputBessie the cow has just intercepted a text that Farmer John sent to Burger Queen! However, Bessie is sure that there is a secret message hidden inside.The text is a string $$$s$$$ of lowercase Latin letters. She considers a string $$$t$$$ as hidden in string $$$s$$$ if $$$t$$$ exists as a subsequence of $$$s$$$ whose indices form an arithmetic progression. For example, the stringaabis hidden in stringaaabbbecause it occurs at indices $$$1$$$, $$$3$$$, and $$$5$$$, which form an arithmetic progression with a common difference of $$$2$$$. Bessie thinks that any hidden string that occurs the most times is the secret message. Two occurrences of a subsequence of $$$S$$$ are distinct if the sets of indices are different. Help her find the number of occurrences of the secret message!For example, in the stringaaabb,ais hidden $$$3$$$ times,bis hidden $$$2$$$ times,abis hidden $$$6$$$ times,aais hidden $$$3$$$ times,bbis hidden $$$1$$$ time,aabis hidden $$$2$$$ times,aaais hidden $$$1$$$ time,abbis hidden $$$1$$$ time,aaabis hidden $$$1$$$ time,aabbis hidden $$$1$$$ time, andaaabbis hidden $$$1$$$ time. The number of occurrences of the secret message is $$$6$$$.InputThe first line contains a string $$$s$$$ of lowercase Latin letters ($$$1 \\\\le |s| \\\\le 10^5$$$) — the text that Bessie intercepted.OutputOutput a single integer  — the number of occurrences of the secret message.ExamplesInputaaabbOutput6InputusacoOutput1InputlolOutput2NoteIn the first example, these are all the hidden strings and their indice sets:aoccurs at $$$(1)$$$, $$$(2)$$$, $$$(3)$$$boccurs at $$$(4)$$$, $$$(5)$$$aboccurs at $$$(1,4)$$$, $$$(1,5)$$$, $$$(2,4)$$$, $$$(2,5)$$$, $$$(3,4)$$$, $$$(3,5)$$$aaoccurs at $$$(1,2)$$$, $$$(1,3)$$$, $$$(2,3)$$$bboccurs at $$$(4,5)$$$aaboccurs at $$$(1,3,5)$$$, $$$(2,3,4)$$$aaaoccurs at $$$(1,2,3)$$$abboccurs at $$$(3,4,5)$$$aaaboccurs at $$$(1,2,3,4)$$$aabboccurs at $$$(2,3,4,5)$$$aaabboccurs at $$$(1,2,3,4,5)$$$Note that all the sets of indices are arithmetic progressions.In the second example, no hidden string occurs more than once.In the third example, the hidden string is the letterl.",
+    "source": "CF",
+    "vjudge": false
+}

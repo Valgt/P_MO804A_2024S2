@@ -1,0 +1,13 @@
+{
+    "uid": "550-D",
+    "url": "https://codeforces.com/contest/550/problem/D",
+    "tags": [
+        "constructive algorithms",
+        " graphs",
+        " implementation"
+    ],
+    "title": "550-D",
+    "statement": "D. Regular Bridgetime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputAn undirected graph is calledk-regular, if the degrees of all its vertices are equalk. An edge of a connected graph is called abridge, if after removing it the graph is being split into two connected components.Build a connected undirectedk-regular graph containing at least one bridge, or else state that such graph doesn't exist.InputThe single line of the input contains integerk(1 ≤k≤ 100) — the required degree of the vertices of the regular graph.OutputPrint \"NO\" (without quotes), if such graph doesn't exist.Otherwise, print \"YES\" in the first line and the description of any suitable graph in the next lines.The description of the made graph must start with numbersnandm— the number of vertices and edges respectively.Each of the nextmlines must contain two integers,aandb(1 ≤a,b≤n,a≠b), that mean that there is an edge connecting the verticesaandb. A graph shouldn't contain multiple edges and edges that lead from a vertex to itself. A graph must be connected, the degrees of all vertices of the graph must be equalk. At least one edge of the graph must be a bridge. You can print the edges of the graph in any order. You can print the ends of each edge in any order.The constructed graph must contain at most106vertices and106edges (it is guaranteed that if at least one graph that meets the requirements exists, then there also exists the graph with at most106vertices and at most106edges).ExamplesInput1OutputYES2 11 2NoteIn the sample from the statement there is a suitable graph consisting of two vertices, connected by a single edge.",
+    "source": "CF",
+    "vjudge": false
+}

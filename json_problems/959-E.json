@@ -1,0 +1,15 @@
+{
+    "uid": "959-E",
+    "url": "https://codeforces.com/contest/959/problem/E",
+    "tags": [
+        "bitmasks",
+        " dp",
+        " graphs",
+        " implementation",
+        " math"
+    ],
+    "title": "959-E",
+    "statement": "E. Mahmoud and Ehab and the xor-MSTtime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputEhab is interested in the bitwise-xor operation and the special graphs. Mahmoud gave him a problem that combines both. He has a complete graph consisting ofnvertices numbered from0ton- 1. For all0 ≤u<v<n, vertexuand vertexvare connected with an undirected edge that has weight(whereis thebitwise-xor operation). Can you find the weight of the minimum spanning tree of that graph?You can read about complete graphs inhttps://en.wikipedia.org/wiki/Complete_graphYou can read about the minimum spanning tree inhttps://en.wikipedia.org/wiki/Minimum_spanning_treeThe weight of the minimum spanning tree is the sum of the weights on the edges included in it.InputThe only line contains an integern(2 ≤n≤ 1012), the number of vertices in the graph.OutputThe only line contains an integerx, the weight of the graph's minimum spanning tree.ExampleInput4Output4NoteIn the first sample:The weight of the minimum spanning tree is 1+2+1=4.",
+    "source": "CF",
+    "vjudge": false
+}

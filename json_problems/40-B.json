@@ -1,0 +1,11 @@
+{
+    "uid": "40-B",
+    "url": "https://codeforces.com/contest/40/problem/B",
+    "tags": [
+        "math"
+    ],
+    "title": "40-B",
+    "statement": "B. Repaintingstime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutA chessboardn×min size is given. During the zero minute we repaint all the black squares to the 0 color. During thei-th minute we repaint to theicolor theinitially blacksquares that have exactly four corner-adjacent squares paintedi- 1(all such squares are repainted simultaneously). This process continues ad infinitum. You have to figure out how many squares we repainted exactlyxtimes.The upper left square of the board has to be assumed to be always black. Two squares are called corner-adjacent, if they have exactly one common point.InputThe first line contains integersnandm(1 ≤n,m≤ 5000). The second line contains integerx(1 ≤x≤ 109).OutputPrint how many squares will be painted exactlyxtimes.ExamplesInput3 31Output4Input3 32Output1Input1 11Output1",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,13 @@
+{
+    "uid": "76-D",
+    "url": "https://codeforces.com/contest/76/problem/D",
+    "tags": [
+        "dp",
+        " greedy",
+        " math"
+    ],
+    "title": "76-D",
+    "statement": "D. Plus and xortime limit per test0.5 secondmemory limit per test256 megabytesinputstdinoutputstdoutBitwise exclusive OR (or bitwise addition modulo two) is a binary operation which is equivalent to applying logical exclusive OR to every pair of bits located on the same positions in binary notation of operands. In other words, a binary digit of the result is equal to 1 if and only if bits on the respective positions in the operands are different.For example, ifX= 10910= 11011012,Y= 4110= 1010012, then:XxorY=  6810=  10001002.Write a program, which takes two non-negative integersAandBas an input and finds two non-negative integersXandY, which satisfy the following conditions:A=X+YB=XxorY, wherexoris bitwise exclusive or.Xis the smallest number among all numbers for which the first two conditions are true.InputThe first line contains integer numberAand the second line contains integer numberB(0 ≤A,B≤ 264- 1).OutputThe only output line should contain two integer non-negative numbersXandY. Print the only number-1if there is no answer.ExamplesInput14276Output33 109",
+    "source": "CF",
+    "vjudge": false
+}

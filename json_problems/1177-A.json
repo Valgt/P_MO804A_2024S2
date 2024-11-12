@@ -1,0 +1,11 @@
+{
+    "uid": "1177-A",
+    "url": "https://codeforces.com/contest/1177/problem/A",
+    "tags": [
+        "implementation"
+    ],
+    "title": "1177-A",
+    "statement": "A. Digits Sequence (Easy Edition)time limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputLet's write all the positive integer numbers one after another from $$$1$$$ without any delimiters (i.e. as a single string). It will be the infinite sequence starting with123456789101112131415161718192021222324252627282930313233343536...Your task is to print the $$$k$$$-th digit of this sequence.InputThe first and only line contains integer $$$k$$$ ($$$1 \\\\le k \\\\le 10000$$$) — the position to process ($$$1$$$-based index).OutputPrint the $$$k$$$-th digit of the resulting infinite sequence.ExamplesInput7Output7Input21Output5",
+    "source": "CF",
+    "vjudge": false
+}

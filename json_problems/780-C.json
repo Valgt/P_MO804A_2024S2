@@ -1,0 +1,14 @@
+{
+    "uid": "780-C",
+    "url": "https://codeforces.com/contest/780/problem/C",
+    "tags": [
+        "dfs and similar",
+        " graphs",
+        " greedy",
+        " trees"
+    ],
+    "title": "780-C",
+    "statement": "C. Andryusha and Colored Balloonstime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputAndryusha goes through a park each day. The squares and paths between them look boring to Andryusha, so he decided to decorate them.The park consists ofnsquares connected with(n- 1)bidirectional paths in such a way that any square is reachable from any other using these paths. Andryusha decided to hang a colored balloon at each of the squares. The baloons' colors are described by positive integers, starting from1. In order to make the park varicolored, Andryusha wants to choose the colors in a special way. More precisely, he wants to use such colors that ifa,bandcare distinct squares thataandbhave a direct path between them, andbandchave a direct path between them, then balloon colors on these three squares are distinct.Andryusha wants to use as little different colors as possible. Help him to choose the colors!InputThe first line contains single integern(3 ≤n≤ 2·105) — the number of squares in the park.Each of the next(n- 1)lines contains two integersxandy(1 ≤x,y≤n) — the indices of two squares directly connected by a path.It is guaranteed that any square is reachable from any other using the paths.OutputIn the first line print single integerk— the minimum number of colors Andryusha has to use.In the second line printnintegers, thei-th of them should be equal to the balloon color on thei-th square. Each of these numbers should be within range from1tok.ExamplesInput32 31 3Output31 3 2Input52 35 34 31 3Output51 3 2 5 4Input52 13 24 35 4Output31 2 3 1 2NoteIn the first sample the park consists of three squares:1 → 3 → 2. Thus, the balloon colors have to be distinct.Illustration for the first sample.In the second example there are following triples of consequently connected squares:1 → 3 → 21 → 3 → 41 → 3 → 52 → 3 → 42 → 3 → 54 → 3 → 5We can see that each pair of squares is encountered in some triple, so all colors have to be distinct.Illustration for the second sample.In the third example there are following triples:1 → 2 → 32 → 3 → 43 → 4 → 5We can see that one or two colors is not enough, but there is an answer that uses three colors only.Illustration for the third sample.",
+    "source": "CF",
+    "vjudge": false
+}

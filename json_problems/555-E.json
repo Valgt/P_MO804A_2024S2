@@ -1,0 +1,13 @@
+{
+    "uid": "555-E",
+    "url": "https://codeforces.com/contest/555/problem/E",
+    "tags": [
+        "dfs and similar",
+        " graphs",
+        " trees"
+    ],
+    "title": "555-E",
+    "statement": "E. Case of Computer Networktime limit per test3 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputAndrewid the Android is a galaxy-known detective. Now he is preparing a defense against a possible attack by hackers on a major computer network.In this network arenvertices, some pairs of vertices are connected bymundirected channels. It is planned to transferqimportant messages via this network, thei-th of which must be sent from vertexsito vertexdivia one or more channels, perhaps through some intermediate vertices.To protect against attacks a special algorithm was developed. Unfortunately it can be applied only to the network containing directed channels. Therefore, as new channels can't be created, it was decided for each of the existing undirected channels to enable them to transmit data only in one of the two directions.Your task is to determine whether it is possible so to choose the direction for each channel so that each of theqmessages could be successfully transmitted.InputThe first line contains three integersn,mandq(1 ≤n,m,q≤ 2·105) — the number of nodes, channels and important messages.Nextmlines contain two integers each,viandui(1 ≤vi,ui≤n,vi≠ui), that means that between nodesvianduiis a channel. Between a pair of nodes can exist more than one channel.Nextqlines contain two integerssianddi(1 ≤si,di≤n,si≠di) — the numbers of the nodes of the source and destination of the corresponding message.It is not guaranteed that in it initially possible to transmit all the messages.OutputIf a solution exists, print on a single line \"Yes\" (without the quotes). Otherwise, print \"No\" (without the quotes).ExamplesInput4 4 21 21 32 33 41 34 2OutputYesInput3 2 21 23 21 32 1OutputNoInput3 3 21 21 23 21 32 1OutputYesNoteIn the first sample test you can assign directions, for example, as follows:1 → 2,1 → 3,3 → 2,4 → 3. Then the path for for the first message will be1 → 3, and for the second one —4 → 3 → 2.In the third sample test you can assign directions, for example, as follows:1 → 2,2 → 1,2 → 3. Then the path for the first message will be1 → 2 → 3, and for the second one —2 → 1.",
+    "source": "CF",
+    "vjudge": false
+}

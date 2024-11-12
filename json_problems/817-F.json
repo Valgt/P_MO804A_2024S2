@@ -1,0 +1,13 @@
+{
+    "uid": "817-F",
+    "url": "https://codeforces.com/contest/817/problem/F",
+    "tags": [
+        "binary search",
+        " data structures",
+        " trees"
+    ],
+    "title": "817-F",
+    "statement": "F. MEX Queriestime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given a set of integer numbers, initially it is empty. You should performnqueries.There are three different types of queries:1lr— Add all missing numbers from the interval[l,r]2lr— Remove all present numbers from the interval[l,r]3lr— Invert the interval[l,r]— add all missing and remove all present numbers from the interval[l,r]After each query you should outputMEXof the set — the smallest positive (MEX≥ 1) integer number which is not presented in the set.InputThe first line contains one integer numbern(1 ≤n≤ 105).Nextnlines contain three integer numberst,l,r(1 ≤t≤ 3, 1 ≤l≤r≤ 1018) — type of the query, left and right bounds.OutputPrintMEXof the set after each query.ExamplesInput31 3 43 1 62 1 3Output131Input41 1 33 5 62 4 43 1 6Output4441NoteHere are contents of the set after each query in the first example:{3, 4}— the interval[3, 4]is added{1, 2, 5, 6}— numbers{3, 4}from the interval[1, 6]got deleted and all the others are added{5, 6}— numbers{1, 2}got deleted",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,12 @@
+{
+    "uid": "269-A",
+    "url": "https://codeforces.com/contest/269/problem/A",
+    "tags": [
+        "greedy",
+        " math"
+    ],
+    "title": "269-A",
+    "statement": "A. Magical Boxestime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutEmuskald is a well-known illusionist. One of his trademark tricks involves a set of magical boxes. The essence of the trick is in packing the boxes inside other boxes.From the top view each magical box looks like a square with side length equal to2k(kis an integer,k≥ 0) units. A magical boxvcan be put inside a magical boxu, if side length ofvis strictly less than the side length ofu. In particular, Emuskald can put 4 boxes of side length2k- 1into one box of side length2k, or as in the following figure:Emuskald is about to go on tour performing around the world, and needs to pack his magical boxes for the trip. He has decided that the best way to pack them would be inside another magical box, but magical boxes are quite expensive to make. Help him find the smallest magical box that can fit all his boxes.InputThe first line of input contains an integern(1 ≤n≤ 105), the number of different sizes of boxes Emuskald has. Each of followingnlines contains two integerskiandai(0 ≤ki≤ 109,1 ≤ai≤ 109), which means that Emuskald hasaiboxes with side length2ki. It is guaranteed that all ofkiare distinct.OutputOutput a single integerp, such that the smallest magical box that can contain all of Emuskald’s boxes has side length2p.ExamplesInput20 31 5Output3Input10 4Output1Input21 102 2Output3NotePicture explanation. If we have 3 boxes with side length 2 and 5 boxes with side length 1, then we can put all these boxes inside a box with side length 4, for example, as shown in the picture.In the second test case, we can put all four small boxes into a box with side length 2.",
+    "source": "CF",
+    "vjudge": false
+}

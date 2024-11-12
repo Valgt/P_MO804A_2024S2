@@ -1,0 +1,12 @@
+{
+    "uid": "165-B",
+    "url": "https://codeforces.com/contest/165/problem/B",
+    "tags": [
+        "binary search",
+        " implementation"
+    ],
+    "title": "165-B",
+    "statement": "B. Burning Midnight Oiltime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutOne day a highly important task was commissioned to Vasya — writing a program in a night. The program consists ofnlines of code. Vasya is already exhausted, so he works like that: first he writesvlines of code, drinks a cup of tea, then he writes as much aslines, drinks another cup of tea, then he writeslines and so on:,,, ...The expressionis regarded as the integral part from dividing numberaby numberb.The moment the current valueequals 0, Vasya immediately falls asleep and he wakes up only in the morning, when the program should already be finished.Vasya is wondering, what minimum allowable valuevcan take to let him writenot lessthannlines of code before he falls asleep.InputThe input consists of two integersnandk, separated by spaces — the size of the program in lines and the productivity reduction coefficient,1 ≤n≤ 109,2 ≤k≤ 10.OutputPrint the only integer — the minimum value ofvthat lets Vasya write the program in one night.ExamplesInput7 2Output4Input59 9Output54NoteIn the first sample the answer isv= 4. Vasya writes the code in the following portions: first4lines, then2, then1, and then Vasya falls asleep. Thus, he manages to write4 + 2 + 1 = 7lines in a night and complete the task.In the second sample the answer isv= 54. Vasya writes the code in the following portions:54,6. The total sum is54 + 6 = 60, that's even more thann= 59.",
+    "source": "CF",
+    "vjudge": false
+}

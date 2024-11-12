@@ -1,0 +1,14 @@
+{
+    "uid": "229-E",
+    "url": "https://codeforces.com/contest/229/problem/E",
+    "tags": [
+        "combinatorics",
+        " dp",
+        " math",
+        " probabilities"
+    ],
+    "title": "229-E",
+    "statement": "E. Giftstime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutOnce upon a time an old man and his wife lived by the great blue sea. One day the old man went fishing and caught a real live gold fish. The fish said: \"Oh ye, old fisherman! Pray set me free to the ocean and I will grant you withngifts, any gifts you wish!\". Then the fish gave the old man a list of gifts and their prices. Some gifts on the list can have the same names but distinct prices. However, there can't be two gifts with the same names and the same prices. Also, there can be gifts with distinct names and the same prices. The old man can ask fornnames of items from the list. If the fish's list haspoccurrences of the given name, then the old man can't ask for this name of item more thanptimes.The old man knows that if he asks forsgifts of the same name, the fish will randomly (i.e. uniformly amongst all possible choices) choosesgifts of distinct prices with such name from the list. The old man wants to please his greedy wife, so he will choose thennames in such a way that he can getngifts with the maximum price. Besides, he isn't the brightest of fishermen, so if there are several such ways, he chooses one of them uniformly.The old man wondered, what is the probability that he can getnmost expensive gifts. As the old man isn't good at probability theory, he asks you to help him.InputThe first line contains two space-separated integersnandm(1 ≤n,m≤ 1000) — the number of the old man's wishes and the number of distinct names in the goldfish's list, correspondingly. Thenmlines follow: thei-th line first contains integerki(ki> 0)— the number of distinct prices of gifts with thei-th name, thenkidistinct space-separated integerscij(1 ≤cij≤ 109), the gifts' prices.It is guaranteed that the sum of allkidoesn't exceed 1000. It is guaranteed thatnis not greater than the total number of the gifts.OutputOn a single line print one real number — the probability of gettingnmost valuable gifts. The answer will be considered correct if its absolute or relative error does not exceed10- 9.ExamplesInput3 13 10 20 30Output1.000000000Input3 21 404 10 20 30 40Output0.166666667",
+    "source": "CF",
+    "vjudge": false
+}

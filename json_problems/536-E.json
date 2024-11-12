@@ -1,0 +1,13 @@
+{
+    "uid": "536-E",
+    "url": "https://codeforces.com/contest/536/problem/E",
+    "tags": [
+        "data structures",
+        " divide and conquer",
+        " trees"
+    ],
+    "title": "536-E",
+    "statement": "E. Tavas on the Pathtime limit per test3 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputTavas lives in Tavaspolis. Tavaspolis hasncities numbered from1tonconnected byn- 1bidirectional roads. There exists a path between any two cities. Also each road has a length.Tavas' favorite strings are binary strings (they contain only 0 and 1). For any binary string likes=s1s2...sk,T(s)is itsGoodness.T(s)can be calculated as follows:Consider there are exactlymblocks of1s in this string (a block of1s insis a maximal consecutive substring ofsthat only contains1) with lengthsx1,x2, ...,xm.Definewherefis a given sequence (ifm= 0, thenT(s) = 0).Tavas loves queries. He asks you to answerqqueries. In each query he gives you numbersv,u,land you should print following number:Consider the roads on the path from cityvto cityu:e1,e2, ...,ex.Build the binary stringbof lengthxsuch that:bi= 1if and only ifl≤w(ei)wherew(e)is the length of roade.You should printT(b)for this query.InputThe first line of input contains integersnandq(2 ≤n≤ 105and1 ≤q≤ 105).The next line containsn- 1space separated integersf1,f2, ...,fn- 1(|fi| ≤ 1000).The nextn- 1lines contain the details of the roads. Each line contains integersv,uandwand it means that there's a road between citiesvanduof lengthw(1 ≤v,u≤nand1 ≤w≤ 109).The nextqlines contain the details of the queries. Each line contains integersv,u,l(1 ≤v,u≤n,v≠uand1 ≤l≤ 109).OutputPrint the answer of each query in a single line.ExamplesInput2 3101 2 31 2 21 2 31 2 4Output10100Input6 6-5 0 0 2 101 2 12 3 23 4 54 5 15 6 51 6 11 6 21 6 53 6 54 6 41 4 2Output10-5-10-10-50",
+    "source": "CF",
+    "vjudge": false
+}

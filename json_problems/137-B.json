@@ -1,0 +1,11 @@
+{
+    "uid": "137-B",
+    "url": "https://codeforces.com/contest/137/problem/B",
+    "tags": [
+        "greedy"
+    ],
+    "title": "137-B",
+    "statement": "B. Permutationtime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdout\"Hey, it's homework time\" — thought Polycarpus and of course he started with his favourite subject, IT. Polycarpus managed to solve all tasks but for the last one in 20 minutes. However, as he failed to solve the last task after some considerable time, the boy asked you to help him.The sequence ofnintegers is called a permutation if it contains all integers from1tonexactly once.You are given an arbitrary sequencea1,a2, ...,ancontainingnintegers. Each integer is not less than1and not greater than5000. Determine what minimum number of elements Polycarpus needs to change to get a permutation (he should not delete or add numbers). In a single change he can modify any single sequence element (i. e. replace it with another integer).InputThe first line of the input data contains an integern(1 ≤n≤ 5000) which represents how many numbers are in the sequence. The second line contains a sequence of integersai(1 ≤ai≤ 5000, 1 ≤i≤n).OutputPrint the only number — the minimum number of changes needed to get the permutation.ExamplesInput33 1 2Output0Input22 2Output1Input55 3 3 3 1Output2NoteThe first sample contains the permutation, which is why no replacements are required.In the second sample it is enough to replace the first element with the number 1 and that will make the sequence the needed permutation.In the third sample we can replace the second element with number 4 and the fourth element with number 2.",
+    "source": "CF",
+    "vjudge": false
+}

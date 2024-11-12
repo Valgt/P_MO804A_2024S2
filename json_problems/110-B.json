@@ -1,0 +1,12 @@
+{
+    "uid": "110-B",
+    "url": "https://codeforces.com/contest/110/problem/B",
+    "tags": [
+        "constructive algorithms",
+        " strings"
+    ],
+    "title": "110-B",
+    "statement": "B. Lucky Stringtime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutPetya loves lucky numbers. We all know that lucky numbers are the positive integers whose decimal representations contain only the lucky digits4and7. For example, numbers47,744,4are lucky and5,17,467are not.Petya recently learned to determine whether a string of lowercase Latin letters is lucky. For each individual letter all its positions in the string are written out in the increasing order. This results in26lists of numbers; some of them can be empty. A string is considered lucky if and only if in each list the absolute difference of any twoadjacentnumbers is a lucky number.For example, let's consider string \"zbcdzefdzc\". The lists of positions of equal letters are:b:2c:3, 10d:4, 8e:6f:7z:1, 5, 9Lists of positions of lettersa,g,h, ...,yare empty.This string is lucky as all differences are lucky numbers. For lettersz:5 - 1 = 4,9 - 5 = 4, for lettersc:10 - 3 = 7, for lettersd:8 - 4 = 4.Note that if some letter occurs only once in a string, it doesn't influence the string's luckiness after building the lists of positions of equal letters. The string where all the letters are distinct is considered lucky.Find the lexicographically minimal lucky string whose length equalsn.InputThe single line contains a positive integern(1 ≤n≤ 105) — the length of the sought string.OutputPrint on the single line the lexicographically minimal lucky string whose length equalsn.ExamplesInput5OutputabcdaInput3OutputabcNoteThe lexical comparison of strings is performed by the < operator in modern programming languages. Stringais lexicographically less than stringbif exists suchi(1 ≤i≤n), thatai<bi, and for anyj(1 ≤j<i)aj=bj.",
+    "source": "CF",
+    "vjudge": false
+}

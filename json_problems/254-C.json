@@ -1,0 +1,12 @@
+{
+    "uid": "254-C",
+    "url": "https://codeforces.com/contest/254/problem/C",
+    "tags": [
+        "greedy",
+        " strings"
+    ],
+    "title": "254-C",
+    "statement": "C. Anagramtime limit per test1 secondmemory limit per test256 megabytesinputinput.txtoutputoutput.txtStringxis ananagramof stringy, if we can rearrange the letters in stringxand get exact stringy. For example, strings \"DOG\" and \"GOD\" are anagrams, so are strings \"BABA\" and \"AABB\", but strings \"ABBAC\" and \"CAABA\" are not.You are given two stringssandtof the same length, consisting of uppercase English letters. You need to get the anagram of stringtfrom strings. You are permitted to perform the replacing operation: every operation is replacing some character from the stringsby any other character. Get the anagram of stringtin the least number of replacing operations. If you can get multiple anagrams of stringtin the least number of operations, get the lexicographically minimal one.The lexicographic order of strings is the familiar to us \"dictionary\" order. Formally, the stringpof lengthnis lexicographically smaller than stringqof the same length, ifp1=q1,p2=q2, ...,pk- 1=qk- 1,pk<qkfor somek(1 ≤k≤n). Here characters in the strings are numbered from 1. The characters of the strings are compared in the alphabetic order.InputThe input consists of two lines. The first line contains strings, the second line contains stringt. The strings have the same length (from1to105characters) and consist of uppercase English letters.OutputIn the first line printz— the minimum number of replacement operations, needed to get an anagram of stringtfrom strings. In the second line print the lexicographically minimum anagram that could be obtained inzoperations.ExamplesInputABACBAOutput1ABCInputCDBABCADCABDOutput2ADBADCNoteThe second sample has eight anagrams of stringt, that can be obtained from stringsby replacing exactly two letters: \"ADBADC\", \"ADDABC\", \"CDAABD\", \"CDBAAD\", \"CDBADA\", \"CDDABA\", \"DDAABC\", \"DDBAAC\". These anagrams are listed in the lexicographical order. The lexicographically minimum anagram is \"ADBADC\".",
+    "source": "CF",
+    "vjudge": false
+}

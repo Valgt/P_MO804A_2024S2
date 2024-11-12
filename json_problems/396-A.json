@@ -1,0 +1,13 @@
+{
+    "uid": "396-A",
+    "url": "https://codeforces.com/contest/396/problem/A",
+    "tags": [
+        "combinatorics",
+        " math",
+        " number theory"
+    ],
+    "title": "396-A",
+    "statement": "A. On Number of Decompositions into Multiplierstime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutYou are given an integermas a product of integersa1,a2, ...an. Your task is to find the number of distinct decompositions of numberminto the product ofnordered positive integers.Decomposition intonproducts, given in the input, must also be considered in the answer. As the answer can be very large, print it modulo1000000007(109+ 7).InputThe first line contains positive integern(1 ≤n≤ 500). The second line contains space-separated integersa1,a2, ...,an(1 ≤ai≤ 109).OutputIn a single line print a single numberk— the number of distinct decompositions of numbermintonordered multipliers modulo1000000007(109+ 7).ExamplesInput115Output1Input31 1 2Output3Input25 7Output4NoteIn the second sample, the get a decomposition of number 2, you need any one number out of three to equal 2, and the rest to equal 1.In the third sample, the possible ways of decomposing into ordered multipliers are [7,5], [5,7], [1,35], [35,1].A decomposition of positive integermintonordered multipliers is a cortege of positive integersb= {b1,b2, ...bn}such that. Two decompositionsbandcare considered different, if there exists indexisuch thatbi≠ci.",
+    "source": "CF",
+    "vjudge": false
+}

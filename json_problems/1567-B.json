@@ -1,0 +1,12 @@
+{
+    "uid": "1567-B",
+    "url": "https://codeforces.com/contest/1567/problem/B",
+    "tags": [
+        "bitmasks",
+        " greedy"
+    ],
+    "title": "1567-B",
+    "statement": "B. MEXor Mixuptime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputAlice gave Bob two integers $$$a$$$ and $$$b$$$ ($$$a > 0$$$ and $$$b \\\\ge 0$$$). Being a curious boy, Bob wrote down an array ofnon-negativeintegers with $$$\\\\operatorname{MEX}$$$ value of all elements equal to $$$a$$$ and $$$\\\\operatorname{XOR}$$$ value of all elements equal to $$$b$$$.What is theshortestpossible length of the array Bob wrote?Recall that the $$$\\\\operatorname{MEX}$$$ (Minimum EXcluded) of an array is the minimum non-negative integer that doesnotbelong to the array and the $$$\\\\operatorname{XOR}$$$ of an array is thebitwise XORof all the elements of the array.InputThe input consists of multiple test cases. The first line contains an integer $$$t$$$ ($$$1 \\\\leq t \\\\leq 5 \\\\cdot 10^4$$$) — the number of test cases. The description of the test cases follows.The only line of each test case contains two integers $$$a$$$ and $$$b$$$ ($$$1 \\\\leq a \\\\leq 3 \\\\cdot 10^5$$$; $$$0 \\\\leq b \\\\leq 3 \\\\cdot 10^5$$$) — the $$$\\\\operatorname{MEX}$$$ and $$$\\\\operatorname{XOR}$$$ of the array, respectively.OutputFor each test case, output one (positive) integer — the length of the shortest array with $$$\\\\operatorname{MEX}$$$ $$$a$$$ and $$$\\\\operatorname{XOR}$$$ $$$b$$$. We can show that such an array always exists.ExampleInput5 1 1 2 1 2 0 1 10000 2 10000Output3 2 3 2 3NoteIn the first test case, one of the shortest arrays with $$$\\\\operatorname{MEX}$$$ $$$1$$$ and $$$\\\\operatorname{XOR}$$$ $$$1$$$ is $$$[0, 2020, 2021]$$$.In the second test case, one of the shortest arrays with $$$\\\\operatorname{MEX}$$$ $$$2$$$ and $$$\\\\operatorname{XOR}$$$ $$$1$$$ is $$$[0, 1]$$$.It can be shown that these arrays are the shortest arrays possible.",
+    "source": "CF",
+    "vjudge": false
+}

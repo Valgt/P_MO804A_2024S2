@@ -1,0 +1,11 @@
+{
+    "uid": "510-E",
+    "url": "https://codeforces.com/contest/510/problem/E",
+    "tags": [
+        "flows"
+    ],
+    "title": "510-E",
+    "statement": "E. Fox And Dinnertime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutFox Ciel is participating in a party in Prime Kingdom. There arenfoxes there (include Fox Ciel). The i-th fox isaiyears old.They will have dinner around some round tables. You want to distribute foxes such that:Each fox is sitting at some table.Each table has at least 3 foxes sitting around it.The sum of ages of any two adjacent foxes around each table should be a prime number.Ifkfoxesf1,f2, ...,fkare sitting around table in clockwise order, then for1 ≤i≤k- 1:fiandfi+ 1are adjacent, andf1andfkare also adjacent.If it is possible to distribute the foxes in the desired manner, find out a way to do that.InputThe first line contains single integern(3 ≤n≤ 200): the number of foxes in this party.The second line containsnintegersai(2 ≤ai≤ 104).OutputIf it is impossible to do this, output \"Impossible\".Otherwise, in the first line output an integerm(): the number of tables.Then outputmlines, each line should start with an integerk-=– the number of foxes around that table, and thenknumbers — indices of fox sitting around that table in clockwise order.If there are several possible arrangements, output any of them.ExamplesInput43 4 8 9Output14 1 2 4 3Input52 2 2 2 2OutputImpossibleInput122 3 4 5 6 7 8 9 10 11 12 13Output112 1 2 3 6 5 12 9 8 7 10 11 4Input242 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25Output36 1 2 3 6 5 410 7 8 9 12 15 14 13 16 11 108 17 18 23 22 19 20 21 24NoteIn example 1, they can sit around one table, their ages are: 3-8-9-4, adjacent sums are: 11, 17, 13 and 7, all those integers are primes.In example 2, it is not possible: the sum of 2+2 = 4 is not a prime number.",
+    "source": "CF",
+    "vjudge": false
+}

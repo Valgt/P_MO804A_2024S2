@@ -1,0 +1,13 @@
+{
+    "uid": "1663-G",
+    "url": "https://codeforces.com/contest/1663/problem/G",
+    "tags": [
+        "*special",
+        " constructive algorithms",
+        " strings"
+    ],
+    "title": "1663-G",
+    "statement": "G. Six Characterstime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputAenar should go to the string's home.InputA string consisting of only $$$6$$$ letters.OutputA string consisting of only $$$6$$$ characters.NoteIf many answers are possible, the jury willstill only accept one!",
+    "source": "CF",
+    "vjudge": false
+}

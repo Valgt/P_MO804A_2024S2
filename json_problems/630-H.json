@@ -1,0 +1,12 @@
+{
+    "uid": "630-H",
+    "url": "https://codeforces.com/contest/630/problem/H",
+    "tags": [
+        "combinatorics",
+        " math"
+    ],
+    "title": "630-H",
+    "statement": "H. Benchestime limit per test0.5 secondsmemory limit per test64 megabytesinputstandard inputoutputstandard outputThe city park of IT City containsneast to west paths andnnorth to south paths. Each east to west path crosses each north to south path, so there aren2intersections.The city funded purchase of five benches. To make it seems that there are many benches it was decided to place them on as many paths as possible. Obviously this requirement is satisfied by the following scheme: each bench is placed on a cross of paths and each path contains not more than one bench.Help the park administration count the number of ways to place the benches.InputThe only line of the input contains one integern(5 ≤n≤ 100) — the number of east to west paths and north to south paths.OutputOutput one integer — the number of ways to place the benches.ExamplesInput5Output120",
+    "source": "CF",
+    "vjudge": false
+}

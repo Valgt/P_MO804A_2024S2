@@ -1,0 +1,16 @@
+{
+    "uid": "830-E",
+    "url": "https://codeforces.com/contest/830/problem/E",
+    "tags": [
+        "constructive algorithms",
+        " dp",
+        " graphs",
+        " implementation",
+        " math",
+        " trees"
+    ],
+    "title": "830-E",
+    "statement": "E. Perpetual Motion Machinetime limit per test2 secondsmemory limit per test512 megabytesinputstandard inputoutputstandard outputDeveloper Petr thinks that he invented a perpetual motion machine. Namely, he has a lot ofelements, which work in the following way.Each element has one controller that can be set to any non-negative real value. If a controller is set on some valuex, then the controller consumesx2energy units per second. At the same time, any two elements connected by a wire producey·zenergy units per second, whereyandzare the values set on their controllers.Petr has only a limited number of wires, so he has already built some scheme of elements and wires, and is now interested if it's possible to set the controllers in such a way that the system producesat least as muchpower as it consumes, and at least one controller is set on the value different from0. Help him check this, and if it's possible, find the requiredintegervalues that should be set.It is guaranteed that if there exist controllers' settings satisfying the above conditions, then there exist required integer values not greater than106.InputThere are several (at least one) test cases in the input. The first line contains single integer — the number of test cases.There is an empty line before each test case. The first line of test case contains two integersnandm(1 ≤n≤ 105,0 ≤m≤ 105) — the number of elements in the scheme and the number of wires.After that,mlines follow, each of them contains two integersaandb(1 ≤a,b≤n) — two elements connected by a wire. No element is connected with itself, no two elements are connected by more than one wire.It is guaranteed that the sum ofnand the sum ofmover all test cases do not exceed105.For hacksyou can only use tests with one test case.OutputPrint answer for each test case.For each test case print \"YES\" if it's possible to set the controllers in such a way that the consumed power is not greater than the power produced, and the required values on the next line. The settings should be integers from0to106, inclusive, and at least one value should be different from0. If there are multiple answers, print any of them.If it's not possible to set the controllers in the required way, print one line \"NO\".ExampleInput44 41 22 33 44 23 22 33 14 61 23 44 21 41 33 210 92 13 25 26 22 72 82 92 104 2OutputYES1 2 2 1NOYES1 1 1 1YES1 5 1 1 1 1 1 1 1 1NoteIn the first example it's possible to set the controllers in the required way, for example, in the following way: set1on the first element, set2on the second and on the third, set1on the fourth. The consumed power is then equal to12+ 22+ 22+ 12= 10energy units per second, the produced power is equal to1·2 + 2·2 + 2·1 + 2·1 = 10energy units per second. Thus the answer is \"YES\".In the second test case it's not possible to set the controllers in the required way. For example, if we set all controllers to0.5, then the consumed powers equals0.75energy units per second, while produced power equals0.5energy units per second.",
+    "source": "CF",
+    "vjudge": false
+}

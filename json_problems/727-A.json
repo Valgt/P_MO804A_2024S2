@@ -1,0 +1,13 @@
+{
+    "uid": "727-A",
+    "url": "https://codeforces.com/contest/727/problem/A",
+    "tags": [
+        "brute force",
+        " dfs and similar",
+        " math"
+    ],
+    "title": "727-A",
+    "statement": "A. Transformation: from A to Btime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputVasily has a numbera, which he wants to turn into a numberb. For this purpose, he can do two types of operations:multiply the current number by2(that is, replace the numberxby2·x);append the digit1to the right of current number (that is, replace the numberxby10·x+ 1).You need to help Vasily to transform the numberainto the numberbusing only the operations described above, or find that it is impossible.Note that in this task you are not required to minimize the number of operations. It suffices to find any way to transformaintob.InputThe first line contains two positive integersaandb(1 ≤a<b≤ 109) — the number which Vasily has and the number he wants to have.OutputIf there is no way to getbfroma, print \"NO\" (without quotes).Otherwise print three lines. On the first line print \"YES\" (without quotes). The second line should contain single integerk— the length of the transformation sequence. On the third line print the sequence of transformationsx1,x2, ...,xk, where:x1should be equal toa,xkshould be equal tob,xishould be obtained fromxi- 1using any of two described operations (1 <i≤k).If there are multiple answers, print any of them.ExamplesInput2 162OutputYES52 4 8 81 162Input4 42OutputNOInput100 40021OutputYES5100 200 2001 4002 40021",
+    "source": "CF",
+    "vjudge": false
+}

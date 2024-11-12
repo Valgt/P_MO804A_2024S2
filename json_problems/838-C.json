@@ -1,0 +1,12 @@
+{
+    "uid": "838-C",
+    "url": "https://codeforces.com/contest/838/problem/C",
+    "tags": [
+        "dp",
+        " games"
+    ],
+    "title": "838-C",
+    "statement": "C. Future Failuretime limit per test3 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputAlice and Bob are playing a game with a string of characters, with Alice going first. The string consistsncharacters, each of which is one of the firstkletters of the alphabet. On a player’s turn, they can either arbitrarily permute the characters in the words, or delete exactly one character in the word (if there is at least one character). In addition, their resulting word cannot have appeared before throughout the entire game. The player unable to make a valid move loses the game.Givenn,k,p, find the number of words with exactlyncharacters consisting of the firstkletters of the alphabet such that Alice will win if both Alice and Bob play optimally. Return this number modulo the prime numberp.InputThe first line of input will contain three integersn,k,p(1 ≤n≤ 250 000,1 ≤k≤ 26,108≤p≤ 109+ 100,pwill be prime).OutputPrint a single integer, the number of winning words for Alice, modulop.ExampleInput4 2 100000007Output14NoteThere are 14 strings that that Alice can win with. For example, some strings are \"bbaa\" and \"baaa\". Alice will lose on strings like \"aaaa\" or \"bbbb\".",
+    "source": "CF",
+    "vjudge": false
+}

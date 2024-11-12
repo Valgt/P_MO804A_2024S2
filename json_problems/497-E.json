@@ -1,0 +1,12 @@
+{
+    "uid": "497-E",
+    "url": "https://codeforces.com/contest/497/problem/E",
+    "tags": [
+        "dp",
+        " matrices"
+    ],
+    "title": "497-E",
+    "statement": "E. Subsequences Returntime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutAssume thatsk(n)equals the sum of digits of numbernin thek-based notation. For example,s2(5) =s2(1012) = 1 + 0 + 1 = 2,s3(14) =s3(1123) = 1 + 1 + 2 = 4.The sequence of integersa0, ...,an- 1is defined as. Your task is to calculate the number of distinctsubsequencesof sequencea0, ...,an- 1. Calculate the answer modulo109+ 7.Sequencea1, ...,akis called to be asubsequenceof sequenceb1, ...,bl, if there is a sequence of indices1 ≤i1< ... <ik≤l, such thata1=bi1, ...,ak=bik. In particular, an empty sequence (i.e. the sequence consisting of zero elements) is a subsequence of any sequence.InputThe first line contains two space-separated numbersnandk(1 ≤n≤ 1018,2 ≤k≤ 30).OutputIn a single line print the answer to the problem modulo109+ 7.ExamplesInput4 2Output11Input7 7Output128NoteIn the first sample the sequenceailooks as follows:(0, 1, 1, 0). All the possible subsequences are:(), (0), (0, 0), (0, 1), (0, 1, 0), (0, 1, 1), (0, 1, 1, 0), (1), (1, 0), (1, 1), (1, 1, 0).In the second sample the sequenceailooks as follows:(0, 1, 2, 3, 4, 5, 6). The subsequences of this sequence are exactly all increasing sequences formed from numbers from 0 to 6. It is easy to see that there are27= 128such sequences.",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,11 @@
+{
+    "uid": "622-D",
+    "url": "https://codeforces.com/contest/622/problem/D",
+    "tags": [
+        "constructive algorithms"
+    ],
+    "title": "622-D",
+    "statement": "D. Optimal Number Permutationtime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou have arrayathat contains all integers from1tontwice. You can arbitrary permute any numbers ina.Let numberibe in positionsxi,yi(xi<yi) in the permuted arraya. Let's define the valuedi=yi-xi— the distance between the positions of the numberi. Permute the numbers in arrayato minimize the value of the sum.InputThe only line contains integern(1 ≤n≤ 5·105).OutputPrint2nintegers — the permuted arrayathat minimizes the value of the sums.ExamplesInput2Output1 1 2 2Input1Output1 1",
+    "source": "CF",
+    "vjudge": false
+}

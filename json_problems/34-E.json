@@ -1,0 +1,13 @@
+{
+    "uid": "34-E",
+    "url": "https://codeforces.com/contest/34/problem/E",
+    "tags": [
+        "brute force",
+        " implementation",
+        " math"
+    ],
+    "title": "34-E",
+    "statement": "E. Collisionstime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutOn a number line there arenballs. At time moment0for each ball the following data is known: its coordinatexi, speedvi(possibly, negative) and weightmi. The radius of the balls can be ignored.The balls collide elastically, i.e. if two balls weighingm1andm2and with speedsv1andv2collide, their new speeds will be:.Your task is to find out, where each ball will betseconds after.InputThe first line contains two integersnandt(1 ≤n≤ 10, 0 ≤t≤ 100) — amount of balls and duration of the process. Then follownlines, each containing three integers:xi,vi,mi(1 ≤ |vi|,mi≤ 100, |xi| ≤ 100) — coordinate, speed and weight of the ball with indexiat time moment0.It is guaranteed that no two balls have the same coordinate initially. Also each collision will be a collision of not more than two balls (that is, three or more balls never collide at the same point in all times from segment[0;t]).OutputOutputnnumbers — coordinates of the ballstseconds after. Output the numbers accurate to at least 4 digits after the decimal point.ExamplesInput2 93 4 50 7 8Output68.53846153844.538461538Input3 101 2 34 -5 67 -8 9Output-93.666666667-74.666666667-15.666666667",
+    "source": "CF",
+    "vjudge": false
+}

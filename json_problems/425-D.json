@@ -1,0 +1,13 @@
+{
+    "uid": "425-D",
+    "url": "https://codeforces.com/contest/425/problem/D",
+    "tags": [
+        "binary search",
+        " data structures",
+        " hashing"
+    ],
+    "title": "425-D",
+    "statement": "D. Sereja and Squarestime limit per test2 secondsmemory limit per test512 megabytesinputstdinoutputstdoutSereja has paintedndistinct points on the plane. The coordinates of each point are integers. Now he is wondering: how many squares are there with sides parallel to the coordinate axes and with points painted in all its four vertexes? Help him, calculate this number.InputThe first line contains integern(1 ≤n≤ 105). Each of the nextnlines contains two integersxi,yi(0 ≤xi,yi≤ 105), the integers represent the coordinates of thei-th point. It is guaranteed that all the given points are distinct.OutputIn a single line print the required number of squares.ExamplesInput50 00 22 02 21 1Output1Input90 01 12 20 11 00 22 01 22 1Output5",
+    "source": "CF",
+    "vjudge": false
+}

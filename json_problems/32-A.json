@@ -1,0 +1,11 @@
+{
+    "uid": "32-A",
+    "url": "https://codeforces.com/contest/32/problem/A",
+    "tags": [
+        "brute force"
+    ],
+    "title": "32-A",
+    "statement": "A. Reconnaissancetime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutAccording to the regulations of Berland's army, a reconnaissance unit should consist of exactly two soldiers. Since these two soldiers shouldn't differ much, their heights can differ by at mostdcentimeters. Captain Bob hasnsoldiers in his detachment. Their heights area1,a2, ...,ancentimeters. Some soldiers are of the same height. Bob wants to know, how many ways exist to form a reconnaissance unit of two soldiers from his detachment.Ways(1, 2)and(2, 1)should be regarded as different.InputThe first line contains two integersnandd(1 ≤n≤ 1000, 1 ≤d≤ 109) — amount of soldiers in Bob's detachment and the maximum allowed height difference respectively. The second line containsnspace-separated integers — heights of all the soldiers in Bob's detachment. These numbers don't exceed109.OutputOutput one number — amount of ways to form a reconnaissance unit of two soldiers, whose height difference doesn't exceedd.ExamplesInput5 1010 20 50 60 65Output6Input5 155 30 29 31 55Output6",
+    "source": "CF",
+    "vjudge": false
+}

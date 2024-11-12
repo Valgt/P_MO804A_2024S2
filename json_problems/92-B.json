@@ -1,0 +1,11 @@
+{
+    "uid": "92-B",
+    "url": "https://codeforces.com/contest/92/problem/B",
+    "tags": [
+        "greedy"
+    ],
+    "title": "92-B",
+    "statement": "B. Binary Numbertime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutLittle walrus Fangy loves math very much. That's why when he is bored he plays with a number performing some operations.Fangy takes some positive integerxand wants to get a number one from it. Whilexis not equal to1, Fangy repeats the following action: ifxis odd, then he adds1to it, otherwise he dividesxby2. Fangy knows that for any positive integer number the process ends in finite time.How many actions should Fangy perform to get a number one from numberx?InputThe first line contains a positive integerxin abinary system. It is guaranteed that the first digit ofxis different from a zero and the number of its digits does not exceed106.OutputPrint the required number of actions.ExamplesInput1Output0Input1001001Output12Input101110Output8NoteLet's consider the third sample. Number101110is even, which means that we should divide it by2. After the dividing Fangy gets an odd number10111and adds one to it. Number11000can be divided by2three times in a row and get number11. All that's left is to increase the number by one (we get100), and then divide it by2two times in a row. As a result, we get1.",
+    "source": "CF",
+    "vjudge": false
+}

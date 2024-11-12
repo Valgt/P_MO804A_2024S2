@@ -1,0 +1,13 @@
+{
+    "uid": "559-D",
+    "url": "https://codeforces.com/contest/559/problem/D",
+    "tags": [
+        "combinatorics",
+        " geometry",
+        " probabilities"
+    ],
+    "title": "559-D",
+    "statement": "D. Randomizertime limit per test2.5 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputGerald got tired of playing board games with the usual six-sided die, and he bought a toy called Randomizer. It functions as follows.A Randomizer has its own coordinate plane on which a strictly convex polygon is painted, the polygon is called abasic polygon. If you shake a Randomizer, it draws some nondegenerate (i.e. having a non-zero area) convex polygon with vertices at some vertices of thebasic polygon. The result of the roll (more precisely, the result of the shaking) is considered to be the number of points with integer coordinates, which were strictly inside (the points on the border are not considered) the selected polygon. Now Gerald is wondering: what is the expected result of shaking the Randomizer?During the shaking the Randomizer considers all the possible non-degenerate convex polygons with vertices at the vertices of thebasic polygon. Let's assume that there arekversions of the polygons. Then the Randomizer chooses each of them with probability.InputThe first line of the input contains a single integern(3 ≤n≤ 100 000) — the number of vertices of the basic polygon.Nextnlines contain the coordinates of the vertices of the basic polygon. Thei-th of these lines contain two integersxiandyi(- 109≤xi,yi≤ 109) — the coordinates of thei-th vertex of the polygon. The vertices are given in the counter-clockwise order.OutputPrint the sought expected value with absolute or relative error at most10- 9.ExamplesInput40 02 02 20 2Output0.2Input50 02 02 21 30 2Output0.8125NoteA polygon is called strictly convex if it is convex and no its vertices lie on the same line.Let's assume that a random variable takes valuesx1, ...,xnwith probabilitiesp1, ...,pn, correspondingly. Then the expected value of this variable equals to.",
+    "source": "CF",
+    "vjudge": false
+}

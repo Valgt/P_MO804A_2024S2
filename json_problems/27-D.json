@@ -1,0 +1,14 @@
+{
+    "uid": "27-D",
+    "url": "https://codeforces.com/contest/27/problem/D",
+    "tags": [
+        "2-sat",
+        " dfs and similar",
+        " dsu",
+        " graphs"
+    ],
+    "title": "27-D",
+    "statement": "D. Ring Road 2time limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutIt is well known that Berland hasncities, which form the Silver ring — citiesiandi+ 1(1 ≤i<n) are connected by a road, as well as the citiesnand1. The goverment have decided to buildmnew roads. The list of the roads to build was prepared. Each road will connect two cities. Each road should be a curve which lies inside or outside the ring. New roads will have no common points with the ring (except the endpoints of the road).Now the designers of the constructing plan wonder if it is possible to build the roads in such a way that no two roads intersect (note that the roads may intersect at their endpoints). If it is possible to do, which roads should be inside the ring, and which should be outside?InputThe first line contains two integersnandm(4 ≤n≤ 100, 1 ≤m≤ 100). Each of the followingmlines contains two integersaiandbi(1 ≤ai,bi≤n,ai≠bi). No two cities will be connected by more than one road in the list. The list will not contain the roads which exist in the Silver ring.OutputIf it is impossible to build the roads in such a way that no two roads intersect, outputImpossible. Otherwise printmcharacters.i-th character should bei, if the road should be inside the ring, andoif the road should be outside the ring. If there are several solutions, output any of them.ExamplesInput4 21 32 4OutputioInput6 31 33 55 1Outputooo",
+    "source": "CF",
+    "vjudge": false
+}

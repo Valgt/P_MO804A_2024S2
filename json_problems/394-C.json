@@ -1,0 +1,12 @@
+{
+    "uid": "394-C",
+    "url": "https://codeforces.com/contest/394/problem/C",
+    "tags": [
+        "constructive algorithms",
+        " greedy"
+    ],
+    "title": "394-C",
+    "statement": "C. Dominoestime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutDuring the break, we decided to relax and play dominoes. Our box with Domino was empty, so we decided to borrow the teacher's dominoes.The teacher responded instantly at our request. He putnmdominoes on the table as ann× 2mrectangle so that each of thenrows containedmdominoes arranged horizontally. Each half of each domino contained number (0 or 1).We were taken aback, and the teacher smiled and said: \"Consider some arrangement of dominoes in ann× 2mmatrix. Let's count for each column of the matrix the sum of numbers in this column. Then among all such sums find the maximum one. Can you rearrange the dominoes in the matrix in such a way that the maximum sum will be minimum possible? Note that it is prohibited to change the orientation of the dominoes, they all need to stay horizontal, nevertheless dominoes are allowed to rotate by 180 degrees. As a reward I will give you all my dominoes\".We got even more taken aback. And while we are wondering what was going on, help us make an optimal matrix of dominoes.InputThe first line contains integersn,m(1 ≤n,m≤ 103).In the next lines there is a description of the teachers' matrix. Each of nextnlines containsmdominoes. The description of one domino is two integers (0 or 1), written without a space — the digits on the left and right half of the domino.OutputPrint the resulting matrix of dominoes in the format:nlines, each of them containsmspace-separated dominoes.If there are multiple optimal solutions, print any of them.ExamplesInput2 301 11 0000 01 11Output11 11 1000 00 01Input4 111100100Output11100100NoteConsider the answer for the first sample. There, the maximum sum among all columns equals1(the number of columns is6, and not3). Obviously, this maximum can't be less than1, then such matrix is optimal.Note that the dominoes can be rotated by180degrees.",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,14 @@
+{
+    "uid": "199-A",
+    "url": "https://codeforces.com/contest/199/problem/A",
+    "tags": [
+        "brute force",
+        " constructive algorithms",
+        " implementation",
+        " number theory"
+    ],
+    "title": "199-A",
+    "statement": "A. Hexadecimal's theoremtime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutRecently, a chaotic virus Hexadecimal advanced a new theorem which will shake the Universe. She thinks that each Fibonacci number can be represented as sum of three not necessary different Fibonacci numbers.Let's remember how Fibonacci numbers can be calculated.F0= 0,F1= 1, and all the next numbers areFi=Fi- 2+Fi- 1.So, Fibonacci numbers make a sequence of numbers:0,1,1,2,3,5,8,13, ...If you haven't run away from the PC in fear, you have to help the virus. Your task is to divide given Fibonacci numbernby three not necessary different Fibonacci numbers or say that it is impossible.InputThe input contains of a single integern(0 ≤n< 109)— the number that should be represented by the rules described above. It is guaranteed thatnis a Fibonacci number.OutputOutput three required numbers:a,bandc. If there is no answer for the test you have to print \"I'm too stupid to solve this problem\" without the quotes.If there are multiple answers, print any of them.ExamplesInput3Output1 1 1Input13Output2 3 8",
+    "source": "CF",
+    "vjudge": false
+}

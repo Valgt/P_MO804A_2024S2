@@ -1,0 +1,11 @@
+{
+    "uid": "16-A",
+    "url": "https://codeforces.com/contest/16/problem/A",
+    "tags": [
+        "implementation"
+    ],
+    "title": "16-A",
+    "statement": "A. Flagtime limit per test2 secondsmemory limit per test64 megabytesinputstdinoutputstdoutAccording to a new ISO standard, a flag of every country should have a chequered fieldn×m, each square should be of one of 10 colours, and the flag should be «striped»: each horizontal row of the flag should contain squares of the same colour, and the colours of adjacent horizontal rows should be different. Berland's government asked you to find out whether their flag meets the new ISO standard.InputThe first line of the input contains numbersnandm(1 ≤n,m≤ 100),n— the amount of rows,m— the amount of columns on the flag of Berland. Then there follows the description of the flag: each of the followingnlines containmcharacters. Each character is a digit between0and9, and stands for the colour of the corresponding square.OutputOutputYES, if the flag meets the new ISO standard, andNOotherwise.ExamplesInput3 3000111222OutputYESInput3 3000000111OutputNOInput3 3000111002OutputNO",
+    "source": "CF",
+    "vjudge": false
+}

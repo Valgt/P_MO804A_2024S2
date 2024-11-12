@@ -1,0 +1,16 @@
+{
+    "uid": "665-F",
+    "url": "https://codeforces.com/contest/665/problem/F",
+    "tags": [
+        "data structures",
+        " dp",
+        " math",
+        " number theory",
+        " sortings",
+        " two pointers"
+    ],
+    "title": "665-F",
+    "statement": "F. Four Divisorstime limit per test10 secondsmemory limit per test768 megabytesinputstandard inputoutputstandard outputIf an integerais divisible by another integerb, thenbis called the divisor ofa.For example:12has positive6divisors. They are1,2,3,4,6and12.Let’s define a functionD(n)— number of integers between1andn(inclusive) which has exactly four positive divisors.Between1and10only the integers6,8and10has exactly four positive divisors. So,D(10) = 3.You are given an integern. You have to calculateD(n).InputThe only line contains integern(1 ≤n≤ 1011) — the parameter from the problem statement.OutputPrint the only integerc— the number of integers between1andnwith exactly four divisors.ExamplesInput10Output3Input20Output5",
+    "source": "CF",
+    "vjudge": false
+}

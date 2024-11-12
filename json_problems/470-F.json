@@ -1,0 +1,11 @@
+{
+    "uid": "470-F",
+    "url": "https://codeforces.com/contest/470/problem/F",
+    "tags": [
+        "*special"
+    ],
+    "title": "470-F",
+    "statement": "F. Pairwise Sumstime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutYou are given an array ofnintegers. For each element output the sum of itself and the previous element. For the first element, output the sum of the first and the last elements of the array.InputThe input consists of a single line of space-separated integers. The first number isn(2 ≤n≤ 50) — the size of the array. The followingnnumbers are the elements of the array (1 ≤ai≤ 1000).OutputOutput the sumsa1+an,a2+a1, ...,an+an- 1, separated with spaces.ExamplesInput4 1 2 3 4Output5 3 5 7Input5 5 46 372 81 9Output14 51 418 453 90",
+    "source": "CF",
+    "vjudge": false
+}

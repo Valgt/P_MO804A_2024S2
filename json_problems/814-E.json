@@ -1,0 +1,14 @@
+{
+    "uid": "814-E",
+    "url": "https://codeforces.com/contest/814/problem/E",
+    "tags": [
+        "combinatorics",
+        " dp",
+        " graphs",
+        " shortest paths"
+    ],
+    "title": "814-E",
+    "statement": "E. An unavoidable detour for hometime limit per test3 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputThose unwilling to return home from a long journey, will be affected by the oddity of the snail and lose their way. Mayoi, the oddity's carrier, wouldn't like this to happen, but there's nothing to do with this before a cure is figured out. For now, she would only like to know the enormous number of possibilities to be faced with if someone gets lost.There arentowns in the region, numbered from1ton. The town numbered1is called the capital. The traffic network is formed by bidirectional roads connecting pairs of towns. No two roads connect the same pair of towns, and no road connects a town with itself. The time needed to travel through each of the roads is the same. Lost travelers will not be able to find out how the towns are connected, but the residents can help them by providing the following facts:Starting from each town other than the capital, the shortest path (i.e. the path passing through the minimum number of roads) to the capital exists, and is unique;Letlibe the number of roads on the shortest path from townito the capital, thenli≥li- 1holds for all2 ≤i≤n;For towni, the number of roads connected to it is denoted bydi, which equals either2or3.You are to count the number of different ways in which the towns are connected, and give the answer modulo109+ 7. Two ways of connecting towns are considered different if a pair(u,v)(1 ≤u,v≤n) exists such there is a road between townsuandvin one of them but not in the other.InputThe first line of input contains a positive integern(3 ≤n≤ 50) — the number of towns.The second line containsnspace-separated integersd1,d2, ...,dn(2 ≤di≤ 3) — the number of roads connected to towns1, 2, ...,n, respectively. It is guaranteed that the sum ofdiover alliis even.OutputOutput one integer — the total number of different possible ways in which the towns are connected, modulo109+ 7.ExamplesInput43 2 3 2Output1Input52 3 3 2 2Output2Input52 2 2 2 2Output2Input202 2 2 2 3 2 3 2 2 2 2 2 2 2 2 2 2 3 3 2Output82944NoteIn the first example, the following structure is the only one to satisfy the constraints, the distances from towns2, 3, 4to the capital are all1.In the second example, the following two structures satisfy the constraints.",
+    "source": "CF",
+    "vjudge": false
+}

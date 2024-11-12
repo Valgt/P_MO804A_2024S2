@@ -1,0 +1,13 @@
+{
+    "uid": "858-A",
+    "url": "https://codeforces.com/contest/858/problem/A",
+    "tags": [
+        "brute force",
+        " math",
+        " number theory"
+    ],
+    "title": "858-A",
+    "statement": "A. k-roundingtime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputFor a given positive integerndenote itsk-rounding as the minimum positive integerx, such thatxends withkor more zeros in base10and is divisible byn.For example,4-rounding of375is375·80 = 30000.30000is the minimum integer such that it ends with4or more zeros and is divisible by375.Write a program that will perform thek-rounding ofn.InputThe only line contains two integersnandk(1 ≤n≤ 109,0 ≤k≤ 8).OutputPrint thek-rounding ofn.ExamplesInput375 4Output30000Input10000 1Output10000Input38101 0Output38101Input123456789 8Output12345678900000000",
+    "source": "CF",
+    "vjudge": false
+}

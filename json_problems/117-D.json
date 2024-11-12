@@ -1,0 +1,12 @@
+{
+    "uid": "117-D",
+    "url": "https://codeforces.com/contest/117/problem/D",
+    "tags": [
+        "divide and conquer",
+        " math"
+    ],
+    "title": "117-D",
+    "statement": "D. Not Quick Transformationtime limit per test6 secondsmemory limit per test256 megabytesinputstdinoutputstdoutLetabe an array consisting ofnnumbers. The array's elements are numbered from1ton,evenis an array consisting of the numerals whose numbers are even ina(eveni=a2i,1 ≤ 2i≤n),oddis an array consisting of the numberals whose numbers are odd inа(oddi=a2i- 1,1 ≤ 2i- 1 ≤n). Then let's define the transformation of arrayF(a)in the following manner:ifn> 1,F(a) =F(odd) +F(even), where operation \"+\" stands for the arrays' concatenation (joining together)ifn= 1,F(a) =aLetabe an array consisting ofnnumbers1, 2, 3, ...,n. Thenbis the result of applying the transformation to the arraya(sob=F(a)). You are givenmqueries(l,r,u,v). Your task is to find for each query the sum of numbersbi, such thatl≤i≤randu≤bi≤v. You should print the query results modulomod.InputThe first line contains three integersn,m,mod(1 ≤n≤ 1018, 1 ≤m≤ 105, 1 ≤mod≤ 109). Nextmlines describe the queries. Each query is defined by four integersl,r,u,v(1 ≤l≤r≤n,1 ≤u≤v≤ 1018).Please do not use the%lldspecificator to read or write 64-bit integers in C++. Use%I64dspecificator.OutputPrintmlines each containing an integer — remainder modulomodof the query result.ExamplesInput4 5 100002 3 4 52 4 1 31 2 2 42 3 3 51 3 3 4Output05333Input2 5 100001 2 2 21 1 4 51 1 2 51 1 1 31 2 5 5Output20010NoteLet's consider the first example. First let's construct an arrayb=F(a) =F([1, 2, 3, 4]).Step 1.F([1, 2, 3, 4]) =F([1, 3]) +F([2, 4])Step 2.F([1, 3]) =F([1]) +F([3]) = [1] + [3] = [1, 3]Step 3.F([2, 4]) =F([2]) +F([4]) = [2] + [4] = [2, 4]Step 4.b=F([1, 2, 3, 4]) =F([1, 3]) +F([2, 4]) = [1, 3] + [2, 4] = [1, 3, 2, 4]Thusb= [1, 3, 2, 4]. Let's consider the first queryl= 2,r= 3,u= 4,v= 5. The second and third positions in the arraybdo not have numbers in the range[4, 5], so the sum obviously equals zero. Let's consider the second queryl= 2,r= 4,u= 1,v= 3. The second and third positions have two numbers that belong to the range[1, 3], their sum equals 5.",
+    "source": "CF",
+    "vjudge": false
+}

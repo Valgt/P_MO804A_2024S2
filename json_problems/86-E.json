@@ -1,0 +1,13 @@
+{
+    "uid": "86-E",
+    "url": "https://codeforces.com/contest/86/problem/E",
+    "tags": [
+        "brute force",
+        " math",
+        " matrices"
+    ],
+    "title": "86-E",
+    "statement": "E. Long sequencetime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutA sequencea0,a1, ...is called arecurrent binary sequence, if each termai(i= 0, 1, ...)is equal to 0 or 1 and there exist coefficientssuch thatan=c1·an- 1+c2·an- 2+ ... +ck·an-k(mod2),for alln≥k. Assume that not all ofciare zeros.Note that such a sequence can be uniquely recovered from anyk-tuple{as,as+ 1, ...,as+k- 1}and so it is periodic. Moreover, if ak-tuple contains only zeros, then the sequence contains only zeros, so this case is not very interesting. Otherwise the minimal period of the sequence is not greater than2k- 1, ask-tuple determines next element, and there are2k- 1non-zerok-tuples. Let us call a sequencelongif its minimal period is exactly2k- 1. Your task is to find a long sequence for a givenk, if there is any.InputInput contains a single integerk(2 ≤k≤ 50).OutputIf there is no long sequence for a givenk, output \"-1\" (without quotes). Otherwise the first line of the output should containkinteger numbers:c1,c2, ...,ck(coefficients). The second line should contain firstkelements of the sequence:a0,a1, ...,ak- 1. All of them (elements and coefficients) should be equal to 0 or 1, and at least onecihas to be equal to 1.If there are several solutions, output any.ExamplesInput2Output1 11 0Input3Output0 1 11 1 1Note1. In the first sample:c1= 1,c2= 1, soan=an- 1+an- 2(mod2). Thus the sequence will be:so its period equals3 = 22- 1.2. In the second sample:c1= 0,c2= 1,c3= 1, soan=an- 2+an- 3(mod2). Thus our sequence is:and its period equals7 = 23- 1.Periods are colored.",
+    "source": "CF",
+    "vjudge": false
+}

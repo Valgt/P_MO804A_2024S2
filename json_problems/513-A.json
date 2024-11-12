@@ -1,0 +1,12 @@
+{
+    "uid": "513-A",
+    "url": "https://codeforces.com/contest/513/problem/A",
+    "tags": [
+        "constructive algorithms",
+        " math"
+    ],
+    "title": "513-A",
+    "statement": "A. Gametime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutTwo players play a simple game. Each player is provided with a box with balls. First player's box contains exactlyn1balls and second player's box contains exactlyn2balls. In one move first player can take from 1 tok1balls from his box and throw them away. Similarly, the second player can take from 1 tok2balls from his box in his move. Players alternate turns and the first player starts the game. The one who can't make a move loses. Your task is to determine who wins if both players play optimally.InputThe first line contains four integersn1,n2,k1,k2. All numbers in the input are from 1 to 50.This problem doesn't have subproblems. You will get 3 points for the correct submission.OutputOutput \"First\" if the first player wins and \"Second\" otherwise.ExamplesInput2 2 1 2OutputSecondInput2 1 1 1OutputFirstNoteConsider the first sample test. Each player has a box with 2 balls. The first player draws a single ball from his box in one move and the second player can either take 1 or 2 balls from his box in one move. No matter how the first player acts, the second player can always win if he plays wisely.",
+    "source": "CF",
+    "vjudge": false
+}

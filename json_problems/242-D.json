@@ -1,0 +1,13 @@
+{
+    "uid": "242-D",
+    "url": "https://codeforces.com/contest/242/problem/D",
+    "tags": [
+        "dfs and similar",
+        " graphs",
+        " greedy"
+    ],
+    "title": "242-D",
+    "statement": "D. Disputetime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutValera hasncounters numbered from1ton. Some of them are connected by wires, and each of the counters has a special button.Initially, all the counters contain number0. When you press a button on a certain counter, the value it has increases by one. Also, the values recorded in all the counters, directly connected to it by a wire, increase by one.Valera and Ignat started having a dispute, the dispute is as follows. Ignat thought of a sequence ofnintegersa1,a2, ...,an. Valera should choose some set of distinct counters and press buttons on each of them exactly once (on other counters the buttons won't be pressed). If after that there is a counter with the numberi, which has valueai, then Valera loses the dispute, otherwise he wins the dispute.Help Valera to determine on which counters he needs to press a button to win the dispute.InputThe first line contains two space-separated integersnandm(1 ≤n,m≤ 105), that denote the number of counters Valera has and the number of pairs of counters connected by wires.Each of the followingmlines contains two space-separated integersuiandvi(1 ≤ui,vi≤n,ui≠vi), that mean that counters with numbersuiandviare connected by a wire. It is guaranteed that each pair of connected counters occurs exactly once in the input.The last line containsnspace-separated integersa1,a2, ...,an(0 ≤ai≤ 105), whereaiis the value that Ignat choose for thei-th counter.OutputIf Valera can't win the dispute print in the first line -1.Otherwise, print in the first line integerk(0 ≤k≤n). In the second line printkdistinct space-separated integers — the numbers of the counters, where Valera should push buttons to win the dispute, in arbitrary order.If there exists multiple answers, you are allowed to print any of them.ExamplesInput5 52 34 11 55 32 11 1 2 0 2Output21 2Input4 21 23 40 0 0 0Output31 3 4",
+    "source": "CF",
+    "vjudge": false
+}

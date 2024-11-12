@@ -1,0 +1,13 @@
+{
+    "uid": "158-D",
+    "url": "https://codeforces.com/contest/158/problem/D",
+    "tags": [
+        "*special",
+        " brute force",
+        " number theory"
+    ],
+    "title": "158-D",
+    "statement": "D. Ice Sculpturestime limit per test3 secondsmemory limit per test256 megabytesinputstdinoutputstdoutThe Berland University is preparing to celebrate the 256-th anniversary of its founding! A specially appointed Vice Rector for the celebration prepares to decorate the campus. In the center of the campusnice sculptures were erected. The sculptures are arranged in a circle at equal distances from each other, so they form a regularn-gon. They are numbered in clockwise order with numbers from 1 ton.The site of the University has already conducted a voting that estimated each sculpture's characteristic ofti— the degree of the sculpture's attractiveness. The values oftican be positive, negative or zero.When the university rector came to evaluate the work, he said that this might be not the perfect arrangement. He suggested to melt some of the sculptures so that:the remaining sculptures form a regular polygon (the number of vertices should be between 3 andn),the sum of thetivalues of the remaining sculptures is maximized.Help the Vice Rector to analyze the criticism — find the maximum value oftisum which can be obtained in this way. It is allowed not to melt any sculptures at all. The sculptures can not be moved.InputThe first input line contains an integern(3 ≤n≤ 20000) — the initial number of sculptures. The second line contains a sequence of integerst1,t2, ...,tn,ti— the degree of thei-th sculpture's attractiveness (- 1000 ≤ti≤ 1000). The numbers on the line are separated by spaces.OutputPrint the required maximum sum of the sculptures' attractiveness.ExamplesInput81 2 -3 4 -5 5 2 3Output14Input61 -2 3 -4 5 -6Output9Input61 2 3 4 5 6Output21NoteIn the first sample it is best to leave every second sculpture, that is, leave sculptures with attractivenesses: 2, 4, 5 и 3.",
+    "source": "CF",
+    "vjudge": false
+}

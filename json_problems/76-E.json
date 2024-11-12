@@ -1,0 +1,12 @@
+{
+    "uid": "76-E",
+    "url": "https://codeforces.com/contest/76/problem/E",
+    "tags": [
+        "implementation",
+        " math"
+    ],
+    "title": "76-E",
+    "statement": "E. Pointstime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutYou are givenNpoints on a plane. Write a program which will find the sum of squares of distances between all pairs of points.InputThe first line of input contains one integer numberN(1 ≤N≤ 100 000) — the number of points. Each of the followingNlines contain two integer numbersXandY(- 10 000 ≤X,Y≤ 10 000) — the coordinates of points. Two or more points may coincide.OutputThe only line of output should contain the required sum of squares of distances between all pairs of points.ExamplesInput41 1-1 -11 -1-1 1Output32",
+    "source": "CF",
+    "vjudge": false
+}

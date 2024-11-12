@@ -1,0 +1,15 @@
+{
+    "uid": "911-F",
+    "url": "https://codeforces.com/contest/911/problem/F",
+    "tags": [
+        "constructive algorithms",
+        " dfs and similar",
+        " graphs",
+        " greedy",
+        " trees"
+    ],
+    "title": "911-F",
+    "statement": "F. Tree Destructiontime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given an unweighted tree withnvertices. Thenn- 1following operations are applied to the tree. A single operation consists of the following steps:choose two leaves;add the length of the simple path between them to the answer;remove one of the chosen leaves from the tree.Initial answer (before applying operations) is0. Obviously aftern- 1such operations the tree will consist of a single vertex.Calculate the maximal possible answer you can achieve, and construct a sequence of operations that allows you to achieve this answer!InputThe first line contains one integer numbern(2 ≤n≤ 2·105) — the number of vertices in the tree.Nextn- 1lines describe the edges of the tree in formai,bi(1 ≤ai,bi≤n,ai≠bi). It is guaranteed that given graph is a tree.OutputIn the first line print one integer number — maximal possible answer.In the nextn- 1lines print the operations in order of their applying in formatai,bi,ci, whereai,bi— pair of the leaves that are chosen in the current operation (1 ≤ai,bi≤n),ci(1 ≤ci≤n,ci=aiorci=bi) — choosen leaf that is removed from the tree in the current operation.See the examples for better understanding.ExamplesInput31 21 3Output32 3 32 1 1Input51 21 32 42 5Output93 5 54 3 34 1 14 2 2",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,12 @@
+{
+    "uid": "1753-B",
+    "url": "https://codeforces.com/contest/1753/problem/B",
+    "tags": [
+        "math",
+        " number theory"
+    ],
+    "title": "1753-B",
+    "statement": "B. Factorial Divisibilitytime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given an integer $$$x$$$ and an array of integers $$$a_1, a_2, \\\\ldots, a_n$$$. You have to determine if the number $$$a_1! + a_2! + \\\\ldots + a_n!$$$ is divisible by $$$x!$$$.Here $$$k!$$$ is a factorial of $$$k$$$ — the product of all positive integers less than or equal to $$$k$$$. For example, $$$3! = 1 \\\\cdot 2 \\\\cdot 3 = 6$$$, and $$$5! = 1 \\\\cdot 2 \\\\cdot 3 \\\\cdot 4 \\\\cdot 5 = 120$$$.InputThe first line contains two integers $$$n$$$ and $$$x$$$ ($$$1 \\\\le n \\\\le 500\\\\,000$$$, $$$1 \\\\le x \\\\le 500\\\\,000$$$).The second line contains $$$n$$$ integers $$$a_1, a_2, \\\\ldots, a_n$$$ ($$$1 \\\\le a_i \\\\le x$$$) — elements of given array.OutputIn the only line print \"Yes\" (without quotes) if $$$a_1! + a_2! + \\\\ldots + a_n!$$$ is divisible by $$$x!$$$, and \"No\" (without quotes) otherwise.ExamplesInput6 4 3 2 2 2 3 3OutputYesInput8 3 3 2 2 2 2 2 1 1OutputYesInput7 8 7 7 7 7 7 7 7OutputNoInput10 5 4 3 2 1 4 3 2 4 3 4OutputNoInput2 500000 499999 499999OutputNoNoteIn the first example $$$3! + 2! + 2! + 2! + 3! + 3! = 6 + 2 + 2 + 2 + 6 + 6 = 24$$$. Number $$$24$$$ is divisible by $$$4! = 24$$$.In the second example $$$3! + 2! + 2! + 2! + 2! + 2! + 1! + 1! = 18$$$, is divisible by $$$3! = 6$$$.In the third example $$$7! + 7! + 7! + 7! + 7! + 7! + 7! = 7 \\\\cdot 7!$$$. It is easy to prove that this number is not divisible by $$$8!$$$.",
+    "source": "CF",
+    "vjudge": false
+}

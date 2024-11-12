@@ -1,0 +1,12 @@
+{
+    "uid": "891-B",
+    "url": "https://codeforces.com/contest/891/problem/B",
+    "tags": [
+        "constructive algorithms",
+        " greedy"
+    ],
+    "title": "891-B",
+    "statement": "B. Gluttonytime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given an arrayawithndistinct integers. Construct an arraybby permutingasuch that for every non-empty subset of indicesS= {x1,x2, ...,xk}(1 ≤xi≤n,0 <k<n) the sums of elements on that positions inaandbare different, i. e.InputThe first line contains one integern(1 ≤n≤ 22) — the size of the array.The second line containsnspace-separated distinct integersa1,a2, ...,an(0 ≤ai≤ 109) — the elements of the array.OutputIf there is no such arrayb, print-1.Otherwise in the only line printnspace-separated integersb1,b2, ...,bn. Note thatbmust be a permutation ofa.If there are multiple answers, print any of them.ExamplesInput21 2Output2 1Input41000 100 10 1Output100 1 1000 10NoteAn arrayxis a permutation ofy, if we can shuffle elements ofysuch that it will coincide withx.Note that the empty subset and the subset containing all indices are not counted.",
+    "source": "CF",
+    "vjudge": false
+}

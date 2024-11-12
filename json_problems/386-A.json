@@ -1,0 +1,11 @@
+{
+    "uid": "386-A",
+    "url": "https://codeforces.com/contest/386/problem/A",
+    "tags": [
+        "implementation"
+    ],
+    "title": "386-A",
+    "statement": "A. Second-Price Auctiontime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutIn this problem we consider a special type of an auction, which is called the second-price auction. As in regular auctionnbidders place a bid which is price a bidder ready to pay. The auction is closed, that is, each bidder secretly informs the organizer of the auction price he is willing to pay. After that, the auction winner is the participant who offered the highest price. However, he pay not the price he offers, but the highest price among the offers of other participants (hence the name: the second-price auction).Write a program that reads prices offered by bidders and finds the winner and the price he will pay. Consider that all of the offered prices are different.InputThe first line of the input containsn(2 ≤n≤ 1000) — number of bidders. The second line containsndistinct integer numbersp1,p2, ...pn, separated by single spaces (1 ≤pi≤ 10000), wherepistands for the price offered by thei-th bidder.OutputThe single output line should contain two integers: index of the winner and the price he will pay. Indices are 1-based.ExamplesInput25 7Output2 5Input310 2 8Output1 8Input63 8 2 9 4 14Output6 9",
+    "source": "CF",
+    "vjudge": false
+}

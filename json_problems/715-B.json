@@ -1,0 +1,14 @@
+{
+    "uid": "715-B",
+    "url": "https://codeforces.com/contest/715/problem/B",
+    "tags": [
+        "binary search",
+        " constructive algorithms",
+        " graphs",
+        " shortest paths"
+    ],
+    "title": "715-B",
+    "statement": "B. Complete The Graphtime limit per test4 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputZS the Coder has drawn an undirected graph ofnvertices numbered from0ton- 1andmedges between them. Each edge of the graph is weighted, each weight is apositive integer.The next day, ZS the Coder realized that some of the weights were erased! So he wants to reassignpositive integerweight to each of the edges which weights were erased, so that the length of the shortest path between verticessandtin the resulting graph is exactlyL. Can you help him?InputThe first line contains five integersn,m,L,s,t(2 ≤n≤ 1000,  1 ≤m≤ 10 000,  1 ≤L≤ 109,  0 ≤s,t≤n- 1,s≠t) — the number of vertices, number of edges, the desired length of shortest path, starting vertex and ending vertex respectively.Then,mlines describing the edges of the graph follow.i-th of them contains three integers,ui,vi,wi(0 ≤ui,vi≤n- 1,ui≠vi,  0 ≤wi≤ 109).uiandvidenote the endpoints of the edge andwidenotes its weight. Ifwiis equal to0then the weight of the corresponding edge was erased.It is guaranteed that there is at most one edge between any pair of vertices.OutputPrint \"NO\" (without quotes) in the only line if it's not possible to assign the weights in a required way.Otherwise, print \"YES\" in the first line. Nextmlines should contain the edges of the resulting graph, with weights assigned to edges which weights were erased.i-th of them should contain three integersui,viandwi, denoting an edge between verticesuiandviof weightwi. The edges of the new graph must coincide with the ones in the graph from the input. The weights that were not erased must remain unchanged whereas the new weights can be anypositive integernot exceeding1018.The order of the edges in the output doesn't matter. The length of the shortest path betweensandtmust be equal toL.If there are multiple solutions, print any of them.ExamplesInput5 5 13 0 40 1 52 1 23 2 31 4 04 3 4OutputYES0 1 52 1 23 2 31 4 84 3 4Input2 1 123456789 0 10 1 0OutputYES0 1 123456789Input2 1 999999999 1 00 1 1000000000OutputNONoteHere's how the graph in the first sample case looks like :In the first sample case, there is only one missing edge weight. Placing the weight of8gives a shortest path from0to4of length13.In the second sample case, there is only a single edge. Clearly, the only way is to replace the missing weight with123456789.In the last sample case, there is no weights to assign but the length of the shortest path doesn't match the required value, so the answer is \"NO\".",
+    "source": "CF",
+    "vjudge": false
+}

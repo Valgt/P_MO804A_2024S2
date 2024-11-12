@@ -1,0 +1,14 @@
+{
+    "uid": "117-E",
+    "url": "https://codeforces.com/contest/117/problem/E",
+    "tags": [
+        "data structures",
+        " divide and conquer",
+        " implementation",
+        " trees"
+    ],
+    "title": "117-E",
+    "statement": "E. Tree or not Treetime limit per test5 secondsmemory limit per test256 megabytesinputstdinoutputstdoutYou are given an undirected connected graphGconsisting ofnvertexes andnedges.Gcontains no self-loops or multiple edges. Let each edge has two states: on and off. Initially all edges are switched off.You are also givenmqueries represented as(v,u)— change the state of all edges on the shortest path from vertexvto vertexuin graphG. If there are several such paths, the lexicographically minimal one is chosen. More formally, let us consider all shortest paths from vertexvto vertexuas the sequences of vertexesv,v1,v2, ...,u. Among such sequences we choose the lexicographically minimal one.After each query you should tell how many connected components has the graph whose vertexes coincide with the vertexes of graphGand edges coincide with the switched on edges of graphG.InputThe first line contains two integersnandm(3 ≤n≤ 105,1 ≤m≤ 105). Thennlines describe the graph edges asab(1 ≤a,b≤n). Nextmlines contain the queries asvu(1 ≤v,u≤n).It is guaranteed that the graph is connected, does not have any self-loops or multiple edges.OutputPrintmlines, each containing one integer — the query results.ExamplesInput5 22 14 32 42 54 15 41 5Output33Input6 24 64 31 26 51 51 42 52 6Output43NoteLet's consider the first sample. We'll highlight the switched on edges blue on the image.The graph before applying any operations. No graph edges are switched on, that's why there initially are 5 connected components.The graph after queryv= 5,u= 4. We can see that the graph has three components if we only consider the switched on edges.The graph after queryv= 1,u= 5. We can see that the graph has three components if we only consider the switched on edges.Lexicographical comparison of two sequences of equal length ofknumbers should be done as follows. Sequencexis lexicographically less than sequenceyif exists suchi(1 ≤i≤k), so thatxi<yi, and for anyj(1 ≤j<i)xj=yj.",
+    "source": "CF",
+    "vjudge": false
+}

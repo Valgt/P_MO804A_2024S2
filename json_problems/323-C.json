@@ -1,0 +1,11 @@
+{
+    "uid": "323-C",
+    "url": "https://codeforces.com/contest/323/problem/C",
+    "tags": [
+        "data structures"
+    ],
+    "title": "323-C",
+    "statement": "C. Two permutationstime limit per test6 secondsmemory limit per test512 megabytesinputstdinoutputstdoutYou are given two permutationspandq, consisting ofnelements, andmqueries of the form:l1,r1,l2,r2(l1≤r1;l2≤r2). The response for the query is the number of such integers from1ton, that their position in the first permutation is in segment[l1,r1](borders included), and position in the second permutation is in segment[l2,r2](borders included too).Apermutationofnelements is the sequence ofndistinct integers, each not less than1and not greater thann.Positionof numberv(1 ≤v≤n)in permutationg1,g2, ...,gnis such numberi, thatgi=v.InputThe first line contains one integern(1 ≤n≤ 106), the number of elements in both permutations. The following line containsnintegers, separated with spaces:p1,p2, ...,pn(1 ≤pi≤n). These are elements of the first permutation. The next line contains the second permutationq1,q2, ...,qnin same format.The following line contains an integerm(1 ≤m≤ 2·105), that is the number of queries.The followingmlines contain descriptions of queries one in a line. The description of thei-th query consists of four integers:a,b,c,d(1 ≤a,b,c,d≤n). Query parametersl1,r1,l2,r2are obtained from the numbersa,b,c,dusing the following algorithm:Introduce variablex. If it is the first query, then the variable equals0, else it equals the response for the previous query plus one.Introduce functionf(z) = ((z- 1 +x)modn) + 1.Supposel1=min(f(a),f(b)),r1=max(f(a),f(b)),l2=min(f(c),f(d)),r2=max(f(c),f(d)).OutputPrint a response for each query in a separate line.ExamplesInput33 1 23 2 111 2 3 3Output1Input44 3 2 12 3 4 131 2 3 41 3 2 11 4 2 3Output112",
+    "source": "CF",
+    "vjudge": false
+}

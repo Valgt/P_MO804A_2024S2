@@ -1,0 +1,11 @@
+{
+    "uid": "571-E",
+    "url": "https://codeforces.com/contest/571/problem/E",
+    "tags": [
+        "math"
+    ],
+    "title": "571-E",
+    "statement": "E. Geometric Progressionstime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputGeometric progression with the first elementaand common ratiobis a sequence of numbersa,ab,ab2,ab3, ....You are givenninteger geometric progressions. Your task is to find the smallest integerx, that is the element of all the given progressions, or else state that such integer does not exist.InputThe first line contains integer (1 ≤n≤ 100) — the number of geometric progressions.Nextnlines contain pairs of integersa,b(1 ≤a,b≤ 109), that are the first element and the common ratio of the corresponding geometric progression.OutputIf the intersection of all progressions is empty, then print- 1, otherwise print the remainder of the minimal positive integer number belonging to all progressions modulo1000000007(109+ 7).ExamplesInput22 24 1Output4Input22 23 3Output-1NoteIn the second sample test one of the progressions contains only powers of two, the other one contains only powers of three.",
+    "source": "CF",
+    "vjudge": false
+}

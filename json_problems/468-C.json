@@ -1,0 +1,13 @@
+{
+    "uid": "468-C",
+    "url": "https://codeforces.com/contest/468/problem/C",
+    "tags": [
+        "binary search",
+        " constructive algorithms",
+        " math"
+    ],
+    "title": "468-C",
+    "statement": "C. Hack it!time limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutLittle X has met the following problem recently.Let's definef(x)as the sum of digits in decimal representation of numberx(for example,f(1234) = 1 + 2 + 3 + 4). You are to calculateOf course Little X has solved this problem quickly, has locked it, and then has tried to hack others. He has seen the following C++ code:ans = solve(l, r) % a;if (ans <= 0)ans += a;This code will fail only on the test with. You are given numbera, help Little X to find a proper test for hack.InputThe first line contains a single integera(1 ≤a≤ 1018).OutputPrint two integers:l,r(1 ≤l≤r< 10200)— the required test data. Leading zeros aren't allowed. It's guaranteed that the solution exists.ExamplesInput46Output1 10Input126444381000032Output2333333 2333333333333",
+    "source": "CF",
+    "vjudge": false
+}

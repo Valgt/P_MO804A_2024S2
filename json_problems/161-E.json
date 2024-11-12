@@ -1,0 +1,12 @@
+{
+    "uid": "161-E",
+    "url": "https://codeforces.com/contest/161/problem/E",
+    "tags": [
+        "brute force",
+        " dp"
+    ],
+    "title": "161-E",
+    "statement": "E. Polycarpus the Safecrackertime limit per test3 secondsmemory limit per test256 megabytesinputstdinoutputstdoutPolycarpus hastsafes. The password for each safe is a square matrix consisting of decimal digits '0' ... '9' (the sizes of passwords to the safes may vary). Alas, Polycarpus has forgotten all passwords, so now he has to restore them.Polycarpus enjoys prime numbers, so when he chose the matrix passwords, he wrote a prime number in each row of each matrix. To his surprise, he found that all the matrices turned out to be symmetrical (that is, they remain the same after transposition). Now, years later, Polycarp was irritated to find out that he remembers only the prime numberspi, written in the first lines of the password matrices.For each safe find the number of matrices which can be passwords to it.The number of digits inpidetermines the number of rows and columns of thei-th matrix. One prime number can occur in several rows of the password matrix or in several matrices. The prime numbers that are written not in the first row of the matrix may have leading zeros.InputThe first line of the input contains an integert(1 ≤t≤ 30) — the number of safes. Nexttlines contain integerspi(10 ≤pi≤ 99999),piis a prime number written in the first row of the password matrix for thei-th safe. Allpi's are written without leading zeros.OutputPrinttnumbers, thei-th of them should be the number of matrices that can be a password to thei-th safe. Print the numbers on separate lines.ExamplesInput4112394019001Output428612834NoteHere is a possible password matrix for the second safe:239307977Here is a possible password matrix for the fourth safe:9001000200021223",
+    "source": "CF",
+    "vjudge": false
+}

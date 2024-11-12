@@ -1,0 +1,12 @@
+{
+    "uid": "702-E",
+    "url": "https://codeforces.com/contest/702/problem/E",
+    "tags": [
+        "data structures",
+        " graphs"
+    ],
+    "title": "702-E",
+    "statement": "E. Analysis of Pathes in Functional Graphtime limit per test2 secondsmemory limit per test512 megabytesinputstdinoutputstdoutYou are given afunctional graph. It is a directed graph, in which from each vertex goes exactly one arc. The vertices are numerated from0ton- 1.Graph is given as the arrayf0,f1, ...,fn- 1, wherefi— the number of vertex to which goes the only arc from the vertexi. Besides you are given array with weights of the arcsw0,w1, ...,wn- 1, wherewi— the arc weight fromitofi.The graph from the first sample test.Also you are given the integerk(the length of the path) and you need to find for each vertex two numberssiandmi, where:si— the sum of the weights of all arcs of the path with length equals tokwhich starts from the vertexi;mi— the minimal weight from all arcs on the path with lengthkwhich starts from the vertexi.The length of the path is the number of arcs on this path.InputThe first line contains two integersn,k(1 ≤n≤ 105, 1 ≤k≤ 1010). The second line contains the sequencef0,f1, ...,fn- 1(0 ≤fi<n) and the third — the sequencew0,w1, ...,wn- 1(0 ≤wi≤ 108).OutputPrintnlines, the pair of integerssi,miin each line.ExamplesInput7 31 2 3 4 3 2 66 3 1 4 2 2 3Output10 18 17 110 28 27 19 3Input4 40 1 2 30 1 2 3Output0 04 18 212 3Input5 31 2 3 4 04 1 2 14 3Output7 117 119 221 38 1",
+    "source": "CF",
+    "vjudge": false
+}

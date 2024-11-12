@@ -1,0 +1,12 @@
+{
+    "uid": "100-F",
+    "url": "https://codeforces.com/contest/100/problem/F",
+    "tags": [
+        "*special",
+        " implementation"
+    ],
+    "title": "100-F",
+    "statement": "F. Polynomtime limit per test2 secondsmemory limit per test64 megabytesinputstdinoutputstdoutYou are given a polynom in formp(x) = (x+a1)·(x+a2)·... (x+an). Write Pike program to print it in a standard formp(x) =xn+b1xn- 1+ ... +bn- 1x+bn. You should write each addend in form «C*X^K» (for example,5*X^8).Please, write the polynom in the shortest way, so you should skip unnecessary terms: some terms «C*X^K» should be reduced or even omitted. Look for the samples for clarification.InputThe first line of the input containsn(1 ≤n≤ 9). The followingnlines contain integerai(- 10 ≤ai≤ 10).OutputPrint the given polynom in a standard way. Note, that the answer in this problem response uniquely determined.ExamplesInput2-11OutputX^2-1Input211OutputX^2+2*X+1",
+    "source": "CF",
+    "vjudge": false
+}

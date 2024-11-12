@@ -1,0 +1,12 @@
+{
+    "uid": "106-E",
+    "url": "https://codeforces.com/contest/106/problem/E",
+    "tags": [
+        "geometry",
+        " ternary search"
+    ],
+    "title": "106-E",
+    "statement": "E. Space Rescuerstime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutThe Galaxy containsnplanets, there are many different living creatures inhabiting each planet. And each creature can get into troubles! Space rescuers know it perfectly well and they are always ready to help anyone who really needs help. All you need to do is call for them.Now the space rescuers plan to build the largest in the history of the Galaxy rescue station; however, the rescue station's location is yet to be determined. As some cases are real emergencies, the rescuers want to find such a point in the Galaxy from which it would be possible to get to the remotest planet in the minimum possible time. In other words, the rescuers need such point in the space that the distance between it and the planet remotest from it was minimal (if we compare this point with all other possible points in the space). Unfortunately, the rescuers can't sole this problem.As the planets are quite remote from each other, they can be considered as points in Euclidean three-dimensional space. The distance between points(xi,yi,zi)and(xj,yj,zj)can be calculated by the formula. The rescue station can be positioned in any point in the space. It can also coincide with some planet.Galaxy is in danger! Save the space rescuers and find the required point for them.InputThe first line of the input file contains integern— the number of planets (1 ≤N≤ 100). Each of the followingnlines contains information about the planets. Thei-th line contains three integersxi,yi,zi— the coordinates of thei-th planet (- 104≤xi,yi,zi≤ 104,1 ≤i≤n). No two planets coincide.OutputPrint on the first line of the output file three space-separated real numbersx0,y0,z0— the coordinates for the future base. If there are several solutions, you are allowed to print any of them. The answer will be accepted if the distance from this point to the remotest planet will differ from the juries' variant in no more than10- 6in absolute or relative value.ExamplesInput55 0 0-5 0 00 3 44 -3 02 2 -2Output0.000 0.000 0.000",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,11 @@
+{
+    "uid": "409-C",
+    "url": "https://codeforces.com/contest/409/problem/C",
+    "tags": [
+        "*special"
+    ],
+    "title": "409-C",
+    "statement": "C. Magnum Opustime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutSalve, mi amice.Et tu quidem de lapis philosophorum. Barba non facit philosophum. Labor omnia vincit. Non potest creatio ex nihilo. Necesse est partibus.Rp:I Aqua FortisI Aqua RegiaII AmalgamaVII MiniumIV VitriolMisce in vitro et æstus, et nil admirari. Festina lente, et nulla tenaci invia est via.Fac et spera,Vale,Nicolas FlamelInputThe first line of input contains several space-separated integersai(0 ≤ai≤ 100).OutputPrint a single integer.ExamplesInput2 4 6 8 10Output1",
+    "source": "CF",
+    "vjudge": false
+}

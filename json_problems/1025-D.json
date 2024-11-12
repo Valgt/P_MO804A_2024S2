@@ -1,0 +1,15 @@
+{
+    "uid": "1025-D",
+    "url": "https://codeforces.com/contest/1025/problem/D",
+    "tags": [
+        "brute force",
+        " dp",
+        " math",
+        " number theory",
+        " trees"
+    ],
+    "title": "1025-D",
+    "statement": "D. Recovering BSTtime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputDima the hamster enjoys nibbling different things: cages, sticks, bad problemsetters and even trees!Recently he found a binary search tree and instinctively nibbled all of its edges, hence messing up the vertices. Dima knows that if Andrew, who has been thoroughly assembling the tree for a long time, comes home and sees his creation demolished, he'll get extremely upset.To not let that happen, Dima has to recover the binary search tree. Luckily, he noticed that any two vertices connected by a direct edge had their greatest common divisor value exceed $$$1$$$.Help Dima construct such abinary search treeor determine that it's impossible. The definition and properties of a binary search tree can be foundhere.InputThe first line contains the number of vertices $$$n$$$ ($$$2 \\\\le n \\\\le 700$$$).The second line features $$$n$$$ distinct integers $$$a_i$$$ ($$$2 \\\\le a_i \\\\le 10^9$$$) — the values of verticesin ascending order.OutputIf it is possible to reassemble the binary search tree, such that the greatest common divisor of any two vertices connected by the edge is greater than $$$1$$$, print \"Yes\" (quotes for clarity).Otherwise, print \"No\" (quotes for clarity).ExamplesInput63 6 9 18 36 108OutputYesInput27 17OutputNoInput94 8 10 12 15 18 33 44 81OutputYesNoteThe picture below illustrates one of the possible trees for the first example.The picture below illustrates one of the possible trees for the third example.",
+    "source": "CF",
+    "vjudge": false
+}

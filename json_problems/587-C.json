@@ -1,0 +1,12 @@
+{
+    "uid": "587-C",
+    "url": "https://codeforces.com/contest/587/problem/C",
+    "tags": [
+        "data structures",
+        " trees"
+    ],
+    "title": "587-C",
+    "statement": "C. Duff in the Armytime limit per test4 secondsmemory limit per test512 megabytesinputstandard inputoutputstandard outputRecently Duff has been a soldier in the army. Malek is her commander.Their country, Andarz Gu hasncities (numbered from1ton) andn- 1bidirectional roads. Each road connects two different cities. There exist a unique path between any two cities.There are alsompeople living in Andarz Gu (numbered from1tom). Each person has and ID number. ID number ofi-thperson isiand he/she lives in city numberci. Note that there may be more than one person in a city, also there may be no people living in the city.Malek loves to order. That's why he asks Duff to answer toqqueries. In each query, he gives her numbersv,uanda.To answer a query:Assume there arexpeople living in the cities lying on the path from cityvto cityu. Assume these people's IDs arep1,p2, ...,pxin increasing order.Ifk=min(x,a), then Duff should tell Malek numbersk,p1,p2, ...,pkin this order. In the other words, Malek wants to knowaminimums on that path (or less, if there are less thanapeople).Duff is very busy at the moment, so she asked you to help her and answer the queries.InputThe first line of input contains three integers,n,mandq(1 ≤n,m,q≤ 105).The nextn- 1lines contain the roads. Each line contains two integersvandu, endpoints of a road (1 ≤v,u≤n,v≠u).Next line containsmintegersc1,c2, ...,cmseparated by spaces (1 ≤ci≤nfor each1 ≤i≤m).Nextqlines contain the queries. Each of them contains three integers,v,uanda(1 ≤v,u≤nand1 ≤a≤ 10).OutputFor each query, print numbersk,p1,p2, ...,pkseparated by spaces in one line.ExamplesInput5 4 51 31 21 44 52 1 4 34 5 61 5 25 5 102 3 35 3 1Output1 32 2 303 1 2 41 2NoteGraph of Andarz Gu in the sample case is as follows (ID of people in each city are written next to them):",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,12 @@
+{
+    "uid": "466-B",
+    "url": "https://codeforces.com/contest/466/problem/B",
+    "tags": [
+        "brute force",
+        " math"
+    ],
+    "title": "466-B",
+    "statement": "B. Wonder Roomtime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutThe start of the new academic year brought about the problem of accommodation students into dormitories. One of such dormitories has aa×bsquare meter wonder room. The caretaker wants to accommodate exactlynstudents there. But the law says that there must be at least 6 square meters per student in a room (that is, the room fornstudents must have the area of at least6nsquare meters). The caretaker can enlarge any (possibly both) side of the room by an arbitrary positive integer of meters. Help him change the room so as allnstudents could live in it and the total area of the room was as small as possible.InputThe first line contains three space-separated integersn,aandb(1 ≤n,a,b≤ 109) — the number of students and the sizes of the room.OutputPrint three integerss,a1andb1(a≤a1;b≤b1)— the final area of the room and its sizes. If there are multiple optimal solutions, print any of them.ExamplesInput3 3 5Output183 6Input2 4 4Output164 4",
+    "source": "CF",
+    "vjudge": false
+}

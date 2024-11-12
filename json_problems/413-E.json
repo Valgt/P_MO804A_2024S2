@@ -1,0 +1,12 @@
+{
+    "uid": "413-E",
+    "url": "https://codeforces.com/contest/413/problem/E",
+    "tags": [
+        "data structures",
+        " divide and conquer"
+    ],
+    "title": "413-E",
+    "statement": "E. Maze 2Dtime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutThe last product of the R2 company in the 2D games' field is a new revolutionary algorithm of searching for the shortest path in a2 ×nmaze.Imagine a maze that looks like a2 ×nrectangle, divided into unit squares. Each unit square is either an empty cell or an obstacle. In one unit of time, a person can move from an empty cell of the maze to any side-adjacent empty cell. The shortest path problem is formulated as follows. Given two free maze cells, you need to determine the minimum time required to go from one cell to the other.Unfortunately, the developed algorithm works well for only one request for finding the shortest path, in practice such requests occur quite often. You, as the chief R2 programmer, are commissioned to optimize the algorithm to find the shortest path. Write a program that will effectively respond to multiple requests to find the shortest path in a2 ×nmaze.InputThe first line contains two integers,nandm(1 ≤n≤ 2·105; 1 ≤m≤ 2·105)— the width of the maze and the number of queries, correspondingly. Next two lines contain the maze. Each line containsncharacters, each character equals either '.' (empty cell), or 'X' (obstacle).Each of the nextmlines contains two integersviandui(1 ≤vi,ui≤ 2n)— the description of thei-th request. Numbersvi,uimean that you need to print the value of the shortest path from the cell of the maze numbervito the cell numberui. We assume that the cells of the first line of the maze are numbered from1ton, from left to right, and the cells of the second line are numbered fromn+ 1to2nfrom left to right. It is guaranteed that both given cells are empty.OutputPrintmlines. In thei-th line print the answer to thei-th request — either the size of the shortest path or -1, if we can't reach the second cell from the first one.ExamplesInput4 7.X.....X5 11 37 71 46 14 75 7Output1405222Input10 3X...X..X....X...X..X11 77 1818 10Output9-13",
+    "source": "CF",
+    "vjudge": false
+}

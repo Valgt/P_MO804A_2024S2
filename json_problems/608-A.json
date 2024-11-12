@@ -1,0 +1,12 @@
+{
+    "uid": "608-A",
+    "url": "https://codeforces.com/contest/608/problem/A",
+    "tags": [
+        "implementation",
+        " math"
+    ],
+    "title": "608-A",
+    "statement": "A. Saitama Destroys Hoteltime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputSaitama accidentally destroyed a hotel again. To repay the hotel company, Genos has volunteered to operate an elevator in one of its other hotels. The elevator is special — it starts on the top floor, can only move down, and has infinite capacity. Floors are numbered from0tosand elevator initially starts on floorsat time0.The elevator takes exactly1second to move down exactly1floor and negligible time to pick up passengers. Genos is given a list detailing when and on which floor passengers arrive. Please determine how long in seconds it will take Genos to bring all passengers to floor0.InputThe first line of input contains two integersnands(1 ≤n≤ 100,1 ≤s≤ 1000) — the number of passengers and the number of the top floor respectively.The nextnlines each contain two space-separated integersfiandti(1 ≤fi≤s,1 ≤ti≤ 1000) — the floor and the time of arrival in seconds for the passenger numberi.OutputPrint a single integer — the minimum amount of time in seconds needed to bring all the passengers to floor0.ExamplesInput3 72 13 85 2Output11Input5 102 773 338 219 1210 64Output79NoteIn the first sample, it takes at least11seconds to bring all passengers to floor0. Here is how this could be done:1. Move to floor5: takes2seconds.2. Pick up passenger3.3. Move to floor3: takes2seconds.4. Wait for passenger2to arrive: takes4seconds.5. Pick up passenger2.6. Go to floor2: takes1second.7. Pick up passenger1.8. Go to floor0: takes2seconds.This gives a total of2 + 2 + 4 + 1 + 2 = 11seconds.",
+    "source": "CF",
+    "vjudge": false
+}

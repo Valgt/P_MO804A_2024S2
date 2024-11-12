@@ -1,0 +1,15 @@
+{
+    "uid": "772-C",
+    "url": "https://codeforces.com/contest/772/problem/C",
+    "tags": [
+        "constructive algorithms",
+        " dp",
+        " graphs",
+        " math",
+        " number theory"
+    ],
+    "title": "772-C",
+    "statement": "C. Vulnerable Kerbalstime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given an integerm, and a list ofndistinct integers between0andm- 1.You would like to construct a sequence satisfying the properties:Each element is an integer between0andm- 1, inclusive.All prefix products of the sequence modulomare distinct.No prefix product modulomappears as an element of the input list.The length of the sequence is maximized.Construct any sequence satisfying the properties above.InputThe first line of input contains two integersnandm(0 ≤n<m≤ 200 000) — the number of forbidden prefix products and the modulus.Ifnis non-zero, the next line of input containsndistinct integers between0andm- 1, the forbidden prefix products. Ifnis zero, this line doesn't exist.OutputOn the first line, print the numberk, denoting the length of your sequence.On the second line, printkspace separated integers, denoting your sequence.ExamplesInput0 5Output51 2 4 3 0Input3 102 9 1Output63 9 2 9 8 0NoteFor the first case, the prefix products of this sequence modulomare[1, 2, 3, 4, 0].For the second case, the prefix products of this sequence modulomare[3, 7, 4, 6, 8, 0].",
+    "source": "CF",
+    "vjudge": false
+}

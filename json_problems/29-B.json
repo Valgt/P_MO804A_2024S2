@@ -1,0 +1,11 @@
+{
+    "uid": "29-B",
+    "url": "https://codeforces.com/contest/29/problem/B",
+    "tags": [
+        "implementation"
+    ],
+    "title": "29-B",
+    "statement": "B. Traffic Lightstime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutA car moves from point A to point B at speedvmeters per second. The action takes place on the X-axis. At the distancedmeters from A there are traffic lights. Starting from time 0, for the firstgseconds the green light is on, then for the followingrseconds the red light is on, then again the green light is on for thegseconds, and so on.The car can be instantly accelerated from0tovand vice versa, can instantly slow down from thevto0. Consider that it passes the traffic lights at the green light instantly. If the car approaches the traffic lights at the moment when the red light has just turned on, it doesn't have time to pass it. But if it approaches the traffic lights at the moment when the green light has just turned on, it can move. The car leaves point A at the time 0.What is the minimum time for the car to get from point A to point B without breaking the traffic rules?InputThe first line contains integersl,d,v,g,r(1 ≤l,d,v,g,r≤ 1000,d<l) — the distance between A and B (in meters), the distance from A to the traffic lights, car's speed, the duration of green light and the duration of red light.OutputOutput a single number — the minimum time that the car needs to get from point A to point B. Your output must have relative or absolute error less than10- 6.ExamplesInput2 1 3 4 5Output0.66666667Input5 4 3 1 1Output2.33333333",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,13 @@
+{
+    "uid": "961-C",
+    "url": "https://codeforces.com/contest/961/problem/C",
+    "tags": [
+        "bitmasks",
+        " brute force",
+        " implementation"
+    ],
+    "title": "961-C",
+    "statement": "C. Chessboardtime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputMagnus decided to play a classic chess game. Though what he saw in his locker shocked him! His favourite chessboard got broken into4pieces, each of sizenbyn,nisalways odd. And what's even worse, some squares were of wrong color.j-th square of thei-th row ofk-th piece of the board has colorak,i,j;1being black and0being white.Now Magnus wants to change color of some squares in such a way that he recolors minimum number of squares and obtained pieces form a valid chessboard. Every square has its color different to each of the neightbouring by side squares in a valid board. Its size should be2nby2n. You are allowed to move pieces butnot allowed to rotate or flip them.InputThe first line containsoddintegern(1 ≤n≤ 100)— the size of all pieces of the board.Then4segments follow, each describes one piece of the board. Each consists ofnlines ofncharacters;j-th one ofi-th line is equal to1if the square is black initially and0otherwise. Segments are separated by an empty line.OutputPrint one number — minimum number of squares Magnus should recolor to be able to obtain a valid chessboard.ExamplesInput10010Output1Input3101010101101000101010101011010101010Output2",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,11 @@
+{
+    "uid": "38-A",
+    "url": "https://codeforces.com/contest/38/problem/A",
+    "tags": [
+        "implementation"
+    ],
+    "title": "38-A",
+    "statement": "A. Armytime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutThe Berland Armed Forces System consists ofnranks that are numbered using natural numbers from1ton, where1is the lowest rank andnis the highest rank.One needs exactlydiyears to rise from rankito ranki+ 1. Reaching a certain rankihaving not reached all the previousi- 1ranks is impossible.Vasya has just reached a new rank ofa, but he dreams of holding the rank ofb. Find for how many more years Vasya should serve in the army until he can finally realize his dream.InputThe first input line contains an integern(2 ≤n≤ 100). The second line containsn- 1integersdi(1 ≤di≤ 100). The third input line contains two integersaandb(1 ≤a<b≤n). The numbers on the lines are space-separated.OutputPrint the single number which is the number of years that Vasya needs to rise from rankato rankb.ExamplesInput35 61 2Output5Input35 61 3Output11",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,12 @@
+{
+    "uid": "748-C",
+    "url": "https://codeforces.com/contest/748/problem/C",
+    "tags": [
+        "constructive algorithms",
+        " math"
+    ],
+    "title": "748-C",
+    "statement": "C. Santa Claus and Robottime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputSanta Claus has Robot which lives on the infinite grid and can movealong its lines. He can also, having a sequence ofmpointsp1,p2, ...,pmwith integer coordinates, do the following: denote its initial location byp0. First, the robot will move fromp0top1along one of the shortest paths between them (please notice that since the robot moves only along the grid lines, there can be several shortest paths). Then, after it reachesp1, it'll move top2, again, choosing one of the shortest ways, then top3, and so on, until he has visited all points in the given order. Some of the points in the sequence may coincide, in that case Robot will visit that point several times according to the sequence order.While Santa was away, someone gave a sequence of points to Robot. This sequence is now lost, but Robot saved the protocol of its unit movements. Please, find the minimum possible length of the sequence.InputThe first line of input contains the only positive integern(1 ≤n≤ 2·105) which equals the number of unit segments the robot traveled. The second line contains the movements protocol, which consists ofnletters, each being equal eitherL, orR, orU, orD.k-th letter stands for the direction which Robot traveled thek-th unit segment in:Lmeans that it moved to the left,R— to the right,U— to the top andD— to the bottom. Have a look at the illustrations for better explanation.OutputThe only line of input should contain the minimum possible length of the sequence.ExamplesInput4RURDOutput2Input6RRULDDOutput2Input26RRRULURURUULULLLDLDDRDRDLDOutput7Input3RLLOutput2Input4LRLROutput4NoteThe illustrations to the first three tests are given below.The last example illustrates that each point in the sequence should be counted as many times as it is presented in the sequence.",
+    "source": "CF",
+    "vjudge": false
+}

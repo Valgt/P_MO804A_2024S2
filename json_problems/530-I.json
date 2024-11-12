@@ -1,0 +1,11 @@
+{
+    "uid": "530-I",
+    "url": "https://codeforces.com/contest/530/problem/I",
+    "tags": [
+        "*special"
+    ],
+    "title": "530-I",
+    "statement": "I. Different variablestime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputNvariablesX1, ...,XNcan have positive integer values. You are givenKconstraints for these value that look like \"the values of variablesXi1,Xi2, ...,XiMare different\". Among all possible lists of values of these variables that satisfy these constraints select the ones which have minimum possiblemax(Xi). Output lexicographically least of these lists.InputThe first line of input contains two integersnandk(2 ≤N≤ 10,1 ≤K≤ 100) — the number of variables and the number of constraints.The followingKlines contain the constraints, formatted as follows: the first number in the lineM(2 ≤M≤N) gives the number of variables in the constraint. After it followMspace-separated integersi1, ...,iM— the indices of the variables used in the constraint (1 ≤ij≤N). Allijin one constraint are different.OutputOutput the values ofX1,X2, ...,XNin a single line, separated with single spaces.ExamplesInput2 12 1 2Output1 2Input3 22 1 22 2 3Output1 2 1",
+    "source": "CF",
+    "vjudge": false
+}

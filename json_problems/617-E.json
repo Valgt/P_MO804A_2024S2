@@ -1,0 +1,11 @@
+{
+    "uid": "617-E",
+    "url": "https://codeforces.com/contest/617/problem/E",
+    "tags": [
+        "data structures"
+    ],
+    "title": "617-E",
+    "statement": "E. XOR and Favorite Numbertime limit per test4 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputBob has a favorite numberkandaiof lengthn. Now he asks you to answermqueries. Each query is given by a pairliandriand asks you to count the number of pairs of integersiandj, such thatl≤i≤j≤rand the xor of the numbersai,ai+ 1, ...,ajis equal tok.InputThe first line of the input contains integersn,mandk(1 ≤n,m≤ 100 000,0 ≤k≤ 1 000 000) — the length of the array, the number of queries and Bob's favorite number respectively.The second line containsnintegersai(0 ≤ai≤ 1 000 000) — Bob's array.Thenmlines follow. Thei-th line contains integersliandri(1 ≤li≤ri≤n) — the parameters of thei-th query.OutputPrintmlines, answer the queries in the order they appear in the input.ExamplesInput6 2 31 2 1 1 0 31 63 5Output70Input5 3 11 1 1 1 11 52 41 3Output944NoteIn the first sample the suitable pairs ofiandjfor the first query are: (1,2), (1,4), (1,5), (2,3), (3,6), (5,6), (6,6). Not a single of these pairs is suitable for the second query.In the second sample xor equals1for all subarrays of an odd length.",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,12 @@
+{
+    "uid": "950-A",
+    "url": "https://codeforces.com/contest/950/problem/A",
+    "tags": [
+        "implementation",
+        " math"
+    ],
+    "title": "950-A",
+    "statement": "A. Left-handers, Right-handers and Ambidexterstime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are at a water bowling training. There arelpeople who play with their left hand,rpeople, who play with their right hand, andaambidexters, who can play with left or right hand.The coach decided to form a team of even number of players, exactly half of the players should play with their right hand, and exactly half of the players should play with their left hand. One player should use only on of his hands.Ambidexters play as well with their right hand as with their left hand. In the team, an ambidexter can play with their left hand, or with their right hand.Please find the maximum possible size of the team, where equal number of players use their left and right hands, respectively.InputThe only line contains three integersl,randa(0 ≤l,r,a≤ 100) — the number of left-handers, the number of right-handers and the number of ambidexters at the training.OutputPrint a single even integer — the maximum number of players in the team. It is possible that the team can only have zero number of players.ExamplesInput1 4 2Output6Input5 5 5Output14Input0 2 0Output0NoteIn the first example you can form a team of6players. You should take the only left-hander and two ambidexters to play with left hand, and three right-handers to play with right hand. The only person left can't be taken into the team.In the second example you can form a team of14people. You have to take all five left-handers, all five right-handers, two ambidexters to play with left hand and two ambidexters to play with right hand.",
+    "source": "CF",
+    "vjudge": false
+}

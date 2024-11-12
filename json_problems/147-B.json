@@ -1,0 +1,13 @@
+{
+    "uid": "147-B",
+    "url": "https://codeforces.com/contest/147/problem/B",
+    "tags": [
+        "binary search",
+        " graphs",
+        " matrices"
+    ],
+    "title": "147-B",
+    "statement": "B. Smile Housetime limit per test3 secondsmemory limit per test256 megabytesinputstdinoutputstdoutA smile house is created to raise the mood. It hasnrooms. Some of the rooms are connected by doors. For each two rooms (numberiandj), which are connected by a door, Petya knows their valuecij— the value which is being added to his mood when he moves from roomito roomj.Petya wondered whether he can raise his mood infinitely, moving along some cycle? And if he can, then what minimum number of rooms he will need to visit during one period of a cycle?InputThe first line contains two positive integersnandm(), wherenis the number of rooms, andmis the number of doors in the Smile House. Then follows the description of the doors:mlines each containing four integersi,j,cijиcji(1 ≤i,j≤n,i≠j,  - 104≤cij,cji≤ 104). It is guaranteed that no more than one door connects any two rooms. No door connects the room with itself.OutputPrint the minimum number of rooms that one needs to visit during one traverse of the cycle that can raise mood infinitely. If such cycle does not exist, print number0.ExamplesInput4 41 2 -10 31 3 1 -102 4 -10 -13 4 0 -3Output4NoteCycle is such a sequence of roomsa1,a2, ...,ak, thata1is connected witha2,a2is connected witha3, ...,ak- 1is connected withak,akis connected witha1. Some elements of the sequence can coincide, that is, the cycle should not necessarily be simple. The number of rooms in the cycle is considered ask, the sequence's length. Note that the minimum possible length equals two.",
+    "source": "CF",
+    "vjudge": false
+}

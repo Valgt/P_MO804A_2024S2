@@ -1,0 +1,11 @@
+{
+    "uid": "286-B",
+    "url": "https://codeforces.com/contest/286/problem/B",
+    "tags": [
+        "implementation"
+    ],
+    "title": "286-B",
+    "statement": "B. Shiftingtime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutJohn Doe has found the beautiful permutation formula.Let's take permutationp=p1,p2, ...,pn. Let's define transformationfof this permutation:wherek(k> 1)is an integer, the transformation parameter,ris such maximum integer thatrk≤n. Ifrk=n, then elementsprk+ 1,prk+ 2and so on are omitted. In other words, the described transformation of permutationpcyclically shifts to the left each consecutive block of lengthkand the last block with the length equal to the remainder after dividingnbyk.John Doe thinks that permutationf(f( ...f(p= [1, 2, ...,n], 2) ... ,n- 1),n)is beautiful. Unfortunately, he cannot quickly find the beautiful permutation he's interested in. That's why he asked you to help him.Your task is to find a beautiful permutation for the givenn. For clarifications, see the notes to the third sample.InputA single line contains integern(2 ≤n≤ 106).OutputPrintndistinct space-separated integers from1ton— a beautiful permutation of sizen.ExamplesInput2Output2 1Input3Output1 3 2Input4Output4 2 3 1NoteA note to the third test sample:f([1, 2, 3, 4], 2) = [2, 1, 4, 3]f([2, 1, 4, 3], 3) = [1, 4, 2, 3]f([1, 4, 2, 3], 4) = [4, 2, 3, 1]",
+    "source": "CF",
+    "vjudge": false
+}

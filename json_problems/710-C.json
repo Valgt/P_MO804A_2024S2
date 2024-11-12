@@ -1,0 +1,12 @@
+{
+    "uid": "710-C",
+    "url": "https://codeforces.com/contest/710/problem/C",
+    "tags": [
+        "constructive algorithms",
+        " math"
+    ],
+    "title": "710-C",
+    "statement": "C. Magic Odd Squaretime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputFind ann×nmatrix with different numbers from1ton2, so the sum in each row, column and both main diagonals are odd.InputThe only line contains odd integern(1 ≤n≤ 49).OutputPrintnlines withnintegers. All the integers should be different and from1ton2. The sum in each row, column and both main diagonals should be odd.ExamplesInput1Output1Input3Output2 1 43 5 76 9 8",
+    "source": "CF",
+    "vjudge": false
+}

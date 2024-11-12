@@ -1,0 +1,12 @@
+{
+    "uid": "888-F",
+    "url": "https://codeforces.com/contest/888/problem/F",
+    "tags": [
+        "dp",
+        " graphs"
+    ],
+    "title": "888-F",
+    "statement": "F. Connecting Verticestime limit per test4 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputThere arenpoints marked on the plane. The points are situated in such a way that they form a regular polygon (marked points are its vertices, and they are numbered in counter-clockwise order). You can drawn- 1segments, each connecting any two marked points, in such a way that all points have to be connected with each other (directly or indirectly).But there are some restrictions. Firstly, some pairs of points cannot be connected directly and have to be connected undirectly. Secondly, the segments you draw must not intersect in any point apart from the marked points (that is, if any two segments intersect and their intersection is not a marked point, then the picture you have drawn is invalid).How many ways are there to connect all vertices withn- 1segments? Two ways are considered different iff there exist some pair of points such that a segment is drawn between them in the first way of connection, but it is not drawn between these points in the second one. Since the answer might be large, output it modulo109+ 7.InputThe first line contains one numbern(3 ≤n≤ 500) — the number of marked points.Thennlines follow, each containingnelements.ai,j(j-th element of linei) is equal to1iff you can connect pointsiandjdirectly (otherwiseai,j= 0). It is guaranteed that for any pair of pointsai,j=aj,i, and for any pointai,i= 0.OutputPrint the number of ways to connect points modulo109+ 7.ExamplesInput30 0 10 0 11 1 0Output1Input40 1 1 11 0 1 11 1 0 11 1 1 0Output12Input30 0 00 0 10 1 0Output0",
+    "source": "CF",
+    "vjudge": false
+}

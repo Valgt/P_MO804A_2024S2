@@ -1,0 +1,13 @@
+{
+    "uid": "251-A",
+    "url": "https://codeforces.com/contest/251/problem/A",
+    "tags": [
+        "binary search",
+        " combinatorics",
+        " two pointers"
+    ],
+    "title": "251-A",
+    "statement": "A. Points on Linetime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutLittle Petya likes points a lot. Recently his mom has presented himnpoints lying on the lineOX. Now Petya is wondering in how many ways he can choose three distinct points so that the distance between the two farthest of them doesn't exceedd.Note that the order of the points inside the group of three chosen points doesn't matter.InputThe first line contains two integers:nandd(1 ≤n≤ 105; 1 ≤d≤ 109). The next line containsnintegersx1,x2, ...,xn, their absolute value doesn't exceed109— thex-coordinates of the points that Petya has got.It is guaranteed that the coordinates of the points in the inputstrictly increase.OutputPrint a single integer — the number of groups of three points, where the distance between two farthest points doesn't exceedd.Please do not use the%lldspecifier to read or write 64-bit integers in С++. It is preferred to use thecin,coutstreams or the%I64dspecifier.ExamplesInput4 31 2 3 4Output4Input4 2-3 -2 -1 0Output2Input5 191 10 20 30 50Output1NoteIn the first sample any group of three points meets our conditions.In the seconds sample only 2 groups of three points meet our conditions:{-3, -2, -1}and{-2, -1, 0}.In the third sample only one group does:{1, 10, 20}.",
+    "source": "CF",
+    "vjudge": false
+}

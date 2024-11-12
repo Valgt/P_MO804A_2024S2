@@ -1,0 +1,12 @@
+{
+    "uid": "59-A",
+    "url": "https://codeforces.com/contest/59/problem/A",
+    "tags": [
+        "implementation",
+        " strings"
+    ],
+    "title": "59-A",
+    "statement": "A. Wordtime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutVasya is very upset that many people on the Net mix uppercase and lowercase letters in one word. That's why he decided to invent an extension for his favorite browser that would change the letters' register in every word so that it either only consisted of lowercase letters or, vice versa, only of uppercase ones. At that as little as possible letters should be changed in the word. For example, the wordHoUsemust be replaced withhouse, and the wordViP— withVIP. If a word contains an equal number of uppercase and lowercase letters, you should replace all the letters with lowercase ones. For example,maTRIxshould be replaced bymatrix. Your task is to use the given method on one given word.InputThe first line contains a words— it consists of uppercase and lowercase Latin letters and possesses the length from1to100.OutputPrint the corrected words. If the given wordshas strictly more uppercase letters, make the word written in the uppercase register, otherwise - in the lowercase one.ExamplesInputHoUseOutputhouseInputViPOutputVIPInputmaTRIxOutputmatrix",
+    "source": "CF",
+    "vjudge": false
+}

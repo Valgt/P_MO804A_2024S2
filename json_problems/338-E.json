@@ -1,0 +1,11 @@
+{
+    "uid": "338-E",
+    "url": "https://codeforces.com/contest/338/problem/E",
+    "tags": [
+        "data structures"
+    ],
+    "title": "338-E",
+    "statement": "E. Optimize!time limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutManao is solving a problem with the following statement:He came up with a solution that produces the correct answers but is too slow. You are given the pseudocode of his solution, where the function getAnswer calculates the answer to the problem:getAnswer(a[1..n], b[1..len], h)answer = 0for i = 1 to n-len+1answer = answer + f(a[i..i+len-1], b, h, 1)return answerf(s[1..len], b[1..len], h, index)if index = len+1 thenreturn 1for i = 1 to lenif s[index] + b[i] >= hmem = b[i]b[i] = 0res = f(s, b, h, index + 1)b[i] = memif res > 0return 1return 0Your task is to help Manao optimize his algorithm.InputThe first line contains space-separated integersn,lenandh(1 ≤len≤n≤ 150000; 1 ≤h≤ 109). The second line containslenspace-separated integersb1,b2, ...,blen(1 ≤bi≤ 109). The third line containsnspace-separated integersa1,a2, ...,an(1 ≤ai≤ 109).OutputPrint a single number — the answer to Manao's problem.ExamplesInput5 2 105 31 8 5 5 7Output2",
+    "source": "CF",
+    "vjudge": false
+}

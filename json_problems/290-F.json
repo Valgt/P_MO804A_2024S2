@@ -1,0 +1,14 @@
+{
+    "uid": "290-F",
+    "url": "https://codeforces.com/contest/290/problem/F",
+    "tags": [
+        "*special",
+        " dfs and similar",
+        " graphs",
+        " greedy"
+    ],
+    "title": "290-F",
+    "statement": "F. Greedy Petyatime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutPetya is an unexperienced programming contestant. Recently he has come across the following problem:You are given a non-directed graph which consists ofnnodes andmedges. Your task is to determine whether the graph contains a Hamiltonian path.Petya wrote a quick bug-free code which he believes solves this problem. After that Petya decided to give this problem for April Fools Day contest. Unfortunately, Petya might have made a mistake, and it's quite possible that his algorithm is wrong. But this isn't a good excuse to leave the contest without submitting this problem, is it?InputThe first line contains two integersn,m(1 ≤n≤ 20; 0 ≤m≤ 400). Nextmlines contain pairs of integersvi,ui(1 ≤vi,ui≤n).OutputFollow the format of Petya's code output.ExamplesInput2 31 22 11 1OutputYesInput3 0OutputNoInput10 203 104 64 97 58 83 109 75 29 210 610 41 17 28 47 21 85 410 28 55 2OutputNo",
+    "source": "CF",
+    "vjudge": false
+}

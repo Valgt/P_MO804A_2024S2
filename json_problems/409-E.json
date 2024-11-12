@@ -1,0 +1,11 @@
+{
+    "uid": "409-E",
+    "url": "https://codeforces.com/contest/409/problem/E",
+    "tags": [
+        "*special"
+    ],
+    "title": "409-E",
+    "statement": "E. Dometime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutInputThe input contains a single floating-point numberxwith exactly 6 decimal places (0 <x< 5).OutputOutput two integers separated by a single space. Each integer should be between 1 and 10, inclusive. If several solutions exist, output any of them. Solution will exist for all tests.ExamplesInput1.200000Output3 2Input2.572479Output10 3Input4.024922Output9 9",
+    "source": "CF",
+    "vjudge": false
+}

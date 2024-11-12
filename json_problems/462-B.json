@@ -1,0 +1,11 @@
+{
+    "uid": "462-B",
+    "url": "https://codeforces.com/contest/462/problem/B",
+    "tags": [
+        "greedy"
+    ],
+    "title": "462-B",
+    "statement": "B. Appleman and Card Gametime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutAppleman hasncards. Each card has an uppercase letter written on it. Toastman must choosekcards from Appleman's cards. Then Appleman should give Toastman some coins depending on the chosen cards. Formally, for each Toastman's cardiyou should calculate how much Toastman's cards have the letter equal to letter onith, then sum up all these quantities, such a number of coins Appleman should give to Toastman.Given the description of Appleman's cards. What is the maximum number of coins Toastman can get?InputThe first line contains two integersnandk(1 ≤k≤n≤ 105). The next line containsnuppercase letters without spaces — thei-th letter describes thei-th card of the Appleman.OutputPrint a single integer – the answer to the problem.ExamplesInput15 10DZFDFZDFDDDDDDFOutput82Input6 4YJSNPIOutput4NoteIn the first test example Toastman can choose nine cards with letterDand one additional card with any letter. For each card withDhe will get 9 coins and for the additional card he will get 1 coin.",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,14 @@
+{
+    "uid": "825-E",
+    "url": "https://codeforces.com/contest/825/problem/E",
+    "tags": [
+        "data structures",
+        " dfs and similar",
+        " graphs",
+        " greedy"
+    ],
+    "title": "825-E",
+    "statement": "E. Minimal Labelstime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given a directed acyclic graph withnvertices andmedges. There are no self-loops or multiple edges between any pair of vertices. Graph can be disconnected.You should assign labels to all vertices in such a way that:Labels form a valid permutation of lengthn— an integer sequence such that each integer from1tonappears exactly once in it.If there exists an edge from vertexvto vertexuthenlabelvshould be smaller thanlabelu.Permutation should be lexicographically smallest among all suitable.Find such sequence of labels to satisfy all the conditions.InputThe first line contains two integer numbersn,m(2 ≤n≤ 105, 1 ≤m≤ 105).Nextmlines contain two integer numbersvandu(1 ≤v,u≤n,v≠u) — edges of the graph. Edges are directed, graph doesn't contain loops or multiple edges.OutputPrintnnumbers — lexicographically smallest correct permutation of labels of vertices.ExamplesInput3 31 21 33 2Output1 3 2Input4 53 14 12 33 42 4Output4 1 2 3Input5 43 12 12 34 5Output3 1 2 4 5",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,12 @@
+{
+    "uid": "596-B",
+    "url": "https://codeforces.com/contest/596/problem/B",
+    "tags": [
+        "greedy",
+        " implementation"
+    ],
+    "title": "596-B",
+    "statement": "B. Wilbur and Arraytime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputWilbur the pig is tinkering with arrays again. He has the arraya1,a2, ...,aninitially consisting ofnzeros. At one step, he can choose any indexiand either add1to all elementsai,ai+ 1, ... ,anor subtract1from all elementsai,ai+ 1, ...,an. His goal is to end up with the arrayb1,b2, ...,bn.Of course, Wilbur wants to achieve this goal in the minimum number of steps and asks you to compute this value.InputThe first line of the input contains a single integern(1 ≤n≤ 200 000) — the length of the arrayai. Initiallyai= 0for every positioni, so this array is not given in the input.The second line of the input containsnintegersb1,b2, ...,bn(- 109≤bi≤ 109).OutputPrint the minimum number of steps that Wilbur needs to make in order to achieveai=bifor alli.ExamplesInput51 2 3 4 5Output5Input41 2 2 1Output3NoteIn the first sample, Wilbur may successively choose indices1,2,3,4, and5, and add1to corresponding suffixes.In the second sample, Wilbur first chooses indices1and2and adds1to corresponding suffixes, then he chooses index4and subtract1.",
+    "source": "CF",
+    "vjudge": false
+}

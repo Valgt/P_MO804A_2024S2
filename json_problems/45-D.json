@@ -1,0 +1,13 @@
+{
+    "uid": "45-D",
+    "url": "https://codeforces.com/contest/45/problem/D",
+    "tags": [
+        "greedy",
+        " meet-in-the-middle",
+        " sortings"
+    ],
+    "title": "45-D",
+    "statement": "D. Event Datestime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutOn a history lesson the teacher asked Vasya to name the dates whennfamous events took place. He doesn't remembers the exact dates but he remembers a segment of days[li,ri](inclusive) on which the event could have taken place. However Vasya also remembers that there was at most one event in one day. Help him choose suchndates of famous events that will fulfill both conditions. It is guaranteed that it is possible.InputThe first line contains one integern(1 ≤n≤ 100) — the number of known events. Then follownlines containing two integersliandrieach (1 ≤li≤ri≤ 107) — the earliest acceptable date and the latest acceptable date of thei-th event.OutputPrintnnumbers — the dates on which the events took place. If there are several solutions, print any of them. It is guaranteed that a solution exists.ExamplesInput31 22 33 4Output1 2 3Input21 31 3Output1 2",
+    "source": "CF",
+    "vjudge": false
+}

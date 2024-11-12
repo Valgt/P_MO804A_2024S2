@@ -1,0 +1,13 @@
+{
+    "uid": "406-E",
+    "url": "https://codeforces.com/contest/406/problem/E",
+    "tags": [
+        "implementation",
+        " math",
+        " two pointers"
+    ],
+    "title": "406-E",
+    "statement": "E. Hamming Triplestime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutLittle Chris is having a nightmare. Even in dreams all he thinks about is math.Chris dreams aboutmbinary strings of lengthn, indexed with numbers from 1 tom. The most horrifying part is that the bits of each string are ordered in either ascending or descending order. For example, Chris could be dreaming about the following 4 strings of length 5:TheHamming distanceH(a,b)between two stringsaandbof lengthnis the number of positions at which the corresponding symbols are different.Сhris thinks that each three strings with different indices constitute a single triple. Chris's delusion is that he will wake up only if he counts the number of such string triplesa,b,cthat the sumH(a,b) +H(b,c) +H(c,a)is maximal among all the string triples constructed from the dreamed strings.Help Chris wake up from this nightmare!InputThe first line of input contains two space-separated integersnandm(1 ≤n≤ 109;3 ≤m≤ 105), the length and the number of strings. The nextmlines contain the description of the strings. Thei-th line contains two space-separated integerssiandfi(0 ≤si≤ 1;1 ≤fi≤n), the description of the string with indexi; that means that the firstfibits of thei-th string are equal tosi, and the remainingn-fibits are equal to1 -si. There can be multiple equal strings in Chris's dream.OutputOutput a single integer, the number of such string triples among the given that the sum of the Hamming distances between the strings of the triple is maximal.ExamplesInput5 40 30 51 41 5Output3Input10 41 50 50 51 5Output4",
+    "source": "CF",
+    "vjudge": false
+}

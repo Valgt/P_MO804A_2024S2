@@ -1,0 +1,12 @@
+{
+    "uid": "915-G",
+    "url": "https://codeforces.com/contest/915/problem/G",
+    "tags": [
+        "math",
+        " number theory"
+    ],
+    "title": "915-G",
+    "statement": "G. Coprime Arraystime limit per test3.5 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputLet's call an arrayaof sizencoprimeiffgcd(a1,a2, ...,an) = 1, wheregcdis the greatest common divisor of the arguments.You are given two numbersnandk. For eachi(1 ≤i≤k) you have to determine the number ofcoprimearraysaof sizensuch that for everyj(1 ≤j≤n)1 ≤aj≤i. Since the answers can be very large, you have to calculate them modulo109+ 7.InputThe first line contains two integersnandk(1 ≤n,k≤ 2·106) — the size of the desired arrays and the maximum upper bound on elements, respectively.OutputSince printing2·106numbers may take a lot of time, you have to output the answer in such a way:Letbibe the number ofcoprimearrays with elements in range[1,i], taken modulo109+ 7. You have to print, taken modulo109+ 7. Heredenotes bitwise xor operation (^in C++ or Java,xorin Pascal).ExamplesInput3 4Output82Input2000000 8Output339310063NoteExplanation of the example:Since the number ofcoprimearrays is large, we will list the arrays that are non-coprime, but contain only elements in range[1,i]:Fori= 1, the only array is coprime.b1= 1.Fori= 2, array[2, 2, 2]is not coprime.b2= 7.Fori= 3, arrays[2, 2, 2]and[3, 3, 3]are not coprime.b3= 25.Fori= 4, arrays[2, 2, 2],[3, 3, 3],[2, 2, 4],[2, 4, 2],[2, 4, 4],[4, 2, 2],[4, 2, 4],[4, 4, 2]and[4, 4, 4]are not coprime.b4= 55.",
+    "source": "CF",
+    "vjudge": false
+}

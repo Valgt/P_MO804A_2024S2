@@ -1,0 +1,12 @@
+{
+    "uid": "95-D",
+    "url": "https://codeforces.com/contest/95/problem/D",
+    "tags": [
+        "dp",
+        " math"
+    ],
+    "title": "95-D",
+    "statement": "D. Horse Racestime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutPetya likes horse racing very much. Horses numbered fromltortake part in the races. Petya wants to evaluate the probability of victory; for some reason, to do that he needs to know the amount of nearly lucky horses' numbers. Anearly luckynumber is an integer number that has at least two lucky digits the distance between which does not exceedk. Petya learned from some of his mates from Lviv that lucky digits are digits4and7. The distance between the digits is the absolute difference between their positions in the number of a horse. For example, ifk= 2, then numbers412395497,404,4070400000070004007are nearly lucky and numbers4,4123954997,4007000040070004007are not.Petya preparedtintervals[li,ri]and invented numberk, common for all of them. Your task is to find how many nearly happy numbers there are in each of these segments. Since the answers can be quite large, output them modulo1000000007(109+ 7).InputThe first line contains two integerstandk(1 ≤t,k≤ 1000) — the number of segments and the distance between the numbers correspondingly. Nexttlines contain pairs of integersliandri(1 ≤l≤r≤ 101000). All numbers are given without the leading zeroes. Numbers in each line are separated by exactly one space character.OutputOutputtlines. In each line print one integer — the answer for the corresponding segment modulo1000000007(109+ 7).ExamplesInput1 21 100Output4Input1 270 77Output2Input2 11 2080 100Output00NoteIn the first sample, the four nearly lucky numbers are 44, 47, 74, 77.In the second sample, only 74 and 77 are in the given segment.",
+    "source": "CF",
+    "vjudge": false
+}

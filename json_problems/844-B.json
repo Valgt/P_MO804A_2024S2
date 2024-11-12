@@ -1,0 +1,12 @@
+{
+    "uid": "844-B",
+    "url": "https://codeforces.com/contest/844/problem/B",
+    "tags": [
+        "combinatorics",
+        " math"
+    ],
+    "title": "844-B",
+    "statement": "B. Rectanglestime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are givenn×mtable. Each cell of the table is colored white or black. Find the number of non-empty sets of cells such that:All cells in a set have the same color.Every two cells in a set share row or column.InputThe first line of input contains integersnandm(1 ≤n,m≤ 50) — the number of rows and the number of columns correspondingly.The nextnlines of input contain descriptions of rows. There aremintegers, separated by spaces, in each line. The number equals0if the corresponding cell is colored white and equals1if the corresponding cell is colored black.OutputOutput single integer  — the number of non-empty sets from the problem description.ExamplesInput1 10Output1Input2 31 0 10 1 0Output8NoteIn the second example, there are six one-element sets. Additionally, there are two two-element sets, the first one consists of the first and the third cells of the first row, the second one consists of the first and the third cells of the second row. To sum up, there are8sets.",
+    "source": "CF",
+    "vjudge": false
+}

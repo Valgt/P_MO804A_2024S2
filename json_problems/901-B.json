@@ -1,0 +1,12 @@
+{
+    "uid": "901-B",
+    "url": "https://codeforces.com/contest/901/problem/B",
+    "tags": [
+        "constructive algorithms",
+        " math"
+    ],
+    "title": "901-B",
+    "statement": "B. GCD of Polynomialstime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputSuppose you have two polynomialsand. Then polynomialcan be uniquely represented in the following way:This can be done usinglong division. Here,denotes the degree of polynomialP(x).is called the remainder of division of polynomialby polynomial, it is also denoted as.Since there is a way to divide polynomials with remainder, we can define Euclid's algorithm of finding the greatest common divisor of two polynomials. The algorithm takes two polynomials. If the polynomialis zero, the result is, otherwise the result is the value the algorithm returns for pair. On each step the degree of the second argument decreases, so the algorithm works in finite number of steps. But how large that number could be? You are to answer this question.You are given an integern. You have to build two polynomials with degrees not greater thann, such that their coefficients are integers not exceeding1by their absolute value, the leading coefficients (ones with the greatest power ofx) are equal to one, and the described Euclid's algorithm performs exactlynsteps finding their greatest common divisor. Moreover, the degree of the first polynomial should be greater than the degree of the second. By a step of the algorithm we mean the transition from pairto pair.InputYou are given a single integern(1 ≤n≤ 150) — the number of steps of the algorithm you need to reach.OutputPrint two polynomials in the following format.In the first line print a single integerm(0 ≤m≤n) — the degree of the polynomial.In the second line printm+ 1integers between- 1and1— the coefficients of the polynomial, from constant to leading.The degree of the first polynomial should be greater than the degree of the second polynomial, the leading coefficients should be equal to1. Euclid's algorithm should perform exactlynsteps when called using these polynomials.If there is no answer for the givenn, print-1.If there are multiple answer, print any of them.ExamplesInput1Output10 101Input2Output2-1 0 110 1NoteIn the second example you can print polynomialsx2- 1andx. The sequence of transitions is(x2- 1,x) → (x,  - 1) → ( - 1, 0).There are two steps in it.",
+    "source": "CF",
+    "vjudge": false
+}

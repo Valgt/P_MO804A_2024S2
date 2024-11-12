@@ -1,0 +1,11 @@
+{
+    "uid": "409-A",
+    "url": "https://codeforces.com/contest/409/problem/A",
+    "tags": [
+        "*special"
+    ],
+    "title": "409-A",
+    "statement": "A. The Great Gametime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutTwo teams meet in The Game World Championship. Some scientists consider this game to be the most intellectually challenging game in the world. You are given two strings describing the teams' actions in the final battle. Figure out who became the champion.InputThe input contains two strings of equal length (between 2 and 20 characters, inclusive). Each line describes the actions of one team.OutputOutput \"TEAM 1 WINS\" if the first team won, \"TEAM 2 WINS\" if the second team won, and \"TIE\" if there was a tie.ExamplesInput[]()[]8<8<[]()8<OutputTEAM 2 WINSInput8<8<()[]8<[]OutputTIE",
+    "source": "CF",
+    "vjudge": false
+}

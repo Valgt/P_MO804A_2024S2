@@ -1,0 +1,11 @@
+{
+    "uid": "378-A",
+    "url": "https://codeforces.com/contest/378/problem/A",
+    "tags": [
+        "brute force"
+    ],
+    "title": "378-A",
+    "statement": "A. Playing with Dicetime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutTwo players are playing a game. First each of them writes an integer from 1 to 6, and then a dice is thrown. The player whose written number got closer to the number on the dice wins. If both payers have the same difference, it's a draw.The first player wrote numbera, the second player wrote numberb. How many ways to throw a dice are there, at which the first player wins, or there is a draw, or the second player wins?InputThe single line contains two integersaandb(1 ≤a,b≤ 6) — the numbers written on the paper by the first and second player, correspondingly.OutputPrint three integers: the number of ways to throw the dice at which the first player wins, the game ends with a draw or the second player wins, correspondingly.ExamplesInput2 5Output3 0 3Input2 4Output2 1 3NoteThe dice is a standard cube-shaped six-sided object with each side containing a number from 1 to 6, and where all numbers on all sides are distinct.You can assume that numberais closer to numberxthan numberb, if|a-x| < |b-x|.",
+    "source": "CF",
+    "vjudge": false
+}

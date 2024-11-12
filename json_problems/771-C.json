@@ -1,0 +1,13 @@
+{
+    "uid": "771-C",
+    "url": "https://codeforces.com/contest/771/problem/C",
+    "tags": [
+        "dfs and similar",
+        " dp",
+        " trees"
+    ],
+    "title": "771-C",
+    "statement": "C. Bear and Tree Jumpstime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputA tree is an undirected connected graph without cycles. The distance between two vertices is the number of edges in a simple path between them.Limak is a little polar bear. He lives in a tree that consists ofnvertices, numbered1throughn.Limak recently learned how to jump. He can jump from a vertex to any vertex within distance at mostk.For a pair of vertices(s,t)we definef(s,t)as the minimum number of jumps Limak needs to get fromstot. Your task is to find the sum off(s,t)over all pairs of vertices(s,t)such thats<t.InputThe first line of the input contains two integersnandk(2 ≤n≤ 200 000,1 ≤k≤ 5) — the number of vertices in the tree and the maximum allowed jump distance respectively.The nextn- 1lines describe edges in the tree. Thei-th of those lines contains two integersaiandbi(1 ≤ai,bi≤n) — the indices on vertices connected withi-th edge.It's guaranteed that the given edges form a tree.OutputPrint one integer, denoting the sum off(s,t)over all pairs of vertices(s,t)such thats<t.ExamplesInput6 21 21 32 42 54 6Output20Input13 31 23 24 25 23 610 66 76 135 85 99 1111 12Output114Input3 52 13 1Output3NoteIn the first sample, the given tree has6vertices and it's displayed on the drawing below. Limak can jump to any vertex within distance at most2. For example, from the vertex5he can jump to any of vertices:1,2and4(well, he can also jump to the vertex5itself).There arepairs of vertices(s,t)such thats<t. For5of those pairs Limak would need two jumps:(1, 6), (3, 4), (3, 5), (3, 6), (5, 6). For other10pairs one jump is enough. So, the answer is5·2 + 10·1 = 20.In the third sample, Limak can jump between every two vertices directly. There are3pairs of vertices(s<t), so the answer is3·1 = 3.",
+    "source": "CF",
+    "vjudge": false
+}

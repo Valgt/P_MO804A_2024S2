@@ -1,0 +1,12 @@
+{
+    "uid": "91-E",
+    "url": "https://codeforces.com/contest/91/problem/E",
+    "tags": [
+        "data structures",
+        " geometry"
+    ],
+    "title": "91-E",
+    "statement": "E. Igloo Skyscrapertime limit per test3 secondsmemory limit per test256 megabytesinputstdinoutputstdoutToday the North Pole hosts an Olympiad in a sport called... toy igloo skyscrapers' building!There arenwalruses taking part in the contest. Each walrus is given a unique number from1ton. After start each walrus begins to build his own igloo skyscraper. Initially, at the moment of time equal to0, the height of the skyscraperi-th walrus is equal toai. Each minute thei-th walrus finishes buildingbifloors.The journalists that are reporting from the spot where the Olympiad is taking place, makeqqueries to the organizers. Each query is characterized by a group of three numbersli,ri,ti. The organizers respond to each query with a numberx, such that:1. Numberxlies on the interval fromlitoriinclusive (li≤x≤ri).2. The skyscraper of the walrus numberxpossesses the maximum height among the skyscrapers of all walruses from the interval[li,ri]at the moment of timeti.For each journalists' query print the number of the walrusxthat meets the above-given criteria. If there are several possible answers, print any of them.InputThe first line contains numbersnandq(1 ≤n,q≤ 105). Nextnlines contain pairs of numbersai,bi(1 ≤ai,bi≤ 109). Then followqqueries i the following formatli,ri,ti, one per each line (1 ≤li≤ri≤n,0 ≤ti≤ 106). All input numbers are integers.OutputFor each journalists' query print the number of the walrusxthat meets the criteria, given in the statement. Print one number per line.ExamplesInput5 44 13 56 23 56 51 5 21 3 51 1 01 5 0Output5215Input5 46 15 12 54 36 12 4 13 4 51 4 51 2 0Output3331",
+    "source": "CF",
+    "vjudge": false
+}

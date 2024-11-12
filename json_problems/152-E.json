@@ -1,0 +1,14 @@
+{
+    "uid": "152-E",
+    "url": "https://codeforces.com/contest/152/problem/E",
+    "tags": [
+        "bitmasks",
+        " dp",
+        " graphs",
+        " trees"
+    ],
+    "title": "152-E",
+    "statement": "E. Gardentime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutVasya has a very beautiful country garden that can be represented as ann×mrectangular field divided inton·msquares. One beautiful day Vasya remembered that he needs to pave roads betweenkimportant squares that contain buildings. To pave a road, he can cover some squares of his garden with concrete.For each garden square we know numberaijthat represents the number of flowers that grow in the square with coordinates(i,j). When a square is covered with concrete, all flowers that grow in the square die.Vasya wants to cover some squares with concrete so that the following conditions were fulfilled:allkimportant squares should necessarily be covered with concretefrom each important square there should be a way to any other important square. The way should go be paved with concrete-covered squares considering that neighboring squares are squares that have a common sidethe total number of dead plants should be minimumAs Vasya has a rather large garden, he asks you to help him.InputThe first input line contains three integersn,mandk(1 ≤n,m≤ 100,n·m≤ 200,1 ≤k≤min(n·m, 7)) — the garden's sizes and the number of the important squares. Each of the nextnlines containsmnumbersaij(1 ≤aij≤ 1000) — the numbers of flowers in the squares. Nextklines contain coordinates of important squares written as \"xy\" (without quotes) (1 ≤x≤n,1 ≤y≤m). The numbers written on one line are separated by spaces. It is guaranteed that allkimportant squares have different coordinates.OutputIn the first line print the single integer — the minimum number of plants that die during the road construction. Then printnlines each containingmcharacters — the garden's plan. In this plan use character \"X\" (uppercase Latin letter X) to represent a concrete-covered square and use character \".\" (dot) for a square that isn't covered with concrete. If there are multiple solutions, print any of them.ExamplesInput3 3 21 2 31 2 31 2 31 23 3Output9.X..X..XXInput4 5 41 4 5 1 22 2 2 2 72 4 1 4 53 2 1 7 11 11 54 14 4Output26X..XXXXXX.X.X..X.XX.",
+    "source": "CF",
+    "vjudge": false
+}

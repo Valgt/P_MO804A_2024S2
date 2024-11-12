@@ -1,0 +1,16 @@
+{
+    "uid": "165-C",
+    "url": "https://codeforces.com/contest/165/problem/C",
+    "tags": [
+        "binary search",
+        " brute force",
+        " dp",
+        " math",
+        " strings",
+        " two pointers"
+    ],
+    "title": "165-C",
+    "statement": "C. Another Problem on Stringstime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutA string isbinary, if it consists only of characters \"0\" and \"1\".Stringvis asubstringof stringwif it has a non-zero length and can be read starting from some position in stringw. For example, string \"010\" has six substrings: \"0\", \"1\", \"0\", \"01\", \"10\", \"010\". Two substrings are considered different if their positions of occurrence are different. So, if some string occurs multiple times, we should consider it the number of times it occurs.You are given a binary strings. Your task is to find the number of its substrings, containing exactlykcharacters \"1\".InputThe first line contains the single integerk(0 ≤k≤ 106). The second line contains a non-empty binary strings. The length ofsdoes not exceed106characters.OutputPrint the single number — the number of substrings of the given string, containing exactlykcharacters \"1\".Please do not use the%lldspecifier to read or write 64-bit integers in С++. It is preferred to use thecin,coutstreams or the%I64dspecifier.ExamplesInput11010Output6Input201010Output4Input10001010Output0NoteIn the first sample the sought substrings are: \"1\", \"1\", \"10\", \"01\", \"10\", \"010\".In the second sample the sought substrings are: \"101\", \"0101\", \"1010\", \"01010\".",
+    "source": "CF",
+    "vjudge": false
+}

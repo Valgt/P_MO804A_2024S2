@@ -1,0 +1,12 @@
+{
+    "uid": "162-A",
+    "url": "https://codeforces.com/contest/162/problem/A",
+    "tags": [
+        "*special",
+        " implementation"
+    ],
+    "title": "162-A",
+    "statement": "A. Pentagonal numberstime limit per test3 secondsmemory limit per test256 megabytesinputstdinoutputstdoutPentagonal numbers are figurate numbers which can be calculated using the formulapn= (3n2-n) / 2(always integer). You are givenn; calculaten-th pentagonal number.InputThe only line of input contains an integern(1 ≤n≤ 100).OutputOutput then-th pentagonal number.ExamplesInput2Output5Input5Output35",
+    "source": "CF",
+    "vjudge": false
+}

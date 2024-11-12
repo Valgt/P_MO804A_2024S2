@@ -1,0 +1,12 @@
+{
+    "uid": "45-E",
+    "url": "https://codeforces.com/contest/45/problem/E",
+    "tags": [
+        "constructive algorithms",
+        " greedy"
+    ],
+    "title": "45-E",
+    "statement": "E. Directortime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutVasya is a born Berland film director, he is currently working on a new blockbuster, \"The Unexpected\". Vasya knows from his own experience how important it is to choose the main characters' names and surnames wisely. He made up a list ofnnames andnsurnames that he wants to use. Vasya haven't decided yet how to call characters, so he is free to match any name to any surname. Now he has to make the list of all the main characters in the following format: \"Name1Surname1,Name2Surname2,...,NamenSurnamen\", i.e. all the name-surname pairs should be separated by exactly one comma and exactly one space, and the name should be separated from the surname by exactly one space. First of all Vasya wants to maximize the number of the pairs, in which the name and the surname start from one letter. If there are several such variants, Vasya wants to get the lexicographically minimal one. Help him.An answer will be verified a line in the format as is shown above, including the needed commas and spaces. It's the lexicographical minimality of such a line that needs to be ensured. The output lineshouldn't end with a space or with a comma.InputThe first input line contains numbern(1 ≤n≤ 100) — the number of names and surnames. Then follownlines — the list of names. Then follownlines — the list of surnames. No two from those2nstrings match. Every name and surname is a non-empty string consisting of no more than 10 Latin letters. It is guaranteed that the first letter is uppercase and the rest are lowercase.OutputThe output data consist of a single line — the needed list. Note thatone should follow closelythe output data format!ExamplesInput4AnnAnnaSabrinaJohnPetrovIvanovaStoltzAbacabaOutputAnn Abacaba, Anna Ivanova, John Petrov, Sabrina StoltzInput4AaAbAcBaAdAeBbBcOutputAa Ad, Ab Ae, Ac Bb, Ba Bc",
+    "source": "CF",
+    "vjudge": false
+}

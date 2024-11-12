@@ -1,0 +1,12 @@
+{
+    "uid": "883-G",
+    "url": "https://codeforces.com/contest/883/problem/G",
+    "tags": [
+        "dfs and similar",
+        " graphs"
+    ],
+    "title": "883-G",
+    "statement": "G. Orientation of Edgestime limit per test3 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputVasya has a graph containing both directed (oriented) and undirected (non-oriented) edges. There can be multiple edges between a pair of vertices.Vasya has picked a vertexsfrom the graph. Now Vasya wants to create two separate plans:to orient each undirected edge in one of two possible directions tomaximizenumber of vertices reachable from vertexs;to orient each undirected edge in one of two possible directions tominimizenumber of vertices reachable from vertexs.In each of two plans each undirected edge must become directed. For an edge chosen directions can differ in two plans.Help Vasya find the plans.InputThe first line contains three integersn,mands(2 ≤n≤ 3·105,1 ≤m≤ 3·105,1 ≤s≤n) — number of vertices and edges in the graph, and the vertex Vasya has picked.The followingmlines contain information about the graph edges. Each line contains three integersti,uiandvi(1 ≤ti≤ 2,1 ≤ui,vi≤n,ui≠vi) — edge type and vertices connected by the edge. Ifti= 1then the edge is directed and goes from the vertexuito the vertexvi. Ifti= 2then the edge is undirected and it connects the verticesuiandvi.It is guaranteed that there is at least one undirected edge in the graph.OutputThe first two lines should describe the plan which maximizes the number of reachable vertices. The lines three and four should describe the plan which minimizes the number of reachable vertices.A description of each plan should start with a line containing the number of reachable vertices. The second line of a plan should consist offsymbols '+' and '-', wherefis the number of undirected edges in the initial graph. Print '+' as thej-th symbol of the string if thej-th undirected edge(u,v)from the input should be oriented fromutov. Print '-' to signify the opposite direction (fromvtou). Consider undirected edges to be numbered in the same order they are given in the input.If there are multiple solutions, print any of them.ExamplesInput2 2 11 1 22 2 1Output2-2+Input6 6 32 2 61 4 52 3 41 4 11 3 12 2 3Output6++-2+-+",
+    "source": "CF",
+    "vjudge": false
+}

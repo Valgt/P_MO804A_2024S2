@@ -1,0 +1,14 @@
+{
+    "uid": "700-B",
+    "url": "https://codeforces.com/contest/700/problem/B",
+    "tags": [
+        "dfs and similar",
+        " dp",
+        " graphs",
+        " trees"
+    ],
+    "title": "700-B",
+    "statement": "B. Connecting Universitiestime limit per test3 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputTreeland is a country in which there arentowns connected byn- 1two-way road such that it's possible to get from any town to any other town.In Treeland there are2kuniversities which are located in different towns.Recently, the president signed the decree to connect universities by high-speed network.The Ministry of Education understood the decree in its own way and decided that it was enough to connect each university with another one by using a cable. Formally, the decree will be done!To have the maximum sum in the budget, the Ministry decided to divide universities into pairs so that the total length of the required cable will be maximum. In other words, the total distance between universities inkpairs should be as large as possible.Help the Ministry to find the maximum total distance. Of course, each university should be present in only one pair. Consider that all roads have the same length which is equal to1.InputThe first line of the input contains two integersnandk(2 ≤n≤ 200 000,1 ≤k≤n/ 2) — the number of towns in Treeland and the number of university pairs. Consider that towns are numbered from1ton.The second line contains2kdistinct integersu1,u2, ...,u2k(1 ≤ui≤n) — indices of towns in which universities are located.The nextn- 1line contains the description of roads. Each line contains the pair of integersxjandyj(1 ≤xj,yj≤n), which means that thej-th road connects townsxjandyj. All of them are two-way roads. You can move from any town to any other using only these roads.OutputPrint the maximum possible sum of distances in the division of universities intokpairs.ExamplesInput7 21 5 6 21 33 24 53 74 34 6Output6Input9 33 2 1 6 5 98 93 22 73 47 64 52 12 8Output9NoteThe figure below shows one of possible division into pairs in the first test. If you connect universities number1and6(marked in red) and universities number2and5(marked in blue) by using the cable, the total distance will equal6which will be the maximum sum in this example.",
+    "source": "CF",
+    "vjudge": false
+}

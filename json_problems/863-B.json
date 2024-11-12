@@ -1,0 +1,13 @@
+{
+    "uid": "863-B",
+    "url": "https://codeforces.com/contest/863/problem/B",
+    "tags": [
+        "brute force",
+        " greedy",
+        " sortings"
+    ],
+    "title": "863-B",
+    "statement": "B. Kayakingtime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputVadim is really keen on travelling. Recently he heard about kayaking activity near his town and became very excited about it, so he joined a party of kayakers.Now the party is ready to start its journey, but firstly they have to choose kayaks. There are2·npeople in the group (including Vadim), and they have exactlyn- 1tandem kayaks (each of which, obviously, can carry two people) and2single kayaks.i-th person's weight iswi, and weight is an important matter in kayaking — if the difference between the weights of two people that sit in the same tandem kayak is too large, then it can crash. And, of course, people want to distribute their seats in kayaks in order to minimize the chances that kayaks will crash.Formally, the instability of a single kayak is always0, and the instability of a tandem kayak is the absolute difference between weights of the people that are in this kayak. Instability of the whole journey is the total instability of all kayaks.Help the party to determine minimum possible total instability!InputThe first line contains one numbern(2 ≤n≤ 50).The second line contains2·ninteger numbersw1,w2, ...,w2n, wherewiis weight of personi(1 ≤wi≤ 1000).OutputPrint minimum possible total instability.ExamplesInput21 2 3 4Output1Input41 3 4 6 3 4 100 200Output5",
+    "source": "CF",
+    "vjudge": false
+}

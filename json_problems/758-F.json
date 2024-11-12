@@ -1,0 +1,13 @@
+{
+    "uid": "758-F",
+    "url": "https://codeforces.com/contest/758/problem/F",
+    "tags": [
+        "brute force",
+        " math",
+        " number theory"
+    ],
+    "title": "758-F",
+    "statement": "F. Geometrical Progressiontime limit per test4 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputFor givenn,landrfind the number of distinct geometrical progression, each of which containsndistinct integers not less thanland not greater thanr. In other words, for each progression the following must hold:l≤ai≤randai≠aj, wherea1,a2, ...,anis the geometrical progression,1 ≤i,j≤nandi≠j.Geometrical progression is a sequence of numbersa1,a2, ...,anwhere each term after first is found by multiplying the previous one by a fixed non-zero numberdcalled the common ratio. Note that in our taskdmay be non-integer. For example in progression4, 6, 9, common ratio is.Two progressionsa1,a2, ...,anandb1,b2, ...,bnare considered different, if there is suchi(1 ≤i≤n) thatai≠bi.InputThe first and the only line cotains three integersn,landr(1 ≤n≤ 107, 1 ≤l≤r≤ 107).OutputPrint the integerK— is the answer to the problem.ExamplesInput1 1 10Output10Input2 6 9Output12Input3 1 10Output8Input3 3 10Output2NoteThese are possible progressions for the first test of examples:1;2;3;4;5;6;7;8;9;10.These are possible progressions for the second test of examples:6, 7;6, 8;6, 9;7, 6;7, 8;7, 9;8, 6;8, 7;8, 9;9, 6;9, 7;9, 8.These are possible progressions for the third test of examples:1, 2, 4;1, 3, 9;2, 4, 8;4, 2, 1;4, 6, 9;8, 4, 2;9, 3, 1;9, 6, 4.These are possible progressions for the fourth test of examples:4, 6, 9;9, 6, 4.",
+    "source": "CF",
+    "vjudge": false
+}

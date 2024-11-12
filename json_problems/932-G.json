@@ -1,0 +1,13 @@
+{
+    "uid": "932-G",
+    "url": "https://codeforces.com/contest/932/problem/G",
+    "tags": [
+        "dp",
+        " string suffix structures",
+        " strings"
+    ],
+    "title": "932-G",
+    "statement": "G. Palindrome Partitiontime limit per test3 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputGiven a strings, find the number of ways to splitsto substrings such that if there areksubstrings(p1,p2,p3, ...,pk)in partition, thenpi=pk-i+ 1for alli(1 ≤i≤k)andkis even.Since the number of ways can be large, print it modulo109+ 7.InputThe only line of input contains a strings(2 ≤ |s| ≤ 106)of even length consisting of lowercase Latin letters.OutputPrint one integer, the number of ways of partitioning the string modulo109+ 7.ExamplesInputabcdcdabOutput1InputabbababababbabOutput3NoteIn the first case, the only way to partition the string isab|cd|cd|ab.In the second case, the string can be partitioned asab|b|ab|ab|ab|ab|b|aborab|b|abab|abab|b|aborabbab|ab|ab|abbab.",
+    "source": "CF",
+    "vjudge": false
+}

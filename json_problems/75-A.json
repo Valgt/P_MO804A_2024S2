@@ -1,0 +1,11 @@
+{
+    "uid": "75-A",
+    "url": "https://codeforces.com/contest/75/problem/A",
+    "tags": [
+        "implementation"
+    ],
+    "title": "75-A",
+    "statement": "A. Life Without Zerostime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutCan you imagine our life if we removed all zeros from it? For sure we will have many problems.In this problem we will have a simple example if we removed all zeros from our life, it's the addition operation. Let's assume you are given this equationa+b=c, whereaandbare positive integers, andcis the sum ofaandb. Now let's remove all zeros from this equation. Will the equation remain correct after removing all zeros?For example if the equation is101 + 102 = 203, if we removed all zeros it will be11 + 12 = 23which is still a correct equation.But if the equation is105 + 106 = 211, if we removed all zeros it will be15 + 16 = 211which is not a correct equation.InputThe input will consist of two lines, the first line will contain the integera, and the second line will contain the integerbwhich are in the equation as described above (1 ≤a,b≤ 109). There won't be any leading zeros in both. The value ofcshould be calculated asc=a+b.OutputThe output will be just one line, you should print \"YES\" if the equation will remain correct after removing all zeros, and print \"NO\" otherwise.ExamplesInput101102OutputYESInput105106OutputNO",
+    "source": "CF",
+    "vjudge": false
+}

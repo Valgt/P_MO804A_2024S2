@@ -1,0 +1,14 @@
+{
+    "uid": "792-C",
+    "url": "https://codeforces.com/contest/792/problem/C",
+    "tags": [
+        "dp",
+        " greedy",
+        " math",
+        " number theory"
+    ],
+    "title": "792-C",
+    "statement": "C. Divide by Threetime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputA positive integer numbernis written on a blackboard. It consists of not more than105digits. You have to transform it into abeautifulnumber by erasing some of the digits, and you want to erase as few digits as possible.The number is called beautiful if it consists of at least one digit, doesn't have leading zeroes and is a multiple of3. For example,0,99,10110are beautiful numbers, and00,03,122are not.Write a program which for the givennwill find a beautiful number such thatncan be transformed into this number by erasing as few digits as possible. You can erase an arbitraty set of digits. For example, they don't have to go one after another in the numbern.If it's impossible to obtain a beautiful number, print-1. If there are multiple answers, print any of them.InputThe first line of input containsn— a positive integer number without leading zeroes (1 ≤n< 10100000).OutputPrint one number — any beautiful number obtained by erasing as few as possible digits. If there is no answer, print- 1.ExamplesInput1033Output33Input10Output0Input11Output-1NoteIn the first example it is enough to erase only the first digit to obtain a multiple of3. But if we erase the first digit, then we obtain a number with a leading zero. So the minimum number of digits to be erased is two.",
+    "source": "CF",
+    "vjudge": false
+}

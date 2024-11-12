@@ -1,0 +1,12 @@
+{
+    "uid": "712-C",
+    "url": "https://codeforces.com/contest/712/problem/C",
+    "tags": [
+        "greedy",
+        " math"
+    ],
+    "title": "712-C",
+    "statement": "C. Memory and De-Evolutiontime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputMemory is now interested in the de-evolution of objects, specifically triangles. He starts with an equilateral triangle of side lengthx, and he wishes to perform operations to obtain an equilateral triangle of side lengthy.In a single second, he can modify the length of a single side of the current triangle such that it remains a non-degenerate triangle (triangle of positive area). At any moment of time, the length of each side should be integer.What is the minimum number of seconds required for Memory to obtain the equilateral triangle of side lengthy?InputThe first and only line contains two integersxandy(3 ≤y<x≤ 100 000) — the starting and ending equilateral triangle side lengths respectively.OutputPrint a single integer — the minimum number of seconds required for Memory to obtain the equilateral triangle of side lengthyif he starts with the equilateral triangle of side lengthx.ExamplesInput6 3Output4Input8 5Output3Input22 4Output6NoteIn the first sample test, Memory starts with an equilateral triangle of side length6and wants one of side length3. Denote a triangle with sidesa,b, andcas(a,b,c). Then, Memory can do.In the second sample test, Memory can do.In the third sample test, Memory can do:.",
+    "source": "CF",
+    "vjudge": false
+}

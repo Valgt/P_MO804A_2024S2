@@ -1,0 +1,12 @@
+{
+    "uid": "64-D",
+    "url": "https://codeforces.com/contest/64/problem/D",
+    "tags": [
+        "*special",
+        " greedy"
+    ],
+    "title": "64-D",
+    "statement": "D. Presentstime limit per test2 secondsmemory limit per test64 megabytesinputstdinoutputstdoutYou are given the prices of three presents. Also there are three sisters. It is known that the most valuable present is for the eldest sister. The second (by price) is for the second sister. And the less valuable present is for the youngest sister. If two (or three) presents have the same price, corresponding sisters may get the in a random way.InputThe only line contains three integer numbersa1,a2,a3(1 ≤a1,a2,a3≤ 100) — the prices of the presents.OutputPrint three numbersi1,i2,i3(1 ≤i1,i2,i3≤ 3), all of them should be distinct. The first number stands for the seniority of the sister which will get the first present (1 stands for the eldest, 3 for the youngest). The second and third numbers mean the seniority of the sisters which get the second and the third present respectively.If there are multiple answers, print any of them.ExamplesInput11 13 1Output2 1 3Input30 10 30Output1 3 2NoteIn the second sample another possible answer is \"2 3 1\".",
+    "source": "CF",
+    "vjudge": false
+}

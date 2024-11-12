@@ -1,0 +1,11 @@
+{
+    "uid": "983-D",
+    "url": "https://codeforces.com/contest/983/problem/D",
+    "tags": [
+        "data structures"
+    ],
+    "title": "983-D",
+    "statement": "D. Arkady and Rectanglestime limit per test4 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputArkady has got an infinite plane painted in color $$$0$$$. Then he draws $$$n$$$ rectangles filled with paint with sides parallel to the Cartesian coordinate axes, one after another. The color of the $$$i$$$-th rectangle is $$$i$$$ (rectangles are enumerated from $$$1$$$ to $$$n$$$ in the order he draws them). It is possible that new rectangles cover some of the previous ones completely or partially.Count the number of different colors on the plane after Arkady draws all the rectangles.InputThe first line contains a single integer $$$n$$$ ($$$1 \\\\le n \\\\le 100\\\\,000$$$) — the number of rectangles.The $$$i$$$-th of the next $$$n$$$ lines contains $$$4$$$ integers $$$x_1$$$, $$$y_1$$$, $$$x_2$$$ and $$$y_2$$$ ($$$-10^9 \\\\le x_1 < x_2 \\\\le 10^9$$$, $$$-10^9 \\\\le y_1 < y_2 \\\\le 10^9$$$) — the coordinates of corners of the $$$i$$$-th rectangle.OutputIn the single line print the number of different colors in the plane, including color $$$0$$$.ExamplesInput5-1 -1 1 1-4 0 0 40 0 4 4-4 -4 0 00 -4 4 0Output5Input40 0 4 4-4 -4 0 00 -4 4 0-2 -4 2 4Output5NoteThat's how the plane looks in the first sampleThat's how the plane looks in the second sample$$$0$$$ = white, $$$1$$$ = cyan, $$$2$$$ = blue, $$$3$$$ = purple, $$$4$$$ = yellow, $$$5$$$ = red.",
+    "source": "CF",
+    "vjudge": false
+}

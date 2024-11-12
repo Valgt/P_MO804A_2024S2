@@ -1,0 +1,13 @@
+{
+    "uid": "741-C",
+    "url": "https://codeforces.com/contest/741/problem/C",
+    "tags": [
+        "constructive algorithms",
+        " dfs and similar",
+        " graphs"
+    ],
+    "title": "741-C",
+    "statement": "C. Arpa’s overnight party and Mehrdad’s silent enteringtime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputNote that girls in Arpa’s land are really attractive.Arpa loves overnight parties. In the middle of one of these parties Mehrdad suddenly appeared. He sawnpairs of friends sitting around a table.i-th pair consisted of a boy, sitting on theai-th chair, and his girlfriend, sitting on thebi-th chair. The chairs were numbered1through2nin clockwise direction. There was exactly one person sitting on each chair.There were two types of food: Kooft and Zahre-mar. Now Mehrdad wonders, was there any way to serve food for the guests such that:Each person had exactly one type of food,No boy had the same type of food as his girlfriend,Among any three guests sitting on consecutive chairs, there was two of them who had different type of food. Note that chairs2nand1are considered consecutive.Find the answer for the Mehrdad question. If it was possible, find some arrangement of food types that satisfies the conditions.InputThe first line contains an integern(1  ≤n≤  105) — the number of pairs of guests.Thei-th of the nextnlines contains a pair of integersaiandbi(1  ≤ai,bi≤  2n) — the number of chair on which the boy in thei-th pair was sitting and the number of chair on which his girlfriend was sitting. It's guaranteed that there was exactly one person sitting on each chair.OutputIf there is no solution, print-1.Otherwise printnlines, thei-th of them should contain two integers which represent the type of food for thei-th pair. The first integer in the line is the type of food the boy had, and the second integer is the type of food the girl had. If someone had Kooft, print1, otherwise print2.If there are multiple solutions, print any of them.ExampleInput31 42 53 6Output1 22 11 2",
+    "source": "CF",
+    "vjudge": false
+}

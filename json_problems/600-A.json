@@ -1,0 +1,12 @@
+{
+    "uid": "600-A",
+    "url": "https://codeforces.com/contest/600/problem/A",
+    "tags": [
+        "implementation",
+        " strings"
+    ],
+    "title": "600-A",
+    "statement": "A. Extract Numberstime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given strings. Let's callwordany largest sequence of consecutive symbols without symbols ',' (comma) and ';' (semicolon). For example, there are fourwordsin string \"aba,123;1a;0\": \"aba\", \"123\", \"1a\", \"0\". A word can be empty: for example, the strings=\";;\" contains three empty words separated by ';'.You should find allwordsin the given string that are nonnegative INTEGER numbers without leading zeroes and build by them new stringa. Stringashould contain allwordsthat are numbers separating them by ',' (the order of numbers should remain the same as in the strings). By all otherwordsyou should build stringbin the same way (the order of numbers should remain the same as in the strings).Here strings \"101\", \"0\" are INTEGER numbers, but \"01\" and \"1.0\" are not.For example, for the stringaba,123;1a;0the stringawould be equal to \"123,0\" and stringbwould be equal to \"aba,1a\".InputThe only line of input contains the strings(1 ≤ |s| ≤ 105). The string contains only symbols '.' (ASCII 46), ',' (ASCII 44), ';' (ASCII 59), digits, lowercase and uppercase latin letters.OutputPrint the stringato the first line and stringbto the second line. Each string should be surrounded by quotes (ASCII 34).If there are nowordsthat are numbers print dash (ASCII 45) on the first line. If allwordsare numbers print dash on the second line.ExamplesInputaba,123;1a;0Output\"123,0\"\"aba,1a\"Input1;;01,a0,Output\"1\"\",01,a0,\"Input1Output\"1\"-InputaOutput-\"a\"NoteIn the second example the stringscontains five words: \"1\", \"\", \"01\", \"a0\", \"\".",
+    "source": "CF",
+    "vjudge": false
+}

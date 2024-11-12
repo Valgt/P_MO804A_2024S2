@@ -1,0 +1,15 @@
+{
+    "uid": "848-E",
+    "url": "https://codeforces.com/contest/848/problem/E",
+    "tags": [
+        "combinatorics",
+        " divide and conquer",
+        " dp",
+        " fft",
+        " math"
+    ],
+    "title": "848-E",
+    "statement": "E. Days of Floral Colourstime limit per test7 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputThe Floral Clock has been standing by the side of Mirror Lake for years. Though unable to keep time, it reminds people of the passage of time and the good old days.On the rim of the Floral Clock are2nflowers, numbered from1to2nclockwise, each of which has a colour among allnpossible ones. For each colour, there are exactly two flowers with it, thedistancebetween whicheither is less than or equal to2, or equalsn. Additionally, if flowersuandvare of the same colour, then flowers opposite touand opposite tovshould be of the same colour as well — symmetry is beautiful!Formally, thedistancebetween two flowers is1plus the number of flowers on the minor arc (or semicircle) between them. Below is a possible arrangement withn= 6that cover all possibilities.Thebeautyof an arrangement is defined to be the product of the lengths of flower segments separated by all opposite flowers of the same colour. In other words, in order to compute the beauty, we remove from the circle all flowers that have the same colour as flowers opposite to them. Then, the beauty is the product of lengths of all remaining segments. Note that we include segments of length0in this product. If there are no flowers that have the same colour as flower opposite to them, the beauty equals0. For instance, thebeautyof the above arrangement equals1 × 3 × 1 × 3 = 9— the segments are{2},{4, 5, 6},{8}and{10, 11, 12}.While keeping the constraints satisfied, there may be lots of different arrangements. Find out the sum ofbeautyover all possible arrangements, modulo998 244 353. Two arrangements are considered different, if a pair(u,v)(1 ≤u,v≤ 2n) exists such that flowersuandvare of the same colour in one of them, but not in the other.InputThe first and only line of input contains a lonely positive integern(3 ≤n≤ 50 000) — the number of colours present on the Floral Clock.OutputOutput one integer — the sum ofbeautyover all possible arrangements of flowers, modulo998 244 353.ExamplesInput3Output24Input4Output4Input7Output1316Input15Output3436404NoteWithn= 3, the following six arrangements each have abeautyof2 × 2 = 4.While many others, such as the left one in the figure below, have abeautyof0. The right one is invalid, since it's asymmetric.",
+    "source": "CF",
+    "vjudge": false
+}

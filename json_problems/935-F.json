@@ -1,0 +1,12 @@
+{
+    "uid": "935-F",
+    "url": "https://codeforces.com/contest/935/problem/F",
+    "tags": [
+        "data structures",
+        " greedy"
+    ],
+    "title": "935-F",
+    "statement": "F. Fafa and Arraytime limit per test3 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputFafa has an arrayAofnpositive integers, the functionf(A)is defined as. He wants to doqqueries of two types:1lrx— find the maximum possible value off(A), ifxis to be added to one element in the range[l,r]. You can choose to which element to addx.2lrx— increase all the elements in the range[l,r]by valuex.Note that queries of type1don't affect the array elements.InputThe first line contains one integern(3 ≤n≤ 105)— the length of the array.The second line containsnpositive integersa1,a2, ...,an(0 <ai≤ 109)— the array elements.The third line contains an integerq(1 ≤q≤ 105)— the number of queries.Thenqlines follow, lineidescribes thei-th query and contains four integerstilirixi.It is guaranteed that at least one of the queries is of type1.OutputFor each query of type1, print the answer to the query.ExamplesInput51 1 1 1 151 2 4 12 2 3 12 4 4 22 3 4 11 3 3 2Output28Input51 2 3 4 541 2 4 22 2 4 12 3 4 11 2 4 2Output610",
+    "source": "CF",
+    "vjudge": false
+}

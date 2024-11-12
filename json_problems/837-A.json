@@ -1,0 +1,11 @@
+{
+    "uid": "837-A",
+    "url": "https://codeforces.com/contest/837/problem/A",
+    "tags": [
+        "implementation"
+    ],
+    "title": "837-A",
+    "statement": "A. Text Volumetime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given a text of single-space separated words, consisting of small and capital Latin letters.Volumeof the word is number of capital letters in the word.Volumeof the text is maximumvolumeof all words in the text.Calculate thevolumeof the given text.InputThe first line contains one integer numbern(1 ≤n≤ 200) — length of the text.The second line contains text of single-space separated wordss1,s2, ...,si, consisting only of small and capital Latin letters.OutputPrint one integer number —volumeof text.ExamplesInput7NonZEROOutput5Input24this is zero answer textOutput0Input24Harbour Space UniversityOutput1NoteIn the first example there is only one word, there are5capital letters in it.In the second example all of the words contain0capital letters.",
+    "source": "CF",
+    "vjudge": false
+}

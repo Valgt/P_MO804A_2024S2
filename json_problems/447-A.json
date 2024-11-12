@@ -1,0 +1,11 @@
+{
+    "uid": "447-A",
+    "url": "https://codeforces.com/contest/447/problem/A",
+    "tags": [
+        "implementation"
+    ],
+    "title": "447-A",
+    "statement": "A. DZY Loves Hashtime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutDZY has a hash table withpbuckets, numbered from0top- 1. He wants to insertnnumbers, in the order they are given, into the hash table. For thei-th numberxi, DZY will put it into the bucket numberedh(xi), whereh(x)is the hash function. In this problem we will assume, thath(x) =xmodp. Operationamodbdenotes taking a remainder after divisionabyb.However, each bucket can contain no more than one element. If DZY wants to insert an number into a bucket which is already filled, we say a \"conflict\" happens. Suppose the first conflict happens right after thei-th insertion, you should outputi. If no conflict happens, just output-1.InputThe first line contains two integers,pandn(2 ≤p,n≤ 300). Thennlines follow. Thei-th of them contains an integerxi(0 ≤xi≤ 109).OutputOutput a single integer — the answer to the problem.ExamplesInput10 5021534153Output4Input5 501234Output-1",
+    "source": "CF",
+    "vjudge": false
+}

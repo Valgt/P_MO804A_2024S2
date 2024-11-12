@@ -1,0 +1,12 @@
+{
+    "uid": "1473-F",
+    "url": "https://codeforces.com/contest/1473/problem/F",
+    "tags": [
+        "flows",
+        " math"
+    ],
+    "title": "1473-F",
+    "statement": "F. Strange Settime limit per test4 secondsmemory limit per test32 megabytesinputstandard inputoutputstandard outputNote that the memory limit is unusual.You are given an integer $$$n$$$ and two sequences $$$a_1, a_2, \\\\dots, a_n$$$ and $$$b_1, b_2, \\\\dots, b_n$$$.Let's call a set of integers $$$S$$$ such that $$$S \\\\subseteq \\\\{1, 2, 3, \\\\dots, n\\\\}$$$strange, if, for every element $$$i$$$ of $$$S$$$, the following condition is met: for every $$$j \\\\in [1, i - 1]$$$, if $$$a_j$$$ divides $$$a_i$$$, then $$$j$$$ is also included in $$$S$$$. An empty set is alwaysstrange.Thecostof the set $$$S$$$ is $$$\\\\sum\\\\limits_{i \\\\in S} b_i$$$. You have to calculate the maximum possiblecostof astrangeset.InputThe first line contains one integer $$$n$$$ ($$$1 \\\\le n \\\\le 3000$$$).The second line contains $$$n$$$ integers $$$a_1, a_2, \\\\dots, a_n$$$ ($$$1 \\\\le a_i \\\\le 100$$$).The third line contains $$$n$$$ integers $$$b_1, b_2, \\\\dots, b_n$$$ ($$$-10^5 \\\\le b_i \\\\le 10^5$$$).OutputPrint one integer — the maximumcostof astrangeset.ExamplesInput9 4 7 3 4 5 6 7 8 13 -2 3 -19 5 -6 7 -8 9 1Output16Input2 42 42 -37 13Output0Input2 42 42 13 -37Output13NoteThestrangeset with the maximumcostin the first example is $$$\\\\{1, 2, 4, 8, 9\\\\}$$$.Thestrangeset with the maximumcostin the second example is empty.",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,14 @@
+{
+    "uid": "452-E",
+    "url": "https://codeforces.com/contest/452/problem/E",
+    "tags": [
+        "data structures",
+        " dsu",
+        " string suffix structures",
+        " strings"
+    ],
+    "title": "452-E",
+    "statement": "E. Three stringstime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutYou are given three strings(s1,s2,s3). For each integerl(1 ≤l≤min(|s1|, |s2|, |s3|)you need to find how many triples (i1,i2,i3) exist such that three stringssk[ik...ik+l- 1](k= 1, 2, 3)are pairwise equal. Print all found numbers modulo1000000007 (109+ 7).See notes if you are not sure about some of the denotions used in the statement.InputFirst three lines contain three non-empty input strings. The sum of lengths of all strings is no more than3·105. All strings consist only of lowercase English letters.OutputYou need to outputmin(|s1|, |s2|, |s3|)numbers separated by spaces — answers for the problem modulo1000000007 (109+ 7).ExamplesInputabcbccbcOutput3 1InputabacabaabacabcdOutput11 2 0 0NoteConsider a stringt=t1t2...t|t|, wheretidenotes thei-th character of the string, and|t|denotes the length of the string.Thent[i...j](1 ≤i≤j≤ |t|)represents the stringtiti+ 1...tj(substring oftfrom positionito positionjinclusive).",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,14 @@
+{
+    "uid": "596-E",
+    "url": "https://codeforces.com/contest/596/problem/E",
+    "tags": [
+        "dfs and similar",
+        " dp",
+        " graphs",
+        " strings"
+    ],
+    "title": "596-E",
+    "statement": "E. Wilbur and Stringstime limit per test3 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputWilbur the pig now wants to play with strings. He has found annbymtable consisting only of the digits from0to9where the rows are numbered1tonand the columns are numbered1tom. Wilbur starts at some square and makes certain moves. If he is at square (x,y) and the digitd(0 ≤d≤ 9) is written at position (x,y),then he mustmove to the square (x+ad,y+bd), if that square lies within the table, and he stays in the square (x,y) otherwise. Before Wilbur makes a move, he can choose whether or not to write the digit written in this square on the white board. All digits written on the whiteboard form some string. Every time a new digit is written, it goes to the end of the current string.Wilbur hasqstrings that he is worried about. For each stringsi, Wilbur wants to know whether there exists a starting position (x,y) so that by making finitely many moves, Wilbur can end up with the stringsiwritten on the white board.InputThe first line of the input consists of three integersn,m, andq(1 ≤n,m,q≤ 200) — the dimensions of the table and the number of strings to process, respectively.Each of the nextnlines containsmdigits from0and9giving the table itself.Then follow10lines. Thei-th of them contains the valuesai- 1andbi- 1(- 200 ≤ai,bi≤ 200), i.e. the vector that Wilbur uses to make a move from the square with a digiti- 1in it.There areqlines that follow. Thei-th of them will contain a stringsiconsisting only of digits from0to9. It is guaranteed that the total length of theseqstrings won't exceed1 000 000.OutputFor each of theqstrings, print \"YES\" if Wilbur can choosexandyin order to finish with this string after some finite number of moves. If it's impossible, than print \"NO\" for the corresponding string.ExamplesInput1 1 201 11 11 11 11 11 11 11 11 11 100000000000002413423432432OutputYESNOInput4 2 5012345670 10 -10 10 -10 10 -10 10 -10 10 -1000000000001010101110132232232322443432223424443246767OutputYESYESYESNOYESNoteIn the first sample, there is a1by1table consisting of the only digit0. The only move that can be made is staying on the square. The first string can be written on the white board by writing0repeatedly. The second string cannot be written as there is no2on the table.",
+    "source": "CF",
+    "vjudge": false
+}

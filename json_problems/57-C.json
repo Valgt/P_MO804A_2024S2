@@ -1,0 +1,12 @@
+{
+    "uid": "57-C",
+    "url": "https://codeforces.com/contest/57/problem/C",
+    "tags": [
+        "combinatorics",
+        " math"
+    ],
+    "title": "57-C",
+    "statement": "C. Arraytime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutChris the Rabbit has been interested in arrays ever since he was a child. At the moment he is researching arrays with the length ofn, containing only integers from1ton. He is not good at math, that's why some simple things drive him crazy. For example, yesterday he grew keen on counting how many different beautiful arrays there are. Chris thinks that an array is beautiful if it meets one of the two conditions:each elements, starting from the second one, is no more than the preceding oneeach element, starting from the second one, is no less than the preceding oneHaving got absolutely mad at himself and at math, Chris came to Stewie and Brian to ask them for help. However, they only laughed at him and said that the answer is too simple and not interesting. Help Chris the Rabbit to find the answer at last.InputThe single line contains an integernwhich is the size of the array (1 ≤n≤ 105).OutputYou must print the answer on a single line. As it can be rather long, you should print it modulo1000000007.ExamplesInput2Output4Input3Output17",
+    "source": "CF",
+    "vjudge": false
+}

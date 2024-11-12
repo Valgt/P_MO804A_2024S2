@@ -1,0 +1,11 @@
+{
+    "uid": "656-C",
+    "url": "https://codeforces.com/contest/656/problem/C",
+    "tags": [
+        "*special"
+    ],
+    "title": "656-C",
+    "statement": "C. Without Texttime limit per test2 secondsmemory limit per test64 megabytesinputstandard inputoutputstandard outputYou can preview the image in better quality by the link:http://assets.codeforces.com/files/656/without-text.pngInputThe only line of the input is a string (between 1 and 50 characters long, inclusive). Each character will be an alphanumeric character or a full stop \".\".OutputOutput the required answer.ExamplesInputCodeforcesOutput-87InputAPRIL.1stOutput17",
+    "source": "CF",
+    "vjudge": false
+}

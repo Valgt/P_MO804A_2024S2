@@ -1,0 +1,12 @@
+{
+    "uid": "482-A",
+    "url": "https://codeforces.com/contest/482/problem/A",
+    "tags": [
+        "constructive algorithms",
+        " greedy"
+    ],
+    "title": "482-A",
+    "statement": "A. Diverse Permutationtime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutPermutationpis an ordered set of integersp1,p2,   ...,pn, consisting ofndistinct positive integers not larger thann. We'll denote asnthe length of permutationp1,p2,   ...,pn.Your task is to find such permutationpof lengthn, that the group of numbers|p1-p2|, |p2-p3|, ..., |pn- 1-pn|has exactlykdistinct elements.InputThe single line of the input contains two space-separated positive integersn,k(1 ≤k<n≤ 105).OutputPrintnintegers forming the permutation. If there are multiple answers, print any of them.ExamplesInput3 2Output1 3 2Input3 1Output1 2 3Input5 2Output1 3 2 4 5NoteBy|x|we denote the absolute value of numberx.",
+    "source": "CF",
+    "vjudge": false
+}

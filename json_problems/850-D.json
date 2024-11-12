@@ -1,0 +1,15 @@
+{
+    "uid": "850-D",
+    "url": "https://codeforces.com/contest/850/problem/D",
+    "tags": [
+        "constructive algorithms",
+        " dp",
+        " graphs",
+        " greedy",
+        " math"
+    ],
+    "title": "850-D",
+    "statement": "D. Tournament Constructiontime limit per test2 secondsmemory limit per test512 megabytesinputstandard inputoutputstandard outputIvan is reading a book about tournaments. He knows that a tournament is an oriented graph with exactly one oriented edge between each pair of vertices. The score of a vertex is the number of edges going outside this vertex.Yesterday Ivan learned Landau's criterion: there is tournament with scoresd1≤d2≤ ... ≤dnif and only iffor all1 ≤k<nand.Now, Ivan wanna solve following problem: given asetof numbersS= {a1,a2, ...,am}, is there a tournament with given set of scores? I.e. is there tournament with sequence of scoresd1,d2, ...,dnsuch that if we remove duplicates in scores, we obtain the required set{a1,a2, ...,am}?Find a tournament withminimumpossible number of vertices.InputThe first line contains a single integerm(1 ≤m≤ 31).The next line containsmdistinct integersa1,a2, ...,am(0 ≤ai≤ 30) — elements of the setS. It is guaranteed that all elements of the set are distinct.OutputIf there are no such tournaments, print string \"=(\" (without quotes).Otherwise, print an integern— the number of vertices in the tournament.Then printnlines withncharacters — matrix of the tournament. Thej-th element in thei-th row should be1if the edge between thei-th and thej-th vertices is oriented towards thej-th vertex, and0otherwise. The main diagonal should contain only zeros.ExamplesInput21 2Output40011100101000010Input20 3Output6000111100011110001011001001101000000",
+    "source": "CF",
+    "vjudge": false
+}

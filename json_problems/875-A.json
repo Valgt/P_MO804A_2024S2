@@ -1,0 +1,12 @@
+{
+    "uid": "875-A",
+    "url": "https://codeforces.com/contest/875/problem/A",
+    "tags": [
+        "brute force",
+        " math"
+    ],
+    "title": "875-A",
+    "statement": "A. Classroom Watchtime limit per test1 secondmemory limit per test512 megabytesinputstandard inputoutputstandard outputEighth-grader Vova is on duty today in the class. After classes, he went into the office to wash the board, and found on it the numbern. He asked what is this number and the teacher of mathematics Inna Petrovna answered Vova thatnis the answer to the arithmetic task for first-graders. In the textbook, a certainpositive integerxwas given. The task was to addxto the sum of the digits of the numberxwritten in decimal numeral system.Since the numbernon the board was small, Vova quickly guessed whichxcould be in the textbook. Now he wants to get a program which will search for arbitrary values of the numbernfor all suitable values ofxor determine that suchxdoes not exist. Write such a program for Vova.InputThe first line contains integern(1 ≤n≤ 109).OutputIn the first line print one integerk— number of different values ofxsatisfying the condition.In nextklines print these values in ascending order.ExamplesInput21Output115Input20Output0NoteIn the first test casex= 15there is only one variant:15 + 1 + 5 = 21.In the second test case there are no suchx.",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,11 @@
+{
+    "uid": "86-A",
+    "url": "https://codeforces.com/contest/86/problem/A",
+    "tags": [
+        "math"
+    ],
+    "title": "86-A",
+    "statement": "A. Reflectiontime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutFor each positive integernconsider the integerψ(n)which is obtained fromnby replacing every digitain the decimal notation ofnwith the digit(9  -a). We say thatψ(n)is thereflectionofn. For example, reflection of192equals807. Note that leading zeros (if any) should be omitted. So reflection of9equals0, reflection of91equals8.Let us call theweightof the number the product of the number and its reflection. Thus, the weight of the number10is equal to10·89 = 890.Your task is to find the maximum weight of the numbers in the given range[l,r](boundaries are included).InputInput contains two space-separated integerslandr(1 ≤l≤r≤ 109) — bounds of the range.OutputOutput should contain single integer number: maximum value of the productn·ψ(n), wherel≤n≤r.Please, do not use%lldspecificator to read or write 64-bit integers in C++. It is preferred to usecout(also you may use%I64d).ExamplesInput3 7Output20Input1 1Output8Input8 10Output890NoteIn the third sample weight of8equals8·1 = 8, weight of9equals9·0 = 0, weight of10equals890.Thus, maximum value of the product is equal to890.",
+    "source": "CF",
+    "vjudge": false
+}

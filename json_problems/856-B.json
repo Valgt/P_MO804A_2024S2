@@ -1,0 +1,14 @@
+{
+    "uid": "856-B",
+    "url": "https://codeforces.com/contest/856/problem/B",
+    "tags": [
+        "dp",
+        " hashing",
+        " strings",
+        " trees"
+    ],
+    "title": "856-B",
+    "statement": "B. Similar Wordstime limit per test2 secondsmemory limit per test512 megabytesinputstandard inputoutputstandard outputLet us call a non-empty sequence of lowercase English letters aword.Prefixof a wordxis a wordythat can be obtained fromxby removing zero or more last letters ofx.Let us call two wordssimilar, if one of them can be obtained from the other by removing its first letter.You are given a setSof words. Find the maximal possible size of set of non-empty wordsXsuch that they satisfy the following:each word ofXis prefix of some word fromS;Xhas no similar words.InputInput data contains multiple test cases. The first line of the input data contains an integert— the number of test cases. The descriptions of test cases follow.The first line of each description contains an integern— the number of words in the setS(1 ≤n≤ 106). Each of the followingnlines contains one non-empty word — elements ofS. All words inSare different.It is guaranteed that the total length of all words in one input data doesn't exceed106.OutputFor each test case print one line that contains one integerm— the maximal number of words thatXcan contain.ExampleInput23abababaaaab2aaaOutput61",
+    "source": "CF",
+    "vjudge": false
+}

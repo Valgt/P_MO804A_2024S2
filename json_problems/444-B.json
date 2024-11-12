@@ -1,0 +1,11 @@
+{
+    "uid": "444-B",
+    "url": "https://codeforces.com/contest/444/problem/B",
+    "tags": [
+        "probabilities"
+    ],
+    "title": "444-B",
+    "statement": "B. DZY Loves FFTtime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutDZY loves Fast Fourier Transformation, and he enjoys using it.Fast Fourier Transformation is an algorithm used to calculate convolution. Specifically, ifa,bandcare sequences with lengthn, which are indexed from0ton- 1, andWe can calculatecfast using Fast Fourier Transformation.DZY made a little change on this formula. NowTo make things easier,ais a permutation of integers from1ton, andbis a sequence only containing0and1. Givenaandb, DZY needs your help to calculatec.Because he is naughty, DZY provides a special way to getaandb. What you need is only three integersn,d,x. After getting them, use the code below to generateaandb.//x is 64-bit variable;function getNextX() {x = (x * 37 + 10007) % 1000000007;return x;}function initAB() {for(i = 0; i < n; i = i + 1){a[i] = i + 1;}for(i = 0; i < n; i = i + 1){swap(a[i], a[getNextX() % (i + 1)]);}for(i = 0; i < n; i = i + 1){if (i < d)b[i] = 1;elseb[i] = 0;}for(i = 0; i < n; i = i + 1){swap(b[i], b[getNextX() % (i + 1)]);}}Operationx % ydenotes remainder after divisionxbyy. Functionswap(x, y)swaps two valuesxandy.InputThe only line of input contains three space-separated integersn,d,x(1 ≤d≤n≤ 100000; 0 ≤x≤ 1000000006). Because DZY is naughty,xcan't be equal to27777500.OutputOutputnlines, thei-th line should contain an integerci- 1.ExamplesInput3 1 1Output132Input5 4 2Output22455Input5 4 3Output55554NoteIn the first sample,ais[1 3 2],bis[1 0 0], soc0=max(1·1) = 1,c1=max(1·0, 3·1) = 3,c2=max(1·0, 3·0, 2·1) = 2.In the second sample,ais[2 1 4 5 3],bis[1 1 1 0 1].In the third sample,ais[5 2 1 4 3],bis[1 1 1 1 0].",
+    "source": "CF",
+    "vjudge": false
+}

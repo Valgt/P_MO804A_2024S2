@@ -1,0 +1,15 @@
+{
+    "uid": "468-B",
+    "url": "https://codeforces.com/contest/468/problem/B",
+    "tags": [
+        "2-sat",
+        " dfs and similar",
+        " dsu",
+        " graph matchings",
+        " greedy"
+    ],
+    "title": "468-B",
+    "statement": "B. Two Setstime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutLittle X hasndistinct integers:p1,p2, ...,pn. He wants to divide all of them into two setsAandB. The following two conditions must be satisfied:If numberxbelongs to setA, then numbera-xmust also belong to setA.If numberxbelongs to setB, then numberb-xmust also belong to setB.Help Little X divide the numbers into two sets or determine that it's impossible.InputThe first line contains three space-separated integersn,a,b(1 ≤n≤ 105; 1 ≤a,b≤ 109). The next line containsnspace-separated distinct integersp1,p2, ...,pn(1 ≤pi≤ 109).OutputIf there is a way to divide the numbers into two sets, then print \"YES\" in the first line. Then printnintegers:b1,b2, ...,bn(biequals either0, or1), describing the division. Ifbiequals to0, thenpibelongs to setA, otherwise it belongs to setB.If it's impossible, print \"NO\" (without the quotes).ExamplesInput4 5 92 3 4 5OutputYES0 0 1 1Input3 3 41 2 4OutputNONoteIt's OK if all the numbers are in the same set, and the other one is empty.",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,12 @@
+{
+    "uid": "467-C",
+    "url": "https://codeforces.com/contest/467/problem/C",
+    "tags": [
+        "dp",
+        " implementation"
+    ],
+    "title": "467-C",
+    "statement": "C. George and Jobtime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutThe new ITone 6 has been released recently and George got really keen to buy it. Unfortunately, he didn't have enough money, so George was going to work as a programmer. Now he faced the following problem at the work.Given a sequence ofnintegersp1,p2, ...,pn. You are to choosekpairs of integers:[l1,r1], [l2,r2], ..., [lk,rk] (1 ≤l1≤r1<l2≤r2< ... <lk≤rk≤n;ri-li+ 1 =m),in such a way that the value of sumis maximal possible. Help George to cope with the task.InputThe first line contains three integersn,mandk(1 ≤ (m×k) ≤n≤ 5000). The second line containsnintegersp1,p2, ...,pn(0 ≤pi≤ 109).OutputPrint an integer in a single line — the maximum possible value of sum.ExamplesInput5 2 11 2 3 4 5Output9Input7 1 32 10 7 18 5 33 0Output61",
+    "source": "CF",
+    "vjudge": false
+}

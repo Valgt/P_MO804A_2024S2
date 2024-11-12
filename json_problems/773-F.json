@@ -1,0 +1,16 @@
+{
+    "uid": "773-F",
+    "url": "https://codeforces.com/contest/773/problem/F",
+    "tags": [
+        "combinatorics",
+        " divide and conquer",
+        " dp",
+        " fft",
+        " math",
+        " number theory"
+    ],
+    "title": "773-F",
+    "statement": "F. Test Data Generationtime limit per test5 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputTest data generation is not an easy task! Often, generating big random test cases is not enough to ensure thorough testing of solutions for correctness.For example, consider a problem from an old Codeforces round. Its input format looks roughly as follows:The first line contains a single integern(1 ≤n≤maxn) — the size of the set. The second line containsndistinct integersa1,a2, ...,an(1 ≤ai≤maxa) — the elements of the setin increasing order.If you don't pay attention to the problem solution, it looks fairly easy to generate a good test case for this problem. Letn=maxn, take random distinctaifrom 1 tomaxa, sort them... Soon you understand that it's not that easy.Here is the actual problem solution. Letgbe the greatest common divisor ofa1,a2, ...,an. Letx=an/g-n. Then the correct solution outputs \"Alice\" ifxis odd, and \"Bob\" ifxis even.Consider two wrong solutions to this problem which differ from the correct one only in the formula for calculatingx.The first wrong solution calculatesxasx=an/g(without subtractingn).The second wrong solution calculatesxasx=an-n(without dividing byg).A test case is interesting if it makesbothwrong solutions output an incorrect answer.Givenmaxn,maxaandq, find the number of interesting test cases satisfying the constraints, and output it moduloq.InputThe only line contains three integersmaxn,maxaandq(1 ≤maxn≤ 30 000;maxn≤maxa≤ 109;104≤q≤ 105+ 129).OutputOutput a single integer — the number of test cases which satisfy the constraints and make both wrong solutions output an incorrect answer, moduloq.ExamplesInput3 6 100000Output4Input6 21 100129Output154Input58 787788 50216Output46009NoteIn the first example, interesting test cases look as follows:1              1              1              32              4              6              2 4 6",
+    "source": "CF",
+    "vjudge": false
+}

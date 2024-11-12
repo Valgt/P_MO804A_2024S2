@@ -1,0 +1,13 @@
+{
+    "uid": "1132-E",
+    "url": "https://codeforces.com/contest/1132/problem/E",
+    "tags": [
+        "dfs and similar",
+        " dp",
+        " greedy"
+    ],
+    "title": "1132-E",
+    "statement": "E. Knapsacktime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou have a set of items, each having some integer weight not greater than $$$8$$$. You denote that a subset of items is good if total weight of items in the subset does not exceed $$$W$$$.You want to calculate the maximum possible weight of a good subset of items. Note that you have to consider the empty set and the original set when calculating the answer.InputThe first line contains one integer $$$W$$$ ($$$0 \\\\le W \\\\le 10^{18}$$$) — the maximum total weight of a good subset.The second line denotes the set of items you have. It contains $$$8$$$ integers $$$cnt_1$$$, $$$cnt_2$$$, ..., $$$cnt_8$$$ ($$$0 \\\\le cnt_i \\\\le 10^{16}$$$), where $$$cnt_i$$$ is the number of items having weight $$$i$$$ in the set.OutputPrint one integer — the maximum possible weight of a good subset of items.ExamplesInput101 2 3 4 5 6 7 8Output10Input00 0 0 0 0 0 0 0Output0Input30 4 1 0 0 9 8 3Output3",
+    "source": "CF",
+    "vjudge": false
+}

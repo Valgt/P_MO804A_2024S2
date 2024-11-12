@@ -1,0 +1,13 @@
+{
+    "uid": "534-B",
+    "url": "https://codeforces.com/contest/534/problem/B",
+    "tags": [
+        "dp",
+        " greedy",
+        " math"
+    ],
+    "title": "534-B",
+    "statement": "B. Covered Pathtime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputThe on-board computer on Polycarp's car measured that the car speed at the beginning of some section of the path equalsv1meters per second, and in the end it isv2meters per second. We know that this section of the route took exactlytseconds to pass.Assuming that at each of the seconds the speed is constant, and between seconds the speed can change at most bydmeters per second in absolute value (i.e., the difference in the speed of any two adjacent seconds does not exceeddin absolute value), find the maximum possible length of the path section in meters.InputThe first line contains two integersv1andv2(1 ≤v1,v2≤ 100) — the speeds in meters per second at the beginning of the segment and at the end of the segment, respectively.The second line contains two integerst(2 ≤t≤ 100) — the time when the car moves along the segment in seconds,d(0 ≤d≤ 10)— the maximum value of the speed change between adjacent seconds.It is guaranteed that there is a way to complete the segment so that:the speed in the first second equalsv1,the speed in the last second equalsv2,the absolute value of difference of speeds between any two adjacent seconds doesn't exceedd.OutputPrint the maximum possible length of the path segment in meters.ExamplesInput5 64 2Output26Input10 1010 0Output100NoteIn the first sample the sequence of speeds of Polycarpus' car can look as follows: 5, 7, 8, 6. Thus, the total path is5 + 7 + 8 + 6 = 26meters.In the second sample, asd= 0, the car covers the whole segment at constant speedv= 10. Int= 10seconds it covers the distance of 100 meters.",
+    "source": "CF",
+    "vjudge": false
+}

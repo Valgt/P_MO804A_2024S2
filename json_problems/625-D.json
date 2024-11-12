@@ -1,0 +1,13 @@
+{
+    "uid": "625-D",
+    "url": "https://codeforces.com/contest/625/problem/D",
+    "tags": [
+        "constructive algorithms",
+        " implementation",
+        " math"
+    ],
+    "title": "625-D",
+    "statement": "D. Finals in arithmetictime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputVitya is studying in the third grade. During the last math lesson all the pupils wrote on arithmetic quiz. Vitya is a clever boy, so he managed to finish all the tasks pretty fast and Oksana Fillipovna gave him a new one, that is much harder.Let's denote aflip operationof an integer as follows: number is considered in decimal notation and then reverted. If there are any leading zeroes afterwards, they are thrown away. For example, if we flip123the result is the integer321, but flipping130we obtain31, and by flipping31we come to13.Oksana Fillipovna picked some numberawithout leading zeroes, and flipped it to get numberar. Then she summedaandar, and told Vitya the resulting valuen. His goal is to find any valida.As Oksana Fillipovna picked some small integers asaandar, Vitya managed to find the answer pretty fast and became interested in finding some general algorithm to deal with this problem. Now, he wants you to write the program that for givennfinds anyawithout leading zeroes, such thata+ar=nor determine that suchadoesn't exist.InputThe first line of the input contains a single integern(1 ≤n≤ 10100 000).OutputIf there is no such positive integerawithout leading zeroes thata+ar=nthen print0. Otherwise, print any valida. If there are many possible answers, you are allowed to pick any.ExamplesInput4Output2Input11Output10Input5Output0Input33Output21NoteIn the first sample4 = 2 + 2,a= 2is the only possibility.In the second sample11 = 10 + 1,a= 10— the only valid solution. Note, thata= 01is incorrect, becauseacan't have leading zeroes.It's easy to check that there is no suitableain the third sample.In the fourth sample33 = 30 + 3 = 12 + 21, so there are three possibilities fora:a= 30,a= 12,a= 21. Any of these is considered to be correct answer.",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,11 @@
+{
+    "uid": "924-F",
+    "url": "https://codeforces.com/contest/924/problem/F",
+    "tags": [
+        "dp"
+    ],
+    "title": "924-F",
+    "statement": "F. Minimal Subset Differencetime limit per test3 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputWe call a positive integerxak-beautiful integer if and only if it is possible to split the multiset of its digits in the decimal representation into two subsets such that the difference between the sum of digits in one subset and the sum of digits in the other subset isless than or equal tok. Each digit should belong to exactly one subset after the split.There arenqueries for you. Each query is described with three integersl,randk, which mean that you are asked how many integersxbetweenlandr(inclusive) arek-beautiful.InputThe first line contains a single integern(1 ≤n≤ 5·104), indicating the number of queries.Each of the nextnlines describes a query, containing three integersl,randk(1 ≤l≤r≤ 1018,0 ≤k≤ 9).OutputFor each query print a single number — the answer to the query.ExamplesInput101 100 01 100 11 100 21 100 31 100 41 100 51 100 61 100 71 100 81 100 9Output92844587080889498100Input101 1000 01 1000 11 1000 21 1000 31 1000 41 1000 51 1000 61 1000 71 1000 81 1000 9Output1353805737218309069559839961000NoteIf1 ≤x≤ 9, integerxisk-beautiful if and only ifx≤k.If10 ≤x≤ 99, integerx= 10a+bisk-beautiful if and only if|a-b| ≤k, whereaandbare integers between0and9, inclusive.100isk-beautiful if and only ifk≥ 1.",
+    "source": "CF",
+    "vjudge": false
+}

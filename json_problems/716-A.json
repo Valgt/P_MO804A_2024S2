@@ -1,0 +1,11 @@
+{
+    "uid": "716-A",
+    "url": "https://codeforces.com/contest/716/problem/A",
+    "tags": [
+        "implementation"
+    ],
+    "title": "716-A",
+    "statement": "A. Crazy Computertime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputZS the Coder is coding on a crazy computer. If you don't type in a word for acconsecutive seconds, everything you typed disappear!More formally, if you typed a word at secondaand then the next word at secondb, then ifb-a≤c, just the new word is appended to other words on the screen. Ifb-a>c, then everything on the screen disappears and after that the word you have typed appears on the screen.For example, ifc= 5and you typed words at seconds1, 3, 8, 14, 19, 20then at the second8there will be3words on the screen. After that, everything disappears at the second13because nothing was typed. At the seconds14and19another two words are typed, and finally, at the second20, one more word is typed, and a total of3words remain on the screen.You're given the times when ZS the Coder typed the words. Determine how many words remain on the screen after he finished typing everything.InputThe first line contains two integersnandc(1 ≤n≤ 100 000, 1 ≤c≤ 109) — the number of words ZS the Coder typed and the crazy computer delay respectively.The next line containsnintegerst1,t2, ...,tn(1 ≤t1<t2< ... <tn≤ 109), wheretidenotes the second when ZS the Coder typed thei-th word.OutputPrint a single positive integer, the number of words that remain on the screen after allnwords was typed, in other words, at the secondtn.ExamplesInput6 51 3 8 14 19 20Output3Input6 11 3 5 7 9 10Output2NoteThe first sample is already explained in the problem statement.For the second sample, after typing the first word at the second1, it disappears because the next word is typed at the second3and3 - 1 > 1. Similarly, only1word will remain at the second9. Then, a word is typed at the second10, so there will be two words on the screen, as the old word won't disappear because10 - 9 ≤ 1.",
+    "source": "CF",
+    "vjudge": false
+}

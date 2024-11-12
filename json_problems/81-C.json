@@ -1,0 +1,13 @@
+{
+    "uid": "81-C",
+    "url": "https://codeforces.com/contest/81/problem/C",
+    "tags": [
+        "greedy",
+        " math",
+        " sortings"
+    ],
+    "title": "81-C",
+    "statement": "C. Average Scoretime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutAfter the educational reform Polycarp studies only two subjects at school, Safety Studies and PE (Physical Education). During the long months of the fourth term, he receivednmarks in them. When teachers wrote a mark in the journal, they didn't write in what subject the mark was for, they just wrote the mark.Now it's time to show the journal to his strict parents. Polycarp knows that recently at the Parent Meeting the parents were told that he receivedaSafety Studies marks andbPE marks (a+b=n). Now Polycarp wants to write a subject's name in front of each mark so that:there are exactlyaSafety Studies marks,there are exactlybPE marks,the total average score in both subjects is maximum.An average subject grade is the sum of all marks in it, divided by the number of them. Of course, the division is performed in real numbers without rounding up or down. Polycarp aims to maximize thex1+x2, wherex1is the average score in the first subject (Safety Studies), andx2is the average score in the second one (Physical Education).InputThe first line contains an integern(2 ≤n≤ 105),nis the number of marks in Polycarp's Journal. The second line contains two positive integersa,b(1 ≤a,b≤n- 1,a+b=n). The third line contains a sequence of integerst1,t2, ...,tn(1 ≤ti≤ 5), they are Polycarp's marks.OutputPrint the sequence of integersf1,f2, ...,fn, wherefi(1 ≤fi≤ 2) is the number of a subject to which thei-th mark should be attributed. If there are several possible solutions, then print such that the sequencef1,f2, ...,fnis the smallest lexicographically.The sequencep1,p2, ...,pnis lexicographically less thanq1,q2, ...,qnif there exists suchj(1 ≤j≤n) thatpi=qifor all1 ≤i<j, аndpj<qj.ExamplesInput53 24 4 5 4 4Output1 1 2 1 2Input42 23 5 4 5Output1 1 2 2Input61 54 4 4 5 4 4Output2 2 2 1 2 2NoteIn the first sample the average score in the first subject is equal to 4, and in the second one — to 4.5. The total average score is 8.5.",
+    "source": "CF",
+    "vjudge": false
+}

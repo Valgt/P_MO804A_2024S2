@@ -1,0 +1,12 @@
+{
+    "uid": "802-F",
+    "url": "https://codeforces.com/contest/802/problem/F",
+    "tags": [
+        "math",
+        " probabilities"
+    ],
+    "title": "802-F",
+    "statement": "F. Marmots (hard)time limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputYour task is the exact same as for theeasyversion. But this time, the marmots subtract the village's populationPfrom their random number before responding to Heidi's request.Also, there are now villages with as few as a single inhabitant, meaning that.Can you help Heidi find out whether a village follows a Poisson or a uniform distribution?InputSame as for the easy and medium versions. But remember that now1 ≤P≤ 1000and that the marmots may provide positive as well as negative integers.OutputOutput one line per village, in the same order as provided in the input. The village's line shall statepoissonif the village's distribution is of the Poisson type, anduniformif the answers came from a uniform distribution.",
+    "source": "CF",
+    "vjudge": false
+}

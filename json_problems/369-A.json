@@ -1,0 +1,12 @@
+{
+    "uid": "369-A",
+    "url": "https://codeforces.com/contest/369/problem/A",
+    "tags": [
+        "greedy",
+        " implementation"
+    ],
+    "title": "369-A",
+    "statement": "A. Valera and Platestime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutValera is a lazy student. He hasmclean bowls andkclean plates.Valera has made an eating plan for the nextndays. As Valera is lazy, he will eat exactly one dish per day. At that, in order to eat a dish, he needs exactly onecleanplate or bowl. We know that Valera can cook only two types of dishes. He can eat dishes of the first type from bowls and dishes of the second type from either bowls or plates.When Valera finishes eating, he leaves a dirty plate/bowl behind. His life philosophy doesn't let him eat from dirty kitchenware. So sometimes he needs to wash his plate/bowlbefore eating. Find the minimum number of times Valera will need to wash a plate/bowl, if he acts optimally.InputThe first line of the input contains three integersn,m,k(1 ≤n,m,k≤ 1000) — the number of the planned days, the number of clean bowls and the number of clean plates.The second line containsnintegersa1,a2, ...,an(1 ≤ai≤ 2). Ifaiequals one, then on dayiValera will eat a first type dish. Ifaiequals two, then on dayiValera will eat a second type dish.OutputPrint a single integer — the minimum number of times Valera will need to wash a plate/bowl.ExamplesInput3 1 11 2 1Output1Input4 3 11 1 1 1Output1Input3 1 22 2 2Output0Input8 2 21 2 1 2 1 2 1 2Output4NoteIn the first sample Valera will wash a bowl only on the third day, so the answer is one.In the second sample, Valera will have the first type of the dish during all four days, and since there are only three bowls, he will wash a bowl exactly once.In the third sample, Valera will have the second type of dish for all three days, and as they can be eaten from either a plate or a bowl, he will never need to wash a plate/bowl.",
+    "source": "CF",
+    "vjudge": false
+}

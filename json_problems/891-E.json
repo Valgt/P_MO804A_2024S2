@@ -1,0 +1,13 @@
+{
+    "uid": "891-E",
+    "url": "https://codeforces.com/contest/891/problem/E",
+    "tags": [
+        "combinatorics",
+        " math",
+        " matrices"
+    ],
+    "title": "891-E",
+    "statement": "E. Lusttime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputA false witness that speaketh lies!You are given a sequence containingnintegers. There is a variableresthat is equal to0initially. The following process repeatsktimes.Choose an index from1tonuniformly at random. Name itx. Add toresthe multiply of allai's such that1 ≤i≤n, buti≠x. Then, subtractaxby1.You have to find expected value ofresat the end of the process. It can be proved that the expected value ofrescan be represented as an irreducible fraction. You have to find.InputThe first line contains two integersnandk(1 ≤n≤ 5000,1 ≤k≤ 109) — the number of elements and parameterkthat is specified in the statement.The second line containsnspace separated integersa1,a2, ...,an(0 ≤ai≤ 109).OutputOutput a single integer — the value.ExamplesInput2 15 5Output5Input1 1080Output10Input2 20 0Output500000003Input9 40 11 12 9 20 7 8 18 2Output169316356",
+    "source": "CF",
+    "vjudge": false
+}

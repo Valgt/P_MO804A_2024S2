@@ -1,0 +1,12 @@
+{
+    "uid": "97-B",
+    "url": "https://codeforces.com/contest/97/problem/B",
+    "tags": [
+        "constructive algorithms",
+        " divide and conquer"
+    ],
+    "title": "97-B",
+    "statement": "B. Supersettime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutA set of points on a plane is calledgood, if for any two points at least one of the three conditions is true:those two points lie on same horizontal line;those two points lie on same vertical line;the rectangle, with corners in these two points, contains inside or on its borders at least one point of the set, other than these two. We mean here a rectangle with sides parallel to coordinates' axes, the so-called bounding box of the two points.You are given a set consisting ofnpoints on a plane. Find any good superset of the given set whose size would not exceed2·105points.InputThe first line contains an integern(1 ≤n≤ 104) — the number of points in the initial set. Nextnlines describe the set's points. Each line contains two integersxiandyi(- 109≤xi,yi≤ 109) — a corresponding point's coordinates. It is guaranteed that all the points are different.OutputPrint on the first line the number of pointsm(n≤m≤ 2·105) in a good superset, print on nextmlines the points. The absolute value of the points' coordinates should not exceed109. Note that you should not minimizem, it is enough to find any good superset of the given set, whose size does not exceed2·105.All points in the superset should have integer coordinates.ExamplesInput21 12 2Output31 12 21 2",
+    "source": "CF",
+    "vjudge": false
+}

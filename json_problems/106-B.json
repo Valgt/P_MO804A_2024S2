@@ -1,0 +1,12 @@
+{
+    "uid": "106-B",
+    "url": "https://codeforces.com/contest/106/problem/B",
+    "tags": [
+        "brute force",
+        " implementation"
+    ],
+    "title": "106-B",
+    "statement": "B. Choosing Laptoptime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutVasya is choosing a laptop. The shop hasnlaptops to all tastes.Vasya is interested in the following properties: processor speed, ram and hdd. Vasya is a programmer and not a gamer which is why he is not interested in all other properties.If all three properties of a laptop arestrictly lessthan those properties of some other laptop, then the first laptop is considered outdated by Vasya. Among all laptops Vasya does not consider outdated, he chooses the cheapest one.There are very many laptops, which is why Vasya decided to write a program that chooses the suitable laptop. However, Vasya doesn't have his own laptop yet and he asks you to help him.InputThe first line contains numbern(1 ≤n≤ 100).Then follownlines. Each describes a laptop asspeedramhddcost. Besides,speed,ram,hddandcostare integers1000 ≤speed≤ 4200is the processor's speed in megahertz256 ≤ram≤ 4096the RAM volume in megabytes1 ≤hdd≤ 500is the HDD in gigabytes100 ≤cost≤ 1000is price in tugriksAll laptops have different prices.OutputPrint a single number — the number of a laptop Vasya will choose. The laptops are numbered with positive integers from1tonin the order in which they are given in the input data.ExamplesInput52100 512 150 2002000 2048 240 3502300 1024 200 3202500 2048 80 3002000 512 180 150Output4NoteIn the third sample Vasya considers the first and fifth laptops outdated as all of their properties cannot match those of the third laptop. The fourth one is the cheapest among the laptops that are left. Thus, Vasya chooses the fourth laptop.",
+    "source": "CF",
+    "vjudge": false
+}

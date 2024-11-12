@@ -1,0 +1,12 @@
+{
+    "uid": "587-D",
+    "url": "https://codeforces.com/contest/587/problem/D",
+    "tags": [
+        "2-sat",
+        " binary search"
+    ],
+    "title": "587-D",
+    "statement": "D. Duff in Mafiatime limit per test6 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputDuff is one if the heads of Mafia in her country, Andarz Gu. Andarz Gu hasncities (numbered from 1 ton) connected bymbidirectional roads (numbered by1tom).Each road has a destructing time, and a color.i-th road connects citiesvianduiand its color isciand its destructing time isti.Mafia wants to destruct amatchingin Andarz Gu. Amatchingis a subset of roads such that no two roads in this subset has common endpoint. They can destruct these roads in parallel, i. e. the total destruction time is a maximum over destruction times of all selected roads.They want two conditions to be satisfied:The remaining roads form aproper coloring.Destructing time of this matching is minimized.The remaining roads after destructing this matching form aproper coloringif and only if no two roads of the same color have same endpoint, or, in the other words, edges of each color should form amatching.There is no programmer in Mafia. That's why Duff asked for your help. Please help her and determine which matching to destruct in order to satisfied those conditions (or state that this is not possible).InputThe first line of input contains two integersnandm(2 ≤n≤ 5 × 104and1 ≤m≤ 5 × 104), number of cities and number of roads in the country.The nextmlines contain the the roads.i-thof them contains four integersvi,ui,ciandti(1 ≤vi,ui≤n,vi≠uiand1 ≤ci,ti≤ 109for each1 ≤i≤m).OutputIn the first line of input, print \"Yes\" (without quotes) if satisfying the first condition is possible and \"No\" (without quotes) otherwise.If it is possible, then you have to print two integerstandkin the second line, the minimum destructing time and the number of roads in the matching ().In the third line printkdistinct integers separated by spaces, indices of the roads in the matching in any order. Roads are numbered starting from one in order of their appearance in the input.If there's more than one solution, print any of them.ExamplesInput5 72 1 3 73 1 1 65 4 1 84 5 1 13 2 2 34 5 2 52 3 2 4OutputYes3 24 5Input3 53 2 1 31 3 1 13 2 1 41 3 2 21 3 2 10OutputNoNoteGraph of Andarz Gu in the first sample case is as follows:A solution would be to destruct the roads with crosses.Graph of Andarz Gu in the second sample case is as follows:",
+    "source": "CF",
+    "vjudge": false
+}

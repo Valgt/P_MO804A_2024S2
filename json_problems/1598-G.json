@@ -1,0 +1,14 @@
+{
+    "uid": "1598-G",
+    "url": "https://codeforces.com/contest/1598/problem/G",
+    "tags": [
+        "hashing",
+        " math",
+        " string suffix structures",
+        " strings"
+    ],
+    "title": "1598-G",
+    "statement": "G. The Sum of Good Numberstime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputLet's call a positive integergoodif there is no digit0in its decimal representation.For an array of agoodnumbers $$$a$$$, one found out that the sum of some two neighboring elements is equal to $$$x$$$ (i.e. $$$x = a_i + a_{i + 1}$$$ for some $$$i$$$). $$$x$$$ had turned out to be agoodnumber as well.Then the elements of the array $$$a$$$ were written out one after another without separators into one string $$$s$$$. For example, if $$$a = [12, 5, 6, 133]$$$, then $$$s = 1256133$$$.You are given a string $$$s$$$ and a number $$$x$$$. Your task is to determine the positions in the string that correspond to the adjacent elements of the array that have sum $$$x$$$. If there are several possible answers, you can print any of them.InputThe first line contains the string $$$s$$$ ($$$2 \\\\le |s| \\\\le 5 \\\\cdot 10^5$$$).The second line contains an integer $$$x$$$ ($$$2 \\\\le x < 10^{200000}$$$).An additional constraint on the input: the answer always exists, i.e you can always select two adjacent substrings of the string $$$s$$$ so that if you convert these substrings to integers, their sum is equal to $$$x$$$.OutputIn the first line, print two integers $$$l_1$$$, $$$r_1$$$, meaning that the first term of the sum ($$$a_i$$$) is in the string $$$s$$$ from position $$$l_1$$$ to position $$$r_1$$$.In the second line, print two integers $$$l_2$$$, $$$r_2$$$, meaning that the second term of the sum ($$$a_{i + 1}$$$) is in the string $$$s$$$ from position $$$l_2$$$ to position $$$r_2$$$.ExamplesInput1256133 17Output1 2 3 3Input9544715561 525Output2 3 4 6Input239923 5Output1 1 2 2Input1218633757639 976272Output2 7 8 13NoteIn the first example $$$s[1;2] = 12$$$ and $$$s[3;3] = 5$$$, $$$12+5=17$$$.In the second example $$$s[2;3] = 54$$$ and $$$s[4;6] = 471$$$, $$$54+471=525$$$.In the third example $$$s[1;1] = 2$$$ and $$$s[2;2] = 3$$$, $$$2+3=5$$$.In the fourth example $$$s[2;7] = 218633$$$ and $$$s[8;13] = 757639$$$, $$$218633+757639=976272$$$.",
+    "source": "CF",
+    "vjudge": false
+}

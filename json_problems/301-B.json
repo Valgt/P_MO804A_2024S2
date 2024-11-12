@@ -1,0 +1,13 @@
+{
+    "uid": "301-B",
+    "url": "https://codeforces.com/contest/301/problem/B",
+    "tags": [
+        "binary search",
+        " graphs",
+        " shortest paths"
+    ],
+    "title": "301-B",
+    "statement": "B. Yaroslav and Timetime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutYaroslav is playing a game called \"Time\". The game has a timer showing the lifespan he's got left. As soon as the timer shows 0, Yaroslav's character dies and the game ends. Also, the game hasnclock stations, station numberiis at point(xi,yi)of the plane. As the player visits station numberi, he increases the current time on his timer byai. The stations are for one-time use only, so if the player visits some station another time, the time on his timer won't grow.A player spendsd·disttime units to move between stations, wheredistis the distance the player has covered anddis some constant. The distance between stationsiandjis determined as|xi-xj| + |yi-yj|.Initially, the player is at station number1, and the player has strictly more than zero and strictly less than one units of time. At station number1one unit of money can increase the time on the timer by one time unit (you can buy only integer number of time units).Now Yaroslav is wondering, how much money he needs to get to stationn. Help Yaroslav. Consider the time to buy and to increase the timer value negligibly small.InputThe first line contains integersnandd(3 ≤n≤ 100, 103≤d≤ 105)— the number of stations and the constant from the statement.The second line containsn- 2integers:a2,a3, ...,an- 1(1 ≤ai≤ 103). The nextnlines contain the coordinates of the stations. Thei-th of them contains two integersxi,yi(-100 ≤xi,yi≤ 100).It is guaranteed that no two stations are located at the same point.OutputIn a single line print an integer — the answer to the problem.ExamplesInput3 100010000 00 10 3Output2000Input3 100010001 01 11 2Output1000",
+    "source": "CF",
+    "vjudge": false
+}

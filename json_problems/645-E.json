@@ -1,0 +1,13 @@
+{
+    "uid": "645-E",
+    "url": "https://codeforces.com/contest/645/problem/E",
+    "tags": [
+        "dp",
+        " greedy",
+        " strings"
+    ],
+    "title": "645-E",
+    "statement": "E. Intellectual Inquirytime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputAfter getting kicked out of her reporting job for not knowing the alphabet, Bessie has decided to attend school at the Fillet and Eggs Eater Academy. She has been making good progress with her studies and now knows the firstkEnglish letters.Each morning, Bessie travels to school along a sidewalk consisting ofm+ntiles. In order to help Bessie review, Mr. Moozing has labeled each of the firstmsidewalk tiles with one of the firstklowercase English letters, spelling out a stringt. Mr. Moozing, impressed by Bessie's extensive knowledge of farm animals, plans to let her finish labeling the lastntiles of the sidewalk by herself.Consider the resulting strings(|s| =m+n) consisting of letters labeled on tiles in order from home to school. For any sequence of indicesp1<p2< ... <pqwe can define subsequence of the stringsas stringsp1sp2...spq. Two subsequences are considered to be distinct if they differ as strings. Bessie wants to label the remaining part of the sidewalk such that the number ofdistinct subsequencesof tiles is maximum possible. However, since Bessie hasn't even finished learning the alphabet, she needs your help!Note that empty subsequence also counts.InputThe first line of the input contains two integersnandk(0 ≤n≤ 1 000 000,1 ≤k≤ 26).The second line contains a stringt(|t| =m, 1 ≤m≤ 1 000 000) consisting of only firstklowercase English letters.OutputDetermine the maximum number of distinct subsequences Bessie can form after labeling the lastnsidewalk tiles each with one of the firstklowercase English letters. Since this number can be rather large, you should print it modulo109+ 7.Please note, that you are not asked to maximize the remainder modulo109+ 7! The goal is to maximize the initial value and then print the remainder.ExamplesInput1 3acOutput8Input0 2aabaOutput10NoteIn the first sample, the optimal labeling gives8different subsequences: \"\" (the empty string), \"a\", \"c\", \"b\", \"ac\", \"ab\", \"cb\", and \"acb\".In the second sample, the entire sidewalk is already labeled. The are10possible different subsequences: \"\" (the empty string), \"a\", \"b\", \"aa\", \"ab\", \"ba\", \"aaa\", \"aab\", \"aba\", and \"aaba\". Note that some strings, including \"aa\", can be obtained with multiple sequences of tiles, but are only counted once.",
+    "source": "CF",
+    "vjudge": false
+}

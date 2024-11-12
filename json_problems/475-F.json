@@ -1,0 +1,11 @@
+{
+    "uid": "475-F",
+    "url": "https://codeforces.com/contest/475/problem/F",
+    "tags": [
+        "data structures"
+    ],
+    "title": "475-F",
+    "statement": "F. Meta-universetime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutConsider infinite grid of unit cells. Some of those cells areplanets.Meta-universeM= {p1,p2, ...,pk}is a set of planets. Suppose there is an infinite row or column with following two properties: 1) it doesn't contain any planetpiof meta-universeMon it; 2) there are planets ofMlocated on both sides from this row or column. In this case we can turn the meta-universeMinto two non-empty meta-universesM1andM2containing planets that are located on respective sides of this row or column.A meta-universe which can't be split using operation above is called auniverse. We perform such operations until all meta-universes turn to universes.Given positions of the planets in the original meta-universe, find the number of universes that are result of described process. It can be proved that each universe is uniquely identified not depending from order of splitting.InputThe first line of input contains an integern, (1 ≤n≤ 105), denoting the number of planets in the meta-universe.The nextnlines each contain integersxiandyi, (- 109≤xi,yi≤ 109), denoting the coordinates of thei-th planet. All planets are located in different cells.OutputPrint the number of resulting universes.ExamplesInput50 00 22 02 12 2Output3Input80 01 00 20 33 03 12 33 3Output1NoteThe following figure describes the first test case:",
+    "source": "CF",
+    "vjudge": false
+}

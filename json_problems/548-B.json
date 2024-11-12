@@ -1,0 +1,14 @@
+{
+    "uid": "548-B",
+    "url": "https://codeforces.com/contest/548/problem/B",
+    "tags": [
+        "brute force",
+        " dp",
+        " greedy",
+        " implementation"
+    ],
+    "title": "548-B",
+    "statement": "B. Mike and Funtime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputMike and some bears are playing a game just for fun. Mike is the judge. All bears except Mike are standing in ann×mgrid, there's exactly one bear in each cell. We denote the bear standing in column numberjof row numberiby(i,j). Mike's hands are on his ears (since he's the judge) and each bear standing in the grid has hands either on his mouth or his eyes.They play forqrounds. In each round, Mike chooses a bear(i,j)and tells him to change his state i. e. if his hands are on his mouth, then he'll put his hands on his eyes or he'll put his hands on his mouth otherwise. After that, Mike wants to know the score of the bears.Score of the bears is the maximum over all rows of number of consecutive bears with hands on their eyes in that row.Since bears are lazy, Mike asked you for help. For each round, tell him the score of these bears after changing the state of a bear selected in that round.InputThe first line of input contains three integersn,mandq(1 ≤n,m≤ 500and1 ≤q≤ 5000).The nextnlines contain the grid description. There aremintegers separated by spaces in each line. Each of these numbers is either0(for mouth) or1(for eyes).The nextqlines contain the information about the rounds. Each of them contains two integersiandj(1 ≤i≤nand1 ≤j≤m), the row number and the column number of the bear changing his state.OutputAfter each round, print the current score of the bears.ExamplesInput5 4 50 1 1 01 0 0 10 1 1 01 0 0 10 0 0 01 11 41 14 24 3Output34334",
+    "source": "CF",
+    "vjudge": false
+}

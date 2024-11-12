@@ -1,0 +1,14 @@
+{
+    "uid": "755-A",
+    "url": "https://codeforces.com/contest/755/problem/A",
+    "tags": [
+        "brute force",
+        " graphs",
+        " math",
+        " number theory"
+    ],
+    "title": "755-A",
+    "statement": "A. PolandBall and Hypothesistime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputPolandBall is a young, clever Ball. He is interested in prime numbers. He has stated a following hypothesis: \"There exists such a positive integernthat for each positive integermnumbern·m+ 1is a prime number\".Unfortunately, PolandBall is not experienced yet and doesn't know that his hypothesis is incorrect. Could you prove it wrong? Write a program that finds a counterexample for anyn.InputThe only number in the input isn(1 ≤n≤ 1000) — number from the PolandBall's hypothesis.OutputOutput suchmthatn·m+ 1is not a prime number. Your answer will be considered correct if you output any suitablemsuch that1 ≤m≤ 103. It is guaranteed the the answer exists.ExamplesInput3Output1Input4Output2NoteA prime number (or a prime) is a natural number greater than1that has no positive divisors other than1and itself.For the first sample testcase,3·1 + 1 = 4. We can output1.In the second sample testcase,4·1 + 1 = 5. We cannot output1because5is prime. However,m= 2is okay since4·2 + 1 = 9, which is not a prime number.",
+    "source": "CF",
+    "vjudge": false
+}

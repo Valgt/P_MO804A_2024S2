@@ -1,0 +1,15 @@
+{
+    "uid": "638-C",
+    "url": "https://codeforces.com/contest/638/problem/C",
+    "tags": [
+        "*special",
+        " dfs and similar",
+        " graphs",
+        " greedy",
+        " trees"
+    ],
+    "title": "638-C",
+    "statement": "C. Road Improvementtime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputIn Berland there arencities andn- 1bidirectional roads. Each road connects some pair of cities, from any city you can get to any other one using only the given roads.In each city there is exactly one repair brigade. To repair some road, you need two teams based in the cities connected by the road to work simultaneously for one day. Both brigades repair one road for the whole day and cannot take part in repairing other roads on that day. But the repair brigade can do nothing on that day.Determine the minimum number of days needed to repair all the roads. The brigades cannot change the cities where they initially are.InputThe first line of the input contains a positive integern(2 ≤n≤ 200 000) — the number of cities in Berland.Each of the nextn- 1lines contains two numbersui,vi, meaning that thei-th road connects cityuiand cityvi(1 ≤ui,vi≤n,ui≠vi).OutputFirst print numberk— the minimum number of days needed to repair all the roads in Berland.In nextklines print the description of the roads that should be repaired on each of thekdays. On thei-th line print first numberdi— the number of roads that should be repaired on thei-th day, and thendispace-separated integers — the numbers of the roads that should be repaired on thei-th day. The roads are numbered according to the order in the input, starting from one.If there are multiple variants, you can print any of them.ExamplesInput41 23 43 2Output22 2 11 3Input63 45 43 21 34 6Output31 12 2 32 4 5NoteIn the first sample you can repair all the roads in two days, for example, if you repair roads1and2on the first day and road3— on the second day.",
+    "source": "CF",
+    "vjudge": false
+}

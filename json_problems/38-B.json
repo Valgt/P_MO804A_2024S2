@@ -1,0 +1,13 @@
+{
+    "uid": "38-B",
+    "url": "https://codeforces.com/contest/38/problem/B",
+    "tags": [
+        "brute force",
+        " implementation",
+        " math"
+    ],
+    "title": "38-B",
+    "statement": "B. Chesstime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutTwo chess pieces, a rook and a knight, stand on a standard chessboard8 × 8in size. The positions in which they are situated are known. It is guaranteed that none of them beats the other one.Your task is to find the number of ways to place another knight on the board so that none of the three pieces on the board beat another one. A new piece can only be placed on an empty square.InputThe first input line contains the description of the rook's position on the board. This description is a line which is 2 in length. Its first symbol is a lower-case Latin letter fromatoh, and its second symbol is a number from 1 to 8. The second line contains the description of the knight's position in a similar way. It is guaranteed that their positions do not coincide.OutputPrint a single number which is the required number of ways.ExamplesInputa1b2Output44Inputa8d4Output38",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,12 @@
+{
+    "uid": "453-D",
+    "url": "https://codeforces.com/contest/453/problem/D",
+    "tags": [
+        "dp",
+        " matrices"
+    ],
+    "title": "453-D",
+    "statement": "D. Little Pony and Elements of Harmonytime limit per test6 secondsmemory limit per test256 megabytesinputstdinoutputstdoutThe Elements of Harmony are six supernatural artifacts representing subjective aspects of harmony. They are arguably the most powerful force in Equestria. The inside of Elements of Harmony can be seen as a complete graph withnvertices labeled from 0 ton- 1, wherenis a power of two, equal to2m.The energy in Elements of Harmony is in constant movement. According to the ancient book, the energy of vertexuin timei(ei[u])equals to:Hereb[]is the transformation coefficient — an array ofm+ 1integers andf(u,v)is the number of ones in the binary representation of number(uxorv).Given the transformation coefficient and the energy distribution at time 0(e0[]). Help Twilight Sparkle predict the energy distribution at timet(et[]). The answer can be quite large, so output it modulop.InputThe first line contains three integersm,tandp(1 ≤m≤ 20; 0 ≤t≤ 1018; 2 ≤p≤ 109). The following line containsn(n= 2m) integerse0[i](1 ≤e0[i] ≤ 109; 0 ≤i<n). The next line containsm+ 1integersb[i](0 ≤b[i] ≤ 109; 0 ≤i≤m).OutputOutputnlines, thei-th line must contain a single integeret[i]modulop.ExamplesInput2 2 100004 1 2 30 1 0Output146614",
+    "source": "CF",
+    "vjudge": false
+}

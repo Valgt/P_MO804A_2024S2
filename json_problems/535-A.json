@@ -1,0 +1,12 @@
+{
+    "uid": "535-A",
+    "url": "https://codeforces.com/contest/535/problem/A",
+    "tags": [
+        "brute force",
+        " implementation"
+    ],
+    "title": "535-A",
+    "statement": "A. Tavas and Nafastime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputToday Tavas got his test result as an integer score and he wants to share it with his girlfriend, Nafas.His phone operating system is Tavdroid, and its keyboard doesn't have any digits! He wants to share his score with Nafas via text, so he has no choice but to send this number using words.He ate coffee mix without water again, so right now he's really messed up and can't think.Your task is to help him by telling him what to type.InputThe first and only line of input contains an integers(0 ≤s≤ 99), Tavas's score.OutputIn the first and only line of output, print a single string consisting only from English lowercase letters and hyphens ('-'). Do not use spaces.ExamplesInput6OutputsixInput99Outputninety-nineInput20OutputtwentyNoteYou can find all you need to know about English numerals inhttp://en.wikipedia.org/wiki/English_numerals.",
+    "source": "CF",
+    "vjudge": false
+}

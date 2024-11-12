@@ -1,0 +1,12 @@
+{
+    "uid": "57-D",
+    "url": "https://codeforces.com/contest/57/problem/D",
+    "tags": [
+        "dp",
+        " math"
+    ],
+    "title": "57-D",
+    "statement": "D. Journeytime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutStewie the Rabbit explores a new parallel universe. This two dimensional universe has the shape of a rectangular grid, containingnlines andmcolumns. The universe is very small: one cell of the grid can only contain one particle. Each particle in this universe is either static or dynamic. Each static particle always remains in one and the same position. Due to unintelligible gravitation laws no two static particles in the parallel universe can be present in one column or row, and they also can't be present in the diagonallyadjacentcells. A dynamic particle appears in a random empty cell, randomly chooses the destination cell (destination cell may coincide with the start cell, see the samples) and moves there along the shortest path through the cells, unoccupied by the static particles. All empty cells have the same probability of being selected as the beginning or end of the path. Having reached the destination cell, the particle disappears. Only one dynamic particle can exist at one moment of time. This particle can move from a cell to a cell if they have an adjacent side, and this transition takes exactly one galactic second. Stewie got interested in what is the average lifespan of one particle in the given universe.InputThe first line contains two space-separated integers:n,m(2 ≤n,m≤ 1000) which represent the sizes of the universe. The nextnlines containingmsymbols each describe the universe without dynamic particles — thej-th symbol of thei-th line equals to'X'if the cell is occupied by a static particle, and to'.'if it is empty. It is guaranteed that the described universe satisfies the properties described above, that is no two static particles can be in one column or in one row, besides, they can't be positioned in the diagonally adjacent cells.OutputYou have to print on a single line a single number which is the average life span of a particle with an accuracy of at least 6 decimal places.The answer will be accepted if it is within10- 6of absolute or relative error from the correct answer.ExamplesInput2 2...XOutput0.888888888889Input3 3....X....Output2.000000000000",
+    "source": "CF",
+    "vjudge": false
+}

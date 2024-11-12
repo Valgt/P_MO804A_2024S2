@@ -1,0 +1,11 @@
+{
+    "uid": "803-G",
+    "url": "https://codeforces.com/contest/803/problem/G",
+    "tags": [
+        "data structures"
+    ],
+    "title": "803-G",
+    "statement": "G. Periodic RMQ Problemtime limit per test4 secondsmemory limit per test512 megabytesinputstandard inputoutputstandard outputYou are given an arrayaconsisting of positive integers andqqueries to this array. There are two types of queries:1lrx— for each indexisuch thatl≤i≤rsetai=x.2lr— find the minimum among suchaithatl≤i≤r.We decided that this problem is too easy. So the arrayais given in a compressed form: there is an arraybconsisting ofnelements and a numberkin the input, and before all queriesais equal to the concatenation ofkarraysb(so the size ofaisn·k).InputThe first line contains two integersnandk(1 ≤n≤ 105,1 ≤k≤ 104).The second line containsnintegers — elements of the arrayb(1 ≤bi≤ 109).The third line contains one integerq(1 ≤q≤ 105).Thenqlines follow, each representing a query. Each query is given either as1lrx— set all elements in the segment fromltillr(including borders) tox(1 ≤l≤r≤n·k,1 ≤x≤ 109) or as2lr— find the minimum among all elements in the segment fromltillr(1 ≤l≤r≤n·k).OutputFor each query of type2print the answer to this query — the minimum on the corresponding segment.ExamplesInput3 11 2 332 1 31 1 2 42 1 3Output13Input3 21 2 352 4 41 4 4 52 4 41 1 6 12 6 6Output151",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,13 @@
+{
+    "uid": "1575-D",
+    "url": "https://codeforces.com/contest/1575/problem/D",
+    "tags": [
+        "brute force",
+        " dfs and similar",
+        " dp"
+    ],
+    "title": "1575-D",
+    "statement": "D. Divisible by Twenty-Fivetime limit per test2 secondsmemory limit per test512 megabytesinputstandard inputoutputstandard outputMr. Chanek has an integer represented by a string $$$s$$$. Zero or more digits have been erased and are denoted by the character_. There are also zero or more digits marked by the characterX, meaning they're the same digit.Mr. Chanek wants to count the number of possible integer $$$s$$$, where $$$s$$$ is divisible by $$$25$$$. Of course, $$$s$$$ must not contain any leading zero. He can replace the character_with any digit. He can also replace the characterXwith any digit, but it must be the same for every characterX.As a note, a leading zero is any0digit that comes before the first nonzero digit in a number string in positional notation. For example,0025has two leading zeroes. An exception is the integer zero, (0has no leading zero, but0000has three leading zeroes).InputOne line containing the string $$$s$$$ ($$$1 \\\\leq |s| \\\\leq 8$$$). The string $$$s$$$ consists of the characters0,1,2,3,4,5,6,7,8,9,_, andX.OutputOutput an integer denoting the number of possible integer $$$s$$$.ExamplesInput25Output1Input_00Output9Input_XXOutput9Input0Output1Input0_25Output0NoteIn the first example, the only possible $$$s$$$ is $$$25$$$.In the second and third example, $$$s \\\\in \\\\{100, 200,300,400,500,600,700,800,900\\\\}$$$.In the fifth example, all possible $$$s$$$ will have at least one leading zero.",
+    "source": "CF",
+    "vjudge": false
+}

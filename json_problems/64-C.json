@@ -1,0 +1,14 @@
+{
+    "uid": "64-C",
+    "url": "https://codeforces.com/contest/64/problem/C",
+    "tags": [
+        "*special",
+        " greedy",
+        " implementation",
+        " math"
+    ],
+    "title": "64-C",
+    "statement": "C. Tabletime limit per test2 secondsmemory limit per test64 megabytesinputstdinoutputstdoutThe integer numbers from1tonmwas put into rectangular table havingnrows andmcolumns. The numbers was put from left to right, from top to bottom, i.e. the first row contains integers1, 2, ...,m, the second —m+ 1,m+ 2, ..., 2 *mand so on.After it these numbers was written on the paper in another order: from top to bottom, from left to right. First, the numbers in the first column was written (from top to bottom) and so on.Print thek-th number on the paper.InputThe only line in the input contains three integer numbersn,mandk(1 ≤n,m≤ 20000,1 ≤k≤nm).OutputPrint the required number.ExamplesInput3 4 11Output8Input20000 10000 200000000Output200000000",
+    "source": "CF",
+    "vjudge": false
+}

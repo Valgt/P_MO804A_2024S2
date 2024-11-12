@@ -1,0 +1,13 @@
+{
+    "uid": "901-D",
+    "url": "https://codeforces.com/contest/901/problem/D",
+    "tags": [
+        "constructive algorithms",
+        " dfs and similar",
+        " graphs"
+    ],
+    "title": "901-D",
+    "statement": "D. Weighting a Treetime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given a connected undirected graph withnvertices andmedges. The vertices are enumerated from1ton.You are givennintegersc1,c2, ...,cn, each of them is between-nandn, inclusive. It is also guaranteed that the parity ofcvequals the parity of degree of vertexv. The degree of a vertex is the number of edges connected to it.You are to write a weight between- 2·n2and2·n2(inclusive) on each edge in such a way, that for each vertexvthe sum of weights on edges connected to this vertex is equal tocv, or determine that this is impossible.InputThe first line contains two integersnandm(2 ≤n≤ 105,n- 1 ≤m≤ 105) — the number of vertices and the number of edges.The next line containsnintegersc1,c2, ...,cn(-n≤ci≤n), whereciis the required sum of weights of edges connected to vertexi. It is guaranteed that the parity ofciequals the parity of degree of vertexi.The nextmlines describe edges of the graph. Thei-th of these lines contains two integersaiandbi(1 ≤ai,bi≤n;ai≠bi), meaning that thei-th edge connects verticesaiandbi.It is guaranteed that the given graph is connected and does not contain loops and multiple edges.OutputIf there is no solution, print \"NO\".Otherwise print \"YES\" and thenmlines, thei-th of them is the weight of thei-th edgewi(- 2·n2≤wi≤ 2·n2).ExamplesInput3 32 2 21 22 31 3OutputYES111Input4 3-1 0 2 11 22 33 4OutputYES-111Input6 63 5 5 5 1 51 43 24 34 53 55 6OutputYES353-1-35Input4 44 4 2 41 22 33 44 1OutputNO",
+    "source": "CF",
+    "vjudge": false
+}

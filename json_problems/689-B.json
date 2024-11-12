@@ -1,0 +1,14 @@
+{
+    "uid": "689-B",
+    "url": "https://codeforces.com/contest/689/problem/B",
+    "tags": [
+        "dfs and similar",
+        " graphs",
+        " greedy",
+        " shortest paths"
+    ],
+    "title": "689-B",
+    "statement": "B. Mike and Shortcutstime limit per test3 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputRecently, Mike was very busy with studying for exams and contests. Now he is going to chill a bit by doing some sight seeing in the city.City consists ofnintersections numbered from1ton. Mike starts walking from his house located at the intersection number1and goes along some sequence of intersections. Walking from intersection numberito intersectionjrequires|i-j|units of energy. Thetotal energyspent by Mike to visit a sequence of intersectionsp1= 1,p2, ...,pkis equal tounits of energy.Of course, walking would be boring if there were no shortcuts. Ashortcutis a special path that allows Mike walking from one intersection to another requiring only1unit of energy. There are exactlynshortcuts in Mike's city, theithof them allows walking from intersectionito intersectionai(i≤ai≤ai+ 1) (but not in the opposite direction), thus there is exactly one shortcut starting at each intersection. Formally, if Mike chooses a sequencep1= 1,p2, ...,pkthen for each1 ≤i<ksatisfyingpi+ 1=apiandapi≠piMike will spendonly1unit of energyinstead of|pi-pi+ 1|walking from the intersectionpito intersectionpi+ 1. For example, if Mike chooses a sequencep1= 1,p2=ap1,p3=ap2, ...,pk=apk- 1, he spends exactlyk- 1units of total energy walking around them.Before going on his adventure, Mike asks you to find the minimum amount of energy required to reach each of the intersections from his home. Formally, for each1 ≤i≤nMike is interested in finding minimum possible total energy of some sequencep1= 1,p2, ...,pk=i.InputThe first line contains an integern(1 ≤n≤ 200 000)— the number of Mike's city intersection.The second line containsnintegersa1,a2, ...,an(i≤ai≤n,, describing shortcuts of Mike's city, allowing to walk from intersectionito intersectionaiusing only1unit of energy. Please note that the shortcuts don't allow walking in opposite directions (fromaitoi).OutputIn the only line printnintegersm1,m2, ...,mn, wheremidenotes the least amount of total energy required to walk from intersection1to intersectioni.ExamplesInput32 2 3Output0 1 2Input51 2 3 4 5Output0 1 2 3 4Input74 4 4 4 7 7 7Output0 1 2 1 2 3 3NoteIn the first sample case desired sequences are:1: 1;m1= 0;2: 1, 2;m2= 1;3: 1, 3;m3= |3 - 1| = 2.In the second sample case the sequence for any intersection1 <iis always1,iandmi= |1 -i|.In the third sample case — consider the following intersection sequences:1: 1;m1= 0;2: 1, 2;m2= |2 - 1| = 1;3: 1, 4, 3;m3= 1 + |4 - 3| = 2;4: 1, 4;m4= 1;5: 1, 4, 5;m5= 1 + |4 - 5| = 2;6: 1, 4, 6;m6= 1 + |4 - 6| = 3;7: 1, 4, 5, 7;m7= 1 + |4 - 5| + 1 = 3.",
+    "source": "CF",
+    "vjudge": false
+}

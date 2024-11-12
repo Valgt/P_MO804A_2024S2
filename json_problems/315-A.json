@@ -1,0 +1,11 @@
+{
+    "uid": "315-A",
+    "url": "https://codeforces.com/contest/315/problem/A",
+    "tags": [
+        "brute force"
+    ],
+    "title": "315-A",
+    "statement": "A. Sereja and Bottlestime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutSereja and his friends went to a picnic. The guys hadnsoda bottles just for it. Sereja forgot the bottle opener as usual, so the guys had to come up with another way to open bottles.Sereja knows that thei-th bottle is from brandai, besides, you can use it to openotherbottles of brandbi. You can use one bottle to open multiple other bottles. Sereja can open bottle with opened bottle or closed bottle.Knowing this, Sereja wants to find out the number of bottles they've got that they won't be able to open in any way. Help him and find this number.InputThe first line contains integern(1 ≤n≤ 100)— the number of bottles. The nextnlines contain the bottles' description. Thei-th line contains two integersai,bi(1 ≤ai,bi≤ 1000)— the description of thei-th bottle.OutputIn a single line print a single integer — the answer to the problem.ExamplesInput41 12 23 34 4Output4Input41 22 33 44 1Output0",
+    "source": "CF",
+    "vjudge": false
+}

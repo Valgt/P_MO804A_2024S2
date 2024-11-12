@@ -1,0 +1,12 @@
+{
+    "uid": "279-D",
+    "url": "https://codeforces.com/contest/279/problem/D",
+    "tags": [
+        "bitmasks",
+        " dp"
+    ],
+    "title": "279-D",
+    "statement": "D. The Minimum Number of Variablestime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutYou've got a positive integer sequencea1,a2, ...,an. All numbers in the sequence are distinct. Let's fix the set of variablesb1,b2, ...,bm. Initially each variablebi(1 ≤i≤m)contains the value of zero. Consider the following sequence, consisting ofnoperations.The first operation is assigning the value ofa1to some variablebx(1 ≤x≤m). Each of the followingn- 1operations is assigning to some variablebythe value that is equal to the sum of values that are stored in the variablesbiandbj(1 ≤i,j,y≤m). At that, the value that is assigned on thet-th operation, must equalat. For each operation numbersy,i,jare chosen anew.Your task is to find the minimum number of variablesm, such that those variables can help you perform the described sequence of operations.InputThe first line contains integern(1 ≤n≤ 23). The second line containsnspace-separated integersa1,a2, ...,an(1 ≤ak≤ 109).It is guaranteed that all numbers in the sequence are distinct.OutputIn a single line print a single number — the minimum number of variablesm, such that those variables can help you perform the described sequence of operations.If you cannot perform the sequence of operations at anym, print-1.ExamplesInput51 2 3 6 8Output2Input33 6 5Output-1Input62 4 8 6 10 18Output3NoteIn the first sample, you can use two variablesb1andb2to perform the following sequence of operations.b1:=1;b2:=b1+b1;b1:=b1+b2;b1:=b1+b1;b1:=b1+b2.",
+    "source": "CF",
+    "vjudge": false
+}

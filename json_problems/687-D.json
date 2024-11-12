@@ -1,0 +1,15 @@
+{
+    "uid": "687-D",
+    "url": "https://codeforces.com/contest/687/problem/D",
+    "tags": [
+        "brute force",
+        " data structures",
+        " dsu",
+        " graphs",
+        " sortings"
+    ],
+    "title": "687-D",
+    "statement": "D. Dividing Kingdom IItime limit per test6 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputLong time ago, there was a great kingdom and it was being ruled by The Great Arya and Pari The Great. These two had some problems about the numbers they like, so they decided to divide the great kingdom between themselves.The great kingdom consisted ofncities numbered from1tonandmbidirectional roads between these cities, numbered from1tom. Thei-th road had length equal towi. The Great Arya and Pari The Great were discussing about destructing some prefix (all road with numbers less than somex) and suffix (all roads with numbers greater than somex) of the roads so there will remain only the roads with numbersl,l+ 1, ...,r- 1andr.After that they will divide the great kingdom into two pieces (with each city belonging to exactly one piece) such that thehardnessof the division isminimized. The hardness of a division is themaximum lengthof a road such that its both endpoints are in the same piece of the kingdom. In case there is no such road, the hardness of the division is considered to be equal to- 1.Historians found the map of the great kingdom, and they haveqguesses about thelandrchosen by those great rulers. Given these data, for each guessliandriprint the minimum possible hardness of the division of the kingdom.InputThe first line of the input contains three integersn,mandq(1 ≤n,q≤ 1000,) — the number of cities and roads in the great kingdom, and the number of guesses, respectively.Thei-th line of the followingmlines contains three integersui,viandwi(1  ≤ui,vi≤n, 0 ≤wi≤ 109), denoting the road numbericonnects citiesuiandviand its length is equalwi. It's guaranteed that no road connects the city to itself and no pair of cities is connected by more than one road.Each of the nextqlines contains a pair of integersliandri(1  ≤li≤ri≤m) — a guess from the historians about the remaining roads in the kingdom.OutputFor each guess print the minimum possible hardness of the division in described scenario.ExampleInput5 6 55 4 865 1 01 3 382 1 332 4 282 3 403 52 61 32 31 6Output-133-1-133",
+    "source": "CF",
+    "vjudge": false
+}

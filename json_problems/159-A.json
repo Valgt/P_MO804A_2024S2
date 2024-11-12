@@ -1,0 +1,13 @@
+{
+    "uid": "159-A",
+    "url": "https://codeforces.com/contest/159/problem/A",
+    "tags": [
+        "*special",
+        " greedy",
+        " implementation"
+    ],
+    "title": "159-A",
+    "statement": "A. Friends or Nottime limit per test3 secondsmemory limit per test256 megabytesinputstdinoutputstdoutPolycarpus has a hobby — he develops an unusual social network. His work is almost completed, and there is only one more module to implement — the module which determines friends. Oh yes, in this social network one won't have to add friends manually! Pairs of friends are deduced in the following way. Let's assume that userAsent userBa message at timet1, and userBsent userAa message at timet2. If0 <t2-t1≤d, then userB's message wasan answerto userA's one. UsersAandBare considered to be friends ifAanswered at least oneB's message orBanswered at least oneA's message.You are given the log of messages in chronological order and a numberd. Find all pairs of users who will be considered to be friends.InputThe first line of the input contains two integersnandd(1 ≤n,d≤ 1000). The nextnlines contain the messages log. Thei-th line contains one line of the log formatted as \"AiBiti\" (without the quotes), which means that userAisent a message to userBiat timeti(1 ≤i≤n).AiandBiare non-empty strings at most20characters long, consisting of lowercase letters ('a' ... 'z'), andtiis an integer (0 ≤ti≤ 10000). It is guaranteed that the lines are given in non-decreasing order ofti's and that no user sent a message to himself. The elements in the lines are separated by single spaces.OutputIn the first line print integerk— the number of pairs of friends. In the nextklines print pairs of friends as \"AiBi\" (without the quotes). You can print users in pairs and the pairs themselves in any order. Each pair must be printed exactly once.ExamplesInput4 1vasya petya 1petya vasya 2anya ivan 2ivan anya 4Output1petya vasyaInput1 1000a b 0Output0NoteIn the first sample test case Vasya and Petya are friends because their messages' sending times are one second apart. Anya and Ivan are not, because their messages' sending times differ by more than one second.",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,14 @@
+{
+    "uid": "650-B",
+    "url": "https://codeforces.com/contest/650/problem/B",
+    "tags": [
+        "binary search",
+        " brute force",
+        " dp",
+        " two pointers"
+    ],
+    "title": "650-B",
+    "statement": "B. Image Previewtime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputVasya's telephone containsnphotos. Photo number 1 is currently opened on the phone. It is allowed to move left and right to the adjacent photo by swiping finger over the screen. If you swipe left from the first photo, you reach photon. Similarly, by swiping right from the last photo you reach photo1. It takesaseconds to swipe from photo to adjacent.For each photo it is known which orientation is intended for it — horizontal or vertical. Phone is in the vertical orientation andcan'tbe rotated. It takesbsecond to change orientation of the photo.Vasya hasTseconds to watch photos. He want to watch as many photos as possible. If Vasya opens the photo for the first time, he spends1second to notice all details in it. If photo is in the wrong orientation, he spendsbseconds on rotating it before watching it. If Vasya has already opened the photo, he just skips it (so he doesn't spend any time for watching it or for changing its orientation). It is not allowed to skip unseen photos.Help Vasya find the maximum number of photos he is able to watch duringTseconds.InputThe first line of the input contains 4 integersn,a,b,T(1 ≤n≤ 5·105,1 ≤a,b≤ 1000,1 ≤T≤ 109) — the number of photos, time to move from a photo to adjacent, time to change orientation of a photo and time Vasya can spend for watching photo.Second line of the input contains a string of lengthncontaining symbols 'w' and 'h'.If thei-th position of a string contains 'w', then the photoishould be seen in thehorizontalorientation.If thei-th position of a string contains 'h', then the photoishould be seen inverticalorientation.OutputOutput the only integer, the maximum number of photos Vasya is able to watch during thoseTseconds.ExamplesInput4 2 3 10wwhwOutput2Input5 2 4 13hhwhhOutput4Input5 2 4 1000hhwhhOutput5Input3 1 100 10whwOutput0NoteIn the first sample test you can rotate the first photo (3 seconds), watch the first photo (1 seconds), move left (2 second), rotate fourth photo (3 seconds), watch fourth photo (1 second). The whole process takes exactly 10 seconds.Note that in the last sample test the time is not enough even to watch the first photo, also you can't skip it.",
+    "source": "CF",
+    "vjudge": false
+}

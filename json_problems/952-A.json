@@ -1,0 +1,11 @@
+{
+    "uid": "952-A",
+    "url": "https://codeforces.com/contest/952/problem/A",
+    "tags": [
+        "math"
+    ],
+    "title": "952-A",
+    "statement": "A. Quirky Quantifierstime limit per test2 secondsmemory limit per test64 megabytesinputstandard inputoutputstandard outputInputThe input contains a single integera(10 ≤a≤ 999).OutputOutput 0 or 1.ExamplesInput13Output1Input927Output1Input48Output0",
+    "source": "CF",
+    "vjudge": false
+}

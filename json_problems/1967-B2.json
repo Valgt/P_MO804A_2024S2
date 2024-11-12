@@ -1,0 +1,13 @@
+{
+    "uid": "1967-B2",
+    "url": "https://codeforces.com/contest/1967/problem/B2",
+    "tags": [
+        "brute force",
+        " math",
+        " number theory"
+    ],
+    "title": "1967-B2",
+    "statement": "B2. Reverse Card (Hard Version)time limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputThe two versions are different problems. You may want to read both versions. You can make hacks only if both versions are solved.You are given two positive integers $$$n$$$, $$$m$$$.Calculate the number of ordered pairs $$$(a, b)$$$ satisfying the following conditions:$$$1\\\\le a\\\\le n$$$, $$$1\\\\le b\\\\le m$$$;$$$b \\\\cdot \\\\gcd(a,b)$$$ is a multiple of $$$a+b$$$.InputEach test contains multiple test cases. The first line contains the number of test cases $$$t$$$ ($$$1\\\\le t\\\\le 10^4$$$). The description of the test cases follows.The first line of each test case contains two integers $$$n$$$, $$$m$$$ ($$$1\\\\le n,m\\\\le 2 \\\\cdot 10^6$$$).It is guaranteed that neither the sum of $$$n$$$ nor the sum of $$$m$$$ over all test cases exceeds $$$2 \\\\cdot 10^6$$$.OutputFor each test case, print a single integer: the number of valid pairs.ExampleInput61 12 33 510 8100 12331000000 1145141Output0 1 1 6 423 5933961NoteIn the first test case, no pair satisfies the conditions.In the fourth test case, $$$(2,2),(3,6),(4,4),(6,3),(6,6),(8,8)$$$ satisfy the conditions.",
+    "source": "CF",
+    "vjudge": false
+}

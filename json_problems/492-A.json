@@ -1,0 +1,11 @@
+{
+    "uid": "492-A",
+    "url": "https://codeforces.com/contest/492/problem/A",
+    "tags": [
+        "implementation"
+    ],
+    "title": "492-A",
+    "statement": "A. Vanya and Cubestime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutVanya gotncubes. He decided to build a pyramid from them. Vanya wants to build the pyramid as follows: the top level of the pyramid must consist of1cube, the second level must consist of1 + 2 = 3cubes, the third level must have1 + 2 + 3 = 6cubes, and so on. Thus, thei-th level of the pyramid must have1 + 2 + ... + (i- 1) +icubes.Vanya wants to know what is the maximum height of the pyramid that he can make using the given cubes.InputThe first line contains integern(1 ≤n≤ 104) — the number of cubes given to Vanya.OutputPrint the maximum possible height of the pyramid in the single line.ExamplesInput1Output1Input25Output4NoteIllustration to the second sample:",
+    "source": "CF",
+    "vjudge": false
+}

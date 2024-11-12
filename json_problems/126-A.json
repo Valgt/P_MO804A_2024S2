@@ -1,0 +1,13 @@
+{
+    "uid": "126-A",
+    "url": "https://codeforces.com/contest/126/problem/A",
+    "tags": [
+        "binary search",
+        " brute force",
+        " math"
+    ],
+    "title": "126-A",
+    "statement": "A. Hot Bathtime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutBob is about to take a hot bath.There are two taps to fill the bath: a hot water tap and a cold water tap. The cold water's temperature ist1, and the hot water's temperature ist2. The cold water tap can transmit any integer number of water units per second from0tox1, inclusive. Similarly, the hot water tap can transmit from0tox2water units per second.Ify1water units per second flow through the first tap andy2water units per second flow through the second tap, then the resulting bath water temperature will be:Bob wants to open both taps so that the bath water temperature was not less thant0. However, the temperature should be as close as possible to this value. If there are several optimal variants, Bob chooses the one that lets fill the bath in the quickest way possible.Determine how much each tap should be opened so that Bob was pleased with the result in the end.InputYou are given five integerst1,t2,x1,x2andt0(1 ≤t1≤t0≤t2≤ 106,1 ≤x1,x2≤ 106).OutputPrint two space-separated integersy1andy2(0 ≤y1≤x1,0 ≤y2≤x2).ExamplesInput10 70 100 100 25Output99 33Input300 500 1000 1000 300Output1000 0Input143 456 110 117 273Output76 54NoteIn the second sample the hot water tap shouldn't be opened, but the cold water tap should be opened at full capacity in order to fill the bath in the quickest way possible.",
+    "source": "CF",
+    "vjudge": false
+}

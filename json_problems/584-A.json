@@ -1,0 +1,11 @@
+{
+    "uid": "584-A",
+    "url": "https://codeforces.com/contest/584/problem/A",
+    "tags": [
+        "math"
+    ],
+    "title": "584-A",
+    "statement": "A. Olesya and Rodiontime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputOlesya loves numbers consisting ofndigits, and Rodion only likes numbers that are divisible byt. Find some number that satisfies both of them.Your task is: given thenandtprint an integer strictly larger than zero consisting ofndigits that is divisible byt. If such number doesn't exist, print- 1.InputThe single line contains two numbers,nandt(1 ≤n≤ 100,2 ≤t≤ 10) — the length of the number and the number it should be divisible by.OutputPrint one such positive number without leading zeroes, — the answer to the problem, or- 1, if such number doesn't exist. If there are multiple possible answers, you are allowed to print any of them.ExamplesInput3 2Output712",
+    "source": "CF",
+    "vjudge": false
+}

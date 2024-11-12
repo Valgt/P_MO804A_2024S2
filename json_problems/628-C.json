@@ -1,0 +1,12 @@
+{
+    "uid": "628-C",
+    "url": "https://codeforces.com/contest/628/problem/C",
+    "tags": [
+        "greedy",
+        " strings"
+    ],
+    "title": "628-C",
+    "statement": "C. Bear and String Distancetime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputLimak is a little polar bear. He likesnicestrings — strings of lengthn, consisting of lowercase English letters only.The distance between two letters is defined as the difference between their positions in the alphabet. For example,, and.Also, the distance between two nice strings is defined as the sum of distances of corresponding letters. For example,, and.Limak gives you a nice stringsand an integerk. He challenges you to find any nice strings'that. Find anys'satisfying the given conditions, or print \"-1\" if it's impossible to do so.As input/output can reach huge size it is recommended to use fast input/output methods: for example, prefer to usegets/scanf/printfinstead ofgetline/cin/coutin C++, prefer to useBufferedReader/PrintWriterinstead ofScanner/System.outinJava.InputThe first line contains two integersnandk(1 ≤n≤ 105,0 ≤k≤ 106).The second line contains a stringsof lengthn, consisting of lowercase English letters.OutputIf there is no string satisfying the given conditions then print \"-1\" (without the quotes).Otherwise, print any nice strings'that.ExamplesInput4 26bearOutputroarInput2 7afOutputdbInput3 1000heyOutput-1",
+    "source": "CF",
+    "vjudge": false
+}

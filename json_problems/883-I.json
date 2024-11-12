@@ -1,0 +1,12 @@
+{
+    "uid": "883-I",
+    "url": "https://codeforces.com/contest/883/problem/I",
+    "tags": [
+        "binary search",
+        " dp"
+    ],
+    "title": "883-I",
+    "statement": "I. Photo Processingtime limit per test3 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputEvlampiy has found one more cool application to process photos. However the application has certain limitations.Each photoihas a contrastvi. In order for the processing to be truly of high quality, the application must receive at leastkphotos with contrasts which differ as little as possible.Evlampiy already knows the contrastvifor each of hisnphotos. Now he wants to split the photos into groups, so that each group contains at leastkphotos. As a result, each photo must belong to exactly one group.He considers a processing time of thej-th group to be the difference between the maximum and minimum values ofviin the group. Because of multithreading the processing time of a division into groups is the maximum processing time among all groups.Splitnphotos into groups in a such way that the processing time of the division is the minimum possible, i.e. that the the maximum processing time over all groups as least as possible.InputThe first line contains two integersnandk(1 ≤k≤n≤ 3·105) — number of photos and minimum size of a group.The second line containsnintegersv1,v2, ...,vn(1 ≤vi≤ 109), whereviis the contrast of thei-th photo.OutputPrint the minimal processing time of the division into groups.ExamplesInput5 250 110 130 40 120Output20Input4 12 3 4 1Output0NoteIn the first example the photos should be split into 2 groups:[40, 50]and[110, 120, 130]. The processing time of the first group is10, and the processing time of the second group is20. Maximum among10and20is20. It is impossible to split the photos into groups in a such way that the processing time of division is less than20.In the second example the photos should be split into four groups, each containing one photo. So the minimal possible processing time of a division is0.",
+    "source": "CF",
+    "vjudge": false
+}

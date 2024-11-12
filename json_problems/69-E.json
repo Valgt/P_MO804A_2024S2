@@ -1,0 +1,12 @@
+{
+    "uid": "69-E",
+    "url": "https://codeforces.com/contest/69/problem/E",
+    "tags": [
+        "data structures",
+        " implementation"
+    ],
+    "title": "69-E",
+    "statement": "E. Subsegmentstime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutProgrammer Sasha has recently begun to study data structures. His coach Stas told him to solve the problem of finding a minimum on the segment of the array in, which Sasha coped with. For Sasha not to think that he had learned all, Stas gave him a new task. For each segment of the fixed length Sasha must find the maximum element of those that occur on the given segment exactly once. Help Sasha solve this problem.InputThe first line contains two positive integersnandk(1 ≤n≤ 105, 1 ≤k≤n) — the number of array elements and the length of the segment.Then follownlines: thei-th one contains a single numberai(- 109≤ai≤ 109).OutputPrintn–k+ 1numbers, one per line: on thei-th line print of the maximum number of those numbers from the subarrayaiai+ 1…ai+k- 1that occur in this subarray exactly 1 time. If there are no such numbers in this subarray, print \"Nothing\".ExamplesInput5 312233Output132Input6 4333442Output4Nothing3",
+    "source": "CF",
+    "vjudge": false
+}

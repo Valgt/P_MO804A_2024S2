@@ -1,0 +1,14 @@
+{
+    "uid": "895-C",
+    "url": "https://codeforces.com/contest/895/problem/C",
+    "tags": [
+        "bitmasks",
+        " combinatorics",
+        " dp",
+        " math"
+    ],
+    "title": "895-C",
+    "statement": "C. Square Subsetstime limit per test4 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputPetya was late for the lesson too. The teacher gave him an additional task. For some arrayaPetya should find the number of different ways to select non-empty subset of elements from it in such a way that their product is equal to a square of some integer.Two ways are considered different if sets of indexes of elements chosen by these ways are different.Since the answer can be very large, you should find the answer modulo109+ 7.InputFirst line contains one integern(1 ≤n≤ 105) — the number of elements in the array.Second line containsnintegersai(1 ≤ai≤ 70) — the elements of the array.OutputPrint one integer — the number of different ways to choose some elements so that their product is a square of a certain integer modulo109+ 7.ExamplesInput41 1 1 1Output15Input42 2 2 2Output7Input51 2 4 5 8Output7NoteIn first sample product of elements chosen by any way is1and1 = 12. So the answer is24- 1 = 15.In second sample there are six different ways to choose elements so that their product is4, and only one way so that their product is16. So the answer is6 + 1 = 7.",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,12 @@
+{
+    "uid": "228-B",
+    "url": "https://codeforces.com/contest/228/problem/B",
+    "tags": [
+        "brute force",
+        " implementation"
+    ],
+    "title": "228-B",
+    "statement": "B. Two Tablestime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutYou've got two rectangular tables with sizesna×maandnb×mbcells. The tables consist of zeroes and ones. We will consider the rows and columns of both tables indexed starting from 1. Then we will define the element of the first table, located at the intersection of thei-th row and thej-th column, asai,j; we will define the element of the second table, located at the intersection of thei-th row and thej-th column, asbi,j.We will call the pair of integers(x,y)ashiftof the second table relative to the first one. We'll call theoverlap factorof the shift(x,y)value:where the variablesi,jtake only such values, in which the expressionai,j·bi+x,j+ymakes sense. More formally, inequalities1 ≤i≤na, 1 ≤j≤ma, 1 ≤i+x≤nb, 1 ≤j+y≤mbmust hold. If there are no values of variablesi,j, that satisfy the given inequalities, the value of the sum is considered equal to 0.Your task is to find the shift with the maximum overlap factor among all possible shifts.InputThe first line contains two space-separated integersna,ma(1 ≤na,ma≤ 50)— the number of rows and columns in the first table. Thennalines containmacharacters each — the elements of the first table. Each character is either a \"0\", or a \"1\".The next line contains two space-separated integersnb,mb(1 ≤nb,mb≤ 50)— the number of rows and columns in the second table. Then follow the elements of the second table in the format, similar to the first table.It is guaranteed that the first table has at least one number \"1\". It is guaranteed that the second table has at least one number \"1\".OutputPrint two space-separated integersx,y(|x|, |y| ≤ 109)— a shift with maximum overlap factor. If there are multiple solutions, print any of them.ExamplesInput3 20110002 3001111Output0 1Input3 30000100001 11Output-1 -1",
+    "source": "CF",
+    "vjudge": false
+}

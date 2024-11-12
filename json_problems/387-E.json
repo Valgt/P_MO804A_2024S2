@@ -1,0 +1,12 @@
+{
+    "uid": "387-E",
+    "url": "https://codeforces.com/contest/387/problem/E",
+    "tags": [
+        "binary search",
+        " data structures"
+    ],
+    "title": "387-E",
+    "statement": "E. George and Cardstime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutGeorge is a cat, so he loves playing very much.Vitaly putncards in a row in front of George. Each card has one integer written on it. All cards had distinct numbers written on them. Let's number the cards from the left to the right with integers from1ton. Then thei-th card from the left contains numberpi(1 ≤pi≤n).Vitaly wants the row to have exactlykcards left. He also wants thei-th card from left to have numberbiwritten on it. Vitaly gave a task to George, to get the required sequence of cards using the remove operationn-ktimes.In oneremove operationGeorge can choosew(1 ≤w;wis not greater than the current number of cards in the row) contiguous cards (contiguous subsegment of cards). Let's denote the numbers written on these card asx1,x2, ...,xw(from the left to the right). After that, George can remove the cardxi, such thatxi≤xjfor eachj(1 ≤j≤w). After the described operation George getswpieces of sausage.George wondered: what maximum number of pieces of sausage will he get in total if he reaches his goal and acts optimally well? Help George, find an answer to his question!InputThe first line contains integersnandk(1 ≤k≤n≤ 106) — the initial and the final number of cards.The second line containsndistinct space-separated integersp1,p2, ...,pn(1 ≤pi≤n) — the initial row of cards.The third line containskspace-separated integersb1,b2, ...,bk— the row of cards that you need to get. It is guaranteed that it's possible to obtain the given row by using the remove operation forn-ktimes.OutputPrint a single integer — the maximum number of pieces of sausage that George can get if he acts optimally well.ExamplesInput3 22 1 31 3Output1Input10 51 2 3 4 5 6 7 8 9 102 4 6 8 10Output30",
+    "source": "CF",
+    "vjudge": false
+}

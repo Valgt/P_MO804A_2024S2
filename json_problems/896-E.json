@@ -1,0 +1,12 @@
+{
+    "uid": "896-E",
+    "url": "https://codeforces.com/contest/896/problem/E",
+    "tags": [
+        "data structures",
+        " dsu"
+    ],
+    "title": "896-E",
+    "statement": "E. Welcome home, Chthollytime limit per test3 secondsmemory limit per test512 megabytesinputstandard inputoutputstandard output— I... I survived.— Welcome home, Chtholly.— I kept my promise...— I made it... I really made it!After several days of fighting, Chtholly Nota Seniorious miraculously returned from the fierce battle.As promised, Willem is now baking butter cake for her.However, although Willem is skilled in making dessert, he rarely bakes butter cake.This time, Willem made a big mistake — he accidentally broke the oven!Fortunately, Chtholly decided to help him.Willem putsncakes on a roll, cakes are numbered from1ton, thei-th cake needsaiseconds of baking.Willem needs Chtholly to domoperations to bake the cakes.Operation 1:1lrxWillem asks Chtholly to check each cake in the range[l,r], if the cake needs to be baked for more thanxseconds, he would bake it forxseconds and put it back in its place. More precisely, for everyiin range[l,r], ifaiis strictly more thanx,aibecomes equalai-x.Operation 2:2lrxWillem asks Chtholly to count the number of cakes in the range[l,r]that needs to be cooked for exactlyxseconds. More formally you should find number of suchiin range[l,r], thatai=x.InputThe first line contains two integersnandm(1 ≤n,m≤ 105).The second line containsnintegers,i-th of them isai(1 ≤ai≤ 105).The nextmlines are themoperations described above. It is guaranteed that1 ≤l≤r≤nand1 ≤x≤ 105.OutputFor each operation of the second type, print the answer.ExamplesInput5 61 5 5 5 82 2 5 51 2 4 32 2 5 22 2 5 51 3 5 12 1 5 1Output3303Input7 71 9 2 6 8 1 72 1 7 12 2 5 21 4 7 72 2 4 21 3 4 52 3 3 32 3 7 2Output21101Input8 1375 85 88 100 105 120 122 1281 1 8 702 3 8 301 3 8 32 2 5 151 2 4 102 1 5 51 2 7 272 1 5 51 3 7 121 1 7 42 1 8 11 4 8 52 1 8 1Output123456",
+    "source": "CF",
+    "vjudge": false
+}

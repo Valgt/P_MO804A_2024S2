@@ -1,0 +1,14 @@
+{
+    "uid": "938-G",
+    "url": "https://codeforces.com/contest/938/problem/G",
+    "tags": [
+        "bitmasks",
+        " data structures",
+        " dsu",
+        " graphs"
+    ],
+    "title": "938-G",
+    "statement": "G. Shortest Path Queriestime limit per test3.5 secondsmemory limit per test512 megabytesinputstandard inputoutputstandard outputYou are given an undirected connected graph with weighted edges. The length of some path between two vertices is the bitwise xor of weights of all edges belonging to this path (if some edge is traversed more than once, then it is included in bitwise xor the same number of times).There are three types of queries you have to process:1xyd— add an edge connecting vertexxto vertexywith weightd. It is guaranteed that there is no edge connectingxtoybefore this query;2xy— remove an edge connecting vertexxto vertexy. It is guaranteed that there was such edge in the graph, and the graph stays connected after this query;3xy— calculate the length of the shortest path (possibly non-simple) from vertexxto vertexy.Print the answers for all queries of type3.InputThe first line contains two numbersnandm(1 ≤n,m≤ 200000) — the number of vertices and the number of edges in the graph, respectively.Thenmlines follow denoting the edges of the graph. Each line contains three integersx,yandd(1 ≤x<y≤n,0 ≤d≤ 230- 1). Each pair(x,y)is listed at most once. The initial graph is connected.Then one line follows, containing an integerq(1 ≤q≤ 200000) — the number of queries you have to process.Thenqlines follow, denoting queries in the following form:1xyd(1 ≤x<y≤n,0 ≤d≤ 230- 1) — add an edge connecting vertexxto vertexywith weightd. It is guaranteed that there is no edge connectingxtoybefore this query;2xy(1 ≤x<y≤n) — remove an edge connecting vertexxto vertexy. It is guaranteed that there was such edge in the graph, and the graph stays connected after this query;3xy(1 ≤x<y≤n) — calculate the length of the shortest path (possibly non-simple) from vertexxto vertexy.It is guaranteed that at least one query has type3.OutputPrint the answers for all queries of type3in the order they appear in input.ExampleInput5 51 2 32 3 43 4 54 5 61 5 153 1 51 1 3 13 1 52 1 53 1 5Output112",
+    "source": "CF",
+    "vjudge": false
+}

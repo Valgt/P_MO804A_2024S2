@@ -1,0 +1,13 @@
+{
+    "uid": "37-E",
+    "url": "https://codeforces.com/contest/37/problem/E",
+    "tags": [
+        "graphs",
+        " greedy",
+        " shortest paths"
+    ],
+    "title": "37-E",
+    "statement": "E. Trial for Chieftime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutHaving unraveled the Berland Dictionary, the scientists managed to read the notes of the chroniclers of that time. For example, they learned how the chief of the ancient Berland tribe was chosen.As soon as enough pretenders was picked, the following test took place among them: the chief of the tribe took a slab divided by horizontal and vertical stripes into identical squares (the slab consisted ofNlines andMcolumns) and painted every square black or white. Then every pretender was given a slab of the same size but painted entirely white. Within a day a pretender could paint any side-linked set of the squares of the slab some color. The set is called linked if for any two squares belonging to the set there is a path belonging the set on which any two neighboring squares share a side. The aim of each pretender is to paint his slab in the exactly the same way as the chief’s slab is painted. The one who paints a slab like that first becomes the new chief.Scientists found the slab painted by the ancient Berland tribe chief. Help them to determine the minimal amount of days needed to find a new chief if he had to paint his slab in the given way.InputThe first line contains two integersNandM(1 ≤N,M≤ 50) — the number of lines and columns on the slab. The nextNlines containMsymbols each — the final coloration of the slab.Wstands for the square that should be painted white andB— for the square that should be painted black.OutputIn the single line output the minimal number of repaintings of side-linked areas needed to get the required coloration of the slab.ExamplesInput3 3WBWBWBWBWOutput2Input2 3BBBBWBOutput1",
+    "source": "CF",
+    "vjudge": false
+}

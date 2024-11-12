@@ -1,0 +1,11 @@
+{
+    "uid": "278-A",
+    "url": "https://codeforces.com/contest/278/problem/A",
+    "tags": [
+        "implementation"
+    ],
+    "title": "278-A",
+    "statement": "A. Circle Linetime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutThe circle line of the Berland subway hasnstations. We know the distances between all pairs of neighboring stations:d1is the distance between the1-st and the2-nd station;d2is the distance between the2-nd and the3-rd station;...dn- 1is the distance between then- 1-th and then-th station;dnis the distance between then-th and the1-st station.The trains go along the circle line in both directions. Find the shortest distance between stations with numberssandt.InputThe first line contains integern(3 ≤n≤ 100) — the number of stations on the circle line. The second line containsnintegersd1,d2, ...,dn(1 ≤di≤ 100) — the distances between pairs of neighboring stations. The third line contains two integerssandt(1 ≤s,t≤n) — the numbers of stations, between which you need to find the shortest distance. These numbers can be the same.The numbers in the lines are separated by single spaces.OutputPrint a single number — the length of the shortest path between stations numbersandt.ExamplesInput42 3 4 91 3Output5Input45 8 2 1004 1Output15Input31 1 13 1Output1Input331 41 591 1Output0NoteIn the first sample the length of path1 → 2 → 3equals 5, the length of path1 → 4 → 3equals 13.In the second sample the length of path4 → 1is 100, the length of path4 → 3 → 2 → 1is 15.In the third sample the length of path3 → 1is 1, the length of path3 → 2 → 1is 2.In the fourth sample the numbers of stations are the same, so the shortest distance equals 0.",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,11 @@
+{
+    "uid": "137-C",
+    "url": "https://codeforces.com/contest/137/problem/C",
+    "tags": [
+        "sortings"
+    ],
+    "title": "137-C",
+    "statement": "C. Historytime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutPolycarpus likes studying at school a lot and he is always diligent about his homework. Polycarpus has never had any problems with natural sciences as his great-great-grandfather was the great physicist Seinstein. On the other hand though, Polycarpus has never had an easy time with history.Everybody knows that the World history encompasses exactlynevents: thei-th event had continued from the yearaito the yearbiinclusive (ai<bi). Polycarpus easily learned the dates when each ofnevents started and ended (Polycarpus inherited excellent memory from his great-great-granddad). But the teacher gave him a more complicated task: Polycaprus should know when all events began and ended and he should also find out for each event whether it includes another event. Polycarpus' teacher thinks that an eventjincludes an eventiifaj<aiandbi<bj. Your task is simpler: find the number of events that are included in some other event.InputThe first input line contains integern(1 ≤n≤ 105) which represents the number of events. Nextnlines contain descriptions of the historical events, one event per line. Thei+ 1line contains two integersaiandbi(1 ≤ai<bi≤ 109) — the beginning and the end of thei-th event. No two events start or finish in the same year, that is,ai≠aj,ai≠bj,bi≠aj,bi≠bjfor alli,j(wherei≠j). Events are given in arbitrary order.OutputPrint the only integer — the answer to the problem.ExamplesInput51 102 93 84 75 6Output4Input51 1002 5051 9952 9810 60Output4Input11 1000000000Output0NoteIn the first example the fifth event is contained in the fourth. Similarly, the fourth event is contained in the third, the third — in the second and the second — in the first.In the second example all events except the first one are contained in the first.In the third example only one event, so the answer is 0.",
+    "source": "CF",
+    "vjudge": false
+}

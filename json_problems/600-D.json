@@ -1,0 +1,11 @@
+{
+    "uid": "600-D",
+    "url": "https://codeforces.com/contest/600/problem/D",
+    "tags": [
+        "geometry"
+    ],
+    "title": "600-D",
+    "statement": "D. Area of Two Circles' Intersectiontime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given two circles. Find the area of their intersection.InputThe first line contains three integersx1,y1,r1(- 109≤x1,y1≤ 109, 1 ≤r1≤ 109) — the position of the center and the radius of the first circle.The second line contains three integersx2,y2,r2(- 109≤x2,y2≤ 109, 1 ≤r2≤ 109) — the position of the center and the radius of the second circle.OutputPrint the area of the intersection of the circles. The answer will be considered correct if the absolute or relative error doesn't exceed10- 6.ExamplesInput0 0 46 0 4Output7.25298806364175601379Input0 0 511 0 5Output0.00000000000000000000",
+    "source": "CF",
+    "vjudge": false
+}

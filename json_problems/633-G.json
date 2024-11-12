@@ -1,0 +1,15 @@
+{
+    "uid": "633-G",
+    "url": "https://codeforces.com/contest/633/problem/G",
+    "tags": [
+        "bitmasks",
+        " data structures",
+        " dfs and similar",
+        " math",
+        " number theory"
+    ],
+    "title": "633-G",
+    "statement": "G. Yash And Treestime limit per test4 secondsmemory limit per test512 megabytesinputstandard inputoutputstandard outputYash loves playing with trees and gets especially excited when they have something to do with prime numbers. On his 20th birthday he was granted with a rooted tree ofnnodes to answer queries on. Hearing of prime numbers on trees, Yash gets too intoxicated with excitement and asks you to help out and answer queries on trees for him. Tree is rooted at node1. Each nodeihas some valueaiassociated with it. Also, integermis given.There are queries of two types:for given nodevand integer valuex, increase allaiin the subtree of nodevby valuexfor given nodev, find the number of prime numberspless thanm, for which there exists a nodeuin the subtree ofvand a non-negative integer valuek, such thatau=p+m·k.InputThe first of the input contains two integersnandm(1 ≤n≤ 100 000, 1 ≤m≤ 1000) — the number of nodes in the tree and valuemfrom the problem statement, respectively.The second line consists ofnintegersai(0 ≤ai≤ 109) — initial values of the nodes.Then follown- 1lines that describe the tree. Each of them contains two integersuiandvi(1 ≤ui,vi≤n) — indices of nodes connected by thei-th edge.Next line contains a single integerq(1 ≤q≤ 100 000) — the number of queries to proceed.Each of the lastqlines is either1 v xor2 v(1 ≤v≤n, 0 ≤x≤ 109), giving the query of the first or the second type, respectively. It's guaranteed that there will be at least one query of the second type.OutputFor each of the queries of the second type print the number of suitable prime numbers.ExamplesInput8 203 7 9 8 4 11 7 31 21 33 44 54 64 75 842 11 1 12 52 4Output311Input5 108 7 5 1 01 22 31 52 431 1 01 1 22 2Output2",
+    "source": "CF",
+    "vjudge": false
+}

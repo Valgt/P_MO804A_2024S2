@@ -1,0 +1,11 @@
+{
+    "uid": "1001-B",
+    "url": "https://codeforces.com/contest/1001/problem/B",
+    "tags": [
+        "*special"
+    ],
+    "title": "1001-B",
+    "statement": "B. Generate Bell statetime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given two qubits in stateand an integerindex. Your task is to create one of theBell stateson them according to theindex:InputYou have to implement an operation which takes an array of 2 qubits and an integer as an input and has no output. The \"output\" of your solution is the state in which it left the input qubits.Your code should have the following signature:namespace Solution {open Microsoft.Quantum.Primitive;open Microsoft.Quantum.Canon;operation Solve (qs : Qubit[], index : Int) : (){body{// your code here}}}",
+    "source": "CF",
+    "vjudge": false
+}

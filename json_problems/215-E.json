@@ -1,0 +1,13 @@
+{
+    "uid": "215-E",
+    "url": "https://codeforces.com/contest/215/problem/E",
+    "tags": [
+        "combinatorics",
+        " dp",
+        " number theory"
+    ],
+    "title": "215-E",
+    "statement": "E. Periodical Numberstime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutA non-empty stringsis calledbinary, if it consists only of characters \"0\" and \"1\". Let's number the characters of binary stringsfrom 1 to the string's length and let's denote thei-th character in stringsassi.Binary stringswith lengthnisperiodical, if there is an integer1 ≤k<nsuch that:kis a divisor of numbernfor all1 ≤i≤n-k, the following condition fulfills:si=si+kFor example, binary strings \"101010\" and \"11\" are periodical and \"10\" and \"10010\" are not.A positive integerxisperiodical, if its binary representation (without leading zeroes) is a periodic string.Your task is to calculate, how many periodic numbers are in the interval fromltor(both ends are included).InputThe single input line contains two integerslandr(1 ≤l≤r≤ 1018). The numbers are separated by a space.Please, do not use the%lldspecifier to read or write 64-bit integers in С++. It is preferred to use the cin, cout streams or the%I64dspecifier.OutputPrint a single integer, showing how many periodic numbers are in the interval fromltor(both ends are included).ExamplesInput1 10Output3Input25 38Output2NoteIn the first sample periodic numbers are3,7and10.In the second sample periodic numbers are31and36.",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,13 @@
+{
+    "uid": "235-B",
+    "url": "https://codeforces.com/contest/235/problem/B",
+    "tags": [
+        "dp",
+        " math",
+        " probabilities"
+    ],
+    "title": "235-B",
+    "statement": "B. Let's Play Osu!time limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutYou're playing a game called Osu! Here's a simplified version of it. There arenclicks in a game. For each click there are two outcomes: correct or bad. Let us denote correct as \"O\", bad as \"X\", then the whole play can be encoded as a sequence ofncharacters \"O\" and \"X\".Using the play sequence you can calculate the score for the play as follows: for every maximal consecutive \"O\"s block, add the square of its length (the number of characters \"O\") to the score. For example, if your play can be encoded as \"OOXOOOXXOO\", then there's three maximal consecutive \"O\"s block \"OO\", \"OOO\", \"OO\", so your score will be22+ 32+ 22= 17. If there are no correct clicks in a play then the score for the play equals to0.You know that the probability to click thei-th(1 ≤i≤n)click correctly ispi. In other words, thei-th character in the play sequence haspiprobability to be \"O\",1 -pito be \"X\". You task is to calculate the expected score for your play.InputThe first line contains an integern(1 ≤n≤ 105) — the number of clicks. The second line containsnspace-separated real numbersp1,p2, ...,pn(0 ≤pi≤ 1).There will be at most six digits after the decimal point in the givenpi.OutputPrint a single real number — the expected score for your play. Your answer will be considered correct if its absolute or relative error does not exceed10- 6.ExamplesInput30.5 0.5 0.5Output2.750000000000000Input40.7 0.2 0.1 0.9Output2.489200000000000Input51 1 1 1 1Output25.000000000000000NoteFor the first example. There are 8 possible outcomes. Each has a probability of 0.125.\"OOO\"→32= 9;\"OOX\"→22= 4;\"OXO\"→12+ 12= 2;\"OXX\"→12= 1;\"XOO\"→22= 4;\"XOX\"→12= 1;\"XXO\"→12= 1;\"XXX\"→0.So the expected score is",
+    "source": "CF",
+    "vjudge": false
+}

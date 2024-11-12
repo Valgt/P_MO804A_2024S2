@@ -1,0 +1,12 @@
+{
+    "uid": "55-D",
+    "url": "https://codeforces.com/contest/55/problem/D",
+    "tags": [
+        "dp",
+        " number theory"
+    ],
+    "title": "55-D",
+    "statement": "D. Beautiful numberstime limit per test4 secondsmemory limit per test256 megabytesinputstdinoutputstdoutVolodya is an odd boy and his taste is strange as well. It seems to him that a positive integer number isbeautifulif and only if it is divisible by each of its nonzero digits. We will not argue with this and just count the quantity of beautiful numbers in given ranges.InputThe first line of the input contains the number of casest(1 ≤t≤ 10). Each of the nexttlines contains two natural numbersliandri(1 ≤li≤ri≤ 9 ·1018).Please, do not use%lldspecificator to read or write 64-bit integers in C++. It is preffered to usecin(also you may use%I64d).OutputOutput should containtnumbers — answers to the queries, one number per line — quantities of beautiful numbers in given intervals (fromlitori, inclusively).ExamplesInput11 9Output9Input112 15Output2",
+    "source": "CF",
+    "vjudge": false
+}

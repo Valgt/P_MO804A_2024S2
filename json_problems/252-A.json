@@ -1,0 +1,12 @@
+{
+    "uid": "252-A",
+    "url": "https://codeforces.com/contest/252/problem/A",
+    "tags": [
+        "brute force",
+        " implementation"
+    ],
+    "title": "252-A",
+    "statement": "A. Little Xortime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutLittle Petya likes arrays that consist of non-negative integers a lot. Recently his mom has presented him one such array consisting ofnelements. Petya immediately decided to find there a segment of consecutive elements, such that thexorof all numbers from this segment was maximal possible. Help him with that.Thexoroperation is the bitwise exclusive \"OR\", that is denoted as \"xor\" in Pascal and \"^\" in C/C++/Java.InputThe first line contains integern(1 ≤n≤ 100) — the number of elements in the array. The second line contains the space-separated integers from the array. All numbers are non-negative integers strictly less than230.OutputPrint a single integer — the required maximalxorof a segment of consecutive elements.ExamplesInput51 2 1 1 2Output3Input31 2 7Output7Input44 2 4 8Output14NoteIn the first sample one of the optimal segments is the segment that consists of the first and the second array elements, if we consider the array elements indexed starting from one.The second sample contains only one optimal segment, which contains exactly one array element (element with index three).",
+    "source": "CF",
+    "vjudge": false
+}

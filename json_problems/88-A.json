@@ -1,0 +1,12 @@
+{
+    "uid": "88-A",
+    "url": "https://codeforces.com/contest/88/problem/A",
+    "tags": [
+        "brute force",
+        " implementation"
+    ],
+    "title": "88-A",
+    "statement": "A. Chordtime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutVasya studies music.He has learned lots of interesting stuff. For example, he knows that there are 12 notes:C,C#,D,D#,E,F,F#,G,G#,A,B,H. He also knows that the notes are repeated cyclically: afterHgoesCagain, and beforeCstandsH. We will consider theCnote in the row's beginning and theCnote after theHsimilar and we will identify them with each other. The distance between the notes along the musical scale is measured in tones: between two consecutive notes there's exactly one semitone, that is, 0.5 tone. The distance is taken from the lowest tone to the uppest one, that is, the distance betweenCandEis 4 semitones and betweenEandCis 8 semitonesVasya also knows what a chord is. A chord is an unordered set of no less than three notes. However, for now Vasya only works with triads, that is with the chords that consist of exactly three notes. He can already distinguish between two types of triads — major and minor.Let's define a major triad. Let the triad consist of notesX,YandZ. If we can order the notes so as the distance along the musical scale betweenXandYequals 4 semitones and the distance betweenYandZis 3 semitones, then the triad is major. The distance betweenXandZ, accordingly, equals 7 semitones.A minor triad is different in that the distance betweenXandYshould be 3 semitones and betweenYandZ— 4 semitones.For example, the triad \"C E G\" is major: betweenCandEare 4 semitones, and betweenEandGare 3 semitones. And the triplet \"C# B F\" is minor, because if we order the notes as \"B C# F\", than betweenBandC#will be 3 semitones, and betweenC#andF— 4 semitones.Help Vasya classify the triad the teacher has given to him.InputThe only line contains 3 space-separated notes in the above-given notation.OutputPrint \"major\" if the chord is major, \"minor\" if it is minor, and \"strange\" if the teacher gave Vasya some weird chord which is neither major nor minor. Vasya promises you that the answer will always be unambiguous. That is, there are no chords that are both major and minor simultaneously.ExamplesInputC E GOutputmajorInputC# B FOutputminorInputA B HOutputstrange",
+    "source": "CF",
+    "vjudge": false
+}

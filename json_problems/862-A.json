@@ -1,0 +1,12 @@
+{
+    "uid": "862-A",
+    "url": "https://codeforces.com/contest/862/problem/A",
+    "tags": [
+        "greedy",
+        " implementation"
+    ],
+    "title": "862-A",
+    "statement": "A. Mahmoud and Ehab and the MEXtime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputDr. Evil kidnapped Mahmoud and Ehab in the evil land because of their performance in the Evil Olympiad in Informatics (EOI). He decided to give them some problems to let them go.Dr. Evil is interested in sets, He has a set ofnintegers. Dr. Evil calls a set of integersevilif theMEXof it is exactlyx. theMEXof a set of integers is the minimum non-negative integer that doesn't exist in it. For example, theMEXof the set{0, 2, 4}is1and theMEXof the set{1, 2, 3}is0.Dr. Evil is going to make his setevil. To do this he can perform some operations. During each operation he can add some non-negative integer to his set or erase some element from it. What is the minimal number of operations Dr. Evil has to perform to make his setevil?InputThe first line contains two integersnandx(1 ≤n≤ 100,0 ≤x≤ 100) — the size of the set Dr. Evil owns, and the desiredMEX.The second line containsndistinct non-negative integers not exceeding100that represent the set.OutputThe only line should contain one integer — the minimal number of operations Dr. Evil should perform.ExamplesInput5 30 4 5 6 7Output2Input1 00Output1Input5 01 2 3 4 5Output0NoteFor the first test case Dr. Evil should add1and2to the set performing2operations.For the second test case Dr. Evil should erase0from the set. After that, the set becomes empty, so theMEXof it is0.In the third test case the set is alreadyevil.",
+    "source": "CF",
+    "vjudge": false
+}

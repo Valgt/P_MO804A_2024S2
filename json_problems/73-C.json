@@ -1,0 +1,11 @@
+{
+    "uid": "73-C",
+    "url": "https://codeforces.com/contest/73/problem/C",
+    "tags": [
+        "dp"
+    ],
+    "title": "73-C",
+    "statement": "C. LionAge IItime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutVasya plays the LionAge II. He was bored of playing with a stupid computer, so he installed this popular MMORPG, to fight with his friends. Vasya came up with the name of his character — non-empty strings, consisting of a lowercase Latin letters. However, in order not to put up a front of friends, Vasya has decided to change no more thankletters of the character name so that the new name sounded as good as possible. Euphony of the line is defined as follows: for each pair of adjacent lettersxandy(ximmediately precedesy) the bonusc(x,y)is added to the result. Your task is to determine what the greatest Euphony can be obtained by changing at mostkletters in the name of the Vasya's character.InputThe first line contains character's namesand an integer numberk(0 ≤k≤ 100). The length of the nonempty stringsdoes not exceed100. The second line contains an integer numbern(0 ≤n≤ 676) — amount of pairs of letters, giving bonus to the euphony. The nextnlines contain description of these pairs «xyc», which means that sequencexygives bonusc(x,y— lowercase Latin letters,- 1000 ≤c≤ 1000). It is guaranteed that no pairxymentioned twice in the input data.OutputOutput the only number — maximum possible euphony оf the new character's name.ExamplesInputwinner 44s e 7o s 8l o 13o o 8Output36Inputabcdef 15a b -10b c 5c d 5d e 5e f 5Output20NoteIn the first example the most euphony name will belooser. It is easy to calculate that its euphony is 36.",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,12 @@
+{
+    "uid": "41-A",
+    "url": "https://codeforces.com/contest/41/problem/A",
+    "tags": [
+        "implementation",
+        " strings"
+    ],
+    "title": "41-A",
+    "statement": "A. Translationtime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutThe translation from the Berland language into the Birland language is not an easy task. Those languages are very similar: a Berlandish word differs from a Birlandish word with the same meaning a little: it is spelled (and pronounced) reversely. For example, a Berlandish wordcodecorresponds to a Birlandish wordedoc. However, making a mistake during the \"translation\" is easy. Vasya translated the wordsfrom Berlandish into Birlandish ast. Help him: find out if he translated the word correctly.InputThe first line contains words, the second line contains wordt. The words consist of lowercase Latin letters. The input data do not contain unnecessary spaces. The words are not empty and their lengths do not exceed 100 symbols.OutputIf the wordtis a words, written reversely, printYES, otherwise printNO.ExamplesInputcodeedocOutputYESInputabbabaOutputNOInputcodecodeOutputNO",
+    "source": "CF",
+    "vjudge": false
+}

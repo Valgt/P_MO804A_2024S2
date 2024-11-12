@@ -1,0 +1,12 @@
+{
+    "uid": "893-B",
+    "url": "https://codeforces.com/contest/893/problem/B",
+    "tags": [
+        "brute force",
+        " implementation"
+    ],
+    "title": "893-B",
+    "statement": "B. Beautiful Divisorstime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputRecently Luba learned about a special kind of numbers that she callsbeautifulnumbers. The number is calledbeautifuliff its binary representation consists ofk+ 1consecutive ones, and thenkconsecutive zeroes.Some examples of beautiful numbers:12(110);1102(610);11110002(12010);1111100002(49610).More formally, the number is beautiful iff there exists some positive integerksuch that the number is equal to(2k- 1) * (2k- 1).Luba has got an integer numbern, and she wants to find its greatest beautiful divisor. Help her to find it!InputThe only line of input contains one numbern(1 ≤n≤ 105) — the number Luba has got.OutputOutput one number — the greatest beautiful divisor of Luba's number. It is obvious that the answer always exists.ExamplesInput3Output1Input992Output496",
+    "source": "CF",
+    "vjudge": false
+}

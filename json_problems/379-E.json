@@ -1,0 +1,13 @@
+{
+    "uid": "379-E",
+    "url": "https://codeforces.com/contest/379/problem/E",
+    "tags": [
+        "geometry",
+        " schedules",
+        " sortings"
+    ],
+    "title": "379-E",
+    "statement": "E. New Year Tree Decorationstime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutDue to atheistic Soviet past, Christmas wasn't officially celebrated in Russia for most of the twentieth century. As a result, the Russian traditions for Christmas and New Year mixed into one event celebrated on the New Year but including the tree, a Santa-like 'Grandfather Frost', presents and huge family reunions and dinner parties all over the country. Bying a Tree at the New Year and installing it in the house is a tradition. Usually the whole family decorates the tree on the New Year Eve. We hope that Codeforces is a big and loving family, so in this problem we are going to decorate a tree as well.So, our decoration consists ofnpieces, each piece is a piece of colored paper, its border is a closed polyline of a special shape. The pieces go one by one as is shown on the picture. Thei-th piece is a polyline that goes through points:(0, 0),(0,y0),(1,y1),(2,y2), ...,(k,yk),(k, 0). The width of each piece equalsk.The figure to the left shows the decoration, the figure to the right shows the individual pieces it consists of.The piece number 1 (shown red on the figure) is the outer piece (we see it completely), piece number 2 (shown yellow) follows it (we don't see it completely as it is partially closed by the first piece) and so on. The programmers are quite curious guys, so the moment we hung a decoration on the New Year tree we started to wonder: what area of each piece can people see?InputThe first line contains two integers,nandk(1 ≤n,k≤ 300). Each of the followingnlines containsk+ 1integers — the description of the polyline. If thei-th line contains ontegersyi, 0,yi, 1, ...,yi,k, that means that the polyline of thei-th piece goes through points(0, 0),(0,yi, 0),(1,yi, 1),(2,yi, 2), ...,(k,yi,k),(k, 0)(1 ≤yi,j≤ 1000).OutputPrintnreal numbers — for each polyline, the area of its visible part.The answer will be considered correct if its relative or absolute error do not exceed10- 4.ExamplesInput2 22 1 21 2 1Output3.0000000000000.500000000000Input1 11 1Output1.000000000000Input4 12 77 25 56 4Output4.5000000000001.2500000000000.0500000000000.016666666667",
+    "source": "CF",
+    "vjudge": false
+}

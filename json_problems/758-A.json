@@ -1,0 +1,12 @@
+{
+    "uid": "758-A",
+    "url": "https://codeforces.com/contest/758/problem/A",
+    "tags": [
+        "implementation",
+        " math"
+    ],
+    "title": "758-A",
+    "statement": "A. Holiday Of Equalitytime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputIn Berland it is the holiday of equality. In honor of the holiday the king decided to equalize the welfare of all citizens in Berland by the expense of the state treasury.Totally in Berland there arencitizens, the welfare of each of them is estimated as the integer inaiburles (burle is the currency in Berland).You are the royal treasurer, which needs to count the minimum charges of the kingdom on the king's present. The king can only give money, he hasn't a power to take away them.InputThe first line contains the integern(1 ≤n≤ 100) — the number of citizens in the kingdom.The second line containsnintegersa1,a2, ...,an, whereai(0 ≤ai≤ 106) — the welfare of thei-th citizen.OutputIn the only line print the integerS— the minimum number of burles which are had to spend.ExamplesInput50 1 2 3 4Output10Input51 1 0 1 1Output1Input31 3 1Output4Input112Output0NoteIn the first example if we add to the first citizen4burles, to the second3, to the third2and to the fourth1, then the welfare of all citizens will equal4.In the second example it is enough to give one burle to the third citizen.In the third example it is necessary to give two burles to the first and the third citizens to make the welfare of citizens equal3.In the fourth example it is possible to give nothing to everyone because all citizens have12burles.",
+    "source": "CF",
+    "vjudge": false
+}

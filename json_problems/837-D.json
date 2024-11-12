@@ -1,0 +1,12 @@
+{
+    "uid": "837-D",
+    "url": "https://codeforces.com/contest/837/problem/D",
+    "tags": [
+        "dp",
+        " math"
+    ],
+    "title": "837-D",
+    "statement": "D. Round Subsettime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputLet's call theroundnessof the number the number of zeros to which it ends.You have an array ofnnumbers. You need to choose a subset of exactlyknumbers so that theroundnessof the product of the selected numbers will be maximum possible.InputThe first line contains two integer numbersnandk(1 ≤n≤ 200, 1 ≤k≤n).The second line containsnspace-separated integer numbersa1,a2, ...,an(1 ≤ai≤ 1018).OutputPrint maximal roundness of product of the chosen subset of lengthk.ExamplesInput3 250 4 20Output3Input5 315 16 3 25 9Output3Input3 39 77 13Output0NoteIn the first example there are3subsets of2numbers.[50, 4]has product200withroundness2,[4, 20]— product80,roundness1,[50, 20]— product1000,roundness3.In the second example subset[15, 16, 25]has product6000,roundness3.In the third example all subsets has product withroundness0.",
+    "source": "CF",
+    "vjudge": false
+}

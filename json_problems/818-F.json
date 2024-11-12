@@ -1,0 +1,13 @@
+{
+    "uid": "818-F",
+    "url": "https://codeforces.com/contest/818/problem/F",
+    "tags": [
+        "binary search",
+        " math",
+        " ternary search"
+    ],
+    "title": "818-F",
+    "statement": "F. Level Generationtime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputIvan is developing his own computer game. Now he tries to create some levels for his game. But firstly for each level he needs to draw a graph representing the structure of the level.Ivan decided that there should be exactlynivertices in the graph representing leveli, and the edges have to be bidirectional. When constructing the graph, Ivan is interested in special edges calledbridges. An edge between two verticesuandvis called abridgeif this edge belongs to every path betweenuandv(and these vertices will belong to different connected components if we delete this edge). For each level Ivan wants to construct a graph where at least half of the edges arebridges. He also wants to maximize the number of edges in each constructed graph.So the task Ivan gave you is: givenqnumbersn1,n2, ...,nq, for eachitell the maximum number of edges in a graph withnivertices, if at least half of the edges arebridges.Note that the graphs cannot contain multiple edges or self-loops.InputThe first line of input file contains a positive integerq(1 ≤q≤ 100 000) — the number of graphs Ivan needs to construct.Thenqlines follow,i-th line contains one positive integerni(1 ≤ni≤ 2·109) — the number of vertices ini-th graph.Note that in hacks you have to useq= 1.OutputOutputqnumbers,i-th of them must be equal to the maximum number of edges ini-th graph.ExampleInput3346Output236NoteIn the first example it is possible to construct these graphs:1 - 2,1 - 3;1 - 2,1 - 3,2 - 4;1 - 2,1 - 3,2 - 3,1 - 4,2 - 5,3 - 6.",
+    "source": "CF",
+    "vjudge": false
+}

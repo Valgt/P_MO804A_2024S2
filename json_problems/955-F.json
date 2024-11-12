@@ -1,0 +1,12 @@
+{
+    "uid": "955-F",
+    "url": "https://codeforces.com/contest/955/problem/F",
+    "tags": [
+        "dp",
+        " trees"
+    ],
+    "title": "955-F",
+    "statement": "F. Heapstime limit per test2.5 secondsmemory limit per test512 megabytesinputstandard inputoutputstandard outputYou're given a tree withnvertices rooted at1.We say that there's ak-ary heap of depthmlocated atuif the following holds:Form= 1uitself is ak-ary heap of depth1.Form> 1vertexuis ak-ary heap of depthmifat leastkof its children arek-ary heaps of depthat leastm- 1.Denotedpk(u)as maximum depth ofk-ary heap in the subtree ofu(includingu). Your goal is to compute.InputThe first line contains an integerndenoting the size of the tree(2 ≤n≤ 3·105).The nextn- 1lines contain two integersu,veach, describing vertices connected byi-th edge.It's guaranteed that the given configuration forms a tree.OutputOutput the answer to the task.ExamplesInput41 32 34 3Output21Input41 22 33 4Output22NoteConsider sample case one.Fork≥ 3alldpkwill be equal to1.Fork= 2dpkis2ifand1otherwise.Fork= 1dpkvalues are(3, 1, 2, 1)respectively.To sum up,4·1 + 4·1 + 2·2 + 2·1 + 3 + 1 + 2 + 1 = 21.",
+    "source": "CF",
+    "vjudge": false
+}

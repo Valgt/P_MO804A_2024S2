@@ -1,0 +1,11 @@
+{
+    "uid": "110-A",
+    "url": "https://codeforces.com/contest/110/problem/A",
+    "tags": [
+        "implementation"
+    ],
+    "title": "110-A",
+    "statement": "A. Nearly Lucky Numbertime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutPetya loves lucky numbers. We all know that lucky numbers are the positive integers whose decimal representations contain only the lucky digits4and7. For example, numbers47,744,4are lucky and5,17,467are not.Unfortunately, not all numbers are lucky. Petya calls a numbernearly luckyif the number of lucky digits in it is a lucky number. He wonders whether numbernis a nearly lucky number.InputThe only line contains an integern(1 ≤n≤ 1018).Please do not use the %lld specificator to read or write 64-bit numbers in С++. It is preferred to use the cin, cout streams or the %I64d specificator.OutputPrint on the single line \"YES\" ifnis a nearly lucky number. Otherwise, print \"NO\" (without the quotes).ExamplesInput40047OutputNOInput7747774OutputYESInput1000000000000000000OutputNONoteIn the first sample there are 3 lucky digits (first one and last two), so the answer is \"NO\".In the second sample there are 7 lucky digits, 7 is lucky number, so the answer is \"YES\".In the third sample there are no lucky digits, so the answer is \"NO\".",
+    "source": "CF",
+    "vjudge": false
+}

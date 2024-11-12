@@ -1,0 +1,13 @@
+{
+    "uid": "888-G",
+    "url": "https://codeforces.com/contest/888/problem/G",
+    "tags": [
+        "bitmasks",
+        " constructive algorithms",
+        " data structures"
+    ],
+    "title": "888-G",
+    "statement": "G. Xor-MSTtime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given a complete undirected graph withnvertices. A numberaiis assigned to each vertex, and the weight of an edge between verticesiandjis equal toaixoraj.Calculate the weight of the minimum spanning tree in this graph.InputThe first line containsn(1 ≤n≤ 200000) — the number of vertices in the graph.The second line containsnintegersa1,a2, ...,an(0 ≤ai< 230) — the numbers assigned to the vertices.OutputPrint one number — the weight of the minimum spanning tree in the graph.ExamplesInput51 2 3 4 5Output8Input41 2 3 4Output8",
+    "source": "CF",
+    "vjudge": false
+}

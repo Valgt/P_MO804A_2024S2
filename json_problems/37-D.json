@@ -1,0 +1,13 @@
+{
+    "uid": "37-D",
+    "url": "https://codeforces.com/contest/37/problem/D",
+    "tags": [
+        "combinatorics",
+        " dp",
+        " math"
+    ],
+    "title": "37-D",
+    "statement": "D. Lesson Timetabletime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutWhen Petya has free from computer games time, he attends university classes. Every day the lessons on Petya’s faculty consist of two double classes. The floor where the lessons take place is a long corridor withMclassrooms numbered from1toM, situated along it.All the students of Petya’s year are divided intoNgroups. Petya has noticed recently that these groups’ timetable has the following peculiarity: the number of the classroom where the first lesson of a group takes place does not exceed the number of the classroom where the second lesson of this group takes place.Once Petya decided to count the number of ways in which one can make a lesson timetable for all these groups. The timetable is a set of2Nnumbers: for each group the number of the rooms where the first and the second lessons take place. Unfortunately, he quickly lost the track of his calculations and decided to count only the timetables that satisfy the following conditions:1) On the first lesson in classroomiexactlyXigroups must be present.2) In classroomino more thanYigroups may be placed.Help Petya count the number of timetables satisfying all those conditionsю As there can be a lot of such timetables, output modulo109+ 7.InputThe first line contains one integerM(1 ≤M≤ 100) — the number of classrooms.The second line containsMspace-separated integers —Xi(0 ≤Xi≤ 100) the amount of groups present in classroomiduring the first lesson.The third line containsMspace-separated integers —Yi(0 ≤Yi≤ 100) the maximal amount of groups that can be present in classroomiat the same time.It is guaranteed that all theXi≤Yi, and that the sum of all theXiis positive and does not exceed1000.OutputIn the single line output the answer to the problem modulo109+ 7.ExamplesInput31 1 11 2 3Output36Input31 1 11 1 1Output6NoteIn the second sample test the first and the second lessons of each group must take place in the same classroom, that’s why the timetables will only be different in the rearrangement of the classrooms’ numbers for each group, e.g.3! = 6.",
+    "source": "CF",
+    "vjudge": false
+}

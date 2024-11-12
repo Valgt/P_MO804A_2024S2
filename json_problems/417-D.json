@@ -1,0 +1,14 @@
+{
+    "uid": "417-D",
+    "url": "https://codeforces.com/contest/417/problem/D",
+    "tags": [
+        "bitmasks",
+        " dp",
+        " greedy",
+        " sortings"
+    ],
+    "title": "417-D",
+    "statement": "D. Cunning Genatime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutA boy named Gena really wants to get to the \"Russian Code Cup\" finals, or at least get a t-shirt. But the offered problems are too complex, so he made an arrangement with hisnfriends that they will solve the problems for him.The participants are offeredmproblems on the contest. For each friend, Gena knows what problems he can solve. But Gena's friends won't agree to help Gena for nothing: thei-th friend asks Genaxirubles for his helpin solving all the problemshe can. Also, the friend agreed to write a code for Gena only if Gena's computer is connected to at leastkimonitors, each monitor costsbrubles.Gena is careful with money, so he wants to spend as little money as possible to solve all the problems. Help Gena, tell him how to spend the smallest possible amount of money. Initially, there's no monitors connected to Gena's computer.InputThe first line contains three integersn,mandb(1 ≤n≤ 100;1 ≤m≤ 20;1 ≤b≤ 109) — the number of Gena's friends, the number of problems and the cost of a single monitor.The following2nlines describe the friends. Lines number2iand(2i+ 1)contain the information about thei-th friend. The2i-th line contains three integersxi,kiandmi(1 ≤xi≤ 109;1 ≤ki≤ 109;1 ≤mi≤m) — the desired amount of money, monitors and the number of problems the friend can solve. The(2i+ 1)-th line containsmidistinct positive integers — the numbers of problems that thei-th friend can solve. The problems are numbered from1tom.OutputPrint the minimum amount of money Gena needs to spend to solve all the problems. Or print -1, if this cannot be achieved.ExamplesInput2 2 1100 1 12100 2 11Output202Input3 2 5100 1 11100 1 12200 1 21 2Output205Input1 2 11 1 11Output-1",
+    "source": "CF",
+    "vjudge": false
+}

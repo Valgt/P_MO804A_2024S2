@@ -1,0 +1,11 @@
+{
+    "uid": "630-A",
+    "url": "https://codeforces.com/contest/630/problem/A",
+    "tags": [
+        "number theory"
+    ],
+    "title": "630-A",
+    "statement": "A. Again Twenty Five!time limit per test0.5 secondsmemory limit per test64 megabytesinputstandard inputoutputstandard outputThe HR manager was disappointed again. The last applicant failed the interview the same way as 24 previous ones. \"Do I give such a hard task?\" — the HR manager thought. \"Just raise number5to the power ofnand get last two digits of the number. Yes, of course,ncan be rather big, and one cannot find the power using a calculator, but we need people who are able to think, not just follow the instructions.\"Could you pass the interview in the machine vision company in IT City?InputThe only line of the input contains a single integern(2 ≤n≤ 2·1018) — the power in which you need to raise number5.OutputOutput the last two digits of5nwithout spaces between them.ExamplesInput2Output25",
+    "source": "CF",
+    "vjudge": false
+}

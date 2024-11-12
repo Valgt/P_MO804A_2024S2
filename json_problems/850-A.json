@@ -1,0 +1,13 @@
+{
+    "uid": "850-A",
+    "url": "https://codeforces.com/contest/850/problem/A",
+    "tags": [
+        "brute force",
+        " geometry",
+        " math"
+    ],
+    "title": "850-A",
+    "statement": "A. Five Dimensional Pointstime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given set ofnpoints in 5-dimensional space. The points are labeled from1ton. No two points coincide.We will call pointabadif there are different pointsbandc, not equal toa, from the given set such that angle between vectorsandis acute (i.e. strictly less than). Otherwise, the point is calledgood.The angle between vectorsandin 5-dimensional space is defined as, whereis the scalar product andis length of.Given the list of points, print the indices of the good points in ascending order.InputThe first line of input contains a single integern(1 ≤n≤ 103) — the number of points.The nextnlines of input contain five integersai,bi,ci,di,ei(|ai|, |bi|, |ci|, |di|, |ei| ≤ 103)  — the coordinates of the i-th point. All points are distinct.OutputFirst, print a single integerk— the number of good points.Then, printkintegers, each on their own line — the indices of the good points in ascending order.ExamplesInput60 0 0 0 01 0 0 0 00 1 0 0 00 0 1 0 00 0 0 1 00 0 0 0 1Output11Input30 0 1 2 00 0 9 2 00 0 5 9 0Output0NoteIn the first sample, the first point forms exactly aangle with all other pairs of points, so it is good.In the second sample, along the cd plane, we can see the points look as follows:We can see that all angles here are acute, so no points are good.",
+    "source": "CF",
+    "vjudge": false
+}

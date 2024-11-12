@@ -1,0 +1,13 @@
+{
+    "uid": "464-E",
+    "url": "https://codeforces.com/contest/464/problem/E",
+    "tags": [
+        "data structures",
+        " graphs",
+        " shortest paths"
+    ],
+    "title": "464-E",
+    "statement": "E. The Classic Problemtime limit per test5 secondsmemory limit per test768 megabytesinputstdinoutputstdoutYou are given a weighted undirected graph onnvertices andmedges. Find the shortest path from vertexsto vertextor else state that such path doesn't exist.InputThe first line of the input contains two space-separated integers —nandm(1 ≤n≤ 105;0 ≤m≤ 105).Nextmlines contain the description of the graph edges. Thei-th line contains three space-separated integers —ui,vi,xi(1 ≤ui,vi≤n;0 ≤xi≤ 105).That means that vertices with numbersuiandviare connected by edge of length2xi(2 to the power ofxi).The last line contains two space-separated integers — the numbers of verticessandt.The vertices are numbered from1ton. The graph contains no multiple edges and self-loops.OutputIn the first line print the remainder after dividing the length of the shortest path by1000000007 (109+ 7)if the path exists, and-1if the path doesn't exist.If the path exists print in the second line integerk— the number of vertices in the shortest path from vertexsto vertext; in the third line printkspace-separated integers — the vertices of the shortest path in the visiting order. The first vertex should be vertexs, the last vertex should be vertext. If there are multiple shortest paths, print any of them.ExamplesInput4 41 4 21 2 02 3 03 4 01 4Output341 2 3 4Input4 31 2 42 3 53 4 61 4Output11241 2 3 4Input4 21 2 03 4 11 4Output-1NoteApathfrom vertexsto vertextis a sequencev0, ...,vk, such thatv0=s,vk=t, and for anyifrom 0 tok- 1verticesviandvi+ 1are connected by an edge.Thelengthof the path is the sum of weights of edges betweenviandvi+ 1for allifrom 0 tok- 1.Theshortest pathfromstotis the path which length is minimum among all possible paths fromstot.",
+    "source": "CF",
+    "vjudge": false
+}

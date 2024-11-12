@@ -1,0 +1,14 @@
+{
+    "uid": "264-A",
+    "url": "https://codeforces.com/contest/264/problem/A",
+    "tags": [
+        "constructive algorithms",
+        " data structures",
+        " implementation",
+        " two pointers"
+    ],
+    "title": "264-A",
+    "statement": "A. Escape from Stonestime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutSquirrel Liss lived in a forest peacefully, but unexpected trouble happens. Stones fall from a mountain. Initially Squirrel Liss occupies an interval[0, 1]. Next,nstones will fall and Liss will escape from the stones. The stones are numbered from 1 tonin order.The stones always fall to the center of Liss's interval. When Liss occupies the interval[k-d,k+d]and a stone falls tok, she will escape to the left or to the right. If she escapes to the left, her new interval will be[k-d,k]. If she escapes to the right, her new interval will be[k,k+d].You are given a stringsof lengthn. If thei-th character ofsis \"l\" or \"r\", when thei-th stone falls Liss will escape to the left or to the right, respectively. Find the sequence of stones' numbers from left to right after all thenstones falls.InputThe input consists of only one line. The only line contains the strings(1 ≤ |s| ≤ 106). Each character inswill be either \"l\" or \"r\".OutputOutputnlines — on thei-th line you should print thei-th stone's number from the left.ExamplesInputllrlrOutput35421InputrrlllOutput12543InputlrlrrOutput24531NoteIn the first example, the positions of stones 1, 2, 3, 4, 5 will be, respectively. So you should print the sequence: 3, 5, 4, 2, 1.",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,13 @@
+{
+    "uid": "244-B",
+    "url": "https://codeforces.com/contest/244/problem/B",
+    "tags": [
+        "bitmasks",
+        " brute force",
+        " dfs and similar"
+    ],
+    "title": "244-B",
+    "statement": "B. Undoubtedly Lucky Numberstime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutPolycarpus loves lucky numbers. Everybody knows that lucky numbers are positive integers, whose decimal representation (without leading zeroes) contain only the lucky digitsxandy. For example, ifx= 4, andy= 7, then numbers 47, 744, 4 are lucky.Let's call a positive integeraundoubtedly lucky, if there are such digitsxandy(0 ≤x,y≤ 9), that the decimal representation of numbera(without leading zeroes) contains only digitsxandy.Polycarpus has integern. He wants to know how many positive integers that do not exceedn, are undoubtedly lucky. Help him, count this number.InputThe first line contains a single integern(1 ≤n≤ 109)— Polycarpus's number.OutputPrint a single integer that says, how many positive integers that do not exceednare undoubtedly lucky.ExamplesInput10Output10Input123Output113NoteIn the first test sample all numbers that do not exceed10are undoubtedly lucky.In the second sample numbers 102, 103, 104, 105, 106, 107, 108, 109, 120, 123 are not undoubtedly lucky.",
+    "source": "CF",
+    "vjudge": false
+}

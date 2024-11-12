@@ -1,0 +1,11 @@
+{
+    "uid": "131-E",
+    "url": "https://codeforces.com/contest/131/problem/E",
+    "tags": [
+        "sortings"
+    ],
+    "title": "131-E",
+    "statement": "E. Yet Another Task with Queenstime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutA queen is the strongest chess piece. In modern chess the queen can move any number of squares in any horizontal, vertical or diagonal direction (considering that there're no other pieces on its way). The queen combines the options given to the rook and the bishop.There aremqueens on a squaren×nchessboard. You know each queen's positions, thei-th queen is positioned in the square(ri,ci), whereriis the board row number (numbered from the top to the bottom from 1 ton), andciis the board's column number (numbered from the left to the right from 1 ton). No two queens share the same position.For each queen one can countw— the number of other queens that the given queen threatens (attacks). For a fixed attack direction only the first queen in this direction is under attack if there are many queens are on the ray of the attack. Obviously, for any queenwis between 0 and 8, inclusive.Print the sequencet0,t1, ...,t8, wheretiis the number of queens that threaten exactlyiother queens, i.e. the number of queens that theirwequalsi.InputThe first line of the input contains a pair of integersn,m(1 ≤n,m≤ 105), wherenis the size of the board andmis the number of queens on the board. Thenmfollowing lines contain positions of the queens, one per line. Each line contains a pair of integersri,ci(1 ≤ri,ci≤n) — the queen's position. No two queens stand on the same square.OutputPrint the required sequencet0,t1, ...,t8, separating the numbers with spaces.ExamplesInput8 44 34 86 51 6Output0 3 0 1 0 0 0 0 0Input10 31 11 21 3Output0 2 1 0 0 0 0 0 0",
+    "source": "CF",
+    "vjudge": false
+}

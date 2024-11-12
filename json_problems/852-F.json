@@ -1,0 +1,13 @@
+{
+    "uid": "852-F",
+    "url": "https://codeforces.com/contest/852/problem/F",
+    "tags": [
+        "combinatorics",
+        " math",
+        " number theory"
+    ],
+    "title": "852-F",
+    "statement": "F. Product transformationtime limit per test3 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputConsider an arrayAwithNelements, all being the same integera.Define the product transformation as a simultaneous updateAi=Ai·Ai+ 1, that is multiplying each element to the element right to it for, with the last numberANremaining the same. For example, if we start with an arrayAwitha= 2andN= 4, then after one product transformationA= [4,  4,  4,  2], and after two product transformationsA= [16,  16,  8,  2].Your simple task is to calculate the arrayAafterMproduct transformations. Since the numbers can get quite big you should output them moduloQ.InputThe first and only line of input contains four integersN,M,a,Q(7 ≤Q≤ 109+ 123,2 ≤a≤ 106+ 123,,is prime), whereis the multiplicative order of the integeramoduloQ, see notes for definition.OutputYou should output the arrayAfrom left to right.ExampleInput2 2 2 7Output1 2NoteThe multiplicative order of a numberamoduloQ, is the smallest natural numberxsuch thataxmodQ= 1. For example,.",
+    "source": "CF",
+    "vjudge": false
+}

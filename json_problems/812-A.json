@@ -1,0 +1,11 @@
+{
+    "uid": "812-A",
+    "url": "https://codeforces.com/contest/812/problem/A",
+    "tags": [
+        "implementation"
+    ],
+    "title": "812-A",
+    "statement": "A. Sagheer and Crossroadstime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputSagheer is walking in the street when he comes to an intersection of two roads. Each road can be represented as two parts where each part has3lanes getting into the intersection (one for each direction) and3lanes getting out of the intersection, so we have4parts in total. Each part has4lights, one for each lane getting into the intersection (l— left,s— straight,r— right) and a lightpfor a pedestrian crossing.An accident is possible if a car can hit a pedestrian. This can happen if the light of a pedestrian crossing of some part and the light of a lane that can get to or from that same part are green at the same time.Now, Sagheer is monitoring the configuration of the traffic lights. Your task is to help him detect whether an accident is possible.InputThe input consists of four lines with each line describing a road part given in a counter-clockwise order.Each line contains four integersl,s,r,p— for the left, straight, right and pedestrian lights, respectively. The possible values are0for red light and1for green light.OutputOn a single line, print \"YES\" if an accident is possible, and \"NO\" otherwise.ExamplesInput1 0 0 10 1 0 00 0 1 00 0 0 1OutputYESInput0 1 1 01 0 1 01 1 0 00 0 0 1OutputNOInput1 0 0 00 0 0 10 0 0 01 0 1 0OutputNONoteIn the first example, some accidents are possible because cars of part1can hit pedestrians of parts1and4. Also, cars of parts2and3can hit pedestrians of part4.In the second example, no car can pass the pedestrian crossing of part4which is the only green pedestrian light. So, no accident can occur.",
+    "source": "CF",
+    "vjudge": false
+}

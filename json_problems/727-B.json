@@ -1,0 +1,13 @@
+{
+    "uid": "727-B",
+    "url": "https://codeforces.com/contest/727/problem/B",
+    "tags": [
+        "expression parsing",
+        " implementation",
+        " strings"
+    ],
+    "title": "727-B",
+    "statement": "B. Bill Total Valuetime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputVasily exited from a store and now he wants to recheck the total price of all purchases in his bill. The bill is a string in which the names of the purchases and their prices are printed in a row without any spaces. Check has the format \"name1price1name2price2...namenpricen\", wherenamei(name of thei-th purchase) is a non-empty string of length not more than10, consisting of lowercase English letters, andpricei(the price of thei-th purchase) is a non-empty string, consisting of digits and dots (decimal points). It is possible that purchases with equal names have different prices.The price of each purchase is written in the following format. If the price is an integer number of dollars then cents are not written.Otherwise, after the number of dollars a dot (decimal point) is written followed by centsin a two-digit format(if number of cents is between1and9inclusively, there is a leading zero).Also, every three digits (from less significant to the most) in dollars are separated by dot (decimal point). No extra leading zeroes are allowed. The price always starts with a digit and ends with a digit.For example:\"234\", \"1.544\", \"149.431.10\", \"0.99\" and \"123.05\" are valid prices,\".333\", \"3.33.11\", \"12.00\", \".33\", \"0.1234\" and \"1.2\" are not valid.Write a program that will find the total price of all purchases in the given bill.InputThe only line of the input contains a non-empty stringswith length not greater than1000— the content of the bill.It is guaranteed that the bill meets the format described above. It is guaranteed that each price in the bill is not less than one cent and not greater than106dollars.OutputPrint the total priceexactly in the same formatas prices given in the input.ExamplesInputchipsy48.32televizor12.390Output12.438.32Inputa1b2c3.38Output6.38Inputaa0.01t0.03Output0.04",
+    "source": "CF",
+    "vjudge": false
+}

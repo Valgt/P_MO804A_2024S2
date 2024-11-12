@@ -1,0 +1,11 @@
+{
+    "uid": "1832-A",
+    "url": "https://codeforces.com/contest/1832/problem/A",
+    "tags": [
+        "strings"
+    ],
+    "title": "1832-A",
+    "statement": "A. New Palindrometime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputA palindrome is a string that reads the same from left to right as from right to left. For example,abacaba,aaaa,abba,racecarare palindromes.You are given a string $$$s$$$ consisting of lowercase Latin letters. The string $$$s$$$ is a palindrome.You have to check whether it is possible to rearrange the letters in it to getanotherpalindrome (not equal to the given string $$$s$$$).InputThe first line contains a single integer $$$t$$$ ($$$1 \\\\le t \\\\le 1000$$$) — the number of test cases.The only line of each test case contains a string $$$s$$$ ($$$2 \\\\le |s| \\\\le 50$$$) consisting of lowercase Latin letters. This string is a palindrome.OutputFor each test case, printYESif it is possible to rearrange the letters in the given string to getanotherpalindrome. Otherwise, printNO.You may print each letter in any case (YES,yes,Yeswill all be recognized as positive answer,NO,noandnOwill all be recognized as negative answer).ExampleInput3codedocggaabaaOutputYES NO NONoteIn the first test case, it is possible to rearrange the letters in the palindromecodedocto obtain the stringocdedco, which is different from the given string, but also a palindrome.",
+    "source": "CF",
+    "vjudge": false
+}

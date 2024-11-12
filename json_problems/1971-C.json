@@ -1,0 +1,11 @@
+{
+    "uid": "1971-C",
+    "url": "https://codeforces.com/contest/1971/problem/C",
+    "tags": [
+        "implementation"
+    ],
+    "title": "1971-C",
+    "statement": "C. Clock and Stringstime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputThere is a clock labeled with the numbers $$$1$$$ through $$$12$$$ in clockwise order, as shown below.In this example, $$$(a,b,c,d)=(2,9,10,6)$$$, and the strings intersect.Alice and Bob have fourdistinctintegers $$$a$$$, $$$b$$$, $$$c$$$, $$$d$$$ not more than $$$12$$$. Alice ties a red string connecting $$$a$$$ and $$$b$$$, and Bob ties a blue string connecting $$$c$$$ and $$$d$$$. Do the strings intersect? (The strings are straight line segments.)InputThe first line contains a single integer $$$t$$$ ($$$1 \\\\leq t \\\\leq 5940$$$) — the number of test cases.The only line of each test case contains fourdistinctintegers $$$a$$$, $$$b$$$, $$$c$$$, $$$d$$$ ($$$1 \\\\leq a, b, c, d \\\\leq 12$$$).OutputFor each test case, output \"YES\" (without quotes) if the strings intersect, and \"NO\" (without quotes) otherwise.You can output \"YES\" and \"NO\" in any case (for example, strings \"yEs\", \"yes\", and \"Yes\" will be recognized as a positive response).ExampleInput152 9 10 63 8 9 11 2 3 45 3 4 121 8 2 103 12 11 89 10 12 112 1 10 23 12 6 91 9 8 46 7 9 127 12 9 610 12 11 13 9 6 121 4 3 5OutputYES NO NO YES YES NO NO NO NO NO NO YES YES YES YESNoteThe first test case is pictured in the statement.In the second test case, the strings do not intersect, as shown below.",
+    "source": "CF",
+    "vjudge": false
+}

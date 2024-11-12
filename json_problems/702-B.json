@@ -1,0 +1,14 @@
+{
+    "uid": "702-B",
+    "url": "https://codeforces.com/contest/702/problem/B",
+    "tags": [
+        "brute force",
+        " data structures",
+        " implementation",
+        " math"
+    ],
+    "title": "702-B",
+    "statement": "B. Powers of Twotime limit per test3 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are givennintegersa1,a2, ...,an. Find the number of pairs of indexesi,j(i<j) thatai+ajis a power of2(i. e. some integerxexists so thatai+aj= 2x).InputThe first line contains the single positive integern(1 ≤n≤ 105) — the number of integers.The second line containsnpositive integersa1,a2, ...,an(1 ≤ai≤ 109).OutputPrint the number of pairs of indexesi,j(i<j) thatai+ajis a power of2.ExamplesInput47 3 2 1Output2Input31 1 1Output3NoteIn the first example the following pairs of indexes include in answer:(1, 4)and(2, 4).In the second example all pairs of indexes(i,j)(wherei<j) include in answer.",
+    "source": "CF",
+    "vjudge": false
+}

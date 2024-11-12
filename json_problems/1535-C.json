@@ -1,0 +1,16 @@
+{
+    "uid": "1535-C",
+    "url": "https://codeforces.com/contest/1535/problem/C",
+    "tags": [
+        "binary search",
+        " dp",
+        " greedy",
+        " implementation",
+        " strings",
+        " two pointers"
+    ],
+    "title": "1535-C",
+    "statement": "C. Unstable Stringtime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given a string $$$s$$$ consisting of the characters0,1, and?.Let's call a stringunstableif it consists of the characters0and1and any two adjacent characters are different (i. e. it has the form010101...or101010...).Let's call a stringbeautifulif it consists of the characters0,1, and?, and you can replace the characters?to0or1(for each character, the choice is independent), so that the string becomesunstable.For example, the strings0??10,0, and???are beautiful, and the strings00and?1??1are not.Calculate the number of beautiful contiguous substrings of the string $$$s$$$.InputThe first line contains a single integer $$$t$$$ ($$$1 \\\\le t \\\\le 10^4$$$) — number of test cases.The first and only line of each test case contains the string $$$s$$$ ($$$1 \\\\le |s| \\\\le 2 \\\\cdot 10^5$$$) consisting of characters0,1, and?.It is guaranteed that the sum of the string lengths over all test cases does not exceed $$$2 \\\\cdot 10^5$$$.OutputFor each test case, output a single integer — the number ofbeautifulsubstrings of the string $$$s$$$.ExampleInput3 0?10 ??? ?10??1100Output8 6 25",
+    "source": "CF",
+    "vjudge": false
+}

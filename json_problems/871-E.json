@@ -1,0 +1,13 @@
+{
+    "uid": "871-E",
+    "url": "https://codeforces.com/contest/871/problem/E",
+    "tags": [
+        "graphs",
+        " greedy",
+        " trees"
+    ],
+    "title": "871-E",
+    "statement": "E. Restore the Treetime limit per test3 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputPetya had a tree consisting ofnvertices numbered with integers from1ton. Accidentally he lost his tree.Petya remembers information aboutkvertices: distances from each of them to each of thentree vertices.Your task is to restore any tree that satisfies the information that Petya remembers or report that such tree doesn't exist.InputThe first line contains two integersnandk(2 ≤n≤ 30 000,1 ≤k≤min(200,n)) — the number of vertices in the tree and the number of vertices about which Petya remembers distance information.The followingklines contain remembered information. Thei-th line containsnintegersdi, 1,di, 2, ...,di,n(0 ≤di,j≤n- 1), wheredi,j— the distance toj-th vertex from thei-th vertex that Petya remembers.OutputIf there are no suitable trees, print-1.In the other case, printn- 1lines: each line should contain two vertices connected by edge in the required tree. You can print edges and vertices in an edge in any order. The tree vertices are enumerated from1ton.If there are many solutions print any of them.ExamplesInput5 20 1 2 3 22 1 0 1 2Output2 13 24 35 2Input3 11 2 1Output-1NotePicture for the first sample:",
+    "source": "CF",
+    "vjudge": false
+}

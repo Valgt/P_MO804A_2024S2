@@ -1,0 +1,12 @@
+{
+    "uid": "146-B",
+    "url": "https://codeforces.com/contest/146/problem/B",
+    "tags": [
+        "brute force",
+        " implementation"
+    ],
+    "title": "146-B",
+    "statement": "B. Lucky Masktime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutPetya loves lucky numbers very much. Everybody knows that lucky numbers are positive integers whose decimal record contains only the lucky digits4and7. For example, numbers47,744,4are lucky and5,17,467are not.Petya calls amaskof a positive integernthe number that is obtained after successive writing of all lucky digits of numbernfrom the left to the right. For example, the mask of number72174994is number7744, the mask of7is7, the mask of9999047is47. Obviously, mask of any number is always a lucky number.Petya has two numbers — an arbitrary integeraand a lucky numberb. Help him find the minimum numberc(c>a)such that the mask of numbercequalsb.InputThe only line contains two integersaandb(1 ≤a,b≤ 105). It is guaranteed that numberbis lucky.OutputIn the only line print a single number — the numbercthat is sought by Petya.ExamplesInput1 7Output7Input100 47Output147",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,11 @@
+{
+    "uid": "687-C",
+    "url": "https://codeforces.com/contest/687/problem/C",
+    "tags": [
+        "dp"
+    ],
+    "title": "687-C",
+    "statement": "C. The Values You Can Maketime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputPari wants to buy an expensive chocolate from Arya. She hasncoins, the value of thei-th coin isci. The price of the chocolate isk, so Pari will take a subset of her coins with sum equal tokand give it to Arya.Looking at her coins, a question came to her mind: after giving the coins to Arya, what values does Arya can make with them? She is jealous and she doesn't want Arya to make a lot of values. So she wants to know all the valuesx, such that Arya will be able to makexusing some subset of coins with the sumk.Formally, Pari wants to know the valuesxsuch that there exists a subset of coins with the sumksuch that some subset of this subset has the sumx, i.e. there is exists some way to pay for the chocolate, such that Arya will be able to make the sumxusing these coins.InputThe first line contains two integersnandk(1  ≤n,k≤  500) — the number of coins and the price of the chocolate, respectively.Next line will containnintegersc1,c2, ...,cn(1 ≤ci≤ 500) — the values of Pari's coins.It's guaranteed that one can make valuekusing these coins.OutputFirst line of the output must contain a single integerq— the number of suitable valuesx. Then printqintegers in ascending order — the values that Arya can make for some subset of coins of Pari that pays for the chocolate.ExamplesInput6 185 6 1 10 12 2Output160 1 2 3 5 6 7 8 10 11 12 13 15 16 17 18Input3 5025 25 50Output30 25 50",
+    "source": "CF",
+    "vjudge": false
+}

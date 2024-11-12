@@ -1,0 +1,16 @@
+{
+    "uid": "353-B",
+    "url": "https://codeforces.com/contest/353/problem/B",
+    "tags": [
+        "combinatorics",
+        " constructive algorithms",
+        " greedy",
+        " implementation",
+        " math",
+        " sortings"
+    ],
+    "title": "353-B",
+    "statement": "B. Two Heapstime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutValera has2·ncubes, each cube contains an integer from10to99. He arbitrarily choosesncubes and puts them in the first heap. The remaining cubes form the second heap.Valera decided to play with cubes. During the game he takes a cube from the first heap and writes down the number it has. Then he takes a cube from the second heap and write out its two digits near two digits he had written (to the right of them). In the end he obtained a single fourdigit integer — the first two digits of it is written on the cube from the first heap, and the second two digits of it is written on the second cube from the second heap.Valera knows arithmetic very well. So, he can easily count the number of distinct fourdigit numbers he can get in the game. The other question is: how to split cubes into two heaps so that this number (the number of distinct fourdigit integers Valera can get) will be as large as possible?InputThe first line contains integern(1 ≤n≤ 100). The second line contains2·nspace-separated integersai(10 ≤ai≤ 99), denoting the numbers on the cubes.OutputIn the first line print a single number — the maximum possible number of distinct four-digit numbers Valera can obtain. In the second line print2·nnumbersbi(1 ≤bi≤ 2). The numbers mean: thei-th cube belongs to thebi-th heap in your division.If there are multiple optimal ways to split the cubes into the heaps, print any of them.ExamplesInput110 99Output12 1Input213 24 13 45Output41 2 2 1NoteIn the first test case Valera can put the first cube in the first heap, and second cube — in second heap. In this case he obtain number1099. If he put the second cube in the first heap, and the first cube in the second heap, then he can obtain number9910. In both cases the maximum number of distinct integers is equal to one.In the second test case Valera can obtain numbers1313, 1345, 2413, 2445. Note, that if he put the first and the third cubes in the first heap, he can obtain only two numbers1324and1345.",
+    "source": "CF",
+    "vjudge": false
+}

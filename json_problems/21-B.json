@@ -1,0 +1,12 @@
+{
+    "uid": "21-B",
+    "url": "https://codeforces.com/contest/21/problem/B",
+    "tags": [
+        "implementation",
+        " math"
+    ],
+    "title": "21-B",
+    "statement": "B. Intersectiontime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutYou are given two set of points. The first set is determined by the equationA1x+B1y+C1= 0, and the second one is determined by the equationA2x+B2y+C2= 0.Write the program which finds the number of points in the intersection of two given sets.InputThe first line of the input contains three integer numbersA1,B1,C1separated by space. The second line contains three integer numbersA2,B2,C2separated by space. All the numbers are between -100 and 100, inclusive.OutputPrint the number of points in the intersection or-1if there are infinite number of points.ExamplesInput1 1 02 2 0Output-1Input1 1 02 -2 0Output1",
+    "source": "CF",
+    "vjudge": false
+}

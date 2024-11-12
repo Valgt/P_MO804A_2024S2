@@ -1,0 +1,12 @@
+{
+    "uid": "578-D",
+    "url": "https://codeforces.com/contest/578/problem/D",
+    "tags": [
+        "dp",
+        " greedy"
+    ],
+    "title": "578-D",
+    "statement": "D. LCS Againtime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given a stringSof lengthnwith each character being one of the firstmlowercase English letters.Calculate how many different stringsTof lengthncomposed from the firstmlowercase English letters exist such that the length of LCS (longest common subsequence) betweenSandTisn- 1.Recall that LCS of two stringsSandTis the longest stringCsuch thatCboth inSandTas a subsequence.InputThe first line contains two numbersnandmdenoting the length of stringSand number of first English lowercase characters forming the character set for strings (1 ≤n≤ 100 000,2 ≤m≤ 26).The second line contains stringS.OutputPrint the only line containing the answer.ExamplesInput3 3aaaOutput6Input3 3aabOutput11Input1 2aOutput1Input10 9abacadefghOutput789NoteFor the first sample, the6possible stringsTare:aab,aac,aba,aca,baa,caa.For the second sample, the11possible stringsTare:aaa,aac,aba,abb,abc,aca,acb,baa,bab,caa,cab.For the third sample, the only possible stringTisb.",
+    "source": "CF",
+    "vjudge": false
+}

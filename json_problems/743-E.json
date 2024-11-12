@@ -1,0 +1,14 @@
+{
+    "uid": "743-E",
+    "url": "https://codeforces.com/contest/743/problem/E",
+    "tags": [
+        "binary search",
+        " bitmasks",
+        " brute force",
+        " dp"
+    ],
+    "title": "743-E",
+    "statement": "E. Vladik and cardstime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputVladik was bored on his way home and decided to play the following game. He tookncards and put them in a row in front of himself. Every card has a positive integer number not exceeding8written on it. He decided to find the longest subsequence of cards which satisfies the following conditions:the number of occurrences of each number from1to8in the subsequence doesn't differ by more then1from the number of occurrences of any other number. Formally, if there areckcards with numberkon them in the subsequence, than for all pairs of integersthe condition|ci-cj| ≤ 1must hold.if there is at least one card with numberxon it in the subsequence, then all cards with numberxin this subsequence must form a continuous segment in it (but not necessarily a continuous segment in the original sequence). For example, the subsequence[1, 1, 2, 2]satisfies this condition while the subsequence[1, 2, 2, 1]doesn't. Note that[1, 1, 2, 2]doesn't satisfy the first condition.Please help Vladik to find the length of the longest subsequence that satisfies both conditions.InputThe first line contains single integern(1 ≤n≤ 1000) — the number of cards in Vladik's sequence.The second line contains the sequence ofnpositive integers not exceeding8— the description of Vladik's sequence.OutputPrint single integer — the length of the longest subsequence of Vladik's sequence that satisfies both conditions.ExamplesInput31 1 1Output1Input88 7 6 5 4 3 2 1Output8Input241 8 1 2 8 2 3 8 3 4 8 4 5 8 5 6 8 6 7 8 7 8 8 8Output17NoteIn the first sample all the numbers written on the cards are equal, so you can't take more than one card, otherwise you'll violate the first condition.",
+    "source": "CF",
+    "vjudge": false
+}

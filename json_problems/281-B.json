@@ -1,0 +1,13 @@
+{
+    "uid": "281-B",
+    "url": "https://codeforces.com/contest/281/problem/B",
+    "tags": [
+        "brute force",
+        " implementation",
+        " two pointers"
+    ],
+    "title": "281-B",
+    "statement": "B. Nearest Fractiontime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutYou are given three positive integersx,y,n. Your task is to find the nearest fraction to fractionwhose denominator is no more thann.Formally, you should find such pair of integersa,b(1 ≤b≤n; 0 ≤a)that the valueis as minimal as possible.If there are multiple \"nearest\" fractions, choose the one with the minimum denominator. If there are multiple \"nearest\" fractions with the minimum denominator, choose the one with the minimum numerator.InputA single line contains three integersx,y,n(1 ≤x,y,n≤ 105).OutputPrint the required fraction in the format \"a/b\" (without quotes).ExamplesInput3 7 6Output2/5Input7 2 4Output7/2",
+    "source": "CF",
+    "vjudge": false
+}

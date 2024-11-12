@@ -1,0 +1,12 @@
+{
+    "uid": "131-C",
+    "url": "https://codeforces.com/contest/131/problem/C",
+    "tags": [
+        "combinatorics",
+        " math"
+    ],
+    "title": "131-C",
+    "statement": "C. The World is a Theatretime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutThere arenboys andmgirls attending a theatre club. To set a play \"The Big Bang Theory\", they need to choose a group containing exactlytactors containing no less than 4 boys and no less than one girl. How many ways are there to choose a group? Of course, the variants that only differ in the composition of the troupe are considered different.Perform all calculations in the 64-bit type:long longfor С/С++,int64for Delphi andlongfor Java.InputThe only line of the input data contains three integersn,m,t(4 ≤n≤ 30, 1 ≤m≤ 30, 5 ≤t≤n+m).OutputFind the required number of ways.Please do not use the %lld specificator to read or write 64-bit integers in С++. It is preferred to use cin, cout streams or the %I64d specificator.ExamplesInput5 2 5Output10Input4 3 5Output3",
+    "source": "CF",
+    "vjudge": false
+}

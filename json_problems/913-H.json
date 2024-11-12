@@ -1,0 +1,12 @@
+{
+    "uid": "913-H",
+    "url": "https://codeforces.com/contest/913/problem/H",
+    "tags": [
+        "math",
+        " probabilities"
+    ],
+    "title": "913-H",
+    "statement": "H. Don't Exceedtime limit per test4 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou generate real numberss1,s2, ...,snas follows:s0= 0;si=si- 1+ti, wheretiis a real number chosen independently uniformly at random between 0 and 1, inclusive.You are given real numbersx1,x2, ...,xn. You are interested in the probability thatsi≤xiis true for allisimultaneously.It can be shown that this can be represented as, wherePandQare coprime integers, and. Print the value ofP·Q- 1modulo998244353.InputThe first line contains integern(1 ≤n≤ 30).The nextnlines contain real numbersx1,x2, ...,xn, given with at most six digits after the decimal point (0 <xi≤n).OutputPrint a single integer, the answer to the problem.ExamplesInput41.0023.0000004.0Output1Input10.50216Output342677322Input20.51.0Output623902721Input60.771.2345672.11.8902.99993.77Output859831967NoteIn the first example, the sought probability is 1 since the sum ofireal numbers which don't exceed 1 doesn't exceedi.In the second example, the probability isx1itself.In the third example, the sought probability is3 / 8.",
+    "source": "CF",
+    "vjudge": false
+}

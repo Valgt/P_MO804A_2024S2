@@ -1,0 +1,14 @@
+{
+    "uid": "825-F",
+    "url": "https://codeforces.com/contest/825/problem/F",
+    "tags": [
+        "dp",
+        " hashing",
+        " string suffix structures",
+        " strings"
+    ],
+    "title": "825-F",
+    "statement": "F. String Compressiontime limit per test2 secondsmemory limit per test512 megabytesinputstandard inputoutputstandard outputIvan wants to write a letter to his friend. The letter is a stringsconsisting of lowercase Latin letters.Unfortunately, when Ivan started writing the letter, he realised that it is very long and writing the whole letter may take extremely long time. So he wants to write thecompressed versionof stringsinstead of the string itself.Thecompressed versionof stringsis a sequence of stringsc1,s1,c2,s2, ...,ck,sk, whereciis the decimal representation of numberai(without any leading zeroes) andsiis some string consisting of lowercase Latin letters. If Ivan writes strings1exactlya1times, then strings2exactlya2times, and so on, the result will be strings.The length of acompressed versionis|c1| + |s1| + |c2| + |s2|... |ck| + |sk|. Among allcompressed versionsIvan wants to choose a version such that its length is minimum possible. Help Ivan to determine minimum possible length.InputThe only line of input contains one stringsconsisting of lowercase Latin letters (1 ≤ |s| ≤ 8000).OutputOutput one integer number — the minimum possible length of acompressed versionofs.ExamplesInputaaaaaaaaaaOutput3InputabcabOutput6InputcczababababOutput7NoteIn the first example Ivan will choose this compressed version:c1is10,s1isa.In the second example Ivan will choose this compressed version:c1is1,s1isabcab.In the third example Ivan will choose this compressed version:c1is2,s1isc,c2is1,s2isz,c3is4,s3isab.",
+    "source": "CF",
+    "vjudge": false
+}

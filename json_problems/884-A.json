@@ -1,0 +1,11 @@
+{
+    "uid": "884-A",
+    "url": "https://codeforces.com/contest/884/problem/A",
+    "tags": [
+        "implementation"
+    ],
+    "title": "884-A",
+    "statement": "A. Book Readingtime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputRecently Luba bought a very interesting book. She knows that it will taketseconds to read the book. Luba wants to finish reading as fast as she can.But she has some work to do in each ofnnext days. The number of seconds that Luba has to spend working duringi-th day isai. If some free time remains, she can spend it on reading.Help Luba to determine the minimum number of day when she finishes reading.It is guaranteed that the answer doesn't exceedn.Remember that there are 86400 seconds in a day.InputThe first line contains two integersnandt(1 ≤n≤ 100,1 ≤t≤ 106) — the number of days and the time required to read the book.The second line containsnintegersai(0 ≤ai≤ 86400) — the time Luba has to spend on her work duringi-th day.OutputPrint the minimum day Luba can finish reading the book.It is guaranteed that answer doesn't exceedn.ExamplesInput2 286400 86398Output2Input2 864000 86400Output1",
+    "source": "CF",
+    "vjudge": false
+}

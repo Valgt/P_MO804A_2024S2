@@ -1,0 +1,12 @@
+{
+    "uid": "4-B",
+    "url": "https://codeforces.com/contest/4/problem/B",
+    "tags": [
+        "constructive algorithms",
+        " greedy"
+    ],
+    "title": "4-B",
+    "statement": "B. Before an Examtime limit per test0.5 secondmemory limit per test64 megabytesinputstdinoutputstdoutTomorrow Peter has a Biology exam. He does not like this subject much, butddays ago he learnt that he would have to take this exam. Peter's strict parents made him prepare for the exam immediately, for this purpose he has to study not less thanminTimeiand not more thanmaxTimeihours per eachi-th day. Moreover, they warned Peter that a day before the exam they would check how he has followed their instructions.So, today is the day when Peter's parents ask him to show the timetable of his preparatory studies. But the boy has counted only the sum of hourssumTimespent him on preparation, and now he wants to know if he can show his parents a timetablesсhedulewithdnumbers, where each numbersсheduleistands for the time in hours spent by Peter eachi-th day on biology studies, and satisfying the limitations imposed by his parents, and at the same time the sum total of allscheduleishould equal tosumTime.InputThe first input line contains two integer numbersd,sumTime(1 ≤d≤ 30, 0 ≤sumTime≤ 240) — the amount of days, during which Peter studied, and the total amount of hours, spent on preparation. Each of the followingdlines contains two integer numbersminTimei,maxTimei(0 ≤minTimei≤maxTimei≤ 8), separated by a space — minimum and maximum amount of hours that Peter could spent in thei-th day.OutputIn the first line printYES, and in the second line printdnumbers (separated by a space), each of the numbers — amount of hours, spent by Peter on preparation in the corresponding day, if he followed his parents' instructions; or printNOin the unique line. If there are many solutions, print any of them.ExamplesInput1 485 7OutputNOInput2 50 13 5OutputYES1 4",
+    "source": "CF",
+    "vjudge": false
+}

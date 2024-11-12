@@ -1,0 +1,13 @@
+{
+    "uid": "83-D",
+    "url": "https://codeforces.com/contest/83/problem/D",
+    "tags": [
+        "dp",
+        " math",
+        " number theory"
+    ],
+    "title": "83-D",
+    "statement": "D. Numberstime limit per test3 secondsmemory limit per test256 megabytesinputstdinoutputstdoutOne quite ordinary day Valera went to school (there's nowhere else he should go on a week day). In a maths lesson his favorite teacher Ms. Evans told students about divisors. Despite the fact that Valera loved math, he didn't find this particular topic interesting. Even more, it seemed so boring that he fell asleep in the middle of a lesson. And only a loud ringing of a school bell could interrupt his sweet dream.Of course, the valuable material and the teacher's explanations were lost. However, Valera will one way or another have to do the homework. As he does not know the new material absolutely, he cannot do the job himself. That's why he asked you to help. You're his best friend after all, you just cannot refuse to help.Valera's home task has only one problem, which, though formulated in a very simple way, has not a trivial solution. Its statement looks as follows: if we consider all positive integers in the interval[a;b]then it is required to count the amount of such numbers in this interval that theirsmallest divisorwill be a certain integerk(you do not have to consider divisor equal to one). In other words, you should count the amount of such numbers from the interval[a;b], that are not divisible by any number between2andk- 1and yet are divisible byk.InputThe first and only line contains three positive integersa,b,k(1 ≤a≤b≤ 2·109, 2 ≤k≤ 2·109).OutputPrint on a single line the answer to the given problem.ExamplesInput1 10 2Output5Input12 23 3Output2Input6 19 5Output0NoteComments to the samples from the statement:In the first sample the answer is numbers2, 4, 6, 8, 10.In the second one —15, 21In the third one there are no such numbers.",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,12 @@
+{
+    "uid": "811-C",
+    "url": "https://codeforces.com/contest/811/problem/C",
+    "tags": [
+        "dp",
+        " implementation"
+    ],
+    "title": "811-C",
+    "statement": "C. Vladik and Memorable Triptime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputVladik often travels by trains. He remembered some of his trips especially well and I would like to tell you about one of these trips:Vladik is at initial train station, and nownpeople (including Vladik) want to get on the train. They are already lined up in some order, and for each of them the city codeaiis known (the code of the city in which they are going to).Train chief selects some number of disjoint segments of the original sequence of people (covering entire sequence by segments isnot necessary). People who are in the same segment will be in the same train carriage. The segments are selected in such way that if at least one person travels to the cityx, then all people who are going to cityxshould be in the same railway carriage. This means that they can’t belong to different segments. Note, that all people who travel to the cityx, either go to it and in the same railway carriage, or do not go anywhere at all.Comfort of a train trip with people on segment from positionlto positionris equal toXORof all distinct codes of cities for people on the segment from positionlto positionr.XORoperation also known as exclusiveOR.Total comfort of a train trip is equal to sum of comfort for each segment.Help Vladik to know maximal possible total comfort.InputFirst line contains single integern(1 ≤n≤ 5000) — number of people.Second line containsnspace-separated integersa1,a2, ...,an(0 ≤ai≤ 5000), whereaidenotes code of the city to whichi-th person is going.OutputThe output should contain a single integer — maximal possible total comfort.ExamplesInput64 4 2 5 2 3Output14Input95 1 3 1 5 2 4 2 5Output9NoteIn the first test case best partition into segments is:[4, 4][2, 5, 2][3], answer is calculated as follows:4 + (2xor5) + 3 = 4 + 7 + 3 = 14In the second test case best partition into segments is:51[3]15[2, 4, 2]5, answer calculated as follows:3 + (2xor4) = 3 + 6 = 9.",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,11 @@
+{
+    "uid": "29-A",
+    "url": "https://codeforces.com/contest/29/problem/A",
+    "tags": [
+        "brute force"
+    ],
+    "title": "29-A",
+    "statement": "A. Spit Problemtime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutIn a Berland's zoo there is an enclosure with camels. It is known that camels like to spit. Bob watched these interesting animals for the whole day and registered in his notepad where each animal spitted. Now he wants to know if in the zoo there are two camels, which spitted at each other. Help him to solve this task.The trajectory of a camel's spit is an arc, i.e. if the camel in positionxspitsdmeters right, he can hit only the camel in positionx+d, if such a camel exists.InputThe first line contains integern(1 ≤n≤ 100) — the amount of camels in the zoo. Each of the followingnlines contains two integersxianddi(- 104≤xi≤ 104, 1 ≤ |di| ≤ 2·104) — records in Bob's notepad.xiis a position of thei-th camel, anddiis a distance at which thei-th camel spitted. Positive values ofdicorrespond to the spits right, negative values correspond to the spits left. No two camels may stand in the same position.OutputIf there are two camels, which spitted at each other, outputYES. Otherwise, outputNO.ExamplesInput20 11 -1OutputYESInput30 11 12 -2OutputNOInput52 -103 100 55 -510 1OutputYES",
+    "source": "CF",
+    "vjudge": false
+}

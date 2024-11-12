@@ -1,0 +1,15 @@
+{
+    "uid": "982-C",
+    "url": "https://codeforces.com/contest/982/problem/C",
+    "tags": [
+        "dfs and similar",
+        " dp",
+        " graphs",
+        " greedy",
+        " trees"
+    ],
+    "title": "982-C",
+    "statement": "C. Cut 'em all!time limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou're given a tree with $$$n$$$ vertices.Your task is to determine the maximum possible number of edges that can be removed in such a way that all the remaining connected components will have even size.InputThe first line contains an integer $$$n$$$ ($$$1 \\\\le n \\\\le 10^5$$$) denoting the size of the tree.The next $$$n - 1$$$ lines contain two integers $$$u$$$, $$$v$$$ ($$$1 \\\\le u, v \\\\le n$$$) each, describing the vertices connected by the $$$i$$$-th edge.It's guaranteed that the given edges form a tree.OutputOutput a single integer $$$k$$$ — the maximum number of edges that can be removed to leave all connected components with even size, or $$$-1$$$ if it is impossible to remove edges in order to satisfy this property.ExamplesInput42 44 13 1Output1Input31 21 3Output-1Input107 18 48 104 76 59 33 52 102 5Output4Input21 2Output0NoteIn the first example you can remove the edge between vertices $$$1$$$ and $$$4$$$. The graph after that will have two connected components with two vertices in each.In the second example you can't remove edges in such a way that all components have even number of vertices, so the answer is $$$-1$$$.",
+    "source": "CF",
+    "vjudge": false
+}

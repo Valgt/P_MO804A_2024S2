@@ -1,0 +1,14 @@
+{
+    "uid": "17-B",
+    "url": "https://codeforces.com/contest/17/problem/B",
+    "tags": [
+        "dfs and similar",
+        " dsu",
+        " greedy",
+        " shortest paths"
+    ],
+    "title": "17-B",
+    "statement": "B. Hierarchytime limit per test2 secondsmemory limit per test64 megabytesinputstdinoutputstdoutNick's company employednpeople. Now Nick needs to build a tree hierarchy of «supervisor-surbodinate» relations in the company (this is to say that each employee, except one, has exactly one supervisor). There aremapplications written in the following form:«employeeaiis ready to become a supervisor of employeebiat extra costci». The qualificationqjof each employee is known, and for each application the following is true:qai>qbi.Would you help Nick calculate the minimum cost of such a hierarchy, or find out that it is impossible to build it.InputThe first input line contains integern(1 ≤n≤ 1000) — amount of employees in the company. The following line containsnspace-separated numbersqj(0 ≤qj≤ 106)— the employees' qualifications. The following line contains numberm(0 ≤m≤ 10000) — amount of received applications. The followingmlines contain the applications themselves, each of them in the form of three space-separated numbers:ai,biandci(1 ≤ai,bi≤n,0 ≤ci≤ 106). Different applications can be similar, i.e. they can come from one and the same employee who offered to become a supervisor of the same person but at a different cost. For each applicationqai>qbi.OutputOutput the only line — the minimum cost of building such a hierarchy, or-1if it is impossible to build it.ExamplesInput47 2 3 141 2 52 4 13 4 11 3 5Output11Input31 2 323 1 23 1 3Output-1NoteIn the first sample one of the possible ways for building a hierarchy is to take applications with indexes 1, 2 and 4, which give 11 as the minimum total cost. In the second sample it is impossible to build the required hierarchy, so the answer is-1.",
+    "source": "CF",
+    "vjudge": false
+}

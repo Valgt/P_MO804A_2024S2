@@ -1,0 +1,12 @@
+{
+    "uid": "364-C",
+    "url": "https://codeforces.com/contest/364/problem/C",
+    "tags": [
+        "brute force",
+        " number theory"
+    ],
+    "title": "364-C",
+    "statement": "C. Beautiful Settime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutWe'll call a set of positive integersabeautiful if the following condition fulfills: for any primep, if, then. In other words, if one number from the set is divisible by primep, then at least half of numbers from the set is divisible byp.Your task is to find any beautiful set, where the number of elements is equal tokand each element doesn't exceed2k2.InputThe first line contains integerk(10 ≤k≤ 5000) that shows how many numbers the required beautiful set should have.OutputIn the first line printkspace-separated integers that are a beautiful set. If there are multiple such sets, you are allowed to print any of them.ExamplesInput10Output16 18 24 27 36 48 54 72 108 144",
+    "source": "CF",
+    "vjudge": false
+}

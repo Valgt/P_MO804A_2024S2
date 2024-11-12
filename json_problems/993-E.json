@@ -1,0 +1,13 @@
+{
+    "uid": "993-E",
+    "url": "https://codeforces.com/contest/993/problem/E",
+    "tags": [
+        "chinese remainder theorem",
+        " fft",
+        " math"
+    ],
+    "title": "993-E",
+    "statement": "E. Nikita and Order Statisticstime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputNikita likes tasks on order statistics, for example, he can easily find the $$$k$$$-th number in increasing order on a segment of an array. But now Nikita wonders how many segments of an array there are such that a given number $$$x$$$ is the $$$k$$$-th number in increasing order on this segment. In other words, you should find the number of segments of a given array such that there are exactly $$$k$$$ numbers of this segment which are less than $$$x$$$.Nikita wants to get answer for this question for each $$$k$$$ from $$$0$$$ to $$$n$$$, where $$$n$$$ is the size of the array.InputThe first line contains two integers $$$n$$$ and $$$x$$$ $$$(1 \\\\le n \\\\le 2 \\\\cdot 10^5, -10^9 \\\\le x \\\\le 10^9)$$$.The second line contains $$$n$$$ integers $$$a_1, a_2, \\\\ldots, a_n$$$ $$$(-10^9 \\\\le a_i \\\\le 10^9)$$$ — the given array.OutputPrint $$$n+1$$$ integers, where the $$$i$$$-th number is the answer for Nikita's question for $$$k=i-1$$$.ExamplesInput5 31 2 3 4 5Output6 5 4 0 0 0Input2 6-5 9Output1 2 0Input6 99-1 -1 -1 -1 -1 -1Output0 6 5 4 3 2 1",
+    "source": "CF",
+    "vjudge": false
+}

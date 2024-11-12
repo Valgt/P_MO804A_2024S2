@@ -1,0 +1,12 @@
+{
+    "uid": "327-C",
+    "url": "https://codeforces.com/contest/327/problem/C",
+    "tags": [
+        "combinatorics",
+        " math"
+    ],
+    "title": "327-C",
+    "statement": "C. Magic Fivetime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutThere is a long platescontainingndigits. Iahub wants to delete some digits (possibly none, but he is not allowed to delete all the digits) to form his \"magic number\" on the plate, a number that is divisible by5. Note that, the resulting number may contain leading zeros.Now Iahub wants to count the number of ways he can obtain magic number, modulo1000000007(109+ 7). Two ways are different, if the set of deleted positions insdiffers.Look at the input part of the statement,sis given in a special form.InputIn the first line you're given a stringa(1 ≤ |a| ≤ 105), containing digits only. In the second line you're given an integerk(1 ≤k≤ 109). The platesis formed by concatenatingkcopies ofatogether. That isn= |a|·k.OutputPrint a single integer — the required number of ways modulo1000000007(109+ 7).ExamplesInput12561Output4Input139902Output528Input5552Output63NoteIn the first case, there are four possible ways to make a number that is divisible by 5: 5, 15, 25 and 125.In the second case, remember to concatenate the copies ofa. The actual plate is 1399013990.In the third case, except deleting all digits, any choice will do. Therefore there are26- 1 = 63possible ways to delete digits.",
+    "source": "CF",
+    "vjudge": false
+}

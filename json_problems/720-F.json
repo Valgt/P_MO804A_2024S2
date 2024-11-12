@@ -1,0 +1,11 @@
+{
+    "uid": "720-F",
+    "url": "https://codeforces.com/contest/720/problem/F",
+    "tags": [
+        "data structures"
+    ],
+    "title": "720-F",
+    "statement": "F. Array Coveringtime limit per test3 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputMisha has an array of integers of lengthn. He wants to choosekdifferent continuous subarrays, so that each element of the array belongs to at least one of the chosen subarrays.Misha wants to choose the subarrays in such a way that if he calculated the sum of elements for each subarray, and then add up all these sums, the resulting value was maximum possible.InputThe first line of input contains two integers:n,k(1 ≤n≤ 100 000,1 ≤k≤n·(n+ 1) / 2) — the number of elements in the array and the number of different subarrays that must be chosen.The second line containsnintegersai(- 50 000 ≤ai≤ 50 000) — the elements of the array.OutputOutput one integer — the maximum possible value Misha can get by choosingkdifferent subarrays.ExampleInput5 46 -4 -10 -4 7Output11",
+    "source": "CF",
+    "vjudge": false
+}

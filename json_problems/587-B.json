@@ -1,0 +1,11 @@
+{
+    "uid": "587-B",
+    "url": "https://codeforces.com/contest/587/problem/B",
+    "tags": [
+        "dp"
+    ],
+    "title": "587-B",
+    "statement": "B. Duff in Beachtime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputWhile Duff was resting in the beach, she accidentally found a strange arrayb0,b1, ...,bl- 1consisting oflpositive integers. This array was strange because it was extremely long, but there was another (maybe shorter) array,a0, ...,an- 1thatbcan be build fromawith formula:bi=aimodnwhereamodbdenoted the remainder of dividingabyb.Duff is so curious, she wants to know the number of subsequences ofblikebi1,bi2, ...,bix(0 ≤i1<i2< ... <ix<l), such that:1 ≤x≤kFor each1 ≤j≤x- 1,For each1 ≤j≤x- 1,bij≤bij+ 1. i.e this subsequence is non-decreasing.Since this number can be very large, she want to know it modulo109+ 7.Duff is not a programmer, and Malek is unavailable at the moment. So she asked for your help. Please tell her this number.InputThe first line of input contains three integers,n,landk(1 ≤n,k,n×k≤ 106and1 ≤l≤ 1018).The second line containsnspace separated integers,a0,a1, ...,an- 1(1 ≤ai≤ 109for each0 ≤i≤n- 1).OutputPrint the answer modulo1 000 000 007in one line.ExamplesInput3 5 35 9 1Output10Input5 10 31 2 3 4 5Output25NoteIn the first sample case,. So all such sequences are:,,,,,,,,and.",
+    "source": "CF",
+    "vjudge": false
+}

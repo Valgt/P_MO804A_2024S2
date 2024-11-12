@@ -1,0 +1,13 @@
+{
+    "uid": "923-D",
+    "url": "https://codeforces.com/contest/923/problem/D",
+    "tags": [
+        "constructive algorithms",
+        " implementation",
+        " strings"
+    ],
+    "title": "923-D",
+    "statement": "D. Picking Stringstime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputAlice has a string consisting of characters 'A', 'B' and 'C'. Bob can use the following transitions on any substring of our string in any order any number of times:ABCBACCABAAAempty stringNote that a substring is one or more consecutive characters. For given queries, determine whether it is possible to obtain the target string from source.InputThe first line contains a stringS(1 ≤ |S| ≤ 105). The second line contains a stringT(1 ≤ |T| ≤ 105), each of these strings consists only of uppercase English letters 'A', 'B' and 'C'.The third line contains the number of queriesQ(1 ≤Q≤ 105).The followingQlines describe queries. Thei-th of these lines contains four space separated integersai,bi,ci,di. These represent thei-th query: is it possible to createT[ci..di]fromS[ai..bi]by applying the above transitions finite amount of times?Here,U[x..y]is a substring ofUthat begins at indexx(indexed from 1) and ends at indexy. In particular,U[1..|U|]is the whole stringU.It is guaranteed that1 ≤a≤b≤ |S|and1 ≤c≤d≤ |T|.OutputPrint a string ofQcharacters, where thei-th character is '1' if the answer to thei-th query is positive, and '0' otherwise.ExampleInputAABCCBAABABCB51 3 1 22 2 2 47 9 1 13 4 2 34 5 1 3Output10011NoteIn the first query we can achieve the result, for instance, by using transitions.The third query asks for changingAABtoA— but in this case we are not able to get rid of the character 'B'.",
+    "source": "CF",
+    "vjudge": false
+}

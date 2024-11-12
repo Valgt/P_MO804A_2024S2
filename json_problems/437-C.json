@@ -1,0 +1,13 @@
+{
+    "uid": "437-C",
+    "url": "https://codeforces.com/contest/437/problem/C",
+    "tags": [
+        "graphs",
+        " greedy",
+        " sortings"
+    ],
+    "title": "437-C",
+    "statement": "C. The Child and Toytime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutOn Children's Day, the child got a toy from Delayyy as a present. However, the child is so naughty that he can't wait to destroy the toy.The toy consists ofnparts andmropes. Each rope links two parts, but every pair of parts is linked by at most one rope. To split the toy, the child must remove all its parts. The child can remove a single part at a time, and each remove consume an energy. Let's define an energy value of partiasvi. The child spendvf1+vf2+ ... +vfkenergy for removing partiwheref1,f2, ...,fkare the parts that are directly connected to thei-th and haven't been removed.Help the child to find out, what is the minimum total energy he should spend to remove allnparts.InputThe first line contains two integersnandm(1 ≤n≤ 1000;0 ≤m≤ 2000). The second line containsnintegers:v1,v2, ...,vn(0 ≤vi≤ 105). Then followedmlines, each line contains two integersxiandyi, representing a rope from partxito partyi(1 ≤xi,yi≤n;xi≠yi).Consider all the parts are numbered from1ton.OutputOutput the minimum total energy the child should spend to remove allnparts of the toy.ExamplesInput4 310 20 30 401 41 22 3Output40Input4 4100 100 100 1001 22 32 43 4Output400Input7 1040 10 20 10 20 80 401 54 74 55 25 76 41 61 34 31 4Output160NoteOne of the optimal sequence of actions in the first sample is:First, remove part3, cost of the action is20.Then, remove part2, cost of the action is10.Next, remove part4, cost of the action is10.At last, remove part1, cost of the action is0.So the total energy the child paid is20 + 10 + 10 + 0 = 40, which is the minimum.In the second sample, the child will spend400no matter in what order he will remove the parts.",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,12 @@
+{
+    "uid": "348-D",
+    "url": "https://codeforces.com/contest/348/problem/D",
+    "tags": [
+        "dp",
+        " matrices"
+    ],
+    "title": "348-D",
+    "statement": "D. Turtlestime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutYou've got a table of sizen×m. We'll consider the table rows numbered from top to bottom 1 throughn, and the columns numbered from left to right 1 throughm. Then we'll denote the cell in rowxand columnyas(x,y).Initially cell(1, 1)contains two similar turtles. Both turtles want to get to cell(n,m). Some cells of the table have obstacles but it is guaranteed that there aren't any obstacles in the upper left and lower right corner. A turtle (one or the other) can go from cell(x,y)to one of two cells(x+ 1,y)and(x,y+ 1), as long as the required cell doesn't contain an obstacle. The turtles have had an argument so they don't want to have any chance of meeting each other along the way. Help them find the number of ways in which they can go from cell(1, 1)to cell(n,m).More formally, find the number of pairs of non-intersecting ways from cell(1, 1)to cell(n,m)modulo1000000007(109+ 7). Two ways are called non-intersecting if they have exactly two common points — the starting point and the final point.InputThe first line contains two integersn,m(2 ≤n,m≤ 3000). Each of the followingnlines containsmcharacters describing the table. The empty cells are marked by characters \".\", the cells with obstacles are marked by \"#\".It is guaranteed that the upper left and the lower right cells are empty.OutputIn a single line print a single integer — the number of pairs of non-intersecting paths from cell(1, 1)to cell(n,m)modulo1000000007(109+ 7).ExamplesInput4 5......###..###......Output1Input2 3......Output1",
+    "source": "CF",
+    "vjudge": false
+}

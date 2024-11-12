@@ -1,0 +1,13 @@
+{
+    "uid": "336-D",
+    "url": "https://codeforces.com/contest/336/problem/D",
+    "tags": [
+        "combinatorics",
+        " math",
+        " number theory"
+    ],
+    "title": "336-D",
+    "statement": "D. Vasily the Bear and Beautiful Stringstime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutVasily the Bear lovesbeautifulstrings. Stringsisbeautifulif it meets the following criteria:Stringsonly consists of characters0and1, at that character0must occur in stringsexactlyntimes, and character1must occur exactlymtimes.We can obtain charactergfrom stringswith some (possibly, zero) number of modifications. The charactergequals either zero or one.Amodificationof string with length at least two is the following operation: we replace two last characters from the string by exactly one other character. This character equals one if it replaces two zeros, otherwise it equals zero. For example, one modification transforms string \"01010\" into string \"0100\", two modifications transform it to \"011\". It is forbidden to modify a string with length less than two.Help the Bear, count the number ofbeautifulstrings. As the number of beautiful strings can be rather large, print the remainder after dividing the number by1000000007(109+ 7).InputThe first line of the input contains three space-separated integersn,m,g(0 ≤n,m≤ 105,n+m≥ 1, 0 ≤g≤ 1).OutputPrint a single integer — the answer to the problem modulo1000000007(109+ 7).ExamplesInput1 1 0Output2Input2 2 0Output4Input1 1 1Output0NoteIn the first sample the beautiful strings are: \"01\", \"10\".In the second sample the beautiful strings are: \"0011\", \"1001\", \"1010\", \"1100\".In the third sample there are no beautiful strings.",
+    "source": "CF",
+    "vjudge": false
+}

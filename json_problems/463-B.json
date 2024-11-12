@@ -1,0 +1,13 @@
+{
+    "uid": "463-B",
+    "url": "https://codeforces.com/contest/463/problem/B",
+    "tags": [
+        "brute force",
+        " implementation",
+        " math"
+    ],
+    "title": "463-B",
+    "statement": "B. Caisa and Pylonstime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutCaisa solved the problem with the sugar and now he is on the way back to home.Caisa is playing a mobile game during his path. There are(n+ 1)pylons numbered from0tonin this game. The pylon with number0has zero height, the pylon with numberi(i> 0)has heighthi. The goal of the game is to reachn-th pylon, and the only move the player can do is to jump from the current pylon (let's denote its number ask) to the next one (its number will bek+ 1). When the player have made such a move, its energy increases byhk-hk+ 1(if this value is negative the player loses energy). The player must have non-negative amount of energy at any moment of the time.Initially Caisa stand at0pylon and has0energy. The game provides a special opportunity: one can pay a single dollar and increase the height of anyone pylon by one. Caisa may use that opportunity several times, but he doesn't want to spend too much money. What is the minimal amount of money he must paid to reach the goal of the game?InputThe first line contains integern(1 ≤n≤ 105). The next line containsnintegersh1,h2, ...,hn(1  ≤hi≤  105)representing the heights of the pylons.OutputPrint a single number representing the minimum number of dollars paid by Caisa.ExamplesInput53 4 3 2 4Output4Input34 4 4Output4NoteIn the first sample he can pay4dollars and increase the height of pylon with number0by4units. Then he can safely pass to the last pylon.",
+    "source": "CF",
+    "vjudge": false
+}

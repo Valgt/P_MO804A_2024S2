@@ -1,0 +1,12 @@
+{
+    "uid": "1151-A",
+    "url": "https://codeforces.com/contest/1151/problem/A",
+    "tags": [
+        "brute force",
+        " strings"
+    ],
+    "title": "1151-A",
+    "statement": "A. Maxim and Biologytime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputToday in the scientific lyceum of the Kingdom of Kremland, there was a biology lesson. The topic of the lesson was thegenomes. Let's call thegenomethe string \"ACTG\".Maxim was very boring to sit in class, so the teacher came up with a task for him: on a given string $$$s$$$ consisting of uppercase letters and length of at least $$$4$$$, you need to find the minimum number ofoperationsthat you need to apply, so that thegenomeappears in it as a substring. For oneoperation, you can replace any letter in the string $$$s$$$ with the next or previous in the alphabet. For example, for the letter \"D\" the previous one will be \"C\", and the next — \"E\". In this problem, we assume that for the letter \"A\", the previous one will be the letter \"Z\", and the next one will be \"B\", and for the letter \"Z\", the previous one is the letter \"Y\", and the next one is the letter \"A\".Help Maxim solve the problem that the teacher gave him.A string $$$a$$$ is a substring of a string $$$b$$$ if $$$a$$$ can be obtained from $$$b$$$ by deletion of several (possibly, zero or all) characters from the beginning and several (possibly, zero or all) characters from the end.InputThe first line contains a single integer $$$n$$$ ($$$4 \\\\leq n \\\\leq 50$$$) — the length of the string $$$s$$$.The second line contains the string $$$s$$$, consisting of exactly $$$n$$$ uppercase letters of the Latin alphabet.OutputOutput the minimum number ofoperationsthat need to be applied to the string $$$s$$$ so that thegenomeappears as a substring in it.ExamplesInput4 ZCTHOutput2Input5 ZDATGOutput5Input6 AFBAKCOutput16NoteIn the first example, you should replace the letter \"Z\" with \"A\" for oneoperation, the letter \"H\" — with the letter \"G\" for oneoperation. You will get the string \"ACTG\", in which thegenomeis present as a substring.In the second example, we replace the letter \"A\" with \"C\" for twooperations, the letter \"D\" — with the letter \"A\" for threeoperations. You will get the string \"ZACTG\", in which there is agenome.",
+    "source": "CF",
+    "vjudge": false
+}

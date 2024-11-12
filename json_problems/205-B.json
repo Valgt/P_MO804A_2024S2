@@ -1,0 +1,12 @@
+{
+    "uid": "205-B",
+    "url": "https://codeforces.com/contest/205/problem/B",
+    "tags": [
+        "brute force",
+        " greedy"
+    ],
+    "title": "205-B",
+    "statement": "B. Little Elephant and Sortingtime limit per test0.5 secondsmemory limit per test256 megabytesinputstdinoutputstdoutThe Little Elephant loves sortings.He has an arrayaconsisting ofnintegers. Let's number the array elements from 1 ton, then thei-th element will be denoted asai. The Little Elephant can make one move to choose an arbitrary pair of integerslandr(1 ≤l≤r≤n)and increaseaiby1for allisuch thatl≤i≤r.Help the Little Elephant find the minimum number of moves he needs to convert arrayato an arbitrary array sorted in the non-decreasing order. Arraya, consisting ofnelements, is sorted in the non-decreasing order if for anyi(1 ≤i<n)ai≤ai+ 1holds.InputThe first line contains a single integern(1 ≤n≤ 105)— the size of arraya. The next line containsnintegers, separated by single spaces — arraya(1 ≤ai≤ 109). The array elements are listed in the line in the order of their index's increasing.OutputIn a single line print a single integer — the answer to the problem.Please, do not use the%lldspecifier to read or write 64-bit integers in С++. It is preferred to use thecin,coutstreams or the%I64dspecifier.ExamplesInput31 2 3Output0Input33 2 1Output2Input47 4 1 47Output6NoteIn the first sample the array is already sorted in the non-decreasing order, so the answer is0.In the second sample you need to perform two operations: first increase numbers from second to third (after that the array will be:[3, 3, 2]), and second increase only the last element (the array will be:[3, 3, 3]).In the third sample you should make at least 6 steps. The possible sequence of the operations is:(2; 3), (2; 3), (2; 3), (3; 3), (3; 3), (3; 3). After that the array converts to[7, 7, 7, 47].",
+    "source": "CF",
+    "vjudge": false
+}

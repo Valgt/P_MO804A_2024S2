@@ -1,0 +1,12 @@
+{
+    "uid": "389-B",
+    "url": "https://codeforces.com/contest/389/problem/B",
+    "tags": [
+        "greedy",
+        " implementation"
+    ],
+    "title": "389-B",
+    "statement": "B. Fox and Crosstime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutFox Ciel has a board withnrows andncolumns. So, the board consists ofn×ncells. Each cell contains either a symbol '.', or a symbol '#'.A cross on the board is a connected set of exactly five cells of the board that looks like a cross. The picture below shows how it looks.Ciel wants to draw several (may be zero) crosses on the board. Each cross must cover exactly five cells with symbols '#', and any cell with symbol '#' must belong to some cross. No two crosses can share a cell.Please, tell Ciel if she can draw the crosses in the described way.InputThe first line contains an integern(3 ≤n≤ 100) — the size of the board.Each of the nextnlines describes one row of the board. Thei-th line describes thei-th row of the board and consists ofncharacters. Each character is either a symbol '.', or a symbol '#'.OutputOutput a single line with \"YES\" if Ciel can draw the crosses in the described way. Otherwise output a single line with \"NO\".ExamplesInput5.#...####..####...#......OutputYESInput4################OutputNOInput6.#....####...####..#.##.######.#..#.OutputYESInput6.#..#.######.####..####.######.#..#.OutputNOInput3.........OutputYESNoteIn example 1, you can draw two crosses. The picture below shows what they look like.In example 2, the board contains 16 cells with '#', but each cross contains 5. Since 16 is not a multiple of 5, so it's impossible to cover all.",
+    "source": "CF",
+    "vjudge": false
+}

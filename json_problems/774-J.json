@@ -1,0 +1,12 @@
+{
+    "uid": "774-J",
+    "url": "https://codeforces.com/contest/774/problem/J",
+    "tags": [
+        "*special",
+        " dp"
+    ],
+    "title": "774-J",
+    "statement": "J. Stepan's Seriestime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputWell, the series which Stepan watched for a very long time, ended. In total, the series hadnepisodes. For each of them, Stepan remembers either that he definitely has watched it, or that he definitely hasn't watched it, or he is unsure, has he watched this episode or not.Stepan's dissatisfaction is themaximumnumber of consecutive series that Stepan did not watch.Your task is to determine according to Stepan's memories if his dissatisfaction could be exactly equal tok.InputThe first line contains two integersnandk(1 ≤n≤ 100,0 ≤k≤n) — the number of episodes in the series and the dissatisfaction which should be checked.The second line contains the sequence which consists ofnsymbols \"Y\", \"N\" and \"?\". If thei-th symbol equals \"Y\", Stepan remembers that he has watched the episode numberi. If thei-th symbol equals \"N\", Stepan remembers that he hasn't watched the epizode numberi. If thei-th symbol equals \"?\", Stepan doesn't exactly remember if he has watched the episode numberior not.OutputIf Stepan's dissatisfaction can be exactly equal tok, then print \"YES\" (without qoutes). Otherwise print \"NO\" (without qoutes).ExamplesInput5 2NYNNYOutputYESInput6 1????NNOutputNONoteIn the first test Stepan remembers about all the episodes whether he has watched them or not. His dissatisfaction is2, because he hasn't watch two episodes in a row — the episode number3and the episode number4. The answer is \"YES\", becausek= 2.In the second testk= 1, Stepan's dissatisfaction is greater than or equal to2(because he remembers that he hasn't watch at least two episodes in a row — number5and number6), even if he has watched the episodes from the first to the fourth, inclusive.",
+    "source": "CF",
+    "vjudge": false
+}

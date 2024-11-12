@@ -1,0 +1,12 @@
+{
+    "uid": "611-G",
+    "url": "https://codeforces.com/contest/611/problem/G",
+    "tags": [
+        "geometry",
+        " two pointers"
+    ],
+    "title": "611-G",
+    "statement": "G. New Year and Caketime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputLimak is a little polar bear. According to some old traditions, his bear family prepared a New Year cake. And Limak likes cakes.As you may know, a New Year cake is a strictly convex polygon withnvertices.Parents won't allow Limak to eat more than half of a cake because he would get sick. After some thinking they decided to cut a cake along one ofn·(n- 3) / 2diagonals. Then Limak will get a non-greater piece.Limak understands rules but he won't be happy if the second piece happens to be much bigger. Limak's disappointment will be equal to the difference between pieces' areas, multiplied by two. It can be proved that it will be integer for the given constraints.There aren·(n- 3) / 2possible scenarios. Consider them all and find the sum of values of Limak's disappointment, modulo109+ 7.InputThe first line of the input contains a single integern(4 ≤n≤ 500 000) — the number of vertices in the polygon denoting the cake.Each of the nextnlines contains two integersxiandyi(|xi|, |yi| ≤ 109) — coordinates of thei-th point.It's guaranteed that all points are distinct, polygon is strictly convex and points are given in the clockwise order.OutputPrint the sum of values of Limak's disappointment over all possible scenarios modulo109+ 7.ExamplesInput52 42 75 75 43 -2Output90Input4-1000000000 -50000000 12345671 1-5 -100000000Output525185196Input8-10 0-6 60 106 610 06 -60 -10-6 -6Output5216NoteIn the first sample possible values of Limak's disappointment are0, 18, 18, 24, 30.",
+    "source": "CF",
+    "vjudge": false
+}

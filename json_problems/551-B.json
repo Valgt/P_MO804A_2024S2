@@ -1,0 +1,14 @@
+{
+    "uid": "551-B",
+    "url": "https://codeforces.com/contest/551/problem/B",
+    "tags": [
+        "brute force",
+        " constructive algorithms",
+        " implementation",
+        " strings"
+    ],
+    "title": "551-B",
+    "statement": "B. ZgukistringZtime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputProfessor GukiZ doesn't accept string as they are. He likes to swap some letters in string to obtain a new one.GukiZ has stringsa,b, andc. He wants to obtain stringkby swapping some letters ina, so thatkshould contain as many non-overlapping substrings equal either toborcas possible. Substring of stringxis a string formed by consecutive segment of characters fromx. Two substrings of stringxoverlap if there is positioniin stringxoccupied by both of them.GukiZ was disappointed because none of his students managed to solve the problem. Can you help them and find one of possible stringsk?InputThe first line contains stringa, the second line contains stringb, and the third line contains stringc(1 ≤ |a|, |b|, |c| ≤ 105, where|s|denotes the length of strings).All three strings consist only of lowercase English letters.It is possible thatbandccoincide.OutputFind one of possible stringsk, as described in the problem statement. If there are multiple possible answers, print any of them.ExamplesInputaaaabOutputaaaInputpozdravstaklenidodirinistedobriOutputnisteaadddiiklooprrvzInputabbbaacccaabacaOutputababacabccNoteIn the third sample, this optimal solutions has three non-overlaping substrings equal to eitherborcon positions1 – 2(ab),3 – 4(ab),5 – 7(aca). In this sample, there exist many other optimal solutions, one of them would beacaababbcc.",
+    "source": "CF",
+    "vjudge": false
+}

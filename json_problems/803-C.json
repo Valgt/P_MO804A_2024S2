@@ -1,0 +1,13 @@
+{
+    "uid": "803-C",
+    "url": "https://codeforces.com/contest/803/problem/C",
+    "tags": [
+        "constructive algorithms",
+        " greedy",
+        " math"
+    ],
+    "title": "803-C",
+    "statement": "C. Maximal GCDtime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given positive integer numbern. You should create suchstrictly increasingsequence ofkpositive numbersa1,a2, ...,ak, that their sum is equal tonand greatest common divisor is maximal.Greatest common divisor of sequence is maximum of such numbers that every element of sequence is divisible by them.If there is no possible sequence then output-1.InputThe first line consists of two numbersnandk(1 ≤n,k≤ 1010).OutputIf the answer exists then outputknumbers — resulting sequence. Otherwise output-1. If there are multiple answers, print any of them.ExamplesInput6 3Output1 2 3Input8 2Output2 6Input5 3Output-1",
+    "source": "CF",
+    "vjudge": false
+}

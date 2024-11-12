@@ -1,0 +1,11 @@
+{
+    "uid": "710-A",
+    "url": "https://codeforces.com/contest/710/problem/A",
+    "tags": [
+        "implementation"
+    ],
+    "title": "710-A",
+    "statement": "A. King Movestime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputThe only king stands on the standard chess board. You are given his position in format \"cd\", wherecis the column from 'a' to 'h' anddis the row from '1' to '8'. Find the number of moves permitted for the king.Check the king's moves herehttps://en.wikipedia.org/wiki/King_(chess).King moves from the position e4InputThe only line contains the king's position in the format \"cd\", where 'c' is the column from 'a' to 'h' and 'd' is the row from '1' to '8'.OutputPrint the only integerx— the number of moves permitted for the king.ExampleInpute4Output8",
+    "source": "CF",
+    "vjudge": false
+}

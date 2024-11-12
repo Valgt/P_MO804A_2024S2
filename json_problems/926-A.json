@@ -1,0 +1,12 @@
+{
+    "uid": "926-A",
+    "url": "https://codeforces.com/contest/926/problem/A",
+    "tags": [
+        "implementation",
+        " math"
+    ],
+    "title": "926-A",
+    "statement": "A. 2-3-numberstime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputA positive integer is called a2-3-integer, if it is equal to2x·3yfor some non-negative integersxandy. In other words, these integers are such integers that only have2and3among their prime divisors. For example, integers1,6,9,16and108— are 2-3 integers, while5,10,21and120are not.Print the number of2-3-integerson the given segment[l,r], i. e. the number of sich2-3-integerstthatl≤t≤r.InputThe only line contains two integerslandr(1 ≤l≤r≤ 2·109).OutputPrint a single integer the number of2-3-integerson the segment[l,r].ExamplesInput1 10Output7Input100 200Output5Input1 2000000000Output326NoteIn the first example the2-3-integersare1,2,3,4,6,8and9.In the second example the2-3-integersare108,128,144,162and192.",
+    "source": "CF",
+    "vjudge": false
+}

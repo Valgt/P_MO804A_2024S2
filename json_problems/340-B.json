@@ -1,0 +1,12 @@
+{
+    "uid": "340-B",
+    "url": "https://codeforces.com/contest/340/problem/B",
+    "tags": [
+        "brute force",
+        " geometry"
+    ],
+    "title": "340-B",
+    "statement": "B. Maximal Area Quadrilateraltime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutIahub has drawn a set ofnpoints in the cartesian plane which he calls \"special points\". A quadrilateral is a simple polygon without self-intersections with four sides (also called edges) and four vertices (also called corners). Please note that a quadrilateral doesn't have to be convex. A special quadrilateral is one which has all four vertices in the set of special points. Given the set of special points, please calculate the maximal area of a special quadrilateral.InputThe first line contains integern(4 ≤n≤ 300). Each of the nextnlines contains two integers:xi,yi( - 1000 ≤xi,yi≤ 1000)— the cartesian coordinates ofith special point. It is guaranteed that no three points are on the same line. It is guaranteed that no two points coincide.OutputOutput a single real number — the maximal area of a special quadrilateral. The answer will be considered correct if its absolute or relative error does't exceed10- 9.ExamplesInput50 00 44 04 42 3Output16.000000NoteIn the test example we can choose first4points to be the vertices of the quadrilateral. They form a square by side4, so the area is4·4 = 16.",
+    "source": "CF",
+    "vjudge": false
+}

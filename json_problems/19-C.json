@@ -1,0 +1,13 @@
+{
+    "uid": "19-C",
+    "url": "https://codeforces.com/contest/19/problem/C",
+    "tags": [
+        "greedy",
+        " hashing",
+        " string suffix structures"
+    ],
+    "title": "19-C",
+    "statement": "C. Deletion of Repeatstime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutOnce Bob saw a string. It contained so many different letters, that the letters were marked by numbers, but at the same time each letter could be met in the string at most 10 times. Bob didn't like that string, because it contained repeats: a repeat of lengthxis such a substring of length2x, that its first half coincides character by character with its second half. Bob started deleting all the repeats from the string. He does it as follows: while it's possible, Bob takes the shortest repeat, if it is not unique, he takes the leftmost one, and deletes its left half and everything that is to the left of this repeat.You're given the string seen by Bob. Find out, what it will look like after Bob deletes all the repeats in the way described above.InputThe first input line contains integern(1 ≤n≤ 105) — length of the string. The following line containsnspace-separated integer numbers from0to109inclusive — numbers that stand for the letters of the string. It's guaranteed that each letter can be met in the string at most 10 times.OutputIn the first line output the length of the string's part, left after Bob's deletions. In the second line output all the letters (separated by a space) of the string, left after Bob deleted all the repeats in the described way.ExamplesInput61 2 3 1 2 3Output31 2 3Input74 5 6 5 6 7 7Output17",
+    "source": "CF",
+    "vjudge": false
+}

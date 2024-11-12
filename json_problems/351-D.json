@@ -1,0 +1,11 @@
+{
+    "uid": "351-D",
+    "url": "https://codeforces.com/contest/351/problem/D",
+    "tags": [
+        "data structures"
+    ],
+    "title": "351-D",
+    "statement": "D. Jeff and Removing Periodstime limit per test3 secondsmemory limit per test256 megabytesinputstdinoutputstdoutCosider a sequence, consisting ofnintegers:a1,a2,...,an. Jeff can perform the following operation on sequencea:take three integersv,t,k(1 ≤v,t≤n; 0 ≤k;v+tk≤n), such thatav=av+t,av+t=av+ 2t,...,av+t(k- 1)=av+tk;remove elementsav,av+t,...,av+t·kfrom the sequencea, the remaining elements should be reindexeda1,a2, ...,an-k- 1.permute in some order the remaining elements of sequencea.A beauty of a sequenceais the minimum number of operations that is needed to delete all elements from sequencea.Jeff's written down a sequence ofmintegersb1,b2,...,bm. Now he wants to askqquestions. Each question can be described with two integersli,ri. The answer to the question is the beauty of sequencebli,bli+ 1,...,bri. You are given the sequenceband all questions. Help Jeff, answer all his questions.InputThe first line contains integerm(1 ≤m≤ 105). The next line containsmintegersb1,b2,...,bm(1 ≤bi≤ 105).The third line contains integerq(1 ≤q≤ 105)— the number of questions. The nextqlines contain pairs of integers,i-th of them contains a pair of integersli,ri(1 ≤li≤ri≤m)— the description ofi-th question.OutputInqlines print the answers to Jeff's queries. Print the answers according to the order of questions in input.ExamplesInput52 2 1 1 251 51 12 21 32 3Output21122Input102 1 3 3 3 3 1 3 1 1104 82 101 104 41 32 46 71 92 51 1Output2331322321",
+    "source": "CF",
+    "vjudge": false
+}

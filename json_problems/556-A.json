@@ -1,0 +1,11 @@
+{
+    "uid": "556-A",
+    "url": "https://codeforces.com/contest/556/problem/A",
+    "tags": [
+        "greedy"
+    ],
+    "title": "556-A",
+    "statement": "A. Case of the Zeros and Onestime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputAndrewid the Android is a galaxy-famous detective. In his free time he likes to think about strings containing zeros and ones.Once he thought about a string of lengthnconsisting of zeroes and ones. Consider the following operation: we choose any twoadjacentpositions in the string, and if one them contains 0, and the other contains 1, then we are allowed to remove these two digits from the string, obtaining a string of lengthn- 2as a result.Now Andreid thinks about what is the minimum length of the string that can remain after applying the described operation several times (possibly, zero)? Help him to calculate this number.InputFirst line of the input contains a single integern(1 ≤n≤ 2·105), the length of the string that Andreid has.The second line contains the string of lengthnconsisting only from zeros and ones.OutputOutput the minimum length of the string that may remain after applying the described operations several times.ExamplesInput41100Output0Input501010Output1Input811101111Output6NoteIn the first sample test it is possible to change the string like the following:.In the second sample test it is possible to change the string like the following:.In the third sample test it is possible to change the string like the following:.",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,14 @@
+{
+    "uid": "159-D",
+    "url": "https://codeforces.com/contest/159/problem/D",
+    "tags": [
+        "*special",
+        " brute force",
+        " dp",
+        " strings"
+    ],
+    "title": "159-D",
+    "statement": "D. Palindrome pairstime limit per test3 secondsmemory limit per test256 megabytesinputstdinoutputstdoutYou are given a non-empty stringsconsisting of lowercase letters. Find the number of pairs of non-overlapping palindromic substrings of this string.In a more formal way, you have to find the quantity of tuples(a,b,x,y)such that1 ≤a≤b<x≤y≤ |s|and substringss[a...b],s[x...y]are palindromes.Apalindromeis a string that can be read the same way from left to right and from right to left. For example, \"abacaba\", \"z\", \"abba\" are palindromes.Asubstrings[i...j](1 ≤i≤j≤ |s|) of strings=s1s2...s|s|is a stringsisi+ 1...sj. For example, substrings[2...4]of strings= \"abacaba\" equals \"bac\".InputThe first line of input contains a non-empty stringswhich consists of lowercase letters ('a'...'z'),scontains at most2000characters.OutputOutput a single number — the quantity of pairs of non-overlapping palindromic substrings ofs.Please do not use the %lld format specifier to read or write 64-bit integers in С++. It is preferred to use cin, cout streams or the %I64d format specifier.ExamplesInputaaOutput1InputaaaOutput5InputabacabaOutput36",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,12 @@
+{
+    "uid": "1874-E",
+    "url": "https://codeforces.com/contest/1874/problem/E",
+    "tags": [
+        "dp",
+        " math"
+    ],
+    "title": "1874-E",
+    "statement": "E. Jellyfish and Hacktime limit per test8 secondsmemory limit per test512 megabytesinputstandard inputoutputstandard outputIt is well known that quick sort works by randomly selecting a 'pivot' element from the array and partitioning the other elements into two sub-arrays, according to whether they are less than or greater than the pivot. But Jellyfish thinks that choosing a random element is just a waste of time, so she always chooses the first element to be the pivot. The time her code needs to run can be calculated by the following pseudocode:function fun(A)if A.length > 0let L[1 ... L.length] and R[1 ... R.length] be new arraysL.length = R.length = 0for i = 2 to A.lengthif A[i] < A[1]L.length = L.length + 1L[L.length] = A[i]elseR.length = R.length + 1R[R.length] = A[i]return A.length + fun(L) + fun(R)elsereturn 0Now you want to show her that her code is slow. When the function $$$\\\\mathrm{fun(A)}$$$ is greater than or equal to $$$lim$$$, her code will get $$$\\\\text{Time Limit Exceeded}$$$. You want to know how many distinct permutations $$$P$$$ of $$$[1, 2, \\\\dots, n]$$$ satisfies $$$\\\\mathrm{fun(P)} \\\\geq lim$$$. Because the answer may be large, you will only need to find the answer modulo $$$10^9+7$$$.InputThe only line of the input contains two integers $$$n$$$ and $$$lim$$$ ($$$1 \\\\leq n \\\\leq 200$$$, $$$1 \\\\leq lim \\\\leq 10^9$$$).OutputOutput the number of different permutations that satisfy the condition modulo $$$10^9+7$$$.ExamplesInput4 10Output8Input8 32Output1280NoteIn the first example, $$$P = [1, 4, 2, 3]$$$ satisfies the condition, because: $$$\\\\mathrm{fun([1, 4, 2, 3]) = 4 + fun([4, 2, 3]) = 7 + fun([2, 3]) = 9 + fun([3]) = 10}$$$Do remember to output the answer modulo $$$10^9+7$$$.",
+    "source": "CF",
+    "vjudge": false
+}

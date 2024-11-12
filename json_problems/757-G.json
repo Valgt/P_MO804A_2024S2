@@ -1,0 +1,14 @@
+{
+    "uid": "757-G",
+    "url": "https://codeforces.com/contest/757/problem/G",
+    "tags": [
+        "data structures",
+        " divide and conquer",
+        " graphs",
+        " trees"
+    ],
+    "title": "757-G",
+    "statement": "G. Can Bash Save the Day?time limit per test5 secondsmemory limit per test768 megabytesinputstandard inputoutputstandard outputWhoa! You did a great job helping Team Rocket who managed to capture all the Pokemons sent by Bash. Meowth, part of Team Rocket, having already mastered the human language, now wants to become a master in programming as well. He agrees to free the Pokemons if Bash can answer his questions.Initially, Meowth gives Bash a weighted tree containingnnodes and a sequencea1,a2...,anwhich is a permutation of1, 2, ...,n. Now, Mewoth makesqqueries of one of the following forms:1 l r v: meaning Bash should report, wheredist(a,b)is the length of the shortest path from nodeato nodebin the given tree.2 x: meaning Bash should swapaxandax+ 1in the given sequence. This new sequence is used for later queries.Help Bash to answer the questions!InputThe first line contains two integersnandq(1 ≤n≤ 2·105,1 ≤q≤ 2·105) — the number of nodes in the tree and the number of queries, respectively.The next line containsnspace-separated integers — the sequencea1,a2, ...,anwhich is a permutation of1, 2, ...,n.Each of the nextn- 1lines contain three space-separated integersu,v, andwdenoting that there exists an undirected edge between nodeuand nodevof weightw, (1 ≤u,v≤n,u≠v,1 ≤w≤ 106). It is guaranteed that the given graph is a tree.Each query consists of two lines. First line contains single integert, indicating the type of the query. Next line contains the description of the query:t = 1: Second line contains three integersa,bandc(1 ≤a,b,c< 230) using whichl,randvcan be generated using the formula given below:,,.t = 2: Second line contains single integera(1 ≤a< 230) using whichxcan be generated using the formula given below:.Theansiis the answer for thei-th query, assume thatans0= 0. If thei-th query is of type 2 thenansi=ansi- 1. It is guaranteed that:for each query of type 1:1 ≤l≤r≤n,1 ≤v≤n,for each query of type 2:1 ≤x≤n- 1.Theoperation means bitwise exclusive OR.OutputFor each query of type1, output a single integer in a separate line, denoting the answer to the query.ExampleInput5 54 5 1 3 24 2 41 3 94 1 44 5 211 5 4122 20 20238239136 38 38Output233728NoteIn the sample, the actual queries are the following:1 1 5 41 1 3 32 32 21 1 3 3",
+    "source": "CF",
+    "vjudge": false
+}

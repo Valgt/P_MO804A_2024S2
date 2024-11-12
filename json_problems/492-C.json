@@ -1,0 +1,12 @@
+{
+    "uid": "492-C",
+    "url": "https://codeforces.com/contest/492/problem/C",
+    "tags": [
+        "greedy",
+        " sortings"
+    ],
+    "title": "492-C",
+    "statement": "C. Vanya and Examstime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutVanya wants to passnexams and get the academic scholarship. He will get the scholarship if the average grade mark for all the exams is at leastavg. The exam grade cannot exceedr. Vanya has passed the exams and got gradeaifor thei-th exam. To increase the grade for thei-th exam by 1 point, Vanya must writebiessays. He can raise the exam grade multiple times.What is the minimum number of essays that Vanya needs to write to get scholarship?InputThe first line contains three integersn,r,avg(1 ≤n≤ 105,1 ≤r≤ 109,1 ≤avg≤min(r, 106)) — the number of exams, the maximum grade and the required grade point average, respectively.Each of the followingnlines contains space-separated integersaiandbi(1 ≤ai≤r,1 ≤bi≤ 106).OutputIn the first line print the minimum number of essays.ExamplesInput5 5 45 24 73 13 22 5Output4Input2 5 45 25 2Output0NoteIn the first sample Vanya can write 2 essays for the 3rd exam to raise his grade by 2 points and 2 essays for the 4th exam to raise his grade by 1 point.In the second sample, Vanya doesn't need to write any essays as his general point average already is above average.",
+    "source": "CF",
+    "vjudge": false
+}

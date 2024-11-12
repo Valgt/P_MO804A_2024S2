@@ -1,0 +1,12 @@
+{
+    "uid": "774-H",
+    "url": "https://codeforces.com/contest/774/problem/H",
+    "tags": [
+        "*special",
+        " constructive algorithms"
+    ],
+    "title": "774-H",
+    "statement": "H. Repairing Of Stringtime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputStepan had a favorite stringswhich consisted of the lowercase letters of the Latin alphabet.After graduation, he decided to remember it, but it was a long time ago, so he can't now remember it. But Stepan remembers some information about the string, namely the sequence of integersc1,c2, ...,cn, wherenequals the length of the strings, andciequals the number of substrings in the stringswith the lengthi, consisting of thesameletters. The substring is a sequence of consecutive characters in the strings.For example, if the Stepan's favorite string is equal to \"tttesst\", the sequenceclooks like:c= [7, 3, 1, 0, 0, 0, 0].Stepan asks you to help to repair his favorite stringsaccording to the given sequencec1,c2, ...,cn.InputThe first line contains the integern(1 ≤n≤ 2000) — the length of the Stepan's favorite string.The second line contains the sequence of integersc1,c2, ...,cn(0 ≤ci≤ 2000), whereciequals the number of substrings of the stringswith the lengthi, consisting of the same letters.It is guaranteed that the input data is such that the answer always exists.OutputPrint the repaired Stepan's favorite string. If there are several answers, it is allowed to print any of them. The string should contain only lowercase letters of the English alphabet.ExamplesInput66 3 1 0 0 0OutputkkrrrqInput44 0 0 0OutputabcdNoteIn the first test Stepan's favorite string, for example, can be the string \"kkrrrq\", because it contains6substrings with the length1, consisting of identical letters (they begin in positions1,2,3,4,5and6),3substrings with the length2, consisting of identical letters (they begin in positions1,3and4), and1substring with the length3, consisting of identical letters (it begins in the position3).",
+    "source": "CF",
+    "vjudge": false
+}

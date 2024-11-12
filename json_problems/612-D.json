@@ -1,0 +1,12 @@
+{
+    "uid": "612-D",
+    "url": "https://codeforces.com/contest/612/problem/D",
+    "tags": [
+        "greedy",
+        " sortings"
+    ],
+    "title": "612-D",
+    "statement": "D. The Union of k-Segmentstime limit per test4 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are givennsegments on the coordinate axisOxand the numberk. The point issatisfiedif it belongs to at leastksegments. Find the smallest (by the number of segments) set of segments on the coordinate axisOxwhich contains allsatisfiedpoints and no others.InputThe first line contains two integersnandk(1 ≤k≤n≤ 106) — the number of segments and the value ofk.The nextnlines contain two integersli,ri(- 109≤li≤ri≤ 109) each — the endpoints of thei-th segment. The segments can degenerate and intersect each other. The segments are given in arbitrary order.OutputFirst line contains integerm— the smallest number of segments.Nextmlines contain two integersaj,bj(aj≤bj) — the ends ofj-th segment in the answer. The segments should be listed in the order from left to right.ExamplesInput3 20 5-3 23 8Output20 23 5Input3 20 5-3 33 8Output10 5",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,12 @@
+{
+    "uid": "313-B",
+    "url": "https://codeforces.com/contest/313/problem/B",
+    "tags": [
+        "dp",
+        " implementation"
+    ],
+    "title": "313-B",
+    "statement": "B. Ilya and Queriestime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutIlya the Lion wants to help all his friends with passing exams. They need to solve the following problem to pass the IT exam.You've got strings=s1s2...sn(nis the length of the string), consisting only of characters \".\" and \"#\" andmqueries. Each query is described by a pair of integersli,ri(1 ≤li<ri≤n). The answer to the queryli,riis the number of such integersi(li≤i<ri), thatsi=si+ 1.Ilya the Lion wants to help his friends but is there anyone to help him? Help Ilya, solve the problem.InputThe first line contains stringsof lengthn(2 ≤n≤ 105). It is guaranteed that the given string only consists of characters \".\" and \"#\".The next line contains integerm(1 ≤m≤ 105)— the number of queries. Each of the nextmlines contains the description of the corresponding query. Thei-th line contains integersli,ri(1 ≤li<ri≤n).OutputPrintmintegers — the answers to the queries in the order in which they are given in the input.ExamplesInput......43 42 31 62 6Output1154Input#..###51 35 61 53 63 4Output11220",
+    "source": "CF",
+    "vjudge": false
+}

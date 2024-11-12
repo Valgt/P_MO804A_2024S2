@@ -1,0 +1,11 @@
+{
+    "uid": "392-D",
+    "url": "https://codeforces.com/contest/392/problem/D",
+    "tags": [
+        "data structures"
+    ],
+    "title": "392-D",
+    "statement": "D. Three Arraystime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutThere are three arraysa,bandc. Each of them consists ofnintegers. SmallY wants to find three integersu,v,w(0 ≤u,v,w≤n)such that the following condition holds: each number that appears in the union ofa,bandc, appears either in the firstuelements ofa, or in the firstvelements ofb, or in the firstwelements ofc. Of course, SmallY doesn't want to have huge numbersu,vandw, so she wants sumu+v+wto be as small as possible.Please, help her to find the minimal possible sum ofu+v+w.InputThe first line contains a single integern(1 ≤n≤ 105). The second line containsnspace-separated integersa1,a2, ...,an— arraya. The third line contains the description of arraybin the same format. The fourth line contains the description of arraycin the same format. The following constraint holds:1 ≤ai,bi,ci≤ 109.OutputPrint a single integer — the minimum possible sum ofu+v+w.ExamplesInput31 1 1011 2 13 2 1Output5Input51 1 2 2 32 2 4 3 33 3 1 1 1Output5NoteIn the first example you should chooseu= 3,v= 0,w= 2.In the second example you should chooseu= 1,v= 3,w= 1.",
+    "source": "CF",
+    "vjudge": false
+}

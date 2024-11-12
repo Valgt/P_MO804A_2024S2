@@ -1,0 +1,11 @@
+{
+    "uid": "162-D",
+    "url": "https://codeforces.com/contest/162/problem/D",
+    "tags": [
+        "*special"
+    ],
+    "title": "162-D",
+    "statement": "D. Remove digitstime limit per test3 secondsmemory limit per test256 megabytesinputstdinoutputstdoutYou are given a string. Remove all digits from it. When a character is removed from a string, all characters to the right of it are shifted one position to the left.InputThe only line of input contains a string between1and100characters long. Each character of the string has ASCII-code between33(exclamation mark) and126(tilde), inclusive.OutputOutput the given string with all digits removed from it. If the original string had only digits, output an empty string.ExamplesInputVK-Cup-2012!OutputVK-Cup-!InputGo,Codeforces!OutputGo,Codeforces!",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,14 @@
+{
+    "uid": "1397-B",
+    "url": "https://codeforces.com/contest/1397/problem/B",
+    "tags": [
+        "brute force",
+        " math",
+        " number theory",
+        " sortings"
+    ],
+    "title": "1397-B",
+    "statement": "B. Power Sequencetime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputLet's call a list of positive integers $$$a_0, a_1, ..., a_{n-1}$$$ apower sequenceif there is a positive integer $$$c$$$, so that for every $$$0 \\\\le i \\\\le n-1$$$ then $$$a_i = c^i$$$.Given a list of $$$n$$$ positive integers $$$a_0, a_1, ..., a_{n-1}$$$, you are allowed to:Reorder the list (i.e. pick a permutation $$$p$$$ of $$$\\\\{0,1,...,n - 1\\\\}$$$ and change $$$a_i$$$ to $$$a_{p_i}$$$), thenDo the following operation any number of times: pick an index $$$i$$$ and change $$$a_i$$$ to $$$a_i - 1$$$ or $$$a_i + 1$$$ (i.e. increment or decrement $$$a_i$$$ by $$$1$$$) with a cost of $$$1$$$.Find the minimum cost to transform $$$a_0, a_1, ..., a_{n-1}$$$ into a power sequence.InputThe first line contains an integer $$$n$$$ ($$$3 \\\\le n \\\\le 10^5$$$).The second line contains $$$n$$$ integers $$$a_0, a_1, ..., a_{n-1}$$$ ($$$1 \\\\le a_i \\\\le 10^9$$$).OutputPrint the minimum cost to transform $$$a_0, a_1, ..., a_{n-1}$$$ into a power sequence.ExamplesInput3 1 3 2Output1Input3 1000000000 1000000000 1000000000Output1999982505NoteIn the first example, we first reorder $$$\\\\{1, 3, 2\\\\}$$$ into $$$\\\\{1, 2, 3\\\\}$$$, then increment $$$a_2$$$ to $$$4$$$ with cost $$$1$$$ to get a power sequence $$$\\\\{1, 2, 4\\\\}$$$.",
+    "source": "CF",
+    "vjudge": false
+}

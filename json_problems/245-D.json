@@ -1,0 +1,12 @@
+{
+    "uid": "245-D",
+    "url": "https://codeforces.com/contest/245/problem/D",
+    "tags": [
+        "constructive algorithms",
+        " greedy"
+    ],
+    "title": "245-D",
+    "statement": "D. Restoring Tabletime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutRecently Polycarpus has learned the \"bitwise AND\" operation (which is also called \"AND\") of non-negative integers. Now he wants to demonstrate the school IT teacher his superb manipulation with the learned operation.For that Polycarpus came to school a little earlier and wrote on the board a sequence of non-negative integersa1,a2, ...,an. He also wrote a square matrixbof sizen×n. The element of matrixbthat sits in thei-th row in thej-th column (we'll denote it asbij) equals:the \"bitwise AND\" of numbersaiandaj(that is,bij=ai&aj), ifi≠j;-1, ifi=j.Having written out matrixb, Polycarpus got very happy and wipedaoff the blackboard. But the thing is, the teacher will want this sequence to check whether Polycarpus' calculations were correct. Polycarus urgently needs to restore the removed sequence of integers, or else he won't prove that he can count correctly.Help Polycarpus, given matrixb, restore the sequence of numbersa1,a2, ...,an, that he has removed from the board. Polycarpus doesn't like large numbers, so any number in the restored sequence mustn't exceed109.InputThe first line contains a single integern(1 ≤n≤ 100)— the size of square matrixb. Nextnlines contain matrixb. Thei-th of these lines containsnspace-separated integers: thej-th number represents the element of matrixbij. It is guaranteed, that for alli(1 ≤i≤n)the following condition fulfills:bii= -1. It is guaranteed that for alli,j(1 ≤i,j≤n;i≠j)the following condition fulfills:0 ≤bij≤ 109,bij=bji.OutputPrintnnon-negative integersa1,a2, ...,an(0 ≤ai≤ 109)— the sequence that Polycarpus wiped off the board. Separate the numbers by whitespaces.It is guaranteed that there is sequenceathat satisfies the problem conditions. If there are multiple such sequences, you are allowed to print any of them.ExamplesInput1-1Output0Input3-1 18 018 -1 00 0 -1Output18 18 0Input4-1 128 128 128128 -1 148 160128 148 -1 128128 160 128 -1Output128 180 148 160NoteIf you do not know what is the \"bitwise AND\" operation please read:http://en.wikipedia.org/wiki/Bitwise_operation.",
+    "source": "CF",
+    "vjudge": false
+}

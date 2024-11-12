@@ -1,0 +1,12 @@
+{
+    "uid": "319-C",
+    "url": "https://codeforces.com/contest/319/problem/C",
+    "tags": [
+        "dp",
+        " geometry"
+    ],
+    "title": "319-C",
+    "statement": "C. Kalila and Dimna in the Logging Industrytime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutKalila and Dimna are two jackals living in a huge jungle. One day they decided to join a logging factory in order to make money.The manager of logging factory wants them to go to the jungle and cutntrees with heightsa1,a2, ...,an. They bought a chain saw from a shop. Each time they use the chain saw on the tree numberi, they can decrease the height of this tree by one unit. Each time that Kalila and Dimna use the chain saw, they need to recharge it. Cost of charging depends on the id of the trees which have been cut completely (a tree is cut completely if its height equal to 0). If the maximum id of a tree which has been cut completely isi(the tree that have heightaiin the beginning), then the cost of charging the chain saw would bebi. If no tree is cut completely, Kalila and Dimna cannot charge the chain saw. The chainsaw is charged in the beginning. We know that for eachi<j,ai<ajandbi>bjand alsobn= 0anda1= 1. Kalila and Dimna want to cut all the trees completely, with minimum cost.They want you to help them! Will you?InputThe first line of input contains an integern(1 ≤n≤ 105). The second line of input containsnintegersa1,a2, ...,an(1 ≤ai≤ 109). The third line of input containsnintegersb1,b2, ...,bn(0 ≤bi≤ 109).It's guaranteed thata1= 1,bn= 0,a1<a2< ... <anandb1>b2> ... >bn.OutputThe only line of output must contain the minimum cost of cutting all the trees completely.Please, do not write the%lldspecifier to read or write 64-bit integers in С++. It is preferred to use thecin,coutstreams or the%I64dspecifier.ExamplesInput51 2 3 4 55 4 3 2 0Output25Input61 2 3 10 20 306 5 4 3 2 0Output138",
+    "source": "CF",
+    "vjudge": false
+}

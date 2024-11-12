@@ -1,0 +1,13 @@
+{
+    "uid": "798-B",
+    "url": "https://codeforces.com/contest/798/problem/B",
+    "tags": [
+        "brute force",
+        " dp",
+        " strings"
+    ],
+    "title": "798-B",
+    "statement": "B. Mike and stringstime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputMike hasnstringss1,s2, ...,sneach consisting of lowercase English letters. In one move he can choose a stringsi, erase the first character and append it to the end of the string. For example, if he has the string \"coolmike\", in one move he can transform it into the string \"oolmikec\".Now Mike asks himself: what is minimal number of moves that he needs to do in order to make all the strings equal?InputThe first line contains integern(1 ≤n≤ 50) — the number of strings.This is followed bynlines which contain a string each. Thei-th line corresponding to stringsi. Lengths of strings are equal. Lengths of each string is positive and don't exceed50.OutputPrint the minimal number of moves Mike needs in order to make all the strings equal or print- 1if there is no solution.ExamplesInput4xzzwozwoxzzzwoxxzzwoOutput5Input2molzvlzvmoOutput2Input3kckckcOutput0Input3aaaaabOutput-1NoteIn the first sample testcase the optimal scenario is to perform operations in such a way as to transform all strings into \"zwoxz\".",
+    "source": "CF",
+    "vjudge": false
+}

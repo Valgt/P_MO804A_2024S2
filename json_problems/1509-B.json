@@ -1,0 +1,11 @@
+{
+    "uid": "1509-B",
+    "url": "https://codeforces.com/contest/1509/problem/B",
+    "tags": [
+        "greedy"
+    ],
+    "title": "1509-B",
+    "statement": "B. TMT Documenttime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputThe student council has a shared document file. Every day, some members of the student council write the sequenceTMT(short for Towa Maji Tenshi) in it.However, one day, the members somehow entered the sequence into the document at the same time, creating a jumbled mess. Therefore, it is Suguru Doujima's task to figure out whether the document has malfunctioned. Specifically, he is given a string of length $$$n$$$ whose characters are all eitherTorM, and he wants to figure out if it is possible to partition it into some number of disjoint subsequences, all of which are equal toTMT. That is, each character of the string should belong to exactly one of the subsequences.A string $$$a$$$ is a subsequence of a string $$$b$$$ if $$$a$$$ can be obtained from $$$b$$$ by deletion of several (possibly, zero) characters.InputThe first line contains an integer $$$t$$$ ($$$1 \\\\le t \\\\le 5000$$$)  — the number of test cases.The first line of each test case contains an integer $$$n$$$ ($$$3 \\\\le n < 10^5$$$), the number of characters in the string entered in the document. It is guaranteed that $$$n$$$ is divisible by $$$3$$$.The second line of each test case contains a string of length $$$n$$$ consisting of only the charactersTandM.It is guaranteed that the sum of $$$n$$$ over all test cases does not exceed $$$10^5$$$.OutputFor each test case, print a single line containingYESif the described partition exists, and a single line containingNOotherwise.ExampleInput5 3 TMT 3 MTT 6 TMTMTT 6 TMTTTT 6 TTMMTTOutputYES NO YES NO YESNoteIn the first test case, the string itself is already a sequence equal toTMT.In the third test case, we may partition the string into the subsequencesTMTMTT. Both the bolded and the non-bolded subsequences are equal toTMT.",
+    "source": "CF",
+    "vjudge": false
+}

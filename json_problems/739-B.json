@@ -1,0 +1,15 @@
+{
+    "uid": "739-B",
+    "url": "https://codeforces.com/contest/739/problem/B",
+    "tags": [
+        "binary search",
+        " data structures",
+        " dfs and similar",
+        " graphs",
+        " trees"
+    ],
+    "title": "739-B",
+    "statement": "B. Alyona and a treetime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputAlyona has a tree withnvertices. The root of the tree is the vertex1. In each vertex Alyona wrote an positive integer, in the vertexishe wroteai. Moreover, the girl wrote a positive integer to every edge of the tree (possibly, different integers on different edges).Let's definedist(v,u)as the sum of the integers written on the edges of the simple path fromvtou.The vertexvcontrols the vertexu(v≠u) if and only ifuis in the subtree ofvanddist(v,u) ≤au.Alyona wants to settle in some vertex. In order to do this, she wants to know for each vertexvwhat is the number of verticesusuch thatvcontrolsu.InputThe first line contains single integern(1 ≤n≤ 2·105).The second line containsnintegersa1,a2, ...,an(1 ≤ai≤ 109) — the integers written in the vertices.The next(n- 1)lines contain two integers each. Thei-th of these lines contains integerspiandwi(1 ≤pi≤n,1 ≤wi≤ 109) — the parent of the(i+ 1)-th vertex in the tree and the number written on the edge betweenpiand(i+ 1).It is guaranteed that the given graph is a tree.OutputPrintnintegers — thei-th of these numbers should be equal to the number of vertices that thei-th vertex controls.ExamplesInput52 5 1 4 61 71 13 53 6Output1 0 1 0 0Input59 7 8 6 51 12 13 14 1Output4 3 2 1 0NoteIn the example test case the vertex1controls the vertex3, the vertex3controls the vertex5(note that is doesn't mean the vertex1controls the vertex5).",
+    "source": "CF",
+    "vjudge": false
+}

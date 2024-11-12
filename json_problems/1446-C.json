@@ -1,0 +1,16 @@
+{
+    "uid": "1446-C",
+    "url": "https://codeforces.com/contest/1446/problem/C",
+    "tags": [
+        "binary search",
+        " bitmasks",
+        " data structures",
+        " divide and conquer",
+        " dp",
+        " trees"
+    ],
+    "title": "1446-C",
+    "statement": "C. Xor Treetime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputFor a given sequence ofdistinctnon-negative integers $$$(b_1, b_2, \\\\dots, b_k)$$$ we determine if it isgoodin the following way:Consider a graph on $$$k$$$ nodes, with numbers from $$$b_1$$$ to $$$b_k$$$ written on them.For every $$$i$$$ from $$$1$$$ to $$$k$$$: find such $$$j$$$ ($$$1 \\\\le j \\\\le k$$$, $$$j\\\\neq i$$$), for which $$$(b_i \\\\oplus b_j)$$$is the smallestamong all such $$$j$$$, where $$$\\\\oplus$$$ denotes the operation of bitwise XOR (https://en.wikipedia.org/wiki/Bitwise_operation#XOR). Next, draw anundirectededge between vertices with numbers $$$b_i$$$ and $$$b_j$$$ in this graph.We say that the sequence isgoodif and only if the resulting graph forms atree(is connected and doesn't have any simple cycles).It is possible that for some numbers $$$b_i$$$ and $$$b_j$$$, you will try to add the edge between them twice. Nevertheless, you will add this edge only once.You can find an example below (the picture corresponding to the first test case).Sequence $$$(0, 1, 5, 2, 6)$$$is notgood as wecannotreach $$$1$$$ from $$$5$$$.However, sequence $$$(0, 1, 5, 2)$$$isgood.You are given a sequence $$$(a_1, a_2, \\\\dots, a_n)$$$ ofdistinctnon-negative integers. You would like to remove some of the elements (possibly none) to make theremainingsequence good. What is the minimum possible number of removals required to achieve this goal?It can be shown that for any sequence, we can remove some number of elements, leaving at least $$$2$$$, so that the remaining sequence is good.InputThe first line contains a single integer $$$n$$$ ($$$2 \\\\le n \\\\le 200,000$$$) — length of the sequence.The second line contains $$$n$$$distinctnon-negative integers $$$a_1, a_2, \\\\ldots, a_n$$$ ($$$0 \\\\le a_i \\\\le 10^9$$$) — the elements of the sequence.OutputYou should output exactly one integer — the minimum possible number of elements to remove in order to make the remaining sequence good.ExamplesInput5 0 1 5 2 6Output1Input7 6 9 8 7 3 5 2Output2NoteNote that numbers which you removedon'timpact the procedure of telling whether the resulting sequence is good.It is possible that for some numbers $$$b_i$$$ and $$$b_j$$$, you will try to add the edge between them twice. Nevertheless, you will add this edge only once.",
+    "source": "CF",
+    "vjudge": false
+}

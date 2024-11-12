@@ -1,0 +1,13 @@
+{
+    "uid": "302-B",
+    "url": "https://codeforces.com/contest/302/problem/B",
+    "tags": [
+        "binary search",
+        " implementation",
+        " two pointers"
+    ],
+    "title": "302-B",
+    "statement": "B. Eugeny and Play Listtime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutEugeny loves listening to music. He hasnsongs in his play list. We know that song numberihas the duration oftiminutes. Eugeny listens to each song, perhaps more than once. He listens to song numbericitimes. Eugeny's play list is organized as follows: first song number1playsc1times, then song number2playsc2times,..., in the end the song numbernplayscntimes.Eugeny took a piece of paper and wrote outmmoments of time when he liked a song. Now for each such moment he wants to know the number of the song that played at that moment. The momentxmeans that Eugeny wants to know which song was playing during thex-th minute of his listening to the play list.Help Eugeny and calculate the required numbers of songs.InputThe first line contains two integersn,m(1 ≤n,m≤ 105). The nextnlines contain pairs of integers. Thei-th line contains integersci,ti(1 ≤ci,ti≤ 109)— the description of the play list. It is guaranteed that the play list's total duration doesn't exceed109.The next line containsmpositive integersv1,v2, ...,vm, that describe the moments Eugeny has written out. It is guaranteed that there isn't such moment of timevi, when the music doesn't play any longer. It is guaranteed thatvi<vi+ 1(i<m).The moment of timevimeans that Eugeny wants to know which song was playing during thevi-th munite from the start of listening to the playlist.OutputPrintmintegers — thei-th number must equal the number of the song that was playing during thevi-th minute after Eugeny started listening to the play list.ExamplesInput1 22 81 16Output11Input4 91 22 11 12 21 2 3 4 5 6 7 8 9Output112234444",
+    "source": "CF",
+    "vjudge": false
+}

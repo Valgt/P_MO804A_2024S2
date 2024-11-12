@@ -1,0 +1,17 @@
+{
+    "uid": "830-C",
+    "url": "https://codeforces.com/contest/830/problem/C",
+    "tags": [
+        "brute force",
+        " data structures",
+        " implementation",
+        " math",
+        " number theory",
+        " sortings",
+        " two pointers"
+    ],
+    "title": "830-C",
+    "statement": "C. Bamboo Partitiontime limit per test2 secondsmemory limit per test512 megabytesinputstandard inputoutputstandard outputVladimir wants to modernize partitions in his office. To make the office more comfortable he decided to remove a partition and plant several bamboos in a row. He thinks it would be nice if there arenbamboos in a row, and thei-th from the left isaimeters high.Vladimir has just plantednbamboos in a row, each of which has height0meters right now, but they grow1meter each day. In order to make the partition nice Vladimir can cut each bamboo once at any height (no greater that the height of the bamboo), and then the bamboo will stop growing.Vladimir wants to check the bamboos eachddays (i.e.ddays after he planted, then after2ddays and so on), and cut the bamboos that reached the required height. Vladimir wants the total length of bamboo parts he will cut off to be no greater thankmeters.What is the maximum valuedhe can choose so that he can achieve what he wants without cutting off more thankmeters of bamboo?InputThe first line contains two integersnandk(1 ≤n≤ 100,1 ≤k≤ 1011) — the number of bamboos and the maximum total length of cut parts, in meters.The second line containsnintegersa1,a2, ...,an(1 ≤ai≤ 109) — the required heights of bamboos, in meters.OutputPrint a single integer — the maximum value ofdsuch that Vladimir can reach his goal.ExamplesInput3 41 3 5Output3Input3 4010 30 50Output32NoteIn the first example Vladimir can check bamboos each3days. Then he will cut the first and the second bamboos after3days, and the third bamboo after6days. The total length of cut parts is2 + 0 + 1 = 3meters.",
+    "source": "CF",
+    "vjudge": false
+}

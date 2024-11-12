@@ -1,0 +1,13 @@
+{
+    "uid": "846-C",
+    "url": "https://codeforces.com/contest/846/problem/C",
+    "tags": [
+        "brute force",
+        " data structures",
+        " dp"
+    ],
+    "title": "846-C",
+    "statement": "C. Four Segmentstime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given an array ofninteger numbers. Letsum(l,r)be the sum of all numbers on positions fromltornon-inclusive (l-th element is counted,r-th element is not counted). For indiceslandrholds0 ≤l≤r≤n. Indices in array are numbered from0.For example, ifa= [ - 5, 3, 9, 4], thensum(0, 1) =  - 5,sum(0, 2) =  - 2,sum(1, 4) = 16andsum(i,i) = 0for eachifrom0to4.Choose the indices of three delimitersdelim0,delim1,delim2(0 ≤delim0≤delim1≤delim2≤n) and divide the array in such a way that the value ofres=sum(0,delim0)-sum(delim0,delim1)+sum(delim1,delim2)-sum(delim2,n)is maximal.Note that some of the expressionssum(l,r)can correspond to empty segments (ifl=rfor some segment).InputThe first line contains one integer numbern(1 ≤n≤ 5000).The second line containsnnumbersa0,a1, ...,an- 1(- 109≤ai≤ 109).OutputChoose three indices so that the value ofresis maximal. If there are multiple answers, print any of them.ExamplesInput3-1 2 3Output0 1 3Input40 0 -1 0Output0 0 0Input110000Output1 1 1",
+    "source": "CF",
+    "vjudge": false
+}

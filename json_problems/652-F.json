@@ -1,0 +1,12 @@
+{
+    "uid": "652-F",
+    "url": "https://codeforces.com/contest/652/problem/F",
+    "tags": [
+        "constructive algorithms",
+        " math"
+    ],
+    "title": "652-F",
+    "statement": "F. Ants on a Circletime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputnants are on a circle of lengthm. An ant travels one unit of distance per one unit of time. Initially, the ant numberiis located at the positionsiand is facing in the directiondi(which is eitherLorR). Positions are numbered in counterclockwise order starting from some point. Positions of the all ants are distinct.All the ants move simultaneously, and whenever two ants touch, they will both switch their directions. Note that it is possible for an ant to move in some direction for a half of a unit of time and in opposite direction for another half of a unit of time.Print the positions of the ants afterttime units.InputThe first line contains three integersn,mandt(2 ≤n≤ 3·105, 2 ≤m≤ 109, 0 ≤t≤ 1018) — the number of ants, the length of the circle and the number of time units.Each of the nextnlines contains integersiand symboldi(1 ≤si≤manddiis eitherLorR) — the position and the direction of thei-th ant at the start. The directionsLandRcorresponds to the clockwise and counterclockwise directions, respectively.It is guaranteed that all positionssiare distinct.OutputPrintnintegersxj— the position of thej-th ant aftertunits of time. The ants are numbered from1tonin order of their appearing in input.ExamplesInput2 4 81 R3 LOutput1 3Input4 8 66 R5 L1 R8 LOutput7 4 2 7Input4 8 21 R5 L6 L8 ROutput3 3 4 2",
+    "source": "CF",
+    "vjudge": false
+}

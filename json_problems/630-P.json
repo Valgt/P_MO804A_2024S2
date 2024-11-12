@@ -1,0 +1,11 @@
+{
+    "uid": "630-P",
+    "url": "https://codeforces.com/contest/630/problem/P",
+    "tags": [
+        "geometry"
+    ],
+    "title": "630-P",
+    "statement": "P. Area of a Startime limit per test0.5 secondsmemory limit per test64 megabytesinputstandard inputoutputstandard outputIt was decided in IT City to distinguish successes of local IT companies by awards in the form of stars covered with gold from one side. To order the stars it is necessary to estimate order cost that depends on the area of gold-plating. Write a program that can calculate the area of a star.A \"star\" figure havingn≥ 5corners wherenis a prime number is constructed the following way. On the circle of radiusrnpoints are selected so that the distances between the adjacent ones are equal. Then every point is connected by a segment with two maximally distant points. All areas bounded by the segments parts are the figure parts.InputThe only line of the input contains two integersn(5 ≤n< 109,nis prime) andr(1 ≤r≤ 109) — the number of the star corners and the radius of the circumcircle correspondingly.OutputOutput one number — the star area. The relative error of your answer should not be greater than10- 7.ExamplesInput7 10Output108.395919545675",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,12 @@
+{
+    "uid": "916-E",
+    "url": "https://codeforces.com/contest/916/problem/E",
+    "tags": [
+        "data structures",
+        " trees"
+    ],
+    "title": "916-E",
+    "statement": "E. Jamie and Treetime limit per test2.5 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputTo your surprise, Jamie is the final boss! Ehehehe.Jamie has given you a tree withnvertices, numbered from1ton. Initially, the root of the tree is the vertex with number1. Also, each vertex has a value on it.Jamie also gives you three types of queries on the tree:1v— Change the tree's root to vertex with numberv.2uvx— For each vertex in the subtree of smallest size that containsuandv, addxto its value.3v— Find sum of values of vertices in the subtree of vertex with numberv.A subtree of vertexvis a set of vertices such thatvlies on shortest path from this vertex to root of the tree. Pay attention that subtree of a vertex can change after changing the tree's root.Show your strength in programming to Jamie by performing the queries accurately!InputThe first line of input contains two space-separated integersnandq(1 ≤n≤ 105, 1 ≤q≤ 105) — the number of vertices in the tree and the number of queries to process respectively.The second line containsnspace-separated integersa1,a2, ...,an(- 108≤ai≤ 108) — initial values of the vertices.Nextn- 1lines contains two space-separated integersui,vi(1 ≤ui,vi≤n) describing edge between verticesuiandviin the tree.The followingqlines describe the queries.Each query has one of following formats depending on its type:1v(1 ≤v≤n) for queries of the first type.2uvx(1 ≤u,v≤n,  - 108≤x≤ 108) for queries of the second type.3v(1 ≤v≤n) for queries of the third type.All numbers in queries' descriptions are integers.The queries must be carried out in the given order. It is guaranteed that the tree is valid.OutputFor each query of the third type, output the required answer. It is guaranteed that at least one query of the third type is given by Jamie.ExamplesInput6 71 4 2 8 5 71 23 14 34 53 63 12 4 6 33 41 62 2 4 -51 43 3Output27195Input4 64 3 5 61 22 33 43 11 32 2 4 31 12 2 4 -33 1Output1821NoteThe following picture shows how the tree varies after the queries in the first sample.",
+    "source": "CF",
+    "vjudge": false
+}

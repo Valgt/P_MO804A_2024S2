@@ -1,0 +1,12 @@
+{
+    "uid": "396-D",
+    "url": "https://codeforces.com/contest/396/problem/D",
+    "tags": [
+        "combinatorics",
+        " math"
+    ],
+    "title": "396-D",
+    "statement": "D. On Sum of Number of Inversions in Permutationstime limit per test3 secondsmemory limit per test256 megabytesinputstdinoutputstdoutYou are given a permutationp. Calculate the total number of inversions in all permutations that lexicographically do not exceed the given one.As this number can be very large, print it modulo1000000007(109+ 7).InputThe first line contains a single integern(1 ≤n≤ 106) — the length of the permutation. The second line containsndistinct integersp1,p2, ...,pn(1 ≤pi≤n).OutputPrint a single number — the answer to the problem modulo1000000007(109+ 7).ExamplesInput22 1Output1Input32 1 3Output2NotePermutationpof lengthnis the sequence that consists ofndistinct integers, each of them is from1ton.An inversion of permutationp1,p2, ...,pnis a pair of indexes(i,j), such thati<jandpi>pj.Permutationado not exceed permutationblexicographically, if eithera=bor there exists such numberi, for which the following logical condition fulfills:AND(ai<bi).",
+    "source": "CF",
+    "vjudge": false
+}

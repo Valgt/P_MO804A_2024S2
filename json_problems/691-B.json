@@ -1,0 +1,12 @@
+{
+    "uid": "691-B",
+    "url": "https://codeforces.com/contest/691/problem/B",
+    "tags": [
+        "implementation",
+        " strings"
+    ],
+    "title": "691-B",
+    "statement": "B. s-palindrometime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputLet's call a string \"s-palindrome\" if it is symmetric about the middle of the string. For example, the string \"oHo\" is \"s-palindrome\", but the string \"aa\" is not. The string \"aa\" is not \"s-palindrome\", because the second half of it is not a mirror reflection of the first half.English alphabetYou are given a strings. Check if the string is \"s-palindrome\".InputThe only line contains the strings(1 ≤ |s| ≤ 1000) which consists of only English letters.OutputPrint \"TAK\" if the stringsis \"s-palindrome\" and \"NIE\" otherwise.ExamplesInputoXoxoXoOutputTAKInputbodOutputTAKInputEROutputNIE",
+    "source": "CF",
+    "vjudge": false
+}

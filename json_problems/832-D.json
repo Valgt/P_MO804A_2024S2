@@ -1,0 +1,13 @@
+{
+    "uid": "832-D",
+    "url": "https://codeforces.com/contest/832/problem/D",
+    "tags": [
+        "dfs and similar",
+        " graphs",
+        " trees"
+    ],
+    "title": "832-D",
+    "statement": "D. Misha, Grisha and Undergroundtime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputMisha and Grisha are funny boys, so they like to use new underground. The underground hasnstations connected withn- 1routes so that each route connects two stations, and it is possible to reach every station from any other.The boys decided to have fun and came up with a plan. Namely, in some day in the morning Misha will ride the underground from stationsto stationfby the shortest path, and will draw with aerosol an ugly text \"Misha was here\" on every station he will pass through (includingsandf). After that on the same day at evening Grisha will ride from stationtto stationfby the shortest path and will count stations with Misha's text. After that at night the underground workers will wash the texts out, because the underground should be clean.The boys have already chosen three stationsa,bandcfor each of several following days, one of them should be stationson that day, another should be stationf, and the remaining should be stationt. They became interested how they should choose these stationss,f,tso that the number Grisha will count is as large as possible. They asked you for help.InputThe first line contains two integersnandq(2 ≤n≤ 105,1 ≤q≤ 105) — the number of stations and the number of days.The second line containsn- 1integersp2,p3, ...,pn(1 ≤pi≤n). The integerpimeans that there is a route between stationspiandi. It is guaranteed that it's possible to reach every station from any other.The nextqlines contains three integersa,bandceach (1 ≤a,b,c≤n) — the ids of stations chosen by boys for some day. Note that some of these ids could be same.OutputPrintqlines. In thei-th of these lines print the maximum possible number Grisha can get counting when the stationss,tandfare chosen optimally from the three stations on thei-th day.ExamplesInput3 21 11 2 32 3 3Output23Input4 11 2 31 2 3Output2NoteIn the first example on the first day ifs=1,f=2,t=3, Misha would go on the route12, and Grisha would go on the route312. He would see the text at the stations1and2. On the second day, ifs=3,f=2,t=3, both boys would go on the route312. Grisha would see the text at3stations.In the second examle ifs=1,f=3,t=2, Misha would go on the route123, and Grisha would go on the route23and would see the text at both stations.",
+    "source": "CF",
+    "vjudge": false
+}

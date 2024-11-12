@@ -1,0 +1,16 @@
+{
+    "uid": "520-B",
+    "url": "https://codeforces.com/contest/520/problem/B",
+    "tags": [
+        "dfs and similar",
+        " graphs",
+        " greedy",
+        " implementation",
+        " math",
+        " shortest paths"
+    ],
+    "title": "520-B",
+    "statement": "B. Two Buttonstime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputVasya has found a strange device. On the front panel of a device there are: a red button, a blue button and a display showing some positive integer. After clicking the red button, device multiplies the displayed number by two. After clicking the blue button, device subtracts one from the number on the display. If at some point the number stops being positive, the device breaks down. The display can show arbitrarily large numbers. Initially, the display shows numbern.Bob wants to get numbermon the display. What minimum number of clicks he has to make in order to achieve this result?InputThe first and the only line of the input contains two distinct integersnandm(1 ≤n,m≤ 104), separated by a space .OutputPrint a single number — the minimum number of times one needs to push the button required to get the numbermout of numbern.ExamplesInput4 6Output2Input10 1Output9NoteIn the first example you need to push the blue button once, and then push the red button once.In the second example, doubling the number is unnecessary, so we need to push the blue button nine times.",
+    "source": "CF",
+    "vjudge": false
+}

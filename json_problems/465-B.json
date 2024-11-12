@@ -1,0 +1,11 @@
+{
+    "uid": "465-B",
+    "url": "https://codeforces.com/contest/465/problem/B",
+    "tags": [
+        "implementation"
+    ],
+    "title": "465-B",
+    "statement": "B. Inbox (100500)time limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutOver time, Alexey's mail box got littered with too many letters. Some of them are read, while others are unread.Alexey's mail program can either show a list of all letters or show the content of a single letter. As soon as the program shows the content of an unread letter, it becomes read letter (if the program shows the content of a read letter nothing happens). In one click he can do any of the following operations:Move from the list of letters to the content of any single letter.Return to the list of letters from single letter viewing mode.In single letter viewing mode, move to the next or to the previous letter in the list. You cannot move from the first letter to the previous one or from the last letter to the next one.The program cannot delete the letters from the list or rearrange them.Alexey wants to read all the unread letters and go watch football. Now he is viewing the list of all letters and for each letter he can see if it is read or unread. What minimum number of operations does Alexey need to perform to read all unread letters?InputThe first line contains a single integern(1 ≤n≤ 1000) — the number of letters in the mailbox.The second line containsnspace-separated integers (zeros and ones) — the state of the letter list. Thei-th number equals either1, if thei-th number is unread, or0, if thei-th letter is read.OutputPrint a single number — the minimum number of operations needed to make all the letters read.ExamplesInput50 1 0 1 0Output3Input51 1 0 0 1Output4Input20 0Output0NoteIn the first sample Alexey needs three operations to cope with the task: open the second letter, move to the third one, move to the fourth one.In the second sample the action plan: open the first letter, move to the second letter, return to the list, open the fifth letter.In the third sample all letters are already read.",
+    "source": "CF",
+    "vjudge": false
+}

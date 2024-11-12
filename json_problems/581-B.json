@@ -1,0 +1,12 @@
+{
+    "uid": "581-B",
+    "url": "https://codeforces.com/contest/581/problem/B",
+    "tags": [
+        "implementation",
+        " math"
+    ],
+    "title": "581-B",
+    "statement": "B. Luxurious Housestime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputThe capital of Berland hasnmultifloor buildings. The architect who built up the capital was very creative, so all the houses were built in one row.Let's enumerate all the houses from left to right, starting with one. A house is considered to beluxuriousif the number of floors in it is strictly greater than in all the houses with larger numbers. In other words, a house is luxurious if the number of floors in it is strictly greater than in all the houses, which are located to the right from it. In this task it is assumed that the heights of floors in the houses are the same.The new architect is interested innquestions,i-th of them is about the following: \"how many floors should be added to thei-th house to make it luxurious?\" (for allifrom1ton, inclusive). You need to help him cope with this task.Note that all these questions are independent from each other — the answer to the question for houseidoes not affect other answers (i.e., the floors to the houses are not actually added).InputThe first line of the input contains a single numbern(1 ≤n≤ 105) — the number of houses in the capital of Berland.The second line containsnspace-separated positive integershi(1 ≤hi≤ 109), wherehiequals the number of floors in thei-th house.OutputPrintnintegersa1,a2, ...,an, where numberaiis the number of floors that need to be added to the house numberito make it luxurious. If the house is already luxurious and nothing needs to be added to it, thenaishould be equal to zero.All houses are numbered from left to right, starting from one.ExamplesInput51 2 3 1 2Output3 2 0 2 0Input43 2 1 4Output2 3 4 0",
+    "source": "CF",
+    "vjudge": false
+}

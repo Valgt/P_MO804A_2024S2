@@ -1,0 +1,11 @@
+{
+    "uid": "25-A",
+    "url": "https://codeforces.com/contest/25/problem/A",
+    "tags": [
+        "brute force"
+    ],
+    "title": "25-A",
+    "statement": "A. IQ testtime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutBob is preparing to pass IQ test. The most frequent task in this test is to find out which one of the givennnumbers differs from the others. Bob observed that one number usually differs from the others in evenness. Help Bob — to check his answers, he needs a program that among the givennnumbers finds one that is different in evenness.InputThe first line contains integern(3 ≤n≤ 100) — amount of numbers in the task. The second line containsnspace-separated natural numbers, not exceeding 100. It is guaranteed, that exactly one of these numbers differs from the others in evenness.OutputOutput index of number that differs from the others in evenness. Numbers are numbered from 1 in the input order.ExamplesInput52 4 7 8 10Output3Input41 2 1 1Output2",
+    "source": "CF",
+    "vjudge": false
+}

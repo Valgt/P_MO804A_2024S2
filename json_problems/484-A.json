@@ -1,0 +1,12 @@
+{
+    "uid": "484-A",
+    "url": "https://codeforces.com/contest/484/problem/A",
+    "tags": [
+        "bitmasks",
+        " constructive algorithms"
+    ],
+    "title": "484-A",
+    "statement": "A. Bitstime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutLet's denote asthe number of bits set ('1' bits) in the binary representation of the non-negative integerx.You are given multiple queries consisting of pairs of integerslandr. For each query, find thex, such thatl≤x≤r, andis maximum possible. If there are multiple such numbers find the smallest of them.InputThe first line contains integern— the number of queries (1 ≤n≤ 10000).Each of the followingnlines contain two integersli,ri— the arguments for the corresponding query (0 ≤li≤ri≤ 1018).OutputFor each query print the answer in a separate line.ExamplesInput31 22 41 10Output137NoteThe binary representations of numbers from 1 to 10 are listed below:110= 12210= 102310= 112410= 1002510= 1012610= 1102710= 1112810= 10002910= 100121010= 10102",
+    "source": "CF",
+    "vjudge": false
+}

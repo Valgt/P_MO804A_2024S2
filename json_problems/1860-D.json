@@ -1,0 +1,11 @@
+{
+    "uid": "1860-D",
+    "url": "https://codeforces.com/contest/1860/problem/D",
+    "tags": [
+        "dp"
+    ],
+    "title": "1860-D",
+    "statement": "D. Balanced Stringtime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given a binary string $$$s$$$ (a binary string is a string consisting of characters0and/or1).Let's call a binary stringbalancedif the number of subsequences01(the number of indices $$$i$$$ and $$$j$$$ such that $$$1 \\\\le i < j \\\\le n$$$, $$$s_i=0$$$ and $$$s_j=1$$$) equals to the number of subsequences10(the number of indices $$$k$$$ and $$$l$$$ such that $$$1 \\\\le k < l \\\\le n$$$, $$$s_k=1$$$ and $$$s_l=0$$$) in it.For example, the string1000110is balanced, because both the number of subsequences01and the number of subsequences10are equal to $$$6$$$. On the other hand,11010is not balanced, because the number of subsequences01is $$$1$$$, but the number of subsequences10is $$$5$$$.You can perform the following operation any number of times: choose two characters in $$$s$$$ and swap them. Your task is to calculate the minimum number of operations to make the string $$$s$$$ balanced.InputThe only line contains the string $$$s$$$ ($$$3 \\\\le |s| \\\\le 100$$$) consisting of characters0and/or1.Additional constraint on the input: the string $$$s$$$ can be made balanced.OutputPrint a single integer — the minimum number of swap operations to make the string $$$s$$$ balanced.ExamplesInput101Output0Input1000110Output0Input11010Output1Input11001100Output2NoteIn the first example, the string is already balanced, the number of both01and10is equal to $$$1$$$.In the second example, the string is already balanced, the number of both01and10is equal to $$$6$$$.In the third example, one of the possible answers is the following one:11010$$$\\\\rightarrow$$$01110. After that, the number of both01and10is equal to $$$3$$$.In the fourth example, one of the possible answers is the following one:11001100$$$\\\\rightarrow$$$11001010$$$\\\\rightarrow$$$11000011. After that, the number of both01and10is equal to $$$8$$$.",
+    "source": "CF",
+    "vjudge": false
+}

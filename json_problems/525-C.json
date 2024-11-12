@@ -1,0 +1,13 @@
+{
+    "uid": "525-C",
+    "url": "https://codeforces.com/contest/525/problem/C",
+    "tags": [
+        "greedy",
+        " math",
+        " sortings"
+    ],
+    "title": "525-C",
+    "statement": "C. Ilya and Stickstime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputIn the evening, after the contest Ilya was bored, and he really felt like maximizing. He remembered that he had a set ofnsticks and an instrument. Each stick is characterized by its lengthli.Ilya decided to make a rectangle from the sticks. And due to his whim, he decided to make rectangles in such a way that maximizes their total area. Each stick is used in making at most one rectangle, it is possible that some of sticks remain unused. Bending sticks is not allowed.Sticks with lengthsa1,a2,a3anda4can make a rectangle if the following properties are observed:a1≤a2≤a3≤a4a1=a2a3=a4A rectangle can be made of sticks with lengths of, for example,3 3 3 3or2 2 4 4. A rectangle cannot be made of, for example, sticks5 5 5 7.Ilya also has an instrument which can reduce the length of the sticks. The sticks are made of a special material, so the length of each stick can be reduced by at most one. For example, a stick with length5can either stay at this length or be transformed into a stick of length4.You have to answer the question — what maximum total area of the rectangles can Ilya get with a file if makes rectangles from the available sticks?InputThe first line of the input contains a positive integern(1 ≤n≤ 105) — the number of the available sticks.The second line of the input containsnpositive integersli(2 ≤li≤ 106) — the lengths of the sticks.OutputThe first line of the output must contain a single non-negative integer — the maximum total area of the rectangles that Ilya can make from the available sticks.ExamplesInput42 4 4 2Output8Input42 2 3 5Output0Input4100003 100004 100005 100006Output10000800015",
+    "source": "CF",
+    "vjudge": false
+}

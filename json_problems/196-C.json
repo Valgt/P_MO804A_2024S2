@@ -1,0 +1,15 @@
+{
+    "uid": "196-C",
+    "url": "https://codeforces.com/contest/196/problem/C",
+    "tags": [
+        "constructive algorithms",
+        " divide and conquer",
+        " geometry",
+        " sortings",
+        " trees"
+    ],
+    "title": "196-C",
+    "statement": "C. Paint Treetime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutYou are given a tree withnvertexes andnpoints on a plane, no three points lie on one straight line.Your task is to paint the given tree on a plane, using the given points as vertexes.That is, you should correspond each vertex of the tree to exactly one point and each point should correspond to a vertex. If two vertexes of the tree are connected by an edge, then the corresponding points should have a segment painted between them. The segments that correspond to non-adjacent edges, should not have common points. The segments that correspond to adjacent edges should have exactly one common point.InputThe first line contains an integern(1 ≤n≤ 1500) — the number of vertexes on a tree (as well as the number of chosen points on the plane).Each of the nextn- 1lines contains two space-separated integersuiandvi(1 ≤ui,vi≤n,ui≠vi) — the numbers of tree vertexes connected by thei-th edge.Each of the nextnlines contain two space-separated integersxiandyi(- 109≤xi,yi≤ 109) — the coordinates of thei-th point on the plane. No three points lie on one straight line.It is guaranteed that under given constraints problem has a solution.OutputPrintndistinct space-separated integers from1ton: thei-th number must equal the number of the vertex to place at thei-th point (the points are numbered in the order, in which they are listed in the input).If there are several solutions, print any of them.ExamplesInput31 32 30 01 12 0Output1 3 2Input41 22 31 4-1 -23 5-3 32 0Output4 2 1 3NoteThe possible solutions for the sample are given below.",
+    "source": "CF",
+    "vjudge": false
+}

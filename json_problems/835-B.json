@@ -1,0 +1,11 @@
+{
+    "uid": "835-B",
+    "url": "https://codeforces.com/contest/835/problem/B",
+    "tags": [
+        "greedy"
+    ],
+    "title": "835-B",
+    "statement": "B. The number on the boardtime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputSome natural number was written on the board. Its sum of digits was not less thank. But you were distracted a bit, and someone changed this number ton, replacing some digits with others. It's known that the length of the number didn't change.You have to find the minimum number of digits in which these two numbers can differ.InputThe first line contains integerk(1 ≤k≤ 109).The second line contains integern(1 ≤n< 10100000).There are no leading zeros inn. It's guaranteed that this situation is possible.OutputPrint the minimum number of digits in which the initial number andncan differ.ExamplesInput311Output1Input399Output0NoteIn the first example, the initial number could be12.In the second example the sum of the digits ofnis not less thank. The initial number could be equal ton.",
+    "source": "CF",
+    "vjudge": false
+}

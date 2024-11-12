@@ -1,0 +1,12 @@
+{
+    "uid": "469-A",
+    "url": "https://codeforces.com/contest/469/problem/A",
+    "tags": [
+        "greedy",
+        " implementation"
+    ],
+    "title": "469-A",
+    "statement": "A. I Wanna Be the Guytime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutThere is a game called \"I Wanna Be the Guy\", consisting ofnlevels. Little X and his friend Little Y are addicted to the game. Each of them wants to pass the whole game.Little X can pass onlyplevels of the game. And Little Y can pass onlyqlevels of the game. You are given the indices of levels Little X can pass and the indices of levels Little Y can pass. Will Little X and Little Y pass the whole game, if they cooperate each other?InputThe first line contains a single integern(1 ≤n≤ 100).The next line contains an integerp(0 ≤p≤n)at first, then followspdistinct integersa1,a2, ...,ap(1 ≤ai≤n). These integers denote the indices of levels Little X can pass. The next line contains the levels Little Y can pass in the same format. It's assumed that levels are numbered from 1 ton.OutputIf they can pass all the levels, print \"I become the guy.\". If it's impossible, print \"Oh, my keyboard!\" (without the quotes).ExamplesInput43 1 2 32 2 4OutputI become the guy.Input43 1 2 32 2 3OutputOh, my keyboard!NoteIn the first sample, Little X can pass levels [1 2 3], and Little Y can pass level [2 4], so they can pass all the levels both.In the second sample, no one can pass level 4.",
+    "source": "CF",
+    "vjudge": false
+}

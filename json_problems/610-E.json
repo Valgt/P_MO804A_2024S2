@@ -1,0 +1,12 @@
+{
+    "uid": "610-E",
+    "url": "https://codeforces.com/contest/610/problem/E",
+    "tags": [
+        "data structures",
+        " strings"
+    ],
+    "title": "610-E",
+    "statement": "E. Alphabet Permutationstime limit per test1 secondmemory limit per test512 megabytesinputstandard inputoutputstandard outputYou are given a stringsof lengthn, consisting of firstklowercase English letters.We define ac-repeatof some stringqas a string, consisting ofccopies of the stringq. For example, string \"acbacbacbacb\" is a4-repeat of the string \"acb\".Let's say that stringacontains stringbas a subsequence, if stringbcan be obtained fromaby erasing some symbols.Letpbe a string that represents some permutation of the firstklowercase English letters. We define functiond(p)as the smallest integer such that ad(p)-repeat of the stringpcontains stringsas a subsequence.There aremoperations of one of two types that can be applied to strings:Replace all characters at positions fromlitoriby a characterci.For the givenp, that is a permutation of firstklowercase English letters, find the value of functiond(p).All operations are performed sequentially, in the order they appear in the input. Your task is to determine the values of functiond(p)for all operations of the second type.InputThe first line contains three positive integersn,mandk(1 ≤n≤ 200 000, 1 ≤m≤ 20000, 1 ≤k≤ 10) — the length of the strings, the number of operations and the size of the alphabet respectively. The second line contains the stringsitself.Each of the following linesmcontains a description of some operation:Operation of the first type starts with1followed by a tripleli,riandci, that denotes replacement of all characters at positions fromlitoriby characterci(1 ≤li≤ri≤n,ciis one of the firstklowercase English letters).Operation of the second type starts with2followed by a permutation of the firstklowercase English letters.OutputFor each query of the second type the value of functiond(p).ExamplesInput7 4 3abacaba1 3 5 b2 abc1 4 4 c2 cbaOutput65NoteAfter the first operation the stringswill beabbbbba.In the second operation the answer is6-repeat ofabc:ABcaBcaBcaBcaBcAbc.After the third operation the stringswill beabbcbba.In the fourth operation the answer is5-repeat ofcba:cbAcBacBaCBacBA.Uppercase letters means the occurrences of symbols from the strings.",
+    "source": "CF",
+    "vjudge": false
+}

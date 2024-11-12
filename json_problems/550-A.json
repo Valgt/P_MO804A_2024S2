@@ -1,0 +1,15 @@
+{
+    "uid": "550-A",
+    "url": "https://codeforces.com/contest/550/problem/A",
+    "tags": [
+        "brute force",
+        " dp",
+        " greedy",
+        " implementation",
+        " strings"
+    ],
+    "title": "550-A",
+    "statement": "A. Two Substringstime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given strings. Your task is to determine if the given stringscontains two non-overlapping substrings \"AB\" and \"BA\" (the substrings can go in any order).InputThe only line of input contains a stringsof length between1and105consisting of uppercase Latin letters.OutputPrint \"YES\" (without the quotes), if stringscontains two non-overlapping substrings \"AB\" and \"BA\", and \"NO\" otherwise.ExamplesInputABAOutputNOInputBACFABOutputYESInputAXBYBXAOutputNONoteIn the first sample test, despite the fact that there are substrings \"AB\" and \"BA\", their occurrences overlap, so the answer is \"NO\".In the second sample test there are the following occurrences of the substrings:BACFAB.In the third sample test there is no substring \"AB\" nor substring \"BA\".",
+    "source": "CF",
+    "vjudge": false
+}

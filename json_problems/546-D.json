@@ -1,0 +1,14 @@
+{
+    "uid": "546-D",
+    "url": "https://codeforces.com/contest/546/problem/D",
+    "tags": [
+        "constructive algorithms",
+        " dp",
+        " math",
+        " number theory"
+    ],
+    "title": "546-D",
+    "statement": "D. Soldier and Number Gametime limit per test3 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputTwo soldiers are playing a game. At the beginning first of them chooses a positive integernand gives it to the second soldier. Then the second one tries to make maximum possible number of rounds. Each round consists of choosing a positive integerx> 1, such thatnis divisible byxand replacingnwithn/x. Whennbecomes equal to1and there is no more possible valid moves the game is over and the score of the second soldier is equal to the number of rounds he performed.To make the game more interesting, first soldier choosesnof forma! /b!for some positive integeraandb(a≥b). Here byk!we denote thefactorialofkthat is defined as a product of all positive integers not large thank.What is the maximum possible score of the second soldier?InputFirst line of input consists of single integert(1 ≤t≤ 1 000 000) denoting number of games soldiers play.Then followtlines, each contains pair of integersaandb(1 ≤b≤a≤ 5 000 000) defining the value ofnfor a game.OutputFor each game output a maximum score that the second soldier can get.ExamplesInput23 16 3Output25",
+    "source": "CF",
+    "vjudge": false
+}

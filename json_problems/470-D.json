@@ -1,0 +1,11 @@
+{
+    "uid": "470-D",
+    "url": "https://codeforces.com/contest/470/problem/D",
+    "tags": [
+        "*special"
+    ],
+    "title": "470-D",
+    "statement": "D. Caesar Ciphertime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutCaesar cipher is one of the simplest encryption techniques. To transform the original message into encrypted one using keyk, one has to replace each letter with a letter which iskpositions later in the alphabet (if this takes the position beyond Z, the rest of it is counted from the start of the alphabet). In a more formal way, if letters of the alphabet are enumerated starting with0, the result of encryption for characterxwill be(26is the number of letters in the Latin alphabet).You are given the original message and the encryption keyk. Output the result of encryption.InputThe first line of input contains an integerk(0 ≤k≤ 25) — the encryption key.The second line contains the original message — a sequence of uppercase Latin letters ('A'-'Z'). The length of the message is from1to10, inclusive.OutputOutput the result of encryption.ExamplesInput5CODEFORCESOutputHTIJKTWHJXInput13FALSERULEZOutputSNYFREHYRM",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,15 @@
+{
+    "uid": "650-C",
+    "url": "https://codeforces.com/contest/650/problem/C",
+    "tags": [
+        "dfs and similar",
+        " dp",
+        " dsu",
+        " graphs",
+        " greedy"
+    ],
+    "title": "650-C",
+    "statement": "C. Table Compressiontime limit per test4 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputLittle Petya is now fond of data compression algorithms. He has already studiedgz,bz,zipalgorithms and many others. Inspired by the new knowledge, Petya is now developing the new compression algorithm which he wants to namedis.Petya decided to compress tables. He is given a tableaconsisting ofnrows andmcolumns that is filled with positive integers. He wants to build the tablea'consisting of positive integers such that the relative order of the elements in each row and each column remains the same. That is, if in some rowiof the initial tableai,j<ai,k, then in the resulting tablea'i,j<a'i,k, and ifai,j=ai,kthena'i,j=a'i,k. Similarly, if in some columnjof the initial tableai,j<ap,jthen in compressed tablea'i,j<a'p,jand ifai,j=ap,jthena'i,j=a'p,j.Because large values require more space to store them, the maximum value ina'should be as small as possible.Petya is good in theory, however, he needs your help to implement the algorithm.InputThe first line of the input contains two integersnandm(, the number of rows and the number of columns of the table respectively.Each of the followingnrows containmintegersai,j(1 ≤ai,j≤ 109)that are the values in the table.OutputOutput the compressed table in form ofnlines each containingmintegers.If there exist several answers such that the maximum number in the compressed table is minimum possible, you are allowed to output any of them.ExamplesInput2 21 23 4Output1 22 3Input4 320 10 3050 40 3050 60 7090 80 70Output2 1 35 4 35 6 79 8 7NoteIn the first sample test, despite the facta1, 2≠a21, they are not located in the same row or column so they may become equal after the compression.",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,13 @@
+{
+    "uid": "1297-G",
+    "url": "https://codeforces.com/contest/1297/problem/G",
+    "tags": [
+        "*special",
+        " dp",
+        " math"
+    ],
+    "title": "1297-G",
+    "statement": "G. M-numberstime limit per test3 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputFor a given positive integer $$$m$$$, a positive number is called a $$$m$$$-number if the product of its digits is $$$m$$$. For example, the beginning of a series of $$$24$$$-numbers are as follows: $$$38$$$, $$$46$$$, $$$64$$$, $$$83$$$, $$$138$$$, $$$146$$$, $$$164$$$, $$$183$$$, $$$226$$$ ...You are given a positive integer $$$m$$$ and $$$k$$$. Print $$$k$$$-th among $$$m$$$-numbers if all $$$m$$$-numbers are sorted in ascending order.InputA single line of input contains two integers $$$m$$$ and $$$k$$$ ($$$2 \\\\le m \\\\le 10^9$$$, $$$1 \\\\le k \\\\le 10^9$$$).OutputPrint the desired number — $$$k$$$-th among all $$$m$$$-numbers if $$$m$$$-numbers are sorted in ascending order. If the answer does not exist, print-1.ExamplesInput24 9Output226Input24 1Output38Input5040 1000000000Output111121111315213227111Input2020 2020Output-1",
+    "source": "CF",
+    "vjudge": false
+}

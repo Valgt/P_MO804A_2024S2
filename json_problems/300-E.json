@@ -1,0 +1,13 @@
+{
+    "uid": "300-E",
+    "url": "https://codeforces.com/contest/300/problem/E",
+    "tags": [
+        "binary search",
+        " math",
+        " number theory"
+    ],
+    "title": "300-E",
+    "statement": "E. Empire Strikes Backtime limit per test5 secondsmemory limit per test512 megabytesinputstdinoutputstdoutIn a far away galaxy there is war again. The treacherous Republic madekprecision strikes of poweraion the Empire possessions. To cope with the republican threat, the Supreme Council decided to deal a decisive blow to the enemy forces.To successfully complete the conflict, the confrontation balance after the blow should be a positive integer. The balance of confrontation is a number that looks like, wherep=n!(nis the power of the Imperial strike),. After many years of war the Empire's resources are low. So to reduce the costs,nshould be a minimum positive integer that is approved by the commanders.Help the Empire, find the minimum positive integern, where the described fraction is a positive integer.InputThe first line contains integerk(1 ≤k≤ 106). The second line containskintegersa1,a2, ...,ak(1 ≤ai≤ 107).OutputPrint the minimum positive integern, needed for the Empire to win.Please, do not use the%lldto read or write 64-but integers in С++. It is preferred to use thecin,coutstreams or the%I64dspecificator.ExamplesInput21000 1000Output2000Input12Output2",
+    "source": "CF",
+    "vjudge": false
+}

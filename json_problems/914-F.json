@@ -1,0 +1,15 @@
+{
+    "uid": "914-F",
+    "url": "https://codeforces.com/contest/914/problem/F",
+    "tags": [
+        "bitmasks",
+        " brute force",
+        " data structures",
+        " string suffix structures",
+        " strings"
+    ],
+    "title": "914-F",
+    "statement": "F. Substrings in a Stringtime limit per test6 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputGiven a strings, processqqueries, each having one of the following forms:1ic— Change thei-th character in the string toc.2lry— Consider the substring ofsstarting at positionland ending at positionr. Output the number of timesyoccurs as a substring in it.InputThe first line of the input contains the strings(1 ≤ |s| ≤ 105) of lowercase English letters.The second line contains an integerq(1 ≤q≤ 105)  — the number of queries to process.The nextqlines describe the queries and may have one of the following forms:1ic(1 ≤i≤ |s|)2lry(1 ≤l≤r≤ |s|)cis a lowercase English letter andyis a non-empty string consisting of only lowercase English letters.The sum of|y|over all queries of second type is at most105.It is guaranteed that there is at least one query of second type.All strings are1-indexed.|s|is the length of the strings.OutputFor each query of type2, output the required answer in a separate line.ExamplesInputababababa32 1 7 aba1 5 c2 1 7 abaOutput31Inputabcdcbc52 1 7 bc1 4 b2 4 7 bc1 2 a2 1 4 aaOutput221NoteConsider the first sample case. Initially, the stringabaoccurs3times in the range[1, 7]. Note that two occurrences may overlap.After the update, the string becomesababcbabaand nowabaoccurs only once in the range[1, 7].",
+    "source": "CF",
+    "vjudge": false
+}

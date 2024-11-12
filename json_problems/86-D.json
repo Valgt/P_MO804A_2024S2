@@ -1,0 +1,14 @@
+{
+    "uid": "86-D",
+    "url": "https://codeforces.com/contest/86/problem/D",
+    "tags": [
+        "data structures",
+        " implementation",
+        " math",
+        " two pointers"
+    ],
+    "title": "86-D",
+    "statement": "D. Powerful arraytime limit per test5 secondsmemory limit per test256 megabytesinputstdinoutputstdoutAn array of positive integersa1,a2, ...,anis given. Let us consider its arbitrary subarrayal,al+ 1...,ar, where1 ≤l≤r≤n. For every positive integersdenote byKsthe number of occurrences ofsinto the subarray. We call thepowerof the subarray the sum of productsKs·Ks·sfor every positive integers. The sum contains only finite number of nonzero summands as the number of different values in the array is indeed finite.You should calculate the power oftgiven subarrays.InputFirst line contains two integersnandt(1 ≤n,t≤ 200000) — the array length and the number of queries correspondingly.Second line containsnpositive integersai(1 ≤ai≤ 106) — the elements of the array.Nexttlines contain two positive integersl,r(1 ≤l≤r≤n) each — the indices of the left and the right ends of the corresponding subarray.OutputOutputtlines, thei-th line of the output should contain single positive integer — the power of thei-th query subarray.Please, do not use%lldspecificator to read or write 64-bit integers in C++. It is preferred to usecoutstream (also you may use%I64d).ExamplesInput3 21 2 11 21 3Output36Input8 31 1 2 2 1 3 1 12 71 62 7Output202020NoteConsider the following array (see the second sample) and its [2, 7] subarray (elements of the subarray are colored):ThenK1= 3,K2= 2,K3= 1, so the power is equal to32·1 + 22·2 + 12·3 = 20.",
+    "source": "CF",
+    "vjudge": false
+}

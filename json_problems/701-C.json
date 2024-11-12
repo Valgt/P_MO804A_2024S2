@@ -1,0 +1,13 @@
+{
+    "uid": "701-C",
+    "url": "https://codeforces.com/contest/701/problem/C",
+    "tags": [
+        "binary search",
+        " strings",
+        " two pointers"
+    ],
+    "title": "701-C",
+    "statement": "C. They Are Everywheretime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputSergei B., the young coach of Pokemons, has found the big house which consists ofnflats ordered in a row from left to right. It is possible to enter each flat from the street. It is possible to go out from each flat. Also, each flat is connected with the flat to the left and the flat to the right. Flat number1is only connected with the flat number2and the flat numbernis only connected with the flat numbern- 1.There is exactly one Pokemon of some type in each of these flats. Sergei B. asked residents of the house to let him enter their flats in order to catch Pokemons. After consulting the residents of the house decided to let Sergei B. enter one flat from the street, visit several flats and then go out from some flat. But they won't let him visit the same flat more than once.Sergei B. was very pleased, and now he wants to visit as few flats as possible in order to collect Pokemons of all types that appear in this house. Your task is to help him and determine this minimum number of flats he has to visit.InputThe first line contains the integern(1 ≤n≤ 100 000) — the number of flats in the house.The second line contains the rowswith the lengthn, it consists of uppercase and lowercase letters of English alphabet, thei-th letter equals the type of Pokemon, which is in the flat numberi.OutputPrint the minimum number of flats which Sergei B. should visit in order to catch Pokemons of all types which there are in the house.ExamplesInput3AaAOutput2Input7bcAAcbcOutput3Input6aaBCCeOutput5NoteIn the first test Sergei B. can begin, for example, from the flat number1and end in the flat number2.In the second test Sergei B. can begin, for example, from the flat number4and end in the flat number6.In the third test Sergei B. must begin from the flat number2and end in the flat number6.",
+    "source": "CF",
+    "vjudge": false
+}

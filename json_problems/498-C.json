@@ -1,0 +1,13 @@
+{
+    "uid": "498-C",
+    "url": "https://codeforces.com/contest/498/problem/C",
+    "tags": [
+        "flows",
+        " graph matchings",
+        " number theory"
+    ],
+    "title": "498-C",
+    "statement": "C. Array and Operationstime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutYou have written on a piece of paper an array ofnpositive integersa[1],a[2], ...,a[n]andmgoodpairs of integers(i1,j1), (i2,j2), ..., (im,jm). Eachgoodpair(ik,jk)meets the following conditions:ik+jkis an odd number and1 ≤ik<jk≤n.In one operation you can perform a sequence of actions:take one of thegoodpairs(ik,jk)and some integerv(v> 1), which divides both numbersa[ik]anda[jk];divide both numbers byv, i. e. perform the assignments:and.Determine the maximum number of operations you can sequentially perform on the given array. Note that one pair may be used several times in the described operations.InputThe first line contains two space-separated integersn,m(2 ≤n≤ 100,1 ≤m≤ 100).The second line containsnspace-separated integersa[1],a[2], ...,a[n](1 ≤a[i] ≤ 109) — the description of the array.The followingmlines contain the description ofgoodpairs. Thek-th line contains two space-separated integersik,jk(1 ≤ik<jk≤n,ik+jkis an odd number).It is guaranteed that all thegoodpairs are distinct.OutputOutput the answer for the problem.ExamplesInput3 28 3 81 22 3Output0Input3 28 12 81 22 3Output2",
+    "source": "CF",
+    "vjudge": false
+}

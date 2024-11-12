@@ -1,0 +1,14 @@
+{
+    "uid": "660-A",
+    "url": "https://codeforces.com/contest/660/problem/A",
+    "tags": [
+        "greedy",
+        " implementation",
+        " math",
+        " number theory"
+    ],
+    "title": "660-A",
+    "statement": "A. Co-prime Arraytime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given an array ofnelements, you must make it a co-prime array in as few moves as possible.In each move you can insert any positive integral number you want not greater than109in any place in the array.An array is co-prime if any two adjacent numbers of it are co-prime.In the number theory, two integersaandbare said to be co-prime if the only positive integer that divides both of them is1.InputThe first line contains integern(1 ≤n≤ 1000) — the number of elements in the given array.The second line containsnintegersai(1 ≤ai≤ 109) — the elements of the arraya.OutputPrint integerkon the first line — the least number of elements needed to add to the arrayato make it co-prime.The second line should containn+kintegersaj— the elements of the arrayaafter addingkelements to it. Note that the new array should be co-prime, so any two adjacent values should be co-prime. Also the new array should be got from the original arrayaby addingkelements to it.If there are multiple answers you can print any one of them.ExampleInput32 7 28Output12 7 9 28",
+    "source": "CF",
+    "vjudge": false
+}

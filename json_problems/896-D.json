@@ -1,0 +1,14 @@
+{
+    "uid": "896-D",
+    "url": "https://codeforces.com/contest/896/problem/D",
+    "tags": [
+        "chinese remainder theorem",
+        " combinatorics",
+        " math",
+        " number theory"
+    ],
+    "title": "896-D",
+    "statement": "D. Nephren Runs a Cinematime limit per test2.5 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputLakhesh loves to make movies, so Nephren helps her run a cinema. We may call it No. 68 Cinema.However, one day, the No. 68 Cinema runs out of changes (they don't have 50-yuannotes currently), but Nephren still wants to start their business. (Assume thatyuanis a kind of currency in Regulu Ere.)There are three types of customers: some of them bring exactly a 50-yuannote; some of them bring a 100-yuannote and Nephren needs to give a 50-yuannote back to him/her; some of them bring VIP cards so that they don't need to pay for the ticket.Nowncustomers are waiting outside in queue. Nephren wants to know how many possible queues are there that they are able to run smoothly (i.e. every customer can receive his/her change), and that the number of 50-yuannotes they have after selling tickets to all these customers is betweenlandr, inclusive. Two queues are considered different if there exists a customer whose type is different in two queues. As the number can be large, please output the answer modulop.InputOne line containing four integersn(1 ≤n≤ 105),p(1 ≤p≤ 2·109),landr(0 ≤l≤r≤n).OutputOne line indicating the answer modulop.ExamplesInput4 97 2 3Output13Input4 100 0 4Output35NoteWe use A, B and C to indicate customers with 50-yuannotes, customers with 100-yuannotes and customers with VIP cards respectively.For the first sample, the different possible queues that there are250-yuannotes left are AAAB, AABA, ABAA, AACC, ACAC, ACCA, CAAC, CACA and CCAA, and the different possible queues that there are350-yuannotes left are AAAC, AACA, ACAA and CAAA. So there are13different queues satisfying the first sample. Similarly, there are35different queues satisfying the second sample.",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,15 @@
+{
+    "uid": "372-D",
+    "url": "https://codeforces.com/contest/372/problem/D",
+    "tags": [
+        "binary search",
+        " data structures",
+        " dfs and similar",
+        " trees",
+        " two pointers"
+    ],
+    "title": "372-D",
+    "statement": "D. Choosing Subtree is Funtime limit per test5 secondsmemory limit per test256 megabytesinputstdinoutputstdoutThere is a tree consisting ofnvertices. The vertices are numbered from1ton.Let's define the length of an interval[l,r]as the valuer-l+ 1. The score of a subtree of this tree is the maximum length of such an interval[l,r]that, the vertices with numbersl,l+ 1, ...,rbelong to the subtree.Considering all subtrees of the tree whose size is at mostk, return the maximum score of the subtree. Note, that in this problem tree is not rooted, so a subtree — is an arbitrary connected subgraph of the tree.InputThere are two integers in the first line,nandk(1 ≤k≤n≤ 105). Each of the nextn- 1lines contains integersaiandbi(1 ≤ai,bi≤n,ai≠bi). That meansaiandbiare connected by a tree edge.It is guaranteed that the input represents a tree.OutputOutput should contain a single integer — the maximum possible score.ExamplesInput10 64 1010 62 99 68 57 14 77 31 8Output3Input16 713 1112 112 148 69 1516 115 146 154 311 1515 1410 13 1414 71 7Output6NoteFor the first case, there is some subtree whose size is at most6, including3consecutive numbers of vertices. For example, the subtree that consists of{1, 3, 4, 5, 7, 8}or of{1, 4, 6, 7, 8, 10}includes3consecutive numbers of vertices. But there is no subtree whose size is at most6, which includes4or more consecutive numbers of vertices.",
+    "source": "CF",
+    "vjudge": false
+}

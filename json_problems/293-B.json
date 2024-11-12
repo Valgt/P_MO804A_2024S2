@@ -1,0 +1,12 @@
+{
+    "uid": "293-B",
+    "url": "https://codeforces.com/contest/293/problem/B",
+    "tags": [
+        "brute force",
+        " combinatorics"
+    ],
+    "title": "293-B",
+    "statement": "B. Distinct Pathstime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutYou have a rectangularn×m-cell board. Some cells are already painted some ofkcolors. You need to paint each uncolored cell one of thekcolors so that any path from the upper left square to the lower right one doesn't contain any two cells of the same color. The path can go only along side-adjacent cells and can only go down or right.Print the number of possible paintings modulo1000000007(109+ 7).InputThe first line contains three integersn,m,k(1 ≤n,m≤ 1000, 1 ≤k≤ 10). The nextnlines containmintegers each — the board. The first of them containsmuppermost cells of the board from the left to the right and the second one containsmcells from the second uppermost row and so on. If a number in a line equals 0, then the corresponding cell isn't painted. Otherwise, this number represents the initial color of the board cell — an integer from 1 tok.Consider all colors numbered from 1 tokin some manner.OutputPrint the number of possible paintings modulo1000000007(109+ 7).ExamplesInput2 2 40 00 0Output48Input2 2 41 22 1Output0Input5 6 100 0 0 0 0 00 0 0 0 0 00 0 0 0 0 00 0 0 0 0 00 0 0 0 0 0Output3628800Input2 6 101 2 3 4 5 60 0 0 0 0 0Output4096",
+    "source": "CF",
+    "vjudge": false
+}

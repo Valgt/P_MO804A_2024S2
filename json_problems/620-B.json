@@ -1,0 +1,11 @@
+{
+    "uid": "620-B",
+    "url": "https://codeforces.com/contest/620/problem/B",
+    "tags": [
+        "implementation"
+    ],
+    "title": "620-B",
+    "statement": "B. Grandfather Dovlet’s calculatortime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputOnce Max found an electronic calculator from his grandfather Dovlet's chest. He noticed that the numbers were written with seven-segment indicators (https://en.wikipedia.org/wiki/Seven-segment_display).Max starts to type all the values fromatob. After typing each number Max resets the calculator. Find the total number of segments printed on the calculator.For example ifa= 1andb= 3then at first the calculator will print2segments, then —5segments and at last it will print5segments. So the total number of printed segments is12.InputThe only line contains two integersa,b(1 ≤a≤b≤ 106) — the first and the last number typed by Max.OutputPrint the only integera— the total number of printed segments.ExamplesInput1 3Output12Input10 15Output39",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,11 @@
+{
+    "uid": "292-E",
+    "url": "https://codeforces.com/contest/292/problem/E",
+    "tags": [
+        "data structures"
+    ],
+    "title": "292-E",
+    "statement": "E. Copying Datatime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutWe often have to copy large volumes of information. Such operation can take up many computer resources. Therefore, in this problem you are advised to come up with a way to copy some part of a number array into another one, quickly.More formally, you've got two arrays of integersa1,a2, ...,anandb1,b2, ...,bnof lengthn. Also, you've gotmqueries of two types:Copy the subsegment of arrayaof lengthk, starting from positionx, into arrayb, starting from positiony, that is, executeby+q=ax+qfor all integerq(0 ≤q<k). The given operation is correct — both subsegments do not touch unexistent elements.Determine the value in positionxof arrayb, that is, find valuebx.For each query of the second type print the result — the value of the corresponding element of arrayb.InputThe first line contains two space-separated integersnandm(1 ≤n,m≤ 105)— the number of elements in the arrays and the number of queries, correspondingly. The second line contains an array of integersa1,a2, ...,an(|ai| ≤ 109). The third line contains an array of integersb1,b2, ...,bn(|bi| ≤ 109).Nextmlines contain the descriptions of the queries. Thei-th line first contains integerti— the type of thei-th query(1 ≤ti≤ 2). Ifti= 1, then thei-th query means the copying operation. Ifti= 2, then thei-th query means taking the value in arrayb. Ifti= 1, then the query type is followed by three integersxi,yi,ki(1 ≤xi,yi,ki≤n)— the parameters of the copying query. Ifti= 2, then the query type is followed by integerxi(1 ≤xi≤n)— the position in arrayb.All numbers in the lines are separated with single spaces. It is guaranteed that all the queries are correct, that is, the copying borders fit into the borders of arraysaandb.OutputFor each second type query print the result on a single line.ExamplesInput5 101 2 0 -1 33 1 5 -2 02 51 3 3 32 52 42 11 2 1 42 12 41 4 2 12 2Output03-1323-1",
+    "source": "CF",
+    "vjudge": false
+}

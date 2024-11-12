@@ -1,0 +1,12 @@
+{
+    "uid": "644-A",
+    "url": "https://codeforces.com/contest/644/problem/A",
+    "tags": [
+        "*special",
+        " constructive algorithms"
+    ],
+    "title": "644-A",
+    "statement": "A. Parliament of Berlandtime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputThere arenparliamentarians in Berland. They are numbered with integers from1ton. It happened that all parliamentarians with odd indices are Democrats and all parliamentarians with even indices are Republicans.New parliament assembly hall is a rectangle consisting ofa×bchairs —arows ofbchairs each. Two chairs are considered neighbouring if they share as side. For example, chair number5in row number2is neighbouring to chairs number4and6in this row and chairs with number5in rows1and3. Thus, chairs have four neighbours in general, except for the chairs on the border of the hallWe know that if two parliamentarians from one political party (that is two Democrats or two Republicans) seat nearby they spent all time discussing internal party issues.Write the program that given the number of parliamentarians and the sizes of the hall determine if there is a way to find a seat for any parliamentarian, such that no two members of the same party share neighbouring seats.InputThe first line of the input contains three integersn,aandb(1 ≤n≤ 10 000,1 ≤a,b≤ 100) — the number of parliamentarians, the number of rows in the assembly hall and the number of seats in each row, respectively.OutputIf there is no way to assigns seats to parliamentarians in a proper way print-1.Otherwise print the solution inalines, each containingbintegers. Thej-th integer of thei-th line should be equal to the index of parliamentarian occupying this seat, or0if this seat should remain empty. If there are multiple possible solution, you may print any of them.ExamplesInput3 2 2Output0 31 2Input8 4 3Output7 8 30 1 46 0 50 2 0Input10 2 2Output-1NoteIn the first sample there are many other possible solutions. For example,3 20 1and2 13 0The following assignment3 21 0is incorrect, because parliamentarians1and3are both from Democrats party but will occupy neighbouring seats.",
+    "source": "CF",
+    "vjudge": false
+}

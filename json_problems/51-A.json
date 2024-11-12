@@ -1,0 +1,11 @@
+{
+    "uid": "51-A",
+    "url": "https://codeforces.com/contest/51/problem/A",
+    "tags": [
+        "implementation"
+    ],
+    "title": "51-A",
+    "statement": "A. Cheaterius's Problemtime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutCheaterius is a famous in all the Berland astrologist, magician and wizard, and he also is a liar and a cheater. One of his latest inventions is Cheaterius' amulets! They bring luck and wealth, but are rather expensive. Cheaterius makes them himself. The technology of their making is kept secret. But we know that throughout long nights Cheaterius glues together domino pairs with super glue to get squares2 × 2which are the Cheaterius' magic amulets!That's what one of Cheaterius's amulets looks likeAfter a hard night Cheaterius madenamulets. Everyone of them represents a square2 × 2, every quarter contains 1 to 6 dots. Now he wants sort them into piles, every pile must contain similar amulets. Two amulets are called similar if they can be rotated by 90, 180 or 270 degrees so that the following condition is met: the numbers of dots in the corresponding quarters should be the same. It is forbidden to turn over the amulets.Write a program that by the given amulets will find the number of piles on Cheaterius' desk.InputThe first line contains an integern(1 ≤n≤ 1000), wherenis the number of amulets. Then the amulet's descriptions are contained. Every description occupies two lines and contains two numbers (from 1 to 6) in each line. Between every pair of amulets the line \"**\" is located.OutputPrint the required number of piles.ExamplesInput43123**3123**1332**3213Output1Input45126**5435**2561**4553Output2",
+    "source": "CF",
+    "vjudge": false
+}

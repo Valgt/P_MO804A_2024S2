@@ -1,0 +1,12 @@
+{
+    "uid": "76-B",
+    "url": "https://codeforces.com/contest/76/problem/B",
+    "tags": [
+        "greedy",
+        " two pointers"
+    ],
+    "title": "76-B",
+    "statement": "B. Micetime limit per test0.5 secondmemory limit per test256 megabytesinputstdinoutputstdoutModern researches has shown that a flock of hungry mice searching for a piece of cheese acts as follows: if there are several pieces of cheese then each mouse chooses the closest one. After that all mice start moving towards the chosen piece of cheese. When a mouse or several mice achieve the destination point and there is still a piece of cheese in it, they eat it and become well-fed. Each mice that reaches this point after that remains hungry. Moving speeds of all mice are equal.If there are several ways to choose closest pieces then mice will choose it in a way that would minimize the number of hungry mice. To check this theory scientists decided to conduct an experiment. They locatedNmice andMpieces of cheese on a cartesian plane where all mice are located on the liney=Y0and all pieces of cheese — on another liney=Y1. To check the results of the experiment the scientists need a program which simulates the behavior of a flock of hungry mice.Write a program that computes the minimal number of mice which will remain hungry, i.e. without cheese.InputThe first line of the input contains four integer numbersN(1 ≤N≤ 105),M(0 ≤M≤ 105),Y0(0 ≤Y0≤ 107),Y1(0 ≤Y1≤ 107,Y0≠Y1). The second line contains a strictly increasing sequence ofNnumbers —xcoordinates of mice. Third line contains a strictly increasing sequence ofMnumbers —xcoordinates of cheese. All coordinates are integers and do not exceed107by absolute value.OutputThe only line of output should contain one number — the minimal number of mice which will remain without cheese.ExamplesInput3 2 0 20 1 32 5Output1NoteAll the three mice will choose the first piece of cheese. Second and third mice will eat this piece. The first one will remain hungry, because it was running towards the same piece, but it was late. The second piece of cheese will remain uneaten.",
+    "source": "CF",
+    "vjudge": false
+}

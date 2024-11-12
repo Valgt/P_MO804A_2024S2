@@ -1,0 +1,11 @@
+{
+    "uid": "946-A",
+    "url": "https://codeforces.com/contest/946/problem/A",
+    "tags": [
+        "greedy"
+    ],
+    "title": "946-A",
+    "statement": "A. Partitiontime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given a sequenceaconsisting ofnintegers. You may partition this sequence into two sequencesbandcin such a way that every element belongs exactly to one of these sequences.LetBbe the sum of elements belonging tob, andCbe the sum of elements belonging toc(if some of these sequences is empty, then its sum is0). What is the maximum possible value ofB-C?InputThe first line contains one integern(1 ≤n≤ 100) — the number of elements ina.The second line containsnintegersa1,a2, ...,an(- 100 ≤ai≤ 100) — the elements of sequencea.OutputPrint the maximum possible value ofB-C, whereBis the sum of elements of sequenceb, andCis the sum of elements of sequencec.ExamplesInput31 -2 0Output3Input616 23 16 15 42 8Output120NoteIn the first example we may chooseb= {1, 0},c= { - 2}. ThenB= 1,C=  - 2,B-C= 3.In the second example we chooseb= {16, 23, 16, 15, 42, 8},c= {}(an empty sequence). ThenB= 120,C= 0,B-C= 120.",
+    "source": "CF",
+    "vjudge": false
+}

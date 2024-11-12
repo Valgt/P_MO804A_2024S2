@@ -1,0 +1,11 @@
+{
+    "uid": "468-D",
+    "url": "https://codeforces.com/contest/468/problem/D",
+    "tags": [
+        "graph matchings"
+    ],
+    "title": "468-D",
+    "statement": "D. Treetime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutLittle X has a tree consisting ofnnodes (they are numbered from1ton). Each edge of the tree has a positive length. Let's define the distance between two nodesvandu(we'll denote itd(v,u)) as the sum of the lengths of edges in the shortest path betweenvandu.A permutationpis a sequence ofndistinct integersp1,p2, ...,pn(1 ≤pi≤n). Little X wants to find a permutationpsuch that sumis maximal possible. If there are multiple optimal permutations, he wants to find the lexicographically smallest one. Help him with the task!InputThe first line contains an integern(1 ≤n≤ 105).Each of the nextn- 1lines contains three space separated integersui,vi,wi(1 ≤ui,vi≤n; 1 ≤wi≤  105), denoting an edge between nodesuiandviwith length equal towi.It is guaranteed that these edges form a tree.OutputIn the first line print the maximum possible value of the described sum. In the second line printnintegers, representing the lexicographically smallest permutation.ExamplesInput21 2 3Output62 1Input51 2 21 3 32 4 42 5 5Output322 1 4 5 3",
+    "source": "CF",
+    "vjudge": false
+}

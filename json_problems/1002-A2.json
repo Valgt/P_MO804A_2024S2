@@ -1,0 +1,9 @@
+{
+    "uid": "1002-A2",
+    "url": "https://codeforces.com/contest/1002/problem/A2",
+    "tags": [],
+    "title": "1002-A2",
+    "statement": "A2. Generate superposition of zero state and a basis statetime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are givenNqubits (1 ≤N≤ 8) in zero state. You are also given a bitstringbitswhich describes a non-zero basis state onNqubits.Your task is to generate a state which is an equal superposition ofand the given basis state:You have to implement an operation which takes the following inputs:an array of qubitsqs,an arrays of boolean valuesbitsrepresenting the basis state. This array will have the same length as the array of qubits. The first element of this arraybits[0]will betrue.The operation doesn't have an output; its \"output\" is the state in which it leaves the qubits.An array of boolean values represents a basis state as follows: thei-th element of the array is true if thei-th qubit is in state, and false if it is in state. For example, array[true; false]describes 2-qubit state, and in this case the resulting state should be.Your code should have the following signature:namespace Solution {open Microsoft.Quantum.Primitive;open Microsoft.Quantum.Canon;operation Solve (qs : Qubit[], bits : Bool[]) : (){body{// your code here}}}",
+    "source": "CF",
+    "vjudge": false
+}

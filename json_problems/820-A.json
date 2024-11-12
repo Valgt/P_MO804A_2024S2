@@ -1,0 +1,11 @@
+{
+    "uid": "820-A",
+    "url": "https://codeforces.com/contest/820/problem/A",
+    "tags": [
+        "implementation"
+    ],
+    "title": "820-A",
+    "statement": "A. Mister B and Book Readingtime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputMister B once received a gift: it was a book about aliens, which he started read immediately. This book hadcpages.At first day Mister B readv0pages, but after that he started to speed up. Every day, starting from the second, he readapages more than on the previous day (at first day he readv0pages, at second —v0+apages, at third —v0+ 2apages, and so on). But Mister B is just a human, so he physically wasn't able to read more thanv1pages per day.Also, to refresh his memory, every day, starting from the second, Mister B had to reread lastlpages he read on the previous day. Mister B finished the book when he read the last page for the first time.Help Mister B to calculate how many days he needed to finish the book.InputFirst and only line contains five space-separated integers:c,v0,v1,aandl(1 ≤c≤ 1000,0 ≤l<v0≤v1≤ 1000,0 ≤a≤ 1000) — the length of the book in pages, the initial reading speed, the maximum reading speed, the acceleration in reading speed and the number of pages for rereading.OutputPrint one integer — the number of days Mister B needed to finish the book.ExamplesInput5 5 10 5 4Output1Input12 4 12 4 1Output3Input15 1 100 0 0Output15NoteIn the first sample test the book contains5pages, so Mister B read it right at the first day.In the second sample test at first day Mister B read pages number1 - 4, at second day —4 - 11, at third day —11 - 12and finished the book.In third sample test every day Mister B read1page of the book, so he finished in 15 days.",
+    "source": "CF",
+    "vjudge": false
+}

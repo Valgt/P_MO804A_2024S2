@@ -1,0 +1,11 @@
+{
+    "uid": "392-A",
+    "url": "https://codeforces.com/contest/392/problem/A",
+    "tags": [
+        "math"
+    ],
+    "title": "392-A",
+    "statement": "A. Blocked Pointstime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutImagine you have an infinite 2D plane with Cartesian coordinate system. Some of the integral points are blocked, and others are not. Two integral pointsAandBon the plane are 4-connected if and only if:the Euclidean distance betweenAandBis one unit and neitherAnorBis blocked;or there is some integral pointC, such thatAis 4-connected withC, andCis 4-connected withB.Let's assume that the plane doesn't contain blocked points. Consider all the integral points of the plane whose Euclidean distance from the origin is no more thann, we'll name these points special. Chubby Yang wants to get the following property: no special point is 4-connected to some non-special point. To get the property she can pick some integral points of the plane and make them blocked. What is the minimum number of points she needs to pick?InputThe first line contains an integern(0 ≤n≤ 4·107).OutputPrint a single integer — the minimum number of points that should be blocked.ExamplesInput1Output4Input2Output8Input3Output16",
+    "source": "CF",
+    "vjudge": false
+}

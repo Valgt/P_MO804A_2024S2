@@ -1,0 +1,13 @@
+{
+    "uid": "920-D",
+    "url": "https://codeforces.com/contest/920/problem/D",
+    "tags": [
+        "dp",
+        " greedy",
+        " implementation"
+    ],
+    "title": "920-D",
+    "statement": "D. Tankstime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputPetya sometimes has to water his field. To water the field, Petya needs a tank with exactlyVml of water.Petya has gotNtanks,i-th of them initially containingaiml of water. The tanks are really large, any of them can contain any amount of water (no matter how large this amount is).Also Petya has got a scoop that can contain up toKml of water (initially the scoop is empty). This scoop can be used to get some water from some tank, and after that pour it all into some tank (it is impossible to get water from multiple tanks without pouring it, or leave some water in the scoop when pouring it). When Petya tries to get some water from a tank, he getsmin(v,K)water, wherevis the current volume of water in the tank.Is it possible to obtain a tank with exactlyVml of water using these operations? If it is possible, print a sequence of operations that allows to do it. If there are multiple ways to obtain needed amount of water in some tank, print any of them.InputThe first line contains3integers:N(2 ≤N≤ 5000),K(1 ≤K≤ 5000), andV(0 ≤V≤ 109)— the number of tanks, the maximum volume of water the scoop can contain, and the required amount of water in some tank, respectively.The second line containsNintegersai(0 ≤ai≤ 105), whereaiis initial volume of water ini-th tank.OutputIf it is impossible to obtain a tank with exactlyVml of water, printNO.Otherwise printYESin the first line, and beginning from the second line, print the sequence of operations in the following format:Each line has to contain3numbers denoting a compressed operation: \"cntxy\"(1 ≤cnt≤ 109, 1 ≤x,y≤N), wherexis the index of the tank where we get water,yis the index of the tank where we pour water, andcntis the number of times we transfer water from tankxto tanky.The number of these linesmust not exceedN+ 5.ExamplesInput2 3 52 3OutputYES1 2 1Input2 3 42 3OutputNOInput5 2 01 3 5 7 9OutputYES2 2 13 3 14 4 15 5 1",
+    "source": "CF",
+    "vjudge": false
+}

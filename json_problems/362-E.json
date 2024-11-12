@@ -1,0 +1,13 @@
+{
+    "uid": "362-E",
+    "url": "https://codeforces.com/contest/362/problem/E",
+    "tags": [
+        "flows",
+        " graphs",
+        " shortest paths"
+    ],
+    "title": "362-E",
+    "statement": "E. Petya and Pipestime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutA little boy Petya dreams of growing up and becoming the Head Berland Plumber. He is thinking of the problems he will have to solve in the future. Unfortunately, Petya is too inexperienced, so you are about to solve one of such problems for Petya, the one he's the most interested in.The Berland capital hasnwater tanks numbered from1ton. These tanks are connected by unidirectional pipes in some manner. Any pair of water tanks is connected by at most one pipe in each direction. Each pipe has a strictly positive integer width. Width determines the number of liters of water per a unit of time this pipe can transport. The water goes to the city from the main water tank (its number is1). The water must go through some pipe path and get to the sewer tank with cleaning system (its number isn).Petya wants to increase the width of some subset of pipes by at mostkunits in total so that the width of each pipe remains integer. Help him determine the maximum amount of water that can be transmitted per a unit of time from the main tank to the sewer tank after such operation is completed.InputThe first line contains two space-separated integersnandk(2 ≤n≤ 50,0 ≤k≤ 1000). Then follownlines, each line containsnintegers separated by single spaces. Thei+ 1-th row andj-th column contain numbercij— the width of the pipe that goes from tankito tankj(0 ≤cij≤ 106,cii= 0). Ifcij= 0, then there is no pipe from tankito tankj.OutputPrint a single integer — the maximum amount of water that can be transmitted from the main tank to the sewer tank per a unit of time.ExamplesInput5 70 1 0 2 00 0 4 10 00 0 0 0 50 0 0 0 100 0 0 0 0Output10Input5 100 1 0 0 00 0 2 0 00 0 0 3 00 0 0 0 4100 0 0 0 0Output5NoteIn the first test Petya can increase width of the pipe that goes from the1st to the2nd water tank by7units.In the second test Petya can increase width of the pipe that goes from the1st to the2nd water tank by4units, from the2nd to the3rd water tank by3units, from the3rd to the4th water tank by2units and from the4th to5th water tank by1unit.",
+    "source": "CF",
+    "vjudge": false
+}

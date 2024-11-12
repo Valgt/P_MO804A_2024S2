@@ -1,0 +1,12 @@
+{
+    "uid": "203-B",
+    "url": "https://codeforces.com/contest/203/problem/B",
+    "tags": [
+        "brute force",
+        " implementation"
+    ],
+    "title": "203-B",
+    "statement": "B. Game on Papertime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutOne not particularly beautiful evening Valera got very bored. To amuse himself a little bit, he found the following game.He took a checkered white square piece of paper, consisting ofn×ncells. After that, he started to paint the white cells black one after the other. In total he paintedmdifferent cells on the piece of paper. Since Valera was keen on everything square, he wondered, how many moves (i.e. times the boy paints a square black) he should make till a black square with side3can be found on the piece of paper. But Valera does not know the answer to this question, so he asks you to help him.Your task is to find the minimum number of moves, till the checkered piece of paper has at least one black square with side of3. Otherwise determine that such move does not exist.InputThe first line contains two integersnandm(1 ≤n≤ 1000,1 ≤m≤min(n·n, 105))— the size of the squared piece of paper and the number of moves, correspondingly.Then,mlines contain the description of the moves. Thei-th line contains two integersxi,yi(1 ≤xi,yi≤n) — the number of row and column of the square that gets painted on thei-th move.All numbers on the lines are separated by single spaces. It is guaranteed that all moves are different. The moves are numbered starting from1in the order, in which they are given in the input. The columns of the squared piece of paper are numbered starting from1, from the left to the right. The rows of the squared piece of paper are numbered starting from1, from top to bottom.OutputOn a single line print the answer to the problem — the minimum number of the move after which the piece of paper has a black square with side3. If no such move exists, print -1.ExamplesInput4 111 11 21 32 22 31 42 43 43 23 34 1Output10Input4 121 11 21 32 22 31 42 43 43 24 24 13 1Output-1",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,14 @@
+{
+    "uid": "372-A",
+    "url": "https://codeforces.com/contest/372/problem/A",
+    "tags": [
+        "binary search",
+        " greedy",
+        " sortings",
+        " two pointers"
+    ],
+    "title": "372-A",
+    "statement": "A. Counting Kangaroos is Funtime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutThere arenkangaroos with pockets. Each kangaroo has a size (integer number). A kangaroo can go into another kangaroo's pocket if and only if the size of kangaroo who hold the kangaroo is at least twice as large as the size of kangaroo who is held.Each kangaroo can hold at most one kangaroo, and the kangaroo who is held by another kangaroo cannot hold any kangaroos.The kangaroo who is held by another kangaroo cannot be visible from outside. Please, find a plan of holding kangaroos with the minimal number of kangaroos who is visible.InputThe first line contains a single integer —n(1 ≤n≤ 5·105). Each of the nextnlines contains an integersi— the size of thei-th kangaroo(1 ≤si≤ 105).OutputOutput a single integer — the optimal number of visible kangaroos.ExamplesInput825769842Output5Input891626583Output5",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,11 @@
+{
+    "uid": "909-C",
+    "url": "https://codeforces.com/contest/909/problem/C",
+    "tags": [
+        "dp"
+    ],
+    "title": "909-C",
+    "statement": "C. Python Indentationtime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputIn Python, code blocks don't have explicit begin/end or curly braces to mark beginning and end of the block. Instead, code blocks are defined by indentation.We will consider an extremely simplified subset of Python with only two types of statements.Simple statementsare written in a single line, one per line. An example of a simple statement is assignment.For statementsare compound statements: they contain one or several other statements. For statement consists of a header written in a separate line which starts with \"for\" prefix, and loop body. Loop body is a block of statements indented one level further than the header of the loop. Loop body can contain both types of statements. Loop body can't be empty.You are given a sequence of statements without indentation. Find the number of ways in which the statements can be indented to form a valid Python program.InputThe first line contains a single integerN(1 ≤N≤ 5000) — the number of commands in the program.Nlines of the program follow, each line describing a single command. Each command is either \"f\" (denoting \"for statement\") or \"s\" (\"simple statement\"). It is guaranteed that the last line is a simple statement.OutputOutput one line containing an integer - the number of ways the given sequence of statements can be indented modulo109+ 7.ExamplesInput4sffsOutput1Input4fsfsOutput2NoteIn the first test case, there is only one way to indent the program: the second for statement must be part of the body of the first one.simple statementfor statementfor statementsimple statementIn the second test case, there are two ways to indent the program: the second for statement can either be part of the first one's body or a separate statement following the first one.for statementsimple statementfor statementsimple statementorfor statementsimple statementfor statementsimple statement",
+    "source": "CF",
+    "vjudge": false
+}

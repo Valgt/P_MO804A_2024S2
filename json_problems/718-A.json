@@ -1,0 +1,13 @@
+{
+    "uid": "718-A",
+    "url": "https://codeforces.com/contest/718/problem/A",
+    "tags": [
+        "dp",
+        " implementation",
+        " math"
+    ],
+    "title": "718-A",
+    "statement": "A. Efim and Strange Gradetime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputEfim just received his grade for the last test. He studies in a special school and his grade can be equal to any positive decimal fraction. First he got disappointed, as he expected a way more pleasant result. Then, he developed a tricky plan. Each second, he can ask his teacher to round the grade at any place after the decimal point (also, he can ask to round to the nearest integer).There aretseconds left till the end of the break, so Efim has to act fast. Help him find what is the maximum grade he can get in no more thantseconds. Note, that he can choose to not use alltseconds. Moreover, he can even choose to not round the grade at all.In this problem, classic rounding rules are used: while rounding number to then-th digit one has to take a look at the digitn+ 1. If it is less than5than then-th digit remain unchanged while all subsequent digits are replaced with0. Otherwise, if then+ 1digit is greater or equal to5, the digit at the positionnis increased by1(this might also change some other digits, if this one was equal to9) and all subsequent digits are replaced with0. At the end, all trailing zeroes are thrown away.For example, if the number1.14is rounded to the first decimal place, the result is1.1, while if we round1.5to the nearest integer, the result is2. Rounding number1.299996121in the fifth decimal place will result in number1.3.InputThe first line of the input contains two integersnandt(1 ≤n≤ 200 000,1 ≤t≤ 109) — the length of Efim's grade and the number of seconds till the end of the break respectively.The second line contains the grade itself. It's guaranteed that the grade is a positive number, containing at least one digit after the decimal points, and it's representation doesn't finish with0.OutputPrint the maximum grade that Efim can get intseconds. Do not print trailing zeroes.ExamplesInput6 110.245Output10.25Input6 210.245Output10.3Input3 1009.2Output9.2NoteIn the first two samples Efim initially has grade10.245.During the first second Efim can obtain grade10.25, and then10.3during the next second. Note, that the answer10.30will be considered incorrect.In the third sample the optimal strategy is to not perform any rounding at all.",
+    "source": "CF",
+    "vjudge": false
+}

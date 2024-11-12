@@ -1,0 +1,12 @@
+{
+    "uid": "151-A",
+    "url": "https://codeforces.com/contest/151/problem/A",
+    "tags": [
+        "implementation",
+        " math"
+    ],
+    "title": "151-A",
+    "statement": "A. Soft Drinkingtime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutThis winter is so cold in Nvodsk! A group ofnfriends decided to buykbottles of a soft drink called \"Take-It-Light\" to warm up a bit. Each bottle haslmilliliters of the drink. Also they boughtclimes and cut each of them intodslices. After that they foundpgrams of salt.To make a toast, each friend needsnlmilliliters of the drink, a slice of lime andnpgrams of salt. The friends want to make as many toasts as they can, provided they all drink the same amount. How many toasts can each friend make?InputThe first and only line containspositiveintegersn,k,l,c,d,p,nl,np, not exceeding1000and no less than1. The numbers are separated by exactly one space.OutputPrint a single integer — the number of toasts each friend can make.ExamplesInput3 4 5 10 8 100 3 1Output2Input5 100 10 1 19 90 4 3Output3Input10 1000 1000 25 23 1 50 1Output0NoteA comment to the first sample:Overall the friends have4 * 5 = 20milliliters of the drink, it is enough to make20 / 3 = 6toasts. The limes are enough for10 * 8 = 80toasts and the salt is enough for100 / 1 = 100toasts. However, there are 3 friends in the group, so the answer ismin(6, 80, 100) / 3 = 2.",
+    "source": "CF",
+    "vjudge": false
+}

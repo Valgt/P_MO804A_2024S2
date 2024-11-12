@@ -1,0 +1,15 @@
+{
+    "uid": "289-B",
+    "url": "https://codeforces.com/contest/289/problem/B",
+    "tags": [
+        "brute force",
+        " dp",
+        " implementation",
+        " sortings",
+        " ternary search"
+    ],
+    "title": "289-B",
+    "statement": "B. Polo the Penguin and Matrixtime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutLittle penguin Polo has ann×mmatrix, consisting of integers. Let's index the matrix rows from 1 tonfrom top to bottom and let's index the columns from 1 tomfrom left to right. Let's represent the matrix element on the intersection of rowiand columnjasaij.In one move the penguin can add or subtract numberdfrom some matrix element. Find the minimum number of moves needed to make all matrix elements equal. If the described plan is impossible to carry out, say so.InputThe first line contains three integersn,mandd(1 ≤n,m≤ 100, 1 ≤d≤ 104)— the matrix sizes and thedparameter. Nextnlines contain the matrix: thej-th integer in thei-th row is the matrix elementaij(1 ≤aij≤ 104).OutputIn a single line print a single integer — the minimum number of moves the penguin needs to make all matrix elements equal. If that is impossible, print \"-1\" (without the quotes).ExamplesInput2 2 22 46 8Output4Input1 2 76 7Output-1",
+    "source": "CF",
+    "vjudge": false
+}

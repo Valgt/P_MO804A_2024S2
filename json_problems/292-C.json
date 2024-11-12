@@ -1,0 +1,11 @@
+{
+    "uid": "292-C",
+    "url": "https://codeforces.com/contest/292/problem/C",
+    "tags": [
+        "brute force"
+    ],
+    "title": "292-C",
+    "statement": "C. Beautiful IP Addressestime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutThe problem uses a simplified TCP/IP address model, please read the statement carefully.An IP address is a 32-bit integer, represented as a group of four decimal 8-bit integers (without leading zeroes), separated by commas. For example, record0.255.1.123shows a correct IP address and records0.256.1.123and0.255.1.01do not. In the given problem an arbitrary group of four 8-bit integers is a correct IP address.Our hero Polycarpus still works as a system administrator in some large corporation. He likes beautiful IP addresses. To check if some IP address is beautiful, he should do the following:write out in a line four 8-bit numbers of the IP address, without the commas;check if the resulting string is a palindrome.Let us remind you that a palindrome is a string that reads the same from right to left and from left to right.For example, IP addresses12.102.20.121and0.3.14.130are beautiful (as strings \"1210220121\" and \"0314130\" are palindromes), and IP addresses1.20.20.1and100.4.4.1are not.Polycarpus wants to find all beautiful IP addresses that have the given set of digits. Each digit from the set must occur in the IP address at least once. IP address must not contain any other digits. Help him to cope with this difficult task.InputThe first line contains a single integern(1 ≤n≤ 10)— the number of digits in the set. The second line contains the set of integersa1,a2, ...,an(0 ≤ai≤ 9). It is guaranteed that all digits in the set are distinct.OutputIn the first line print a single integerk— the number of beautiful IP addresses that contain the given set of digits. In the followingklines print the IP addresses, one per line in the arbitrary order.ExamplesInput60 1 2 9 8 7Output678.190.209.18779.180.208.19787.190.209.17889.170.207.19897.180.208.17998.170.207.189Input14Output164.4.4.44.4.4.444.4.44.44.4.44.444.44.4.44.44.4.444.44.44.44.44.44.4444.4.4.444.4.4.4444.4.44.444.4.44.4444.44.4.444.44.4.4444.44.44.444.44.44.44",
+    "source": "CF",
+    "vjudge": false
+}

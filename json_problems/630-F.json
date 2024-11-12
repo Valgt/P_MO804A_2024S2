@@ -1,0 +1,12 @@
+{
+    "uid": "630-F",
+    "url": "https://codeforces.com/contest/630/problem/F",
+    "tags": [
+        "combinatorics",
+        " math"
+    ],
+    "title": "630-F",
+    "statement": "F. Selection of Personneltime limit per test0.5 secondsmemory limit per test64 megabytesinputstandard inputoutputstandard outputOne company of IT City decided to create a group of innovative developments consisting from5to7people and hire new employees for it. After placing an advertisment the company receivednresumes. Now the HR department has to evaluate each possible group composition and select one of them. Your task is to count the number of variants of group composition to evaluate.InputThe only line of the input contains one integern(7 ≤n≤ 777) — the number of potential employees that sent resumes.OutputOutput one integer — the number of different variants of group composition.ExamplesInput7Output29",
+    "source": "CF",
+    "vjudge": false
+}

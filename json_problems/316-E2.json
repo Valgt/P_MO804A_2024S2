@@ -1,0 +1,12 @@
+{
+    "uid": "316-E2",
+    "url": "https://codeforces.com/contest/316/problem/E2",
+    "tags": [
+        "data structures",
+        " math"
+    ],
+    "title": "316-E2",
+    "statement": "E2. Summer Homeworktime limit per test3 secondsmemory limit per test256 megabytesinputstdinoutputstdoutBy the age of three Smart Beaver mastered all arithmetic operations and got this summer homework from the amazed teacher:You are given a sequence of integersa1,a2, ...,an. Your task is to perform on itmconsecutive operations of the following type:For given numbersxiandviassign valuevito elementaxi.For given numbersliandriyou've got to calculate sum, wheref0=f1= 1and ati≥ 2:fi=fi- 1+fi- 2.For a group of three numbersliridiyou should increase valueaxbydifor allx(li≤x≤ri).Smart Beaver planned a tour around great Canadian lakes, so he asked you to help him solve the given problem.InputThe first line contains two integersnandm(1 ≤n,m≤ 2·105) — the number of integers in the sequence and the number of operations, correspondingly. The second line containsnintegersa1,a2, ...,an(0 ≤ai≤ 105). Then followmlines, each describes an operation. Each line starts with an integerti(1 ≤ti≤ 3) — the operation type:ifti= 1, then next follow two integersxivi(1 ≤xi≤n, 0 ≤vi≤ 105);ifti= 2, then next follow two integersliri(1 ≤li≤ri≤n);ifti= 3, then next follow three integersliridi(1 ≤li≤ri≤n, 0 ≤di≤ 105).The input limits for scoring30points are (subproblem E1):It is guaranteed thatndoes not exceed100,mdoes not exceed10000and there will be no queries of the3-rd type.The input limits for scoring70points are (subproblems E1+E2):It is guaranteed that there will be queries of the1-st and2-nd type only.The input limits for scoring100points are (subproblems E1+E2+E3):No extra limitations.OutputFor each query print the calculated sum modulo1000000000(109).ExamplesInput5 51 3 1 2 42 1 42 1 52 2 41 3 102 1 5Output1232850Input5 41 3 1 2 43 1 4 12 2 41 2 102 1 5Output1245",
+    "source": "CF",
+    "vjudge": false
+}

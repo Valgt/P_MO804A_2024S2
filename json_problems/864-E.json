@@ -1,0 +1,12 @@
+{
+    "uid": "864-E",
+    "url": "https://codeforces.com/contest/864/problem/E",
+    "tags": [
+        "dp",
+        " sortings"
+    ],
+    "title": "864-E",
+    "statement": "E. Firetime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputPolycarp is in really serious trouble — his house is on fire! It's time to save the most valuable items. Polycarp estimated that it would taketiseconds to savei-th item. In addition, for each item, he estimated the value ofdi— the moment after which the itemiwill be completely burned and will no longer be valuable for him at all. In particular, ifti≥di, theni-th item cannot be saved.Given the valuespifor each of the items, find a set of items that Polycarp can save such that the total value of this items is maximum possible. Polycarp saves the items one after another. For example, if he takes itemafirst, and then itemb, then the itemawill be saved intaseconds, and the itemb— inta+tbseconds after fire started.InputThe first line contains a single integern(1 ≤n≤ 100) — the number of items in Polycarp's house.Each of the followingnlines contains three integersti,di,pi(1 ≤ti≤ 20,1 ≤di≤ 2 000,1 ≤pi≤ 20) — the time needed to save the itemi, the time after which the itemiwill burn completely and the value of itemi.OutputIn the first line print the maximum possible total value of the set of saved items. In the second line print one integerm— the number of items in the desired set. In the third line printmdistinct integers — numbers of the saved itemsin the order Polycarp saves them. Items are 1-indexed in the same order in which they appear in the input. If there are several answers, print any of them.ExamplesInput33 7 42 6 53 7 6Output1122 3Input25 6 13 3 5Output111NoteIn the first example Polycarp will have time to save any two items, but in order to maximize the total value of the saved items, he must save the second and the third item. For example, he can firstly save the third item in3seconds, and then save the second item in another2seconds. Thus, the total value of the saved items will be6 + 5 = 11.In the second example Polycarp can save only the first item, since even if he immediately starts saving the second item, he can save it in3seconds, but this item will already be completely burned by this time.",
+    "source": "CF",
+    "vjudge": false
+}

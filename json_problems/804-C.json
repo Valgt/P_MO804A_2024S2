@@ -1,0 +1,13 @@
+{
+    "uid": "804-C",
+    "url": "https://codeforces.com/contest/804/problem/C",
+    "tags": [
+        "constructive algorithms",
+        " dfs and similar",
+        " greedy"
+    ],
+    "title": "804-C",
+    "statement": "C. Ice cream coloringtime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputIsart and Modsart were trying to solve an interesting problem when suddenly Kasra arrived. Breathless, he asked: \"Can you solve a problem I'm stuck at all day?\"We have a treeTwithnvertices andmtypes of ice cream numerated from1tom. Each vertexihas a set ofsitypes of ice cream. Vertices which have thei-th (1 ≤i≤m) type of ice cream form a connected subgraph. We build a new graphGwithmvertices. We put an edge between thev-th and theu-th (1 ≤u,v≤m,u≠v) vertices inGif and only if there exists a vertex inTthat has both thev-th and theu-th types of ice cream in its set. The problem is to paint the vertices ofGwith minimum possible number of colors in a way that no adjacent vertices have the same color.Please note that we consider that empty set of vertices form a connected subgraph in this problem.As usual, Modsart don't like to abandon the previous problem, so Isart wants you to solve the new problem.InputThe first line contains two integernandm(1 ≤n,m≤ 3·105) — the number of vertices inTand the number of ice cream types.nlines follow, thei-th of these lines contain single integersi(0 ≤si≤ 3·105) and thensidistinct integers, each between1andm— the types of ice cream in thei-th vertex. The sum ofsidoesn't exceed5·105.n- 1lines follow. Each of these lines describes an edge of the tree with two integersuandv(1 ≤u,v≤n) — the indexes of connected by this edge vertices.OutputPrint single integercin the first line — the minimum number of colors to paint the vertices in graphG.In the second line printmintegers, thei-th of which should be the color of thei-th vertex. The colors should be between1andc. If there are some answers, print any of them.ExamplesInput3 31 12 2 31 21 22 3Output21 1 2Input4 501 11 33 2 4 52 13 24 3Output31 1 1 2 3NoteIn the first example the first type of ice cream is present in the first vertex only, so we can color it in any color. The second and the third ice cream are both presented in the second vertex, so we should paint them in different colors.In the second example the colors of the second, the fourth and the fifth ice cream should obviously be distinct.",
+    "source": "CF",
+    "vjudge": false
+}

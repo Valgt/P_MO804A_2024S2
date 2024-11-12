@@ -1,0 +1,12 @@
+{
+    "uid": "913-A",
+    "url": "https://codeforces.com/contest/913/problem/A",
+    "tags": [
+        "implementation",
+        " math"
+    ],
+    "title": "913-A",
+    "statement": "A. Modular Exponentiationtime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputThe following problem is well-known: given integersnandm, calculate,where2n= 2·2·...·2(nfactors), anddenotes the remainder of division ofxbyy.You are asked to solve the \"reverse\" problem. Given integersnandm, calculate.InputThe first line contains a single integern(1 ≤n≤ 108).The second line contains a single integerm(1 ≤m≤ 108).OutputOutput a single integer — the value of.ExamplesInput442Output10Input158Output0Input9876543223456789Output23456789NoteIn the first example, the remainder of division of 42 by24= 16is equal to 10.In the second example, 58 is divisible by21= 2without remainder, and the answer is 0.",
+    "source": "CF",
+    "vjudge": false
+}

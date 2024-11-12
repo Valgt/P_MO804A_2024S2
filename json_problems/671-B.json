@@ -1,0 +1,12 @@
+{
+    "uid": "671-B",
+    "url": "https://codeforces.com/contest/671/problem/B",
+    "tags": [
+        "binary search",
+        " greedy"
+    ],
+    "title": "671-B",
+    "statement": "B. Robin Hoodtime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputWe all know the impressive story of Robin Hood. Robin Hood uses his archery skills and his wits to steal the money from rich, and return it to the poor.There arencitizens in Kekoland, each person hascicoins. Each day, Robin Hood will take exactly1coin from the richest person in the city and he will give it to the poorest person (poorest person right after taking richest's1coin). In case the choice is not unique, he will select one among them at random. Sadly, Robin Hood is old and want to retire inkdays. He decided to spend these last days with helping poor people.After taking his money are taken by Robin Hood richest person may become poorest person as well, and it might even happen that Robin Hood will give his money back. For example if all people have same number of coins, then next day they will have same number of coins too.Your task is to find the difference between richest and poorest persons wealth afterkdays. Note that the choosing at random among richest and poorest doesn't affect the answer.InputThe first line of the input contains two integersnandk(1 ≤n≤ 500 000, 0 ≤k≤ 109) — the number of citizens in Kekoland and the number of days left till Robin Hood's retirement.The second line containsnintegers, thei-th of them isci(1 ≤ci≤ 109) — initial wealth of thei-th person.OutputPrint a single line containing the difference between richest and poorest peoples wealth.ExamplesInput4 11 1 4 2Output2Input3 12 2 2Output0NoteLets look at how wealth changes through day in the first sample.[1, 1, 4, 2][2, 1, 3, 2]or[1, 2, 3, 2]So the answer is3 - 1 = 2In second sample wealth will remain the same for each person.",
+    "source": "CF",
+    "vjudge": false
+}

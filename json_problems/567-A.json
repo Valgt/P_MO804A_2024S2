@@ -1,0 +1,12 @@
+{
+    "uid": "567-A",
+    "url": "https://codeforces.com/contest/567/problem/A",
+    "tags": [
+        "greedy",
+        " implementation"
+    ],
+    "title": "567-A",
+    "statement": "A. Lineland Mailtime limit per test3 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputAll cities of Lineland are located on theOxcoordinate axis. Thus, each city is associated with its positionxi— a coordinate on theOxaxis. No two cities are located at a single point.Lineland residents love to send letters to each other. A person may send a letter only if the recipient lives in another city (because if they live in the same city, then it is easier to drop in).Strange but true, the cost of sending the letter is exactly equal to the distance between the sender's city and the recipient's city.For each city calculate two values ​​miniandmaxi, whereminiis the minimum cost of sending a letter from thei-th city to some other city, andmaxiis the the maximum cost of sending a letter from thei-th city to some other cityInputThe first line of the input contains integern(2 ≤n≤ 105) — the number of cities in Lineland. The second line contains the sequence ofndistinct integersx1,x2, ...,xn(- 109≤xi≤ 109), wherexiis thex-coordinate of thei-th city. All thexi's are distinct and follow inascendingorder.OutputPrintnlines, thei-th line must contain two integersmini,maxi, separated by a space, whereminiis the minimum cost of sending a letter from thei-th city, andmaxiis the maximum cost of sending a letter from thei-th city.ExamplesInput4-5 -2 2 7Output3 123 94 75 12Input2-1 1Output2 22 2",
+    "source": "CF",
+    "vjudge": false
+}

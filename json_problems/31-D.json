@@ -1,0 +1,12 @@
+{
+    "uid": "31-D",
+    "url": "https://codeforces.com/contest/31/problem/D",
+    "tags": [
+        "dfs and similar",
+        " implementation"
+    ],
+    "title": "31-D",
+    "statement": "D. Chocolatetime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutBob has a rectangular chocolate bar of the sizeW×H. He introduced a cartesian coordinate system so that the point(0, 0)corresponds to the lower-left corner of the bar, and the point(W,H)corresponds to the upper-right corner. Bob decided to split the bar into pieces by breaking it. Each break is a segment parallel to one of the coordinate axes, which connects the edges of the bar. More formally, each break goes along the linex=xcory=yc, wherexcandycare integers. It should divide one part of the bar into two non-empty parts. After Bob breaks some part into two parts, he breaks the resulting partsseparately and independently from each other. Also he doesn't move the parts of the bar. Bob madenbreaks and wrote them down in his notebook in arbitrary order. At the end he gotn+ 1parts. Now he wants to calculate their areas. Bob is lazy, so he asks you to do this task.InputThe first line contains 3 integersW,Handn(1 ≤W,H,n≤ 100) — width of the bar, height of the bar and amount of breaks. Each of the followingnlines contains four integersxi, 1,yi, 1,xi, 2,yi, 2— coordinates of the endpoints of thei-th break (0 ≤xi, 1≤xi, 2≤W, 0 ≤yi, 1≤yi, 2≤H, orxi, 1=xi, 2, oryi, 1=yi, 2). Breaks are given in arbitrary order.It is guaranteed that the set of breaks is correct, i.e. there is some order of the given breaks that each next break divides exactly one part of the bar into two non-empty parts.OutputOutputn+ 1numbers — areas of the resulting parts in the increasing order.ExamplesInput2 2 21 0 1 20 1 1 1Output1 1 2Input2 2 31 0 1 20 1 1 11 1 2 1Output1 1 1 1Input2 4 20 1 2 10 3 2 3Output2 2 4",
+    "source": "CF",
+    "vjudge": false
+}

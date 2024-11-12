@@ -1,0 +1,13 @@
+{
+    "uid": "825-G",
+    "url": "https://codeforces.com/contest/825/problem/G",
+    "tags": [
+        "dfs and similar",
+        " graphs",
+        " trees"
+    ],
+    "title": "825-G",
+    "statement": "G. Tree Queriestime limit per test3 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given a tree consisting ofnvertices (numbered from1ton). Initially all vertices are white. You have to processqqueries of two different types:1x— change the color of vertexxto black. It is guaranteed that the first query will be of this type.2x— for the vertexx, find the minimum indexysuch that the vertex with indexybelongs to the simple path fromxto some black vertex (a simple path never visits any vertex more than once).For each query of type2print the answer to it.Note that the queries are given in modified way.InputThe first line contains two numbersnandq(3 ≤n,q≤ 106).Thenn- 1lines follow, each line containing two numbersxiandyi(1 ≤xi<yi≤n) and representing the edge between verticesxiandyi.It is guaranteed that these edges form a tree.Thenqlines follow. Each line contains two integerstiandzi, wheretiis the type ofith query, andzican be used to restorexifor this query in this way: you have to keep track of the answer to the last query of type2(let's call this answerlast, and initiallylast= 0); thenxi= (zi+last)modn+ 1.It is guaranteed that the first query is of type1, and there is at least one query of type2.OutputFor each query of type2output the answer to it.ExampleInput4 61 22 33 41 21 22 21 32 22 2Output321",
+    "source": "CF",
+    "vjudge": false
+}

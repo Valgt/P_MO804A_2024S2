@@ -1,0 +1,11 @@
+{
+    "uid": "53-A",
+    "url": "https://codeforces.com/contest/53/problem/A",
+    "tags": [
+        "implementation"
+    ],
+    "title": "53-A",
+    "statement": "A. Autocompletetime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutAutocomplete is a program function that enables inputting the text (in editors, command line shells, browsers etc.) completing the text by its inputted part. Vasya is busy working on a new browser called 'BERowser'. He happens to be working on the autocomplete function in the address line at this very moment. A list consisting ofnlast visited by the user pages and the inputted partsare known. Your task is to completesto make it an address of one of the pages from the list. You have to find the lexicographically smallest address having a prefixs.InputThe first line contains thesline which is the inputted part. The second line contains an integern(1 ≤n≤ 100) which is the number of visited pages. Then follownlines which are the visited pages, one on each line. All the lines have lengths of from1to100symbols inclusively and consist of lowercase Latin letters only.OutputIfsis not the beginning of any ofnaddresses of the visited pages, prints. Otherwise, print the lexicographically minimal address of one of the visited pages starting froms.The lexicographical order is the order of words in a dictionary. The lexicographical comparison of lines is realized by the'<'operator in the modern programming languages.ExamplesInputnext2nextpermutationnextelementOutputnextelementInputfind4findfindfirstoffinditfandOutputfindInputfind4fondfindfondfirstoffonditfandOutputfind",
+    "source": "CF",
+    "vjudge": false
+}

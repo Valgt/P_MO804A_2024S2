@@ -1,0 +1,12 @@
+{
+    "uid": "100-E",
+    "url": "https://codeforces.com/contest/100/problem/E",
+    "tags": [
+        "*special",
+        " math"
+    ],
+    "title": "100-E",
+    "statement": "E. Lamps in a Linetime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutThere arenlamps in a line. The lamps are numbered1tonfrom left to right. There are alsonkeys. When key numberiis pressed, all lamps numberxsuch thati|xchange their state.For two integer numbersaandb, we saya|bif and only if there exists an integercsuch thata×c=b.Amirali likes to play with the keys. He randomly pressedkkeys and wants to know the final state of the lamps. Help him by writing aPikepiece of code to solve this task.InputThe first line of input contains a single integern, the number of lamps (1 ≤n≤ 105).The following line containsnwords. Thei-th word describes the initial state of lamp numberi(see samples for details).The following line contains a single integerk(1 ≤k≤ 104), the number of times a key is pressed. Then in the next line comekintegers in range[1,n]which are the numbers of the pressed keys.OutputWritenwords to output. Describe the final state of the lamps. See samples for more details.ExamplesInput2off off21 2Outputon offInput3off off on61 1 1 1 2 2Outputoff off on",
+    "source": "CF",
+    "vjudge": false
+}

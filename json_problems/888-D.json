@@ -1,0 +1,13 @@
+{
+    "uid": "888-D",
+    "url": "https://codeforces.com/contest/888/problem/D",
+    "tags": [
+        "combinatorics",
+        " dp",
+        " math"
+    ],
+    "title": "888-D",
+    "statement": "D. Almost Identity Permutationstime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputA permutationpof sizenis an array such that every integer from1tonoccurs exactly once in this array.Let's call a permutation analmost identity permutationiff there exist at leastn-kindicesi(1 ≤i≤n) such thatpi=i.Your task is to count the number ofalmost identitypermutations for given numbersnandk.InputThe first line contains two integersnandk(4 ≤n≤ 1000,1 ≤k≤ 4).OutputPrint the number ofalmost identitypermutations for givennandk.ExamplesInput4 1Output1Input4 2Output7Input5 3Output31Input5 4Output76",
+    "source": "CF",
+    "vjudge": false
+}

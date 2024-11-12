@@ -1,0 +1,13 @@
+{
+    "uid": "258-B",
+    "url": "https://codeforces.com/contest/258/problem/B",
+    "tags": [
+        "brute force",
+        " combinatorics",
+        " dp"
+    ],
+    "title": "258-B",
+    "statement": "B. Little Elephant and Electionstime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutThere have recently been elections in the zoo. Overall there were7main political parties: one of them is the Little Elephant Political Party,6other parties have less catchy names.Political parties find their number in the ballot highly important. Overall there arempossible numbers:1, 2, ...,m. Each of these7parties is going to be assigned in some way to exactly one number, at that, two distinct parties cannot receive the same number.The Little Elephant Political Party members believe in the lucky digits4and7. They want to evaluate their chances in the elections. For that, they need to find out, how many correct assignments are there, such that the number of lucky digits in the Little Elephant Political Party ballot number is strictly larger than the total number of lucky digits in the ballot numbers of 6 other parties.Help the Little Elephant Political Party, calculate this number. As the answer can be rather large, print the remainder from dividing it by1000000007(109+ 7).InputA single line contains a single positive integerm(7 ≤m≤ 109)— the number of possible numbers in the ballot.OutputIn a single line print a single integer — the answer to the problem modulo1000000007(109+ 7).ExamplesInput7Output0Input8Output1440",
+    "source": "CF",
+    "vjudge": false
+}

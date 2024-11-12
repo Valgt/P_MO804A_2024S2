@@ -1,0 +1,12 @@
+{
+    "uid": "40-C",
+    "url": "https://codeforces.com/contest/40/problem/C",
+    "tags": [
+        "implementation",
+        " math"
+    ],
+    "title": "40-C",
+    "statement": "C. Berland Squaretime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutLast year the world's largest square was built in Berland. It is known that the square can be represented as an infinite plane with an introduced Cartesian system of coordinates. On that square two sets of concentric circles were painted. Let's call the set of concentric circles with radii1, 2, ...,Kand the center in the point(z, 0)a(K,z)-set. Thus, on the square were painted a(N,x)-set and a(M,y)-set. You have to find out how many parts those sets divided the square into.InputThe first line contains integersN,x,M,y. (1 ≤N,M≤ 100000,  - 100000 ≤x,y≤ 100000,x≠y).OutputPrint the sought number of parts.ExamplesInput1 0 1 1Output4Input1 0 1 2Output3Input3 3 4 7Output17NotePicture for the third sample:",
+    "source": "CF",
+    "vjudge": false
+}

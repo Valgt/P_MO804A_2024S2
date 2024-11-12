@@ -1,0 +1,13 @@
+{
+    "uid": "484-E",
+    "url": "https://codeforces.com/contest/484/problem/E",
+    "tags": [
+        "binary search",
+        " constructive algorithms",
+        " data structures"
+    ],
+    "title": "484-E",
+    "statement": "E. Sign on Fencetime limit per test4 secondsmemory limit per test256 megabytesinputstdinoutputstdoutBizon the Champion has recently finished painting his wood fence. The fence consists of a sequence ofnpanels of1meter width and of arbitrary height. Thei-th panel's height ishimeters. The adjacent planks follow without a gap between them.After Bizon painted the fence he decided to put a \"for sale\" sign on it. The sign will be drawn on a rectangular piece of paper and placed on the fence so that the sides of the sign are parallel to the fence panels and are also aligned with the edges of some panels. Bizon the Champion introduced the following constraints for the sign position:The width of the sign should be exactlywmeters.The sign must fit into the segment of the fence from thel-th to ther-th panels, inclusive (also, it can't exceed the fence's bound in vertical direction).The sign will be really pretty, So Bizon the Champion wants the sign's height to be as large as possible.You are given the description of the fence and several queries for placing sign. For each query print the maximum possible height of the sign that can be placed on the corresponding segment of the fence with the given fixed width of the sign.InputThe first line of the input contains integern— the number of panels in the fence (1 ≤n≤ 105).The second line containsnspace-separated integershi, — the heights of the panels (1 ≤hi≤ 109).The third line contains an integerm— the number of the queries (1 ≤m≤ 105).The nextmlines contain the descriptions of the queries, each query is represented by three integersl,randw(1 ≤l≤r≤n,1 ≤w≤r-l+ 1) — the segment of the fence and the width of the sign respectively.OutputFor each query print the answer on a separate line — the maximum height of the sign that can be put in the corresponding segment of the fence with all the conditions being satisfied.ExamplesInput51 2 2 3 332 5 32 5 21 5 5Output231NoteThe fence described in the sample looks as follows:The possible positions for the signs for all queries are given below.The optimal position of the sign for the first query.The optimal position of the sign for the second query.The optimal position of the sign for the third query.",
+    "source": "CF",
+    "vjudge": false
+}

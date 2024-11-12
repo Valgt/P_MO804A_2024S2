@@ -1,0 +1,13 @@
+{
+    "uid": "140-C",
+    "url": "https://codeforces.com/contest/140/problem/C",
+    "tags": [
+        "binary search",
+        " data structures",
+        " greedy"
+    ],
+    "title": "140-C",
+    "statement": "C. New Year Snowmentime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutAs meticulous Gerald sets the table and caring Alexander sends the postcards, Sergey makes snowmen. Each showman should consist of three snowballs: a big one, a medium one and a small one. Sergey's twins help him: they've already madensnowballs with radii equal tor1,r2, ...,rn. To make a snowman, one needs any three snowballs whose radii are pairwise different. For example, the balls with radii1,2and3can be used to make a snowman but2,2,3or2,2,2cannot. Help Sergey and his twins to determine whatmaximumnumber of snowmen they can make from those snowballs.InputThe first line contains integern(1 ≤n≤ 105) — the number of snowballs. The next line containsnintegers — the balls' radiir1,r2, ...,rn(1 ≤ri≤ 109). The balls' radii can coincide.OutputPrint on the first line a single numberk— the maximum number of the snowmen. Nextklines should contain the snowmen's descriptions. The description of each snowman should consist of three space-separated numbers — the big ball's radius, the medium ball's radius and the small ball's radius. It is allowed to print the snowmen in any order. If there are several solutions, print any of them.ExamplesInput71 2 3 4 5 6 7Output23 2 16 5 4Input32 2 3Output0",
+    "source": "CF",
+    "vjudge": false
+}

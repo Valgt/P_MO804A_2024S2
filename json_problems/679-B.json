@@ -1,0 +1,13 @@
+{
+    "uid": "679-B",
+    "url": "https://codeforces.com/contest/679/problem/B",
+    "tags": [
+        "binary search",
+        " dp",
+        " greedy"
+    ],
+    "title": "679-B",
+    "statement": "B. Bear and Tower of Cubestime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputLimak is a little polar bear. He plays by building towers from blocks. Every block is a cube with positive integer length of side. Limak has infinitely many blocks of each side length.A block with sideahas volumea3. A tower consisting of blocks with sidesa1,a2, ...,akhas the total volumea13+a23+ ... +ak3.Limak is going to build a tower. First, he asks you to tell him a positive integerX— the required total volume of the tower. Then, Limak adds new blocks greedily, one by one. Each time he adds the biggest block such that the total volume doesn't exceedX.Limak asks you to chooseXnot greater thanm. Also, he wants to maximize the number of blocks in the tower at the end (however, he still behaves greedily). Secondarily, he wants to maximizeX.Can you help Limak? Find the maximum number of blocks his tower can have and the maximumX≤mthat results this number of blocks.InputThe only line of the input contains one integerm(1 ≤m≤ 1015), meaning that Limak wants you to chooseXbetween1andm, inclusive.OutputPrint two integers — the maximum number of blocks in the tower and the maximum required total volumeX, resulting in the maximum number of blocks.ExamplesInput48Output9 42Input6Output6 6NoteIn the first sample test, there will be9blocks if you chooseX= 23orX= 42. Limak wants to maximizeXsecondarily so you should choose42.In more detail, after choosingX= 42the process of building a tower is:Limak takes a block with side3because it's the biggest block with volume not greater than42. The remaining volume is42 - 27 = 15.The second added block has side2, so the remaining volume is15 - 8 = 7.Finally, Limak adds7blocks with side1, one by one.So, there are9blocks in the tower. The total volume is is33+ 23+ 7·13= 27 + 8 + 7 = 42.",
+    "source": "CF",
+    "vjudge": false
+}

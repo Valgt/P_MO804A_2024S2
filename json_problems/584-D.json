@@ -1,0 +1,13 @@
+{
+    "uid": "584-D",
+    "url": "https://codeforces.com/contest/584/problem/D",
+    "tags": [
+        "brute force",
+        " math",
+        " number theory"
+    ],
+    "title": "584-D",
+    "statement": "D. Dima and Lisatime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputDima loves representing an odd number as the sum of multiple primes, and Lisa loves it when there are at most three primes. Help them to represent the given number as the sum of at most than three primes.More formally, you are given anoddnumern. Find a set of numberspi(1 ≤i≤k), such that1 ≤k≤ 3piis a primeThe numberspido not necessarily have to be distinct. It is guaranteed that at least one possible solution exists.InputThe single line contains an odd numbern(3 ≤n< 109).OutputIn the first line printk(1 ≤k≤ 3), showing how many numbers are in the representation you found.In the second line print numberspiin any order. If there are multiple possible solutions, you can print any of them.ExamplesInput27Output35 11 11NoteA prime is an integer strictly larger than one that is divisible only by one and by itself.",
+    "source": "CF",
+    "vjudge": false
+}

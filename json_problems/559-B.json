@@ -1,0 +1,14 @@
+{
+    "uid": "559-B",
+    "url": "https://codeforces.com/contest/559/problem/B",
+    "tags": [
+        "divide and conquer",
+        " hashing",
+        " sortings",
+        " strings"
+    ],
+    "title": "559-B",
+    "statement": "B. Equivalent Stringstime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputToday on a lecture about strings Gerald learned a new definition of string equivalency. Two stringsaandbof equal length are calledequivalentin one of the two cases:They are equal.If we split stringainto two halves of the same sizea1anda2, and stringbinto two halves of the same sizeb1andb2, then one of the following is correct:a1is equivalent tob1, anda2is equivalent tob2a1is equivalent tob2, anda2is equivalent tob1As a home task, the teacher gave two strings to his students and asked to determine if they are equivalent.Gerald has already completed this home task. Now it's your turn!InputThe first two lines of the input contain two strings given by the teacher. Each of them has the length from1to200 000and consists of lowercase English letters. The strings have the same length.OutputPrint \"YES\" (without the quotes), if these two strings are equivalent, and \"NO\" (without the quotes) otherwise.ExamplesInputaabaabaaOutputYESInputaabbababOutputNONoteIn the first sample you should split the first string into strings \"aa\" and \"ba\", the second one — into strings \"ab\" and \"aa\". \"aa\" is equivalent to \"aa\"; \"ab\" is equivalent to \"ba\" as \"ab\" = \"a\" + \"b\", \"ba\" = \"b\" + \"a\".In the second sample the first string can be splitted into strings \"aa\" and \"bb\", that are equivalent only to themselves. That's why string \"aabb\" is equivalent only to itself and to string \"bbaa\".",
+    "source": "CF",
+    "vjudge": false
+}

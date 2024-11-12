@@ -1,0 +1,12 @@
+{
+    "uid": "1881-C",
+    "url": "https://codeforces.com/contest/1881/problem/C",
+    "tags": [
+        "brute force",
+        " implementation"
+    ],
+    "title": "1881-C",
+    "statement": "C. Perfect Squaretime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputKristina has a matrix of size $$$n$$$ by $$$n$$$, filled with lowercase Latin letters. The value of $$$n$$$ iseven.She wants to change some characters so that her matrix becomes aperfect square. A matrix is called aperfect squareif it remains unchanged when rotated $$$90^\\\\circ$$$ clockwiseonce.Here is an example of rotating a matrix by $$$90^\\\\circ$$$:In one operation, Kristina can choose any cell and replace its value with the next character in the alphabet. If the character is equal to \"z\", its valuedoes not change.Find theminimumnumber of operations required to make the matrix aperfect square.For example, if the $$$4$$$ by $$$4$$$ matrix looks like this:$$$$$$\\\\matrix{ a & b & b & a \\\\cr b & c & \\\\textbf{b} & b \\\\cr b & c & c & b\\\\cr a & b & b & a \\\\cr }$$$$$$then it is enough to apply $$$1$$$ operation to the letterb, highlighted in bold.InputThe first line of the input contains a single integer $$$t$$$ ($$$1 \\\\le t \\\\le 10^2$$$) — the number of test cases.Then follows the description of each test case.The first line of each test case contains a singleeveninteger $$$n$$$ ($$$2 \\\\le n \\\\le 10^3$$$) — the number of rows and columns in the matrix.Then follows $$$n$$$ lines, each containing exactly $$$n$$$ lowercase Latin letters.It is guaranteed that the sum of $$$n$$$ over all test cases does not exceed $$$10^3$$$.OutputFor each test case, output a single number on a separate line: theminimumnumber of operations required for Kristina to obtain aperfect square.ExampleInput54abbabcbbbccbabba2abba6codeforcescodeforcescodeforcescodefo4baaaabbabababaab4bbaaabbaaabaabbaOutput1 2 181 5 9NoteThe first test case is explained in the problem statement.",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,11 @@
+{
+    "uid": "804-E",
+    "url": "https://codeforces.com/contest/804/problem/E",
+    "tags": [
+        "constructive algorithms"
+    ],
+    "title": "804-E",
+    "statement": "E. The same permutationtime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputSeyyed and MoJaK are friends of Sajjad. Sajjad likes a permutation. Seyyed wants to change the permutation in a way that Sajjad won't like it. Seyyed thinks more swaps yield more probability to do that, so he makes MoJaK to perform a swap between every pair of positions(i,j), wherei<j, exactly once. MoJaK doesn't like to upset Sajjad.Given the permutation, determine whether it is possible to swap all pairs of positions so that the permutation stays the same. If it is possible find how to do that.InputThe first line contains single integern(1 ≤n≤ 1000) — the size of the permutation.As the permutation is not important, you can considerai=i, where the permutation isa1,a2, ...,an.OutputIf it is not possible to swap all pairs of positions so that the permutation stays the same, print \"NO\",Otherwise print \"YES\", then printlines: thei-th of these lines should contain two integersaandb(a<b) — the positions where thei-th swap is performed.ExamplesInput3OutputNOInput1OutputYES",
+    "source": "CF",
+    "vjudge": false
+}

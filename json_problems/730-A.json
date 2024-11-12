@@ -1,0 +1,12 @@
+{
+    "uid": "730-A",
+    "url": "https://codeforces.com/contest/730/problem/A",
+    "tags": [
+        "greedy",
+        " implementation"
+    ],
+    "title": "730-A",
+    "statement": "A. Toda 2time limit per test2 secondsmemory limit per test512 megabytesinputstandard inputoutputstandard outputA group ofnfriends enjoys playing popular video game Toda 2. There is a rating system describing skill level of each player, initially the rating of thei-th friend isri.The friends decided to take part in the championship as a team. But they should have equal ratings to be allowed to compose a single team consisting of allnfriends. So the friends are faced with the problem: how to make all their ratings equal.One way to change ratings is to willingly lose in some matches. Friends can form a party consisting oftwotofive(but not more thann) friends and play a match in the game. When the party loses, the rating of each of its members decreases by1. A rating can't become negative, sori= 0doesn't change after losing.The friends can take part in multiple matches, each time making a party from any subset of friends (but remember about constraints on party size: from2to5members).The friends want to make their ratings equal but as high as possible.Help the friends develop a strategy of losing the matches so that all their ratings become equal and the resulting rating is maximum possible.InputThe first line contains a single integern(2 ≤n≤ 100) — the number of friends.The second line containsnnon-negative integersr1,r2, ...,rn(0 ≤ri≤ 100), whereriis the initial rating of thei-th friend.OutputIn the first line, print a single integerR— the final rating of each of the friends.In the second line, print integert— the number of matches the friends have to play. Each of the followingtlines should containncharacters '0' or '1', where thej-th character of thei-th line is equal to:'0', if friendjshould not play in matchi,'1', if friendjshould play in matchi.Each line should contain between two and five characters '1', inclusive.The valuetshould not exceed104, it is guaranteed that such solution exists.Remember that you shouldn't minimize the valuet, but you should maximizeR. If there are multiple solutions, print any of them.ExamplesInput54 5 1 7 4Output180101000011010101001000011110000001111000Input21 2Output021111Input31 1 1Output10",
+    "source": "CF",
+    "vjudge": false
+}

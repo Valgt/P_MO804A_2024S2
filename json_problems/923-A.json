@@ -1,0 +1,12 @@
+{
+    "uid": "923-A",
+    "url": "https://codeforces.com/contest/923/problem/A",
+    "tags": [
+        "math",
+        " number theory"
+    ],
+    "title": "923-A",
+    "statement": "A. Primal Sporttime limit per test1.5 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputAlice and Bob begin their day with a quick game. They first choose a starting numberX0≥ 3and try to reach one million by the process described below.Alice goes first and then they take alternating turns. In thei-th turn, the player whose turn it is selects a prime number smaller than the current number, and announces the smallest multiple of this prime number that is not smaller than the current number.Formally, he or she selects a primep<Xi- 1and then finds the minimumXi≥Xi- 1such thatpdividesXi. Note that if the selected primepalready dividesXi- 1, then the number does not change.Eve has witnessed the state of the game after two turns. GivenX2, help her determine what is the smallest possible starting numberX0. Note that the players don't necessarily play optimally. You should consider all possible game evolutions.InputThe input contains a single integerX2(4 ≤X2≤ 106). It is guaranteed that the integerX2is composite, that is, is not prime.OutputOutput a single integer — the minimum possibleX0.ExamplesInput14Output6Input20Output15Input8192Output8191NoteIn the first test, the smallest possible starting number isX0= 6. One possible course of the game is as follows:Alice picks prime 5 and announcesX1= 10Bob picks prime 7 and announcesX2= 14.In the second case, letX0= 15.Alice picks prime 2 and announcesX1= 16Bob picks prime 5 and announcesX2= 20.",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,11 @@
+{
+    "uid": "177-A1",
+    "url": "https://codeforces.com/contest/177/problem/A1",
+    "tags": [
+        "implementation"
+    ],
+    "title": "177-A1",
+    "statement": "A1. Good Matrix Elementstime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutThe Smart Beaver from ABBYY got hooked on square matrices. Now he is busy studying ann×nsize matrix, wherenis odd. The Smart Beaver considers the following matrix elements good:Elements of the main diagonal.Elements of the secondary diagonal.Elements of the \"middle\" row — the row which has exactlyrows above it and the same number of rows below it.Elements of the \"middle\" column — the column that has exactlycolumns to the left of it and the same number of columns to the right of it.The figure shows a5 × 5matrix.   The good elements are marked with green.Help the Smart Beaver count the sum of good elements of the given matrix.InputThe first line of input data contains a single odd integern. Each of the nextnlines containsnintegersaij(0 ≤aij≤ 100)separated by single spaces — the elements of the given matrix.The input limitations for getting 30 points are:1 ≤n≤ 5The input limitations for getting 100 points are:1 ≤n≤ 101OutputPrint a single integer — the sum of good matrix elements.ExamplesInput31 2 34 5 67 8 9Output45Input51 1 1 1 11 1 1 1 11 1 1 1 11 1 1 1 11 1 1 1 1Output17NoteIn the first sample all matrix elements will be good. Good elements in the second sample are shown on the figure.",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,15 @@
+{
+    "uid": "837-F",
+    "url": "https://codeforces.com/contest/837/problem/F",
+    "tags": [
+        "binary search",
+        " brute force",
+        " combinatorics",
+        " math",
+        " matrices"
+    ],
+    "title": "837-F",
+    "statement": "F. Prefix Sumstime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputConsider the functionp(x), wherexis an array ofmintegers, which returns an arrayyconsisting ofm+ 1integers such thatyiis equal to the sum of firstielements of arrayx(0 ≤i≤m).You have an infinite sequence of arraysA0,A1,A2..., whereA0is given in the input, and for eachi≥ 1Ai=p(Ai- 1). Also you have a positive integerk. You have to find minimum possibleisuch thatAicontains a number which is larger or equal thank.InputThe first line contains two integersnandk(2 ≤n≤ 200000,1 ≤k≤ 1018).nis the size of arrayA0.The second line containsnintegersA00,A01...A0n- 1— the elements ofA0(0 ≤A0i≤ 109). At least two elements ofA0are positive.OutputPrint the minimumisuch thatAicontains a number which is larger or equal thank.ExamplesInput2 21 1Output1Input3 61 1 1Output2Input3 11 0 1Output0",
+    "source": "CF",
+    "vjudge": false
+}

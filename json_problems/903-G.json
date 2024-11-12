@@ -1,0 +1,13 @@
+{
+    "uid": "903-G",
+    "url": "https://codeforces.com/contest/903/problem/G",
+    "tags": [
+        "data structures",
+        " flows",
+        " graphs"
+    ],
+    "title": "903-G",
+    "statement": "G. Yet Another Maxflow Problemtime limit per test4 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputIn this problem you will have to deal with a very special network.The network consists of two parts: partAand partB. Each part consists ofnvertices;i-th vertex of partAis denoted asAi, andi-th vertex of partBis denoted asBi.For each indexi(1 ≤i<n) there is a directed edge from vertexAito vertexAi+ 1, and fromBitoBi+ 1, respectively. Capacities of these edges are given in the input. Also there might be several directed edges going from partAto partB(but never fromBtoA).You have to calculate themaximum flow valuefromA1toBnin this network. Capacities of edges connectingAitoAi+ 1might sometimes change, and you also have to maintain the maximum flow value after these changes. Apart from that, the network is fixed (there are no changes in partB, no changes of edges going fromAtoB, and no edge insertions or deletions).Take a look at the example and the notes to understand the structure of the network better.InputThe first line contains three integer numbersn,mandq(2 ≤n,m≤ 2·105,0 ≤q≤ 2·105) — the number of vertices in each part, the number of edges going fromAtoBand the number of changes, respectively.Thenn- 1lines follow,i-th line contains two integersxiandyidenoting that the edge fromAitoAi+ 1has capacityxiand the edge fromBitoBi+ 1has capacityyi(1 ≤xi,yi≤ 109).Thenmlines follow, describing the edges fromAtoB. Each line contains three integersx,yandzdenoting an edge fromAxtoBywith capacityz(1 ≤x,y≤n,1 ≤z≤ 109). There might be multiple edges fromAxtoBy.And thenqlines follow, describing a sequence of changes to the network.i-th line contains two integersviandwi, denoting that the capacity of the edge fromAvitoAvi+ 1is set towi(1 ≤vi<n,1 ≤wi≤ 109).OutputFirstly, print the maximum flow value in the original network. Then printqintegers,i-th of them must be equal to the maximum flow value afteri-th change.ExampleInput4 3 21 23 45 62 2 71 4 84 3 91 1002 100Output91414NoteThis is the original network in the example:",
+    "source": "CF",
+    "vjudge": false
+}

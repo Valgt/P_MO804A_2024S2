@@ -1,0 +1,13 @@
+{
+    "uid": "489-C",
+    "url": "https://codeforces.com/contest/489/problem/C",
+    "tags": [
+        "dp",
+        " greedy",
+        " implementation"
+    ],
+    "title": "489-C",
+    "statement": "C. Given Length and Sum of Digits...time limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutYou have a positive integermand a non-negative integers. Your task is to find the smallest and the largest of the numbers that have lengthmand sum of digitss. The required numbers should be non-negative integers written in the decimal base without leading zeroes.InputThe single line of the input contains a pair of integersm,s(1 ≤m≤ 100, 0 ≤s≤ 900) — the length and the sum of the digits of the required numbers.OutputIn the output print the pair of the required non-negative integer numbers — first the minimum possible number, then — the maximum possible number. If no numbers satisfying conditions required exist, print the pair of numbers \"-1 -1\" (without the quotes).ExamplesInput2 15Output69 96Input3 0Output-1 -1",
+    "source": "CF",
+    "vjudge": false
+}

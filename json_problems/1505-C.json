@@ -1,0 +1,12 @@
+{
+    "uid": "1505-C",
+    "url": "https://codeforces.com/contest/1505/problem/C",
+    "tags": [
+        "*special",
+        " implementation"
+    ],
+    "title": "1505-C",
+    "statement": "C. Fibonacci Wordstime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputInputThe input consists of a single string of uppercase letters A-Z. The length of the string is between 1 and 10 characters, inclusive.OutputOutput \"YES\" or \"NO\".ExamplesInputHELPOutputYESInputAIDOutputNOInputMARYOutputNOInputANNAOutputYESInputMUGOutputYESInputCUPOutputNOInputSUMOutputYESInputPRODUCTOutputNO",
+    "source": "CF",
+    "vjudge": false
+}

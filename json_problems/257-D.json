@@ -1,0 +1,12 @@
+{
+    "uid": "257-D",
+    "url": "https://codeforces.com/contest/257/problem/D",
+    "tags": [
+        "greedy",
+        " math"
+    ],
+    "title": "257-D",
+    "statement": "D. Sumtime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutVasya has found a piece of paper with an array written on it. The array consists ofnintegersa1,a2, ...,an. Vasya noticed that the following condition holds for the arrayai≤ai+ 1≤ 2·aifor any positive integeri(i<n).Vasya wants to add either a \"+\" or a \"-\" before each number of array. Thus, Vasya will get an expression consisting ofnsummands. The value of the resulting expression is the sum of all its elements. The task is to add signs \"+\" and \"-\" before each number so that the value of expressionsmeets the limits0 ≤s≤a1. Print a sequence of signs \"+\" and \"-\", satisfying the given limits. It is guaranteed that the solution for the problem exists.InputThe first line contains integern(1 ≤n≤ 105) — the size of the array. The second line contains space-separated integersa1,a2, ...,an(0 ≤ai≤ 109) — the original array.It is guaranteed that the conditionai≤ai+ 1≤ 2·aifulfills for any positive integeri(i<n).OutputIn a single line print the sequence ofncharacters \"+\" and \"-\", where thei-th character is the sign that is placed in front of numberai. The value of the resulting expressionsmust fit into the limits0 ≤s≤a1. If there are multiple solutions, you are allowed to print any of them.ExamplesInput41 2 3 5Output+++-Input33 3 5Output++-",
+    "source": "CF",
+    "vjudge": false
+}

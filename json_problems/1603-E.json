@@ -1,0 +1,13 @@
+{
+    "uid": "1603-E",
+    "url": "https://codeforces.com/contest/1603/problem/E",
+    "tags": [
+        "combinatorics",
+        " dp",
+        " math"
+    ],
+    "title": "1603-E",
+    "statement": "E. A Perfect Problemtime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputA sequence of integers $$$b_1, b_2, \\\\ldots, b_m$$$ is calledgoodif $$$max(b_1, b_2, \\\\ldots, b_m) \\\\cdot min(b_1, b_2, \\\\ldots, b_m) \\\\ge b_1 + b_2 + \\\\ldots + b_m$$$.A sequence of integers $$$a_1, a_2, \\\\ldots, a_n$$$ is calledperfectif every non-empty subsequence of $$$a$$$ isgood.YouKn0wWho has two integers $$$n$$$ and $$$M$$$, $$$M$$$ is prime. Help him find the number, modulo $$$M$$$, ofperfectsequences $$$a_1, a_2, \\\\ldots, a_n$$$ such that $$$1 \\\\le a_i \\\\le n + 1$$$ for each integer $$$i$$$ from $$$1$$$ to $$$n$$$.A sequence $$$d$$$ is a subsequence of a sequence $$$c$$$ if $$$d$$$ can be obtained from $$$c$$$ by deletion of several (possibly, zero or all) elements.InputThe first and only line of the input contains two space-separated integers $$$n$$$ and $$$M$$$ ($$$1 \\\\le n \\\\le 200$$$; $$$10^8 \\\\le M \\\\le 10^9$$$). It is guaranteed that$$$M$$$ is prime.OutputPrint a single integer  — the number ofperfectsequences modulo $$$M$$$.ExamplesInput2 998244353Output4Input4 100000007Output32Input69 999999937Output456886663NoteIn the first test case, theperfectsequences are $$$[2, 2]$$$, $$$[2, 3]$$$, $$$[3, 2]$$$ and $$$[3, 3]$$$.In the second test case, some of theperfectsequences are $$$[3, 4, 3, 5]$$$, $$$[4, 5, 4, 4]$$$, $$$[4, 5, 5, 5]$$$ etc. One example of a sequence which is notperfectis $$$[2, 3, 3, 4]$$$, because, for example, the subsequence $$$[2, 3, 4]$$$ is not angoodas $$$2 \\\\cdot 4 < 2 + 3 + 4$$$.",
+    "source": "CF",
+    "vjudge": false
+}

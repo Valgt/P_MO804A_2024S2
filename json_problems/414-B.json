@@ -1,0 +1,13 @@
+{
+    "uid": "414-B",
+    "url": "https://codeforces.com/contest/414/problem/B",
+    "tags": [
+        "combinatorics",
+        " dp",
+        " number theory"
+    ],
+    "title": "414-B",
+    "statement": "B. Mashmokh and ACMtime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutMashmokh's boss, Bimokh, didn't like Mashmokh. So he fired him. Mashmokh decided to go to university and participate in ACM instead of finding a new job. He wants to become a member of Bamokh's team. In order to join he was given some programming tasks and one week to solve them. Mashmokh is not a very experienced programmer. Actually he is not a programmer at all. So he wasn't able to solve them. That's why he asked you to help him with these tasks. One of these tasks is the following.A sequence oflintegersb1,b2, ...,bl(1 ≤b1≤b2≤ ... ≤bl≤n)is calledgoodif each number divides (without a remainder) by the next number in the sequence. More formallyfor alli(1 ≤i≤l- 1).Givennandkfind the number of good sequences of lengthk. As the answer can be rather large print it modulo1000000007(109+ 7).InputThe first line of input contains two space-separated integersn,k(1 ≤n,k≤ 2000).OutputOutput a single integer — the number of good sequences of lengthkmodulo1000000007(109+ 7).ExamplesInput3 2Output5Input6 4Output39Input2 1Output2NoteIn the first sample the good sequences are:[1, 1], [2, 2], [3, 3], [1, 2], [1, 3].",
+    "source": "CF",
+    "vjudge": false
+}

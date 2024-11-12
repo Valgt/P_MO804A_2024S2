@@ -1,0 +1,13 @@
+{
+    "uid": "612-C",
+    "url": "https://codeforces.com/contest/612/problem/C",
+    "tags": [
+        "data structures",
+        " expression parsing",
+        " math"
+    ],
+    "title": "612-C",
+    "statement": "C. Replace To Make Regular Bracket Sequencetime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given stringsconsists of opening and closing brackets of four kinds<>,{},[],(). There are two types of brackets: opening and closing. You can replace any bracket by another of the same type. For example, you can replace<by the bracket{, but you can't replace it by)or>.The following definition of a regular bracket sequence is well-known, so you can be familiar with it.Let's define a regular bracket sequence (RBS). Empty string is RBS. Lets1ands2be a RBS then the strings<s1>s2,{s1}s2,[s1]s2,(s1)s2are also RBS.For example the string \"[[(){}]<>]\" is RBS, but the strings \"[)()\" and \"][()()\" are not.Determine the least number of replaces to make the stringsRBS.InputThe only line contains a non empty strings, consisting of only opening and closing brackets of four kinds. The length ofsdoes not exceed106.OutputIf it's impossible to get RBS fromsprintImpossible.Otherwise print the least number of replaces needed to get RBS froms.ExamplesInput[<}){}Output2Input{()}[]Output0Input]]OutputImpossible",
+    "source": "CF",
+    "vjudge": false
+}

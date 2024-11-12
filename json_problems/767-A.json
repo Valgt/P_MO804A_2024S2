@@ -1,0 +1,12 @@
+{
+    "uid": "767-A",
+    "url": "https://codeforces.com/contest/767/problem/A",
+    "tags": [
+        "data structures",
+        " implementation"
+    ],
+    "title": "767-A",
+    "statement": "A. Snacktowertime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputAccording to an old legeng, a long time ago Ankh-Morpork residents did something wrong to miss Fortune, and she cursed them. She said that at some timensnacks of distinct sizes will fall on the city, and the residents should build a Snacktower of them by placing snacks one on another. Of course, big snacks should be at the bottom of the tower, while small snacks should be at the top.Years passed, and once different snacks started to fall onto the city, and the residents began to build the Snacktower.However, they faced some troubles. Each day exactly one snack fell onto the city, but their order was strange. So, at some days the residents weren't able to put the new stack on the top of the Snacktower: they had to wait until all the bigger snacks fell. Of course, in order to not to anger miss Fortune again, the residents placed each snack on the top of the tower immediately as they could do it.Write a program that models the behavior of Ankh-Morpork residents.InputThe first line contains single integern(1 ≤n≤ 100 000) — the total number of snacks.The second line containsnintegers, thei-th of them equals the size of the snack which fell on thei-th day. Sizes are distinct integers from1ton.OutputPrintnlines. On thei-th of them print the sizes of the snacks which the residents placed on the top of the Snacktower on thei-th day in the order they will do that. If no snack is placed on some day, leave the corresponding line empty.ExamplesInput33 1 2Output32 1Input54 5 1 2 3Output5 43 2 1NoteIn the example a snack of size3fell on the first day, and the residents immediately placed it. On the second day a snack of size1fell, and the residents weren't able to place it because they were missing the snack of size2. On the third day a snack of size2fell, and the residents immediately placed it. Right after that they placed the snack of size1which had fallen before.",
+    "source": "CF",
+    "vjudge": false
+}

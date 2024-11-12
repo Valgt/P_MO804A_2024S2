@@ -1,0 +1,12 @@
+{
+    "uid": "53-E",
+    "url": "https://codeforces.com/contest/53/problem/E",
+    "tags": [
+        "bitmasks",
+        " dp"
+    ],
+    "title": "53-E",
+    "statement": "E. Dead Endstime limit per test5 secondsmemory limit per test256 megabytesinputstdinoutputstdoutLife in Bertown has become hard. The city has too many roads and the government spends too much to maintain them. There arenjunctions andmtwo way roads, at which one can get from each junction to any other one. The mayor wants to close some roads so that the number of roads left totaled ton- 1roads and it were still possible to get from each junction to any other one. Besides, the mayor is concerned with the number of dead ends which are the junctions from which only one road goes. There shouldn't be too many or too few junctions. Having discussed the problem, the mayor and his assistants decided that after the roads are closed, the road map should contain exactlykdead ends. Your task is to count the number of different ways of closing the roads at which the following conditions are met:There are exactlyn- 1roads left.It is possible to get from each junction to any other one.There are exactlykdead ends on the resulting map.Two ways are considered different if there is a road that is closed in the first way, and is open in the second one.InputThe first line contains three integersn,mandk(3 ≤n≤ 10,n- 1 ≤m≤n·(n- 1) / 2, 2 ≤k≤n- 1) which represent the number of junctions, roads and dead ends correspondingly. Then followmlines each containing two different integersv1andv2(1 ≤v1,v2≤n,v1≠v2) which represent the number of junctions connected by another road. There can be no more than one road between every pair of junctions. The junctions are numbered with integers from1ton. It is guaranteed that it is possible to get from each junction to any other one along the original roads.OutputPrint a single number — the required number of ways.ExamplesInput3 3 21 22 31 3Output3Input4 6 21 22 33 44 11 32 4Output12Input4 6 31 22 33 44 11 32 4Output4",
+    "source": "CF",
+    "vjudge": false
+}

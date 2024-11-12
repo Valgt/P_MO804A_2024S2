@@ -1,0 +1,12 @@
+{
+    "uid": "934-B",
+    "url": "https://codeforces.com/contest/934/problem/B",
+    "tags": [
+        "constructive algorithms",
+        " implementation"
+    ],
+    "title": "934-B",
+    "statement": "B. A Prosperous Lottime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputApart from Nian, there is a daemon named Sui, which terrifies children and causes them to become sick. Parents give their children money wrapped in red packets and put them under the pillow, so that when Sui tries to approach them, it will be driven away by the fairies inside.Big Banban is hesitating over the amount of money to give out. He considers loops to be lucky since it symbolizes unity and harmony.He would like to find a positive integernnot greater than1018, such that there are exactlykloopsin the decimal representation ofn, or determine that suchndoes not exist.Aloopis a planar area enclosed by lines in the digits' decimal representation written in Arabic numerals. For example, there is one loop in digit4, two loops in8and no loops in5. Refer to the figure below for all exact forms.InputThe first and only line contains an integerk(1 ≤k≤ 106) — the desired number of loops.OutputOutput an integer — if no suchnexists, output-1; otherwise output any suchn. In the latter case, your output should be apositivedecimal integer not exceeding1018.ExamplesInput2Output462Input6Output8080",
+    "source": "CF",
+    "vjudge": false
+}

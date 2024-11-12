@@ -1,0 +1,16 @@
+{
+    "uid": "613-D",
+    "url": "https://codeforces.com/contest/613/problem/D",
+    "tags": [
+        "dfs and similar",
+        " divide and conquer",
+        " dp",
+        " graphs",
+        " sortings",
+        " trees"
+    ],
+    "title": "613-D",
+    "statement": "D. Kingdom and its Citiestime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputMeanwhile, the kingdom of K is getting ready for the marriage of the King's daughter. However, in order not to lose face in front of the relatives, the King should first finish reforms in his kingdom. As the King can not wait for his daughter's marriage, reforms must be finished as soon as possible.The kingdom currently consists ofncities. Cities are connected byn- 1bidirectional road, such that one can get from any city to any other city. As the King had to save a lot, there is only one path between any two cities.What is the point of the reform? The key ministries of the state should be relocated to distinct cities (we call such citiesimportant). However, due to the fact that there is a high risk of an attack by barbarians it must be done carefully. The King has made several plans, each of which is described by a set of important cities, and now wonders what is the best plan.Barbarians can capture some of the cities that are not important (the important ones will have enough protection for sure), after that the captured city becomes impassable. In particular, an interesting feature of the plan is the minimum number of cities that the barbarians need to capture in order to make all the important cities isolated, that is, from all important cities it would be impossible to reach any other important city.Help the King to calculate this characteristic for each of his plan.InputThe first line of the input contains integern(1 ≤n≤ 100 000) — the number of cities in the kingdom.Each of the nextn- 1lines contains two distinct integersui,vi(1 ≤ui,vi≤n) — the indices of the cities connected by thei-th road. It is guaranteed that you can get from any city to any other one moving only along the existing roads.The next line contains a single integerq(1 ≤q≤ 100 000) — the number of King's plans.Each of the nextqlines looks as follows: first goes numberki— the number of important cities in the King's plan, (1 ≤ki≤n), then follow exactlykispace-separated pairwise distinct numbers from 1 ton— the numbers of important cities in this plan.The sum of allki's does't exceed100 000.OutputFor each plan print a single integer — the minimum number of cities that the barbarians need to capture, or print- 1if all the barbarians' attempts to isolate important cities will not be effective.ExamplesInput41 32 34 342 1 23 2 3 43 1 2 44 1 2 3 4Output1-11-1Input71 22 33 41 55 65 714 2 4 6 7Output2NoteIn the first sample, in the first and the third King's plan barbarians can capture the city3, and that will be enough. In the second and the fourth plans all their attempts will not be effective.In the second sample the cities to capture are3and5.",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,12 @@
+{
+    "uid": "688-B",
+    "url": "https://codeforces.com/contest/688/problem/B",
+    "tags": [
+        "constructive algorithms",
+        " math"
+    ],
+    "title": "688-B",
+    "statement": "B. Lovely Palindromestime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputPari has a friend who loves palindrome numbers. A palindrome number is a number that reads the same forward or backward. For example12321,100001and1are palindrome numbers, while112and1021are not.Pari is trying to love them too, but only very special and gifted people can understand the beauty behind palindrome numbers. Pari loves integers with even length (i.e. the numbers with even number of digits), so she tries to see a lot of big palindrome numbers with even length (like a2-digit11or6-digit122221), so maybe she could see something in them.Now Pari asks you to write a program that gets a huge integernfrom the input and tells what is then-th even-length positive palindrome number?InputThe only line of the input contains a single integern(1 ≤n≤ 10100 000).OutputPrint then-th even-length palindrome number.ExamplesInput1Output11Input10Output1001NoteThe first10even-length palindrome numbers are11, 22, 33, ... , 88, 99and1001.",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,12 @@
+{
+    "uid": "785-B",
+    "url": "https://codeforces.com/contest/785/problem/B",
+    "tags": [
+        "greedy",
+        " sortings"
+    ],
+    "title": "785-B",
+    "statement": "B. Anton and Classestime limit per test4 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputAnton likes to play chess. Also he likes to do programming. No wonder that he decided to attend chess classes and programming classes.Anton hasnvariants when he will attend chess classes,i-th variant is given by a period of time(l1,i,r1,i). Also he hasmvariants when he will attend programming classes,i-th variant is given by a period of time(l2,i,r2,i).Anton needs to chooseexactly oneofnpossible periods of time when he will attend chess classes andexactly oneofmpossible periods of time when he will attend programming classes. He wants to have a rest between classes, so from all the possible pairs of the periods he wants to choose the one where the distance between the periods is maximal.The distance between periods(l1,r1)and(l2,r2)is the minimal possible distance between a point in the first period and a point in the second period, that is the minimal possible|i-j|, wherel1≤i≤r1andl2≤j≤r2. In particular, when the periods intersect, the distance between them is0.Anton wants to know how much time his rest between the classes will last in the best case. Help Anton and find this number!InputThe first line of the input contains a single integern(1 ≤n≤ 200 000)— the number of time periods when Anton can attend chess classes.Each of the followingnlines of the input contains two integersl1,iandr1,i(1 ≤l1,i≤r1,i≤ 109)— thei-th variant of a period of time when Anton can attend chess classes.The following line of the input contains a single integerm(1 ≤m≤ 200 000)— the number of time periods when Anton can attend programming classes.Each of the followingmlines of the input contains two integersl2,iandr2,i(1 ≤l2,i≤r2,i≤ 109)— thei-th variant of a period of time when Anton can attend programming classes.OutputOutput one integer — the maximal possible distance between time periods.ExamplesInput31 52 62 322 46 8Output3Input31 52 63 722 41 4Output0NoteIn the first sample Anton can attend chess classes in the period(2, 3)and attend programming classes in the period(6, 8). It's not hard to see that in this case the distance between the periods will be equal to3.In the second sample if he chooses any pair of periods, they will intersect. So the answer is0.",
+    "source": "CF",
+    "vjudge": false
+}

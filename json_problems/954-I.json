@@ -1,0 +1,12 @@
+{
+    "uid": "954-I",
+    "url": "https://codeforces.com/contest/954/problem/I",
+    "tags": [
+        "fft",
+        " math"
+    ],
+    "title": "954-I",
+    "statement": "I. Yet Another String Matching Problemtime limit per test4 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputSuppose you have two stringssandt, and their length is equal. You may perform the following operation any number of times: choose two different charactersc1andc2, and replace every occurence ofc1in both strings withc2. Let's denote thedistancebetween stringssandtas the minimum number of operations required to make these strings equal. For example, ifsisabcdandtisddcb, thedistancebetween them is2— we may replace every occurence ofawithb, sosbecomesbbcd, and then we may replace every occurence ofbwithd, so both strings becomeddcd.You are given two stringsSandT. For every substring ofSconsisting of|T|characters you have to determine thedistancebetween this substring andT.InputThe first line contains the stringS, and the second — the stringT(1 ≤ |T| ≤ |S| ≤ 125000). Both strings consist of lowercase Latin letters fromatof.OutputPrint|S| - |T| + 1integers. Thei-th of these integers must be equal to thedistancebetween the substring ofSbeginning ati-th index with length|T|and the stringT.ExampleInputabcdefaddcbOutput2 3 3 3",
+    "source": "CF",
+    "vjudge": false
+}

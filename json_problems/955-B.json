@@ -1,0 +1,11 @@
+{
+    "uid": "955-B",
+    "url": "https://codeforces.com/contest/955/problem/B",
+    "tags": [
+        "implementation"
+    ],
+    "title": "955-B",
+    "statement": "B. Not simply beatiful stringstime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputLet's call a stringadorableif its letters can be realigned in such a way that they form two consequent groups of equal symbols (note that different groups must contain different symbols). For example,ababaisadorable(you can transform it toaaabb, where the first three letters form a group ofa-s and others — a group ofb-s), butccccis not since in each possible consequent partition letters in these two groups coincide.You're given a strings. Check whether it can be split into two non-empty subsequences such that the strings formed by these subsequences areadorable. Here a subsequence is an arbitrary set of indexes of the string.InputThe only line containss(1 ≤ |s| ≤ 105)consisting of lowercase latin letters.OutputPrint «Yes» if the string can be split according to the criteria above or «No» otherwise.Each letter can be printed in arbitrary case.ExamplesInputababaOutputYesInputzzcxxOutputYesInputyeeeOutputNoNoteIn sample case twozzcxxcan be split into subsequenceszcandzxxeach of which isadorable.There's no suitable partition in sample case three.",
+    "source": "CF",
+    "vjudge": false
+}

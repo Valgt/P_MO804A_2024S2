@@ -1,0 +1,12 @@
+{
+    "uid": "463-A",
+    "url": "https://codeforces.com/contest/463/problem/A",
+    "tags": [
+        "brute force",
+        " implementation"
+    ],
+    "title": "463-A",
+    "statement": "A. Caisa and Sugartime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutCaisa is going to have a party and he needs to buy the ingredients for a big chocolate cake. For that he is going to the biggest supermarket in town.Unfortunately, he has justsdollars for sugar. But that's not a reason to be sad, because there arentypes of sugar in the supermarket, maybe he able to buy one. But that's not all. The supermarket has very unusual exchange politics: instead of cents the sellers give sweets to a buyer as a change. Of course, the number of given sweets always doesn't exceed99, because each seller maximizes the number of dollars in the change (100cents can be replaced with a dollar).Caisa wants to buy only one type of sugar, also he wants to maximize the number of sweets in the change. What is the maximum number of sweets he can get? Note, that Caisa doesn't want to minimize the cost of the sugar, he only wants to get maximum number of sweets as change.InputThe first line contains two space-separated integersn,s(1 ≤n,s≤ 100).Thei-th of the nextnlines contains two integersxi,yi(1 ≤xi≤ 100; 0 ≤yi< 100), wherexirepresents the number of dollars andyithe number of cents needed in order to buy thei-th type of sugar.OutputPrint a single integer representing the maximum number of sweets he can buy, or-1if he can't buy any type of sugar.ExamplesInput5 103 9012 09 705 507 0Output50Input5 510 1020 2030 3040 4050 50Output-1NoteIn the first test sample Caisa can buy the fourth type of sugar, in such a case he will take50sweets as a change.",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,12 @@
+{
+    "uid": "494-B",
+    "url": "https://codeforces.com/contest/494/problem/B",
+    "tags": [
+        "dp",
+        " strings"
+    ],
+    "title": "494-B",
+    "statement": "B. Obsessive Stringtime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutHamed has recently found a stringtand suddenly became quite fond of it. He spent several days trying to find all occurrences oftin other strings he had. Finally he became tired and started thinking about the following problem. Given a stringshow many ways are there to extractk≥ 1non-overlapping substrings from it such that each of them contains stringtas a substring? More formally, you need to calculate the number of ways to choose two sequencesa1,a2, ...,akandb1,b2, ...,bksatisfying the following requirements:k≥ 1tis a substring of stringsaisai+ 1...sbi(stringsis considered as1-indexed).As the number of ways can be rather large print it modulo109+ 7.InputInput consists of two lines containing stringssandt(1 ≤ |s|, |t| ≤ 105). Each string consists of lowercase Latin letters.OutputPrint the answer in a single line.ExamplesInputababaabaOutput5InputwelcometoroundtwohundredandeightytwodOutput274201InputddddOutput12",
+    "source": "CF",
+    "vjudge": false
+}

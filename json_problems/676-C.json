@@ -1,0 +1,14 @@
+{
+    "uid": "676-C",
+    "url": "https://codeforces.com/contest/676/problem/C",
+    "tags": [
+        "binary search",
+        " dp",
+        " strings",
+        " two pointers"
+    ],
+    "title": "676-C",
+    "statement": "C. Vasya and Stringtime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputHigh school student Vasya got a string of lengthnas a birthday present. This string consists of letters 'a' and 'b' only. Vasya denotesbeautyof the string as the maximum length of asubstring(consecutive subsequence) consisting of equal letters.Vasya can change no more thankcharacters of the original string. What is the maximum beauty of the string he can achieve?InputThe first line of the input contains two integersnandk(1 ≤n≤ 100 000, 0 ≤k≤n) — the length of the string and the maximum number of characters to change.The second line contains the string, consisting of letters 'a' and 'b' only.OutputPrint the only integer — the maximum beauty of the string Vasya can achieve by changing no more thankcharacters.ExamplesInput4 2abbaOutput4Input8 1aabaabaaOutput5NoteIn the first sample, Vasya can obtain both strings \"aaaa\" and \"bbbb\".In the second sample, the optimal answer is obtained with the string \"aaaaabaa\" or with the string \"aabaaaaa\".",
+    "source": "CF",
+    "vjudge": false
+}

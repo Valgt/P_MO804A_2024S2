@@ -1,0 +1,13 @@
+{
+    "uid": "798-A",
+    "url": "https://codeforces.com/contest/798/problem/A",
+    "tags": [
+        "brute force",
+        " constructive algorithms",
+        " strings"
+    ],
+    "title": "798-A",
+    "statement": "A. Mike and palindrometime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputMike has a stringsconsisting of only lowercase English letters. He wants tochange exactly onecharacter from the string so that the resulting one is a palindrome.A palindrome is a string that reads the same backward as forward, for example strings \"z\", \"aaa\", \"aba\", \"abccba\" are palindromes, but strings \"codeforces\", \"reality\", \"ab\" are not.InputThe first and single line contains strings(1 ≤ |s| ≤ 15).OutputPrint \"YES\" (without quotes) if Mike can changeexactlyone character so that the resulting string is palindrome or \"NO\" (without quotes) otherwise.ExamplesInputabccaaOutputYESInputabbccaOutputNOInputabcdaOutputYES",
+    "source": "CF",
+    "vjudge": false
+}

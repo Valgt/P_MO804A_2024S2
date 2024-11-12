@@ -1,0 +1,11 @@
+{
+    "uid": "398-C",
+    "url": "https://codeforces.com/contest/398/problem/C",
+    "tags": [
+        "constructive algorithms"
+    ],
+    "title": "398-C",
+    "statement": "C. Tree and Arraytime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutUser ainta likes trees. This time he is going to make an undirected tree withnvertices numbered by integers from1ton. The tree is weighted, so each edge of the tree will have some integer weight.Also he has an arrayt:t[1],t[2], ...,t[n]. At first all the elements of the array are initialized to0. Then for each edge connecting verticesuandv(u<v) of the tree with weightc, ainta adds valuecto the elementst[u],t[u+ 1], ...,t[v- 1],t[v]of arrayt.Let's assume thatd(u,v)is the total weight of edges on the shortest path between vertexuand vertexv. User ainta calls a pair of integersx,y(1 ≤x<y≤n)goodif and only ifd(x,y) =t[x] +t[x+ 1] + ... +t[y- 1] +t[y].User ainta wants to make at leastgood pairs, but he couldn't make a proper tree. Help ainta to find such a tree.InputThe first line contains a single integern(5 ≤n≤ 105).OutputPrintn- 1lines containing the description of the edges. Thei-th line should contain three space-separated integersui,vi,ci(1 ≤ui<vi≤n; 1 ≤ci≤ 105) — two vertices connected by the edge, and the weight of the edge.Next printlines containing the good pairs. Thek-th line should contain two space-separated integersxkandyk(1 ≤xk<yk≤n). Of course,xk,ykmust be a good pair. All pairs should be distinct — that is, for allj,k,xj≠xkoryj≠ykmust be satisfied.If there are many correct solutions, print any of them.ExamplesInput7Output1 4 11 2 22 3 53 5 32 6 26 7 34 55 65 7Note⌊x⌋is the largest integer not greater thanx.You can find the definition of a tree by the following link:http://en.wikipedia.org/wiki/Tree_(graph_theory)You can also find the definition of the shortest path by the following link:http://en.wikipedia.org/wiki/Shortest_path_problemThe tree and the arraytin the sample output look like this:",
+    "source": "CF",
+    "vjudge": false
+}

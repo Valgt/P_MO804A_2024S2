@@ -1,0 +1,13 @@
+{
+    "uid": "261-C",
+    "url": "https://codeforces.com/contest/261/problem/C",
+    "tags": [
+        "constructive algorithms",
+        " dp",
+        " math"
+    ],
+    "title": "261-C",
+    "statement": "C. Maxim and Matrixtime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutMaxim loves to fill in a matrix in a special manner. Here is a pseudocode of filling in a matrix of size(m+ 1) × (m+ 1):Maxim asks you to count, how many numbersm(1 ≤m≤n)are there, such that the sum of values in the cells in the row numberm+ 1of the resulting matrix equalst.Expression (xxory) means applying the operation of bitwise excluding \"OR\" to numbersxandy. The given operation exists in all modern programming languages. For example, in languagesC++andJavait is represented by character \"^\", inPascal— by \"xor\".InputA single line contains two integersnandt(1 ≤n,t≤ 1012,t≤n+ 1).Please, do not use the%lldspecifier to read or write 64-bit integers inC++. It is preferred to use thecin,coutstreams or the%I64dspecifier.OutputIn a single line print a single integer — the answer to the problem.ExamplesInput1 1Output1Input3 2Output1Input3 3Output0Input1000000000000 1048576Output118606527258",
+    "source": "CF",
+    "vjudge": false
+}

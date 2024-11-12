@@ -1,0 +1,12 @@
+{
+    "uid": "645-B",
+    "url": "https://codeforces.com/contest/645/problem/B",
+    "tags": [
+        "greedy",
+        " math"
+    ],
+    "title": "645-B",
+    "statement": "B. Mischievous Mess Makerstime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputIt is a balmy spring afternoon, and Farmer John'sncows are ruminating about link-cut cacti in their stalls. The cows, labeled1throughn, are arranged so that thei-th cow occupies thei-th stall from the left. However, Elsie, after realizing that she will forever live in the shadows beyond Bessie's limelight, has formed the Mischievous Mess Makers and is plotting to disrupt this beautiful pastoral rhythm. While Farmer John takes hiskminute long nap, Elsie and the Mess Makers plan to repeatedly choose two distinct stalls and swap the cows occupying those stalls, makingno more than oneswap each minute.Being the meticulous pranksters that they are, the Mischievous Mess Makers would like to know the maximum messiness attainable in thekminutes that they have. We denote aspithe label of the cow in thei-th stall. Themessinessof an arrangement of cows is defined as the number of pairs(i,j)such thati<jandpi>pj.InputThe first line of the input contains two integersnandk(1 ≤n,k≤ 100 000) — the number of cows and the length of Farmer John's nap, respectively.OutputOutput a single integer, the maximum messiness that the Mischievous Mess Makers can achieve by performing no more thankswaps.ExamplesInput5 2Output10Input1 10Output0NoteIn the first sample, the Mischievous Mess Makers can swap the cows in the stalls1and5during the first minute, then the cows in stalls2and4during the second minute. This reverses the arrangement of cows, giving us a total messiness of10.In the second sample, there is only one cow, so the maximum possible messiness is0.",
+    "source": "CF",
+    "vjudge": false
+}

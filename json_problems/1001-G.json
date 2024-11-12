@@ -1,0 +1,11 @@
+{
+    "uid": "1001-G",
+    "url": "https://codeforces.com/contest/1001/problem/G",
+    "tags": [
+        "*special"
+    ],
+    "title": "1001-G",
+    "statement": "G. Oracle for f(x) = k-th element of xtime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputImplement a quantum oracle onNqubits which implements a functionf(x) =xk, i.e. the value of the function is the value of thek-th qubit.For an explanation on how the quantum oracles work, seethe tutorial blog post.InputYou have to implement an operation which takes the following inputs:an array of qubitsx(input register),a qubity(output qubit),0-based index of the qubit from input registerK().The operation doesn't have an output; the \"output\" of your solution is the state in which it left the qubits.Your code should have the following signature:namespace Solution {open Microsoft.Quantum.Primitive;open Microsoft.Quantum.Canon;operation Solve (x : Qubit[], y : Qubit, k : Int) : (){body{// your code here}}}",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,13 @@
+{
+    "uid": "402-C",
+    "url": "https://codeforces.com/contest/402/problem/C",
+    "tags": [
+        "brute force",
+        " constructive algorithms",
+        " graphs"
+    ],
+    "title": "402-C",
+    "statement": "C. Searching for Graphtime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutLet's call an undirected graph ofnverticesp-interesting, if the following conditions fulfill:the graph contains exactly2n+pedges;the graph doesn't contain self-loops and multiple edges;for any integerk(1 ≤k≤n), any subgraph consisting ofkvertices contains at most2k+pedges.Asubgraphof a graph is some set of the graph vertices and some set of the graph edges. At that, the set of edges must meet the condition: both ends of each edge from the set must belong to the chosen set of vertices.Your task is to find ap-interestinggraph consisting ofnvertices.InputThe first line contains a single integert(1 ≤t≤ 5) — the number of tests in the input. Nexttlines each contains two space-separated integers:n,p(5 ≤n≤ 24;p≥ 0;) — the number of vertices in the graph and the interest value for the appropriate test.It is guaranteed that the required graph exists.OutputFor each of thettests print2n+plines containing the description of the edges of ap-interestinggraph: thei-th line must contain two space-separated integersai,bi(1 ≤ai,bi≤n;ai≠bi) — two vertices, connected by an edge in the resulting graph. Consider the graph vertices numbered with integers from1ton.Print the answers to the tests in the order the tests occur in the input. If there are multiple solutions, you can print any of them.ExamplesInput16 0Output1 21 31 41 51 62 32 42 52 63 43 53 6",
+    "source": "CF",
+    "vjudge": false
+}

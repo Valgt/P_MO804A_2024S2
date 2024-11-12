@@ -1,0 +1,13 @@
+{
+    "uid": "550-C",
+    "url": "https://codeforces.com/contest/550/problem/C",
+    "tags": [
+        "brute force",
+        " dp",
+        " math"
+    ],
+    "title": "550-C",
+    "statement": "C. Divisibility by Eighttime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given a non-negative integern, its decimal representation consists of at most100digits and doesn't contain leading zeroes.Your task is to determine if it is possible in this case to remove some of the digits (possibly not remove any digit at all) so that the result contains at least one digit, forms a non-negative integer, doesn't have leading zeroes and is divisible by 8. After the removing, it is forbidden to rearrange the digits.If a solution exists, you should print it.InputThe single line of the input contains a non-negative integern. The representation of numberndoesn't contain any leading zeroes and its length doesn't exceed100digits.OutputPrint \"NO\" (without quotes), if there is no such way to remove some digits from numbern.Otherwise, print \"YES\" in the first line and the resulting number after removing digits from numbernin the second line. The printed number must be divisible by8.If there are multiple possible answers, you may print any of them.ExamplesInput3454OutputYES344Input10OutputYES0Input111111OutputNO",
+    "source": "CF",
+    "vjudge": false
+}

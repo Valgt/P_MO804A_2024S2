@@ -1,0 +1,14 @@
+{
+    "uid": "913-F",
+    "url": "https://codeforces.com/contest/913/problem/F",
+    "tags": [
+        "dp",
+        " graphs",
+        " math",
+        " probabilities"
+    ],
+    "title": "913-F",
+    "statement": "F. Strongly Connected Tournamenttime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputThere is a chess tournament in All-Right-City.nplayers were invited to take part in the competition. The tournament is held by the following rules:Initially, each player plays one game with every other player. There are no ties;After that, the organizers build a complete directed graph with players as vertices. For every pair of players there is exactly one directed edge between them: the winner of their game is the startpoint of this edge and the loser is the endpoint;After that, the organizers build a condensation of this graph. The condensation of this graph is an acyclic complete graph, therefore it has the only Hamiltonian path which consists of strongly connected components of initial graphA1→A2→ ... →Ak.The players from the first componentA1are placed on the firstplaces, the players from the componentA2are placed on the nextplaces, and so on.To determine exact place of each player in a strongly connected component, all the procedures from 1 to 5 are repeated recursively inside each component, i.e. for everyi= 1, 2, ...,kplayers from the componentAiplay games with each other again, and so on;If a component consists of a single player, then he has no more rivals, his place is already determined and the process stops.The players are enumerated with integers from1ton. The enumeration was made using results of a previous tournament. It is known that playeriwins playerj(i<j) with probabilityp.You need to help to organize the tournament. Find the expected value of total number of games played by all the players.It can be shown that the answer can be represented as, wherePandQare coprime integers and. Print the value ofP·Q- 1modulo998244353.If you are not familiar with any of the terms above, you can read about themhere.InputThe first line of input contains a single integern(2 ≤n≤ 2000) — the number of players.The second line contains two integersaandb(1 ≤a<b≤ 100) — the numerator and the denominator of fraction.OutputIn the only line print the expected value of total number of games played by all the players. Print the answer using the format above.ExamplesInput31 2Output4Input34 6Output142606340Input41 2Output598946623NoteIn the first example the expected value is4.In the second example the expected value is.In the third example the expected value is.",
+    "source": "CF",
+    "vjudge": false
+}

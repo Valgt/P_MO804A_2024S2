@@ -1,0 +1,11 @@
+{
+    "uid": "470-H",
+    "url": "https://codeforces.com/contest/470/problem/H",
+    "tags": [
+        "*special"
+    ],
+    "title": "470-H",
+    "statement": "H. Array Sortingtime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutSorting arrays is traditionally associated with high-level languages. How hard can it be in FALSE? Sort the given array in non-descending order.InputThe input consists of a single line of space-separated integers. The first number isn(1 ≤n≤ 10) — the size of the array. The followingnnumbers are the elements of the array (1 ≤ai≤ 100).OutputOutput space-separated elements of the sorted array.ExamplesInput3 3 1 2Output1 2 3Input7 12 2 3 44 5 60 2Output2 2 3 5 12 44 60",
+    "source": "CF",
+    "vjudge": false
+}

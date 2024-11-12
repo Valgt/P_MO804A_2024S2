@@ -1,0 +1,13 @@
+{
+    "uid": "429-D",
+    "url": "https://codeforces.com/contest/429/problem/D",
+    "tags": [
+        "data structures",
+        " divide and conquer",
+        " geometry"
+    ],
+    "title": "429-D",
+    "statement": "D. Tricky Functiontime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutIahub and Sorin are the best competitive programmers in their town. However, they can't both qualify to an important contest. The selection will be made with the help of a single problem. Blatnatalag, a friend of Iahub, managed to get hold of the problem before the contest. Because he wants to make sure Iahub will be the one qualified, he tells Iahub the following task.You're given an (1-based) arrayawithnelements. Let's define functionf(i,j)(1 ≤i,j≤n)as(i-j)2+g(i,j)2. Function g is calculated by the following pseudo-code:int g(int i, int j) {int sum = 0;for (int k = min(i, j) + 1; k <= max(i, j); k = k + 1)sum = sum + a[k];return sum;}Find a valuemini≠jf(i,j).Probably by now Iahub already figured out the solution to this problem. Can you?InputThe first line of input contains a single integern(2 ≤n≤ 100000). Next line containsnintegersa[1],a[2], ...,a[n](- 104≤a[i] ≤ 104).OutputOutput a single integer — the value ofmini≠jf(i,j).ExamplesInput41 0 0 -1Output1Input21 -1Output2",
+    "source": "CF",
+    "vjudge": false
+}

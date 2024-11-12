@@ -1,0 +1,12 @@
+{
+    "uid": "729-A",
+    "url": "https://codeforces.com/contest/729/problem/A",
+    "tags": [
+        "implementation",
+        " strings"
+    ],
+    "title": "729-A",
+    "statement": "A. Interview with Olegtime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputPolycarp has interviewed Oleg and has written the interview down without punctuation marks and spaces to save time. Thus, the interview is now a stringsconsisting ofnlowercase English letters.There is a filler wordogoin Oleg's speech. All words that can be obtained fromogoby addinggoseveral times to the end of it are also considered to be fillers. For example, the wordsogo,ogogo,ogogogoare fillers, but the wordsgo,og,ogog,ogogogandoggoare not fillers.The fillers have maximal size, for example, forogogoospeech we can't considerogoa filler andgooas a normal phrase. We should considerogogoas a filler here.To print the interview, Polycarp has to replace each of the fillers with three asterisks. Note that a filler word is replaced with exactly three asterisks regardless of its length.Polycarp has dealt with this problem in no time. Can you do the same? The clock is ticking!InputThe first line contains a positive integern(1 ≤n≤ 100) — the length of the interview.The second line contains the stringsof lengthn, consisting of lowercase English letters.OutputPrint the interview text after the replacement of each of the fillers with \"***\". It is allowed for the substring \"***\" to have several consecutive occurences.ExamplesInput7aogogobOutputa***bInput13ogogmgogogogoOutput***gmg***Input9ogoogoogoOutput*********NoteThe first sample contains one filler wordogogo, so the interview for printing is \"a***b\".The second sample contains two fillersogoandogogogo. Thus, the interview is transformed to \"***gmg***\".",
+    "source": "CF",
+    "vjudge": false
+}

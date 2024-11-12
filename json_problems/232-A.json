@@ -1,0 +1,14 @@
+{
+    "uid": "232-A",
+    "url": "https://codeforces.com/contest/232/problem/A",
+    "tags": [
+        "binary search",
+        " constructive algorithms",
+        " graphs",
+        " greedy"
+    ],
+    "title": "232-A",
+    "statement": "A. Cyclestime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutJohn Doe started thinking about graphs. After some thought he decided that he wants to paint an undirected graph, containing exactlykcycles of length3.A cycle of length3is an unordered group of three distinct graph verticesa,bandc, such that each pair of them is connected by a graph edge.John has been painting for long, but he has not been a success. Help him find such graph. Note that the number of vertices there shouldn't exceed100, or else John will have problems painting it.InputA single line contains an integerk(1 ≤k≤ 105) — the number of cycles of length3in the required graph.OutputIn the first line print integern(3 ≤n≤ 100) — the number of vertices in the found graph. In each of nextnlines printncharacters \"0\" and \"1\": thei-th character of thej-th line should equal \"0\", if verticesiandjdo not have an edge between them, otherwise it should equal \"1\". Note that as the required graph is undirected, thei-th character of thej-th line must equal thej-th character of thei-th line. The graph shouldn't contain self-loops, so thei-th character of thei-th line must equal \"0\" for alli.ExamplesInput1Output3011101110Input10Output50111110111110111110111110",
+    "source": "CF",
+    "vjudge": false
+}

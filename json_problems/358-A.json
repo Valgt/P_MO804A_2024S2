@@ -1,0 +1,12 @@
+{
+    "uid": "358-A",
+    "url": "https://codeforces.com/contest/358/problem/A",
+    "tags": [
+        "brute force",
+        " implementation"
+    ],
+    "title": "358-A",
+    "statement": "A. Dima and Continuous Linetime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutDima and Seryozha live in an ordinary dormitory room for two. One day Dima had a date with his girl and he asked Seryozha to leave the room. As a compensation, Seryozha made Dima do his homework.The teacher gave Seryozha the coordinates ofndistinct points on the abscissa axis and asked to consecutively connect them by semi-circus in a certain order: first connect the first point with the second one, then connect the second point with the third one, then the third one with the fourth one and so on to then-th point. Two points with coordinates(x1, 0)and(x2, 0)should be connected by a semi-circle that passes above the abscissa axis with the diameter that coincides with the segment between points. Seryozha needs to find out if the line on the picture intersects itself. For clarifications, see the picture Seryozha showed to Dima (the left picture has self-intersections, the right picture doesn't have any).Seryozha is not a small boy, so the coordinates of the points can be rather large. Help Dima cope with the problem.InputThe first line contains a single integern(1 ≤n≤ 103). The second line containsndistinct integersx1,x2, ...,xn( - 106≤xi≤ 106)— thei-th point has coordinates(xi, 0). The points are not necessarily sorted by theirxcoordinate.OutputIn the single line print \"yes\" (without the quotes), if the line has self-intersections. Otherwise, print \"no\" (without the quotes).ExamplesInput40 10 5 15OutputyesInput40 15 5 10OutputnoNoteThe first test from the statement is on the picture to the left, the second test is on the picture to the right.",
+    "source": "CF",
+    "vjudge": false
+}

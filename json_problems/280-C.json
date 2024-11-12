@@ -1,0 +1,14 @@
+{
+    "uid": "280-C",
+    "url": "https://codeforces.com/contest/280/problem/C",
+    "tags": [
+        "implementation",
+        " math",
+        " probabilities",
+        " trees"
+    ],
+    "title": "280-C",
+    "statement": "C. Game on Treetime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutMomiji has got a rooted tree, consisting ofnnodes. The tree nodes are numbered by integers from1ton. The root has number1. Momiji decided to play a game on this tree.The game consists of several steps. On each step, Momiji chooses one of the remaining tree nodes (let's denote it byv) and removes all the subtree nodes with the root in nodevfrom the tree. Nodevgets deleted as well. The game finishes when the tree has no nodes left. In other words, the game finishes after the step that chooses the node number1.Each time Momiji chooses a new node uniformly among all the remaining nodes. Your task is to find the expectation of the number of steps in the described game.InputThe first line contains integern(1 ≤n≤ 105)— the number of nodes in the tree. The nextn- 1lines contain the tree edges. Thei-th line contains integersai,bi(1 ≤ai,bi≤n;ai≠bi)— the numbers of the nodes that are connected by thei-th edge.It is guaranteed that the given graph is a tree.OutputPrint a single real number — the expectation of the number of steps in the described game.The answer will be considered correct if the absolute or relative error doesn't exceed10- 6.ExamplesInput21 2Output1.50000000000000000000Input31 21 3Output2.00000000000000000000NoteIn the first sample, there are two cases. One is directly remove the root and another is remove the root after one step. Thus the expected steps are:1 × (1 / 2) + 2 × (1 / 2) = 1.5In the second sample, things get more complex. There are two cases that reduce to the first sample, and one case cleaned at once. Thus the expected steps are:1 × (1 / 3) + (1 + 1.5) × (2 / 3) = (1 / 3) + (5 / 3) = 2",
+    "source": "CF",
+    "vjudge": false
+}

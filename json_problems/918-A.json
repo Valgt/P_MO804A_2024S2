@@ -1,0 +1,12 @@
+{
+    "uid": "918-A",
+    "url": "https://codeforces.com/contest/918/problem/A",
+    "tags": [
+        "brute force",
+        " implementation"
+    ],
+    "title": "918-A",
+    "statement": "A. Eleventime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputEleven wants to choose a new name for herself. As a bunch of geeks, her friends suggested an algorithm to choose a name for her. Eleven wants her name to have exactlyncharacters.Her friend suggested that her name should only consist of uppercase and lowercase letters 'O'. More precisely, they suggested that thei-th letter of her name should be 'O' (uppercase) ifiis a member of Fibonacci sequence, and 'o' (lowercase) otherwise. The letters in the name are numbered from1ton. Fibonacci sequence is the sequencefwheref1= 1,f2= 1,fn=fn- 2+fn- 1(n> 2).As her friends are too young to know what Fibonacci sequence is, they asked you to help Eleven determine her new name.InputThe first and only line of input contains an integern(1 ≤n≤ 1000).OutputPrint Eleven's new name on the first and only line of output.ExamplesInput8OutputOOOoOooOInput15OutputOOOoOooOooooOoo",
+    "source": "CF",
+    "vjudge": false
+}

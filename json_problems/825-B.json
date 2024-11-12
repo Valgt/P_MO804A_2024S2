@@ -1,0 +1,12 @@
+{
+    "uid": "825-B",
+    "url": "https://codeforces.com/contest/825/problem/B",
+    "tags": [
+        "brute force",
+        " implementation"
+    ],
+    "title": "825-B",
+    "statement": "B. Five-In-a-Rowtime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputAlice and Bob play 5-in-a-row game. They have a playing field of size10 × 10. In turns they put either crosses or noughts, one at a time. Alice puts crosses and Bob puts noughts.In current match they have made some turns and now it's Alice's turn. She wonders if she can put cross in such empty cell that she wins immediately.Alice wins if some crosses in the field form line of lengthnot smaller than5. This line can be horizontal, vertical and diagonal.InputYou are given matrix10 × 10(10lines of10characters each) with capital Latin letters'X'being a cross, letters'O'being a nought and'.'being an empty cell. The number of'X'cells is equal to the number of'O'cells and there is at least one of each type. There is at least one empty cell.It is guaranteed that in the current arrangement nobody has still won.OutputPrint'YES'if it's possible for Alice to win in one turn by putting cross in some empty cell. Otherwise print'NO'.ExamplesInputXX.XX..........OOOO.................................................................................OutputYESInputXXOXX.....OO.O......................................................................................OutputNO",
+    "source": "CF",
+    "vjudge": false
+}

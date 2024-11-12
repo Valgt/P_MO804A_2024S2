@@ -1,0 +1,12 @@
+{
+    "uid": "607-A",
+    "url": "https://codeforces.com/contest/607/problem/A",
+    "tags": [
+        "binary search",
+        " dp"
+    ],
+    "title": "607-A",
+    "statement": "A. Chain Reactiontime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputThere arenbeacons located at distinct positions on a number line. Thei-th beacon has positionaiand power levelbi. When thei-th beacon is activated, it destroys all beacons to its left (direction of decreasing coordinates) within distancebiinclusive. The beacon itself is not destroyed however. Saitama will activate the beacons one at a time from right to left. If a beacon is destroyed, it cannot be activated.Saitama wants Genos to add a beaconstrictly to the rightof all the existing beacons, with any position and any power level, such that the least possible number of beacons are destroyed. Note that Genos's placement of the beacon means it will be the first beacon activated. Help Genos by finding the minimum number of beacons that could be destroyed.InputThe first line of input contains a single integern(1 ≤n≤ 100 000) — the initial number of beacons.Thei-th of nextnlines contains two integersaiandbi(0 ≤ai≤ 1 000 000,1 ≤bi≤ 1 000 000) — the position and power level of thei-th beacon respectively. No two beacons will have the same position, soai≠ajifi≠j.OutputPrint a single integer — the minimum number of beacons that could be destroyed if exactly one beacon is added.ExamplesInput41 93 16 17 4Output1Input71 12 13 14 15 16 17 1Output3NoteFor the first sample case, the minimum number of beacons destroyed is1. One way to achieve this is to place a beacon at position9with power level2.For the second sample case, the minimum number of beacons destroyed is3. One way to achieve this is to place a beacon at position1337with power level42.",
+    "source": "CF",
+    "vjudge": false
+}

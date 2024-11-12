@@ -1,0 +1,12 @@
+{
+    "uid": "274-C",
+    "url": "https://codeforces.com/contest/274/problem/C",
+    "tags": [
+        "brute force",
+        " geometry"
+    ],
+    "title": "274-C",
+    "statement": "C. The Last Hole!time limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutLuyi hasncircles on the plane. Thei-th circle is centered at(xi,yi). At the time zero circles start to grow simultaneously. In other words, the radius of each circle at timet(t> 0)is equal tot. The circles are drawn as black discs on an infinite white plane. So at each moment the plane consists of several black and white regions. Note that the circles may overlap while growing.We define aholeas a closed, connected white region. For instance, the figure contains two holes shown by red border. During growing some holes may be created and it is easy to see that each created hole will disappear eventually. Luyi asks you to find moment of time such that the last hole disappears. In other words, you should find the first moment such that no hole can be seen after that.InputThe first line of the input contains integern(1 ≤n≤ 100). Each of the nextnlines contains two integersxiandyi(- 104≤xi,yi≤ 104), indicating the location ofi-th circle.It's guaranteed that no two circles are centered at the same point.OutputPrint the moment where the last hole disappears. If there exists no moment in which we can find holes print-1.The answer will be considered correct if the absolute or relative error does not exceed10- 4.ExamplesInput30 01 12 2Output-1Input40 00 22 22 0Output1.414214Input40 10 -1-2 04 0Output2.125000",
+    "source": "CF",
+    "vjudge": false
+}

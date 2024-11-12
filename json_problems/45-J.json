@@ -1,0 +1,11 @@
+{
+    "uid": "45-J",
+    "url": "https://codeforces.com/contest/45/problem/J",
+    "tags": [
+        "constructive algorithms"
+    ],
+    "title": "45-J",
+    "statement": "J. Planting Treestime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutVasya is aGreencodewildlife preservation society proponent. One day he found an empty field nobody owned, divided it inton×msquares and decided to plant a forest there. Vasya will plantnmtrees of all different heights from1tonm. For his forest to look more natural he wants any two trees growing in the side neighbouring squares to have the absolute value of difference in heights to be strictly more than 1. Help Vasya: make the plan of the forest planting for which this condition is fulfilled.InputThe first line contains two space-separated integersnandm(1 ≤n,m≤ 100) — the number of rows and columns on Vasya's fieldOutputIf there's no solution, print-1. Otherwise, printnlines containingmnumbers each — the trees' planting plan. In every square of the plan the height of a tree that should be planted on this square should be written. If there are several solutions to that problem, print any of them.ExamplesInput2 3Output3 6 25 1 4Input2 1Output-1",
+    "source": "CF",
+    "vjudge": false
+}

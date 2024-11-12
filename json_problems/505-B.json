@@ -1,0 +1,14 @@
+{
+    "uid": "505-B",
+    "url": "https://codeforces.com/contest/505/problem/B",
+    "tags": [
+        "dfs and similar",
+        " dp",
+        " dsu",
+        " graphs"
+    ],
+    "title": "505-B",
+    "statement": "B. Mr. Kitayuta's Colorful Graphtime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutMr. Kitayuta has just bought an undirected graph consisting ofnvertices andmedges. The vertices of the graph are numbered from 1 ton. Each edge, namely edgei, has a colorci, connecting vertexaiandbi.Mr. Kitayuta wants you to process the followingqqueries.In thei-th query, he gives you two integers —uiandvi.Find the number of the colors that satisfy the following condition: the edges of that color connect vertexuiand vertexvidirectly or indirectly.InputThe first line of the input contains space-separated two integers —nandm(2 ≤n≤ 100, 1 ≤m≤ 100), denoting the number of the vertices and the number of the edges, respectively.The nextmlines contain space-separated three integers —ai,bi(1 ≤ai<bi≤n) andci(1 ≤ci≤m). Note that there can be multiple edges between two vertices. However, there are no multiple edges of the same color between two vertices, that is, ifi≠j,(ai,bi,ci) ≠ (aj,bj,cj).The next line contains a integer —q(1 ≤q≤ 100), denoting the number of the queries.Then followsqlines, containing space-separated two integers —uiandvi(1 ≤ui,vi≤n). It is guaranteed thatui≠vi.OutputFor each query, print the answer in a separate line.ExamplesInput4 51 2 11 2 22 3 12 3 32 4 331 23 41 4Output210Input5 71 5 12 5 13 5 14 5 11 2 22 3 23 4 251 55 12 51 51 4Output11112NoteLet's consider the first sample.The figure above shows the first sample.Vertex1and vertex2are connected by color1and2.Vertex3and vertex4are connected by color3.Vertex1and vertex4are not connected by any single color.",
+    "source": "CF",
+    "vjudge": false
+}

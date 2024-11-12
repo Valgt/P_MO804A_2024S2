@@ -1,0 +1,13 @@
+{
+    "uid": "56-E",
+    "url": "https://codeforces.com/contest/56/problem/E",
+    "tags": [
+        "binary search",
+        " data structures",
+        " sortings"
+    ],
+    "title": "56-E",
+    "statement": "E. Domino Principletime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutVasya is interested in arranging dominoes. He is fed up with common dominoes and he uses the dominoes of different heights. He putndominoes on the table along one axis, going from left to right. Every domino stands perpendicular to that axis so that the axis passes through the center of its base. Thei-th domino has the coordinatexiand the heighthi. Now Vasya wants to learn for every domino, how many dominoes will fall if he pushes it to the right. Help him do that.Consider that a domino falls if it is touched strictly above the base. In other words, the fall of the domino with the initial coordinatexand heighthleads to the fall of all dominoes on the segment[x+ 1,x+h- 1].InputThe first line contains integern(1 ≤n≤ 105) which is the number of dominoes. Then follownlines containing two integersxiandhi(- 108≤xi≤ 108, 2 ≤hi≤ 108) each, which are the coordinate and height of every domino. No two dominoes stand on one point.OutputPrintnspace-separated numberszi— the number of dominoes that will fall if Vasya pushes thei-th domino to the right (including the domino itself).ExamplesInput416 520 510 1018 2Output3 1 4 1Input40 101 59 1015 10Output4 1 2 1",
+    "source": "CF",
+    "vjudge": false
+}

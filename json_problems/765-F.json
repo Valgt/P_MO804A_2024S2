@@ -1,0 +1,11 @@
+{
+    "uid": "765-F",
+    "url": "https://codeforces.com/contest/765/problem/F",
+    "tags": [
+        "data structures"
+    ],
+    "title": "765-F",
+    "statement": "F. Souvenirstime limit per test3 secondsmemory limit per test512 megabytesinputstandard inputoutputstandard outputArtsem is on vacation and wants to buy souvenirs for his two teammates. There arensouvenir shops along the street. Ini-th shop Artsem can buy one souvenir foraidollars, and he cannot buy more than one souvenir in one shop. He doesn't want to introduce envy in his team, so he wants to buy two souvenirs with least possible difference in price.Artsem has visited the shopping streetmtimes. For some strange reason on thei-th day only shops with numbers fromlitoriwere operating (weird? yes it is, but have you ever tried to come up with a reasonable legend for a range query problem?). For each visit, Artsem wants to know the minimum possible difference in prices of two different souvenirs he can buy in the opened shops.In other words, for each Artsem's visit you should find the minimum possible value of|as-at|whereli≤s,t≤ri,s≠t.InputThe first line contains an integern(2 ≤n≤ 105).The second line containsnspace-separated integersa1, ...,an(0 ≤ai≤ 109).The third line contains the number of queriesm(1 ≤m≤ 3·105).Nextmlines describe the queries.i-th of these lines contains two space-separated integersliandridenoting the range of shops working oni-th day (1 ≤li<ri≤n).OutputPrint the answer to each query in a separate line.ExampleInput83 1 4 1 5 9 2 641 81 34 85 7Output0113",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,11 @@
+{
+    "uid": "339-B",
+    "url": "https://codeforces.com/contest/339/problem/B",
+    "tags": [
+        "implementation"
+    ],
+    "title": "339-B",
+    "statement": "B. Xenia and Ringroadtime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutXenia lives in a city that hasnhouses built along the main ringroad. The ringroad houses are numbered 1 throughnin the clockwise order. The ringroad traffic is one way and also is clockwise.Xenia has recently moved into the ringroad house number 1. As a result, she's gotmthings to do. In order to complete thei-th task, she needs to be in the house numberaiand complete all tasks with numbers less thani. Initially, Xenia is in the house number 1, find the minimum time she needs to complete all her tasks if moving from a house to a neighboring one along the ringroad takes one unit of time.InputThe first line contains two integersnandm(2 ≤n≤ 105, 1 ≤m≤ 105). The second line containsmintegersa1,a2, ...,am(1 ≤ai≤n). Note that Xenia can have multiple consecutive tasks in one house.OutputPrint a single integer — the time Xenia needs to complete all tasks.Please, do not use the%lldspecifier to read or write 64-bit integers in С++. It is preferred to use thecin,coutstreams or the%I64dspecifier.ExamplesInput4 33 2 3Output6Input4 32 3 3Output2NoteIn the first test example the sequence of Xenia's moves along the ringroad looks as follows:1 → 2 → 3 → 4 → 1 → 2 → 3. This is optimal sequence. So, she needs 6 time units.",
+    "source": "CF",
+    "vjudge": false
+}

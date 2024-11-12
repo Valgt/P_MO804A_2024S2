@@ -1,0 +1,16 @@
+{
+    "uid": "202-A",
+    "url": "https://codeforces.com/contest/202/problem/A",
+    "tags": [
+        "binary search",
+        " bitmasks",
+        " brute force",
+        " greedy",
+        " implementation",
+        " strings"
+    ],
+    "title": "202-A",
+    "statement": "A. LLPStime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutThis problem's actual name, \"Lexicographically Largest Palindromic Subsequence\" is too long to fit into the page headline.You are given stringsconsisting of lowercase English letters only. Find its lexicographically largest palindromic subsequence.We'll call a non-empty strings[p1p2...pk]=sp1sp2...spk(1≤p1<p2< ... <pk≤|s|) asubsequenceof strings=s1s2...s|s|, where|s|is the length of strings. For example, strings \"abcb\", \"b\" and \"abacaba\" are subsequences of string \"abacaba\".Stringx=x1x2...x|x|islexicographically largerthan stringy=y1y2...y|y|if either|x|>|y|andx1=y1,x2=y2, ...,x|y|=y|y|, or there exists such numberr(r< |x|,r< |y|) thatx1=y1,x2=y2, ...,xr=yrandxr+  1>yr+  1. Characters in the strings are compared according to their ASCII codes. For example, string \"ranger\" is lexicographically larger than string \"racecar\" and string \"poster\" is lexicographically larger than string \"post\".Strings=s1s2...s|s|is apalindromeif it matches stringrev(s)=s|s|s|s| - 1...s1. In other words, a string is a palindrome if it reads the same way from left to right and from right to left. For example, palindromic strings are \"racecar\", \"refer\" and \"z\".InputThe only input line contains a non-empty stringsconsisting of lowercase English letters only. Its length does not exceed10.OutputPrint the lexicographically largest palindromic subsequence of strings.ExamplesInputradarOutputrrInputbowwowwowOutputwwwwwInputcodeforcesOutputsInputmississippOutputssssNoteAmong all distinct subsequences of string \"radar\" the following ones are palindromes: \"a\", \"d\", \"r\", \"aa\", \"rr\", \"ada\", \"rar\", \"rdr\", \"raar\" and \"radar\". The lexicographically largest of them is \"rr\".",
+    "source": "CF",
+    "vjudge": false
+}

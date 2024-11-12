@@ -1,0 +1,13 @@
+{
+    "uid": "603-A",
+    "url": "https://codeforces.com/contest/603/problem/A",
+    "tags": [
+        "dp",
+        " greedy",
+        " math"
+    ],
+    "title": "603-A",
+    "statement": "A. Alternative Thinkingtime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputKevin has just recevied his disappointing results on the USA Identification of Cows Olympiad (USAICO) in the form of a binary string of lengthn. Each character of Kevin's string represents Kevin's score on one of thenquestions of the olympiad—'1'for a correctly identified cow and'0'otherwise.However, all is not lost. Kevin is a big proponent of alternative thinking and believes that his score, instead of being the sum of his points, should be the length of the longest alternating subsequence of his string. Here, we define analternating subsequenceof a string as anot-necessarily contiguoussubsequence where no two consecutive elements are equal. For example,{0, 1, 0, 1},{1, 0, 1}, and{1, 0, 1, 0}are alternating sequences, while{1, 0, 0}and{0, 1, 0, 1, 1}are not.Kevin, being the sneaky little puffball that he is, is willing to hack into the USAICO databases to improve his score. In order to be subtle, he decides that he will flip exactly one substring—that is, take acontiguousnon-empty substring of his score and change all'0's in that substring to'1's and vice versa. After such an operation, Kevin wants to know the length of the longest possible alternating subsequence that his string could have.InputThe first line contains the number of questions on the olympiadn(1 ≤n≤ 100 000).The following line contains a binary string of lengthnrepresenting Kevin's results on the USAICO.OutputOutput a single integer, the length of the longest possible alternating subsequence that Kevin can create in his string after flipping a single substring.ExamplesInput810000011Output5Input201Output2NoteIn the first sample, Kevin can flip the bolded substring '10000011' and turn his string into '10011011', which has an alternating subsequence of length 5: '10011011'.In the second sample, Kevin can flip the entire string and still have the same score.",
+    "source": "CF",
+    "vjudge": false
+}

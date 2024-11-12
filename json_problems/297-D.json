@@ -1,0 +1,11 @@
+{
+    "uid": "297-D",
+    "url": "https://codeforces.com/contest/297/problem/D",
+    "tags": [
+        "constructive algorithms"
+    ],
+    "title": "297-D",
+    "statement": "D. Color the Carpettime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutEven polar bears feel cold when lying on the ice. Therefore, a polar bear Alice is going to make a carpet. The carpet can be viewed as a grid with heighthand widthw. Then the grid is divided intoh×wsquares. Alice is going to assign one ofkdifferent colors to each square. The colors are numbered from 1 tok. She may choose not to use all of the colors.However, there are some restrictions. For every two adjacent squares (squares that shares an edge)xandy, there is acolor constraintin one of the forms:color(x) =color(y), orcolor(x) ≠color(y).Example of the color constraints:Ideally, Alice wants to satisfy all color constraints. But again, life in the Arctic is hard. It is not always possible to satisfy all color constraints. Fortunately, she will still be happy if at leastof the color constraints are satisfied.If she has4colors she can color the carpet in the following way:And she is happy becauseof the color constraints are satisfied, and. Your task is to help her color the carpet.InputThe first line contains three integersh,w,k(2 ≤h,w≤ 1000, 1 ≤k≤w·h).The next2h- 1lines describe the color constraints from top to bottom, left to right. They containw- 1,w,w- 1,w, ...,w- 1characters respectively. Each color constraint is represented by a character \"E\" or \"N\", where \"E\" means \"=\" and \"N\" means \"≠\".The color constraints listed in the order they are depicted on the picture.OutputIf there is a coloring that satisfies at leastof the color constraints, print \"YES\" (without quotes) in the first line. In each of the nexthlines, printwintegers describing the coloring.Otherwise, print \"NO\" (without quotes).ExamplesInput3 4 4ENENNEENEEENENENNOutputYES1 1 2 23 4 1 13 3 2 4",
+    "source": "CF",
+    "vjudge": false
+}

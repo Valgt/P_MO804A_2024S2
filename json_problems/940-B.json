@@ -1,0 +1,12 @@
+{
+    "uid": "940-B",
+    "url": "https://codeforces.com/contest/940/problem/B",
+    "tags": [
+        "dp",
+        " greedy"
+    ],
+    "title": "940-B",
+    "statement": "B. Our Tanya is Crying Out Loudtime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputRight now she actually isn't. But she will be, if you don't solve this problem.You are given integersn,k,AandB. There is a numberx, which is initially equal ton. You are allowed to perform two types of operations:Subtract 1 fromx. This operation costs youAcoins.Dividexbyk. Can be performed only ifxis divisible byk. This operation costs youBcoins.What is the minimum amount of coins you have to pay to makexequal to1?InputThe first line contains a single integern(1 ≤n≤ 2·109).The second line contains a single integerk(1 ≤k≤ 2·109).The third line contains a single integerA(1 ≤A≤ 2·109).The fourth line contains a single integerB(1 ≤B≤ 2·109).OutputOutput a single integer — the minimum amount of coins you have to pay to makexequal to1.ExamplesInput9231Output6Input55220Output8Input19342Output12NoteIn the first testcase, the optimal strategy is as follows:Subtract 1 fromx(9 → 8) paying 3 coins.Dividexby 2 (8 → 4) paying 1 coin.Dividexby 2 (4 → 2) paying 1 coin.Dividexby 2 (2 → 1) paying 1 coin.The total cost is6coins.In the second test case the optimal strategy is to subtract 1 fromx4times paying8coins in total.",
+    "source": "CF",
+    "vjudge": false
+}

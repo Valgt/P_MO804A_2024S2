@@ -1,0 +1,11 @@
+{
+    "uid": "243-E",
+    "url": "https://codeforces.com/contest/243/problem/E",
+    "tags": [
+        "data structures"
+    ],
+    "title": "243-E",
+    "statement": "E. Matrixtime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutLet's consider ann×nsquare matrix, consisting of digits one and zero.We'll consider a matrixgood, if it meets the following condition: in each row of the matrix all ones go in one group. That is, each row of the matrix looks like that00...0011...1100...00(or simply consists of zeroes if it has no ones).You are given matrixaof sizen×n, consisting of zeroes and ones. Your task is to determine whether you can get a good matrixbfrom it by rearranging the columns or not.InputThe first line contains integern(1 ≤n≤ 500) — the size of matrixa.Each ofnfollowing lines containsncharacters \"0\" and \"1\" — matrixa. Note that the characters are written without separators.OutputPrint \"YES\" in the first line, if you can rearrange the matrix columns so as to get a good matrixb. In the nextnlines print the good matrixb. If there are multiple answers, you are allowed to print any of them.If it is impossible to get a good matrix, print \"NO\".ExamplesInput6100010110110011001010010000100011001OutputYES011000111100000111001100100000000111Input3110101011OutputNO",
+    "source": "CF",
+    "vjudge": false
+}

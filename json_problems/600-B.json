@@ -1,0 +1,14 @@
+{
+    "uid": "600-B",
+    "url": "https://codeforces.com/contest/600/problem/B",
+    "tags": [
+        "binary search",
+        " data structures",
+        " sortings",
+        " two pointers"
+    ],
+    "title": "600-B",
+    "statement": "B. Queries about less or equal elementstime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given two arrays of integersaandb. For each element of the second arraybjyou should find the number of elements in arrayathat are less than or equal to the valuebj.InputThe first line contains two integersn,m(1 ≤n,m≤ 2·105) — the sizes of arraysaandb.The second line containsnintegers — the elements of arraya(- 109≤ai≤ 109).The third line containsmintegers — the elements of arrayb(- 109≤bj≤ 109).OutputPrintmintegers, separated by spaces: thej-th of which is equal to the number of such elements in arrayathat are less than or equal to the valuebj.ExamplesInput5 41 3 5 7 96 4 2 8Output3 2 1 4Input5 51 2 1 2 53 1 4 1 5Output4 2 4 2 5",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,11 @@
+{
+    "uid": "665-A",
+    "url": "https://codeforces.com/contest/665/problem/A",
+    "tags": [
+        "implementation"
+    ],
+    "title": "665-A",
+    "statement": "A. Buses Between Citiestime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputBuses run between the citiesAandB, the first one is at 05:00 AM and the last one departs not later than at 11:59 PM. A bus from the cityAdeparts everyaminutes and arrives to the cityBin ataminutes, and a bus from the cityBdeparts everybminutes and arrives to the cityAin atbminutes.The driver Simion wants to make his job diverse, so he counts the buses going towards him. Simion doesn't count the buses he meet at the start and finish.You know the time when Simion departed from the cityAto the cityB. Calculate the number of buses Simion will meet to be sure in his counting.InputThe first line contains two integersa,ta(1 ≤a,ta≤ 120) — the frequency of the buses from the cityAto the cityBand the travel time. Both values are given in minutes.The second line contains two integersb,tb(1 ≤b,tb≤ 120) — the frequency of the buses from the cityBto the cityAand the travel time. Both values are given in minutes.The last line contains the departure time of Simion from the cityAin the formathh:mm. It is guaranteed that there are a bus from the cityAat that time. Note that the hours and the minutes are given with exactly two digits.OutputPrint the only integerz— the number of buses Simion will meet on the way. Note that you should not count the encounters in citiesAandB.ExamplesInput10 3010 3505:20Output5Input60 12024 10013:00Output9NoteIn the first example Simion departs form the cityAat 05:20 AM and arrives to the cityBat 05:50 AM. He will meet the first5buses from the cityBthat departed in the period [05:00 AM - 05:40 AM]. Also Simion will meet a bus in the cityBat 05:50 AM, but he will not count it.Also note that the first encounter will be between 05:26 AM and 05:27 AM (if we suggest that the buses are go with the sustained speed).",
+    "source": "CF",
+    "vjudge": false
+}

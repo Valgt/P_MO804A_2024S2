@@ -1,0 +1,12 @@
+{
+    "uid": "171-H",
+    "url": "https://codeforces.com/contest/171/problem/H",
+    "tags": [
+        "*special",
+        " implementation"
+    ],
+    "title": "171-H",
+    "statement": "H. A polylinetime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutInputThe input contains two integersa,b(1 ≤a≤ 10, 0 ≤b≤ 22·a- 1) separated by a single space.OutputOutput two integers separated by a single space.ExamplesInput1 0Output0 0Input2 15Output3 0Input4 160Output12 12",
+    "source": "CF",
+    "vjudge": false
+}

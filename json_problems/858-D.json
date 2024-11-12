@@ -1,0 +1,13 @@
+{
+    "uid": "858-D",
+    "url": "https://codeforces.com/contest/858/problem/D",
+    "tags": [
+        "data structures",
+        " implementation",
+        " sortings"
+    ],
+    "title": "858-D",
+    "statement": "D. Polycarp's phone booktime limit per test4 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputThere arenphone numbers in Polycarp's contacts on his phone. Each number is a 9-digit integer, starting with a digit different from0. All the numbers are distinct.There is the latest version of Berdroid OS installed on Polycarp's phone. If some number is entered, is shows up all the numbers in the contacts for which there is a substring equal to the entered sequence of digits. For example, is there are three phone numbers in Polycarp's contacts:123456789,100000000and100123456, then:if he enters00two numbers will show up:100000000and100123456,if he enters123two numbers will show up123456789and100123456,if he enters01there will be only one number100123456.For each of the phone numbers in Polycarp's contacts, find the minimum in length sequence of digits such that if Polycarp enters this sequence, Berdroid shows this only phone number.InputThe first line contains single integern(1 ≤n≤ 70000) — the total number of phone contacts in Polycarp's contacts.The phone numbers follow, one in each line. Each number is a positive 9-digit integer starting with a digit from1to9. All the numbers are distinct.OutputPrint exactlynlines: thei-th of them should contain the shortest non-empty sequence of digits, such that if Polycarp enters it, the Berdroid OS shows up only thei-th number from the contacts. If there are several such sequences, print any of them.ExamplesInput3123456789100000000100123456Output900001Input4123456789193456789134567819934567891Output21938191",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,11 @@
+{
+    "uid": "470-B",
+    "url": "https://codeforces.com/contest/470/problem/B",
+    "tags": [
+        "*special"
+    ],
+    "title": "470-B",
+    "statement": "B. Hexakosioihexekontahexaphobiatime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutThis (unpronounceable) word means simply fear of number 666.You are given a string of digits. Check whether it is scary for a person suffering from this phobia, i.e., whether it contains number 666 as a substring.InputThe input will consist of a single stringp. The string contains between 1 and 100 digits ('0'-'9'), inclusive. The string doesn't contain any other characters except digits.OutputOutput \"YES\" if given string contains number 666, and \"NO\" otherwise (quotes for clarity only).ExamplesInput123098OutputNOInput16660OutputYESInput1606061OutputNONoteNote that 666 must be a contiguous substring ofp, not a subsequence (see sample 3).",
+    "source": "CF",
+    "vjudge": false
+}

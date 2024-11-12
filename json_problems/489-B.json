@@ -1,0 +1,16 @@
+{
+    "uid": "489-B",
+    "url": "https://codeforces.com/contest/489/problem/B",
+    "tags": [
+        "dfs and similar",
+        " dp",
+        " graph matchings",
+        " greedy",
+        " sortings",
+        " two pointers"
+    ],
+    "title": "489-B",
+    "statement": "B. BerSU Balltime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutThe Berland State University is hosting a ballroom dance in celebration of its 100500-th anniversary!nboys andmgirls are already busy rehearsing waltz, minuet, polonaise and quadrille moves.We know that several boy&girl pairs are going to be invited to the ball. However, the partners' dancing skill in each pair must differ by at most one.For each boy, we know his dancing skills. Similarly, for each girl we know her dancing skills. Write a code that can determine the largest possible number of pairs that can be formed fromnboys andmgirls.InputThe first line contains an integern(1 ≤n≤ 100) — the number of boys. The second line contains sequencea1,a2, ...,an(1 ≤ai≤ 100), whereaiis thei-th boy's dancing skill.Similarly, the third line contains an integerm(1 ≤m≤ 100) — the number of girls. The fourth line contains sequenceb1,b2, ...,bm(1 ≤bj≤ 100), wherebjis thej-th girl's dancing skill.OutputPrint a single number — the required maximum possible number of pairs.ExamplesInput41 4 6 255 1 5 7 9Output3Input41 2 3 4410 11 12 13Output0Input51 1 1 1 131 2 3Output2",
+    "source": "CF",
+    "vjudge": false
+}

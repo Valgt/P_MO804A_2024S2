@@ -1,0 +1,11 @@
+{
+    "uid": "566-G",
+    "url": "https://codeforces.com/contest/566/problem/G",
+    "tags": [
+        "geometry"
+    ],
+    "title": "566-G",
+    "statement": "G. Max and Mintime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputTwo kittens, Max and Min, play with a pair of non-negative integersxandy. As you can guess from their names, kitten Max loves to maximize and kitten Min loves to minimize. As part of this game Min wants to make sure that both numbers,xandybecame negative at the same time, and kitten Max tries to prevent him from doing so.Each kitten has a set of pairs of integers available to it. Kitten Max hasnpairs of non-negative integers(ai,bi)(1 ≤i≤n), and kitten Min hasmpairs of non-negative integers(cj,dj)(1 ≤j≤m). As kitten Max makes a move, it can take any available pair(ai,bi)and addaitoxandbitoy, and kitten Min can take any available pair(cj,dj)and subtractcjfromxanddjfromy. Each kitten can use each pair multiple times during distinct moves.Max moves first. Kitten Min is winning if at some moment both numbersa,bare negativesimultaneously. Otherwise, the winner of the game is kitten Max. Determine which kitten wins if both of them play optimally.InputThe first line contains two integers,nandm(1 ≤n,m≤ 100 000) — the number of pairs of numbers available to Max and Min, correspondingly.The second line contains two integersx,y(1 ≤x,y≤ 109) — the initial values of numbers with which the kittens are playing.Nextnlines contain the pairs of numbersai,bi(1 ≤ai,bi≤ 109) — the pairs available to Max.The lastmlines contain pairs of numberscj,dj(1 ≤cj,dj≤ 109) — the pairs available to Min.OutputPrint «Max» (without the quotes), if kitten Max wins, or \"Min\" (without the quotes), if kitten Min wins.ExamplesInput2 242 432 33 23 1010 3OutputMinInput1 11 13 41 1OutputMaxNoteIn the first test from the statement Min can respond to move(2, 3)by move(3, 10), and to move(3, 2)by move(10, 3). Thus, for each pair of Max and Min's moves the values of both numbersxandywill strictly decrease, ergo, Min will win sooner or later.In the second sample test after each pair of Max and Min's moves both numbersxandyonly increase, thus none of them will become negative.",
+    "source": "CF",
+    "vjudge": false
+}

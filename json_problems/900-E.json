@@ -1,0 +1,13 @@
+{
+    "uid": "900-E",
+    "url": "https://codeforces.com/contest/900/problem/E",
+    "tags": [
+        "data structures",
+        " dp",
+        " strings"
+    ],
+    "title": "900-E",
+    "statement": "E. Maximum Questionstime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputVasya wrote down two stringssof lengthnandtof lengthmconsisting of small English letters 'a' and 'b'. What is more, he knows that stringthas a form \"abab...\", namely there are letters 'a' on odd positions and letters 'b' on even positions.Suddenly in the morning, Vasya found that somebody spoiled his string. Some letters of the stringswere replaced by character '?'.Let's call a sequence of positionsi,i+ 1, ...,i+m- 1asoccurrenceof stringtins, if1 ≤i≤n-m+ 1andt1=si,t2=si+ 1, ...,tm=si+m- 1.The boy defines thebeautyof the stringsas maximum number of disjoint occurrences of stringtins. Vasya can replace some letters '?' with 'a' or 'b' (letters on different positions can be replaced with different letter). Vasya wants to make some replacements in such a way that beauty of stringsis maximum possible. From all such options, he wants to choose one with the minimum number of replacements. Find the number of replacements he should make.InputThe first line contains a single integern(1 ≤n≤ 105) — the length ofs.The second line contains the stringsof lengthn. It contains small English letters 'a', 'b' and characters '?' only.The third line contains a single integerm(1 ≤m≤ 105) — the length oft. The stringtcontains letters 'a' on odd positions and 'b' on even positions.OutputPrint the only integer — the minimum number of replacements Vasya has to perform to make the beauty of stringsthe maximum possible.ExamplesInput5bb?a?1Output2Input9ab??ab???3Output2NoteIn the first sample stringthas a form 'a'. The only optimal option is to replace all characters '?' by 'a'.In the second sample using two replacements we can make string equal to \"aba?aba??\". It is impossible to get more than two occurrences.",
+    "source": "CF",
+    "vjudge": false
+}

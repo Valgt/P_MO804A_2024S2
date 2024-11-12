@@ -1,0 +1,12 @@
+{
+    "uid": "290-D",
+    "url": "https://codeforces.com/contest/290/problem/D",
+    "tags": [
+        "*special",
+        " implementation"
+    ],
+    "title": "290-D",
+    "statement": "D. Orangetime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutInputThe first line of the input is a string (between 1 and 50 characters long, inclusive). Each character will be a letter of English alphabet, lowercase or uppercase.The second line of the input is an integer between 0 and 26, inclusive.OutputOutput the required string.ExamplesInputAprilFool14OutputAprILFooL",
+    "source": "CF",
+    "vjudge": false
+}

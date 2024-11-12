@@ -1,0 +1,13 @@
+{
+    "uid": "936-C",
+    "url": "https://codeforces.com/contest/936/problem/C",
+    "tags": [
+        "constructive algorithms",
+        " implementation",
+        " strings"
+    ],
+    "title": "936-C",
+    "statement": "C. Lock Puzzletime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputWelcome to another task about breaking the code lock! Explorers Whitfield and Martin came across an unusual safe, inside of which, according to rumors, there are untold riches, among which one can find the solution of the problem of discrete logarithm!Of course, there is a code lock is installed on the safe. The lock has a screen that displays a string ofnlowercase Latin letters. Initially, the screen displays strings. Whitfield and Martin found out that the safe will open when stringtwill be displayed on the screen.The string on the screen can be changed using the operation «shiftx». In order to apply this operation, explorers choose an integerxfrom 0 toninclusive. After that, the current stringp= αβchanges toβRα, where the length ofβisx, and the length ofαisn-x. In other words, the suffix of the lengthxof stringpis reversed and moved to the beginning of the string. For example, after the operation «shift4» the string «abcacb» will be changed with string «bcacab», sinceα =ab,β =cacb,βR=bcac.Explorers are afraid that if they apply too many operations «shift», the lock will be locked forever. They ask you to find a way to get the strington the screen, using no more than6100operations.InputThe first line contains an integern, the length of the stringssandt(1 ≤n≤ 2 000).After that, there are two stringssandt, consisting ofnlowercase Latin letters each.OutputIf it is impossible to get stringtfrom stringsusing no more than 6100 operations «shift», print a single number- 1.Otherwise, in the first line output the number of operationsk(0 ≤k≤ 6100). In the next line outputknumbersxicorresponding to the operations «shiftxi» (0 ≤xi≤n) in the order in which they should be applied.ExamplesInput6abacbbbabcbaOutput46 3 2 3Input3ababbaOutput-1In the first example, after applying the operations, the string on the screen will change as follows:abacbbbbcababbcabaababbcababbccbababcbababbabcba",
+    "source": "CF",
+    "vjudge": false
+}

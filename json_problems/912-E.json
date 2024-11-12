@@ -1,0 +1,16 @@
+{
+    "uid": "912-E",
+    "url": "https://codeforces.com/contest/912/problem/E",
+    "tags": [
+        "binary search",
+        " dfs and similar",
+        " math",
+        " meet-in-the-middle",
+        " number theory",
+        " two pointers"
+    ],
+    "title": "912-E",
+    "statement": "E. Prime Gifttime limit per test3.5 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputOpposite to Grisha's nice behavior, Oleg, though he has an entire year at his disposal, didn't manage to learn how to solve number theory problems in the past year. That's why instead of Ded Moroz he was visited by his teammate Andrew, who solemnly presented him with a set ofndistinct primenumbers alongside with a simple task: Oleg is to find thek-th smallest integer, such thatallits prime divisors are in this set.InputThe first line contains a single integern(1 ≤n≤ 16).The next line listsndistinct prime numbersp1,p2, ...,pn(2 ≤pi≤ 100) in ascending order.The last line gives a single integerk(1 ≤k). It is guaranteed that thek-th smallest integer such that all its prime divisors are in this set does not exceed1018.OutputPrint a single line featuring thek-th smallest integer. It's guaranteed that the answer doesn't exceed1018.ExamplesInput32 3 57Output8Input53 7 11 13 3117Output93NoteThe list of numbers with all prime divisors inside{2, 3, 5}begins as follows:(1, 2, 3, 4, 5, 6, 8, ...)The seventh number in this list (1-indexed) is eight.",
+    "source": "CF",
+    "vjudge": false
+}

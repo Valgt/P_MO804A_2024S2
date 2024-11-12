@@ -1,0 +1,11 @@
+{
+    "uid": "963-E",
+    "url": "https://codeforces.com/contest/963/problem/E",
+    "tags": [
+        "math"
+    ],
+    "title": "963-E",
+    "statement": "E. Circles of Waitingtime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputA chip was placed on a field with coordinate system onto point(0, 0).Every second the chip moves randomly. If the chip is currently at a point(x,y), after a second it moves to the point(x- 1,y)with probabilityp1, to the point(x,y- 1)with probabilityp2, to the point(x+ 1,y)with probabilityp3and to the point(x,y+ 1)with probabilityp4. It's guaranteed thatp1+p2+p3+p4= 1. The moves are independent.Find out the expected time after which chip will move away from origin at a distance greater thanR(i.e.will be satisfied).InputFirst line contains five integersR,a1,a2,a3anda4(0 ≤R≤ 50, 1 ≤a1,a2,a3,a4≤ 1000).Probabilitiespican be calculated using formula.OutputIt can be shown that answer for this problem is always a rational number of form, where.PrintP·Q- 1modulo109+ 7.ExamplesInput0 1 1 1 1Output1Input1 1 1 1 1Output666666674Input1 1 2 1 2Output538461545NoteIn the first example initially the chip is located at a distance0from origin. In one second chip will move to distance1is some direction, so distance to origin will become1.Answers to the second and the third tests:and.",
+    "source": "CF",
+    "vjudge": false
+}

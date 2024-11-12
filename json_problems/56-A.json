@@ -1,0 +1,11 @@
+{
+    "uid": "56-A",
+    "url": "https://codeforces.com/contest/56/problem/A",
+    "tags": [
+        "implementation"
+    ],
+    "title": "56-A",
+    "statement": "A. Bartime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutAccording to Berland laws it is only allowed to sell alcohol to peoplenot younger than18 years. Vasya's job is to monitor the law's enforcement. Tonight he entered a bar and sawnpeople sitting there. For every one of them Vasya happened to determine either the age or the drink the person is having. Vasya can check any person, i.e. learn his age and the drink he is having at the same time. What minimal number of people should Vasya check additionally to make sure that there are no clients under 18 having alcohol drinks?The list of all alcohol drinks in Berland is:ABSINTH,BEER,BRANDY,CHAMPAGNE,GIN,RUM,SAKE,TEQUILA,VODKA,WHISKEY,WINEInputThe first line contains an integern(1 ≤n≤ 100) which is the number of the bar's clients. Then follownlines, each describing one visitor. A line either contains his age (an integer from 0 to 1000) or his drink (a string of capital Latin letters from 1 to 100 in length). It is guaranteed that the input data does not contain spaces and other unnecessary separators.Only the drinks from the list given above should be considered alcohol.OutputPrint a single number which is the number of people Vasya should check to guarantee the law enforcement.ExamplesInput518VODKACOKE1917Output2NoteIn the sample test the second and fifth clients should be checked.",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,13 @@
+{
+    "uid": "225-B",
+    "url": "https://codeforces.com/contest/225/problem/B",
+    "tags": [
+        "binary search",
+        " greedy",
+        " number theory"
+    ],
+    "title": "225-B",
+    "statement": "B. Well-known Numberstime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutNumbersk-bonacci (kis integer,k> 1) are a generalization of Fibonacci numbers and are determined as follows:F(k,n) = 0, for integern,1 ≤n<k;F(k,k) = 1;F(k,n) =F(k,n- 1) +F(k,n- 2) + ... +F(k,n-k), for integern,n>k.Note that we determine thek-bonacci numbers,F(k,n), only for integer values ofnandk.You've got a numbers, represent it as a sum of several (at least two)distinctk-bonacci numbers.InputThe first line contains two integerssandk(1 ≤s,k≤ 109;k> 1).OutputIn the first line print an integerm(m≥ 2)that shows how many numbers are in the found representation. In the second line printmdistinct integersa1,a2, ...,am. Each printed integer should be ak-bonacci number. The sum of printed integers must equals.It is guaranteed that the answer exists. If there are several possible answers, print any of them.ExamplesInput5 2Output30 2 3Input21 5Output34 1 16",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,11 @@
+{
+    "uid": "660-D",
+    "url": "https://codeforces.com/contest/660/problem/D",
+    "tags": [
+        "geometry"
+    ],
+    "title": "660-D",
+    "statement": "D. Number of Parallelogramstime limit per test4 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are givennpoints on a plane. All the points are distinct and no three of them lie on the same line. Find the number of parallelograms with the vertices at the given points.InputThe first line of the input contains integern(1 ≤n≤ 2000) — the number of points.Each of the nextnlines contains two integers(xi,yi)(0 ≤xi,yi≤ 109) — the coordinates of thei-th point.OutputPrint the only integerc— the number of parallelograms with the vertices at the given points.ExampleInput40 11 01 12 0Output1",
+    "source": "CF",
+    "vjudge": false
+}

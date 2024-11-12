@@ -1,0 +1,11 @@
+{
+    "uid": "114-A",
+    "url": "https://codeforces.com/contest/114/problem/A",
+    "tags": [
+        "math"
+    ],
+    "title": "114-A",
+    "statement": "A. Ciferatime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutWhen Petya went to school, he got interested in large numbers and what they were called in ancient times. For instance, he learned that the Russian word \"tma\" (which now means \"too much to be counted\") used to stand for a thousand and \"tma tmyschaya\" (which literally means \"the tma of tmas\") used to stand for a million.Petya wanted to modernize the words we use for numbers and invented a wordpetriciumthat represents numberk. Moreover,petricium la petriciumstands for numberk2,petricium la petricium la petriciumstands fork3and so on. All numbers of this form are calledpetriciumus cifera, and the number's importance is the number of articleslain its title.Petya's invention brought on a challenge that needed to be solved quickly: does some numberlbelong to the setpetriciumus cifera? As Petya is a very busy schoolboy he needs to automate the process, he asked you to solve it.InputThe first input line contains integer numberk, the second line contains integer numberl(2 ≤k,l≤ 231- 1).OutputYou should print in the first line of the output \"YES\", if the number belongs to the setpetriciumus ciferaand otherwise print \"NO\". If the number belongs to the set, then print on the seconds line the only number — the importance of numberl.ExamplesInput525OutputYES1Input38OutputNO",
+    "source": "CF",
+    "vjudge": false
+}

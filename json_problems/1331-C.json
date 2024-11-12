@@ -1,0 +1,12 @@
+{
+    "uid": "1331-C",
+    "url": "https://codeforces.com/contest/1331/problem/C",
+    "tags": [
+        "*special",
+        " bitmasks"
+    ],
+    "title": "1331-C",
+    "statement": "C. ...And after happily lived ever theytime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputInputThe input contains a single integer $$$a$$$ ($$$0 \\\\le a \\\\le 63$$$).OutputOutput a single number.ExamplesInput2Output2Input5Output24Input35Output50",
+    "source": "CF",
+    "vjudge": false
+}

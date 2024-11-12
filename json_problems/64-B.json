@@ -1,0 +1,12 @@
+{
+    "uid": "64-B",
+    "url": "https://codeforces.com/contest/64/problem/B",
+    "tags": [
+        "*special",
+        " expression parsing"
+    ],
+    "title": "64-B",
+    "statement": "B. Expressiontime limit per test2 secondsmemory limit per test64 megabytesinputstdinoutputstdoutYou are given a line «n#m», where «n» and «m» are digits, and «#» is a sign «+» or «-». Print the value of the given expression.InputThe only given line has a string in form «n#m», where «n» and «m» are digits (from 0 to 9), and «#» is a sign «+» or «-».OutputPrint the value of the given expression.ExamplesInput1-5Output-4",
+    "source": "CF",
+    "vjudge": false
+}

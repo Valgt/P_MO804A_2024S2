@@ -1,0 +1,15 @@
+{
+    "uid": "182-D",
+    "url": "https://codeforces.com/contest/182/problem/D",
+    "tags": [
+        "brute force",
+        " hashing",
+        " implementation",
+        " math",
+        " strings"
+    ],
+    "title": "182-D",
+    "statement": "D. Common Divisorstime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutVasya has recently learned at school what a number's divisor is and decided to determine a string's divisor. Here is what he came up with.Stringais the divisor of stringbif and only if there exists a positive integerxsuch that if we write out stringaconsecutivelyxtimes, we get stringb. For example, string \"abab\" has two divisors — \"ab\" and \"abab\".Now Vasya wants to write a program that calculates the number of common divisors of two strings. Please help him.InputThe first input line contains a non-empty strings1.The second input line contains a non-empty strings2.Lengths of stringss1ands2are positive and do not exceed105. The strings only consist of lowercase Latin letters.OutputPrint the number of common divisors of stringss1ands2.ExamplesInputabcdabcdabcdabcdabcdabcdOutput2InputaaaaaOutput1NoteIn first sample the common divisors are strings \"abcd\" and \"abcdabcd\".In the second sample the common divisor is a single string \"a\". String \"aa\" isn't included in the answer as it isn't a divisor of string \"aaa\".",
+    "source": "CF",
+    "vjudge": false
+}

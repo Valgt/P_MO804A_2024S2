@@ -1,0 +1,11 @@
+{
+    "uid": "805-B",
+    "url": "https://codeforces.com/contest/805/problem/B",
+    "tags": [
+        "constructive algorithms"
+    ],
+    "title": "805-B",
+    "statement": "B. 3-palindrometime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputIn the beginning of the new year Keivan decided to reverse his name. He doesn't like palindromes, so he changed Naviek to Navick.He is too selfish, so for a givennhe wants to obtain a string ofncharacters, each of which is either 'a', 'b' or 'c', with nopalindromesof length3appearing in the string as a substring. For example, the strings \"abc\" and \"abca\" suit him, while the string \"aba\" doesn't. He also want the number of letters 'c' in his string to be as little as possible.InputThe first line contains single integern(1 ≤n≤ 2·105) — the length of the string.OutputPrint the string that satisfies all the constraints.If there are multiple answers, print any of them.ExamplesInput2OutputaaInput3OutputbbaNoteApalindromeis a sequence of characters which reads the same backward and forward.",
+    "source": "CF",
+    "vjudge": false
+}

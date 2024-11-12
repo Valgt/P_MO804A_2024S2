@@ -1,0 +1,14 @@
+{
+    "uid": "735-C",
+    "url": "https://codeforces.com/contest/735/problem/C",
+    "tags": [
+        "combinatorics",
+        " constructive algorithms",
+        " greedy",
+        " math"
+    ],
+    "title": "735-C",
+    "statement": "C. Tennis Championshiptime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputFamous Brazil city Rio de Janeiro holds a tennis tournament and Ostap Bender doesn't want to miss this event. There will benplayers participating, and the tournament will follow knockout rules from the very first game. That means, that if someone loses a game he leaves the tournament immediately.Organizers are still arranging tournament grid (i.e. the order games will happen and who is going to play with whom) but they have already fixed one rule: two players can play against each other only if the number of games one of them has already playeddiffers by no more than onefrom the number of games the other one has already played. Of course, both players had to win all their games in order to continue participating in the tournament.Tournament hasn't started yet so the audience is a bit bored. Ostap decided to find out what is the maximum number of games the winner of the tournament can take part in (assuming the rule above is used). However, it is unlikely he can deal with this problem without your help.InputThe only line of the input contains a single integern(2 ≤n≤ 1018) — the number of players to participate in the tournament.OutputPrint the maximum number of games in which the winner of the tournament can take part.ExamplesInput2Output1Input3Output2Input4Output2Input10Output4NoteIn all samples we consider that player number1is the winner.In the first sample, there would be only one game so the answer is1.In the second sample, player1can consequently beat players2and3.In the third sample, player1can't play with each other player as after he plays with players2and3he can't play against player4, as he has0games played, while player1already played2. Thus, the answer is2and to achieve we make pairs(1, 2)and(3, 4)and then clash the winners.",
+    "source": "CF",
+    "vjudge": false
+}

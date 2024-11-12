@@ -1,0 +1,15 @@
+{
+    "uid": "431-D",
+    "url": "https://codeforces.com/contest/431/problem/D",
+    "tags": [
+        "binary search",
+        " bitmasks",
+        " combinatorics",
+        " dp",
+        " math"
+    ],
+    "title": "431-D",
+    "statement": "D. Random Tasktime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutOne day, after a difficult lecture a diligent student Sasha saw a graffitied desk in the classroom. She came closer and read: \"Find such positive integern, that among numbersn+ 1,n+ 2, ...,2·nthere are exactlymnumbers which binary representation contains exactlykdigits one\".The girl got interested in the task and she asked you to help her solve it. Sasha knows that you are afraid of large numbers, so she guaranteed that there is an answer that doesn't exceed1018.InputThe first line contains two space-separated integers,mandk(0 ≤m≤ 1018;1 ≤k≤ 64).OutputPrint the required numbern(1 ≤n≤ 1018). If there are multiple answers, print any of them.ExamplesInput1 1Output1Input3 2Output5",
+    "source": "CF",
+    "vjudge": false
+}

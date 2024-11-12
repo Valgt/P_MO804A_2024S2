@@ -1,0 +1,13 @@
+{
+    "uid": "765-B",
+    "url": "https://codeforces.com/contest/765/problem/B",
+    "tags": [
+        "greedy",
+        " implementation",
+        " strings"
+    ],
+    "title": "765-B",
+    "statement": "B. Code obfuscationtime limit per test2 secondsmemory limit per test512 megabytesinputstandard inputoutputstandard outputKostya likes Codeforces contests very much. However, he is very disappointed that his solutions are frequently hacked. That's why he decided to obfuscate (intentionally make less readable) his code before upcoming contest.To obfuscate the code, Kostya first looks at the first variable name used in his program and replaces all its occurrences with a single symbola, then he looks at the second variable name that has not been replaced yet, and replaces all its occurrences withb, and so on. Kostya is well-mannered, so he doesn't use any one-letter names before obfuscation. Moreover, there are at most 26 unique identifiers in his programs.You are given a list of identifiers of some program with removed spaces and line breaks. Check if this program can be a result of Kostya's obfuscation.InputIn the only line of input there is a stringSof lowercase English letters (1 ≤ |S| ≤ 500) — the identifiers of a program with removed whitespace characters.OutputIf this program can be a result of Kostya's obfuscation, print \"YES\" (without quotes), otherwise print \"NO\".ExamplesInputabacabaOutputYESInputjinotegaOutputNONoteIn the first sample case, one possible list of identifiers would be \"number string number character number string number\". Here how Kostya would obfuscate the program:replace all occurences ofnumberwitha, the result would be \"a string a character a string a\",replace all occurences ofstringwithb, the result would be \"a b a character a b a\",replace all occurences ofcharacterwithc, the result would be \"a b a c a b a\",all identifiers have been replaced, thus the obfuscation is finished.",
+    "source": "CF",
+    "vjudge": false
+}

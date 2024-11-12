@@ -1,0 +1,13 @@
+{
+    "uid": "348-A",
+    "url": "https://codeforces.com/contest/348/problem/A",
+    "tags": [
+        "binary search",
+        " math",
+        " sortings"
+    ],
+    "title": "348-A",
+    "statement": "A. Mafiatime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutOne daynfriends gathered together to play \"Mafia\". During each round of the game some player must be the supervisor and othern- 1people take part in the game. For each person we know in how many rounds he wants to be a player, not the supervisor: thei-th person wants to playairounds. What is the minimum number of rounds of the \"Mafia\" game they need to play to let each person play at least as many rounds as they want?InputThe first line contains integern(3 ≤n≤ 105). The second line containsnspace-separated integersa1,a2, ...,an(1 ≤ai≤ 109)— thei-th number in the list is the number of rounds thei-th person wants to play.OutputIn a single line print a single integer — the minimum number of game rounds the friends need to let thei-th person play at leastairounds.Please, do not use the%lldspecifier to read or write 64-bit integers in С++. It is preferred to use thecin,coutstreams or the%I64dspecifier.ExamplesInput33 2 2Output4Input42 2 2 2Output3NoteYou don't need to know the rules of \"Mafia\" to solve this problem. If you're curious, it's a game Russia got from the Soviet times:http://en.wikipedia.org/wiki/Mafia_(party_game).",
+    "source": "CF",
+    "vjudge": false
+}

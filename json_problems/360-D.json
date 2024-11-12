@@ -1,0 +1,11 @@
+{
+    "uid": "360-D",
+    "url": "https://codeforces.com/contest/360/problem/D",
+    "tags": [
+        "number theory"
+    ],
+    "title": "360-D",
+    "statement": "D. Levko and Setstime limit per test3 secondsmemory limit per test256 megabytesinputstdinoutputstdoutLevko loves all sorts of sets very much.Levko has two arrays of integersa1,a2, ... ,anandb1,b2, ... ,bmand a prime numberp. Today he generatesnsets. Let's describe the generation process for thei-th set:First it has a single number1.Let's take any elementcfrom this set. For allj(1 ≤j≤m) if number(c·aibj)modpdoesn't occur in the set, then add it to the set.Repeat step2as long as we can add at least one element to our set.Levko wonders, how many numbers belong to at least one set. That is, he wants to know what size is the union ofngenerated sets.InputThe first line contains three integersn,mandp(1 ≤n≤ 104,1 ≤m≤ 105,2 ≤p≤ 109),pis prime.The second line contains space-separated integersa1,a2, ... ,an(1 ≤ai<p). The third line contains space-separated integersb1,b2, ... ,bm(1 ≤bi≤ 109).OutputThe single number — the size of the union of the sets.ExamplesInput1 1 725Output3Input1 2 722 4Output3Input2 1 71 62Output1Input2 1 71 65Output2",
+    "source": "CF",
+    "vjudge": false
+}

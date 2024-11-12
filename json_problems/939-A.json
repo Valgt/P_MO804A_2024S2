@@ -1,0 +1,11 @@
+{
+    "uid": "939-A",
+    "url": "https://codeforces.com/contest/939/problem/A",
+    "tags": [
+        "graphs"
+    ],
+    "title": "939-A",
+    "statement": "A. Love Triangletime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputAs you could know there are no male planes nor female planes. However, each plane on Earth likes some other plane. There arenplanes on Earth, numbered from1ton, and the plane with numberilikes the plane with numberfi, where1 ≤fi≤nandfi≠i.We call a love triangle a situation in which planeAlikes planeB, planeBlikes planeCand planeClikes planeA. Find out if there is any love triangle on Earth.InputThe first line contains a single integern(2 ≤n≤ 5000) — the number of planes.The second line containsnintegersf1,f2, ...,fn(1 ≤fi≤n,fi≠i), meaning that thei-th plane likes thefi-th.OutputOutput «YES» if there is a love triangle consisting of planes on Earth. Otherwise, output «NO».You can output any letter in lower case or in upper case.ExamplesInput52 4 5 1 3OutputYESInput55 5 5 5 1OutputNONoteIn first example plane2likes plane4, plane4likes plane1, plane1likes plane2and that is a love triangle.In second example there are no love triangles.",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,15 @@
+{
+    "uid": "920-C",
+    "url": "https://codeforces.com/contest/920/problem/C",
+    "tags": [
+        "dfs and similar",
+        " greedy",
+        " math",
+        " sortings",
+        " two pointers"
+    ],
+    "title": "920-C",
+    "statement": "C. Swap Adjacent Elementstime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou have an arrayaconsisting ofnintegers. Each integer from1tonappears exactly once in this array.For some indicesi(1 ≤i≤n- 1) it is possible to swapi-th element with(i+ 1)-th, for other indices it is not possible. You may perform any number of swapping operations any order. There is no limit on the number of times you swapi-th element with(i+ 1)-th (if the position is not forbidden).Can you make this array sorted in ascending order performing some sequence of swapping operations?InputThe first line contains one integern(2 ≤n≤ 200000) — the number of elements in the array.The second line containsnintegersa1,a2, ...,an(1 ≤ai≤ 200000) — the elements of the array. Each integer from1tonappears exactly once.The third line contains a string ofn- 1characters, each character is either0or1. Ifi-th character is1, then you can swapi-th element with(i+ 1)-th any number of times, otherwise it is forbidden to swapi-th element with(i+ 1)-th.OutputIf it is possible to sort the array in ascending order using any sequence of swaps you are allowed to make, printYES. Otherwise, printNO.ExamplesInput61 2 5 3 4 601110OutputYESInput61 2 5 3 4 601010OutputNONoteIn the first example you may swapa3anda4, and then swapa4anda5.",
+    "source": "CF",
+    "vjudge": false
+}

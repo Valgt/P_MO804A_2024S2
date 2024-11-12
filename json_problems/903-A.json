@@ -1,0 +1,12 @@
+{
+    "uid": "903-A",
+    "url": "https://codeforces.com/contest/903/problem/A",
+    "tags": [
+        "greedy",
+        " implementation"
+    ],
+    "title": "903-A",
+    "statement": "A. Hungry Student Problemtime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputIvan's classes at the university have just finished, and now he wants to go to the local CFK cafe and eat some fried chicken.CFK sells chicken chunks in small and large portions. A small portion contains3chunks; a large one —7chunks. Ivan wants to eat exactlyxchunks. Now he wonders whether he can buy exactly this amount of chicken.Formally, Ivan wants to know if he can choose two non-negative integersaandbin such a way thatasmall portions andblarge ones contain exactlyxchunks.Help Ivan to answer this question for several values ofx!InputThe first line contains one integern(1 ≤n≤ 100) — the number of testcases.Thei-th of the followingnlines contains one integerxi(1 ≤xi≤ 100) — the number of chicken chunks Ivan wants to eat.OutputPrintnlines, ini-th line outputYESif Ivan can buy exactlyxichunks. Otherwise, printNO.ExampleInput265OutputYESNONoteIn the first example Ivan can buy two small portions.In the second example Ivan cannot buy exactly5chunks, since one small portion is not enough, but two small portions or one large is too much.",
+    "source": "CF",
+    "vjudge": false
+}

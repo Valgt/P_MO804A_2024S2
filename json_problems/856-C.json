@@ -1,0 +1,13 @@
+{
+    "uid": "856-C",
+    "url": "https://codeforces.com/contest/856/problem/C",
+    "tags": [
+        "combinatorics",
+        " dp",
+        " math"
+    ],
+    "title": "856-C",
+    "statement": "C. Eleventh Birthdaytime limit per test2 secondsmemory limit per test512 megabytesinputstandard inputoutputstandard outputIt is Borya's eleventh birthday, and he has got a great present:ncards with numbers. Thei-th card has the numberaiwritten on it. Borya wants to put his cards in a row to get one greater number. For example, if Borya has cards with numbers1,31, and12, and he puts them in a row in this order, he would get a number13112.He is only 11, but he already knows that there aren!ways to put his cards in a row. But today is a special day, so he is only interested in such ways that the resulting big number is divisible by eleven. So, the way from the previous paragraph is good, because13112 = 1192 × 11, but if he puts the cards in the following order:31,1,12, he would get a number31112, it is not divisible by11, so this way is not good for Borya. Help Borya to find out how many good ways to put the cards are there.Borya considers all cards different, even if some of them contain the same number. For example, if Borya has two cards with 1 on it, there are two good ways.Help Borya, find the number of good ways to put the cards. This number can be large, so output it modulo998244353.InputInput data contains multiple test cases. The first line of the input data contains an integert— the number of test cases (1 ≤t≤ 100). The descriptions of test cases follow.Each test is described by two lines.The first line contains an integern(1 ≤n≤ 2000) — the number of cards in Borya's present.The second line containsnintegersai(1 ≤ai≤ 109) — numbers written on the cards.It is guaranteed that the total number of cards in all tests of one input data doesn't exceed2000.OutputFor each test case output one line: the number of ways to put the cards to the table so that the resulting big number was divisible by 11, print the number modulo998244353.ExampleInput421 131 31 12312345 67 8491 2 3 4 5 6 7 8 9Output22231680",
+    "source": "CF",
+    "vjudge": false
+}

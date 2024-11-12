@@ -1,0 +1,11 @@
+{
+    "uid": "455-D",
+    "url": "https://codeforces.com/contest/455/problem/D",
+    "tags": [
+        "data structures"
+    ],
+    "title": "455-D",
+    "statement": "D. Serega and Funtime limit per test4 secondsmemory limit per test256 megabytesinputstdinoutputstdoutSerega loves fun. However, everyone has fun in the unique manner. Serega has fun by solving query problems. One day Fedor came up with such a problem.You are given an arrayaconsisting ofnpositive integers and queries to it. The queries can be of two types:Make a unit cyclic shift to the right on the segment fromltor(both borders inclusive). That is rearrange elements of the array in the following manner:a[l],a[l+ 1], ...,a[r- 1],a[r] →a[r],a[l],a[l+ 1], ...,a[r- 1].Count how many numbers equal tokare on the segment fromltor(both borders inclusive).Fedor hurried to see Serega enjoy the problem and Serega solved it really quickly. Let's see, can you solve it?InputThe first line contains integern(1 ≤n≤ 105) — the number of elements of the array. The second line containsnintegersa[1],a[2], ...,a[n](1 ≤a[i] ≤n).The third line contains a single integerq(1 ≤q≤ 105) — the number of queries. The nextqlines contain the queries.As you need to respond to the queries online, the queries will beencoded. A query of the first type will be given in format:1l'ir'i. A query of the second type will be given in format:2l'ir'ik'i. All the number in input are integer. They satisfy the constraints:1 ≤l'i,r'i,k'i≤n.To decode the queries from the data given in input, you need to perform the following transformations:li= ((l'i+lastans- 1)modn) + 1;ri= ((r'i+lastans- 1)modn) + 1;ki= ((k'i+lastans- 1)modn) + 1.Wherelastansis the last reply to the query of the 2-nd type (initially,lastans= 0). If after transformationliis greater thanri, you must swap these values.OutputFor each query of the 2-nd type print the answer on a single line.ExamplesInput76 6 2 7 4 2 571 3 62 2 4 22 2 4 72 2 2 51 2 61 1 42 1 7 3Output2100Input88 4 2 2 7 7 8 881 8 82 8 1 71 8 11 7 32 8 8 31 1 41 2 71 4 5Output20",
+    "source": "CF",
+    "vjudge": false
+}

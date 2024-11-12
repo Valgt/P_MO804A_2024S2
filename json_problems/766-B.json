@@ -1,0 +1,16 @@
+{
+    "uid": "766-B",
+    "url": "https://codeforces.com/contest/766/problem/B",
+    "tags": [
+        "constructive algorithms",
+        " geometry",
+        " greedy",
+        " math",
+        " number theory",
+        " sortings"
+    ],
+    "title": "766-B",
+    "statement": "B. Mahmoud and a Triangletime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputMahmoud hasnline segments, thei-th of them has lengthai. Ehab challenged him to useexactly3line segments to form a non-degenerate triangle. Mahmoud doesn't accept challenges unless he is sure he can win, so he asked you to tell him if he should accept the challenge. Given the lengths of the line segments, check if he can choose exactly3of them to form a non-degenerate triangle.Mahmoud should use exactly3line segments, he can't concatenate two line segments or change any length. A non-degenerate triangle is a triangle with positive area.InputThe first line contains single integern(3 ≤n≤ 105) — the number of line segments Mahmoud has.The second line containsnintegersa1,a2, ...,an(1 ≤ai≤ 109) — the lengths of line segments Mahmoud has.OutputIn the only line print \"YES\" if he can choose exactly three line segments and form a non-degenerate triangle with them, and \"NO\" otherwise.ExamplesInput51 5 3 2 4OutputYESInput34 1 2OutputNONoteFor the first example, he can use line segments with lengths2,4and5to form a non-degenerate triangle.",
+    "source": "CF",
+    "vjudge": false
+}

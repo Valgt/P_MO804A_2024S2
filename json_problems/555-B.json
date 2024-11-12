@@ -1,0 +1,13 @@
+{
+    "uid": "555-B",
+    "url": "https://codeforces.com/contest/555/problem/B",
+    "tags": [
+        "data structures",
+        " greedy",
+        " sortings"
+    ],
+    "title": "555-B",
+    "statement": "B. Case of Fugitivetime limit per test3 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputAndrewid the Android is a galaxy-famous detective. He is now chasing a criminal hiding on the planet Oxa-5, the planet almost fully covered with water.The only dry land there is an archipelago ofnnarrow islands located in a row. For more comfort let's represent them as non-intersecting segments on a straight line: islandihas coordinates[li,ri], besides,ri<li+ 1for1 ≤i≤n- 1.To reach the goal, Andrewid needs to place a bridge between each pair ofadjacentislands. A bridge of lengthacan be placed between thei-th and the(i+ 1)-th islads, if there are such coordinates ofxandy, thatli≤x≤ri,li+ 1≤y≤ri+ 1andy-x=a.The detective was supplied withmbridges, each bridge can be used at most once. Help him determine whether the bridges he got are enough to connect each pair of adjacent islands.InputThe first line contains integersn(2 ≤n≤ 2·105) andm(1 ≤m≤ 2·105) — the number of islands and bridges.Nextnlines each contain two integersliandri(1 ≤li≤ri≤ 1018) — the coordinates of the island endpoints.The last line containsmintegernumbersa1,a2, ...,am(1 ≤ai≤ 1018) — the lengths of the bridges that Andrewid got.OutputIf it is impossible to place a bridge between each pair of adjacent islands in the required manner, print on a single line\"No\"(without the quotes), otherwise print in the first line\"Yes\"(without the quotes), and in the second line printn- 1numbersb1,b2, ...,bn- 1, which mean that between islandsiandi+ 1there must be used a bridge numberbi.If there are multiple correct answers, print any of them. Note that in this problem it is necessary to print\"Yes\"and\"No\"in correct case.ExamplesInput4 41 47 89 1012 144 5 3 8OutputYes2 3 1Input2 211 1417 182 9OutputNoInput2 11 11000000000000000000 1000000000000000000999999999999999999OutputYes1NoteIn the first sample test you can, for example, place the second bridge between points 3 and 8, place the third bridge between points 7 and 10 and place the first bridge between points 10 and 14.In the second sample test the first bridge is too short and the second bridge is too long, so the solution doesn't exist.",
+    "source": "CF",
+    "vjudge": false
+}

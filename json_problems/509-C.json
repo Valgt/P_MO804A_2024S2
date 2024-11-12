@@ -1,0 +1,13 @@
+{
+    "uid": "509-C",
+    "url": "https://codeforces.com/contest/509/problem/C",
+    "tags": [
+        "dp",
+        " greedy",
+        " implementation"
+    ],
+    "title": "509-C",
+    "statement": "C. Sums of Digitstime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutVasya had astrictly increasingsequence of positive integersa1, ...,an. Vasya used it to build a new sequenceb1, ...,bn, wherebiis the sum of digits ofai's decimal representation. Then sequenceaigot lost and all that remained is sequencebi.Vasya wonders what the numbersaicould be like. Of all the possible options he likes the one sequence with the minimum possible last numberan. Help Vasya restore the initial sequence.It is guaranteed that such a sequence always exists.InputThe first line contains a single integer numbern(1 ≤n≤ 300).Nextnlines contain integer numbersb1, ...,bn— the required sums of digits. Allbibelong to the range1 ≤bi≤ 300.OutputPrintninteger numbers, one per line — the correct option for numbersai, in order of following in sequence. The sequence should be strictly increasing. The sum of digits of thei-th number should be equal tobi.If there are multiple sequences with least possible numberan, print any of them. Print the numbers without leading zeroes.ExamplesInput3123Output123Input3321Output311100",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,13 @@
+{
+    "uid": "459-D",
+    "url": "https://codeforces.com/contest/459/problem/D",
+    "tags": [
+        "data structures",
+        " divide and conquer",
+        " sortings"
+    ],
+    "title": "459-D",
+    "statement": "D. Pashmak and Parmida's problemtime limit per test3 secondsmemory limit per test256 megabytesinputstdinoutputstdoutParmida is a clever girl and she wants to participate in Olympiads this year. Of course she wants her partner to be clever too (although he's not)! Parmida has prepared the following test problem for Pashmak.There is a sequenceathat consists ofnintegersa1,a2, ...,an. Let's denotef(l,r,x)the number of indicesksuch that:l≤k≤randak=x. His task is to calculate the number of pairs of indiciesi,j(1 ≤i<j≤n)such thatf(1,i,ai) >f(j,n,aj).Help Pashmak with the test.InputThe first line of the input contains an integern(1 ≤n≤ 106). The second line containsnspace-separated integersa1,a2, ...,an(1 ≤ai≤ 109).OutputPrint a single integer — the answer to the problem.ExamplesInput71 2 1 1 2 2 1Output8Input31 1 1Output1Input51 2 3 4 5Output0",
+    "source": "CF",
+    "vjudge": false
+}

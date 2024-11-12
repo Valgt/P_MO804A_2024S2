@@ -1,0 +1,13 @@
+{
+    "uid": "235-C",
+    "url": "https://codeforces.com/contest/235/problem/C",
+    "tags": [
+        "data structures",
+        " string suffix structures",
+        " strings"
+    ],
+    "title": "235-C",
+    "statement": "C. Cyclical Questtime limit per test3 secondsmemory limit per test512 megabytesinputstdinoutputstdoutSome days ago, WJMZBMR learned how to answer the query \"how many times does a stringxoccur in a strings\" quickly by preprocessing the strings. But now he wants to make it harder.So he wants to ask \"how many consecutive substrings ofsare cyclical isomorphic to a given stringx\". You are given stringsandnstringsxi, for each stringxifind, how many consecutive substrings ofsare cyclical isomorphic toxi.Two strings are calledcyclical isomorphicif one can rotate one string to get the other one. 'Rotate' here means 'to take some consecutive chars (maybe none) from the beginning of a string and put them back at the end of the string in the same order'. For example, string \"abcde\" can be rotated to string \"deabc\". We can take characters \"abc\" from the beginning and put them at the end of \"de\".InputThe first line contains a non-empty strings. The length of stringsis not greater than106characters.The second line contains an integern(1 ≤n≤ 105) — the number of queries. Thennlines follow: thei-th line contains the stringxi— the string for thei-th query. The total length ofxiis less than or equal to106characters.In this problem, strings only consist of lowercase English letters.OutputFor each queryxiprint a single integer that shows how many consecutive substrings ofsare cyclical isomorphic toxi. Print the answers to the queries in the order they are given in the input.ExamplesInputbaabaabaaa5ababaaaabaaaabaOutput75735Inputaabbaa3aaaabbabbaOutput233",
+    "source": "CF",
+    "vjudge": false
+}

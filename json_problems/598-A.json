@@ -1,0 +1,11 @@
+{
+    "uid": "598-A",
+    "url": "https://codeforces.com/contest/598/problem/A",
+    "tags": [
+        "math"
+    ],
+    "title": "598-A",
+    "statement": "A. Tricky Sumtime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputIn this problem you are to calculate the sum of all integers from1ton, but you should take all powers of two with minus in the sum.For example, forn= 4the sum is equal to- 1 - 2 + 3 - 4 =  - 4, because1,2and4are20,21and22respectively.Calculate the answer fortvalues ofn.InputThe first line of the input contains a single integert(1 ≤t≤ 100) — the number of values ofnto be processed.Each of nexttlines contains a single integern(1 ≤n≤ 109).OutputPrint the requested sum for each oftintegersngiven in the input.ExamplesInput241000000000Output-4499999998352516354NoteThe answer for the first sample is explained in the statement.",
+    "source": "CF",
+    "vjudge": false
+}

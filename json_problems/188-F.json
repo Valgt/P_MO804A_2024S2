@@ -1,0 +1,12 @@
+{
+    "uid": "188-F",
+    "url": "https://codeforces.com/contest/188/problem/F",
+    "tags": [
+        "*special",
+        " implementation"
+    ],
+    "title": "188-F",
+    "statement": "F. Binary Notationtime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutYou are given a positive integern. Output its binary notation.InputThe only line of input data contains an integern(1 ≤n≤ 106).OutputOutput the binary notation ofn(without any leading zeros).ExamplesInput5Output101Input101Output1100101NoteIn the first example5 = 1 * 22+ 0 * 21+ 1 * 20.",
+    "source": "CF",
+    "vjudge": false
+}

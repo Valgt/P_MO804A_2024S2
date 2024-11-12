@@ -1,0 +1,13 @@
+{
+    "uid": "894-D",
+    "url": "https://codeforces.com/contest/894/problem/D",
+    "tags": [
+        "brute force",
+        " data structures",
+        " trees"
+    ],
+    "title": "894-D",
+    "statement": "D. Ralph And His Tour in Binary Countrytime limit per test2.5 secondsmemory limit per test512 megabytesinputstandard inputoutputstandard outputRalph is in the Binary Country. The Binary Country consists ofncities and(n- 1)bidirectional roads connecting the cities. The roads are numbered from1to(n- 1), thei-th road connects the city labeled(here⌊x⌋denotes thexrounded down to the nearest integer) and the city labeled(i+ 1), and the length of thei-th road isLi.Now Ralph gives youmqueries. In each query he tells you some cityAiand an integerHi. He wants to make some tours starting from this city. He can choose any city in the Binary Country (includingAi) as the terminal city for a tour. He gains happiness(Hi-L)during a tour, whereLis the distance between the cityAiand the terminal city.Ralph is interested in tours fromAiin which he can gain positive happiness. For each query, compute the sum of happiness gains for all such tours.Ralph will never take the same tour twice or more (in one query), he will never pass the same city twice or more in one tour.InputThe first line contains two integersnandm(1 ≤n≤ 106,1 ≤m≤ 105).(n- 1)lines follow, each line contains one integerLi(1 ≤Li≤ 105), which denotes the length of thei-th road.mlines follow, each line contains two integersAiandHi(1 ≤Ai≤n,0 ≤Hi≤ 107).OutputPrintmlines, on thei-th line print one integer — the answer for thei-th query.ExamplesInput2 251 82 4Output114Input6 4211322 41 33 21 7Output116328NoteHere is the explanation for the second sample.Ralph's first query is to start tours from city2andHiequals to4. Here are the options:He can choose city5as his terminal city. Since the distance between city5and city2is3, he can gain happiness4 - 3 = 1.He can choose city4as his terminal city and gain happiness3.He can choose city1as his terminal city and gain happiness2.He can choose city3as his terminal city and gain happiness1.Note that Ralph can choose city2as his terminal city and gain happiness4.Ralph won't choose city6as his terminal city because the distance between city6and city2is5, which leads to negative happiness for Ralph.So the answer for the first query is1 + 3 + 2 + 1 + 4 = 11.",
+    "source": "CF",
+    "vjudge": false
+}

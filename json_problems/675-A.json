@@ -1,0 +1,11 @@
+{
+    "uid": "675-A",
+    "url": "https://codeforces.com/contest/675/problem/A",
+    "tags": [
+        "math"
+    ],
+    "title": "675-A",
+    "statement": "A. Infinite Sequencetime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputVasya likes everything infinite. Now he is studying the properties of a sequences, such that its first element is equal toa(s1=a), and the difference between any two neighbouring elements is equal toc(si-si- 1=c). In particular, Vasya wonders if his favourite integerbappears in this sequence, that is, there exists a positive integeri, such thatsi=b. Of course, you are the person he asks for a help.InputThe first line of the input contain three integersa,bandc(- 109≤a,b,c≤ 109) — the first element of the sequence, Vasya's favorite number and the difference between any two neighbouring elements of the sequence, respectively.OutputIfbappears in the sequencesprint \"YES\" (without quotes), otherwise print \"NO\" (without quotes).ExamplesInput1 7 3OutputYESInput10 10 0OutputYESInput1 -4 5OutputNOInput0 60 50OutputNONoteIn the first sample, the sequence starts from integers1,4,7, so7is its element.In the second sample, the favorite integer of Vasya is equal to the first element of the sequence.In the third sample all elements of the sequence are greater than Vasya's favorite integer.In the fourth sample, the sequence starts from0,50,100, and all the following elements are greater than Vasya's favorite integer.",
+    "source": "CF",
+    "vjudge": false
+}

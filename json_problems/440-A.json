@@ -1,0 +1,11 @@
+{
+    "uid": "440-A",
+    "url": "https://codeforces.com/contest/440/problem/A",
+    "tags": [
+        "implementation"
+    ],
+    "title": "440-A",
+    "statement": "A. Forgotten Episodetime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutPolycarpus adores TV series. Right now he is ready to finish watching a season of a popular sitcom \"Graph Theory\". In total, the season hasnepisodes, numbered with integers from1ton.Polycarpus watches episodes not one by one but in a random order. He has already watched all the episodes except for one. Which episode has Polycaprus forgotten to watch?InputThe first line of the input contains integern(2 ≤n≤ 100000)— the number of episodes in a season. Assume that the episodes are numbered by integers from1ton.The second line containsn- 1integera1,a2, ...,an(1 ≤ai≤n)— the numbers of episodes that Polycarpus has watched. All values ofaiare distinct.OutputPrint the number of the episode that Polycarpus hasn't watched.ExamplesInput103 8 10 1 7 9 6 5 2Output4",
+    "source": "CF",
+    "vjudge": false
+}

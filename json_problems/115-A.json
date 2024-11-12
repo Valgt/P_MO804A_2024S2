@@ -1,0 +1,13 @@
+{
+    "uid": "115-A",
+    "url": "https://codeforces.com/contest/115/problem/A",
+    "tags": [
+        "dfs and similar",
+        " graphs",
+        " trees"
+    ],
+    "title": "115-A",
+    "statement": "A. Partytime limit per test3 secondsmemory limit per test256 megabytesinputstdinoutputstdoutA company hasnemployees numbered from1ton. Each employee either has no immediate manager or exactly one immediate manager, who is another employee with a different number. An employeeAis said to be thesuperiorof another employeeBif at least one of the following is true:EmployeeAis the immediate manager of employeeBEmployeeBhas an immediate manager employeeCsuch that employeeAis the superior of employeeC.The company will not have a managerial cycle. That is, there will not exist an employee who is the superior of his/her own immediate manager.Today the company is going to arrange a party. This involves dividing allnemployees into several groups: every employee must belong to exactly one group. Furthermore, within any single group, there must not be two employeesAandBsuch thatAis the superior ofB.What is the minimum number of groups that must be formed?InputThe first line contains integern(1 ≤n≤ 2000) — the number of employees.The nextnlines contain the integerspi(1 ≤pi≤norpi=-1). Everypidenotes the immediate manager for thei-th employee. Ifpiis -1, that means that thei-th employee does not have an immediate manager.It is guaranteed, that no employee will be the immediate manager of him/herself (pi≠i). Also, there will be no managerial cycles.OutputPrint a single integer denoting the minimum number of groups that will be formed in the party.ExamplesInput5-1121-1Output3NoteFor the first example, three groups are sufficient, for example:Employee 1Employees 2 and 4Employees 3 and 5",
+    "source": "CF",
+    "vjudge": false
+}

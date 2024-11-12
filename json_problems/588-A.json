@@ -1,0 +1,11 @@
+{
+    "uid": "588-A",
+    "url": "https://codeforces.com/contest/588/problem/A",
+    "tags": [
+        "greedy"
+    ],
+    "title": "588-A",
+    "statement": "A. Duff and Meattime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputDuff is addicted to meat! Malek wants to keep her happy forndays. In order to be happy ini-th day, she needs to eat exactlyaikilograms of meat.There is a big shop uptown and Malek wants to buy meat for her from there. Ini-th day, they sell meat forpidollars per kilogram. Malek knows all numbersa1, ...,anandp1, ...,pn. In each day, he can buy arbitrary amount of meat, also he can keep some meat he has for the future.Malek is a little tired from cooking meat, so he asked for your help. Help him to minimize the total money he spends to keep Duff happy forndays.InputThe first line of input contains integern(1 ≤n≤ 105), the number of days.In the nextnlines,i-th line contains two integersaiandpi(1 ≤ai,pi≤ 100), the amount of meat Duff needs and the cost of meat in that day.OutputPrint the minimum money needed to keep Duff happy forndays, in one line.ExamplesInput31 32 23 1Output10Input31 32 13 2Output8NoteIn the first sample case: An optimal way would be to buy 1 kg on the first day, 2 kg on the second day and 3 kg on the third day.In the second sample case: An optimal way would be to buy 1 kg on the first day and 5 kg (needed meat for the second and third day) on the second day.",
+    "source": "CF",
+    "vjudge": false
+}

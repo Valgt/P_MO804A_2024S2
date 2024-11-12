@@ -1,0 +1,12 @@
+{
+    "uid": "387-C",
+    "url": "https://codeforces.com/contest/387/problem/C",
+    "tags": [
+        "greedy",
+        " implementation"
+    ],
+    "title": "387-C",
+    "statement": "C. George and Numbertime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutGeorge is a cat, so he really likes to play. Most of all he likes to play with his array of positive integersb. During the game, George modifies the array by using special changes. Let's mark George's current array asb1,b2, ...,b|b|(record|b|denotes the current length of the array). Then one change is a sequence of actions:Choose two distinct indexesiandj(1 ≤i,j≤ |b|;i≠j), such thatbi≥bj.Get numberv=concat(bi,bj), whereconcat(x,y)is a number obtained by adding numberyto the end of the decimal record of numberx. For example,concat(500, 10) = 50010,concat(2, 2) = 22.Add numbervto the end of the array. The length of the array will increase by one.Remove from the array numbers with indexesiandj. The length of the array will decrease by two, and elements of the array will become re-numbered from1to current length of the array.George played for a long time with his arrayband received from arrayban array consisting of exactly one numberp. Now George wants to know: what is the maximum number of elements arraybcould contain originally? Help him find this number. Note that originally the array could contain onlypositiveintegers.InputThe first line of the input contains a single integerp(1 ≤p< 10100000). It is guaranteed that numberpdoesn't contain any leading zeroes.OutputPrint an integer — the maximum number of elements arraybcould contain originally.ExamplesInput9555Output4Input10000000005Output2Input800101Output3Input45Output1Input1000000000000001223300003342220044555Output17Input19992000Output1Input310200Output2NoteLet's consider the test examples:Originally arraybcan be equal to{5, 9, 5, 5}. The sequence of George's changes could have been:{5, 9, 5, 5} → {5, 5, 95} → {95, 55} → {9555}.Originally arraybcould be equal to{1000000000, 5}. Please note that the arraybcannot contain zeros.Originally arraybcould be equal to{800, 10, 1}.Originally arraybcould be equal to{45}. It cannot be equal to{4, 5}, because George can get only array{54}from this array in one operation.Note that the numbers can be very large.",
+    "source": "CF",
+    "vjudge": false
+}

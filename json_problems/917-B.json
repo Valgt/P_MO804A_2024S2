@@ -1,0 +1,14 @@
+{
+    "uid": "917-B",
+    "url": "https://codeforces.com/contest/917/problem/B",
+    "tags": [
+        "dfs and similar",
+        " dp",
+        " games",
+        " graphs"
+    ],
+    "title": "917-B",
+    "statement": "B. MADMAXtime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputAs we all know, Max is the best video game player among her friends. Her friends were so jealous of hers, that they created an actual game just to prove that she's not the best at games. The game is played on a directed acyclic graph (a DAG) withnvertices andmedges. There's a character written on each edge, a lowercase English letter.Max and Lucas are playing the game. Max goes first, then Lucas, then Max again and so on. Each player has a marble, initially located at some vertex. Each player in his/her turn should move his/her marble along some edge (a player can move the marble from vertexvto vertexuif there's an outgoing edge fromvtou). If the player moves his/her marble from vertexvto vertexu, the \"character\" of that round is the character written on the edge fromvtou. There's one additional rule; the ASCII code of character of roundishould begreater than or equalto the ASCII code of character of roundi- 1(fori> 1). The rounds are numbered for both players together, i. e. Max goes in odd numbers, Lucas goes in even numbers. The player that can't make a move loses the game. The marbles may be at the same vertex at the same time.Since the game could take a while and Lucas and Max have to focus on finding Dart, they don't have time to play. So they asked you, if they both play optimally, who wins the game?You have to determine the winner of the game for all initial positions of the marbles.InputThe first line of input contains two integersnandm(2 ≤n≤ 100,).The nextmlines contain the edges. Each line contains two integersv,uand a lowercase English letterc, meaning there's an edge fromvtouwrittencon it (1 ≤v,u≤n,v≠u). There's at most one edge between any pair of vertices. It is guaranteed that the graph is acyclic.OutputPrintnlines, a string of lengthnin each one. Thej-th character ini-th line should be 'A' if Max will win the game in case her marble is initially at vertexiand Lucas's marble is initially at vertexj, and 'B' otherwise.ExamplesInput4 41 2 b1 3 a2 4 c3 4 bOutputBAAAABAABBBABBBBInput5 85 3 h1 2 c3 1 c3 2 r5 1 r4 3 z5 4 r5 2 hOutputBABBBBBBBBAABBBAAABAAAAABNoteHere's the graph in the first sample test case:Here's the graph in the second sample test case:",
+    "source": "CF",
+    "vjudge": false
+}

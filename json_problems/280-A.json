@@ -1,0 +1,11 @@
+{
+    "uid": "280-A",
+    "url": "https://codeforces.com/contest/280/problem/A",
+    "tags": [
+        "geometry"
+    ],
+    "title": "280-A",
+    "statement": "A. Rectangle Puzzletime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutYou are given two rectangles on a plane. The centers of both rectangles are located in the origin of coordinates (meaning the center of the rectangle's symmetry). The first rectangle's sides are parallel to the coordinate axes: the length of the side that is parallel to theOxaxis, equalsw, the length of the side that is parallel to theOyaxis, equalsh. The second rectangle can be obtained by rotating the first rectangle relative to the origin of coordinates by angleα.Your task is to find the area of the region which belongs to both given rectangles. This region is shaded in the picture.InputThe first line contains three integersw,h, α(1 ≤w,h≤ 106; 0 ≤ α ≤ 180). Angleαis given in degrees.OutputIn a single line print a real number — the area of the region which belongs to both given rectangles.The answer will be considered correct if its relative or absolute error doesn't exceed10- 6.ExamplesInput1 1 45Output0.828427125Input6 4 30Output19.668384925NoteThe second sample has been drawn on the picture above.",
+    "source": "CF",
+    "vjudge": false
+}

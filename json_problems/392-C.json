@@ -1,0 +1,13 @@
+{
+    "uid": "392-C",
+    "url": "https://codeforces.com/contest/392/problem/C",
+    "tags": [
+        "combinatorics",
+        " math",
+        " matrices"
+    ],
+    "title": "392-C",
+    "statement": "C. Yet Another Number Sequencetime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutEveryone knows what the Fibonacci sequence is. This sequence can be defined by the recurrence relation:F1= 1,F2= 2,Fi=Fi- 1+Fi- 2(i> 2).We'll define a new number sequenceAi(k)by the formula:Ai(k) =Fi×ik(i≥ 1).In this problem, your task is to calculate the following sum:A1(k) +A2(k) + ... +An(k). The answer can be very large, so print it modulo1000000007(109+ 7).InputThe first line contains two space-separated integersn,k(1 ≤n≤ 1017; 1 ≤k≤ 40).OutputPrint a single integer — the sum of the firstnelements of the sequenceAi(k)modulo1000000007(109+ 7).ExamplesInput1 1Output1Input4 1Output34Input5 2Output316Input7 4Output73825",
+    "source": "CF",
+    "vjudge": false
+}

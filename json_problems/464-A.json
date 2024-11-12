@@ -1,0 +1,12 @@
+{
+    "uid": "464-A",
+    "url": "https://codeforces.com/contest/464/problem/A",
+    "tags": [
+        "greedy",
+        " strings"
+    ],
+    "title": "464-A",
+    "statement": "A. No to Palindromes!time limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutPaulhatespalindromes. He assumes that stringsistolerableif each its character is one of the firstpletters of the English alphabet andsdoesn't contain any palindrome contiguous substring of length 2 or more.Paul has found a tolerable stringsof lengthn. Help him find the lexicographically next tolerable string of the same length or else state that such string does not exist.InputThe first line contains two space-separated integers:nandp(1 ≤n≤ 1000;1 ≤p≤ 26). The second line contains strings, consisting ofnsmall English letters. It is guaranteed that the string is tolerable (according to the above definition).OutputIf the lexicographically next tolerable string of the same length exists, print it. Otherwise, print \"NO\" (without the quotes).ExamplesInput3 3cbaOutputNOInput3 4cbaOutputcbdInput4 4abcdOutputabdaNoteStringsislexicographically larger(or simplylarger) than stringtwith the same length, if there is numberi, such thats1=t1, ...,si=ti,si+ 1>ti+ 1.The lexicographically next tolerable string is the lexicographically minimum tolerable string which is larger than the given one.A palindrome is a string that reads the same forward or reversed.",
+    "source": "CF",
+    "vjudge": false
+}

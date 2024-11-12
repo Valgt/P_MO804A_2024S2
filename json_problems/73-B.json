@@ -1,0 +1,13 @@
+{
+    "uid": "73-B",
+    "url": "https://codeforces.com/contest/73/problem/B",
+    "tags": [
+        "binary search",
+        " greedy",
+        " sortings"
+    ],
+    "title": "73-B",
+    "statement": "B. Need For Braketime limit per test4 secondsmemory limit per test256 megabytesinputstdinoutputstdoutVasya plays the Need For Brake. He plays because he was presented with a new computer wheel for birthday! Now he is sure that he will win the first place in the championship in his favourite racing computer game!nracers take part in the championship, which consists of a number of races. After each race racers are arranged from place first ton-th (no two racers share the same place) and firstmplaces are awarded. Racer gainsbipoints fori-th awarded place, which are added to total points, obtained by him for previous races. It is known that current summary score of raceriisaipoints. In the final standings of championship all the racers will be sorted in descending order of points. Racers with an equal amount of points are sorted by increasing of the name in lexicographical order.Unfortunately, the championship has come to an end, and there is only one race left. Vasya decided to find out what the highest and lowest place he can take up as a result of the championship.InputThe first line contains numbern(1 ≤n≤ 105) — number of racers. Each of the nextnlines containssiandai— nick of the racer (nonempty string, which consist of no more than 20 lowercase Latin letters) and the racer's points (0 ≤ai≤ 106). Racers are given in the arbitrary order.The next line contains the numberm(0 ≤m≤n). Thenmnonnegative integer numbersbifollow.i-th number is equal to amount of points for thei-th awarded place (0 ≤bi≤ 106).The last line contains Vasya's racer nick.OutputOutput two numbers — the highest and the lowest place Vasya can take up as a result of the championship.ExamplesInput3teama 10teamb 20teamc 40210 20teamaOutput2 3Input2teama 10teamb 10210 10teambOutput2 2",
+    "source": "CF",
+    "vjudge": false
+}

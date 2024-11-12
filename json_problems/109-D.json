@@ -1,0 +1,12 @@
+{
+    "uid": "109-D",
+    "url": "https://codeforces.com/contest/109/problem/D",
+    "tags": [
+        "constructive algorithms",
+        " sortings"
+    ],
+    "title": "109-D",
+    "statement": "D. Lucky Sortingtime limit per test3 secondsmemory limit per test256 megabytesinputstdinoutputstdoutPetya loves lucky numbers. We all know that lucky numbers are the positive integers whose decimal representations contain only the lucky digits4and7. For example, numbers47,744,4are lucky and5,17,467are not.Petya got an array consisting ofnnumbers, it is the gift for his birthday. Now he wants to sort it in the non-decreasing order. However, a usual sorting is boring to perform, that's why Petya invented the following limitation: one can swap any two numbers but only if at least one of them is lucky. Your task is to sort the array according to the specified limitation. Find any possible sequence of the swaps (the number of operations in the sequence should not exceed2n).InputThe first line contains an integern(1 ≤n≤ 105) — the number of elements in the array. The second line containsnpositive integers, not exceeding109— the array that needs to be sorted in the non-decreasing order.OutputOn the first line print numberk(0 ≤k≤ 2n) — the number of the swaps in the sorting. On the followingklines print one pair ofdistinctnumbers (a pair per line) — the indexes of elements to swap. The numbers in the array are numbered starting from 1. If it is impossible to sort the given sequence, print the single number -1.If there are several solutions, output any. Note that you don't have to minimizek. Any sorting with no more than2nswaps is accepted.ExamplesInput24 7Output0Input34 2 1Output11 3Input777 66 55 44 33 22 11Output71 77 22 66 73 45 34 5",
+    "source": "CF",
+    "vjudge": false
+}

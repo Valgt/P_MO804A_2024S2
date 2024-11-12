@@ -1,0 +1,13 @@
+{
+    "uid": "193-A",
+    "url": "https://codeforces.com/contest/193/problem/A",
+    "tags": [
+        "constructive algorithms",
+        " graphs",
+        " trees"
+    ],
+    "title": "193-A",
+    "statement": "A. Cutting Figuretime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutYou've gotten ann×msheet of squared paper. Some of its squares are painted. Let's mark the set of all painted squares asA. SetAis connected. Your task is to find the minimum number of squares that we can delete from setAto make it not connected.A set of painted squares is calledconnected, if for every two squaresaandbfrom this set there is a sequence of squares from the set, beginning inaand ending inb, such that in this sequence any square, except for the last one, shares a common side with the square that follows next in the sequence. An empty set and a set consisting of exactly one square are connected by definition.InputThe first input line contains two space-separated integersnandm(1 ≤n,m≤ 50) — the sizes of the sheet of paper.Each of the nextnlines containsmcharacters — the description of the sheet of paper: thej-th character of thei-th line equals either \"#\", if the corresponding square is painted (belongs to setA), or equals \".\" if the corresponding square is not painted (does not belong to setA). It is guaranteed that the set of all painted squaresAis connected and isn't empty.OutputOn the first line print the minimum number of squares that need to be deleted to make setAnot connected. If it is impossible, print -1.ExamplesInput5 4#####..##..##..#####Output2Input5 5######...#######...######Output2NoteIn the first sample you can delete any two squares that do not share a side. After that the set of painted squares is not connected anymore.The note to the second sample is shown on the figure below. To the left there is a picture of the initial set of squares. To the right there is a set with deleted squares. The deleted squares are marked with crosses.",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,11 @@
+{
+    "uid": "466-A",
+    "url": "https://codeforces.com/contest/466/problem/A",
+    "tags": [
+        "implementation"
+    ],
+    "title": "466-A",
+    "statement": "A. Cheap Traveltime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutAnn has recently started commuting by subway. We know that a one ride subway ticket costsarubles. Besides, Ann found out that she can buy a special ticket formrides (she can buy it several times). It costsbrubles. Ann did the math; she will need to use subwayntimes. Help Ann, tell her what is the minimum sum of money she will have to spend to makenrides?InputThe single line contains four space-separated integersn,m,a,b(1 ≤n,m,a,b≤ 1000) — the number of rides Ann has planned, the number of rides covered by themride ticket, the price of a one ride ticket and the price of anmride ticket.OutputPrint a single integer — the minimum sum in rubles that Ann will need to spend.ExamplesInput6 2 1 2Output6Input5 2 2 3Output8NoteIn the first sample one of the optimal solutions is: each time buy a one ride ticket. There are other optimal solutions. For example, buy threemride tickets.",
+    "source": "CF",
+    "vjudge": false
+}

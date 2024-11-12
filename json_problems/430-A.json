@@ -1,0 +1,12 @@
+{
+    "uid": "430-A",
+    "url": "https://codeforces.com/contest/430/problem/A",
+    "tags": [
+        "constructive algorithms",
+        " sortings"
+    ],
+    "title": "430-A",
+    "statement": "A. Points and Segments (easy)time limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutIahub isn't well prepared on geometry problems, but he heard that this year there will be a lot of geometry problems on the IOI selection camp. Scared, Iahub locked himself in the basement and started thinking of new problems of this kind. One of them is the following.Iahub wants to drawndistinct points andmsegments on theOXaxis. He can draw each point with either red or blue. The drawing is good if and only if the following requirement is met: for each segment[li,ri]consider all the red points belong to it (ripoints), and all the blue points belong to it (bipoints); each segmentishould satisfy the inequality|ri-bi| ≤ 1.Iahub thinks that pointxbelongs to segment[l,r], if inequalityl≤x≤rholds.Iahub gives to you all coordinates of points and segments. Please, help him to find any good drawing.InputThe first line of input contains two integers:n(1 ≤n≤ 100) andm(1 ≤m≤ 100). The next line containsnspace-separated integersx1,x2, ...,xn(0 ≤xi≤ 100) — the coordinates of the points. The followingmlines contain the descriptions of themsegments. Each line contains two integersliandri(0 ≤li≤ri≤ 100) — the borders of thei-th segment.It's guaranteed that all the points are distinct.OutputIf there is no good drawing for a given test, output a single integer -1. Otherwise outputnintegers, each integer must be 0 or 1. Thei-th number denotes the color of thei-th point (0 is red, and 1 is blue).If there are multiple good drawings you can output any of them.ExamplesInput3 33 7 141 56 1011 15Output0 0 0Input3 41 2 31 22 35 62 2Output1 0 1",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,12 @@
+{
+    "uid": "476-E",
+    "url": "https://codeforces.com/contest/476/problem/E",
+    "tags": [
+        "dp",
+        " strings"
+    ],
+    "title": "476-E",
+    "statement": "E. Dreamoon and Stringstime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutDreamoon has a stringsand a pattern stringp. He first removes exactlyxcharacters fromsobtaining strings'as a result. Then he calculatesthat is defined as the maximal number of non-overlapping substrings equal topthat can be found ins'. He wants to make this number as big as possible.More formally, let's defineas maximum value ofover alls'that can be obtained by removing exactlyxcharacters froms. Dreamoon wants to knowfor allxfrom0to|s|where|s|denotes the length of strings.InputThe first line of the input contains the strings(1 ≤ |s| ≤ 2 000).The second line of the input contains the stringp(1 ≤ |p| ≤ 500).Both strings will only consist of lower case English letters.OutputPrint|s| + 1space-separated integers in a single line representing thefor allxfrom0to|s|.ExamplesInputaaaaaaaOutput2 2 1 1 0 0InputaxbaxxbabOutput0 1 1 2 1 1 0 0NoteFor the first sample, the corresponding optimal values ofs'after removal0through|s| = 5characters fromsare {\"aaaaa\",\"aaaa\",\"aaa\",\"aa\",\"a\",\"\"}.For the second sample, possible corresponding optimal values ofs'are {\"axbaxxb\",\"abaxxb\",\"axbab\",\"abab\",\"aba\",\"ab\",\"a\",\"\"}.",
+    "source": "CF",
+    "vjudge": false
+}

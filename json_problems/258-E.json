@@ -1,0 +1,13 @@
+{
+    "uid": "258-E",
+    "url": "https://codeforces.com/contest/258/problem/E",
+    "tags": [
+        "data structures",
+        " dfs and similar",
+        " trees"
+    ],
+    "title": "258-E",
+    "statement": "E. Little Elephant and Treetime limit per test4 secondsmemory limit per test256 megabytesinputstdinoutputstdoutThe Little Elephant loves trees very much, he especially loves root trees.He's got a tree consisting ofnnodes (the nodes are numbered from 1 ton), with root at node number1. Each node of the tree contains some list of numbers which initially is empty.The Little Elephant wants to applymoperations. On thei-th operation(1 ≤i≤m)he first adds numberito lists of all nodes of a subtree with the root in node numberai, and then he adds numberito lists of all nodes of the subtree with root in nodebi.After applying all operations the Little Elephant wants to count for each nodeinumberci— the number of integersj(1 ≤j≤n;j≠i), such that the lists of thei-th and thej-th nodes contain at least one common number.Help the Little Elephant, count numberscifor him.InputThe first line contains two integersnandm(1 ≤n,m≤ 105)— the number of the tree nodes and the number of operations.Each of the followingn- 1lines contains two space-separated integers,uiandvi(1 ≤ui,vi≤n,ui≠vi), that mean that there is an edge between nodes numberuiandvi.Each of the followingmlines contains two space-separated integers,aiandbi(1 ≤ai,bi≤n,ai≠bi), that stand for the indexes of the nodes in thei-th operation.It is guaranteed that the given graph is an undirected tree.OutputIn a single line printnspace-separated integers —c1,c2, ...,cn.ExamplesInput5 11 21 33 53 42 3Output0 3 3 3 3Input11 31 22 32 41 55 65 75 86 98 108 112 93 62 8Output0 6 7 6 0 2 0 5 4 5 5",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,11 @@
+{
+    "uid": "472-C",
+    "url": "https://codeforces.com/contest/472/problem/C",
+    "tags": [
+        "greedy"
+    ],
+    "title": "472-C",
+    "statement": "C. Design Tutorial: Make It Nondeterministictime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutA way to make a new task is to make it nondeterministic or probabilistic. For example, the hard task of Topcoder SRM 595, Constellation, is the probabilistic version of a convex hull.Let's try to make a new task. Firstly we will use the following task. There arenpeople, sort them by their name. It is just an ordinary sorting problem, but we can make it more interesting by adding nondeterministic element. There arenpeople, each person will use either his/her first name or last name as a handle. Can the lexicographical order of the handles be exactly equal to the given permutationp?More formally, if we denote the handle of thei-th person ashi, then the following condition must hold:.InputThe first line contains an integern(1 ≤n≤ 105)— the number of people.The nextnlines each contains two strings. Thei-th line contains stringsfiandsi(1 ≤ |fi|, |si| ≤ 50)— the first name and last name of thei-th person. Each string consists only of lowercase English letters. All of the given2nstrings will be distinct.The next line containsndistinct integers:p1,p2, ...,pn(1 ≤pi≤n).OutputIf it is possible, output \"YES\", otherwise output \"NO\".ExamplesInput3gennady korotkevichpetr mitrichevgaoyuan chen1 2 3OutputNOInput3gennady korotkevichpetr mitrichevgaoyuan chen3 1 2OutputYESInput2galileo galileinicolaus copernicus2 1OutputYESInput10rean schwarzerfei claussellalisa reinfordeliot craiglaura arseidjusis albareamachias regnitzsara valestinemma millsteingaius worzel1 2 3 4 5 6 7 8 9 10OutputNOInput10rean schwarzerfei claussellalisa reinfordeliot craiglaura arseidjusis albareamachias regnitzsara valestinemma millsteingaius worzel2 4 9 6 5 7 1 3 8 10OutputYESNoteIn example 1 and 2, we have 3 people: tourist, Petr and me (cgy4ever). You can see that whatever handle is chosen, I must be the first, then tourist and Petr must be the last.In example 3, if Copernicus uses \"copernicus\" as his handle, everything will be alright.",
+    "source": "CF",
+    "vjudge": false
+}

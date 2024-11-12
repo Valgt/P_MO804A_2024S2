@@ -1,0 +1,13 @@
+{
+    "uid": "528-D",
+    "url": "https://codeforces.com/contest/528/problem/D",
+    "tags": [
+        "bitmasks",
+        " brute force",
+        " fft"
+    ],
+    "title": "528-D",
+    "statement": "D. Fuzzy Searchtime limit per test3 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputLeonid works for a small and promising start-up that works on decoding the human genome. His duties include solving complex problems of finding certain patterns in long strings consisting of letters 'A', 'T', 'G' and 'C'.Let's consider the following scenario. There is a fragment of a human DNA chain, recorded as a stringS. To analyze the fragment, you need to find all occurrences of stringTin a stringS. However, the matter is complicated by the fact that the original chain fragment could contain minor mutations, which, however, complicate the task of finding a fragment. Leonid proposed the following approach to solve this problem.Let's write down integerk≥ 0— the error threshold. We will say that stringToccurs in stringSon positioni(1 ≤i≤ |S| - |T| + 1), if after putting stringTalong with this position, each character of stringTcorresponds to the some character of the same value in stringSat the distance of at mostk. More formally, for anyj(1 ≤j≤ |T|) there must exist suchp(1 ≤p≤ |S|), that|(i+j- 1) -p| ≤kandS[p] =T[j].For example, corresponding to the given definition, string \"ACAT\" occurs in string \"AGCAATTCAT\" in positions2,3and6.Note that atk= 0the given definition transforms to a simple definition of the occurrence of a string in a string.Help Leonid by calculating in how many positions the given stringToccurs in the given stringSwith the given error threshold.InputThe first line contains three integers|S|, |T|,k(1 ≤ |T| ≤ |S| ≤ 200 000,0 ≤k≤ 200 000) — the lengths of stringsSandTand the error threshold.The second line contains stringS.The third line contains stringT.Both strings consist only of uppercase letters 'A', 'T', 'G' and 'C'.OutputPrint a single number — the number of occurrences ofTinSwith the error thresholdkby the given definition.ExamplesInput10 4 1AGCAATTCATACATOutput3NoteIf you happen to know about the structure of the human genome a little more than the author of the problem, and you are not impressed with Leonid's original approach, do not take everything described above seriously.",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,14 @@
+{
+    "uid": "547-E",
+    "url": "https://codeforces.com/contest/547/problem/E",
+    "tags": [
+        "data structures",
+        " string suffix structures",
+        " strings",
+        " trees"
+    ],
+    "title": "547-E",
+    "statement": "E. Mike and Friendstime limit per test3 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputWhat-The-Fatherland is a strange country! All phone numbers there are strings consisting of lowercase English letters. What is double strange that a phone number can be associated with several bears!In that country there is a rock band called CF consisting ofnbears (including Mike) numbered from1ton.Phone number ofi-th member of CF issi. May 17th is a holiday named Phone Calls day. In the last Phone Calls day, everyone called all the numbers that are substrings of his/her number (one may call some number several times). In particular, everyone called himself (that was really strange country).Denote ascall(i,j)the number of times thati-th member of CF called thej-th member of CF.The geek Mike hasqquestions that he wants to ask you. In each question he gives you numbersl,randkand you should tell him the numberInputThe first line of input contains integersnandq(1 ≤n≤ 2 × 105and1 ≤q≤ 5 × 105).The nextnlines contain the phone numbers,i-th line contains a stringsiconsisting of lowercase English letters ().The nextqlines contain the information about the questions, each of them contains integersl,randk(1 ≤l≤r≤nand1 ≤k≤n).OutputPrint the answer for each question in a separate line.ExamplesInput5 5aababababababb1 5 13 5 11 5 21 5 31 4 5Output75636",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,11 @@
+{
+    "uid": "68-B",
+    "url": "https://codeforces.com/contest/68/problem/B",
+    "tags": [
+        "binary search"
+    ],
+    "title": "68-B",
+    "statement": "B. Energy exchangetime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutIt is well known that the planet suffers from the energy crisis. Little Petya doesn't like that and wants to save the world. For this purpose he needs every accumulator to contain the same amount of energy. Initially every accumulator has some amount of energy: thei-th accumulator hasaiunits of energy. Energy can be transferred from one accumulator to the other. Every timexunits of energy are transferred (xis not necessarily an integer)kpercent of it is lost. That is, ifxunits were transferred from one accumulator to the other, amount of energy in the first one decreased byxunits and in other increased byunits.Your task is to help Petya find what maximum equal amount of energy can be stored in each accumulator after the transfers.InputFirst line of the input contains two integersnandk(1 ≤n≤ 10000, 0 ≤k≤ 99) — number of accumulators and the percent of energy that is lost during transfers.Next line containsnintegersa1,a2, ... ,an— amounts of energy in the first, second, ..,n-th accumulator respectively (0 ≤ai≤ 1000, 1 ≤i≤n).OutputOutput maximum possible amount of energy that can remain in each of accumulators after the transfers of energy.The absolute or relative error in the answer should not exceed10- 6.ExamplesInput3 504 2 1Output2.000000000Input2 901 11Output1.909090909",
+    "source": "CF",
+    "vjudge": false
+}

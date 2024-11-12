@@ -1,0 +1,13 @@
+{
+    "uid": "575-A",
+    "url": "https://codeforces.com/contest/575/problem/A",
+    "tags": [
+        "data structures",
+        " math",
+        " matrices"
+    ],
+    "title": "575-A",
+    "statement": "A. Fibonotcitime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputFibonotci sequence is an integer recursive sequence defined by the recurrence relationFn=sn- 1·Fn- 1+sn- 2·Fn- 2withF0= 0,F1= 1Sequencesis an infinite and almost cyclic sequence with a cycle of lengthN. A sequencesis called almost cyclic with a cycle of lengthNif, fori≥N, except for a finite number of valuessi, for which(i≥N).Following is an example of an almost cyclic sequence with a cycle of length 4:s = (5,3,8,11,5,3,7,11,5,3,8,11,…)Notice that the only value ofsfor which the equalitydoes not hold iss6(s6= 7ands2= 8). You are givens0,s1, ...sN- 1and all the values of sequencesfor which(i≥N).Find.InputThe first line contains two numbersKandP. The second line contains a single numberN. The third line containsNnumbers separated by spaces, that represent the firstNnumbers of the sequences. The fourth line contains a single numberM, the number of values of sequencesfor which. Each of the followingMlines contains two numbersjandv, indicating thatandsj=v. All j-s are distinct.1 ≤N,M≤ 500000 ≤K≤ 10181 ≤P≤ 1091 ≤si≤ 109, for alli= 0, 1, ...N- 1N≤j≤ 10181 ≤v≤ 109All values are integersOutputOutput should contain a single integer equal to.ExamplesInput10 831 2 127 35 4Output4",
+    "source": "CF",
+    "vjudge": false
+}

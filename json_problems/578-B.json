@@ -1,0 +1,12 @@
+{
+    "uid": "578-B",
+    "url": "https://codeforces.com/contest/578/problem/B",
+    "tags": [
+        "brute force",
+        " greedy"
+    ],
+    "title": "578-B",
+    "statement": "B. \"Or\" Gametime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are givennnumbersa1,a2, ...,an. You can perform at mostkoperations. For each operation you can multiply one of the numbers byx. We want to makeas large as possible, wheredenotes the bitwise OR.Find the maximum possible value ofafter performing at mostkoperations optimally.InputThe first line contains three integersn,kandx(1 ≤n≤ 200 000,1 ≤k≤ 10,2 ≤x≤ 8).The second line containsnintegersa1,a2, ...,an(0 ≤ai≤ 109).OutputOutput the maximum value of a bitwise OR of sequence elements after performing operations.ExamplesInput3 1 21 1 1Output3Input4 2 31 2 4 8Output79NoteFor the first sample, any possible choice of doing one operation will result the same three numbers1,1,2so the result is.For the second sample if we multiply8by3two times we'll get72. In this case the numbers will become1,2,4,72so the OR value will be79and is the largest possible result.",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,11 @@
+{
+    "uid": "837-G",
+    "url": "https://codeforces.com/contest/837/problem/G",
+    "tags": [
+        "data structures"
+    ],
+    "title": "837-G",
+    "statement": "G. Functions On The Segmentstime limit per test5 secondsmemory limit per test1024 megabytesinputstandard inputoutputstandard outputYou have an arrayfofnfunctions.The functionfi(x)(1 ≤i≤n) is characterized by parameters:x1,x2,y1,a,b,y2and take values:y1, ifx≤x1.a·x+b, ifx1<x≤x2.y2, ifx>x2.There aremqueries. Each query is determined by numbersl,randx. For a query with numberi(1 ≤i≤m), you need to calculate the sum of allfj(xi)wherel≤j≤r. The value ofxiis calculated as follows:xi= (x+last)mod109, wherelastis the answer to the query with numberi- 1. The value oflastequals0ifi= 1.InputFirst line contains one integer numbern(1 ≤n≤ 75000).Each of the nextnlines contains six integer numbers:x1,x2,y1,a,b,y2(0 ≤x1<x2≤ 2·105,0 ≤y1,y2≤ 109,0 ≤a,b≤ 104).Next line contains one integer numberm(1 ≤m≤ 500000).Each of the nextmlines contains three integer numbers:l,randx(1 ≤l≤r≤n,0 ≤x≤ 109).ExamplesInput11 2 1 4 5 1011 1 2Output13Input32 5 1 1 1 43 6 8 2 5 71 3 5 1 4 1031 3 32 3 21 2 5Output191711",
+    "source": "CF",
+    "vjudge": false
+}

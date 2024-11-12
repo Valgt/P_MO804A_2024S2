@@ -1,0 +1,12 @@
+{
+    "uid": "290-A",
+    "url": "https://codeforces.com/contest/290/problem/A",
+    "tags": [
+        "*special",
+        " implementation"
+    ],
+    "title": "290-A",
+    "statement": "A. Mysterious stringstime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutInputThe input contains a single integera(1 ≤a≤ 40).OutputOutput a single string.ExamplesInput2OutputAdamsInput8OutputVan BurenInput29OutputHarding",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,12 @@
+{
+    "uid": "25-E",
+    "url": "https://codeforces.com/contest/25/problem/E",
+    "tags": [
+        "hashing",
+        " strings"
+    ],
+    "title": "25-E",
+    "statement": "E. Testtime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutSometimes it is hard to prepare tests for programming problems. Now Bob is preparing tests to new problem about strings — input data to his problem is one string. Bob has 3 wrong solutions to this problem. The first gives the wrong answer if the input data contains the substrings1, the second enters an infinite loop if the input data contains the substrings2, and the third requires too much memory if the input data contains the substrings3. Bob wants these solutions to fail single test. What is the minimal length of test, which couldn't be passed by all three Bob's solutions?InputThere are exactly 3 lines in the input data. Thei-th line contains stringsi. All the strings are non-empty, consists of lowercase Latin letters, the length of each string doesn't exceed105.OutputOutput one number — what is minimal length of the string, containings1,s2ands3as substrings.ExamplesInputabbccdOutput4InputabacabaabaabaxOutput11",
+    "source": "CF",
+    "vjudge": false
+}

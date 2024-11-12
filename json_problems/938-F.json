@@ -1,0 +1,13 @@
+{
+    "uid": "938-F",
+    "url": "https://codeforces.com/contest/938/problem/F",
+    "tags": [
+        "bitmasks",
+        " dp",
+        " greedy"
+    ],
+    "title": "938-F",
+    "statement": "F. Erasing Substringstime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given a strings, initially consisting ofnlowercase Latin letters. After that, you performkoperations with it, where. Duringi-th operation youmusterase some substring of length exactly2i- 1froms.Print the lexicographically minimal string you may obtain after performingksuch operations.InputThe only line contains one stringsconsisting ofnlowercase Latin letters (1 ≤n≤ 5000).OutputPrint the lexicographically minimal string you may obtain after performingkoperations.ExamplesInputadcbcaOutputabaInputabacabadabacabaOutputaabacabaNotePossible operations in examples:adcbcaadcbaaba;abacabadabacabaabcabadabacabaaabadabacabaaabacaba.",
+    "source": "CF",
+    "vjudge": false
+}

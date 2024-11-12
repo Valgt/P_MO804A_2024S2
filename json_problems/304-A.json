@@ -1,0 +1,12 @@
+{
+    "uid": "304-A",
+    "url": "https://codeforces.com/contest/304/problem/A",
+    "tags": [
+        "brute force",
+        " math"
+    ],
+    "title": "304-A",
+    "statement": "A. Pythagorean Theorem IItime limit per test3 secondsmemory limit per test256 megabytesinputstdinoutputstdoutIn mathematics, the Pythagorean theorem — is a relation in Euclidean geometry among the three sides of a right-angled triangle. In terms of areas, it states:In any right-angled triangle, the area of the square whose side is the hypotenuse (the side opposite the right angle) is equal to the sum of the areas of the squares whose sides are the two legs (the two sides that meet at a right angle).The theorem can be written as an equation relating the lengths of the sidesa,bandc, often called the Pythagorean equation:a2+b2=c2wherecrepresents the length of the hypotenuse, andaandbrepresent the lengths of the other two sides.Givenn, your task is to count how many right-angled triangles with side-lengthsa,bandcthat satisfied an inequality1 ≤a≤b≤c≤n.InputThe only line contains one integern(1 ≤n≤ 104)as we mentioned above.OutputPrint a single integer — the answer to the problem.ExamplesInput5Output1Input74Output35",
+    "source": "CF",
+    "vjudge": false
+}

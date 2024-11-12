@@ -1,0 +1,12 @@
+{
+    "uid": "578-A",
+    "url": "https://codeforces.com/contest/578/problem/A",
+    "tags": [
+        "geometry",
+        " math"
+    ],
+    "title": "578-A",
+    "statement": "A. A Problem about Polylinetime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputThere is a polyline going through points(0, 0) – (x,x) – (2x, 0) – (3x,x) – (4x, 0) – ... - (2kx, 0) – (2kx+x,x) – ....We know that the polyline passes through the point(a,b). Find minimum positive valuexsuch that it is true or determine that there is no suchx.InputOnly one line containing two positive integersaandb(1 ≤a,b≤ 109).OutputOutput the only line containing the answer. Your answer will be considered correct if its relative or absolute error doesn't exceed10- 9. If there is no suchxthen output- 1as the answer.ExamplesInput3 1Output1.000000000000Input1 3Output-1Input4 1Output1.250000000000NoteYou can see following graphs for sample 1 and sample 3.",
+    "source": "CF",
+    "vjudge": false
+}

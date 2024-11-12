@@ -1,0 +1,12 @@
+{
+    "uid": "100-A",
+    "url": "https://codeforces.com/contest/100/problem/A",
+    "tags": [
+        "*special",
+        " implementation"
+    ],
+    "title": "100-A",
+    "statement": "A. Carpeting the Roomtime limit per test2 secondsmemory limit per test64 megabytesinputstdinoutputstdoutSoroush's room is a square with side lengthn. Before this contest he boughtkfine Persian carpets to carpet his room for celebrating the100th contest on his favorite site. Each Persian carpet is a square of side lengthn1.Soroush wants to cover all the area of his room. Carpets can be put over each other but it is not allowed to rotate the carpets. Can Soroush carpet his room completely?InputThe input consists of three integer numbersn,kandn1(10 ≤n≤ 12,1 ≤k≤ 10,).OutputWrite a singleYESorNO. WriteYESif and only if Sorush can carpet his room completely.ExamplesInput10 4 6OutputYESInput10 2 5OutputNO",
+    "source": "CF",
+    "vjudge": false
+}

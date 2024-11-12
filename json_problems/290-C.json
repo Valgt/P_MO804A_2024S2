@@ -1,0 +1,14 @@
+{
+    "uid": "290-C",
+    "url": "https://codeforces.com/contest/290/problem/C",
+    "tags": [
+        "*special",
+        " graph matchings",
+        " implementation",
+        " trees"
+    ],
+    "title": "290-C",
+    "statement": "C. WTF?time limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutHAII HAS A TUXGIMMEH TUXI HAS A FOO ITS 0I HAS A BAR ITS 0I HAS A BAZ ITS 0I HAS A QUZ ITS 1TUX IS NOW A NUMBRIM IN YR LOOP NERFIN YR TUX TIL BOTH SAEM TUX AN 0I HAS A PURGIMMEH PURPUR IS NOW A NUMBRFOO R SUM OF FOO AN PURBAR R SUM OF BAR AN 1BOTH SAEM BIGGR OF PRODUKT OF FOO AN QUZ AN PRODUKT OF BAR BAZ AN PRODUKT OF FOO AN QUZO RLY?YA RLYBAZ R FOOQUZ R BAROICIM OUTTA YR LOOPBAZ IS NOW A NUMBARVISIBLE SMOOSH QUOSHUNT OF BAZ QUZKTHXBYEInputThe input contains between 1 and 10 lines,i-th line contains an integer numberxi(0 ≤xi≤ 9).OutputOutput a single real number. The answer is considered to be correct if its absolute or relative error does not exceed10- 4.ExamplesInput3011Output0.666667",
+    "source": "CF",
+    "vjudge": false
+}

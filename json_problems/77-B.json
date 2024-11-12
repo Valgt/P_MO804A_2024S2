@@ -1,0 +1,12 @@
+{
+    "uid": "77-B",
+    "url": "https://codeforces.com/contest/77/problem/B",
+    "tags": [
+        "math",
+        " probabilities"
+    ],
+    "title": "77-B",
+    "statement": "B. Falling Anvilstime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutFor some reason in many American cartoons anvils fall from time to time onto heroes' heads. Of course, safes, wardrobes, cruisers, planes fall sometimes too... But anvils do so most of all.Anvils come in different sizes and shapes. Quite often they get the hero stuck deep in the ground. But have you ever thought who throws anvils from the sky? From what height? We are sure that such questions have never troubled you!It turns out that throwing an anvil properly is not an easy task at all. Let's describe one of the most popular anvil throwing models.Let the heightpof the potential victim vary in the range[0;a]and the direction of the windqvary in the range[ -b;b].pandqcould be any real (floating) numbers.Then we can assume that the anvil will fit the toon's head perfectly only if the following equation has at least one real root:Determine the probability with which an aim can be successfully hit by an anvil.You can assume that thepandqcoefficients are chosen equiprobably and independently in their ranges.InputThe first line contains integert(1 ≤t≤ 10000) — amount of testcases.Each of the followingtlines contain two space-separated integersaandb(0 ≤a,b≤ 106).Pretests contain all the tests with0 <a< 10, 0 ≤b< 10.OutputPrinttlines — the probability of a successful anvil hit for each testcase. The absolute or relative error of the answer should not exceed10- 6.ExamplesInput24 21 2Output0.62500000000.5312500000",
+    "source": "CF",
+    "vjudge": false
+}

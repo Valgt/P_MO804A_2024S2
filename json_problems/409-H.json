@@ -1,0 +1,15 @@
+{
+    "uid": "409-H",
+    "url": "https://codeforces.com/contest/409/problem/H",
+    "tags": [
+        "*special",
+        " brute force",
+        " constructive algorithms",
+        " dsu",
+        " implementation"
+    ],
+    "title": "409-H",
+    "statement": "H. A + B Strikes Backtime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutA + B is often used as an example of the easiest problem possible to show some contest platform. However, some scientists have observed that sometimes this problem is not so easy to get accepted. Want to try?InputThe input contains two integersaandb(0 ≤a,b≤ 103), separated by a single space.OutputOutput the sum of the given integers.ExamplesInput5 14Output19Input381 492Output873",
+    "source": "CF",
+    "vjudge": false
+}

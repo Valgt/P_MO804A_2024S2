@@ -1,0 +1,12 @@
+{
+    "uid": "784-C",
+    "url": "https://codeforces.com/contest/784/problem/C",
+    "tags": [
+        "*special",
+        " implementation"
+    ],
+    "title": "784-C",
+    "statement": "C. INTERCALCtime limit per test2 secondsmemory limit per test64 megabytesinputstandard inputoutputstandard outputDO YOU EXPECT ME TO FIND THIS OUT?WHAT BASE AND/XOR LANGUAGE INCLUDES string?DON'T BYTE OF MORE THAN YOU CAN CHEWYOU CAN ONLY DISTORT THE LARGEST OF MATHEMATICS SO FARSAYING \"ABRACADABRA\" WITHOUT A MAGIC AND WON'T DO YOU ANY GOODTHE LAST STACK RUPTURES. ALL DIE. OH, THE EMBARRASSMENT!I HAVE NO ARRAY AND I MUST SCREAMELEMENTS MAY NOT BE STORED IN WEST HYPERSPACEInputThe first line of input data contains a single integern(1 ≤n≤ 10).The second line of input data containsnspace-separated integersai(1 ≤ai≤ 11).OutputOutput a single integer.ExampleInput42 5 3 1Output4",
+    "source": "CF",
+    "vjudge": false
+}

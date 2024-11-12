@@ -1,0 +1,12 @@
+{
+    "uid": "360-C",
+    "url": "https://codeforces.com/contest/360/problem/C",
+    "tags": [
+        "combinatorics",
+        " dp"
+    ],
+    "title": "360-C",
+    "statement": "C. Levko and Stringstime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutLevko loves strings of lengthn, consisting of lowercase English letters, very much. He has one such strings. For each stringtof lengthn, Levko defines its beauty relative tosas the number of pairs of indexesi,j(1 ≤i≤j≤n), such that substringt[i..j]is lexicographically larger than substrings[i..j].The boy wondered how many stringstare there, such that their beauty relative tosequals exactlyk. Help him, find the remainder after division this number by1000000007(109+ 7).A substrings[i..j]of strings=s1s2...snis stringsisi+  1...sj.Stringx=x1x2...xpis lexicographically larger than stringy=y1y2...yp, if there is such numberr(r<p), thatx1=y1,x2=y2,  ... ,xr=yrandxr+  1>yr+  1. The string characters are compared by their ASCII codes.InputThe first line contains two integersnandk(1 ≤n≤ 2000,0 ≤k≤ 2000).The second line contains a non-empty stringsof lengthn. Stringsconsists only of lowercase English letters.OutputPrint a single number — the answer to the problem modulo1000000007(109+ 7).ExamplesInput2 2yzOutput26Input2 3yxOutput2Input4 7abcdOutput21962",
+    "source": "CF",
+    "vjudge": false
+}

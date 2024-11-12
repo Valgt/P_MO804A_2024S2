@@ -1,0 +1,11 @@
+{
+    "uid": "194-B",
+    "url": "https://codeforces.com/contest/194/problem/B",
+    "tags": [
+        "math"
+    ],
+    "title": "194-B",
+    "statement": "B. Squaretime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutThere is a square painted on a piece of paper, the square's side equalsnmeters. John Doe draws crosses on the square's perimeter. John paints the first cross in the lower left corner of the square. Then John moves along the square's perimeter in the clockwise direction (first upwards, then to the right, then downwards, then to the left and so on). Every time he walks(n+ 1)meters, he draws a cross (see picture for clarifications).John Doe stops only when the lower left corner of the square has two crosses. How many crosses will John draw?The figure shows the order in which John draws crosses for a square with side4. The lower left square has two crosses. Overall John paints17crosses.InputThe first line contains integert(1 ≤t≤ 104) — the number of test cases.The second line containstspace-separated integersni(1 ≤ni≤ 109) — the sides of the square for each test sample.OutputFor each test sample print on a single line the answer to it, that is, the number of crosses John will draw as he will move along the square of the corresponding size. Print the answers to the samples in the order in which the samples are given in the input.Please do not use the%lldspecifier to read or write 64-bit integers in С++. It is preferred to use thecin,coutstreams or the%I64dspecifier.ExamplesInput34 8 100Output1733401",
+    "source": "CF",
+    "vjudge": false
+}

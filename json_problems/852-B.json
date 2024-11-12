@@ -1,0 +1,12 @@
+{
+    "uid": "852-B",
+    "url": "https://codeforces.com/contest/852/problem/B",
+    "tags": [
+        "dp",
+        " matrices"
+    ],
+    "title": "852-B",
+    "statement": "B. Neural Network countrytime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputDue to the recent popularity of the Deep learning new countries are starting to look like Neural Networks. That is, the countries are being built deep with many layers, each layer possibly having many cities. They also have one entry, and one exit point.There are exactlyLlayers, each havingNcities. Let us look at the two adjacent layersL1andL2. Each city from the layerL1is connected to each city from the layerL2with the traveling costcijfor, and each pair of adjacent layers has the same cost in between their cities as any other pair (they just stacked the same layers, as usual). Also, the traveling costs to each city from the layerL2are same for all cities in theL1, that iscijis the same for, and fixedj.Doctor G. needs to speed up his computations for this country so he asks you to find the number of paths he can take from entry to exit point such that his traveling cost is divisible by given numberM.InputThe first line of input containsN(1 ≤N≤ 106),L(2 ≤L≤ 105)andM(2 ≤M≤ 100), the number of cities in each layer, the number of layers and the number that travelling cost should be divisible by, respectively.Second, third and fourth line containNintegers each denoting costs0 ≤cost≤Mfrom entry point to the first layer, costs between adjacent layers as described above, and costs from the last layer to the exit point.OutputOutput a single integer, the number of paths Doctor G. can take which have total cost divisible byM, modulo109+ 7.ExampleInput2 3 134 62 13 4Output2NoteThis is a country with3layers, each layer having2cities. Paths, andare the only paths having total cost divisible by13. Notice that input edges for layer cities have the same cost, and that they are same for all layers.",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,12 @@
+{
+    "uid": "762-E",
+    "url": "https://codeforces.com/contest/762/problem/E",
+    "tags": [
+        "binary search",
+        " data structures"
+    ],
+    "title": "762-E",
+    "statement": "E. Radio stationstime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputIn the lattice points of the coordinate line there arenradio stations, thei-th of which is described by three integers:xi— the coordinate of thei-th station on the line,ri— the broadcasting range of thei-th station,fi— the broadcasting frequency of thei-th station.We will say that two radio stations with numbersiandjreach each other, if the broadcasting range of each of them is more or equal to the distance between them. In other wordsmin(ri,rj) ≥ |xi-xj|.Let's call a pair of radio stations(i,j)bad ifi<j, stationsiandjreach each other and they are close in frequency, that is,|fi-fj| ≤k.Find the number of bad pairs of radio stations.InputThe first line contains two integersnandk(1 ≤n≤ 105,0 ≤k≤ 10) — the number of radio stations and the maximum difference in the frequencies for the pair of stations that reach each other to be considered bad.In the nextnlines follow the descriptions of radio stations. Each line contains three integersxi,riandfi(1 ≤xi,ri≤ 109,1 ≤fi≤ 104) — the coordinate of thei-th radio station, it's broadcasting range and it's broadcasting frequency.No two radio stations will share a coordinate.OutputOutput the number of bad pairs of radio stations.ExamplesInput3 21 3 103 2 54 10 8Output1Input3 31 3 103 2 54 10 8Output2Input5 11 3 22 2 43 2 14 2 15 3 3Output2Input5 11 5 22 5 43 5 14 5 15 5 3Output5",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,12 @@
+{
+    "uid": "746-A",
+    "url": "https://codeforces.com/contest/746/problem/A",
+    "tags": [
+        "implementation",
+        " math"
+    ],
+    "title": "746-A",
+    "statement": "A. Compotetime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputNikolay hasalemons,bapples andcpears. He decided to cook a compote. According to the recipe the fruits should be in the ratio1: 2: 4. It means that for each lemon in the compote should be exactly2apples and exactly4pears. You can't crumble up, break up or cut these fruits into pieces. These fruits — lemons, apples and pears — should be put in the compote as whole fruits.Your task is to determine the maximum total number of lemons, apples and pears from which Nikolay can cook the compote. It is possible that Nikolay can't use any fruits, in this case print0.InputThe first line contains the positive integera(1 ≤a≤ 1000) — the number of lemons Nikolay has.The second line contains the positive integerb(1 ≤b≤ 1000) — the number of apples Nikolay has.The third line contains the positive integerc(1 ≤c≤ 1000) — the number of pears Nikolay has.OutputPrint the maximum total number of lemons, apples and pears from which Nikolay can cook the compote.ExamplesInput257Output7Input4713Output21Input232Output0NoteIn the first example Nikolay can use1lemon,2apples and4pears, so the answer is1 + 2 + 4 = 7.In the second example Nikolay can use3lemons,6apples and12pears, so the answer is3 + 6 + 12 = 21.In the third example Nikolay don't have enough pears to cook any compote, so the answer is0.",
+    "source": "CF",
+    "vjudge": false
+}

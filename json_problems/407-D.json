@@ -1,0 +1,12 @@
+{
+    "uid": "407-D",
+    "url": "https://codeforces.com/contest/407/problem/D",
+    "tags": [
+        "dp",
+        " hashing"
+    ],
+    "title": "407-D",
+    "statement": "D. Largest Submatrix 3time limit per test3 secondsmemory limit per test256 megabytesinputstdinoutputstdoutYou are given matrixaof sizen×m, its elements are integers. We will assume that the rows of the matrix are numbered from top to bottom from 1 ton, the columns are numbered from left to right from 1 tom. We will denote the element on the intersecting of thei-th row and thej-th column asaij.We'll call submatrixi1,j1,i2,j2(1 ≤i1≤i2≤n; 1 ≤j1≤j2≤m)such elementsaijof the given matrix thati1≤i≤i2ANDj1≤j≤j2. We'll call the area of the submatrix number(i2-i1+ 1)·(j2-j1+ 1). We'll call a submatrix inhomogeneous, if all its elements are distinct.Find the largest (in area) inhomogenous submatrix of the given matrix.InputThe first line contains two integersn,m(1 ≤n,m≤ 400) — the number of rows and columns of the matrix, correspondingly.Each of the nextnlines containsmintegersaij(1 ≤aij≤ 160000) — the elements of the matrix.OutputPrint a single integer — the area of the optimal inhomogenous submatrix.ExamplesInput3 31 3 14 5 62 6 1Output6Input3 45 2 3 13 3 5 34 4 4 5Output4Input2 61 2 3 4 5 68 6 7 8 9 1Output8",
+    "source": "CF",
+    "vjudge": false
+}

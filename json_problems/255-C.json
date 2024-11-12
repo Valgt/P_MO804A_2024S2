@@ -1,0 +1,12 @@
+{
+    "uid": "255-C",
+    "url": "https://codeforces.com/contest/255/problem/C",
+    "tags": [
+        "brute force",
+        " dp"
+    ],
+    "title": "255-C",
+    "statement": "C. Almost Arithmetical Progressiontime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutGena loves sequences of numbers. Recently, he has discovered a new type of sequences which he called an almost arithmetical progression. A sequence is analmost arithmetical progression, if its elements can be represented as:a1=p, wherepis some integer;ai=ai- 1+ ( - 1)i+ 1·q(i> 1), whereqis some integer.Right now Gena has a piece of paper with sequenceb, consisting ofnintegers. Help Gena, find there the longest subsequence of integers that is an almost arithmetical progression.Sequences1,s2,  ...,skis a subsequence of sequenceb1,b2,  ...,bn, if there is such increasing sequence of indexesi1,i2, ...,ik(1  ≤i1<i2< ...   <ik≤n), thatbij=sj. In other words, sequencescan be obtained frombby crossing out some elements.InputThe first line contains integern(1 ≤n≤ 4000). The next line containsnintegersb1,b2, ...,bn(1 ≤bi≤ 106).OutputPrint a single integer — the length of the required longest subsequence.ExamplesInput23 5Output2Input410 20 10 30Output3NoteIn the first test the sequence actually is the suitable subsequence.In the second test the following subsequence fits:10, 20, 10.",
+    "source": "CF",
+    "vjudge": false
+}

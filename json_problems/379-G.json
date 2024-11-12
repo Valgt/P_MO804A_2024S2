@@ -1,0 +1,11 @@
+{
+    "uid": "379-G",
+    "url": "https://codeforces.com/contest/379/problem/G",
+    "tags": [
+        "dp"
+    ],
+    "title": "379-G",
+    "statement": "G. New Year Cactustime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutJack and Jill are tired of the New Year tree, now they've got a New Year cactus at home! A cactus is a connected undirected graph where any two simple cycles have at most one common vertex. In other words, this graph doesn't have any edges that lie on more than one simple cycle.On the 31st of December they are going to decorate the cactus by hanging toys to its vertices. At most one toy is going to hang on each vertex — it's either the toy Jack hung or the toy Jill hung. It's possible for a vertex to have no toys.Jack and Jill has been arguing, so they don't want any edge to connect two vertices where one vertex has Jack's toy and the other vertex has Jill's toy.Jack has decided to hangatoys. What maximum number of toysbcan Jill hang if they both cooperate to maximize this value? Your task is to write a program that finds the soughtbfor allafrom 0 to the number of vertices on the New Year Cactus.InputThe first line contains two integersnandm(1 ≤n≤ 2500,n- 1 ≤m) — the number of vertices and the number of edges, correspondingly. The nextmlines contain two integersa,beach (1 ≤a,b≤n,a≠b) that mean that there is an edge connecting verticesaиb. Any pair of vertices has at most one edge between them.OutputThe first line must contain space-separatedba(for all0 ≤a≤n) wherebaequals the maximum number of Jill's toys on the cactus considering that it hasaJack's toys. Numbersbago in the order of increasinga.ExamplesInput1 0Output1 0Input16 201 23 45 66 77 89 1010 1111 1213 1415 161 59 1314 1010 66 215 1111 77 316 128 4Output16 13 12 12 10 8 8 7 6 4 4 3 3 1 0 0 0NoteThe cactus from the second example is:",
+    "source": "CF",
+    "vjudge": false
+}

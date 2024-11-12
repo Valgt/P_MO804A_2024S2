@@ -1,0 +1,11 @@
+{
+    "uid": "26-B",
+    "url": "https://codeforces.com/contest/26/problem/B",
+    "tags": [
+        "greedy"
+    ],
+    "title": "26-B",
+    "statement": "B. Regular Bracket Sequencetime limit per test5 secondsmemory limit per test256 megabytesinputstdinoutputstdoutA bracket sequence is called regular if it is possible to obtain correct arithmetic expression by inserting characters «+» and «1» into this sequence. For example, sequences «(())()», «()» and «(()(()))» are regular, while «)(», «(()» and «(()))(» are not.One day Johnny got bracket sequence. He decided to remove some of the brackets from it in order to obtain a regular bracket sequence. What is the maximum length of a regular bracket sequence which can be obtained?InputInput consists of a single line with non-empty string of «(» and «)» characters. Its length does not exceed106.OutputOutput the maximum possible length of a regular bracket sequence.ExamplesInput(()))(Output4Input((()())Output6",
+    "source": "CF",
+    "vjudge": false
+}

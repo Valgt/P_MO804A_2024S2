@@ -1,0 +1,12 @@
+{
+    "uid": "594-E",
+    "url": "https://codeforces.com/contest/594/problem/E",
+    "tags": [
+        "string suffix structures",
+        " strings"
+    ],
+    "title": "594-E",
+    "statement": "E. Cutting the Linetime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given a non-empty linesand an integerk. The following operation is performed with this line exactly once:A line is split intoat mostknon-empty substrings, i.e. stringsis represented as a concatenation of a set of stringss=t1+t2+ ... +tm,1 ≤m≤k.Some of stringstiare replaced by stringstir, that is, their record from right to left.The lines are concatenated back in the same order, we get strings' =t'1t'2...t'm, wheret'iequalstiortir.Your task is to determine the lexicographically smallest string that could be the result of applying the given operation to the strings.InputThe first line of the input contains strings(1 ≤ |s| ≤ 5 000 000), consisting of lowercase English letters. The second line contains integerk(1 ≤k≤ |s|) — the maximum number of parts in the partition.OutputIn the single line print the lexicographically minimum strings'which can be obtained as a result of performing the described operation.ExamplesInputaba2OutputaabInputaaaabacaba2OutputaaaaabacabInputbababa1OutputabababInputabacabadabacaba4Outputaababacabacabad",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,12 @@
+{
+    "uid": "317-D",
+    "url": "https://codeforces.com/contest/317/problem/D",
+    "tags": [
+        "dp",
+        " games"
+    ],
+    "title": "317-D",
+    "statement": "D. Game with Powerstime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutVasya and Petya wrote down all integers from1tonto play the \"powers\" game (ncan be quite large; however, Vasya and Petya are not confused by this fact).Players choose numbers in turn (Vasya chooses first). If some numberxis chosen at the current turn, it is forbidden to choosexor all of its other positive integer powers (that is,x2,x3,...) at the next turns. For instance, if the number9is chosen at the first turn, one cannot choose9or81later, while it is still allowed to choose3or27. The one who cannot make a move loses.Who wins if both Vasya and Petya play optimally?InputInput contains single integern(1 ≤n≤ 109).OutputPrint the name of the winner — \"Vasya\" or \"Petya\" (without quotes).ExamplesInput1OutputVasyaInput2OutputPetyaInput8OutputPetyaNoteIn the first sample Vasya will choose 1 and win immediately.In the second sample no matter which number Vasya chooses during his first turn, Petya can choose the remaining number and win.",
+    "source": "CF",
+    "vjudge": false
+}

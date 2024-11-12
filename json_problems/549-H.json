@@ -1,0 +1,12 @@
+{
+    "uid": "549-H",
+    "url": "https://codeforces.com/contest/549/problem/H",
+    "tags": [
+        "binary search",
+        " math"
+    ],
+    "title": "549-H",
+    "statement": "H. Degenerate Matrixtime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputThedeterminantof a matrix2 × 2is defined as follows:A matrix is calleddegenerateif its determinant is equal to zero.Thenorm||A||of a matrixAis defined as a maximum of absolute values of its elements.You are given a matrix. Consider any degenerate matrixBsuch that norm||A-B||is minimum possible. Determine||A-B||.InputThe first line contains two integersaandb(|a|, |b| ≤ 109), the elements of the first row of matrixA.The second line contains two integerscandd(|c|, |d| ≤ 109) the elements of the second row of matrixA.OutputOutput a single real number, the minimum possible value of||A-B||. Your answer is considered to be correct if its absolute or relative error does not exceed10- 9.ExamplesInput1 23 4Output0.2000000000Input1 00 1Output0.5000000000NoteIn the first sample matrixBisIn the second sample matrixBis",
+    "source": "CF",
+    "vjudge": false
+}

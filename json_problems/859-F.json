@@ -1,0 +1,11 @@
+{
+    "uid": "859-F",
+    "url": "https://codeforces.com/contest/859/problem/F",
+    "tags": [
+        "greedy"
+    ],
+    "title": "859-F",
+    "statement": "F. Ordering T-Shirtstime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputIt's another Start[c]up, and that means there are T-shirts to order. In order to make sure T-shirts are shipped as soon as possible, we've decided that this year we're going to order all of the necessary T-shirts before the actual competition. The topCcontestants are going to be awarded T-shirts, but we obviously don't know which contestants that will be. The plan is to get the T-Shirt sizes of all contestants before the actual competition, and then order enough T-shirts so that no matter who is in the topCwe'll have T-shirts available in order to award them.In order to get the T-shirt sizes of the contestants, we will send out a survey. The survey will allow contestants to either specify a single desired T-shirt size, or two adjacent T-shirt sizes. If a contestant specifies two sizes, it means that they can be awarded either size.As you can probably tell, this plan could require ordering a lot of unnecessary T-shirts. We'd like your help to determine the minimum number of T-shirts we'll need to order to ensure that we'll be able to award T-shirts no matter the outcome of the competition.InputInput will begin with two integersNandC(1 ≤N≤ 2·105,1 ≤C), the number of T-shirt sizes and number of T-shirts to be awarded, respectively.Following this is a line with2·N- 1integers,s1throughs2·N- 1(0 ≤si≤ 108). For oddi,siindicates the number of contestants desiring T-shirt size((i+ 1) / 2). For eveni,siindicates the number of contestants okay receiving either of T-shirt sizes(i/ 2)and(i/ 2 + 1).Cwill not exceed the total number of contestants.OutputPrint the minimum number of T-shirts we need to buy.ExamplesInput2 200100 250 100Output200Input4 16088 69 62 29 58 52 44Output314NoteIn the first example, we can buy100of each size.",
+    "source": "CF",
+    "vjudge": false
+}

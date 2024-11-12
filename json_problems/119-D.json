@@ -1,0 +1,12 @@
+{
+    "uid": "119-D",
+    "url": "https://codeforces.com/contest/119/problem/D",
+    "tags": [
+        "hashing",
+        " strings"
+    ],
+    "title": "119-D",
+    "statement": "D. String Transformationtime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutLetsbe a string whose length equalsn. Its characters are numbered from 0 ton- 1,iandjare integers,0 ≤i<j<n. Let's define functionfas follows:f(s,i,j) =s[i+ 1...j- 1] +r(s[j...n- 1]) +r(s[0...i]).Heres[p...q]is a substring of strings, that starts in positionpand ends in positionq(inclusive); \"+\" is the string concatenation operator;r(x)is a string resulting from writing the characters of thexstring in the reverse order. Ifj=i+ 1, then the substrings[i+ 1...j- 1]is considered empty.You are given two stringsaandb. Find such values ofiandj, thatf(a,i,j) =b. Numberishould be maximally possible. If for thisithere exists several valid values ofj, choose the minimalj.InputThe first two input lines are non-empty stringsaandbcorrespondingly. Each string's length does not exceed106characters. The strings can contain any characters with ASCII codes from 32 to 126 inclusive.OutputPrint two integersi,j— the answer to the problem. If no solution exists, print \"-1 -1\" (without the quotes).ExamplesInputDie Polizei untersucht eine Straftat im IT-Bereich.untersucht eine Straftat.hciereB-TI mi  ieziloP eiDOutput11 36InputcbaaaaaaaabcOutput4 5Input1233423324212Output-1 -1",
+    "source": "CF",
+    "vjudge": false
+}

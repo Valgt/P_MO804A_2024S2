@@ -1,0 +1,12 @@
+{
+    "uid": "236-B",
+    "url": "https://codeforces.com/contest/236/problem/B",
+    "tags": [
+        "implementation",
+        " number theory"
+    ],
+    "title": "236-B",
+    "statement": "B. Easy Number Challengetime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutLet's denoted(n)as the number of divisors of a positive integern. You are given three integersa,bandc. Your task is to calculate the following sum:Find the sum modulo1073741824(230).InputThe first line contains three space-separated integersa,bandc(1 ≤a,b,c≤ 100).OutputPrint a single integer — the required sum modulo1073741824(230).ExamplesInput2 2 2Output20Input5 6 7Output1520NoteFor the first example.d(1·1·1) =d(1) = 1;d(1·1·2) =d(2) = 2;d(1·2·1) =d(2) = 2;d(1·2·2) =d(4) = 3;d(2·1·1) =d(2) = 2;d(2·1·2) =d(4) = 3;d(2·2·1) =d(4) = 3;d(2·2·2) =d(8) = 4.So the result is1 + 2 + 2 + 3 + 2 + 3 + 3 + 4 = 20.",
+    "source": "CF",
+    "vjudge": false
+}

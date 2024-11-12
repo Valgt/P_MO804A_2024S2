@@ -1,0 +1,12 @@
+{
+    "uid": "254-A",
+    "url": "https://codeforces.com/contest/254/problem/A",
+    "tags": [
+        "constructive algorithms",
+        " sortings"
+    ],
+    "title": "254-A",
+    "statement": "A. Cards with Numberstime limit per test1 secondmemory limit per test256 megabytesinputinput.txtoutputoutput.txtPetya has got2ncards, each card contains some integer. The numbers on the cards can be the same. Let's index all cards by consecutive integers from1to2n. We'll denote the number that is written on a card with numberi, asai. In order to play one entertaining game with his friends, Petya needs to split the cards into pairs so that each pair had equal numbers on the cards. Help Petya do that.InputThe first line contains integern(1 ≤n≤ 3·105). The second line contains the sequence of2npositive integersa1,a2, ...,a2n(1 ≤ai≤ 5000) — the numbers that are written on the cards. The numbers on the line are separated by single spaces.OutputIf it is impossible to divide the cards into pairs so that cards in each pair had the same numbers, print on a single line integer-1. But if the required partition exists, then printnpairs of integers, a pair per line — the indices of the cards that form the pairs.Separate the numbers on the lines by spaces. You can print the pairs and the numbers in the pairs in any order. If there are multiple solutions, print any of them.ExamplesInput320 30 10 30 20 10Output4 21 56 3Input11 2Output-1",
+    "source": "CF",
+    "vjudge": false
+}

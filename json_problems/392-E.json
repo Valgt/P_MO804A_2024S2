@@ -1,0 +1,9 @@
+{
+    "uid": "392-E",
+    "url": "https://codeforces.com/contest/392/problem/E",
+    "tags": [],
+    "title": "392-E",
+    "statement": "E. Deleting Substringstime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutSmallR likes a game called \"Deleting Substrings\". In the game you are given a sequence of integersw, you can modify the sequence and get points. The only type of modification you can perform is (unexpected, right?) deleting substrings. More formally, you can choose several contiguous elements ofwand delete them from the sequence. Let's denote the sequence of chosen elements aswl,wl+ 1, ...,wr. They must meet the conditions:the equality|wi-wi+ 1| = 1must hold for alli(l≤i<r);the inequality2·wi-wi+ 1-wi- 1≥ 0must hold for alli(l<i<r).After deleting the chosen substring ofw, you gainvr-l+ 1points. You can perform the described operation again and again while proper substrings exist. Also you can end the game at any time. Your task is to calculate the maximum total score you can get in the game.InputThe first line contains a single integern(1 ≤n≤ 400)— the initial length ofw. The second line containsnintegersv1,v2, ...,vn(0 ≤ |vi| ≤ 2000)— the costs of operations. The next line containsnintegersw1,w2, ...,wn(1 ≤wi≤ 109)— the initialw.OutputPrint a single integer — the maximum total score you can get.ExamplesInput30 0 31 2 1Output3Input61 4 5 6 7 10002 1 1 2 2 3Output12",
+    "source": "CF",
+    "vjudge": false
+}

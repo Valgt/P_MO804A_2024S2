@@ -1,0 +1,11 @@
+{
+    "uid": "50-E",
+    "url": "https://codeforces.com/contest/50/problem/E",
+    "tags": [
+        "math"
+    ],
+    "title": "50-E",
+    "statement": "E. Square Equation Rootstime limit per test5 secondsmemory limit per test256 megabytesinputstdinoutputstdoutA schoolboy Petya studies square equations. The equations that are included in the school curriculum, usually look simple:x2+ 2bx+c= 0whereb,care natural numbers.Petya noticed that some equations have two real roots, some of them have only one root and some equations don't have real roots at all. Moreover it turned out that several different square equations can have a common root.Petya is interested in how many different real roots have all the equations of the type described above for all the possible pairs of numbersbandcsuch that1 ≤b≤n,1 ≤c≤m. Help Petya find that number.InputThe single line contains two integersnandm. (1 ≤n,m≤ 5000000).OutputPrint a single number which is the number of real roots of the described set of equations.ExamplesInput3 3Output12Input1 2Output1NoteIn the second test from the statement the following equations are analysed:b= 1,c= 1:x2+ 2x+ 1 = 0; The root isx=  - 1b= 1,c= 2:x2+ 2x+ 2 = 0; No rootsOverall there's one rootIn the second test the following equations are analysed:b= 1,c= 1:x2+ 2x+ 1 = 0; The root isx=  - 1b= 1,c= 2:x2+ 2x+ 2 = 0; No rootsb= 1,c= 3:x2+ 2x+ 3 = 0; No rootsb= 2,c= 1:x2+ 4x+ 1 = 0; The roots areb= 2,c= 2:x2+ 4x+ 2 = 0; The roots areb= 2,c= 3:x2+ 4x+ 3 = 0; The roots arex1=  - 3,x2=  - 1b= 3,c= 1:x2+ 6x+ 1 = 0; The roots areb= 3,c= 2:x2+ 6x+ 2 = 0; The roots areb= 3,c= 3:x2+ 6x+ 3 = 0; The roots areOverall there are13roots and as the root- 1is repeated twice, that means there are12different roots.",
+    "source": "CF",
+    "vjudge": false
+}

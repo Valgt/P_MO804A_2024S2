@@ -1,0 +1,14 @@
+{
+    "uid": "279-E",
+    "url": "https://codeforces.com/contest/279/problem/E",
+    "tags": [
+        "dp",
+        " games",
+        " greedy",
+        " number theory"
+    ],
+    "title": "279-E",
+    "statement": "E. Beautiful Decompositiontime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutValera considers a numberbeautiful, if it equals2kor -2kfor some integerk(k≥ 0). Recently, the math teacher asked Valera to represent numbernas the sum of beautiful numbers. As Valera is really greedy, he wants to complete the task using as few beautiful numbers as possible.Help Valera and find, how many numbers he is going to need. In other words, if you look at all decompositions of the numberninto beautiful summands, you need to find the size of the decomposition which has the fewest summands.InputThe first line contains strings(1 ≤ |s| ≤ 106), that is the binary representation of numbernwithout leading zeroes(n> 0).OutputPrint a single integer — the minimum amount of beautiful numbers that give a total ofn.ExamplesInput10Output1Input111Output2Input1101101Output4NoteIn the first samplen= 2is a beautiful number.In the second samplen= 7and Valera can decompose it into sum23+ ( - 20).In the third samplen= 109can be decomposed into the sum of four summands as follows:27+ ( - 24) + ( - 22) + 20.",
+    "source": "CF",
+    "vjudge": false
+}

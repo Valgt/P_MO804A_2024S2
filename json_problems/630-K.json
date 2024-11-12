@@ -1,0 +1,12 @@
+{
+    "uid": "630-K",
+    "url": "https://codeforces.com/contest/630/problem/K",
+    "tags": [
+        "math",
+        " number theory"
+    ],
+    "title": "630-K",
+    "statement": "K. Indivisibilitytime limit per test0.5 secondsmemory limit per test64 megabytesinputstandard inputoutputstandard outputIT City company developing computer games decided to upgrade its way to reward its employees. Now it looks the following way. After a new game release users start buying it actively, and the company tracks the number of sales with precision to each transaction. Every time when the next number of sales is not divisible by any number from2to10every developer of this game gets a small bonus.A game designer Petya knows that the company is just about to release a new game that was partly developed by him. On the basis of his experience he predicts thatnpeople will buy the game during the first month. Now Petya wants to determine how many times he will get the bonus. Help him to know it.InputThe only line of the input contains one integern(1 ≤n≤ 1018) — the prediction on the number of people who will buy the game.OutputOutput one integer showing how many numbers from1tonare not divisible by any number from2to10.ExamplesInput12Output2",
+    "source": "CF",
+    "vjudge": false
+}

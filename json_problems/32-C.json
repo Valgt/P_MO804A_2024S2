@@ -1,0 +1,11 @@
+{
+    "uid": "32-C",
+    "url": "https://codeforces.com/contest/32/problem/C",
+    "tags": [
+        "math"
+    ],
+    "title": "32-C",
+    "statement": "C. Fleatime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutIt is known that fleas in Berland can jump only vertically and horizontally, and the length of the jump is always equal toscentimeters. A flea has found herself at the center of some cell of the checked board of the sizen×mcentimeters (each cell is1 × 1centimeters). She can jump as she wishes for an arbitrary number of times, she can even visit a cell more than once. The only restriction is that she cannot jump out of the board.The flea can count the amount of cells that she can reach from the starting position(x,y). Let's denote this amount bydx,y. Your task is to find the number of such starting positions(x,y), which have the maximum possible value ofdx,y.InputThe first line contains three integersn,m,s(1 ≤n,m,s≤ 106) — length of the board, width of the board and length of the flea's jump.OutputOutput the only integer — the number of the required starting positions of the flea.ExamplesInput2 3 1000000Output6Input3 3 2Output4",
+    "source": "CF",
+    "vjudge": false
+}

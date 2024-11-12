@@ -1,0 +1,13 @@
+{
+    "uid": "327-D",
+    "url": "https://codeforces.com/contest/327/problem/D",
+    "tags": [
+        "constructive algorithms",
+        " dfs and similar",
+        " graphs"
+    ],
+    "title": "327-D",
+    "statement": "D. Block Towertime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutAfter too much playing on paper, Iahub has switched to computer games. The game he plays is called \"Block Towers\". It is played in a rectangular grid withnrows andmcolumns (it containsn×mcells). The goal of the game is to build your own city. Some cells in the grid are big holes, where Iahub can't build any building. The rest of cells are empty. In some empty cell Iahub can build exactly one tower of two following types:Blue towers. Each has population limit equal to100.Red towers. Each has population limit equal to200. However, it can be built in some cell only if in that moment at least one of the neighbouring cells has a Blue Tower. Two cells are neighbours is they share a side.Iahub is also allowed to destroy a building from any cell. He can do this operation as much as he wants. After destroying a building, the other buildings are not influenced, and the destroyed cell becomes empty (so Iahub can build a tower in this cell if needed, see the second example for such a case).Iahub can convince as many population as he wants to come into his city. So he needs to configure his city to allow maximum population possible. Therefore he should find a sequence of operations that builds the city in an optimal way, so that total population limit is as large as possible.He says he's the best at this game, but he doesn't have the optimal solution. Write a program that calculates the optimal one, to show him that he's not as good as he thinks.InputThe first line of the input contains two integersnandm(1 ≤n,m≤ 500). Each of the nextnlines containsmcharacters, describing the grid. Thej-th character in thei-th line is '.' if you're allowed to build at the cell with coordinates(i,j)a tower (empty cell) or '#' if there is a big hole there.OutputPrint an integerkin the first line(0 ≤k≤ 106)— the number of operations Iahub should perform to obtain optimal result.Each of the followingklines must contain a single operation in the following format:«B x y»(1 ≤x≤n, 1 ≤y≤m)— building a blue tower at the cell(x,y);«R x y»(1 ≤x≤n, 1 ≤y≤m)— building a red tower at the cell(x,y);«D x y»(1 ≤x≤n, 1 ≤y≤m)— destroying a tower at the cell(x,y).If there are multiple solutions you can output any of them. Note, that you shouldn't minimize the number of operations.ExamplesInput2 3..#.#.Output4B 1 1R 1 2R 2 1B 2 3Input1 3...Output5B 1 1B 1 2R 1 3D 1 2R 1 2",
+    "source": "CF",
+    "vjudge": false
+}

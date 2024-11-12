@@ -1,0 +1,14 @@
+{
+    "uid": "538-B",
+    "url": "https://codeforces.com/contest/538/problem/B",
+    "tags": [
+        "constructive algorithms",
+        " dp",
+        " greedy",
+        " implementation"
+    ],
+    "title": "538-B",
+    "statement": "B. Quasi Binarytime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputA number is calledquasibinaryif its decimal representation contains only digits 0 or 1. For example, numbers 0, 1, 101, 110011 — are quasibinary and numbers 2, 12, 900 are not.You are given a positive integern. Represent it as a sum of minimum number of quasibinary numbers.InputThe first line contains a single integern(1 ≤n≤ 106).OutputIn the first line print a single integerk— the minimum number of numbers in the representation of numbernas a sum of quasibinary numbers.In the second line printknumbers — the elements of the sum. All these numbers should be quasibinary according to the definition above, their sum should equaln. Do not have to print the leading zeroes in the numbers. The order of numbers doesn't matter. If there are multiple possible representations, you are allowed to print any of them.ExamplesInput9Output91 1 1 1 1 1 1 1 1Input32Output310 11 11",
+    "source": "CF",
+    "vjudge": false
+}

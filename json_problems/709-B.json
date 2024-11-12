@@ -1,0 +1,13 @@
+{
+    "uid": "709-B",
+    "url": "https://codeforces.com/contest/709/problem/B",
+    "tags": [
+        "greedy",
+        " implementation",
+        " sortings"
+    ],
+    "title": "709-B",
+    "statement": "B. Checkpointstime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputVasya takes part in the orienteering competition. There arencheckpoints located along the line at coordinatesx1,x2, ...,xn. Vasya starts at the point with coordinatea. His goal is to visit at leastn- 1checkpoint in order to finish the competition. Participant are allowed to visit checkpoints in arbitrary order.Vasya wants to pick such checkpoints and the order of visiting them that the total distance travelled is minimized. He asks you to calculate this minimum possible value.InputThe first line of the input contains two integersnanda(1 ≤n≤ 100 000,- 1 000 000 ≤a≤ 1 000 000) — the number of checkpoints and Vasya's starting position respectively.The second line containsnintegersx1,x2, ...,xn(- 1 000 000 ≤xi≤ 1 000 000) — coordinates of the checkpoints.OutputPrint one integer — the minimum distance Vasya has to travel in order to visit at leastn- 1checkpoint.ExamplesInput3 101 7 12Output7Input2 011 -10Output10Input5 00 0 1000 0 0Output0NoteIn the first sample Vasya has to visit at least two checkpoints. The optimal way to achieve this is the walk to the third checkpoints (distance is12 - 10 = 2) and then proceed to the second one (distance is12 - 7 = 5). The total distance is equal to2 + 5 = 7.In the second sample it's enough to visit only one checkpoint so Vasya should just walk to the point- 10.",
+    "source": "CF",
+    "vjudge": false
+}

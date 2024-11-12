@@ -1,0 +1,14 @@
+{
+    "uid": "908-E",
+    "url": "https://codeforces.com/contest/908/problem/E",
+    "tags": [
+        "bitmasks",
+        " combinatorics",
+        " dp",
+        " math"
+    ],
+    "title": "908-E",
+    "statement": "E. New Year and Entity Enumerationtime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given an integerm.LetM= 2m- 1.You are also given a set ofnintegers denoted as the setT. The integers will be provided in base 2 asnbinary strings of lengthm.A set of integersSis called \"good\" if the following hold.If, then.If, thenAll elements ofSare less than or equal toM.Here,andrefer to the bitwise XOR and bitwise AND operators, respectively.Count the number of good setsS, modulo109+ 7.InputThe first line will contain two integersmandn(1 ≤m≤ 1 000,1 ≤n≤min(2m, 50)).The nextnlines will contain the elements ofT. Each line will contain exactlymzeros and ones. Elements ofTwill be distinct.OutputPrint a single integer, the number of good sets modulo109+ 7.ExamplesInput5 3110100010111000Output4Input30 2010101010101010010101010101010110110110110110011011011011011Output860616440NoteAn example of a valid setSis {00000, 00101, 00010, 00111, 11000, 11010, 11101, 11111}.",
+    "source": "CF",
+    "vjudge": false
+}

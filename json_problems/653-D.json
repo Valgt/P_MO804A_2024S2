@@ -1,0 +1,13 @@
+{
+    "uid": "653-D",
+    "url": "https://codeforces.com/contest/653/problem/D",
+    "tags": [
+        "binary search",
+        " flows",
+        " graphs"
+    ],
+    "title": "653-D",
+    "statement": "D. Delivery Bearstime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputNiwel is a little golden bear. As everyone knows, bears live in forests, but Niwel got tired of seeing all the trees so he decided to move to the city.In the city, Niwel took on a job managing bears to deliver goods. The city that he lives in can be represented as a directed graph withnnodes andmedges. Each edge has a weight capacity. A delivery consists of a bear carrying weights with their bear hands on a simple path from node1to noden. The total weight that travels across a particular edge must not exceed the weight capacity of that edge.Niwel hasexactlyxbears. In the interest of fairness, no bear can rest, and the weight that each bear carries must be exactly the same. However, each bear may take different paths if they like.Niwel would like to determine, what is the maximum amount of weight he can deliver (it's the sum of weights carried by bears). Find the maximum weight.InputThe first line contains three integersn,mandx(2 ≤n≤ 50,1 ≤m≤ 500,1 ≤x≤ 100 000) — the number of nodes, the number of directed edges and the number of bears, respectively.Each of the followingmlines contains three integersai,biandci(1 ≤ai,bi≤n,ai≠bi,1 ≤ci≤ 1 000 000). This represents a directed edge from nodeaitobiwith weight capacityci. There are no self loops and no multiple edges from one city to the other city. More formally, for eachiandjthati≠jit's guaranteed thatai≠ajorbi≠bj. It is also guaranteed that there is at least one path from node 1 to noden.OutputPrint one real value on a single line — the maximum amount of weight Niwel can deliver if he uses exactlyxbears. Your answer will be considered correct if its absolute or relative error does not exceed10- 6.Namely: let's assume that your answer isa, and the answer of the jury isb. The checker program will consider your answer correct if.ExamplesInput4 4 31 2 22 4 11 3 13 4 2Output1.5000000000Input5 11 231 2 32 3 43 4 54 5 61 3 42 4 53 5 61 4 22 5 31 5 23 2 30Output10.2222222222NoteIn the first sample, Niwel has three bears. Two bears can choose the path, while one bear can choose the path. Even though the bear that goes on the pathcan carry one unit of weight, in the interest of fairness, he is restricted to carry 0.5 units of weight. Thus, the total weight is 1.5 units overall. Note that even though Niwel can deliver more weight with just 2 bears, he must use exactly 3 bears on this day.",
+    "source": "CF",
+    "vjudge": false
+}

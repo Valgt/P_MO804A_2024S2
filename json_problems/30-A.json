@@ -1,0 +1,12 @@
+{
+    "uid": "30-A",
+    "url": "https://codeforces.com/contest/30/problem/A",
+    "tags": [
+        "brute force",
+        " math"
+    ],
+    "title": "30-A",
+    "statement": "A. Accountingtime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutA long time ago in some far country lived king Copa. After the recent king's reform, he got so large powers that started to keep the books by himself.The total incomeAof his kingdom during0-th year is known, as well as the total incomeBduringn-th year (these numbers can be negative — it means that there was a loss in the correspondent year).King wants to show financial stability. To do this, he needs to find common coefficientX— the coefficient of income growth during one year. This coefficient should satisfy the equation:A·Xn=B.Surely, the king is not going to do this job by himself, and demands you to find such numberX.It is necessary to point out that the fractional numbers are not used in kingdom's economy. That's why all input numbers as well as coefficientXmust be integers. The numberXmay be zero or negative.InputThe input contains three integersA,B,n(|A|, |B| ≤ 1000,1 ≤n≤ 10).OutputOutput the required integer coefficientX, or «No solution», if such a coefficient does not exist or it is fractional. If there are several possible solutions, output any of them.ExamplesInput2 18 2Output3Input-1 8 3Output-2Input0 0 10Output5Input1 16 5OutputNo solution",
+    "source": "CF",
+    "vjudge": false
+}

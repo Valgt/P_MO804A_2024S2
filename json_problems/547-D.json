@@ -1,0 +1,13 @@
+{
+    "uid": "547-D",
+    "url": "https://codeforces.com/contest/547/problem/D",
+    "tags": [
+        "constructive algorithms",
+        " dfs and similar",
+        " graphs"
+    ],
+    "title": "547-D",
+    "statement": "D. Mike and Fishtime limit per test3 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputAs everyone knows, bears love fish. But Mike is a strange bear; He hates fish! The even more strange thing about him is he has an infinite number of blue and red fish.He has markedndistinct points in the plane.i-th point is point(xi,yi). He wants to put exactly one fish in each of these points such that the difference between the number of red fish and the blue fish on each horizontal or vertical line is at most 1.He can't find a way to perform that! Please help him.InputThe first line of input contains integern(1 ≤n≤ 2 × 105).The nextnlines contain the information about the points,i-th line contains two integersxiandyi(1 ≤xi,yi≤ 2 × 105), thei-th point coordinates.It is guaranteed that there is at least one valid answer.OutputPrint the answer as a sequence ofncharacters 'r' (for red) or 'b' (for blue) wherei-th character denotes the color of the fish in thei-th point.ExamplesInput41 11 22 12 2OutputbrrbInput31 11 22 1Outputbrr",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,12 @@
+{
+    "uid": "505-E",
+    "url": "https://codeforces.com/contest/505/problem/E",
+    "tags": [
+        "binary search",
+        " greedy"
+    ],
+    "title": "505-E",
+    "statement": "E. Mr. Kitayuta vs. Bamboostime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutMr. Kitayuta's garden is planted withnbamboos. (Bamboos are tall, fast-growing tropical plants with hollow stems.) At the moment, the height of thei-th bamboo ishimeters, and it growsaimeters at the end of each day.Actually, Mr. Kitayuta hates these bamboos. He once attempted to cut them down, but failed because their stems are too hard. Mr. Kitayuta have not given up, however. He has crafted Magical Hammer with his intelligence to drive them into the ground.He can use Magical Hammer at mostktimes during each day, due to his limited Magic Power. Each time he beat a bamboo with Magical Hammer, its height decreases bypmeters. If the height would become negative by this change, it will become0meters instead (it does not disappear). In other words, if a bamboo whose height ishmeters is beaten with Magical Hammer, its new height will bemax(0,h-p)meters. It is possible to beat the same bamboo more than once in a day.Mr. Kitayuta will fight the bamboos formdays, starting today. His purpose is to minimize the height of the tallest bamboo aftermdays (that is,miterations of \"Mr. Kitayuta beats the bamboos and then they grow\"). Find the lowest possible height of the tallest bamboo aftermdays.InputThe first line of the input contains four space-separated integersn,m,kandp(1 ≤n≤ 105, 1 ≤m≤ 5000, 1 ≤k≤ 10, 1 ≤p≤ 109). They represent the number of the bamboos in Mr. Kitayuta's garden, the duration of Mr. Kitayuta's fight in days, the maximum number of times that Mr. Kitayuta beat the bamboos during each day, and the power of Magic Hammer, respectively.The followingnlines describe the properties of the bamboos. Thei-th of them (1 ≤i≤n) contains two space-separated integershiandai(0 ≤hi≤ 109, 1 ≤ai≤ 109), denoting the initial height and the growth rate of thei-th bamboo, respectively.OutputPrint the lowest possible height of the tallest bamboo aftermdays.ExamplesInput3 1 2 510 1010 1015 2Output17Input2 10 10 10000000000 100 10Output10Input5 3 3 109 59 24 79 103 8Output14",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,11 @@
+{
+    "uid": "678-B",
+    "url": "https://codeforces.com/contest/678/problem/B",
+    "tags": [
+        "implementation"
+    ],
+    "title": "678-B",
+    "statement": "B. The Same Calendartime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputThe girl Taylor has a beautiful calendar for the yeary. In the calendar all days are given with their days of week: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday and Sunday.The calendar is so beautiful that she wants to know what is the next year afterywhen the calendar will be exactly the same. Help Taylor to find that year.Note that leap years has366days. The year is leap if it is divisible by400or it is divisible by4, but not by100(https://en.wikipedia.org/wiki/Leap_year).InputThe only line contains integery(1000 ≤y< 100'000) — the year of the calendar.OutputPrint the only integery'— the next year afterywhen the calendar will be the same. Note that you should find the first year afterywith the same calendar.ExamplesInput2016Output2044Input2000Output2028Input50501Output50507NoteToday is Monday, the13th of June,2016.",
+    "source": "CF",
+    "vjudge": false
+}

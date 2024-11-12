@@ -1,0 +1,12 @@
+{
+    "uid": "363-B",
+    "url": "https://codeforces.com/contest/363/problem/B",
+    "tags": [
+        "brute force",
+        " dp"
+    ],
+    "title": "363-B",
+    "statement": "B. Fencetime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutThere is a fence in front of Polycarpus's home. The fence consists ofnplanks of the same width which go one after another from left to right. The height of thei-th plank ishimeters, distinct planks can have distinct heights.Fence forn= 7andh= [1, 2, 6, 1, 1, 7, 1]Polycarpus has bought a posh piano and is thinking about how to get it into the house. In order to carry out his plan, he needs to take exactlykconsecutive planks from the fence. Higher planks are harder to tear off the fence, so Polycarpus wants to find suchkconsecutive planks that the sum of their heights is minimal possible.Write the program that finds the indexes ofkconsecutive planks with minimal total height. Pay attention, the fence is not around Polycarpus's home, it is in front of home (in other words, the fence isn't cyclic).InputThe first line of the input contains integersnandk(1 ≤n≤ 1.5·105, 1 ≤k≤n) — the number of planks in the fence and the width of the hole for the piano. The second line contains the sequence of integersh1,h2, ...,hn(1 ≤hi≤ 100), wherehiis the height of thei-th plank of the fence.OutputPrint such integerjthat the sum of the heights of planksj,j+ 1, ...,j+k- 1is the minimum possible. If there are multiple suchj's, print any of them.ExamplesInput7 31 2 6 1 1 7 1Output3NoteIn the sample, your task is to find three consecutive planks with the minimum sum of heights. In the given case three planks with indexes 3, 4 and 5 have the required attribute, their total height is 8.",
+    "source": "CF",
+    "vjudge": false
+}

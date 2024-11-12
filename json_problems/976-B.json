@@ -1,0 +1,12 @@
+{
+    "uid": "976-B",
+    "url": "https://codeforces.com/contest/976/problem/B",
+    "tags": [
+        "implementation",
+        " math"
+    ],
+    "title": "976-B",
+    "statement": "B. Lara Croft and the New Gametime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou might have heard about the next game in Lara Croft series coming out this year. You also might have watched its trailer. Though you definitely missed the main idea about its plot, so let me lift the veil of secrecy.Lara is going to explore yet another dangerous dungeon. Game designers decided to use good old 2D environment. The dungeon can be represented as a rectangle matrix ofnrows andmcolumns. Cell(x,y)is the cell in thex-th row in they-th column. Lara can move between the neighbouring by side cells in all four directions.Moreover, she has even chosen the path for herself to avoid all the traps. She enters the dungeon in cell(1, 1), that is top left corner of the matrix. Then she goes down all the way to cell(n, 1)— the bottom left corner. Then she starts moving in the snake fashion — all the way to the right, one cell up, then to the left to the cell in2-nd column, one cell up. She moves until she runs out of non-visited cells.nandmgiven are such that she always end up in cell(1, 2).Lara has already moved to a neighbouring cellktimes. Can you determine her current position?InputThe only line contains three integersn,mandk(2 ≤n,m≤ 109,nis always even,0 ≤k<n·m). Note thatkdoesn't fit into32-bit integer type!OutputPrint the cell (the row and the column where the cell is situated) where Lara ends up after she movesktimes.ExamplesInput4 3 0Output1 1Input4 3 11Output1 2Input4 3 7Output3 2NoteHere is her path on matrix4by3:",
+    "source": "CF",
+    "vjudge": false
+}

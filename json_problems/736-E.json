@@ -1,0 +1,14 @@
+{
+    "uid": "736-E",
+    "url": "https://codeforces.com/contest/736/problem/E",
+    "tags": [
+        "constructive algorithms",
+        " flows",
+        " greedy",
+        " math"
+    ],
+    "title": "736-E",
+    "statement": "E. Chess Championshiptime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputOstap is preparing to play chess again and this time he is about to prepare. Thus, he was closely monitoring one recent chess tournament. There weremplayers participating and each pair of players played exactly one game. The victory gives2points, draw —1points, lose —0points.Ostap is lazy, so he never tries to remember the outcome of each game. Instead, he computes the total number of points earned by each of the players (the sum of his points in all games which he took part in), sort these value in non-ascending order and then remembers firstnintegers in this list.Now the Great Strategist Ostap wonders whether he remembers everything correct. He considers that he is correct if there exists at least one tournament results table such that it will produce the given integers. That means, if we count the sum of points for each player, sort them and take firstnelements, the result will coincide with what Ostap remembers. Can you check if such table exists?InputThe first line of the input contains two integersmandn(1 ≤n≤m≤ 3000) — the number of participants of the tournament and the number of top results Ostap remembers.The second line containsnintegers, provided in non-ascending order — the number of points earned by top participants as Ostap remembers them. It's guaranteed that this integers are non-negative and do not exceed2·m.OutputIf there is no tournament such that Ostap can obtain the given set of integers using the procedure described in the statement, then print \"no\" in the only line of the output. Otherwise, the first line of the output should contain the word \"yes\". Nextmlines should provide the description of any valid tournament. Each of these lines must containmcharacters 'X', 'W', 'D' and 'L'. Character 'X' should always be located on the main diagonal (and only there), that is on thei-th position of thei-th string. Character 'W' on thej-th position of thei-th string means that thei-th player won the game against thej-th. In the same way character 'L' means loose and 'D' means draw.The table you print must be consistent and the points earned by bestnparticipants should match the memory of Ostap. If there are many possible answers, print any of them.ExamplesInput5 58 6 4 2 0OutputyesXWWWWLXWWWLLXWWLLLXWLLLLXInput5 19Outputno",
+    "source": "CF",
+    "vjudge": false
+}

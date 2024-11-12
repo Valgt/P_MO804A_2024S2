@@ -1,0 +1,12 @@
+{
+    "uid": "805-A",
+    "url": "https://codeforces.com/contest/805/problem/A",
+    "tags": [
+        "greedy",
+        " math"
+    ],
+    "title": "805-A",
+    "statement": "A. Fake NPtime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputTavak and Seyyed are good friends. Seyyed is very funny and he told Tavak to solve the following problem instead oflongest-path.You are givenlandr. For all integers fromltor, inclusive, we wrote down all of their integer divisors except1. Find the integer that we wrote down the maximum number of times.Solve the problem to show that it's not aNPproblem.InputThe first line contains two integerslandr(2 ≤l≤r≤ 109).OutputPrint single integer, the integer that appears maximum number of times in the divisors.If there are multiple answers, print any of them.ExamplesInput19 29Output2Input3 6Output3NoteDefinition of a divisor:https://www.mathsisfun.com/definitions/divisor-of-an-integer-.htmlThe first example: from19to29these numbers are divisible by2:{20, 22, 24, 26, 28}.The second example: from3to6these numbers are divisible by3:{3, 6}.",
+    "source": "CF",
+    "vjudge": false
+}

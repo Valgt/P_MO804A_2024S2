@@ -1,0 +1,13 @@
+{
+    "uid": "653-F",
+    "url": "https://codeforces.com/contest/653/problem/F",
+    "tags": [
+        "data structures",
+        " string suffix structures",
+        " strings"
+    ],
+    "title": "653-F",
+    "statement": "F. Paper tasktime limit per test3 secondsmemory limit per test512 megabytesinputstandard inputoutputstandard outputAlex was programming while Valentina (his toddler daughter) got there and started asking many questions about the round brackets (or parenthesis) in the code. He explained her a bit and when she got it he gave her a task in order to finish his code on time.For the purpose of this problem we consider only strings consisting of opening and closing round brackets, that is characters '(' and ')'.The sequence of brackets is calledcorrectif:it's empty;it's a correct sequence of brackets, enclosed in a pair of opening and closing brackets;it's a concatenation of two correct sequences of brackets.For example, the sequences \"()()\" and \"((()))(())\" are correct, while \")(()\", \"(((((\" and \"())\" are not.Alex took a piece of paper, wrote a stringsconsisting of brackets and asked Valentina to count the number ofdistinctnon-empty substrings ofsthat are correct sequences of brackets. In other words, her task is to count the number of non-empty correct sequences of brackets that occur in a stringsas asubstring(don't mix up with subsequences).When Valentina finished the task, Alex noticed he doesn't know the answer. Help him don't loose face in front of Valentina and solve the problem!InputThe first line of the input contains an integern(1 ≤n≤ 500 000) — the length of the strings.The second line contains a stringsof lengthnconsisting of only '(' and ')'.OutputPrint the number ofdistinctnon-empty correct sequences that occur insas substring.ExamplesInput10()()()()()Output5Input7)(())()Output3NoteIn the first sample, there are5distinct substrings we should count: \"()\", \"()()\", \"()()()\", \"()()()()\" and \"()()()()()\".In the second sample, there are3distinct substrings we should count: \"()\", \"(())\" and \"(())()\".",
+    "source": "CF",
+    "vjudge": false
+}

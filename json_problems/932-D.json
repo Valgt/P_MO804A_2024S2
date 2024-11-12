@@ -1,0 +1,13 @@
+{
+    "uid": "932-D",
+    "url": "https://codeforces.com/contest/932/problem/D",
+    "tags": [
+        "binary search",
+        " dp",
+        " trees"
+    ],
+    "title": "932-D",
+    "statement": "D. Treetime limit per test2 secondsmemory limit per test512 megabytesinputstandard inputoutputstandard outputYou are given a node of the tree with index1and with weight0. Letcntbe the number of nodes in the tree at any instant (initially,cntis set to1). SupportQqueries of following two types:Add a new node (indexcnt+ 1) with weightWand add edge between nodeRand this node.Output the maximum length of sequence of nodes whichstarts withR.Every node in the sequence is an ancestor of its predecessor.Sum of weight of nodes in sequence does not exceedX.For some nodesi,jthat are consecutive in the sequence ifiis an ancestor ofjthenw[i] ≥w[j]and there should not exist a nodekon simple path fromitojsuch thatw[k] ≥w[j]The tree is rooted at node1at any instant.Note that the queries are given in a modified way.InputFirst line containing the number of queriesQ(1 ≤Q≤ 400000).Letlastbe the answer for previous query of type2(initiallylastequals0).Each of the nextQlines contains a query of following form:1 p q (1 ≤p,q≤ 1018): This is query of first type whereand. It is guaranteed that1 ≤R≤cntand0 ≤W≤ 109.2 p q (1 ≤p,q≤ 1018): This is query of second type whereand. It is guaranteed that1 ≤R≤cntand0 ≤X≤ 1015.denotes bitwise XOR ofaandb.It is guaranteed that at least one query of type 2 exists.OutputOutput the answer to each query of second type in separate line.ExamplesInput61 1 12 2 02 2 11 3 02 2 02 2 2Output0112Input61 1 02 2 02 0 31 0 22 1 32 1 6Output2232Input71 1 21 2 32 3 31 0 01 5 12 5 02 4 0Output112Input71 1 31 2 32 3 41 2 01 5 32 5 52 7 22Output123NoteIn the first example,last= 0- Query 1: 1 1 1, Node2with weight1is added to node1.- Query 2: 2 2 0, No sequence of nodes starting at2has weight less than or equal to0.last= 0- Query 3: 2 2 1, Answer is1as sequence will be{2}.last= 1- Query 4: 1 2 1, Node3with weight1is added to node2.- Query 5: 2 3 1, Answer is1as sequence will be{3}. Node2cannot be added as sum of weights cannot be greater than1.last= 1- Query 6: 2 3 3, Answer is2as sequence will be{3, 2}.last= 2",
+    "source": "CF",
+    "vjudge": false
+}

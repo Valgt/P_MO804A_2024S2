@@ -1,0 +1,11 @@
+{
+    "uid": "453-E",
+    "url": "https://codeforces.com/contest/453/problem/E",
+    "tags": [
+        "data structures"
+    ],
+    "title": "453-E",
+    "statement": "E. Little Pony and Lord Tirektime limit per test3 secondsmemory limit per test256 megabytesinputstdinoutputstdoutLord Tirek is a centaur and the main antagonist in the season four finale episodes in the series \"My Little Pony: Friendship Is Magic\". In \"Twilight's Kingdom\" (Part 1), Tirek escapes from Tartarus and drains magic from ponies to grow stronger.The core skill of Tirek is called Absorb Mana. It takes all mana from a magic creature and gives them to the caster.Now to simplify the problem, assume you havenponies (numbered from 1 ton). Each pony has three attributes:si: amount of mana that the pony has at time 0;mi: maximum mana that the pony can have;ri: mana regeneration per unit time.Lord Tirek will dominstructions, each of them can be described with three integers:ti,li,ri. The instruction means that at timeti, Tirek will use Absorb Mana on ponies with numbers fromlitori(both borders inclusive). We'll give you all theminstructions in order, count how much mana Tirek absorbs for each instruction.InputThe first line contains an integern(1 ≤n≤ 105) — the number of ponies. Each of the nextnlines contains three integerssi,mi,ri(0 ≤si≤mi≤ 105; 0 ≤ri≤ 105), describing a pony.The next line contains an integerm(1 ≤m≤ 105) — the number of instructions. Each of the nextmlines contains three integersti,li,ri(0 ≤ti≤ 109; 1 ≤li≤ri≤n), describing an instruction of Lord Tirek. The instructions are given in strictly increasing order ofti(alltiare distinct).OutputFor each instruction, output a single line which contains a single integer, the total mana absorbed in this instruction.ExamplesInput50 10 10 12 10 20 10 12 10 10 125 1 519 1 5Output2558NoteEvery pony starts with zero mana. For the first instruction, each pony has 5 mana, so you get 25 mana in total and each pony has 0 mana after the first instruction.For the second instruction, pony 3 has 14 mana and other ponies have mana equal to theirmi.",
+    "source": "CF",
+    "vjudge": false
+}

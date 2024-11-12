@@ -1,0 +1,11 @@
+{
+    "uid": "585-D",
+    "url": "https://codeforces.com/contest/585/problem/D",
+    "tags": [
+        "meet-in-the-middle"
+    ],
+    "title": "585-D",
+    "statement": "D. Lizard Era: Beginningtime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputIn the game Lizard Era: Beginning the protagonist will travel with three companions: Lynn, Meliana and Worrigan. Overall the game hasnmandatory quests. To perform each of them, you need to takeexactly twocompanions.The attitude of each of the companions to the hero is an integer. Initially, the attitude of each of them to the hero of neutral and equal to 0. As the hero completes quests, he makes actions that change the attitude of the companions, whom he took to perform this task, in positive or negative direction.Tell us what companions the hero needs to choose to make their attitude equal after completing all the quests. If this can be done in several ways, choose the one in which the value of resulting attitude is greatest possible.InputThe first line contains positive integern(1 ≤n≤ 25) — the number of important tasks.Nextnlines contain the descriptions of the tasks — thei-th line contains three integersli,mi,wi— the values by which the attitude of Lynn, Meliana and Worrigan respectively will change towards the hero if the hero takes them on thei-th task. All the numbers in the input are integers and do not exceed107in absolute value.OutputIf there is no solution, print in the first line \"Impossible\".Otherwise, printnlines, two characters is each line — in thei-th line print the first letters of the companions' names that hero should take to complete thei-th task ('L' for Lynn, 'M' for Meliana, 'W' for Worrigan). Print the letters in any order, if there are multiple solutions, print any of them.ExamplesInput31 0 00 1 00 0 1OutputLMMWMWInput70 8 95 9 -26 -8 -79 4 5-4 -9 9-4 5 2-6 8 -7OutputLMMWLMLWMWLMLWInput21 0 01 1 0OutputImpossible",
+    "source": "CF",
+    "vjudge": false
+}

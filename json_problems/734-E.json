@@ -1,0 +1,13 @@
+{
+    "uid": "734-E",
+    "url": "https://codeforces.com/contest/734/problem/E",
+    "tags": [
+        "dfs and similar",
+        " dp",
+        " trees"
+    ],
+    "title": "734-E",
+    "statement": "E. Anton and Treetime limit per test3 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputAnton is growing a tree in his garden. In case you forgot, the tree is a connected acyclic undirected graph.There arenvertices in the tree, each of them is painted black or white. Anton doesn't like multicolored trees, so he wants to change the tree such that all vertices have the same color (black or white).To change the colors Anton can use only operations of one type. We denote it aspaint(v), wherevis some vertex of the tree. This operation changes the color of all verticesusuch that all vertices on the shortest path fromvtouhave the same color (includingvandu). For example, consider the treeand apply operationpaint(3)to get the following:Anton is interested in the minimum number of operation he needs to perform in order to make the colors of all vertices equal.InputThe first line of the input contains a single integern(1 ≤n≤ 200 000) — the number of vertices in the tree.The second line containsnintegerscolori(0 ≤colori≤ 1) — colors of the vertices.colori= 0means that thei-th vertex is initially painted white, whilecolori= 1means it's initially painted black.Then follown- 1line, each of them contains a pair of integersuiandvi(1 ≤ui,vi≤n,ui≠vi) — indices of vertices connected by the corresponding edge. It's guaranteed that all pairs(ui,vi)are distinct, i.e. there are no multiple edges.OutputPrint one integer — the minimum number of operations Anton has to apply in order to make all vertices of the tree black or all vertices of the tree white.ExamplesInput110 0 0 1 1 0 1 0 0 1 11 21 32 42 55 65 73 83 93 109 11Output2Input40 0 0 01 22 33 4Output0NoteIn the first sample, the tree is the same as on the picture. If we first apply operationpaint(3)and then applypaint(6), the tree will become completely black, so the answer is2.In the second sample, the tree is already white, so there is no need to apply any operations and the answer is0.",
+    "source": "CF",
+    "vjudge": false
+}

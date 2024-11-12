@@ -1,0 +1,15 @@
+{
+    "uid": "540-E",
+    "url": "https://codeforces.com/contest/540/problem/E",
+    "tags": [
+        "binary search",
+        " data structures",
+        " implementation",
+        " sortings",
+        " trees"
+    ],
+    "title": "540-E",
+    "statement": "E. Infinite Inversionstime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputThere is an infinite sequence consisting of all positive integers in the increasing order:p= {1, 2, 3, ...}. We performednswapoperations with this sequence. Aswap(a,b)is an operation of swapping the elements of the sequence on positionsaandb. Your task is to find the number of inversions in the resulting sequence, i.e. the number of such index pairs(i,j), thati<jandpi>pj.InputThe first line contains a single integern(1 ≤n≤ 105) — the number ofswapoperations applied to the sequence.Each of the nextnlines contains two integersaiandbi(1 ≤ai,bi≤ 109,ai≠bi) — the arguments of theswapoperation.OutputPrint a single integer — the number of inversions in the resulting sequence.ExamplesInput24 21 4Output4Input31 63 42 5Output15NoteIn the first sample the sequence is being modified as follows:. It has 4 inversions formed by index pairs(1, 4),(2, 3),(2, 4)and(3, 4).",
+    "source": "CF",
+    "vjudge": false
+}

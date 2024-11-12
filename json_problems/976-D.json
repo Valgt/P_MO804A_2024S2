@@ -1,0 +1,13 @@
+{
+    "uid": "976-D",
+    "url": "https://codeforces.com/contest/976/problem/D",
+    "tags": [
+        "constructive algorithms",
+        " graphs",
+        " implementation"
+    ],
+    "title": "976-D",
+    "statement": "D. Degree Settime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given a sequence ofnpositive integersd1,d2, ...,dn(d1<d2< ... <dn). Your task is to construct an undirected graph such that:there are exactlydn+ 1vertices;there are no self-loops;there are no multiple edges;there are no more than106edges;itsdegree setis equal tod.Vertices should be numbered1through(dn+ 1).Degree sequenceis an arrayawith length equal to the number of vertices in a graph such thataiis the number of vertices adjacent toi-th vertex.Degree setis a sorted in increasing order sequence of all distinct values from thedegree sequence.It is guaranteed that there exists such a graph that all the conditions hold, and it contains no more than106edges.Print the resulting graph.InputThe first line contains one integern(1 ≤n≤ 300) — the size of the degree set.The second line containsnintegersd1,d2, ...,dn(1 ≤di≤ 1000,d1<d2< ... <dn) — the degree set.OutputIn the first line print one integerm(1 ≤m≤ 106) — the number of edges in the resulting graph. It is guaranteed that there exists such a graph that all the conditions hold and it contains no more than106edges.Each of the nextmlines should contain two integersviandui(1 ≤vi,ui≤dn+ 1) — the description of thei-th edge.ExamplesInput32 3 4Output83 14 24 52 55 13 22 15 3Input31 2 3Output41 21 31 42 3",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,13 @@
+{
+    "uid": "914-C",
+    "url": "https://codeforces.com/contest/914/problem/C",
+    "tags": [
+        "brute force",
+        " combinatorics",
+        " dp"
+    ],
+    "title": "914-C",
+    "statement": "C. Travelling Salesman and Special Numberstime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputThe Travelling Salesman spends a lot of time travelling so he tends to get bored. To pass time, he likes to perform operations on numbers. One such operation is to take a positive integerxand reduce it to the number of bits set to1in the binary representation ofx. For example for number13it's true that1310= 11012, so it has3bits set and13will be reduced to3in one operation.He calls a numberspecialif the minimum number of operations to reduce it to1isk.He wants to find out how many special numbers exist which are not greater thann. Please help the Travelling Salesman, as he is about to reach his destination!Since the answer can be large, output it modulo109+ 7.InputThe first line contains integern(1 ≤n< 21000).The second line contains integerk(0 ≤k≤ 1000).Note thatnis given in its binary representation without any leading zeros.OutputOutput a single integer — the number of special numbers not greater thann, modulo109+ 7.ExamplesInput1102Output3Input1111110112Output169NoteIn the first sample, the three special numbers are3,5and6. They get reduced to2in one operation (since there are two set bits in each of3,5and6) and then to1in one more operation (since there is only one set bit in2).",
+    "source": "CF",
+    "vjudge": false
+}

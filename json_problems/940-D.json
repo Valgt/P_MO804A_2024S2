@@ -1,0 +1,12 @@
+{
+    "uid": "940-D",
+    "url": "https://codeforces.com/contest/940/problem/D",
+    "tags": [
+        "binary search",
+        " implementation"
+    ],
+    "title": "940-D",
+    "statement": "D. Alena And The Heatertime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard output\"We've tried solitary confinement, waterboarding and listening to Just In Beaver, to no avail. We need something extreme.\"\"Little Alena got an array as a birthday present...\"The arraybof lengthnis obtained from the arrayaof lengthnand two integerslandr(l≤r) using the following procedure:b1=b2=b3=b4= 0.For all5 ≤i≤n:bi= 0ifai,ai- 1,ai- 2,ai- 3,ai- 4>randbi- 1=bi- 2=bi- 3=bi- 4= 1bi= 1ifai,ai- 1,ai- 2,ai- 3,ai- 4<landbi- 1=bi- 2=bi- 3=bi- 4= 0bi=bi- 1otherwiseYou are given arraysaandb'of the same length. Find two integerslandr(l≤r), such that applying the algorithm described above will yield an arraybequal tob'.It's guaranteed that the answer exists.InputThe first line of input contains a single integern(5 ≤n≤ 105) — the length ofaandb'.The second line of input containsnspace separated integersa1, ...,an(- 109≤ai≤ 109) — the elements ofa.The third line of input contains a string ofncharacters, consisting of0and1— the elements ofb'. Note that they are not separated by spaces.OutputOutput two integerslandr(- 109≤l≤r≤ 109), conforming to the requirements described above.If there are multiple solutions, output any of them.It's guaranteed that the answer exists.ExamplesInput51 2 3 4 500001Output6 15Input10-10 -9 -8 -7 -6 6 7 8 9 100000111110Output-5 5NoteIn the first test case any pair oflandrpair is valid, if6 ≤l≤r≤ 109, in that caseb5= 1, becausea1, ...,a5<l.",
+    "source": "CF",
+    "vjudge": false
+}

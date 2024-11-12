@@ -1,0 +1,12 @@
+{
+    "uid": "388-A",
+    "url": "https://codeforces.com/contest/388/problem/A",
+    "tags": [
+        "greedy",
+        " sortings"
+    ],
+    "title": "388-A",
+    "statement": "A. Fox and Box Accumulationtime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutFox Ciel hasnboxes in her room. They have the same size and weight, but they might have different strength. Thei-th box can hold at mostxiboxes on its top (we'll callxithe strength of the box).Since all the boxes have the same size, Ciel cannot put more than one box directly on the top of some box. For example, imagine Ciel has three boxes: the first has strength 2, the second has strength 1 and the third has strength 1. She cannot put the second and the third box simultaneously directly on the top of the first one. But she can put the second box directly on the top of the first one, and then the third box directly on the top of the second one. We will call such a construction of boxes apile.Fox Ciel wants to construct piles from all the boxes. Each pile will contain some boxes from top to bottom, and there cannot be more thanxiboxes on the top ofi-th box. What is the minimal number of piles she needs to construct?InputThe first line contains an integern(1 ≤n≤ 100). The next line containsnintegersx1,x2, ...,xn(0 ≤xi≤ 100).OutputOutput a single integer — the minimal possible number of piles.ExamplesInput30 0 10Output2Input50 1 2 3 4Output1Input40 0 0 0Output4Input90 1 0 2 0 1 1 2 10Output3NoteIn example 1, one optimal way is to build 2 piles: the first pile contains boxes 1 and 3 (from top to bottom), the second pile contains only box 2.In example 2, we can build only 1 pile that contains boxes 1, 2, 3, 4, 5 (from top to bottom).",
+    "source": "CF",
+    "vjudge": false
+}

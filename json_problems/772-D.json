@@ -1,0 +1,12 @@
+{
+    "uid": "772-D",
+    "url": "https://codeforces.com/contest/772/problem/D",
+    "tags": [
+        "bitmasks",
+        " dp"
+    ],
+    "title": "772-D",
+    "statement": "D. Varying Kibibitstime limit per test3 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are givennintegersa1,a2, ...,an. Denote this list of integers asT.Letf(L)be a function that takes in a non-empty list of integersL.The function will output another integer as follows:First, all integers inLare padded with leading zeros so they are all the same length as the maximum length number inL.We will construct a string where thei-th character is the minimum of thei-th character in padded input numbers.The output is the number representing the string interpreted in base 10.For examplef(10, 9) = 0,f(123, 321) = 121,f(530, 932, 81) = 30.Define the functionHere,denotes a subsequence.In other words,G(x)is the sum of squares of sum of elements of nonempty subsequences ofTthat evaluate toxwhen plugged intofmodulo1 000 000 007, then multiplied byx. The last multiplication is not modded.You would like to computeG(0),G(1), ...,G(999 999). To reduce the output size, print the value, wheredenotes the bitwise XOR operator.InputThe first line contains the integern(1 ≤n≤ 1 000 000) — the size of listT.The next line containsnspace-separated integers,a1,a2, ...,an(0 ≤ai≤ 999 999) — the elements of the list.OutputOutput a single integer, the answer to the problem.ExamplesInput3123 321 555Output292711924Input1999999Output997992010006992Input101 1 1 1 1 1 1 1 1 1Output28160NoteFor the first sample, the nonzero values ofGareG(121) = 144 611 577,G(123) = 58 401 999,G(321) = 279 403 857,G(555) = 170 953 875. The bitwise XOR of these numbers is equal to292 711 924.For example,, since the subsequences[123]and[123, 555]evaluate to123when plugged intof.For the second sample, we haveFor the last sample, we have, whereis the binomial coefficient.",
+    "source": "CF",
+    "vjudge": false
+}

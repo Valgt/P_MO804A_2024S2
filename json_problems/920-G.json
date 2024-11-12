@@ -1,0 +1,16 @@
+{
+    "uid": "920-G",
+    "url": "https://codeforces.com/contest/920/problem/G",
+    "tags": [
+        "binary search",
+        " bitmasks",
+        " brute force",
+        " combinatorics",
+        " math",
+        " number theory"
+    ],
+    "title": "920-G",
+    "statement": "G. List Of Integerstime limit per test5 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputLet's denote asL(x,p)an infinite sequence of integersysuch thatgcd(p,y) = 1andy>x(wheregcdis the greatest common divisor of two integer numbers), sorted in ascending order. The elements ofL(x,p)are1-indexed; for example,9,13and15are the first, the second and the third elements ofL(7, 22), respectively.You have to processtqueries. Each query is denoted by three integersx,pandk, and the answer to this query isk-th element ofL(x,p).InputThe first line contains one integert(1 ≤t≤ 30000) — the number of queries to process.Thentlines follow.i-th line contains three integersx,pandkfori-th query (1 ≤x,p,k≤ 106).OutputPrinttintegers, wherei-th integer is the answer toi-th query.ExamplesInput37 22 17 22 27 22 3Output91315Input542 42 4243 43 4344 44 4445 45 4546 46 46Output18787139128141",
+    "source": "CF",
+    "vjudge": false
+}

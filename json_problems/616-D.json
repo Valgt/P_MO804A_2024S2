@@ -1,0 +1,13 @@
+{
+    "uid": "616-D",
+    "url": "https://codeforces.com/contest/616/problem/D",
+    "tags": [
+        "binary search",
+        " data structures",
+        " two pointers"
+    ],
+    "title": "616-D",
+    "statement": "D. Longest k-Good Segmenttime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputThe arrayawithnintegers is given. Let's call the sequence of one or more consecutive elements inasegment. Also let's call the segmentk-goodif it contains no more thankdifferent values.Find any longestk-good segment.As the input/output can reach huge size it is recommended to use fast input/output methods: for example, prefer to usescanf/printfinstead ofcin/coutin C++, prefer to useBufferedReader/PrintWriterinstead ofScanner/System.outinJava.InputThe first line contains two integersn,k(1 ≤k≤n≤ 5·105) — the number of elements inaand the parameterk.The second line containsnintegersai(0 ≤ai≤ 106) — the elements of the arraya.OutputPrint two integersl,r(1 ≤l≤r≤n) — the index of the left and the index of the right ends of somek-good longest segment. If there are several longest segments you can print any of them. The elements inaare numbered from1tonfrom left to right.ExamplesInput5 51 2 3 4 5Output1 5Input9 36 5 1 2 3 2 1 4 5Output3 7Input3 11 2 3Output1 1",
+    "source": "CF",
+    "vjudge": false
+}

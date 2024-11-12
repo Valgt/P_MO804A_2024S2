@@ -1,0 +1,14 @@
+{
+    "uid": "622-E",
+    "url": "https://codeforces.com/contest/622/problem/E",
+    "tags": [
+        "dfs and similar",
+        " greedy",
+        " sortings",
+        " trees"
+    ],
+    "title": "622-E",
+    "statement": "E. Ants in Leavestime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputTree is a connected graph without cycles. A leaf of a tree is any vertex connected with exactly one other vertex.You are given a tree withnvertices and a root in the vertex1. There is an ant in each leaf of the tree. In one second some ants can simultaneously go to the parent vertex from the vertex they were in. No two ants can be in the same vertex simultaneously except for the root of the tree.Find the minimal time required for all ants to be in the root of the tree. Note that at start the ants are only in the leaves of the tree.InputThe first line contains integern(2 ≤n≤ 5·105) — the number of vertices in the tree.Each of the nextn- 1lines contains two integersxi,yi(1 ≤xi,yi≤n) — the ends of thei-th edge. It is guaranteed that you are given the correct undirected tree.OutputPrint the only integert— the minimal time required for all ants to be in the root of the tree.ExamplesInput121 21 31 42 52 63 73 83 98 108 118 12Output6Input22 1Output1",
+    "source": "CF",
+    "vjudge": false
+}

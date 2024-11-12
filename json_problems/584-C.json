@@ -1,0 +1,13 @@
+{
+    "uid": "584-C",
+    "url": "https://codeforces.com/contest/584/problem/C",
+    "tags": [
+        "constructive algorithms",
+        " greedy",
+        " strings"
+    ],
+    "title": "584-C",
+    "statement": "C. Marina and Vasyatime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputMarina loves strings of the same length and Vasya loves when there is a third string, different from them in exactlytcharacters. Help Vasya find at least one such string.More formally, you are given two stringss1,s2of lengthnand numbert. Let's denote asf(a,b)the number of characters in which stringsaandbare different. Then your task will be to find any strings3of lengthn, such thatf(s1,s3) =f(s2,s3) =t. If there is no such string, print- 1.InputThe first line contains two integersnandt(1 ≤n≤ 105,0 ≤t≤n).The second line contains strings1of lengthn, consisting of lowercase English letters.The third line contain strings2of lengthn, consisting of lowercase English letters.OutputPrint a string of lengthn, differing from strings1and froms2in exactlytcharacters. Your string should consist only from lowercase English letters. If such string doesn't exist, print -1.ExamplesInput3 2abcxycOutputaydInput1 0cbOutput-1",
+    "source": "CF",
+    "vjudge": false
+}

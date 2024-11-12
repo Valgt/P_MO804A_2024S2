@@ -1,0 +1,13 @@
+{
+    "uid": "794-D",
+    "url": "https://codeforces.com/contest/794/problem/D",
+    "tags": [
+        "dfs and similar",
+        " graphs",
+        " hashing"
+    ],
+    "title": "794-D",
+    "statement": "D. Labelling Citiestime limit per test3 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputOleg the bank client lives in Bankopolia. There arencities in Bankopolia and some pair of cities are connected directly by bi-directional roads. The cities are numbered from1ton. There are a total ofmroads in Bankopolia, thei-th road connects citiesuiandvi. It is guaranteed that from each city it is possible to travel to any other city using some of the roads.Oleg wants to give a label to each city. Suppose the label of cityiis equal toxi. Then, it must hold that for all pairs of cities(u,v)the condition|xu-xv| ≤ 1holds if and only if there is a road connectinguandv.Oleg wonders if such a labeling is possible. Find an example of such labeling if the task is possible and state that it is impossible otherwise.InputThe first line of input contains two space-separated integersnandm(2 ≤n≤ 3·105,1 ≤m≤ 3·105) — the number of cities and the number of roads.Next,mlines follow. Thei-th line contains two space-separated integersuiandvi(1 ≤ui,vi≤n,ui≠vi) — the cities connected by thei-th road. It is guaranteed that there is at most one road between each pair of cities and it is possible to travel from any city to any other city using some roads.OutputIf the required labeling is not possible, output a single line containing the string \"NO\" (without quotes).Otherwise, output the string \"YES\" (without quotes) on the first line. On the next line, outputnspace-separated integers,x1,x2, ...,xn. The condition1 ≤xi≤ 109must hold for alli, and for all pairs of cities(u,v)the condition|xu-xv| ≤ 1must hold if and only if there is a road connectinguandv.ExamplesInput4 41 21 31 43 4OutputYES2 3 1 1Input5 101 21 31 41 52 32 42 53 43 55 4OutputYES1 1 1 1 1Input4 31 21 31 4OutputNONoteFor the first sample,x1= 2,x2= 3,x3=x4= 1is a valid labeling. Indeed,(3, 4),(1, 2),(1, 3),(1, 4)are the only pairs of cities with difference of labels not greater than1, and these are precisely the roads of Bankopolia.For the second sample, all pairs of cities have difference of labels not greater than1and all pairs of cities have a road connecting them.For the last sample, it is impossible to construct a labeling satisfying the given constraints.",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,13 @@
+{
+    "uid": "354-A",
+    "url": "https://codeforces.com/contest/354/problem/A",
+    "tags": [
+        "brute force",
+        " greedy",
+        " math"
+    ],
+    "title": "354-A",
+    "statement": "A. Vasya and Robottime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutVasya hasnitems lying in a line. The items are consecutively numbered by numbers from1tonin such a way that the leftmost item has number1, the rightmost item has numbern. Each item has a weight, thei-th item weightswikilograms.Vasya needs to collect all these items, however he won't do it by himself. He uses his brand new robot. The robot has two different arms — the left one and the right one. The robot can consecutively perform the following actions:Take the leftmost item with the left hand and spendwi·lenergy units (wiis a weight of the leftmost item,lis some parameter). If the previous action was the same (left-hand), then the robot spends extraQlenergy units;Take the rightmost item with the right hand and spendwj·renergy units (wjis a weight of the rightmost item,ris some parameter). If the previous action was the same (right-hand), then the robot spends extraQrenergy units;Naturally, Vasya wants to program the robot in a way that the robot spends as little energy as possible. He asked you to solve this problem. Your task is to find the minimum number of energy units robot spends to collect all items.InputThe first line contains five integersn,l,r,Ql,Qr(1 ≤n≤ 105; 1 ≤l,r≤ 100; 1 ≤Ql,Qr≤ 104).The second line containsnintegersw1,w2, ...,wn(1 ≤wi≤ 100).OutputIn the single line print a single number — the answer to the problem.ExamplesInput3 4 4 19 142 3 99Output576Input4 7 2 3 91 2 3 4Output34NoteConsider the first sample. Asl=r, we can take an item in turns: first from the left side, then from the right one and last item from the left. In total the robot spends4·42 + 4·99 + 4·3 = 576energy units.The second sample. The optimal solution is to take one item from the right, then one item from the left and two items from the right. In total the robot spends(2·4) + (7·1) + (2·3) + (2·2 + 9) = 34energy units.",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,13 @@
+{
+    "uid": "288-E",
+    "url": "https://codeforces.com/contest/288/problem/E",
+    "tags": [
+        "dp",
+        " implementation",
+        " math"
+    ],
+    "title": "288-E",
+    "statement": "E. Polo the Penguin and Lucky Numberstime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutEverybody knows that lucky numbers are positive integers that contain only lucky digits 4 and 7 in their decimal representation. For example, numbers 47, 744, 4 are lucky and 5, 17, 467 are not.Polo the Penguin have two positive integerslandr(l<r), both of them are lucky numbers. Moreover, their lengths (that is, the number of digits in the decimal representation without the leading zeroes) are equal to each other.Let's assume thatnis the number of distinct lucky numbers, each of them cannot be greater thanror less thanl, andaiis thei-th (in increasing order) number of them. Finda1·a2+a2·a3+ ... +an- 1·an. As the answer can be rather large, print the remainder after dividing it by1000000007(109+ 7).InputThe first line contains a positive integerl, and the second line contains a positive integerr(1 ≤l<r≤ 10100000). The numbers are given without any leading zeroes.It is guaranteed that the lengths of the given numbers are equal to each other and that both of them are lucky numbers.OutputIn the single line print a single integer — the answer to the problem modulo1000000007(109+ 7).ExamplesInput47Output28Input474777Output2316330",
+    "source": "CF",
+    "vjudge": false
+}

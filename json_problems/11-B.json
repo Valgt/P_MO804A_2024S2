@@ -1,0 +1,11 @@
+{
+    "uid": "11-B",
+    "url": "https://codeforces.com/contest/11/problem/B",
+    "tags": [
+        "math"
+    ],
+    "title": "11-B",
+    "statement": "B. Jumping Jacktime limit per test1 secondmemory limit per test64 megabytesinputstdinoutputstdoutJack is working on his jumping skills recently. Currently he's located at point zero of the number line. He would like to get to the pointx. In order to train, he has decided that he'll first jump by only one unit, and each subsequent jump will be exactly one longer than the previous one. He can go either left or right with each jump. He wonders how many jumps he needs to reachx.InputThe input data consists of only one integerx(- 109≤x≤ 109).OutputOutput the minimal number of jumps that Jack requires to reachx.ExamplesInput2Output3Input6Output3Input0Output0",
+    "source": "CF",
+    "vjudge": false
+}

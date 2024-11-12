@@ -1,0 +1,15 @@
+{
+    "uid": "466-C",
+    "url": "https://codeforces.com/contest/466/problem/C",
+    "tags": [
+        "binary search",
+        " brute force",
+        " data structures",
+        " dp",
+        " two pointers"
+    ],
+    "title": "466-C",
+    "statement": "C. Number of Waystime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutYou've got arraya[1],a[2], ...,a[n], consisting ofnintegers. Count the number of ways to split all the elements of the array into three contiguous parts so that the sum of elements in each part is the same.More formally, you need to find the number of such pairs of indicesi,j(2 ≤i≤j≤n- 1), that.InputThe first line contains integern(1 ≤n≤ 5·105), showing how many numbers are in the array. The second line containsnintegersa[1],a[2], ...,a[n](|a[i]| ≤  109)— the elements of arraya.OutputPrint a single integer — the number of ways to split the array into three parts with the same sum.ExamplesInput51 2 3 0 3Output2Input40 1 -1 0Output1Input24 1Output0",
+    "source": "CF",
+    "vjudge": false
+}

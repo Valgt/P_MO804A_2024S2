@@ -1,0 +1,11 @@
+{
+    "uid": "351-E",
+    "url": "https://codeforces.com/contest/351/problem/E",
+    "tags": [
+        "greedy"
+    ],
+    "title": "351-E",
+    "statement": "E. Jeff and Permutationtime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutJeff's friends know full well that the boy likes to get sequences and arrays for his birthday. Thus, Jeff got sequencep1,p2, ...,pnfor his birthday.Jeff hates inversions in sequences. An inversion in sequencea1,a2, ...,anis a pair of indexesi,j(1 ≤i<j≤n), such that an inequalityai>ajholds.Jeff can multiply some numbers of the sequencepby -1. At that, he wants the number of inversions in the sequence to be minimum. Help Jeff and find the minimum number of inversions he manages to get.InputThe first line contains integern(1 ≤n≤ 2000). The next line containsnintegers — sequencep1,p2,...,pn(|pi| ≤ 105). The numbers are separated by spaces.OutputIn a single line print the answer to the problem — the minimum number of inversions Jeff can get.ExamplesInput22 1Output0Input9-2 0 -1 0 -1 2 1 0 -1Output6",
+    "source": "CF",
+    "vjudge": false
+}

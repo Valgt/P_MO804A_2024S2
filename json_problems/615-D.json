@@ -1,0 +1,12 @@
+{
+    "uid": "615-D",
+    "url": "https://codeforces.com/contest/615/problem/D",
+    "tags": [
+        "math",
+        " number theory"
+    ],
+    "title": "615-D",
+    "statement": "D. Multiplierstime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputAyrat has numbern, represented as it's prime factorizationpiof sizem, i.e.n=p1·p2·...·pm. Ayrat got secret information that that the product of all divisors ofntaken modulo109+ 7is the password to the secret data base. Now he wants to calculate this value.InputThe first line of the input contains a single integerm(1 ≤m≤ 200 000) — the number of primes in factorization ofn.The second line containsmprimes numberspi(2 ≤pi≤ 200 000).OutputPrint one integer — the product of all divisors ofnmodulo109+ 7.ExamplesInput22 3Output36Input32 3 2Output1728NoteIn the first samplen= 2·3 = 6. The divisors of6are1,2,3and6, their product is equal to1·2·3·6 = 36.In the second sample2·3·2 = 12. The divisors of12are1,2,3,4,6and12.1·2·3·4·6·12 = 1728.",
+    "source": "CF",
+    "vjudge": false
+}

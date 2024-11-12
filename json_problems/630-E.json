@@ -1,0 +1,11 @@
+{
+    "uid": "630-E",
+    "url": "https://codeforces.com/contest/630/problem/E",
+    "tags": [
+        "math"
+    ],
+    "title": "630-E",
+    "statement": "E. A rectangletime limit per test0.5 secondsmemory limit per test64 megabytesinputstandard inputoutputstandard outputDeveloping tools for creation of locations maps for turn-based fights in a new game, Petya faced the following problem.A field map consists of hexagonal cells. Since locations sizes are going to be big, a game designer wants to have a tool for quick filling of a field part with identical enemy units. This action will look like following: a game designer will select a rectangular area on the map, and each cell whose center belongs to the selected rectangle will be filled with the enemy unit.More formally, if a game designer selected cells having coordinates(x1,y1)and(x2,y2), wherex1≤x2andy1≤y2, then all cells having center coordinates(x,y)such thatx1≤x≤x2andy1≤y≤y2will be filled. Orthogonal coordinates system is set up so that one of cell sides is parallel toOXaxis, all hexagon centers have integer coordinates and for each integerxthere are cells having center with suchxcoordinate and for each integerythere are cells having center with suchycoordinate. It is guaranteed that differencex2-x1is divisible by2.Working on the problem Petya decided that before painting selected units he wants to output number of units that will be painted on the map.Help him implement counting of these units before painting.InputThe only line of input contains four integersx1,y1,x2,y2(- 109≤x1≤x2≤ 109,  - 109≤y1≤y2≤ 109) — the coordinates of the centers of two cells.OutputOutput one integer — the number of cells to be filled.ExamplesInput1 1 5 5Output13",
+    "source": "CF",
+    "vjudge": false
+}

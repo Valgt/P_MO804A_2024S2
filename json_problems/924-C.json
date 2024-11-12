@@ -1,0 +1,13 @@
+{
+    "uid": "924-C",
+    "url": "https://codeforces.com/contest/924/problem/C",
+    "tags": [
+        "data structures",
+        " dp",
+        " greedy"
+    ],
+    "title": "924-C",
+    "statement": "C. Riverside Curiotime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputArkady decides to observe a river fornconsecutive days. The river's water level on each day is equal to some real value.Arkady goes to the riverside each day and makes a mark on the side of the channel at the height of the water level, but if it coincides with a mark made before, no new mark is created. The water does not wash the marks away. Arkady writes down the number of marks strictly above the water level each day, on thei-th day this value is equal tomi.Definedias the number of marks strictly under the water level on thei-th day. You are to find out the minimum possible sum ofdiover all days. There are no marks on the channel before the first day.InputThe first line contains a single positive integern(1 ≤n≤ 105) — the number of days.The second line containsnspace-separated integersm1,m2, ...,mn(0 ≤mi<i) — the number of marks strictly above the water on each day.OutputOutput one single integer — the minimum possible sum of the number of marks strictly below the water level among all days.ExamplesInput60 1 0 3 0 2Output6Input50 1 2 1 2Output1Input50 1 1 2 2Output0NoteIn the first example, the following figure shows an optimal case.Note that on day3, a new mark should be created because if not, there cannot be3marks above water on day4. The total number of marks underwater is0 + 0 + 2 + 0 + 3 + 1 = 6.In the second example, the following figure shows an optimal case.",
+    "source": "CF",
+    "vjudge": false
+}

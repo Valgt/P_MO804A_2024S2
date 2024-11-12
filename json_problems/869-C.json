@@ -1,0 +1,13 @@
+{
+    "uid": "869-C",
+    "url": "https://codeforces.com/contest/869/problem/C",
+    "tags": [
+        "combinatorics",
+        " dp",
+        " math"
+    ],
+    "title": "869-C",
+    "statement": "C. The Intriguing Obsessiontime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard output— This is not playing but duty as allies of justice, Nii-chan!— Not allies but justice itself, Onii-chan!With hands joined, go everywhere at a speed faster than our thoughts! This time, the Fire Sisters — Karen and Tsukihi — is heading for somewhere they've never reached — water-surrounded islands!There are three clusters of islands, conveniently coloured red, blue and purple. The clusters consist ofa,bandcdistinct islands respectively.Bridges have been built between some (possibly all or none) of the islands. A bridge bidirectionally connects two different islands and has length1. For any two islands of the same colour, either they shouldn't be reached from each other through bridges, or the shortest distance between them isat least3, apparently in order to prevent oddities from spreading quickly inside a cluster.The Fire Sisters are ready for the unknown, but they'd also like to test your courage. And you're here to figure out the number of different ways to build all bridges under the constraints, and give the answer modulo998 244 353. Two ways are considered different if a pair of islands exist, such that there's a bridge between them in one of them, but not in the other.InputThe first and only line of input contains three space-separated integersa,bandc(1 ≤a,b,c≤ 5 000) — the number of islands in the red, blue and purple clusters, respectively.OutputOutput one line containing an integer — the number of different ways to build bridges, modulo998 244 353.ExamplesInput1 1 1Output8Input1 2 2Output63Input1 3 5Output3264Input6 2 9Output813023575NoteIn the first example, there are3bridges that can possibly be built, and no setup of bridges violates the restrictions. Thus the answer is23= 8.In the second example, the upper two structures in the figure below are instances of valid ones, while the lower two are invalid due to the blue and purple clusters, respectively.",
+    "source": "CF",
+    "vjudge": false
+}

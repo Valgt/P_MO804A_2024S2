@@ -1,0 +1,13 @@
+{
+    "uid": "1952-E",
+    "url": "https://codeforces.com/contest/1952/problem/E",
+    "tags": [
+        "combinatorics",
+        " games",
+        " math"
+    ],
+    "title": "1952-E",
+    "statement": "E. Sweep Linetime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputBe careful not to make a mistake. You might have to start all over again.— Someone, probablyInputThe first line contains one integer $$$n$$$ ($$$1 \\\\leq n \\\\leq 10^5$$$) — the length of the array $$$a$$$.The second line contains $$$n$$$ integers $$$a_1, a_2, \\\\ldots, a_n$$$ ($$$0 \\\\leq a_i \\\\leq 2$$$) — the array $$$a$$$.OutputOutput a single integer — the number of solutions, modulo $$$20240401$$$.ExamplesInput71 1 2 1 1 2 0Output1Input71 1 2 1 1 1 0Output2Input70 1 2 1 1 1 0Output0NoteIn the first sample, the array looks like this:$$$ \\\\color{blue}{1} $$$$$$ \\\\color{blue}{1} $$$$$$ \\\\color{darkgreen}{2} $$$$$$ \\\\color{blue}{1} $$$$$$ \\\\color{blue}{1} $$$$$$ \\\\color{darkgreen}{2} $$$$$$ \\\\color{gray}{0} $$$Obviously, the answer here is $$$1 \\\\pmod{20240401}$$$.In the second sample, the array looks like this:$$$ \\\\color{blue}{1} $$$$$$ \\\\color{blue}{1} $$$$$$ \\\\color{darkgreen}{2} $$$$$$ \\\\color{blue}{1} $$$$$$ \\\\color{blue}{1} $$$$$$ \\\\color{blue}{1} $$$$$$ \\\\color{gray}{0} $$$I do not know why the answer here is $$$2 \\\\pmod{20240401}$$$, I had to take a guess.In the third sample, the array looks like this:$$$ \\\\color{gray}{0} $$$$$$ \\\\color{blue}{1} $$$$$$ \\\\color{darkgreen}{2} $$$$$$ \\\\color{blue}{1} $$$$$$ \\\\color{blue}{1} $$$$$$ \\\\color{blue}{1} $$$$$$ \\\\color{gray}{0} $$$If the answer here is not $$$0 \\\\pmod{20240401}$$$, I am literally going to explode.",
+    "source": "CF",
+    "vjudge": false
+}

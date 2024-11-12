@@ -1,0 +1,11 @@
+{
+    "uid": "725-A",
+    "url": "https://codeforces.com/contest/725/problem/A",
+    "tags": [
+        "implementation"
+    ],
+    "title": "725-A",
+    "statement": "A. Jumping Balltime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputIn a new version of the famous Pinball game, one of the most important parts of the game field is a sequence ofnbumpers. The bumpers are numbered with integers from1tonfrom left to right. There are two types of bumpers. They are denoted by the characters '<' and '>'. When the ball hits the bumper at positioniit goes one position to the right (to the positioni+ 1) if the type of this bumper is '>', or one position to the left (toi- 1) if the type of the bumper at positioniis '<'. If there is no such position, in other words ifi- 1 < 1ori+ 1 >n, the ball falls from the game field.Depending on the ball's starting position, the ball may eventually fall from the game field or it may stay there forever. You are given a string representing the bumpers' types. Calculate the number of positions such that the ball will eventually fall from the game field if it starts at that position.InputThe first line of the input contains a single integern(1 ≤n≤ 200 000) — the length of the sequence of bumpers. The second line contains the string, which consists of the characters '<' and '>'. The character at thei-th position of this string corresponds to the type of thei-th bumper.OutputPrint one integer — the number of positions in the sequence such that the ball will eventually fall from the game field if it starts at that position.ExamplesInput4<<><Output2Input5>>>>>Output5Input4>><<Output0NoteIn the first sample, the ball will fall from the field if starts at position1or position2.In the second sample, any starting position will result in the ball falling from the field.",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,11 @@
+{
+    "uid": "521-D",
+    "url": "https://codeforces.com/contest/521/problem/D",
+    "tags": [
+        "greedy"
+    ],
+    "title": "521-D",
+    "statement": "D. Shoptime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutVasya plays one very well-known and extremely popular MMORPG game. His game character haskskill; currently thei-th of them equals toai. Also this game has a common rating table in which the participants are ranked according to theproductof all the skills of a hero in the descending order.Vasya decided to 'upgrade' his character via the game store. This store offersnpossible ways to improve the hero's skills; Each of these ways belongs to one of three types:assign thei-th skill tob;addbto thei-th skill;multiply thei-th skill byb.Unfortunately, a) every improvement can only be used once; b) the money on Vasya's card is enough only to purchase not more thanmof thenimprovements. Help Vasya to reach the highest ranking in the game. To do this tell Vasya which of improvements he has to purchase and in what order he should use them to make his rating become as high as possible. If there are several ways to achieve it, print any of them.InputThe first line contains three numbers —k,n,m(1 ≤k≤ 105,0 ≤m≤n≤ 105) — the number of skills, the number of improvements on sale and the number of them Vasya can afford.The second line containskspace-separated numbersai(1 ≤ai≤ 106), the initial values of skills.Nextnlines contain3space-separated numberstj,ij,bj(1 ≤tj≤ 3, 1 ≤ij≤k, 1 ≤bj≤ 106) — the type of thej-th improvement (1 for assigning, 2 for adding, 3 for multiplying), the skill to which it can be applied and the value ofbfor this improvement.OutputThe first line should contain a numberl(0 ≤l≤m) — the number of improvements you should use.The second line should containldistinct space-separated numbersvi(1 ≤vi≤n) — the indices of improvements in the order in which they should be applied. The improvements are numbered starting from1, in the order in which they appear in the input.ExamplesInput2 4 313 201 1 141 2 302 1 63 2 2Output32 3 4",
+    "source": "CF",
+    "vjudge": false
+}

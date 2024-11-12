@@ -1,0 +1,13 @@
+{
+    "uid": "452-F",
+    "url": "https://codeforces.com/contest/452/problem/F",
+    "tags": [
+        "data structures",
+        " divide and conquer",
+        " hashing"
+    ],
+    "title": "452-F",
+    "statement": "F. Permutationtime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutYou are given a permutation of numbers from1ton. Determine whether there's a pair of integersa,b(1 ≤a,b≤n;a≠b)such that the element(note, that it is usual division, not integer one) is betweenaandbin this permutation.InputFirst line consists of a single integern(1 ≤n≤ 300000) — the size of permutation.Second line containsnintegers — the permutation itself.OutputPrint \"YES\", if such a pair exists, \"NO\" otherwise (in both cases without quotes, the answer is case insensitive).ExamplesInput41 3 4 2OutputNOInput51 5 2 4 3OutputYESNoteIn the second example2is between1and3. Additionally4is between3and5.",
+    "source": "CF",
+    "vjudge": false
+}

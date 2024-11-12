@@ -1,0 +1,11 @@
+{
+    "uid": "183-C",
+    "url": "https://codeforces.com/contest/183/problem/C",
+    "tags": [
+        "dfs and similar"
+    ],
+    "title": "183-C",
+    "statement": "C. Cyclic Coloringtime limit per test4 secondsmemory limit per test256 megabytesinputstdinoutputstdoutYou are given adirectedgraphGwithnvertices andmarcs (multiple arcs and self-loopsare allowed). You have to paint each vertex of the graph into one of thek(k≤n)colors in such way that for all arcs of the graph leading from a vertexuto vertexv, vertexvis painted with thenext colorof the color used to paint vertexu.The colors are numbered cyclically1throughk. This means that for each colori(i<k)its next color is colori+ 1. In addition, the next color of colorkis color1. Note, that ifk= 1, then the next color for color1is again color1.Your task is to find and print the largest possible value ofk(k≤n)such that it's possible to colorGas described above withkcolors. Note that you don't necessarily use all thekcolors (that is, for each colorithere does not necessarily exist a vertex that is colored with colori).InputThe first line contains two space-separated integersnandm(1 ≤n,m≤ 105), denoting the number of vertices and the number of arcs of the given digraph, respectively.Thenmlines follow, each line will contain two space-separated integersaiandbi(1 ≤ai,bi≤n), which means that thei-th arc goes from vertexaito vertexbi.Multiple arcs and self-loops are allowed.OutputPrint a single integer — the maximum possible number of the colors that can be used to paint the digraph (i.e.k, as described in the problem statement). Note that the desired value ofkmust satisfy the inequality1 ≤k≤n.ExamplesInput4 41 22 13 44 3Output2Input5 21 42 5Output5Input4 51 22 33 12 44 1Output3Input4 41 11 22 11 2Output1NoteFor the first example, withk= 2, this picture depicts the two colors (arrows denote the next color of that color).Withk= 2a possible way to paint the graph is as follows.It can be proven that no larger value forkexists for this test case.For the second example, here's the picture of thek= 5colors.A possible coloring of the graph is:For the third example, here's the picture of thek= 3colors.A possible coloring of the graph is:",
+    "source": "CF",
+    "vjudge": false
+}

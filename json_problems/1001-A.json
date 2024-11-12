@@ -1,0 +1,11 @@
+{
+    "uid": "1001-A",
+    "url": "https://codeforces.com/contest/1001/problem/A",
+    "tags": [
+        "*special"
+    ],
+    "title": "1001-A",
+    "statement": "A. Generate plus state or minus statetime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given a qubit in stateand an integersign.Your task is to convert the given qubit to stateifsign= 1orifsign=  - 1.InputYou have to implement an operation which takes a qubit and an integer as an input and has no output. The \"output\" of your solution is the state in which it left the input qubit.Your code should have the following signature:namespace Solution {open Microsoft.Quantum.Primitive;open Microsoft.Quantum.Canon;operation Solve (q : Qubit, sign : Int) : (){body{// your code here}}}",
+    "source": "CF",
+    "vjudge": false
+}

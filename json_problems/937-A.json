@@ -1,0 +1,12 @@
+{
+    "uid": "937-A",
+    "url": "https://codeforces.com/contest/937/problem/A",
+    "tags": [
+        "implementation",
+        " sortings"
+    ],
+    "title": "937-A",
+    "statement": "A. Olympiadtime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputThe recent All-Berland Olympiad in Informatics featurednparticipants with each scoring a certain amount of points.As the head of the programming committee, you are to determine the set of participants to be awarded with diplomas with respect to the following criteria:At least one participant should get a diploma.None of those with score equal to zero should get awarded.When someone is awarded, all participants with scorenot lessthan his score should also be awarded.Determine the number of ways to choose a subset of participants that will receive the diplomas.InputThe first line contains a single integern(1 ≤n≤ 100) — the number of participants.The next line contains a sequence ofnintegersa1,a2, ...,an(0 ≤ai≤ 600) — participants' scores.It's guaranteed that at least one participant has non-zero score.OutputPrint a single integer — the desired number of ways.ExamplesInput41 3 3 2Output3Input31 1 1Output1Input442 0 0 42Output1NoteThere are three ways to choose a subset in sample case one.Only participants with 3 points will get diplomas.Participants with 2 or 3 points will get diplomas.Everyone will get a diploma!The only option in sample case two is to award everyone.Note that in sample case three participants with zero scores cannot get anything.",
+    "source": "CF",
+    "vjudge": false
+}

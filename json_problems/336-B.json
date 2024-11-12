@@ -1,0 +1,11 @@
+{
+    "uid": "336-B",
+    "url": "https://codeforces.com/contest/336/problem/B",
+    "tags": [
+        "math"
+    ],
+    "title": "336-B",
+    "statement": "B. Vasily the Bear and Flytime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutOne beautiful day Vasily the bear painted2mcircles of the same radiusRon a coordinate plane. Circles with numbers from1tomhad centers at points(2R-R, 0),(4R-R, 0),...,(2Rm-R, 0), respectively. Circles with numbers fromm+ 1to2mhad centers at points(2R-R, 2R),(4R-R, 2R),...,(2Rm-R, 2R), respectively.Naturally, the bear painted the circles for a simple experiment with a fly. The experiment continued form2days. Each day of the experiment got its own unique number from0tom2- 1, inclusive.On the day numberithe following things happened:The fly arrived at the coordinate plane at the center of the circle with number(is the result of dividing numberxby numbery, rounded down to an integer).The fly went along the coordinate plane to the center of the circle number(is the remainder after dividing numberxby numbery). The bear noticed that the fly went from the center of circlevto the center of circleualong the shortest path with all points lying on the border or inside at least one of the2mcircles. After the fly reached the center of circleu, it flew away in an unknown direction.Help Vasily, count the average distance the fly went along the coordinate plane during each of thesem2days.InputThe first line contains two integersm,R(1 ≤m≤ 105,1 ≤R≤ 10).OutputIn a single line print a single real number — the answer to the problem. The answer will be considered correct if its absolute or relative error doesn't exceed10- 6.ExamplesInput1 1Output2.0000000000Input2 2Output5.4142135624NoteFigure to the second sample",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,14 @@
+{
+    "uid": "917-E",
+    "url": "https://codeforces.com/contest/917/problem/E",
+    "tags": [
+        "data structures",
+        " string suffix structures",
+        " strings",
+        " trees"
+    ],
+    "title": "917-E",
+    "statement": "E. Upside Downtime limit per test3 secondsmemory limit per test512 megabytesinputstandard inputoutputstandard outputAs we all know, Eleven has special abilities. Thus, Hopper convinced her to close the gate to the Upside Down World with her mind. Upside down monsters like to move between the worlds, so they are going to attack Hopper and Eleven in order to make them stop. The monsters live in the vines. The vines form a tree withnvertices, numbered from1throughn. There's a lowercase English letter written in each tunnel (edge).Upside down is a magical world. There aremtypes of monsters in upside down, numbered from1throughm. Each type of monster has a special word that gives them powers. The special word of typeiissi. There areqmonsters in upside down. Each one is at a junction (vertex) and is going to some other junction. If monster of typekgoes from junctionito junctionj, the power it gains is the number of times it sees its special world (sk) consecutively in the tunnels. More formally:Iff(i,j)is the string we get when we concatenate the letters written in the tunnels on the shortest path fromitoj, then the power the monster gains is the number of occurrences ofskinf(i,j).Hopper and Eleven want to get prepared, so for each monster, they want to know the power the monster gains after moving.InputThe first line of input contains three integers,n,mandq(2 ≤n≤ 105,1 ≤m,q≤ 105).The nextn- 1lines contain the tunnels (edges). Each line contains two integersvandu(1 ≤v,u≤n,v≠u) and a lowercase English letterc, meaning there's a tunnel connecting junctionsvanduwrittencin it. It is guaranteed that the given graph is a tree.The nextmlines contain the special words.i-th line of them contains a single stringsi(1 ≤ |si| ≤ 105), consisting of lowercase English letters. It is guaranteed that|s1| + |s2| + ... + |sm| ≤ 105).The nextqlines contain the monsters. Each line contains three integersi,jandk(1 ≤i,j≤n,i≠j,1 ≤k≤m), meaning a monster of typekis going from junction numberito junction numberj.OutputPrintqlines.i-th line should contain a single integer, the power thei-th monster gains after moving.ExamplesInput6 4 51 6 b2 3 a1 2 b5 3 b4 5 babbbaa1 2 16 2 31 6 24 5 41 6 2Output01101Input10 6 71 3 s10 1 d2 6 s5 2 d7 4 l8 9 d8 10 l7 2 d8 7 ldldssldddlsl4 5 43 7 510 6 23 1 47 5 610 9 49 8 4Output2200011",
+    "source": "CF",
+    "vjudge": false
+}

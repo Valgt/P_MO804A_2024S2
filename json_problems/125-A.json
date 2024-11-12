@@ -1,0 +1,11 @@
+{
+    "uid": "125-A",
+    "url": "https://codeforces.com/contest/125/problem/A",
+    "tags": [
+        "math"
+    ],
+    "title": "125-A",
+    "statement": "A. Measuring Lengths in Badentime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutLengths are measures in Baden in inches and feet. To a length from centimeters it is enough to know that an inch equals three centimeters in Baden and one foot contains 12 inches.You are given a length equal toncentimeters. Your task is to convert it to feet and inches so that the number of feet was maximum. The result should be an integer rounded to the closest value containing an integral number of inches.Note that when you round up, 1 cm rounds up to 0 inches and 2 cm round up to 1 inch.InputThe only line contains an integern(1 ≤n≤ 10000).OutputPrint two non-negative space-separated integersaandb, whereais the numbers of feet andbis the number of inches.ExamplesInput42Output1 2Input5Output0 2",
+    "source": "CF",
+    "vjudge": false
+}

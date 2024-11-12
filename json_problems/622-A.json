@@ -1,0 +1,12 @@
+{
+    "uid": "622-A",
+    "url": "https://codeforces.com/contest/622/problem/A",
+    "tags": [
+        "implementation",
+        " math"
+    ],
+    "title": "622-A",
+    "statement": "A. Infinite Sequencetime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputConsider the infinite sequence of integers:1, 1, 2, 1, 2, 3, 1, 2, 3, 4, 1, 2, 3, 4, 5.... The sequence is built in the following way: at first the number1is written out, then the numbers from1to2, then the numbers from1to3, then the numbers from1to4and so on. Note that the sequence contains numbers, not digits. For example number10first appears in the sequence in position55(the elements are numerated from one).Find the number on then-th position of the sequence.InputThe only line contains integern(1 ≤n≤ 1014) — the position of the number to find.Note that the given number is too large, so you should use64-bit integer type to store it. InC++you can use thelong longinteger type and inJavayou can uselonginteger type.OutputPrint the element in then-th position of the sequence (the elements are numerated from one).ExamplesInput3Output2Input5Output2Input10Output4Input55Output10Input56Output1",
+    "source": "CF",
+    "vjudge": false
+}

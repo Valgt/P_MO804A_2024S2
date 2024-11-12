@@ -1,0 +1,12 @@
+{
+    "uid": "779-A",
+    "url": "https://codeforces.com/contest/779/problem/A",
+    "tags": [
+        "constructive algorithms",
+        " math"
+    ],
+    "title": "779-A",
+    "statement": "A. Pupils Redistributiontime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputIn Berland each high school student is characterized byacademic performance— integer value between1and5.In high school0xFFthere are two groups of pupils: the groupAand the groupB. Each group consists of exactlynstudents. An academic performance of each student is known — integer value between1and5.The school director wants to redistribute students between groups so that each of the two groups has the same number of students whose academic performance is equal to1, the same number of students whose academic performance is2and so on. In other words, the purpose of the school director is to change the composition of groups, so that for each value of academic performance the numbers of students in both groups are equal.To achieve this, there is a plan to produce a series of exchanges of students between groups. During the single exchange the director selects one student from the classAand one student of classB. After that, they both change their groups.Print the least number of exchanges, in order to achieve the desired equal numbers of students for each academic performance.InputThe first line of the input contains integer numbern(1 ≤n≤ 100) — number of students in both groups.The second line contains sequence of integer numbersa1,a2, ...,an(1 ≤ai≤ 5), whereaiis academic performance of thei-th student of the groupA.The third line contains sequence of integer numbersb1,b2, ...,bn(1 ≤bi≤ 5), wherebiis academic performance of thei-th student of the groupB.OutputPrint the required minimum number of exchanges or-1, if the desired distribution of students can not be obtained.ExamplesInput45 4 4 45 5 4 5Output1Input61 1 1 1 1 15 5 5 5 5 5Output3Input153Output-1Input93 2 5 5 2 3 3 3 24 1 4 1 1 2 4 4 1Output4",
+    "source": "CF",
+    "vjudge": false
+}

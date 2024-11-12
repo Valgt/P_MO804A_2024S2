@@ -1,0 +1,15 @@
+{
+    "uid": "758-E",
+    "url": "https://codeforces.com/contest/758/problem/E",
+    "tags": [
+        "dfs and similar",
+        " dp",
+        " graphs",
+        " greedy",
+        " trees"
+    ],
+    "title": "758-E",
+    "statement": "E. Broken Treetime limit per test4 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given a tree that hasnvertices, which are numbered from1ton, where the vertex number one is the root. Each edge has weightwiand strengthpi.Botanist Innokentiy, who is the only member of the jury of the Olympiad in Informatics, doesn't like broken trees.The tree is broken if there is such an edge the strength of which is less than the sum of weight of subtree's edges to which it leads.It is allowed to reduce weight of any edge by arbitrary integer value, but then the strength of its edge is reduced by the same value. It means if the weight of the edge is10, and the strength is12, then by the reducing the weight by7its weight will equal3, and the strength will equal5.It is not allowed to increase the weight of the edge.Your task is to get the tree, which is not broken, by reducing the weight of edges of the given tree, and also all edged should have the positive weight, moreover, the total weight of all edges should be as large as possible.It is obvious that the strength of edges can not be negative, however it can equal zero if the weight of the subtree equals zero.InputThe first line contains the integern(1 ≤n≤ 2·105) — the number of vertices in the tree. The nextn- 1lines contains the description of edges. Each line contains four integersx,y,w,p(1 ≤x,y≤n, 1 ≤w≤ 109, 0 ≤p≤ 109), wherexandy— vertices which connect the edge (the vertex numberxis the parent of the vertex numbery),wandpare the weight and the strength of the edge, accordingly. It is guaranteed that the edges describe the tree with the root in the vertex1.OutputIf it is impossible to get unbroken tree from the given tree, print-1in the only line.Otherwise, the output data should containnlines:In the first line print the numbern— the number of vertices on the tree.In the nextn- 1lines print the description of edges of the resulting tree. Each line should contain four integersx,y,w,p(1 ≤x,y≤n, 1 ≤w≤ 109, 0 ≤p≤ 109), wherexandy— vertices, which the edge connects (the vertex numberxis the parent of the vertex numbery),wandpare the new weight and the strength of the edge, accordingly.Print edges in the same order as they are given in input data: the first two integers of each line should not be changed.ExamplesInput31 3 5 73 2 4 3Output31 3 5 73 2 4 3Input41 3 2 33 4 5 13 2 3 3Output-1Input51 2 2 42 4 1 94 5 5 64 3 4 8Output51 2 2 42 4 1 94 5 1 24 3 2 6Input71 2 5 22 3 4 31 4 3 74 5 4 14 6 3 26 7 1 6Output71 2 5 22 3 2 11 4 3 74 5 3 04 6 3 26 7 1 6",
+    "source": "CF",
+    "vjudge": false
+}

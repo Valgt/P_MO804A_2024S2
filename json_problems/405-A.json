@@ -1,0 +1,13 @@
+{
+    "uid": "405-A",
+    "url": "https://codeforces.com/contest/405/problem/A",
+    "tags": [
+        "greedy",
+        " implementation",
+        " sortings"
+    ],
+    "title": "405-A",
+    "statement": "A. Gravity Fliptime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutLittle Chris is bored during his physics lessons (too easy), so he has built a toy box to keep himself occupied. The box is special, since it has the ability to change gravity.There arencolumns of toy cubes in the box arranged in a line. Thei-th column containsaicubes. At first, the gravity in the box is pulling the cubes downwards. When Chris switches the gravity, it begins to pull all the cubes to the right side of the box. The figure shows the initial and final configurations of the cubes in the box: the cubes that have changed their position are highlighted with orange.Given the initial configuration of the toy cubes in the box, find the amounts of cubes in each of thencolumns after the gravity switch!InputThe first line of input contains an integern(1 ≤n≤ 100), the number of the columns in the box. The next line containsnspace-separated integer numbers. Thei-th numberai(1 ≤ai≤ 100) denotes the number of cubes in thei-th column.OutputOutputninteger numbers separated by spaces, where thei-th number is the amount of cubes in thei-th column after the gravity switch.ExamplesInput43 2 1 2Output1 2 2 3Input32 3 8Output2 3 8NoteThe first example case is shown on the figure. The top cube of the first column falls to the top of the last column; the top cube of the second column falls to the top of the third column; the middle cube of the first column falls to the top of the second column.In the second example case the gravity switch does not change the heights of the columns.",
+    "source": "CF",
+    "vjudge": false
+}

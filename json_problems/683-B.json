@@ -1,0 +1,11 @@
+{
+    "uid": "683-B",
+    "url": "https://codeforces.com/contest/683/problem/B",
+    "tags": [
+        "*special"
+    ],
+    "title": "683-B",
+    "statement": "B. The Teacher of Physical Educationtime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputnpupils came to Physical Education lesson. We know the name and the height of each pupil.Your task is to help the teacher of Physical Education to line up all pupils in non-decreasing order of their heights.InputThe first line contains the positive integern(1 ≤n≤ 5000) — the number of pupils.The nextnlines contain the pupils' description. In thei-th line there is pupil's namenamei(a non-empty string which consists of uppercase and lowercase Latin letters, the length does not exceed five) and pupil's heightxi(130 ≤xi≤ 215). Some pupils can have the same name. Uppercase and lowercase letters of the alphabet should be considered different.OutputPrintnlines — pupils' names in the non-decreasing order of their heights. Each line must contain exactly one name.If there are several answers, print any of them. Uppercase and lowercase letters of the alphabet should be considered different.ExamplesInput4Ivan 150Igor 215Dasha 158Katya 150OutputIvanKatyaDashaIgorInput2SASHA 180SASHA 170OutputSASHASASHA",
+    "source": "CF",
+    "vjudge": false
+}

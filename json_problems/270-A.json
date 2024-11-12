@@ -1,0 +1,13 @@
+{
+    "uid": "270-A",
+    "url": "https://codeforces.com/contest/270/problem/A",
+    "tags": [
+        "geometry",
+        " implementation",
+        " math"
+    ],
+    "title": "270-A",
+    "statement": "A. Fancy Fencetime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutEmuskald needs a fence around his farm, but he is too lazy to build it himself. So he purchased a fence-building robot.He wants the fence to be a regular polygon. The robot builds the fence along a single path, but it can only make fence corners at a single anglea.Will the robot be able to build the fence Emuskald wants? In other words, is there a regular polygon which angles are equal toa?InputThe first line of input contains an integert(0 <t< 180) — the number of tests. Each of the followingtlines contains a single integera(0 <a< 180) — the angle the robot can make corners at measured in degrees.OutputFor each test, output on a single line \"YES\" (without quotes), if the robot can build a fence Emuskald wants, and \"NO\" (without quotes), if it is impossible.ExamplesInput3306090OutputNOYESYESNoteIn the first test case, it is impossible to build the fence, since there is no regular polygon with angle.In the second test case, the fence is a regular triangle, and in the last test case — a square.",
+    "source": "CF",
+    "vjudge": false
+}

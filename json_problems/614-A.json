@@ -1,0 +1,12 @@
+{
+    "uid": "614-A",
+    "url": "https://codeforces.com/contest/614/problem/A",
+    "tags": [
+        "brute force",
+        " implementation"
+    ],
+    "title": "614-A",
+    "statement": "A. Link/Cut Treetime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputProgrammer Rostislav got seriously interested in the Link/Cut Tree data structure, which is based on Splay trees. Specifically, he is now studying theexposeprocedure.Unfortunately, Rostislav is unable to understand the definition of this procedure, so he decided to ask programmer Serezha to help him. Serezha agreed to help if Rostislav solves a simple task (and if he doesn't, then why would he need Splay trees anyway?)Given integersl,randk, you need to print all powers of numberkwithin range fromltorinclusive. However, Rostislav doesn't want to spent time doing this, as he got interested in playing a network game called Agar with Gleb. Help him!InputThe first line of the input contains three space-separated integersl,randk(1 ≤l≤r≤ 1018,2 ≤k≤ 109).OutputPrint all powers of numberk, that lie within range fromltorin the increasing order. If there are no such numbers, print \"-1\" (without the quotes).ExamplesInput1 10 2Output1 2 4 8Input2 4 5Output-1NoteNote to the first sample: numbers20= 1,21= 2,22= 4,23= 8lie within the specified range. The number24= 16is greater then10, thus it shouldn't be printed.",
+    "source": "CF",
+    "vjudge": false
+}

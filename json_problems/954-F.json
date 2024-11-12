@@ -1,0 +1,13 @@
+{
+    "uid": "954-F",
+    "url": "https://codeforces.com/contest/954/problem/F",
+    "tags": [
+        "dp",
+        " matrices",
+        " sortings"
+    ],
+    "title": "954-F",
+    "statement": "F. Runner's Problemtime limit per test4 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are running through a rectangular field. This field can be represented as a matrix with3rows andmcolumns.(i,j)denotes a cell belonging toi-th row andj-th column.You start in(2, 1)and have to end your path in(2,m). From the cell(i,j)you may advance to:(i- 1,j+ 1)— only ifi> 1,(i,j+ 1), or(i+ 1,j+ 1)— only ifi< 3.However, there arenobstacles blocking your path.k-th obstacle is denoted by three integersak,lkandrk, and it forbids entering any cell(ak,j)such thatlk≤j≤rk.You have to calculate the number of different paths from(2, 1)to(2,m), and print it modulo109+ 7.InputThe first line contains two integersnandm(1 ≤n≤ 104,3 ≤m≤ 1018) — the number of obstacles and the number of columns in the matrix, respectively.Thennlines follow, each containing three integersak,lkandrk(1 ≤ak≤ 3,2 ≤lk≤rk≤m- 1) denoting an obstacle blocking every cell(ak,j)such thatlk≤j≤rk. Some cells may be blocked by multiple obstacles.OutputPrint the number of different paths from(2, 1)to(2,m), taken modulo109+ 7. If it is impossible to get from(2, 1)to(2,m), then the number of paths is0.ExampleInput2 51 3 42 2 3Output2",
+    "source": "CF",
+    "vjudge": false
+}

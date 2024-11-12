@@ -1,0 +1,13 @@
+{
+    "uid": "1622-D",
+    "url": "https://codeforces.com/contest/1622/problem/D",
+    "tags": [
+        "combinatorics",
+        " math",
+        " two pointers"
+    ],
+    "title": "1622-D",
+    "statement": "D. Shuffletime limit per test2 secondsmemory limit per test512 megabytesinputstandard inputoutputstandard outputYou are given a binary string (i. e. a string consisting of characters0and/or1) $$$s$$$ of length $$$n$$$. You can perform the following operation with the string $$$s$$$at most once: choose a substring (a contiguous subsequence) of $$$s$$$ havingexactly$$$k$$$ characters1in it, and shuffle it (reorder the characters in the substring as you wish).Calculate the number of different strings which can be obtained from $$$s$$$ by performing this operation at most once.InputThe first line contains two integers $$$n$$$ and $$$k$$$ ($$$2 \\\\le n \\\\le 5000$$$; $$$0 \\\\le k \\\\le n$$$).The second line contains the string $$$s$$$ of length $$$n$$$, consisting of characters0and/or1.OutputPrint one integer — the number of different strings which can be obtained from $$$s$$$ by performing the described operation at most once. Since the answer can be large, output it modulo $$$998244353$$$.ExamplesInput7 2 1100110Output16Input5 0 10010Output1Input8 1 10001000Output10Input10 8 0010011000Output1NoteSome strings you can obtain in the first example:to obtain0110110, you can take the substring from the $$$1$$$-st character to the $$$4$$$-th character, which is1100, and reorder its characters to get0110;to obtain1111000, you can take the substring from the $$$3$$$-rd character to the $$$7$$$-th character, which is00110, and reorder its characters to get11000;to obtain1100101, you can take the substring from the $$$5$$$-th character to the $$$7$$$-th character, which is110, and reorder its characters to get101.In the second example, $$$k = 0$$$ so you can only choose the substrings consisting only of0characters. Reordering them doesn't change the string at all, so the only string you can obtain is10010.",
+    "source": "CF",
+    "vjudge": false
+}

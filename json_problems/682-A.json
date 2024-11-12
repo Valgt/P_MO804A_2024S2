@@ -1,0 +1,13 @@
+{
+    "uid": "682-A",
+    "url": "https://codeforces.com/contest/682/problem/A",
+    "tags": [
+        "constructive algorithms",
+        " math",
+        " number theory"
+    ],
+    "title": "682-A",
+    "statement": "A. Alyona and Numberstime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputAfter finishing eating her bun, Alyona came up with two integersnandm. She decided to write down two columns of integers — the first column containing integers from1tonand the second containing integers from1tom. Now the girl wants to count how many pairs of integers she can choose, one from the first column and the other from the second column, such that their sum is divisible by5.Formally, Alyona wants to count the number of pairs of integers(x,y)such that1 ≤x≤n,1 ≤y≤mandequals0.As usual, Alyona has some troubles and asks you to help.InputThe only line of the input contains two integersnandm(1 ≤n,m≤ 1 000 000).OutputPrint the only integer — the number of pairs of integers(x,y)such that1 ≤x≤n,1 ≤y≤mand(x+y)is divisible by5.ExamplesInput6 12Output14Input11 14Output31Input1 5Output1Input3 8Output5Input5 7Output7Input21 21Output88NoteFollowing pairs are suitable in the first sample case:forx= 1fitsyequal to4or9;forx= 2fitsyequal to3or8;forx= 3fitsyequal to2,7or12;forx= 4fitsyequal to1,6or11;forx= 5fitsyequal to5or10;forx= 6fitsyequal to4or9.Only the pair(1, 4)is suitable in the third sample case.",
+    "source": "CF",
+    "vjudge": false
+}

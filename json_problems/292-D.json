@@ -1,0 +1,14 @@
+{
+    "uid": "292-D",
+    "url": "https://codeforces.com/contest/292/problem/D",
+    "tags": [
+        "data structures",
+        " dfs and similar",
+        " dp",
+        " dsu"
+    ],
+    "title": "292-D",
+    "statement": "D. Connected Componentstime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutWe already know of the large corporation where Polycarpus works as a system administrator. The computer network there consists ofncomputers andmcables that connect some pairs of computers. In other words, the computer network can be represented as some non-directed graph withnnodes andmedges. Let's index the computers with integers from 1 ton, let's index the cables with integers from 1 tom.Polycarpus was given an important task — check the reliability of his company's network. For that Polycarpus decided to carry out a series ofkexperiments on the computer network, where thei-th experiment goes as follows:Temporarily disconnect the cables with indexes fromlitori, inclusive (the other cables remain connected).Count the number of connected components in the graph that is defining the computer network at that moment.Re-connect the disconnected cables with indexes fromlitori(that is, restore the initial network).Help Polycarpus carry out all experiments and for each print the number of connected components in the graph that defines the computer network through the given experiment. Isolated vertex should be counted as single component.InputThe first line contains two space-separated integersn,m(2 ≤n≤ 500; 1 ≤m≤ 104)— the number of computers and the number of cables, correspondingly.The followingmlines contain the cables' description. Thei-th line contains space-separated pair of integersxi,yi(1 ≤xi,yi≤n;xi≠yi)— the numbers of the computers that are connected by thei-th cable. Note that a pair of computers can be connected by multiple cables.The next line contains integerk(1 ≤k≤ 2·104)— the number of experiments. Nextklines contain the experiments' descriptions. Thei-th line contains space-separated integersli,ri(1 ≤li≤ri≤m)— the numbers of the cables that Polycarpus disconnects during thei-th experiment.OutputPrintknumbers, thei-th number represents the number of connected components of the graph that defines the computer network during thei-th experiment.ExamplesInput6 51 25 42 33 13 661 32 51 55 52 43 3Output456342",
+    "source": "CF",
+    "vjudge": false
+}

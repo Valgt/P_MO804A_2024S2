@@ -1,0 +1,14 @@
+{
+    "uid": "437-B",
+    "url": "https://codeforces.com/contest/437/problem/B",
+    "tags": [
+        "bitmasks",
+        " greedy",
+        " implementation",
+        " sortings"
+    ],
+    "title": "437-B",
+    "statement": "B. The Child and Settime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutAt the children's day, the child came to Picks's house, and messed his house up. Picks was angry at him. A lot of important things were lost, in particular the favorite set of Picks.Fortunately, Picks remembers something about his setS:its elements were distinct integers from1tolimit;the value ofwas equal tosum; herelowbit(x)equals2kwherekis the position of the first one in the binary representation ofx. For example,lowbit(100102) = 102,lowbit(100012) = 12,lowbit(100002) = 100002(binary representation).Can you help Picks and find any setS, that satisfies all the above conditions?InputThe first line contains two integers:sum,limit(1 ≤sum,limit≤ 105).OutputIn the first line print an integern(1 ≤n≤ 105), denoting the size ofS. Then print the elements of setSin any order. If there are multiple answers, print any of them.If it's impossible to find a suitable set, print-1.ExamplesInput5 5Output24 5Input4 3Output32 3 1Input5 1Output-1NoteIn sample test 1:lowbit(4) = 4,lowbit(5) = 1, 4 + 1 = 5.In sample test 2:lowbit(1) = 1,lowbit(2) = 2,lowbit(3) = 1, 1 + 2 + 1 = 4.",
+    "source": "CF",
+    "vjudge": false
+}

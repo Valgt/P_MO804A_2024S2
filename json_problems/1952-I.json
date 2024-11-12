@@ -1,0 +1,12 @@
+{
+    "uid": "1952-I",
+    "url": "https://codeforces.com/contest/1952/problem/I",
+    "tags": [
+        "bitmasks",
+        " geometry"
+    ],
+    "title": "1952-I",
+    "statement": "I. Dark Mattertime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputView the statement as a PDF.ExampleInput1 + 1Output3",
+    "source": "CF",
+    "vjudge": false
+}

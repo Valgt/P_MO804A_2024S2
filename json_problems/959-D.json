@@ -1,0 +1,14 @@
+{
+    "uid": "959-D",
+    "url": "https://codeforces.com/contest/959/problem/D",
+    "tags": [
+        "constructive algorithms",
+        " greedy",
+        " math",
+        " number theory"
+    ],
+    "title": "959-D",
+    "statement": "D. Mahmoud and Ehab and another array construction tasktime limit per test3 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputMahmoud has an arrayaconsisting ofnintegers. He asked Ehab to find another arraybof the same lengthsuch that:bis lexicographically greater than or equal toa.bi≥ 2.bis pairwise coprime: for every1 ≤i<j≤n,biandbjare coprime, i. e.GCD(bi,bj) = 1, whereGCD(w,z)is the greatest common divisor ofwandz.Ehab wants to choose a special array so he wants the lexicographically minimal array between all the variants. Can you find it?An arrayxis lexicographically greater than an arrayyif there exists an indexisuch thanxi>yiandxj=yjfor all1 ≤j<i. An arrayxis equal to an arrayyifxi=yifor all1 ≤i≤n.InputThe first line contains an integern(1 ≤n≤ 105), the number of elements inaandb.The second line containsnintegersa1,a2,...,an(2 ≤ai≤ 105), the elements ofa.OutputOutputnspace-separated integers, thei-th of them representingbi.ExamplesInput52 3 5 4 13Output2 3 5 7 11Input310 3 7Output10 3 7NoteNote that in the second sample, the array is already pairwise coprime so we printed it.",
+    "source": "CF",
+    "vjudge": false
+}

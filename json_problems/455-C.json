@@ -1,0 +1,15 @@
+{
+    "uid": "455-C",
+    "url": "https://codeforces.com/contest/455/problem/C",
+    "tags": [
+        "dfs and similar",
+        " dp",
+        " dsu",
+        " ternary search",
+        " trees"
+    ],
+    "title": "455-C",
+    "statement": "C. Civilizationtime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutAndrew plays a game called \"Civilization\". Dima helps him.The game hasncities andmbidirectional roads. The cities are numbered from1ton. Between any pair of cities there either is a single (unique) path, or there is no path at all. A path is such a sequence of distinct citiesv1,v2, ...,vk, that there is a road between any contiguous citiesviandvi+ 1(1 ≤i<k). The length of the described path equals to(k- 1). We assume that two cities lie in the same region if and only if, there is a path connecting these two cities.During the game events of two types take place:Andrew asks Dima about the length of the longest path in the region where cityxlies.Andrew asks Dima to merge the region where cityxlies with the region where cityylies. If the cities lie in the same region, then no merging is needed. Otherwise, you need to merge the regions as follows: choose a city from the first region, a city from the second region and connect them by a road so as to minimize the length of the longest path in the resulting region. If there are multiple ways to do so, you are allowed to choose any of them.Dima finds it hard to execute Andrew's queries, so he asks you to help him. Help Dima.InputThe first line contains three integersn,m,q(1 ≤n≤ 3·105;0 ≤m<n;1 ≤q≤ 3·105) — the number of cities, the number of the roads we already have and the number of queries, correspondingly.Each of the followingmlines contains two integers,aiandbi(ai≠bi;1 ≤ai,bi≤n). These numbers represent the road between citiesaiandbi. There can be at most one road between two cities.Each of the followingqlines contains one of the two events in the following format:1xi. It is the request Andrew gives to Dima to find the length of the maximum path in the region that contains cityxi(1 ≤xi≤n).2xiyi. It is the request Andrew gives to Dima to merge the region that contains cityxiand the region that contains cityyi(1 ≤xi,yi≤n). Note, thatxican be equal toyi.OutputFor each event of the first type print the answer on a separate line.ExamplesInput6 0 62 1 22 3 42 5 62 3 22 5 31 1Output4",
+    "source": "CF",
+    "vjudge": false
+}

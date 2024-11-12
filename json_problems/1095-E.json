@@ -1,0 +1,11 @@
+{
+    "uid": "1095-E",
+    "url": "https://codeforces.com/contest/1095/problem/E",
+    "tags": [
+        "implementation"
+    ],
+    "title": "1095-E",
+    "statement": "E. Almost Regular Bracket Sequencetime limit per test3 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given a bracket sequence $$$s$$$ consisting of $$$n$$$ opening '(' and closing ')' brackets.Aregularbracket sequence is a bracket sequence that can be transformed into a correct arithmetic expression by inserting characters '1' and '+' between the original characters of the sequence. For example, bracket sequences \"()()\", \"(())\" are regular (the resulting expressions are: \"(1)+(1)\", \"((1+1)+1)\"), and \")(\" and \"(\" are not.You can change the type of some bracket $$$s_i$$$. It means that if $$$s_i = $$$ ')' then you can change it to '(' and vice versa.Your task is to calculate the number of positions $$$i$$$ such that if you change the type of the $$$i$$$-th bracket, then the resulting bracket sequence becomesregular.InputThe first line of the input contains one integer $$$n$$$ ($$$1 \\\\le n \\\\le 10^6$$$) — the length of the bracket sequence.The second line of the input contains the string $$$s$$$ consisting of $$$n$$$ opening '(' and closing ')' brackets.OutputPrint one integer — the number of positions $$$i$$$ such that if you change the type of the $$$i$$$-th bracket, then the resulting bracket sequence becomesregular.ExamplesInput6 (((())Output3Input6 ()()()Output0Input1 )Output0Input8 )))(((((Output0",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,15 @@
+{
+    "uid": "314-D",
+    "url": "https://codeforces.com/contest/314/problem/D",
+    "tags": [
+        "binary search",
+        " data structures",
+        " geometry",
+        " sortings",
+        " two pointers"
+    ],
+    "title": "314-D",
+    "statement": "D. Sereja and Straight Linestime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutSereja placednpoints on a plane. Now Sereja wants to place on the plane two straight lines, intersecting at a right angle, so that one of the straight lines intersect theOxaxis at an angle of45degrees and the maximum distance from the points to the straight lines were minimum.In this problem we consider the distance between points(x1,y1)and(x2,y2)equal|x1-x2| + |y1-y2|. The distance between the point and the straight lines is the minimum distance from the point to some point belonging to one of the lines.Help Sereja, find the maximum distance from the points to the optimally located straight lines.InputThe first line contains integern(1 ≤n≤ 105). Nextnlines contain the coordinates of the lines. Thei-th line contains two integersxi,yi(|xi|, |yi| ≤ 109).OutputIn a single line print a real number — the answer to the problem. Your answer will be considered correct iff its absolute or relative error doesn't exceed10- 6.ExamplesInput40 02 00 22 2Output0.000000000000000Input41 00 12 11 2Output1.000000000000000",
+    "source": "CF",
+    "vjudge": false
+}

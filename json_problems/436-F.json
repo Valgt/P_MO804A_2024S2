@@ -1,0 +1,13 @@
+{
+    "uid": "436-F",
+    "url": "https://codeforces.com/contest/436/problem/F",
+    "tags": [
+        "brute force",
+        " data structures",
+        " dp"
+    ],
+    "title": "436-F",
+    "statement": "F. Bannerstime limit per test5 secondsmemory limit per test512 megabytesinputstdinoutputstdoutAll modern mobile applications are divided into free and paid. Even a single application developers often release two versions: a paid version without ads and a free version with ads.Suppose that a paid version of the app costsp(pis an integer) rubles, and the free version of the application containscad banners. Each user can be described by two integers:ai— the number of rubles this user is willing to pay for the paid version of the application, andbi— the number of banners he is willing to tolerate in the free version.The behavior of each member shall be considered strictly deterministic:if for useri, valuebiis at leastc, then he uses the free version,otherwise, if valueaiis at leastp, then he buys the paid version without advertising,otherwise the user simply does not use the application.Each user of the free version brings the profit ofc×wrubles. Each user of the paid version brings the profit ofprubles.Your task is to help the application developers to select the optimal parameterspandc. Namely, knowing all the characteristics of users, for each value ofcfrom0to(maxbi) + 1you need to determine the maximum profit from the application and the corresponding parameterp.InputThe first line contains two integersnandw(1 ≤n≤ 105; 1 ≤w≤ 105)— the number of users and the profit from a single banner. Each of the nextnlines contains two integersaiandbi(0 ≤ai,bi≤ 105)— the characteristics of thei-th user.OutputPrint(maxbi) + 2lines, in thei-th line print two integers:pay— the maximum gained profit atc=i- 1,p(0 ≤p≤ 109)— the corresponding optimal app cost. If there are multiple optimal solutions, print any of them.ExamplesInput2 12 00 2Output0 33 24 22 2Input3 13 12 21 3Output0 43 47 37 24 2",
+    "source": "CF",
+    "vjudge": false
+}

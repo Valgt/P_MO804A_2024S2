@@ -1,0 +1,13 @@
+{
+    "uid": "314-B",
+    "url": "https://codeforces.com/contest/314/problem/B",
+    "tags": [
+        "binary search",
+        " dfs and similar",
+        " strings"
+    ],
+    "title": "314-B",
+    "statement": "B. Sereja and Periodstime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutLet's introduce the designation, wherexis a string,nis a positive integer and operation \"+\" is the string concatenation operation. For example,[abc, 2] =abcabc.We'll say that stringscan be obtainedfrom stringt, if we can remove some characters from stringtand obtain strings. For example, stringsabandaсbacan be obtained from stringxacbac, and stringsbxandaaacannot be obtained from it.Sereja has two strings,w= [a,b]andq= [c,d]. He wants to find such maximum integerp(p> 0), that[q,p]can be obtained from stringw.InputThe first line contains two integersb,d(1 ≤b,d≤ 107). The second line contains stringa. The third line contains stringc. The given strings are not empty and consist of lowercase English letters. Their lengths do not exceed100.OutputIn a single line print an integer — the largest numberp. If the required value ofpdoesn't exist, print 0.ExamplesInput10 3ababbabOutput3",
+    "source": "CF",
+    "vjudge": false
+}

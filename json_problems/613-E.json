@@ -1,0 +1,13 @@
+{
+    "uid": "613-E",
+    "url": "https://codeforces.com/contest/613/problem/E",
+    "tags": [
+        "dp",
+        " hashing",
+        " strings"
+    ],
+    "title": "613-E",
+    "statement": "E. Puzzle Lovertime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputOleg Petrov loves crossword puzzles and every Thursday he buys his favorite magazine with crosswords and other word puzzles. In the last magazine Oleg found a curious puzzle, and the magazine promised a valuable prize for it's solution. We give a formal description of the problem below.The puzzle field consists of two rows, each row containsncells. Each cell contains exactly one small English letter. You also are given a wordw, which consists ofksmall English letters. Asolutionof the puzzle is a sequence of field cellsc1,...,ck, such that:For allifrom1tokthe letter written in the cellcimatches the letterwi;All the cells in the sequence are pairwise distinct;For allifrom1tok- 1cellsciandci+ 1have a common side.Oleg Petrov quickly found a solution for the puzzle. Now he wonders, how many distinct solutions are there for this puzzle. Oleg Petrov doesn't like too large numbers, so calculate the answer modulo109+ 7.Two solutionsciandc'iare considered distinct if the sequences of cells do not match in at least one position, that is there is suchjin range from1tok, such thatcj≠c'j.InputThe first two lines contain the state of the field for the puzzle. Each of these non-empty lines contains exactlynsmall English letters.The next line is left empty.The next line is non-empty and contains wordw, consisting of small English letters.The length of each line doesn't exceed2 000.OutputPrint a single integer — the number of distinct solutions for the puzzle modulo109+ 7.ExamplesInputcodeedoccodeOutput4InputaaaaaaaaOutput14",
+    "source": "CF",
+    "vjudge": false
+}

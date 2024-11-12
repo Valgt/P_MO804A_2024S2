@@ -1,0 +1,14 @@
+{
+    "uid": "762-C",
+    "url": "https://codeforces.com/contest/762/problem/C",
+    "tags": [
+        "binary search",
+        " hashing",
+        " strings",
+        " two pointers"
+    ],
+    "title": "762-C",
+    "statement": "C. Two stringstime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given two stringsaandb. You have to remove the minimum possible number ofconsecutive(standing one after another) characters from stringbin such a way that it becomes a subsequence of stringa. It can happen that you will not need to remove any characters at all, or maybe you will have to remove all of the characters fromband make it empty.Subsequence of stringsis any such string that can be obtained by erasing zero or more characters (not necessarily consecutive) from strings.InputThe first line contains stringa, and the second line — stringb. Both of these strings are nonempty and consist of lowercase letters of English alphabet. The length of each string is no bigger than105characters.OutputOn the first line output a subsequence of stringa, obtained frombby erasing the minimum number of consecutive characters.If the answer consists of zero characters, output «-» (a minus sign).ExamplesInputhibobOutput-InputabcaacceptedOutputacInputabacabaabcdcbaOutputabcbaNoteIn the first example stringsaandbdon't share any symbols, so the longest string that you can get is empty.In the second exampleacis a subsequence ofa, and at the same time you can obtain it by erasing consecutive symbolsceptedfrom stringb.",
+    "source": "CF",
+    "vjudge": false
+}

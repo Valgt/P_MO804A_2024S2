@@ -1,0 +1,12 @@
+{
+    "uid": "622-C",
+    "url": "https://codeforces.com/contest/622/problem/C",
+    "tags": [
+        "data structures",
+        " implementation"
+    ],
+    "title": "622-C",
+    "statement": "C. Not Equal on a Segmenttime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given arrayawithnintegers andmqueries. Thei-th query is given with three integersli,ri,xi.For thei-th query find any positionpi(li≤pi≤ri) so thatapi≠xi.InputThe first line contains two integersn,m(1 ≤n,m≤ 2·105) — the number of elements inaand the number of queries.The second line containsnintegersai(1 ≤ai≤ 106) — the elements of the arraya.Each of the nextmlines contains three integersli,ri,xi(1 ≤li≤ri≤n, 1 ≤xi≤ 106) — the parameters of thei-th query.OutputPrintmlines. On thei-th line print integerpi— the position of any number not equal toxiin segment[li,ri]or the value- 1if there is no such number.ExamplesInput6 41 2 1 1 3 51 4 12 6 23 4 13 4 2Output26-14",
+    "source": "CF",
+    "vjudge": false
+}

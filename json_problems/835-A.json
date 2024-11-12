@@ -1,0 +1,11 @@
+{
+    "uid": "835-A",
+    "url": "https://codeforces.com/contest/835/problem/A",
+    "tags": [
+        "math"
+    ],
+    "title": "835-A",
+    "statement": "A. Key racestime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputTwo boys decided to compete in text typing on the site \"Key races\". During the competition, they have to type a text consisting ofscharacters. The first participant types one character inv1milliseconds and has pingt1milliseconds. The second participant types one character inv2milliseconds and has pingt2milliseconds.If connection ping (delay) istmilliseconds, the competition passes for a participant as follows:Exactly aftertmilliseconds after the start of the competition the participant receives the text to be entered.Right after that he starts to type it.Exactlytmilliseconds after he ends typing all the text, the site receives information about it.The winner is the participant whose information on the success comes earlier. If the information comes from both participants at the same time, it is considered that there is a draw.Given the length of the text and the information about participants, determine the result of the game.InputThe first line contains five integerss,v1,v2,t1,t2(1 ≤s,v1,v2,t1,t2≤ 1000) — the number of characters in the text, the time of typing one character for the first participant, the time of typing one character for the the second participant, the ping of the first participant and the ping of the second participant.OutputIf the first participant wins, print \"First\". If the second participant wins, print \"Second\". In case of a draw print \"Friendship\".ExamplesInput5 1 2 1 2OutputFirstInput3 3 1 1 1OutputSecondInput4 5 3 1 5OutputFriendshipNoteIn the first example, information on the success of the first participant comes in7milliseconds, of the second participant — in14milliseconds. So, the first wins.In the second example, information on the success of the first participant comes in11milliseconds, of the second participant — in5milliseconds. So, the second wins.In the third example, information on the success of the first participant comes in22milliseconds, of the second participant — in22milliseconds. So, it is be a draw.",
+    "source": "CF",
+    "vjudge": false
+}

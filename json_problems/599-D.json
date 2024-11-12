@@ -1,0 +1,12 @@
+{
+    "uid": "599-D",
+    "url": "https://codeforces.com/contest/599/problem/D",
+    "tags": [
+        "brute force",
+        " math"
+    ],
+    "title": "599-D",
+    "statement": "D. Spongebob and Squarestime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputSpongebob is already tired trying to reason his weird actions and calculations, so he simply asked you to find all pairs of n and m, such that there are exactlyxdistinct squares in the table consisting ofnrows andmcolumns. For example, in a3 × 5table there are15squares with side one,8squares with side two and3squares with side three. The total number of distinct squares in a3 × 5table is15 + 8 + 3 = 26.InputThe first line of the input contains a single integerx(1 ≤x≤ 1018) — the number of squares inside the tables Spongebob is interested in.OutputFirst print a single integerk— the number of tables with exactlyxdistinct squares inside.Then printkpairs of integers describing the tables. Print the pairs in the order of increasingn, and in case of equality — in the order of increasingm.ExamplesInput26Output61 262 93 55 39 226 1Input2Output21 22 1Input8Output41 82 33 28 1NoteIn a1 × 2table there are21 × 1squares. So,2distinct squares in total.In a2 × 3table there are61 × 1squares and22 × 2squares. That is equal to8squares in total.",
+    "source": "CF",
+    "vjudge": false
+}

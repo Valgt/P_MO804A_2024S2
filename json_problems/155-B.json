@@ -1,0 +1,12 @@
+{
+    "uid": "155-B",
+    "url": "https://codeforces.com/contest/155/problem/B",
+    "tags": [
+        "greedy",
+        " sortings"
+    ],
+    "title": "155-B",
+    "statement": "B. Combinationtime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutIlya plays a card game by the following rules.A player has several cards. Each card contains two non-negative integers inscribed, one at the top of the card and one at the bottom. At the beginning of the round the player chooses one of his cards to play it. If the top of the card contains numberai, and the bottom contains numberbi, then when the player is playing the card, he getsaipoints and also gets the opportunity to play additionalbicards. After the playing the card is discarded.More formally: let's say that there is a counter of the cards that can be played. At the beginning of the round the counter equals one. When a card is played, the counter decreases by one for the played card and increases by the numberbi, which is written at the bottom of the card. Then the played card is discarded. If after that the counter is not equal to zero, the player gets the opportunity to play another card from the remaining cards. The round ends when the counter reaches zero or the player runs out of cards.Of course, Ilya wants to get as many points as possible. Can you determine the maximum number of points he can score provided that you know his cards?InputThe first line contains a single integern(1 ≤n≤ 1000) — the number of cards Ilya has.Each of the nextnlines contains two non-negative space-separated integers —aiandbi(0 ≤ai,bi≤ 104) — the numbers, written at the top and the bottom of thei-th card correspondingly.OutputPrint the single number — the maximum number of points you can score in one round by the described rules.ExamplesInput21 02 0Output2Input31 02 00 2Output3NoteIn the first sample none of two cards brings extra moves, so you should play the one that will bring more points.In the second sample you should first play the third card that doesn't bring any points but lets you play both remaining cards.",
+    "source": "CF",
+    "vjudge": false
+}

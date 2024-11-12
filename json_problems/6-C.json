@@ -1,0 +1,12 @@
+{
+    "uid": "6-C",
+    "url": "https://codeforces.com/contest/6/problem/C",
+    "tags": [
+        "greedy",
+        " two pointers"
+    ],
+    "title": "6-C",
+    "statement": "C. Alice, Bob and Chocolatetime limit per test2 secondsmemory limit per test64 megabytesinputstdinoutputstdoutAlice and Bob like games. And now they are ready to start a new game. They have placednchocolate bars in a line. Alice starts to eat chocolate bars one by one from left to right, and Bob — from right to left. For each chocololate bar the time, needed for the player to consume it, is known (Alice and Bob eat them with equal speed). When the player consumes a chocolate bar, he immediately starts with another. It is not allowed to eat two chocolate bars at the same time, to leave the bar unfinished and to make pauses. If both players start to eat the same bar simultaneously, Bob leaves it to Alice as a true gentleman.How many bars each of the players will consume?InputThe first line contains one integern(1 ≤n≤ 105) — the amount of bars on the table. The second line contains a sequencet1,t2, ...,tn(1 ≤ti≤ 1000), wheretiis the time (in seconds) needed to consume thei-th bar (in the order from left to right).OutputPrint two numbersaandb, whereais the amount of bars consumed by Alice, andbis the amount of bars consumed by Bob.ExamplesInput52 9 8 2 7Output2 3",
+    "source": "CF",
+    "vjudge": false
+}

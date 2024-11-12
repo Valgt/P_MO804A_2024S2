@@ -1,0 +1,11 @@
+{
+    "uid": "1874-F",
+    "url": "https://codeforces.com/contest/1874/problem/F",
+    "tags": [
+        "dp"
+    ],
+    "title": "1874-F",
+    "statement": "F. Jellyfish and OEIStime limit per test2 secondsmemory limit per test512 megabytesinputstandard inputoutputstandard outputJellyfish always uses OEIS to solve math problems, but now she finds a problem that cannot be solved by OEIS:Count the number of permutations $$$p$$$ of $$$[1, 2, \\\\dots, n]$$$ such that for all $$$(l, r)$$$ such that $$$l \\\\leq r \\\\leq m_l$$$, the subarray $$$[p_l, p_{l+1}, \\\\dots, p_r]$$$ is not a permutation of $$$[l, l+1, \\\\dots, r]$$$.Since the answer may be large, you only need to find the answer modulo $$$10^9+7$$$.InputThe first line of the input contains a single integer $$$n$$$ ($$$1 \\\\leq n \\\\leq 200$$$) — the length of the permutation.The second line of the input contains $$$n$$$ integers $$$m_1, m_2, \\\\dots, m_n$$$ ($$$0 \\\\leq m_i \\\\leq n$$$).OutputOutput the number of different permutations that satisfy the conditions, modulo $$$10^9+7$$$.ExamplesInput3 1 2 3Output2Input5 2 4 3 4 5Output38Input5 5 1 1 1 1Output0NoteIn the first example, $$$[2, 3, 1]$$$ and $$$[3, 1, 2]$$$ satisfies the condition.",
+    "source": "CF",
+    "vjudge": false
+}

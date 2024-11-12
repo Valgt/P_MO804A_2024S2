@@ -1,0 +1,13 @@
+{
+    "uid": "381-B",
+    "url": "https://codeforces.com/contest/381/problem/B",
+    "tags": [
+        "greedy",
+        " implementation",
+        " sortings"
+    ],
+    "title": "381-B",
+    "statement": "B. Sereja and Stairstime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutSereja loves integer sequences very much. He especially likes stairs.Sequencea1,a2, ...,a|a|(|a|is the length of the sequence) is stairs if there is such indexi(1 ≤i≤ |a|), that the following condition is met:a1<a2< ... <ai- 1<ai>ai+ 1> ... >a|a| - 1>a|a|.For example, sequences [1, 2, 3, 2] and [4, 2] are stairs and sequence [3, 1, 2] isn't.Sereja hasmcards with numbers. He wants to put some cards on the table in a row to get a stair sequence. What maximum number of cards can he put on the table?InputThe first line contains integerm(1 ≤m≤ 105)— the number of Sereja's cards. The second line containsmintegersbi(1 ≤bi≤ 5000)— the numbers on the Sereja's cards.OutputIn the first line print the number of cards you can put on the table. In the second line print the resulting stairs.ExamplesInput51 2 3 4 5Output55 4 3 2 1Input61 1 2 2 3 3Output51 2 3 2 1",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,11 @@
+{
+    "uid": "530-C",
+    "url": "https://codeforces.com/contest/530/problem/C",
+    "tags": [
+        "*special"
+    ],
+    "title": "530-C",
+    "statement": "C. Diophantine equationtime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given an equationA*X+B*Y=C,A,B,Care positive integer coefficients,XandYare variables which can have positive integer values only. Output the number of solutions of this equation and the solutions themselves.InputThe only line of input contains integersA,BandC(1 ≤A,B,C≤ 1000), separated with spaces.OutputIn the first line of the output print the number of the solutionsN. In the nextNlines print the solutions, formatted as \"XY\", sorted in ascending order ofX, one solution per line.ExamplesInput3 5 35Output25 410 1Input3 35 5Output0",
+    "source": "CF",
+    "vjudge": false
+}

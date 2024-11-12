@@ -1,0 +1,13 @@
+{
+    "uid": "347-A",
+    "url": "https://codeforces.com/contest/347/problem/A",
+    "tags": [
+        "constructive algorithms",
+        " implementation",
+        " sortings"
+    ],
+    "title": "347-A",
+    "statement": "A. Difference Rowtime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutYou want to arrangenintegersa1,a2, ...,anin some order in a row. Let's define the value of an arrangement as the sum of differences between all pairs of adjacent integers.More formally, let's denote some arrangement as a sequence of integersx1,x2, ...,xn, where sequencexis a permutation of sequencea. The value of such an arrangement is(x1-x2) + (x2-x3) + ... + (xn- 1-xn).Find the largest possible value of an arrangement. Then, output the lexicographically smallest sequencexthat corresponds to an arrangement of the largest possible value.InputThe first line of the input contains integern(2 ≤n≤ 100). The second line containsnspace-separated integersa1,a2,...,an(|ai| ≤ 1000).OutputPrint the required sequencex1,x2, ...,xn. Sequencexshould be the lexicographically smallest permutation ofathat corresponds to an arrangement of the largest possible value.ExamplesInput5100 -100 50 0 -50Output100 -50 0 50 -100NoteIn the sample test case, the value of the output arrangement is(100 - ( - 50)) + (( - 50) - 0) + (0 - 50) + (50 - ( - 100)) = 200. No other arrangement has a larger value, and among all arrangements with the value of200, the output arrangement is the lexicographically smallest one.Sequencex1,x2, ... ,xpislexicographically smallerthan sequencey1,y2, ... ,ypif there exists an integerr(0 ≤r<p)such thatx1=y1,x2=y2, ... ,xr=yrandxr+ 1<yr+ 1.",
+    "source": "CF",
+    "vjudge": false
+}

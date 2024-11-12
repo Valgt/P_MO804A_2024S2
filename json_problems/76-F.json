@@ -1,0 +1,13 @@
+{
+    "uid": "76-F",
+    "url": "https://codeforces.com/contest/76/problem/F",
+    "tags": [
+        "binary search",
+        " data structures",
+        " dp"
+    ],
+    "title": "76-F",
+    "statement": "F. Touristtime limit per test0.5 secondmemory limit per test256 megabytesinputstdinoutputstdoutTourist walks along theXaxis. He can choose either of two directions and any speed not exceedingV. He can also stand without moving anywhere. He knows from newspapers that at timet1in the point with coordinatex1an interesting event will occur, at timet2in the point with coordinatex2— another one, and so on up to (xn,tn). Interesting events are short so we can assume they are immediate. Eventicounts visited if at timetitourist was at point with coordinatexi.Write program tourist that will find maximum number of events tourist if:at the beginning (when time is equal to 0) tourist appears at point 0,tourist can choose initial point for himself.Yes, you should answer on two similar but different questions.InputThe first line of input contains single integer numberN(1 ≤N≤ 100000) — number of interesting events. The followingNlines contain two integersxiandti— coordinate and time of thei-th event. The last line of the input contains integerV— maximum speed of the tourist. Allxiwill be within range- 2·108≤xi≤ 2·108, alltiwill be between1and2·106inclusive.Vwill be positive and will not exceed 1000. The input may contain events that happen at the same time or in the same place but not in the same place at the same time.OutputThe only line of the output should contain two space-sepatated integers — maximum number of events tourist can visit in he starts moving from point 0 at time 0, and maximum number of events tourist can visit if he chooses the initial point for himself.ExamplesInput3-1 142 740 82Output1 2",
+    "source": "CF",
+    "vjudge": false
+}

@@ -1,0 +1,12 @@
+{
+    "uid": "1952-C",
+    "url": "https://codeforces.com/contest/1952/problem/C",
+    "tags": [
+        "brute force",
+        " schedules"
+    ],
+    "title": "1952-C",
+    "statement": "C. They Have Fooledtime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputInputThe first line contains one integer $$$n$$$ ($$$0 \\\\leq n \\\\leq 12$$$).OutputOne integer — the answer.ExamplesInput0Output10Input1Output10Input5Output7Input9Output0",
+    "source": "CF",
+    "vjudge": false
+}

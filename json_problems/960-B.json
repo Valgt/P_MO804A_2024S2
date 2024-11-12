@@ -1,0 +1,13 @@
+{
+    "uid": "960-B",
+    "url": "https://codeforces.com/contest/960/problem/B",
+    "tags": [
+        "data structures",
+        " greedy",
+        " sortings"
+    ],
+    "title": "960-B",
+    "statement": "B. Minimize the errortime limit per test1 secondmemory limit per test256 megabytesinputstandard inputoutputstandard outputYou are given two arraysAandB, each of sizen. The error,E, between these two arrays is defined. You have to performexactlyk1operations on arrayAandexactlyk2operations on arrayB. In one operation, you have to choose one element of the array and increase or decrease it by1.Output the minimum possible value of error afterk1operations on arrayAandk2operations on arrayBhave been performed.InputThe first line contains three space-separated integersn(1 ≤n≤ 103),k1andk2(0 ≤k1+k2≤ 103,k1andk2are non-negative) — size of arrays and number of operations to perform onAandBrespectively.Second line containsnspace separated integersa1,a2, ...,an(- 106≤ai≤ 106) — arrayA.Third line containsnspace separated integersb1,b2, ...,bn(- 106≤bi≤ 106)— arrayB.OutputOutput a single integer — the minimum possible value ofafter doing exactlyk1operations on arrayAand exactlyk2operations on arrayB.ExamplesInput2 0 01 22 3Output2Input2 1 01 22 2Output0Input2 5 73 414 4Output1NoteIn the first sample case, we cannot perform any operations onAorB. Therefore the minimum possible errorE= (1 - 2)2+ (2 - 3)2= 2.In the second sample case, we are required to perform exactly one operation onA. In order to minimize error, we increment the first element ofAby1. Now,A= [2, 2]. The error is nowE= (2 - 2)2+ (2 - 2)2= 0. This is the minimum possible error obtainable.In the third sample case, we can increase the first element ofAto8, using the all of the5moves available to us. Also, the first element ofBcan be reduced to8using the6of the7available moves. NowA= [8, 4]andB= [8, 4]. The error is nowE= (8 - 8)2+ (4 - 4)2= 0, but we are still left with1move for arrayB. Increasing the second element ofBto5using the left move, we getB= [8, 5]andE= (8 - 8)2+ (4 - 5)2= 1.",
+    "source": "CF",
+    "vjudge": false
+}

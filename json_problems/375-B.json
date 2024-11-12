@@ -1,0 +1,14 @@
+{
+    "uid": "375-B",
+    "url": "https://codeforces.com/contest/375/problem/B",
+    "tags": [
+        "data structures",
+        " dp",
+        " implementation",
+        " sortings"
+    ],
+    "title": "375-B",
+    "statement": "B. Maximum Submatrix 2time limit per test2 secondsmemory limit per test512 megabytesinputstdinoutputstdoutYou are given a matrix consisting of digits zero and one, its size isn×m. You are allowed to rearrange its rows. What is the maximum area of the submatrix that only consists of ones and can be obtained in the given problem by the described operations?Let's assume that the rows of matrixaare numbered from 1 tonfrom top to bottom and the columns are numbered from 1 tomfrom left to right. A matrix cell on the intersection of thei-th row and thej-th column can be represented as(i,j). Formally, a submatrix of matrixais a group of four integersd,u,l,r(1 ≤d≤u≤n; 1 ≤l≤r≤m). We will assume that the submatrix contains cells(i,j)(d≤i≤u;l≤j≤r). The area of the submatrix is the number of cells it contains.InputThe first line contains two integersnandm(1 ≤n,m≤ 5000). Nextnlines containmcharacters each — matrixa. Matrixaonly contains characters: \"0\" and \"1\". Note that the elements of the matrix follow without any spaces in the lines.OutputPrint a single integer — the area of the maximum obtained submatrix. If we cannot obtain a matrix of numbers one, print 0.ExamplesInput1 11Output1Input2 21011Output2Input4 3100011000101Output2",
+    "source": "CF",
+    "vjudge": false
+}

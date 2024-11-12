@@ -1,0 +1,12 @@
+{
+    "uid": "491-B",
+    "url": "https://codeforces.com/contest/491/problem/B",
+    "tags": [
+        "greedy",
+        " math"
+    ],
+    "title": "491-B",
+    "statement": "B. New York Hoteltime limit per test2 secondsmemory limit per test256 megabytesinputstdinoutputstdoutThink of New York as a rectangular grid consisting ofNvertical avenues numerated from1toNandMhorizontal streets numerated1toM.Cfriends are staying atChotels located at some street-avenue crossings. They are going to celebrate birthday of one of them in the one ofHrestaurants also located at some street-avenue crossings. They also want that the maximum distance covered by one of them while traveling to the restaurant to be minimum possible. Help friends choose optimal restaurant for a celebration.Suppose that the distance between neighboring crossings are all the same equal to one kilometer.InputThe first line contains two integersNиM— size of the city (1 ≤N,M≤ 109). In the next line there is a single integerC(1 ≤C≤ 105) — the number of hotels friends stayed at. FollowingClines contain descriptions of hotels, each consisting of two coordinatesxandy(1 ≤x≤N,1 ≤y≤M). The next line contains an integerH— the number of restaurants (1 ≤H≤ 105). FollowingHlines contain descriptions of restaurants in the same format.Several restaurants and hotels may be located near the same crossing.OutputIn the first line output the optimal distance. In the next line output index of a restaurant that produces this optimal distance. If there are several possibilities, you are allowed to output any of them.ExamplesInput10 1021 13 321 104 4Output62",
+    "source": "CF",
+    "vjudge": false
+}

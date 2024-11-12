@@ -1,0 +1,14 @@
+{
+    "uid": "134-B",
+    "url": "https://codeforces.com/contest/134/problem/B",
+    "tags": [
+        "brute force",
+        " dfs and similar",
+        " math",
+        " number theory"
+    ],
+    "title": "134-B",
+    "statement": "B. Pairs of Numberstime limit per test1 secondmemory limit per test256 megabytesinputstdinoutputstdoutLet's assume that we have a pair of numbers (a,b). We can get a new pair (a+b,b) or (a,a+b) from the given pair in a single step.Let the initial pair of numbers be (1,1). Your task is to find numberk, that is, the least number of steps needed to transform (1,1) into the pair where at least one number equalsn.InputThe input contains the only integern(1 ≤n≤ 106).OutputPrint the only integerk.ExamplesInput5Output3Input1Output0NoteThe pair (1,1) can be transformed into a pair containing 5 in three moves: (1,1)→(1,2)→(3,2)→(5,2).",
+    "source": "CF",
+    "vjudge": false
+}

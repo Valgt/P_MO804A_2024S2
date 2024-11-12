@@ -1,0 +1,12 @@
+{
+    "uid": "949-B",
+    "url": "https://codeforces.com/contest/949/problem/B",
+    "tags": [
+        "constructive algorithms",
+        " math"
+    ],
+    "title": "949-B",
+    "statement": "B. A Leapfrog in the Arraytime limit per test2 secondsmemory limit per test512 megabytesinputstandard inputoutputstandard outputDima is a beginner programmer. During his working process, he regularly has to repeat the following operation again and again: to remove every second element from the array. One day he has been bored with easy solutions of this problem, and he has come up with the following extravagant algorithm.Let's consider that initially array containsnnumbers from1tonand the numberiis located in the cell with the index2i- 1(Indices are numbered starting from one) and other cells of the array are empty. Each step Dima selects a non-empty array cell with the maximum index and moves the number written in it to the nearest empty cell to the left of the selected one. The process continues until allnnumbers will appear in the firstncells of the array. For example ifn= 4, the array is changing as follows:You have to write a program that allows you to determine what number will be in the cell with indexx(1 ≤x≤n) after Dima's algorithm finishes.InputThe first line contains two integersnandq(1 ≤n≤ 1018,1 ≤q≤ 200 000), the number of elements in the array and the number of queries for which it is needed to find the answer.Nextqlines contain integersxi(1 ≤xi≤n), the indices of cells for which it is necessary to output their content after Dima's algorithm finishes.OutputFor each ofqqueries output one integer number, the value that will appear in the corresponding array cell after Dima's algorithm finishes.ExamplesInput4 3234Output324Input13 410548Output13389NoteThe first example is shown in the picture.In the second example the final array is[1, 12, 2, 8, 3, 11, 4, 9, 5, 13, 6, 10, 7].",
+    "source": "CF",
+    "vjudge": false
+}

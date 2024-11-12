@@ -1,0 +1,14 @@
+{
+    "uid": "818-E",
+    "url": "https://codeforces.com/contest/818/problem/E",
+    "tags": [
+        "binary search",
+        " data structures",
+        " number theory",
+        " two pointers"
+    ],
+    "title": "818-E",
+    "statement": "E. Card Game Againtime limit per test2 secondsmemory limit per test256 megabytesinputstandard inputoutputstandard outputVova again tries to play some computer card game.The rules of deck creation in this game are simple. Vova is given an existing deck ofncards and a magic numberk. The order of the cards in the deck is fixed. Each card has a number written on it; numberaiis written on thei-th card in the deck.After receiving the deck and the magic number, Vova removesx(possiblyx= 0) cards from the top of the deck,y(possiblyy= 0) cards from the bottom of the deck, and the rest of the deck is his new deck (Vova has to leave at least one card in the deck after removing cards). So Vova's new deck actually contains cardsx+ 1,x+ 2, ...n-y- 1,n-yfrom the original deck.Vova's new deck is consideredvalidiff the product of all numbers written on the cards in his new deck is divisible byk. So Vova received a deck (possibly not avalidone) and a numberk, and now he wonders, how many ways are there to choosexandyso the deck he will get after removingxcards from the top andycards from the bottom isvalid?InputThe first line contains two integersnandk(1 ≤n≤ 100 000,1 ≤k≤ 109).The second line containsnintegersa1,a2, ...,an(1 ≤ai≤ 109) — the numbers written on the cards.OutputPrint the number of ways to choosexandyso the resulting deck isvalid.ExamplesInput3 46 2 8Output4Input3 69 1 14Output1NoteIn the first example the possible values ofxandyare:x= 0,y= 0;x= 1,y= 0;x= 2,y= 0;x= 0,y= 1.",
+    "source": "CF",
+    "vjudge": false
+}
