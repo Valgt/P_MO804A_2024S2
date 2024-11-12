@@ -161,3 +161,7 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 codeforces_community_graph.graphml
+.DS_Store
+*.png
+*.graphml
+/a.out.dSYM

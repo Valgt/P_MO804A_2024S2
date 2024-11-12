@@ -1,10 +1,10 @@
 import pandas as pd
 import networkx as nx
-import igraph as ig
 import matplotlib.pyplot as plt
-import leidenalg
 import random
 from collections import Counter
+import igraph as ig
+import leidenalg as la
 
 # Paso 1: Cargar los datos
 problems_df = pd.read_csv('codeforces_problems.csv')
@@ -33,27 +33,28 @@ for _, row in filtered_similarity.iterrows():
     similarity = row['similarity']
     G_nx.add_edge(id1, id2, weight=similarity)
 
-# Paso 4: Convertir el grafo de NetworkX a igraph y asignar atributos de nombre
-G_ig = ig.Graph(directed=False)
-G_ig.add_vertices(list(G_nx.nodes))
-G_ig.add_edges(list(G_nx.edges))
+# Paso 4: Convertir el grafo NetworkX a un grafo igraph
+G_ig = ig.Graph.TupleList(G_nx.edges(data=True), edge_attrs=['weight'])
 
 # Paso 5: Aplicar el algoritmo de Leiden
-partition = leidenalg.find_partition(G_ig, leidenalg.ModularityVertexPartition)
+partition = la.find_partition(G_ig, la.CPMVertexPartition, resolution_parameter=0.1)
+
+# Crear un diccionario de comunidades para NetworkX
+partition_dict = {G_ig.vs[i]["name"]: community for i, community in enumerate(partition.membership)}
 
 # Contar el tamaño de cada comunidad
-community_counts = Counter(partition.membership)
+community_counts = Counter(partition_dict.values())
 
 # Añadir las comunidades como atributo en el grafo NetworkX
-for vertex, community in enumerate(partition.membership):
-    G_nx.nodes[G_ig.vs[vertex]["name"]]['community'] = community
+for node, community in partition_dict.items():
+    G_nx.nodes[node]['community'] = community
+
+# Guardar el grafo con comunidades en formato GraphML
+nx.write_graphml(G_nx, "codeforces_community_graph_2.graphml")
+print("Grafo guardado como 'codeforces_community_graph_2.graphml'")
 
 # Filtrar los nodos de comunidades con más de 10 miembros
-filtered_nodes = [
-    G_ig.vs[vertex]["name"]
-    for vertex, community in enumerate(partition.membership)
-    if community_counts[community] > 0
-]
+filtered_nodes = [node for node, community in partition_dict.items() if community_counts[community] > 10]
 
 # Crear un subgrafo con solo estos nodos
 G_filtered = G_nx.subgraph(filtered_nodes)
@@ -67,17 +68,16 @@ else:
     G_subgraph = G_filtered
 
 # Asignar colores a las comunidades
-community_colors = {com: plt.cm.tab20(i) for i, com in enumerate(set(partition.membership))}
+unique_communities = set(partition_dict.values())
+community_colors = {com: plt.cm.tab20(i % 20) for i, com in enumerate(unique_communities)}
 node_colors = [community_colors[G_subgraph.nodes[node]['community']] for node in G_subgraph.nodes]
 
 # Dibujar y guardar el grafo
 plt.figure(figsize=(12, 12))
-pos = nx.spring_layout(G_subgraph, seed=42)  # Usa layout de primavera para una mejor visualización
+pos = nx.spring_layout(G_subgraph, seed=42)
 nx.draw_networkx_nodes(G_subgraph, pos, node_size=50, node_color=node_colors)
 nx.draw_networkx_edges(G_subgraph, pos, alpha=0.3, edge_color="gray")
 plt.axis("off")
 plt.title("Grafo de Problemas Codeforces con Comunidades Detectadas (Leiden)")
-plt.savefig("codeforces_communities_graph_filtered.png", format="PNG", dpi=300)
+plt.savefig("codeforces_communities_graph_leiden.png", format="PNG", dpi=300)
 plt.show()
-
-print("Grafo visualizado y guardado como 'codeforces_communities_graph_filtered.png'")

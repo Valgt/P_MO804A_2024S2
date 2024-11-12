@@ -91,4 +91,4 @@ def recommend_problems(username, n=5, m=5, rating_range=[100, 300]):
         print(f"- {problem_id} | Rating: {G_nx.nodes[problem_id]['rating']} | URL: {G_nx.nodes[problem_id]['url']}")
 
 # Ejemplo de uso
-recommend_problems("racsosabe")
+recommend_problems("thunder8971", rating_range=[0, 200])
