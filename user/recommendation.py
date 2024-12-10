@@ -36,7 +36,7 @@ def recommend_problems(username, n=5, m=5, rating_range=[100, 300]):
     solved_problems = get_user_solved_problems(username)
 
     # Cargar el grafo
-    G_nx = nx.read_graphml("codeforces_community_graph.graphml")
+    G_nx = nx.read_graphml("codeforces_community_graph_2.graphml")
 
     # Filtrar problemas dentro del rango de rating deseado
     candidate_problems = [
@@ -91,4 +91,4 @@ def recommend_problems(username, n=5, m=5, rating_range=[100, 300]):
         print(f"- {problem_id} | Rating: {G_nx.nodes[problem_id]['rating']} | URL: {G_nx.nodes[problem_id]['url']}")
 
 # Ejemplo de uso
-recommend_problems("thunder8971", rating_range=[0, 200])
+recommend_problems("rac", rating_range=[100, 300])

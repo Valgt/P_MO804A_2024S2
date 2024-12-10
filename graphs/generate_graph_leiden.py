@@ -54,10 +54,10 @@ nx.write_graphml(G_nx, "codeforces_community_graph_2.graphml")
 print("Grafo guardado como 'codeforces_community_graph_2.graphml'")
 
 # Filtrar los nodos de comunidades con más de 10 miembros
-filtered_nodes = [node for node, community in partition_dict.items() if community_counts[community] > 10]
+#filtered_nodes = [node for node, community in partition_dict.items() if community_counts[community] > 10]
 
 # Crear un subgrafo con solo estos nodos
-G_filtered = G_nx.subgraph(filtered_nodes)
+G_filtered = G_nx#.subgraph(filtered_nodes)
 
 # Elegir una submuestra si el grafo filtrado aún es grande
 sample_size = 2000  # Ajusta según el tamaño del grafo
